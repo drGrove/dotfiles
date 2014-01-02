@@ -1,0 +1,30 @@
+! General urxvt preferences
+urxvt*loginShell:true
+urxvt*transparent:true
+urxvt*shading:60
+urxvt*background:Black
+urxvt*foreground:White
+urxvt*scrollBar:false
+urxvt*scrollBar_right:true
+urxvt*transpscrollbar:true
+urxvt*saveLines:32767
+urxvt*urgentOnBell: True
+urxvt*visualBell: False
+urxvt*skipScroll: True
+
+urxvt*font: xft:terminus:size=12
+
+! :Bind C-0, C-+ and C-= to activate small, medium, and big font size
+URxvt.keysym.C-0: command:\033]710;xft:Terminus:pixelsize=7\007
+URxvt.keysym.C-minus: command:\033]710;xft:Terminus:pixelsize=20\007
+URxvt.keysym.C-equal: command:\033]710;xft:Terminus:pixelsize=50\007
+
+! Make URLS Clickable
+urxvt.perl-ext: default,matcher
+urxvt.urlLauncher: chromium
+urxvt.keysym.C-Delete: perl:matcher
+urxvt.underlineURLs: true
+
+Xft.antialias:           rgba
+Xft.hinting:             true
+Xft.hintstyle:           hintfull
