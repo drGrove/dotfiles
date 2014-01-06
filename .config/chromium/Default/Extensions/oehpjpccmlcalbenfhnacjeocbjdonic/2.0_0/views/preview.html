@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="cache-control" content="no-cache; max-age=0" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title></title>
+  <link rel="stylesheet" href="../css/preview.css"/>
+  <link rel="stylesheet" href="../css/common.css"/>
+  <script src="../javascript/jquery-bundle.js"></script>
+  <script src="../javascript/preview.js"></script>
+</head>
+<body>
+  <div id = "main-container" class = "box">
+    <div id = "mask"></div>
+    <div id = "top-bar" class = "box box-c-c">
+      <div id = "logo" class="logo box box-ac">
+        <img src = "../images/logo.png"/>
+      </div>
+      <div id = "theme-name-header" class="box box-c-c box-flex"></div>
+      <div id="launch-app" class="box box-c-c">
+        <img src = "/images/icons/32.png"/>
+        <div class = "text">&nbsp;</div>
+      </div>
+    </div>
+    <div id = "preview-container" class = "box box-c-c box-flex">
+      <div id = "ltd-mask"></div>
+      <div id="crx-deletion-container">
+        <div id="crx-deletion" class="box box-v box-c-c box-flex">
+          <div class="loading-anim">
+            <div class="img"></div>
+          </div>
+          <div class="msg box box-ac"></div>
+        </div>
+      </div>
+      <div id = "preview-holder" class="box">
+        <div id = "preview">
+          <img class = "img"/>
+          <div id = "download-container" class="box box-c-c">
+            <div id = "download-zip" class= "box box-c-c">
+              <div class = "text">&nbsp;</div>
+              <div id="help-link">?
+                <div id = "tooltip-holder">
+                 <div id = "help" class = "tooltip">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id = "actions" class = "box">
+          <h3 id = "theme-name"></h3>
+          <div id = theme-desc></div>
+           <hr class="line"/>
+          <div id = "install-theme" class = "box box-c-c">
+            <div id = "install" class = "button blue">
+              <img src="/images/install_white.png" width="23" height="19"/>
+              <div class="text"></div>
+            </div>
+          </div>
+          <hr class="line"/>
+          <!-- <div id = "theme-zip" class = "box box-c-c">
+            <div id = "download-zip" class = "button blue"></div>
+          </div>
+          <hr class="line"/> -->
+          <div id = "share-theme" class="box box-pc box-flex" data-state = "unshared">
+            <div id = "share" class = "button">
+              <img src="/images/share_gray.png"/>
+              <div class="text"></div>
+            </div>
+            <div id = "loading-container">
+              <div class="text"></div>
+              <div class="image"><img src="../images/spinner.gif"/></div>
+            </div>
+            <div class="error-container">
+              <div class="text"></div>
+            </div>
+            <div id = "progress-container">
+              <div class="text"></div>
+              <div id = "progress-bar">
+                <div class="box box-ac"></div>
+              </div>
+            </div>
+            <div id = "shared-info-container">
+              <div id="theme-url">
+                <div class = "text"></div>
+                <input type="text" readonly value=""/>
+              </div>
+              <div id = "after-share-actions" class="box">
+                <div id="theme-plus-one"></div>
+                <!--
+                <div id = "share-ext-app" class="box button">
+                  <div class="img"></div>
+                </div>
+                -->
+              </div>
+            </div>
+          </div>
+          <div class = "box footer">
+            <div id = "delete" class="plain-btn box" title="">
+              <div class="img"></div>
+              <div class="text"></div>
+            </div>
+            <div id = "unshare" class="plain-btn box box-flex" title="">
+              <div class="img"></div>
+              <div class="text box-flex"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="preview-error" class="box-v">
+        <div id="error-page" class="box-flex">
+            <div id="error-content" class="box box-v box-ac">
+                <div id="oops">
+                    <h1></h1>
+                    <div class="text"></div>
+                </div>
+                <div id="error-image">
+                    <img src="../images/404.png">
+                </div>
+            </div>
+      </div>
+</div>
+    </div>
+    <div id="toggle-stored-themes" class="box box-c-c box-v" data-state="closed">
+      <div class="animation">&nbsp;</div>
+    </div>
+    <div id = "stored-themes-container" class="box box-c-c" data-view="hidden">
+      <div id = "stored-theme-box" class="box">
+        <!-- NEED FEEDBACK FROM OTHERS -->
+        <div class="title" style="visibility:hidden"></div>
+        <div id = "slider-box">
+          <div id="left-theme" class="shift-theme box box-c-c disabled">
+            <div class = "img"></div>
+          </div>
+          <div id="right-theme" class="shift-theme box box-c-c disabled">
+            <div class="img"></div>
+          </div>
+          <div id="boo" class="box box-c-c"></div>
+          <div id="themes-container" class="hidden"></div>
+        </div>
+      </div>
+      <div id = "stored-theme-footer">
+        <a href = "https://chrome.google.com/webstore/category/themes?utm_campaign=en&utm_medium=mychrometheme&utm_source=en-et-na-us-et-mychrometheme" target='_blank'>some text</a>
+      </div>
+    </div>
+
+    <div id = "footer" class="box">
+      <div class ="txt box box-ac box-flex">
+        <span>&copy; Google </span>
+      <a href="http://www.google.com/policies/privacy/" target="_blank"></a>
+      </div>
+      <div id="share-site" class="box box-ac box-flex">
+        <div class="text"></div>
+        <g:plusone size="small" href="https://chrome.google.com/webstore/detail/oehpjpccmlcalbenfhnacjeocbjdonic"></g:plusone>
+      </div>
+    </div>
+    <div id="error-container">
+      <div class="header">
+  <div class="title box-flex"></div>
+        <div class="close">
+          <img src="../images/cross.png">
+        </div>
+      </div>
+      <div class="content box box-v box-c-c">
+        <div class="message"></div>
+        <div class="more"></div>
+      </div>
+    </div><!-- #error-container -->
+    <div id="confirm-container">
+      <div class="header">
+        <div class="title box-flex"></div>
+        <div class="close">
+          <img src="../images/cross.png">
+        </div>
+      </div>
+      <div class="content box box-c-c">
+        <div class="message"></div>
+      </div>
+      <div class="buttons box box-c-c">
+        <div class="ok button blue small"></div>
+        <div class="cancel close button small"></div>
+      </div>
+    </div><!-- #confirm-container -->
+  </div>
+  <!-- #stored theme template -->
+  <div class="stored-theme template">
+    <div class="thumb-container">
+      <img class="thumb" src=""/>
+    </div>
+    <div class = "theme-name"></div>
+  </div>
+</body>
+</html>

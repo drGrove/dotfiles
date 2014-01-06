@@ -1,0 +1,28 @@
+{
+   "api_console_project_id": "549517827371",
+   "app": {
+      "launch": {
+         "web_url": "https://www.smartapp.com/gantterforgoogledrive/start.html"
+      },
+      "urls": [ "https://www.smartapp.com/gantterforgoogledrive/start.html" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "FREE Enterprise web-based project scheduling app that works with Google Drive and also allows you to open and edit MS Project files.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "intents": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://app.gantter.com/index.html?target=drive",
+         "title": "Open",
+         "type": [ "application/vnd.ms-project", "text/gantterproject", "application/vnd.google.drive.ext-type.mpp" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC84WPcdvVGfIEKNgMQME0RcL8bkddEYE8hcn48R9QCODmwUFkWuNFaF+Sj20R1CYsdhtHzMaA94aV2QMFf3SQldpMJafvlJqL1xjlGIa9q4gpVkXSgfYO05/MLYPjrwIv5rgIZaECV9Zz4beYRe+QNunkCCZAkjUC9gLiiNl1k5wIDAQAB",
+   "manifest_version": 2,
+   "name": "Gantter for Google Drive",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.1"
+}

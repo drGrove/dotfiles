@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/functions.js", "js/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon_19.png",
+      "default_title": "Resize Window",
+      "popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "js/jquery.js", "js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src https://docs.google.com 'self' ; object-src 'self'",
+   "description": "Resize browser window to emulate various screen resolutions",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "19": "images/icon_19.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1j9CcNzaUZzSixqKM8P9eoIg0AE0HObsg9E4IsPmOBRKEcplH423/WbJuhYWjskGgPRu5UJiVCBecrr/kzpIqUDC8LPDZTQmz6yLhL0KTZwLE5BbH4mdAi4WaaWhNW+zgk6B2wBQPObGQH9PqGlVcZrevytoAhea+6DFr+DnXnwIDAQAB",
+   "manifest_version": 2,
+   "name": "Window Resizer",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "contextMenus", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.0.2",
+   "web_accessible_resources": [ "images/icon_19.png" ]
+}

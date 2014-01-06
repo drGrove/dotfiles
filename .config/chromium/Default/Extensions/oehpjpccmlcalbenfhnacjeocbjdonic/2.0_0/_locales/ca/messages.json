@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "No aplicable."
+   },
+   "alignment_btn_txt": {
+      "message": "Ajusta la posici\u00F3"
+   },
+   "allow_access_to_webcam": {
+      "message": "Permeteu l'acc\u00E9s a la c\u00E0mera web des de la barra de notificacions."
+   },
+   "back_to_step1_msg": {
+      "message": "Esteu segur que voleu importar una imatge nova? Perdreu els canvis que h\u00E0giu fet en aquesta."
+   },
+   "background": {
+      "message": "Edita el color de fons"
+   },
+   "bottom_align": {
+      "message": "a baix"
+   },
+   "cancel": {
+      "message": "Cancel\u00B7la"
+   },
+   "center_align": {
+      "message": "centre"
+   },
+   "change_img_btn_txt": {
+      "message": "Importa imatge nova"
+   },
+   "continue_anyways": {
+      "message": "Continua igualment"
+   },
+   "continue_to": {
+      "message": "Continua al pas $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Crea un tema propi"
+   },
+   "custom": {
+      "message": "Personalitzat"
+   },
+   "custom_color": {
+      "message": "Color personal."
+   },
+   "default": {
+      "message": "Defineix de manera predet."
+   },
+   "delete": {
+      "message": "Suprimeix"
+   },
+   "delete_theme": {
+      "message": "Suprim. tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Esteu segur que voleu suprimir el tema \"$1\"?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Error en suprimir."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "S'ha produ\u00EFt un error en suprimir. Torneu-ho a provar."
+   },
+   "deleted": {
+      "message": "Suprimit"
+   },
+   "deleting": {
+      "message": "S'est\u00E0 suprimint..."
+   },
+   "deleting_theme": {
+      "message": "S'est\u00E0 suprimint el tema"
+   },
+   "design_mode": {
+      "message": "mode de disseny"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Fet"
+   },
+   "download_theme_zip": {
+      "message": "Baixa el tema com a zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Edita a Picnik"
+   },
+   "error": {
+      "message": "ERROR"
+   },
+   "error_while_publishing": {
+      "message": "S'ha produ\u00EFt un error en generar l'URL. Torneu-ho a provar."
+   },
+   "error_while_unpublishing": {
+      "message": "S'ha produ\u00EFt un error en eliminar l'URL. Torneu-ho a provar."
+   },
+   "ext_description": {
+      "message": "Creeu i compartiu els temes de Google Chrome que dissenyeu."
+   },
+   "ext_name": {
+      "message": "El meu tema de Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Segur que tinc sort"
+   },
+   "fetch_image_error_msg": {
+      "message": "S'ha produ\u00EFt un error amb la imatge editada i estem treballant per solucionar-ho."
+   },
+   "fill_screen": {
+      "message": "Emplenament de la pantalla"
+   },
+   "filter_black_and_white": {
+      "message": "Blanc i negre"
+   },
+   "filter_bolder": {
+      "message": "Viu"
+   },
+   "filter_cooler": {
+      "message": "Fredor"
+   },
+   "filter_inverted": {
+      "message": "Invertit"
+   },
+   "filter_posterized": {
+      "message": "Posteritzat"
+   },
+   "filter_sepia": {
+      "message": "S\u00E8pia"
+   },
+   "filter_title": {
+      "message": "Efectes d'imatge"
+   },
+   "filter_warmer": {
+      "message": "Calidesa"
+   },
+   "fit_screen": {
+      "message": "Ajusta a la pantalla"
+   },
+   "footer_share_site_txt": {
+      "message": "Comparteix:"
+   },
+   "frame": {
+      "message": "Edita el color del marc"
+   },
+   "generate_theme": {
+      "message": "S'est\u00E0 generant el tema"
+   },
+   "goback": {
+      "message": "Enrere"
+   },
+   "hide_themes": {
+      "message": "Amaga els temes"
+   },
+   "image_format_error_msg": {
+      "message": "Sembla que s'ha produ\u00EFt un error amb la vostra imatge. Torneu-ho a provar o b\u00E9 seleccioneu una altra imatge."
+   },
+   "image_size_error_msg": {
+      "message": "Sembla que la imatge \u00E9s massa gran. Torneu-ho a provar amb un fitxer que tingui $1 $2 o menys.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Els tipus de fitxers JPEG, PNG, GIF i BMP s\u00F3n compatibles."
+   },
+   "image_type_error_msg": {
+      "message": "El format de fitxer que proveu de seleccionar no \u00E9s compatible."
+   },
+   "img_fetching": {
+      "message": "S'est\u00E0 obtenint la imatge"
+   },
+   "img_upload_wait": {
+      "message": "Espereu mentre es carrega la imatge"
+   },
+   "informative": {
+      "message": "Informatiu"
+   },
+   "install_box_text": {
+      "message": "Feu clic per instal\u00B7lar aquest tema al navegador de Chrome ara"
+   },
+   "install_btn": {
+      "message": "Instal\u00B7la el meu tema"
+   },
+   "left_align": {
+      "message": "esquerra"
+   },
+   "loading": {
+      "message": "S'est\u00E0 carregant..."
+   },
+   "loading_application": {
+      "message": "S'est\u00E0 carregant l'aplicaci\u00F3..."
+   },
+   "locale": {
+      "message": "ca"
+   },
+   "make_new": {
+      "message": "Fes un tema nou \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Pestanya nova"
+   },
+   "no": {
+      "message": "No"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Sembla que no heu importat cap imatge per al fons del tema. Esteu segur que voleu continuar sense?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Sembla que no heu posat cap nom al tema. Voleu continuar de totes maneres?"
+   },
+   "no_theme_to_view": {
+      "message": "No teniu temes per visualitzar"
+   },
+   "no_webcam_msg": {
+      "message": "No s'ha detectat cap c\u00E0mera web"
+   },
+   "not_available_offline": {
+      "message": "No disponible fora de l\u00EDnia"
+   },
+   "ok": {
+      "message": "D'acord"
+   },
+   "oops_msg": {
+      "message": "Vaja,"
+   },
+   "open_preview_text": {
+      "message": "Previsualitza el tema"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Fes-ho el meu tema!"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Selecci\u00F3 de color"
+   },
+   "picnik_save_btn": {
+      "message": "Desa al meu tema de Chrome"
+   },
+   "please_wait": {
+      "message": "Espereu..."
+   },
+   "preset_color": {
+      "message": "Colors predef."
+   },
+   "preview_error_msg": {
+      "message": "Sembla que el tema que cerqueu ja no est\u00E0 disponible."
+   },
+   "preview_mode": {
+      "message": "mode de visualitzaci\u00F3 pr\u00E8via"
+   },
+   "privacy_policy": {
+      "message": "Pol\u00EDtica de privadesa"
+   },
+   "publish_theme": {
+      "message": "COMPARTEIX EL TEMA"
+   },
+   "publish_theme_text": {
+      "message": "Feu clic per compartir el vostre tema amb altres persones."
+   },
+   "publishing": {
+      "message": "S'est\u00E0 generant l'URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Per publicar el zip a Chrome Web Store, aneu [aqu\u00ED]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Si poseu un nom al tema, fareu que sigui \u00FAnicament vostre. El nom del tema ser\u00E0 visible si decidiu compartir-lo amb altres persones."
+   },
+   "rear_tab_text": {
+      "message": "Pestanya de fons"
+   },
+   "reartab": {
+      "message": "Edita el color de la pestanya de fons"
+   },
+   "retake_picture": {
+      "message": "Repeteix"
+   },
+   "retry": {
+      "message": "Torna a provar"
+   },
+   "right_align": {
+      "message": "dreta"
+   },
+   "share_box_text": {
+      "message": "Copieu aquest URL \u00FAnic per compartir el tema amb altres"
+   },
+   "show_all_themes": {
+      "message": "Mostra tots els temes"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "COMEN\u00C7A A CREAR EL TEMA"
+   },
+   "start_screen_description": {
+      "message": "Afegiu un toc personal al navegador. Creeu i compartiu temes de Google Chrome personalitzats amb les vostres fotos i els vostres dissenys en tres passos senzills."
+   },
+   "start_screen_heading": {
+      "message": "Creeu el vostre propi tema de Chrome"
+   },
+   "step": {
+      "message": "Pas $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importeu la imatge",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Pengeu un fitxer des de l'equip o feu una foto amb la c\u00E0mera web."
+   },
+   "step1_header_msg_text": {
+      "message": "Trieu una imatge per al fons del tema."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Afegiu-hi color",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Tamb\u00E9 podeu afegir colors autom\u00E0ticament [si us sentiu amb sort]"
+   },
+   "step2_header_msg_text": {
+      "message": "Feu clic a una marca fixa per comen\u00E7ar a acolorir el vostre tema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Instal\u00B7leu i compartiu",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Trobareu m\u00E9s temes a Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Feu clic a les miniatures que hi ha a continuaci\u00F3 per instal\u00B7lar, per compartir o per suprimir temes anteriors que s'hagin creat en aquest equip."
+   },
+   "take_picture": {
+      "message": "Fes una foto"
+   },
+   "text": {
+      "message": "Editeu el color del text"
+   },
+   "theme_deleted": {
+      "message": "Tema suprimit"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Afegiu unes quantes paraules m\u00E9s per descriure el vostre tema. Aquesta descripci\u00F3 ser\u00E0 visible si compartiu el tema."
+   },
+   "theme_description_box_title": {
+      "message": "Descriviu el vostre tema"
+   },
+   "theme_description_text": {
+      "message": "Afegeix una descripci\u00F3 opcional"
+   },
+   "theme_does_not_exist": {
+      "message": "Aquest tema no existeix"
+   },
+   "theme_name_placeholder": {
+      "message": "Poseu nom al tema"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Comparteix amb aquest URL \u00FAnic:"
+   },
+   "tile_image": {
+      "message": "Imatge de mosaic"
+   },
+   "toolbar": {
+      "message": "Edita el color de la barra d'eines"
+   },
+   "top_align": {
+      "message": "a dalt"
+   },
+   "try_again": {
+      "message": "Torna a provar"
+   },
+   "unpublish": {
+      "message": "Desf\u00E9s comp."
+   },
+   "unpublishing": {
+      "message": "S'est\u00E0 eliminant l'URL..."
+   },
+   "untitled": {
+      "message": "Sense t\u00EDtol"
+   },
+   "upload_btn_txt": {
+      "message": "Puja una imatge"
+   },
+   "upload_crx_error_msg": {
+      "message": "S'ha produ\u00EFt un problema en provar de crear el tema."
+   },
+   "upload_error_msg": {
+      "message": "Sembla que s'ha produ\u00EFt un problema en penjar la imatge. Proveu de tornar a penjar el fitxer o b\u00E9 torneu i seleccioneu-ne un de diferent."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Pengeu nom\u00E9s imatges per a les quals tingueu drets d'\u00FAs."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Les imatges i els temes s'allotjaran a Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Les imatges i els temes que elimineu se suprimiran de manera permanent."
+   },
+   "uploading": {
+      "message": "S'EST\u00C0 PENJANT"
+   },
+   "url_tooltip": {
+      "message": "Copieu i enganxeu per compartir"
+   },
+   "use_picture": {
+      "message": "Utilitza la imatge"
+   },
+   "warning": {
+      "message": "ADVERTIMENT"
+   },
+   "webcam_btn_txt": {
+      "message": "Fes servir c\u00E0mera web"
+   },
+   "woohoo_text": {
+      "message": "S'ha creat el $2 \"$1\"",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "S\u00ED"
+   }
+}

@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Nelze pou\u017E\u00EDt."
+   },
+   "alignment_btn_txt": {
+      "message": "Upravit pozici"
+   },
+   "allow_access_to_webcam": {
+      "message": "Povolte pros\u00EDm na notifika\u010Dn\u00ED li\u0161t\u011B p\u0159\u00EDstup k va\u0161\u00ED webov\u00E9 kame\u0159e."
+   },
+   "back_to_step1_msg": {
+      "message": "Opravdu chcete importovat nov\u00FD obr\u00E1zek? Ve\u0161ker\u00E9 zm\u011Bny proveden\u00E9 v tomto obr\u00E1zku budou ztraceny."
+   },
+   "background": {
+      "message": "Upravit barvu pozad\u00ED"
+   },
+   "bottom_align": {
+      "message": "dol\u016F"
+   },
+   "cancel": {
+      "message": "Zru\u0161it"
+   },
+   "center_align": {
+      "message": "na st\u0159ed"
+   },
+   "change_img_btn_txt": {
+      "message": "Importovat nov\u00FD obr\u00E1zek"
+   },
+   "continue_anyways": {
+      "message": "P\u0159esto pokra\u010Dovat"
+   },
+   "continue_to": {
+      "message": "Pokra\u010Dovat na krok $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Vytvo\u0159it vlastn\u00ED motiv"
+   },
+   "custom": {
+      "message": "Vlastn\u00ED"
+   },
+   "custom_color": {
+      "message": "Vlastn\u00ED barva"
+   },
+   "default": {
+      "message": "Nastavit v\u00FDchoz\u00ED"
+   },
+   "delete": {
+      "message": "Smazat"
+   },
+   "delete_theme": {
+      "message": "Smazat motiv"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Opravdu chcete motiv $1 smazat?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "P\u0159i maz\u00E1n\u00ED motivu do\u0161lo k chyb\u011B."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "P\u0159i maz\u00E1n\u00ED do\u0161lo k chyb\u011B. Zkuste to pros\u00EDm znovu."
+   },
+   "deleted": {
+      "message": "Smaz\u00E1no"
+   },
+   "deleting": {
+      "message": "Maz\u00E1n\u00ED..."
+   },
+   "deleting_theme": {
+      "message": "Maz\u00E1n\u00ED motivu"
+   },
+   "design_mode": {
+      "message": "re\u017Eim n\u00E1vrhu"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Hotovo"
+   },
+   "download_theme_zip": {
+      "message": "St\u00E1hnout motiv ve form\u00E1tu ZIP"
+   },
+   "enhance_btn_txt": {
+      "message": "Upravit v editoru Picnik"
+   },
+   "error": {
+      "message": "CHYBA"
+   },
+   "error_while_publishing": {
+      "message": "P\u0159i generov\u00E1n\u00ED adresy do\u0161lo k chyb\u011B. Zkuste to znovu."
+   },
+   "error_while_unpublishing": {
+      "message": "P\u0159i odeb\u00EDr\u00E1n\u00ED adresy do\u0161lo k chyb\u011B. Zkuste to znovu."
+   },
+   "ext_description": {
+      "message": "Vytv\u00E1\u0159ejte a sd\u00EDlejte vlastn\u00ED motivy pro Google Chrome."
+   },
+   "ext_name": {
+      "message": "M\u016Fj motiv Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Zkus\u00EDm \u0161t\u011Bst\u00ED"
+   },
+   "fetch_image_error_msg": {
+      "message": "Jejda! V souvislosti s va\u0161\u00EDm upraven\u00FDm obr\u00E1zkem do\u0161lo k chyb\u011B. Na jej\u00ED oprav\u011B pracujeme."
+   },
+   "fill_screen": {
+      "message": "Na celou obrazovku"
+   },
+   "filter_black_and_white": {
+      "message": "\u010Cernob\u00EDle"
+   },
+   "filter_bolder": {
+      "message": "V\u00FDrazn\u011Bj\u0161\u00ED"
+   },
+   "filter_cooler": {
+      "message": "Studen\u011Bj\u0161\u00ED"
+   },
+   "filter_inverted": {
+      "message": "Inverzn\u00ED"
+   },
+   "filter_posterized": {
+      "message": "Posterizace"
+   },
+   "filter_sepia": {
+      "message": "S\u00E9pie"
+   },
+   "filter_title": {
+      "message": "Obr\u00E1zkov\u00E9 efekty"
+   },
+   "filter_warmer": {
+      "message": "Teplej\u0161\u00ED"
+   },
+   "fit_screen": {
+      "message": "P\u0159izp\u016Fsobit obrazovce"
+   },
+   "footer_share_site_txt": {
+      "message": "Sd\u00EDlen\u00ED:"
+   },
+   "frame": {
+      "message": "Upravit barvu r\u00E1me\u010Dku"
+   },
+   "generate_theme": {
+      "message": "Generov\u00E1n\u00ED motivu"
+   },
+   "goback": {
+      "message": "Zp\u011Bt"
+   },
+   "hide_themes": {
+      "message": "Skr\u00FDt motivy"
+   },
+   "image_format_error_msg": {
+      "message": "Jejda. Nejsp\u00ED\u0161 do\u0161lo k probl\u00E9mu s obr\u00E1zkem. Zkuste to pros\u00EDm znovu, nebo vyberte jin\u00FD obr\u00E1zek."
+   },
+   "image_size_error_msg": {
+      "message": "Jejda. V\u00E1\u0161 obr\u00E1zek je nejsp\u00ED\u0161 p\u0159\u00EDli\u0161 velk\u00FD. Zkuste to pros\u00EDm znovu se souborem o velikosti $1 $2 nebo men\u0161\u00EDm.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Podporujeme typy soubor\u016F JPEG, PNG, GIF a BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Litujeme, ale form\u00E1t souboru, kter\u00FD se sna\u017E\u00EDte vybrat, nen\u00ED podporov\u00E1n."
+   },
+   "img_fetching": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED obr\u00E1zku"
+   },
+   "img_upload_wait": {
+      "message": "Vy\u010Dkejte pros\u00EDm, ne\u017E se obr\u00E1zek na\u010Dte"
+   },
+   "informative": {
+      "message": "Informativn\u00ED"
+   },
+   "install_box_text": {
+      "message": "Kliknut\u00EDm nainstalujte tento motiv do prohl\u00ED\u017Ee\u010De Chrome"
+   },
+   "install_btn": {
+      "message": "Instalovat motiv"
+   },
+   "left_align": {
+      "message": "doleva"
+   },
+   "loading": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED..."
+   },
+   "loading_application": {
+      "message": "Aplikace se na\u010D\u00EDt\u00E1..."
+   },
+   "locale": {
+      "message": "cs"
+   },
+   "make_new": {
+      "message": "Vytvo\u0159it nov\u00FD motiv \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nov\u00E1 karta"
+   },
+   "no": {
+      "message": "Ne"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Zd\u00E1 se, \u017Ee jste neimportovali \u017E\u00E1dn\u00FD obr\u00E1zek pro pozad\u00ED sv\u00E9ho motivu. Opravdu bez n\u011Bj chcete pokra\u010Dovat?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Zd\u00E1 se, \u017Ee jste motiv nepojmenovali. Chcete i p\u0159esto pokra\u010Dovat?"
+   },
+   "no_theme_to_view": {
+      "message": "Nem\u00E1te \u017E\u00E1dn\u00E9 motivy k zobrazen\u00ED"
+   },
+   "no_webcam_msg": {
+      "message": "Nebyla nalezena \u017E\u00E1dn\u00E1 webov\u00E1 kamera"
+   },
+   "not_available_offline": {
+      "message": "Nen\u00ED k dispozici offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Jejda,"
+   },
+   "open_preview_text": {
+      "message": "N\u00E1hled motivu"
+   },
+   "original": {
+      "message": "Origin\u00E1l"
+   },
+   "package_btn": {
+      "message": "Vytvo\u0159it vlastn\u00ED motiv"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "V\u00FDb\u011Br barvy"
+   },
+   "picnik_save_btn": {
+      "message": "Ulo\u017Eit do m\u00E9ho motivu Chrome"
+   },
+   "please_wait": {
+      "message": "\u010Cekejte pros\u00EDm..."
+   },
+   "preset_color": {
+      "message": "P\u0159ednastaven\u00E1 barva"
+   },
+   "preview_error_msg": {
+      "message": "Motiv, kter\u00FD hled\u00E1te, ji\u017E z\u0159ejm\u011B nen\u00ED k dispozici."
+   },
+   "preview_mode": {
+      "message": "re\u017Eimu n\u00E1hledu"
+   },
+   "privacy_policy": {
+      "message": "Z\u00E1sady ochrany osobn\u00EDch \u00FAdaj\u016F"
+   },
+   "publish_theme": {
+      "message": "SD\u00CDLET MOTIV"
+   },
+   "publish_theme_text": {
+      "message": "Kliknut\u00EDm tento motiv m\u016F\u017Eete sd\u00EDlet s ostatn\u00EDmi."
+   },
+   "publishing": {
+      "message": "Generov\u00E1n\u00ED webov\u00E9 adresy..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Chcete-li soubor ZIP publikovat do Internetov\u00E9ho obchodu Chrome, p\u0159ejd\u011Bte [sem]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Pokud chcete, aby byl v\u00E1\u0161 motiv jedine\u010Dn\u00FD, pojmenujte jej. Pokud budete motiv sd\u00EDlet s ostatn\u00EDmi u\u017Eivateli, bude jeho n\u00E1zev viditeln\u00FD."
+   },
+   "rear_tab_text": {
+      "message": "Karta na pozad\u00ED"
+   },
+   "reartab": {
+      "message": "Upravit barvu karty na pozad\u00ED"
+   },
+   "retake_picture": {
+      "message": "Po\u0159\u00EDdit dal\u0161\u00ED"
+   },
+   "retry": {
+      "message": "Zkusit znovu"
+   },
+   "right_align": {
+      "message": "doprava"
+   },
+   "share_box_text": {
+      "message": "Chcete-li motiv sd\u00EDlet s ostatn\u00EDmi u\u017Eivateli, zkop\u00EDrujte tuto jedine\u010Dnou adresu URL"
+   },
+   "show_all_themes": {
+      "message": "Zobrazit v\u0161echny motivy"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "VYTVO\u0158IT MOTIV"
+   },
+   "start_screen_description": {
+      "message": "Dodejte sv\u00E9mu prohl\u00ED\u017Ee\u010Di osobit\u00FD styl. Motivy prohl\u00ED\u017Ee\u010De Google Chrome s vlastn\u00EDmi fotografiemi a styly m\u016F\u017Eete vytvo\u0159it a sd\u00EDlet ve t\u0159ech jednoduch\u00FDch kroc\u00EDch."
+   },
+   "start_screen_heading": {
+      "message": "Vytvo\u0159te si vlastn\u00ED motiv Chrome"
+   },
+   "step": {
+      "message": "Krok $1:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Import obr\u00E1zku",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Nahrajte soubor z po\u010D\u00EDta\u010De nebo po\u0159i\u010Fte fotku pomoc\u00ED webov\u00E9 kamery."
+   },
+   "step1_header_msg_text": {
+      "message": "Vyberte obr\u00E1zek pro pozad\u00ED sv\u00E9ho motivu."
+   },
+   "step2_btn_txt": {
+      "message": "$1 P\u0159id\u00E1n\u00ED barvy",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "P\u0159\u00EDpadn\u011B m\u016F\u017Eete barvy p\u0159idat automaticky [pokud chcete zkusit \u0161t\u011Bst\u00ED]"
+   },
+   "step2_header_msg_text": {
+      "message": "Chcete-li motiv za\u010D\u00EDt vybarvovat, klikn\u011Bte na \u0161pendl\u00EDk"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Instalace a sd\u00EDlen\u00ED",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Vyhledat dal\u0161\u00ED motivy v Internetov\u00E9m obchod\u011B Chrome"
+   },
+   "stored_themes_title": {
+      "message": "Chcete-li nainstalovat, sd\u00EDlet nebo smazat p\u0159edchoz\u00ED motivy vytvo\u0159en\u00E9 v tomto po\u010D\u00EDta\u010Di, klikn\u011Bte na miniatury n\u00ED\u017Ee."
+   },
+   "take_picture": {
+      "message": "Vyfotit"
+   },
+   "text": {
+      "message": "Upravit barvu textu"
+   },
+   "theme_deleted": {
+      "message": "Motiv byl smaz\u00E1n"
+   },
+   "theme_description_box_placeholder": {
+      "message": "P\u0159idejte popis sv\u00E9ho motivu. Pokud budete motiv sd\u00EDlet, bude tento popis viditeln\u00FD."
+   },
+   "theme_description_box_title": {
+      "message": "Popi\u0161te sv\u016Fj motiv"
+   },
+   "theme_description_text": {
+      "message": "P\u0159idat voliteln\u00FD popis"
+   },
+   "theme_does_not_exist": {
+      "message": "Tento motiv neexistuje"
+   },
+   "theme_name_placeholder": {
+      "message": "Pojmenujte sv\u016Fj motiv"
+   },
+   "theme_str": {
+      "message": "motiv"
+   },
+   "theme_unique_url": {
+      "message": "Sd\u00EDlet s touto jedine\u010Dnou adresou URL:"
+   },
+   "tile_image": {
+      "message": "Vedle sebe"
+   },
+   "toolbar": {
+      "message": "Upravit barvu panelu n\u00E1stroj\u016F"
+   },
+   "top_align": {
+      "message": "nahoru"
+   },
+   "try_again": {
+      "message": "Zkusit znovu"
+   },
+   "unpublish": {
+      "message": "Nesd\u00EDlet"
+   },
+   "unpublishing": {
+      "message": "Odeb\u00EDr\u00E1n\u00ED webov\u00E9 adresy..."
+   },
+   "untitled": {
+      "message": "Bez n\u00E1zvu"
+   },
+   "upload_btn_txt": {
+      "message": "Nahr\u00E1t obr\u00E1zek"
+   },
+   "upload_crx_error_msg": {
+      "message": "Jejda! P\u0159i vytv\u00E1\u0159en\u00ED va\u0161eho motivu se n\u011Bco pokazilo."
+   },
+   "upload_error_msg": {
+      "message": "P\u0159i nahr\u00E1v\u00E1n\u00ED obr\u00E1zku pravd\u011Bpodobn\u011B do\u0161lo k probl\u00E9mu. Zkuste pros\u00EDm soubor nahr\u00E1t znovu, nebo se vra\u0165te zp\u011Bt a vyberte jin\u00FD."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Nahr\u00E1vejte pros\u00EDm pouze obr\u00E1zky, kter\u00E9 m\u00E1te pr\u00E1vo pou\u017E\u00EDvat."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Obr\u00E1zky a motivy budou hostov\u00E1ny na serverech Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Obr\u00E1zky a motivy, kter\u00E9 odeberete, budou trvale smaz\u00E1ny."
+   },
+   "uploading": {
+      "message": "NAHR\u00C1V\u00C1N\u00CD"
+   },
+   "url_tooltip": {
+      "message": "Chcete-li motiv sd\u00EDlet, zkop\u00EDrujte a vlo\u017Ete tuto adresu URL"
+   },
+   "use_picture": {
+      "message": "Pou\u017E\u00EDt sn\u00EDmek"
+   },
+   "warning": {
+      "message": "UPOZORN\u011AN\u00CD"
+   },
+   "webcam_btn_txt": {
+      "message": "Pou\u017E\u00EDt webovou kameru"
+   },
+   "woohoo_text": {
+      "message": "Jup\u00ED! Motiv $1 $2 byl vytvo\u0159en",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ano"
+   }
+}

@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "Piek\u013Cuves kods"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "\u0160\u012B piek\u013Cuves koda der\u012Bguma termi\u0146\u0161 beigsies p\u0113c $1."
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Visi savienojumi"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Atk\u0101rtoti ievadiet PIN."
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Atcelt"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Not\u012Br\u012Bt v\u0113sturi"
+   },
+   "CLOSE": {
+      "message": "Aizv\u0113rt"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Aizverot \u0161o lapu, Chrome att\u0101l\u0101s darbvirsmas sesija tiks p\u0101rtraukta."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Vai tie\u0161\u0101m v\u0113laties atsp\u0113jot att\u0101los savienojumus ar saimniekdatoru $1? Ja p\u0101rdom\u0101siet, savienojumus ar \u0161o datoru var\u0113siet iesp\u0113jot tikai kl\u0101tien\u0113."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "No"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Savienojumu v\u0113sture"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Savienojumu v\u0113sture"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Ar"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Izveidot savienojumu jebkur\u0101 gad\u012Bjum\u0101"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Savienot"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Turpin\u0101t"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "\u0160obr\u012Bd j\u016Bs koplietojat \u0161o ier\u012Bci ar citu lietot\u0101ju. Vai v\u0113laties turpin\u0101t koplieto\u0161anu?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Chrome att\u0101l\u0101s darbvirsmas saimniekdatora kontrolleris"
+   },
+   "COPYRIGHT": {
+      "message": "Autorties\u012Bbas\u00A0\u00A9\u00A02013 Google Inc. Visas ties\u012Bbas patur\u0113tas."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "Dz\u0113st visu"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "Dz\u0113st"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Lai izmantotu Chrome att\u0101lo darbvirsmu, vispirms pie\u0161\u0137iriet papla\u0161in\u0101tas piek\u013Cuves at\u013Caujas savam datoram. Tas ir j\u0101dara tikai vienu reizi."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "L\u016Bdziet lietot\u0101jam, kura datoram v\u0113laties piek\u013C\u016Bt, noklik\u0161\u0137in\u0101t uz \u201CKop\u012Bgot t\u016Bl\u012Bt\u201D un p\u0113c tam pazi\u0146ot jums piek\u013Cuves kodu."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Izmantojot Chrome att\u0101lo darbvirsmu, varat dro\u0161i koplietot savu datoru t\u012Bmekl\u012B. Abiem lietot\u0101jiem ir j\u0101izmanto lietotne Chrome att\u0101l\u0101 darbvirsma, kas ir pieejama vietn\u0113 $1."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "Att\u0101laj\u0101 saimniekdator\u0101 tiek piepras\u012Bts, lai veicat autentific\u0113\u0161anu tre\u0161\u0101s puses vietn\u0113. Lai turpin\u0101tu, jums j\u0101pie\u0161\u0137ir Chrome att\u0101lajai darbvirsmai papildu at\u013Caujas piek\u013C\u016Bt \u0161ai adresei:"
+   },
+   "DISABLE_HOST": {
+      "message": "Atsp\u0113jot"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Atvienot"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Chrome att\u0101l\u0101s darbvirsmas pakalpojums"
+   },
+   "DURATION_HEADER": {
+      "message": "Ilgums"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Autentific\u0113\u0161ana neizdev\u0101s. L\u016Bdzu, v\u0113lreiz pierakstieties Chrome att\u0101laj\u0101 darbvirsm\u0101."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Tr\u016Bkst da\u017Eu Chrome att\u0101lajai darbvirsmai nepiecie\u0161amo komponentu. P\u0101rbaudiet, vai esat instal\u0113jis jaun\u0101ko versiju, un m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Att\u0101lais dators nerea\u0123\u0113 uz savienojuma piepras\u012Bjumiem. P\u0101rbaudiet, vai tam ir savienojums ar internetu, un m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Savienojumi ar att\u0101lo datoru \u012Bslaic\u012Bgi ir blo\u0137\u0113ti, jo k\u0101da persona m\u0113\u0123in\u0101ja izveidot savienojumu, izmantojot neder\u012Bgu\u00A0PIN. L\u016Bdzu, v\u0113l\u0101k m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "Neizdev\u0101s re\u0123istr\u0113t \u0161o datoru."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Tika konstat\u0113ta nesader\u012Bga Chrome att\u0101l\u0101s darbvirsmas versija. P\u0101rbaudiet, vai abos datoros lietojat p\u0101rl\u016Bka Chrome un lietotnes Chrome att\u0101l\u0101 darbvirsma jaun\u0101ko versiju, un m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Piek\u013Cuves kods nav der\u012Bgs. L\u016Bdzu, m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Saska\u0146\u0101 ar politikas iestat\u012Bjumiem \u0161o datoru nevar koplietot k\u0101 Chrome att\u0101l\u0101s darbvirsmas saimniekdatoru. Lai sa\u0146emtu pal\u012Bdz\u012Bbu, sazinieties ar sist\u0113mas administratoru."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Tr\u016Bkst da\u017Eu Chrome att\u0101lajai darbvirsmai nepiecie\u0161amo komponentu. P\u0101rbaudiet, vai lietojat jaun\u0101ko p\u0101rl\u016Bka Chrome versiju, un m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Nevar\u0113ja izveidot savienojumu ar t\u012Bklu. L\u016Bdzu, p\u0101rbaudiet, vai ier\u012Bce darbojas tie\u0161saistes re\u017E\u012Bm\u0101."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "J\u016Bs neesat pierakst\u012Bjies Chrome att\u0101laj\u0101 darbvirsm\u0101. L\u016Bdzu, pierakstieties un m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Nevar sasniegt saimniekdatoru. Iesp\u0113jamais iemesls var b\u016Bt t\u012Bkla konfigur\u0101cija, kuru izmantojat."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "\u0160obr\u012Bd pakalpojums nav pieejams. L\u016Bdzu, v\u0113l\u0101k m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Rad\u0101s neparedz\u0113ta k\u013C\u016Bda. L\u016Bdzu, zi\u0146ojiet par \u0161o probl\u0113mu izstr\u0101d\u0101t\u0101jiem."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Notiek savienojuma izveide\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "tiek gaid\u012Bta savienojuma izveide..."
+   },
+   "FULL_SCREEN": {
+      "message": "Pilnekr\u0101na re\u017E\u012Bms"
+   },
+   "GET_STARTED": {
+      "message": "S\u0101kt darbu"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Vai v\u0113laties pal\u012Bdz\u0113t k\u0101dam lietot\u0101jam video t\u0113rz\u0113\u0161anas sarunas laik\u0101? Izm\u0113\u0123iniet $1Google\u00A0Hangouts lietotni Att\u0101l\u0101 darbvirsma$2."
+   },
+   "HELP": {
+      "message": "Pal\u012Bdz\u012Bba"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Piek\u013C\u016Bt"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Skatiet un kontrol\u0113jiet kop\u012Bgotu datoru."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Varat izveidot dro\u0161u savienojumu ar \u0161o datoru, izmantojot Chrome att\u0101lo darbvirsmu."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Main\u012Bt PIN"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "Skat\u012Bt/redi\u0123\u0113t"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "\u0160aj\u0101 dator\u0101 ir konfigur\u0113ta at\u013Cauja vienam vai vair\u0101kiem klientiem izveidot savienojumu, neievadot PIN\u00A0kodu."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Iesp\u0113jot att\u0101los savienojumus"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Ja v\u0113laties piek\u013C\u016Bt \u0161im datoram, izmantojot Chrome att\u0101lo darbvirsmu, ir j\u0101iesp\u0113jo att\u0101lie savienojumi."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Atsp\u0113jot att\u0101los savienojumus"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Kop\u012Bgot"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Koplietojiet \u0161o datoru, lai cits lietot\u0101js redz\u0113tu un kontrol\u0113tu t\u0101 darbvirsmu."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(\u0160\u012B funkcija v\u0113l nav pieejama Chromebook datoriem\u2026 Gaidiet jaunumus!)"
+   },
+   "HOST_CATEGORY": {
+      "message": "Saimniekdators"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "Piek\u013Cuve liegta \u0161im klientam: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "Klients, kas izveidojis savienojumu: %1."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "Atvienotais klients: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "Klienta kan\u0101la IP: %1 ip='%2' host_ip='%3' channel='%4' connection='%5'."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Lai iesp\u0113jotu att\u0101lus savienojumus ar citu datoru, instal\u0113jiet Chrome att\u0101lo darbvirsmu attiec\u012Bgaj\u0101 dator\u0101 un noklik\u0161\u0137iniet uz $1."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Jums nav neviena re\u0123istr\u0113ta datora. Lai iesp\u0113jotu att\u0101lus savienojumus ar k\u0101du datoru, instal\u0113jiet Chrome att\u0101lo darbvirsmu attiec\u012Bgaj\u0101 dator\u0101 un noklik\u0161\u0137iniet uz $1."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Programmat\u016Bras atjaunin\u0101jumi parasti tiek veikti autom\u0101tiski, ta\u010Du da\u017Ek\u0101rt \u0161is process var neizdoties. Programmat\u016Bras atjaunin\u0101\u0161ana ilgst ne vair\u0101k k\u0101 da\u017Eas min\u016Btes un var tikt veikta, kam\u0113r esat izveidojis att\u0101lu savienojumu ar datoru."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Chrome att\u0101l\u0101 darbvirsma saimniekdator\u0101 $1 ir novecojusi un ir j\u0101atjaunina."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Pal\u012Bdziet mums uzlabot Chrome att\u0101lo darbvirsmu, \u013Caujot mums apkopot lietojuma statistiku un av\u0101riju p\u0101rskatus."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Lai izveidotu dro\u0161u savienojumu ar \u0161o datoru, l\u016Bdzu, izv\u0113lieties t\u0101du\u00A0PIN, kura garums ir $1vismaz se\u0161i cipari$2. \u0160is PIN b\u016Bs nepiecie\u0161ams, lai izveidotu savienojumu no citas atra\u0161an\u0101s vietas."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Neizdev\u0101s s\u0101kt att\u0101l\u0101s piek\u013Cuves pakalpojumu."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "No p\u0101rl\u016Bka Chrome tiek lejupiel\u0101d\u0113ta Chrome att\u0101l\u0101s darbvirsmas saimniekdatoram paredz\u0113t\u0101 instal\u0113\u0161anas programma. Kad lejupiel\u0101de b\u016Bs pabeigta, l\u016Bdzu, vispirms palaidiet instal\u0113\u0161anas programmu."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "L\u016Bdzu, vispirms palaidiet instal\u0113\u0161anas programmu."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "\u0160im datoram tika iesp\u0113joti att\u0101lie savienojumi."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "L\u016Bdzu, p\u0101rbaudiet datora baro\u0161anas p\u0101rvald\u012Bbas iestat\u012Bjumus: datoram ir j\u0101b\u016Bt konfigur\u0113tam t\u0101, lai netiktu aktiviz\u0113ts miega re\u017E\u012Bms, kad dators netiek lietots."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Notiek att\u0101lo savienojumu iesp\u0113jo\u0161ana \u0161im datoram\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "\u0160im datoram tika atsp\u0113joti att\u0101lie savienojumi."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Notiek att\u0101lo savienojumu atsp\u0113jo\u0161ana \u0161im datoram\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "\u0160im datoram neizdev\u0101s atsp\u0113jot att\u0101lo piek\u013Cuvi. L\u016Bdzu, v\u0113l\u0101k m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "J\u016Bsu PIN ir atjaunin\u0101ts."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Neizdev\u0101s atjaunin\u0101t\u00A0PIN. L\u016Bdzu, v\u0113l\u0101k m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Notiek \u0161\u012B datora\u00A0PIN atjaunin\u0101\u0161ana\u2026"
+   },
+   "HOST_STARTED": {
+      "message": "Saimniekdators start\u0113ts \u0161\u0101dam lietot\u0101jam: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Ar \u0161o datoru"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Lai koplietotu savu darbvirsmu, pazi\u0146ojiet t\u0101l\u0101k redzamo piek\u013Cuves kodu lietot\u0101jam, kur\u0161 jums pal\u012Bdz\u0113s."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Tikl\u012Bdz kods ir ievad\u012Bts, tiek s\u0101kta koplieto\u0161anas sesija."
+   },
+   "INVALID_PIN": {
+      "message": "L\u016Bdzu, ievadiet\u00A0PIN, kura garums ir vismaz se\u0161i cipari."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Ekr\u0101na koplieto\u0161ana\u00A0\u2014 ide\u0101li piem\u0113rota, lai sa\u0146emtu att\u0101lo tehnisko atbalstu."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Savienojums ir izveidots:"
+   },
+   "LEARN_HOW": {
+      "message": "Uzziniet vair\u0101k"
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Chrome att\u0101l\u0101s darbvirsmas saimniekdatora preferences"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Chrome att\u0101l\u0101s\ndarbvirsmas saimniekdators"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Chrome att\u0101l\u0101s darbvirsmas saimniekdatora atinstal\u0113\u0161anas programma"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Piek\u013C\u016Bstiet savam datoram, atrodoties jebkur\u0101 viet\u0101."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Notiek piek\u013Cuves koda \u0123ener\u0113\u0161ana..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "J\u016Bsu Chrome att\u0101l\u0101s darbvirsmas sesija ir p\u0101rtraukta."
+   },
+   "MESSAGE_SHARED": {
+      "message": "J\u016Bsu darbvirsma \u0161obr\u012Bd tiek koplietota ar lietot\u0101ju $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autoriz\u0113\u0161ana"
+   },
+   "MODE_IT2ME": {
+      "message": "Att\u0101l\u0101 pal\u012Bdz\u012Bba"
+   },
+   "MODE_ME2ME": {
+      "message": "Mani datori"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "Visi p\u0101r\u012B savienotie klienti ir dz\u0113sti."
+   },
+   "OFFLINE": {
+      "message": "$1 (bezsaist\u0113)"
+   },
+   "OK": {
+      "message": "Labi"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "No \u0161\u012B datora"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "T\u0101l\u0101k nor\u0101d\u012Btie klienti ir savienoti p\u0101r\u012B ar \u0161o datoru un var izveidot savienojumu, nenor\u0101dot PIN\u00A0kodu. Varat atsaukt \u0161o at\u013Cauju jebkur\u0101 br\u012Bd\u012B (individu\u0101li vai visiem klientiem)."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "Datums, kad savienots p\u0101r\u012B"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "Klients"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "L\u016Bdzu, ievadiet vienu un to pa\u0161u PIN\u00A0abos lodzi\u0146os."
+   },
+   "PIN_MESSAGE": {
+      "message": "L\u016Bdzu, ievadiet saimniekdatora $1\u00A0PIN."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Dro\u0161i piek\u013C\u016Bstiet citiem datoriem vai \u013Caujiet citam lietot\u0101jam piek\u013C\u016Bt j\u016Bsu datoram, izmantojot interneta savienojumu."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome att\u0101l\u0101 darbvirsma"
+   },
+   "RECONNECT": {
+      "message": "Atk\u0101rtoti savienot"
+   },
+   "REMEMBER_PIN": {
+      "message": "Nepiepras\u012Bt PIN\u00A0kodu v\u0113lreiz, kad no \u0161\u012B datora izveidoju savienojumu ar \u0161o saimniekdatoru."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "Galven\u0101 bibliot\u0113ka"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Darbvirsmas integr\u0101cijas process"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "Saimniekdatora process"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "\u013Baujiet citam lietot\u0101jam dro\u0161i piek\u013C\u016Bt j\u016Bsu datoram, izmantojot interneta savienojumu."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Chrome att\u0101l\u0101s darbvirsmas saimniekdators"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Main\u012Bt darbvirsmas izm\u0113rus, lai t\u0101 atbilstu"
+   },
+   "RETRY": {
+      "message": "M\u0113\u0123in\u0101t v\u0113lreiz"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Ekr\u0101na opcijas"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl+Alt+Del"
+   },
+   "SEND_KEYS": {
+      "message": "S\u016Bt\u012Bt tausti\u0146us"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "Ekr\u0101ndruk\u0101\u0161anas tausti\u0146\u0161"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Izmantojot \u0161o pakalpojumu, tiek iesp\u0113jota ien\u0101ko\u0161o savienojumu izveide no Chrome att\u0101l\u0101s darbvirsmas klientiem."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Samazin\u0101t, lai ietilptu"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Pierakst\u012Bties"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Izrakst\u012Bties"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "P\u0101rtraukt koplieto\u0161anu"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Vai v\u0113laties pal\u012Bdz\u0113t uzlabot Chrome att\u0101lo darbvirsmu? $1Atbildiet uz aptaujas jaut\u0101jumiem!$2"
+   },
+   "TIME_HEADER": {
+      "message": "Laiks"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Izveidojiet savienojumu ar $1."
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Atsp\u0113jojiet att\u0101los savienojumus ar \u0161o datoru."
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Redi\u0123\u0113jiet datora nosaukumu."
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (novecojis)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Konts"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Lai at\u013Cautu piek\u013Cuvi, izmantojot Chrome att\u0101lo darbvirsmu, l\u016Bdzu, apstipriniet kontu un PIN\u00A0kodu."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "PIEZ\u012AME. Saska\u0146\u0101 ar politikas iestat\u012Bjumiem savienojumus ir at\u013Cauts veidot tikai starp j\u016Bsu t\u012Bkla datoriem."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "PIEZ\u012AME. Lai b\u016Btu pieejami visi \u012Bsin\u0101jumtausti\u0146i, Chrome att\u0101lo darbvirsmu varat konfigur\u0113t \u0161\u0101di: \u201CAtv\u0113rt k\u0101 logu\u201D."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "K\u0101p\u0113c tas ir dro\u0161i?"
+   },
+   "WORKING": {
+      "message": "Notiek apstr\u0101de..."
+   }
+}

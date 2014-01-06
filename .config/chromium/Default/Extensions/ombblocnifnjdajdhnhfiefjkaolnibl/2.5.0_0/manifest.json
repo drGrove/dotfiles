@@ -1,0 +1,28 @@
+{
+   "api_console_project_id": "46145466229",
+   "app": {
+      "launch": {
+         "web_url": "https://app.smartsheet.com/b/home?s=32&m=106&lx=iXY8OM_-X0f54gCiU3IjJw"
+      },
+      "urls": [ "https://app.smartsheet.com/b/home" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "intents": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://app.smartsheet.com/b/home?s=32&m=106",
+         "title": "Open",
+         "type": [ "application/vnd.ms-excel", "text/csv", "application/vnd.ms-project", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.google.drive.ext-type.xls", "application/vnd.google.drive.ext-type.xlsx", "application/vnd.google.drive.ext-type.csv", "application/vnd.google.drive.ext-type.mpp" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYm2vMpHH+DGjcd5bbOXoNi31/vdxMZBSK9e6LLmLerY+1xAAVhaERx9Dda2QdRHM83PfOmzw5tJI2vq6KtY9NqArsMvISVHEExgJxGAvcxskDOqNEY2MUcVGnbyzQgD/Iy+4UVRJrbyOOStpf2Ki1+ECF1e6vjF0TcGd4yINbxQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.0"
+}

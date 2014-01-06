@@ -1,0 +1,18 @@
+{
+   "api_console_project_id": "543871781652",
+   "app": {
+      "launch": {
+         "web_url": "http://www.driveplayer.com/"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "Music and Audio files player for Google Drive.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC31pT+7bnjg2+4OsQKUes3joV0w0Di5fpJ/eQLqcYVUJcrv/F+2EL81hdCsL7i/LOC8TaKhUAbKDC3LKPj1oLLepikag6IJWMGXvEL1ULpTXdM+lokaCF0tYDLw/8xXkh2c+u06vO2654Ff62SlKCTxgSRsfUccsYJQnia/eCmAQIDAQAB",
+   "manifest_version": 2,
+   "name": "Music Player for Google Drive",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}

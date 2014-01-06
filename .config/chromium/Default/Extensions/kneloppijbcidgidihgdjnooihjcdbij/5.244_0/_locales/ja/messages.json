@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Twitter\u3084Facebook\u306A\u3069\u306E\u8907\u6570\u30BD\u30FC\u30B7\u30E3\u30EB\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\u3078\u306E\u6295\u7A3F\u3001\u8FFD\u8DE1\u8ABF\u67FB\u305D\u3057\u3066\u7D50\u679C\u5206\u6790\u2026"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "HootSuite"
+   }
+}

@@ -1,0 +1,35 @@
+<div ng-show="tab === 'select.image'" class="overlay" ng-click="close()">
+	<div class="clearfix overlayWindow w-text m2-size3of4 m1-size4of5" mi-absorb-clicks="">
+	<button class="absl pan pat top-right btn5 hoverE-icon" ng-click="close()">
+		<i class="icon-close fs3 mvn lh1" data-icon2="&#xe611;"></i>
+		<span class="visuallyhidden">Close</span>
+	</button>
+	<label class="unit size1of1 mbm">
+		<span class="unit ptt">Color <span class="fgc4">(hex)</span></span>
+		<mi-number class="border-box talign-center miNumber unitRight width3" zpad="6" radix="16" model="imagePref.color" min="0" max="16777215"></mi-number>
+	</label>
+	<label class="unit size1of1 mbm">
+		<span class="unit ptt">Height <span class="fgc4">(pixels)</span></span>
+		<mi-number class="border-box talign-center miNumber unitRight width3" model="imagePref.height" min="8" def="32"></mi-number>
+	</label>
+	<label class="hoverE0 unit size1of1 pvt mbm" ng-class="pngFocused ? 'fgc10' : ''">
+		<i class="icon-{{imagePref.png ? 'checked' : 'unchecked'}}"></i>
+		<input class="visuallyhidden" type="checkbox" ng-model="imagePref.png" ng-focus="pngFocused = true" ng-blur="pngFocused = false">
+		Include PNG
+	</label>
+	<label class="hoverE0 unit size1of1 pvt animated-margin" ng-class="{fgc10: spritesFocused, mbm: imagePref.sprites}">
+		<i class="icon-{{imagePref.sprites ? 'checked' : 'unchecked'}}"></i>
+		<input class="visuallyhidden" type="checkbox" ng-model="imagePref.sprites" ng-focus="spritesFocused = true" ng-blur="spritesFocused = false">
+		CSS Sprite
+	</label>
+	<label ng-show="imagePref.sprites" class="unit size1of1 mbm">
+		<span class="unit ptt">Sprite Columns</span>
+		<mi-number class="border-box talign-center miNumber unitRight width3" model="imagePref.columns" min="1" def="16"></mi-number>
+	</label>
+	<label ng-show="imagePref.sprites" class="unit size1of1">
+		<span class="unit ptt">Margin (pixels)</span>
+		<mi-number class="border-box talign-center miNumber unitRight width3" model="imagePref.margin" min="0" def="16"></mi-number>
+	</label>
+	<button class="btn0 mtl size1of1" ng-click="download()">Download <span class="fs7 mvn">(zip)</span></button>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.subtask.com/login/?chrome_launcher=true"
+      },
+      "urls": [ "https://www.subtask.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUHAyg34kCK02gCT0mYY4PklJ4J0u4qcnI4ySNTchbH4MxhcBMa1n8jbmYlqsM+LdioD6aBxC2E3exOsWlbYc9e1LkjOkjzVbmKe/aS38rMfPuatReYuykuaSFLoWHHCqVGJVBGF4mDEcScPv7oX7D+BPaFVhmLMP2mV9d2DK7OQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "10",
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.4"
+}

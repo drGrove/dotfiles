@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <link href="/css/reset.css" rel="stylesheet" />
+        <link href="/css/buttons.css" rel="stylesheet" />
+        <link href="/css/options.css" rel="stylesheet" />
+        <link href="/js/checkbox/jquery.checkbox.css" rel="stylesheet" />
+        <link href="/css/jquery.tzSelect.css" rel="stylesheet" />
+        <title>Options - PHP Ninja Manual</title>
+        
+    </head>
+
+    <body>
+        <div id="cont">
+            <h2>PHP Ninja Manual</h2>
+            <div>
+                <label>Database language</label>
+                <select id="language"></select> 
+            </div>
+
+            <div>
+                <label for="collectUsageData">Collect usage data</label>
+                <div class="on_off">
+                    <input type="checkbox" id="collectUsageData" checked="checked">
+                </div>
+                <em>For example, what you search for, what code snippets you copy to clipboard, what language you use. <strong>It helps me to improve the app</strong> and focus on what users really use.</em>
+            </div>
+
+            <h2 class="space">Database</h2>
+            <p><span id="resetText">Delete all databases and let them re-generate.</span> <a href="#" class="button" id="resetButton">Reset...</a>
+                <p>Use only, when the popup freezes on startup or is somehow broken.</p>
+            </p>
+            
+            <h2 class="space">Feedback</h2>
+            <p><span>If you find a bug, have a suggestion or whatever, please</span> <a href="https://chrome.google.com/webstore/support/clbhjjdhmgeibgdccjfoliooccomjcab?hl=en#bug" target="_blank">let me know</a>.</p>
+            <p>Every feedback is highly appreciated!</p>
+
+            <h2 class="space">About</h2>
+            <p>This Chrome extension is based on <a href="https://github.com/martinsik/php-doc-parser" target="_blank">PHP Doc Parser</a> - converter of PHP documentation into JSON.</p>
+            <p>You can also read my blog at <a href="http://ahoj.io">ahoj.io</a> about various topics on programming.</p>
+        </div>
+        
+        <script src="/js/chrome/manifest.js"></script>
+        <script src="/js/chrome/i18n.js"></script>
+        <script src="/js/jquery-1.8.1.min.js"></script>
+        <script src="/js/jquery.ibutton.js"></script>
+        <script src="/js/jquery.tzSelect.js"></script>
+        <!--<script src="/js/checkbox/jquery.checkbox.min.js"></script>-->
+        <script src="/js/options.js"></script>
+        <script src="/js/Model.js"></script>
+        <script src="/js/GoogleAnalytics.js"></script>
+        <script src="/js/smartPopup.js"></script>
+    </body>
+</html>

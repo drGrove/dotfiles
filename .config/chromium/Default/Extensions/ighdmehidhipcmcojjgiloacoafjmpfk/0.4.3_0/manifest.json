@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "js/inject/debug.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Extends the Developer Tools, adding tools for debugging and profiling AngularJS applications.",
+   "devtools_page": "devtoolsBackground.html",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9hsXx3+F75DyGto3mkm0FB2sycQzyMqXQAySn2Qj67vIHFMSrVZ0ItPzGnWJwoRoaDI7cQF9c/WLDpLJQwGe5CV5z84MueOME3e45JJEwN+YsW5ufEavmp+pk1c9h/Wyi8bMoSWJGIrOG72wCTFOdnyN6nocA0dm4w7UWsxLLEQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "21.0.1180.57",
+   "name": "AngularJS Batarang",
+   "permissions": [ "tabs", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.3"
+}

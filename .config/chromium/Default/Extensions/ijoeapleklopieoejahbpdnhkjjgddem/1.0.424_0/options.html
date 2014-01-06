@@ -1,0 +1,77 @@
+<html><!--
+    
+    /*************************************************************************
+    *
+    * ADOBE CONFIDENTIAL
+    * ___________________
+    *
+    *  Copyright 2011 Adobe Systems Incorporated
+    *  All Rights Reserved.
+    *
+    * NOTICE:  All information contained herein is, and remains
+    * the property of Adobe Systems Incorporated and its suppliers,
+    * if any.  The intellectual and technical concepts contained
+    * herein are proprietary to Adobe Systems Incorporated and its
+    * suppliers and are protected by trade secret or copyright law.
+    * Dissemination of this information or reproduction of this material
+    * is strictly forbidden unless prior written permission is obtained
+    * from Adobe Systems Incorporated.
+    **************************************************************************/
+    
+    AdobePatentID="2121US01"
+    AdobePatentID="2122US01"
+    
+    --><head>
+<title>Adobe Edge Inspect - Options</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/localize.js"></script>
+    <script src="js/options.js"></script>
+</head>
+<body>
+<header>Adobe Edge Inspect Options</header>
+<div id="main">
+  <label data-l10n="screenshotsfoldertitle">Screenshots Folder</label>
+  <table class="options stretch" border="0">
+    <tbody><tr>
+      <td>
+        <input type="text" id="ssfolder" disabled="" value="Some Text">
+        <div id="ssfoldererror"></div>
+      </td>
+      <td id="ssfolderbuttontd">
+        <button id="ssfoldersave" style="display: none;" data-l10n="save">Save</button>
+        <button id="ssfolderedit" data-l10n="edit">Edit</button>
+      </td>
+    </tr>
+  </tbody></table>
+  <label data-l10n="weinretitle">weinre Server</label>
+  <table class="options" border="0">
+    <tbody><tr>
+      <td>
+        <select id="weinre">
+            <option value="default" data-l10n="weinredefault">Default (Adobe)</option>
+            <option value="custom" data-l10n="weinrecustom">Custom</option>
+        </select>
+      </td>
+      <td style="display:none;" id="customservertd">
+        <input id="customserver" type="text">
+        <span class="info" data-l10n="weinreexample">e.g.172.18.5.4:8081</span>
+      </td>
+      <td style="display:none;" id="customserverbuttontd">
+        <button id="save" data-l10n="save">Save</button>
+        <button id="edit" style="display: none;" data-l10n="edit">Edit</button>
+      </td>
+    </tr>
+  </tbody></table>
+  <label data-l10n="logtitle">Log </label>
+    <textarea id="logdump" readonly="readonly"></textarea>
+    <div>
+      <button id="emptylog" data-l10n="emptylog">Clear</button> (<span id="versioninfo" data-l10n="versioninfo"> </span>)
+   </div>
+</div>
+<footer>
+  Copyright &copy;2012 Adobe Systems Incorporated. All rights reserved.
+</footer>
+
+
+</body></html>

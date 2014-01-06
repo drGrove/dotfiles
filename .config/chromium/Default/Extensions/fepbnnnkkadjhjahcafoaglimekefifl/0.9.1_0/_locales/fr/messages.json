@@ -1,0 +1,165 @@
+{
+   "chrome_accept_languages": {
+      "message": "$CHROME$ accepts $languages$ languages",
+      "placeholders": {
+         "chrome": {
+            "content": "Chrome",
+            "example": "Chrome"
+         },
+         "languages": {
+            "content": "$1",
+            "example": "en-US,fr,ja,de"
+         }
+      }
+   },
+   "chrome_extension_description": {
+      "message": "Un lecteur de livres num\u00E9riques EPUB3."
+   },
+   "chrome_extension_name": {
+      "message": "Readium"
+   },
+   "i18n_add_book": {
+      "message": "Ajouter un livre"
+   },
+   "i18n_add_book_to_readium_library": {
+      "message": "Ajoutez un livre \u00E0 la biblioth\u00E8que de Readium :"
+   },
+   "i18n_add_items": {
+      "message": "Ajoutez des articles\u003Cbr\u003E\u00E0 votre biblioth\u00E8que\u003Cbr\u003Eici !"
+   },
+   "i18n_added": {
+      "message": "Ajout\u00E9 le : "
+   },
+   "i18n_arabian_nights": {
+      "message": "Mille et une Nuits"
+   },
+   "i18n_are_you_sure": {
+      "message": "Voulez-vous vraiment supprimer "
+   },
+   "i18n_author": {
+      "message": "Auteur : "
+   },
+   "i18n_automatically": {
+      "message": "Ouvrir automatiquement les urls *.epub dans Readium"
+   },
+   "i18n_ballard_blues": {
+      "message": "Le Blues de Ballard"
+   },
+   "i18n_black_and_white": {
+      "message": "Noir et Blanc"
+   },
+   "i18n_cancel": {
+      "message": "Annuler"
+   },
+   "i18n_close": {
+      "message": "Fermer"
+   },
+   "i18n_confirm_that_this_book": {
+      "message": "Confirmer que ce livre est conforme aux standards EPUB"
+   },
+   "i18n_created_at": {
+      "message": "Ajout\u00E9 le : "
+   },
+   "i18n_delete": {
+      "message": "Supprimer"
+   },
+   "i18n_details": {
+      "message": "D\u00E9tails"
+   },
+   "i18n_display_format": {
+      "message": "FORMAT D'AFFICHAGE"
+   },
+   "i18n_double_pages": {
+      "message": "Doubles-pages"
+   },
+   "i18n_enter_a_url": {
+      "message": "Entrez l'URL d'un fichier .epub"
+   },
+   "i18n_epub_version": {
+      "message": "version de l'EPUB : "
+   },
+   "i18n_extracting": {
+      "message": "extraction : "
+   },
+   "i18n_font_size": {
+      "message": "TAILLE DE LA POLICE"
+   },
+   "i18n_format": {
+      "message": "Format : "
+   },
+   "i18n_from_local_file": {
+      "message": "\u00C0 partir d'un fichier local :"
+   },
+   "i18n_from_the_web": {
+      "message": "\u00C0 partir du Web :"
+   },
+   "i18n_html_readium_tm_a_project": {
+      "message": "Readium\u003Csup\u003ETM\u003C/sup\u003E, un projet de l'International Digital Publishing Forum (IDPF) et de ses adh\u00E9rents, est un syst\u00E8me \u00E0 code-source libre de r\u00E9f\u00E9rence et un moteur de rendu pour les publications EPUB&reg;. Pour en savoir plus, visitez \u003Ca href=\"http://readium.org/\"\u003Ela page du projet\u003C/a\u003E. \u00C0 ce jour, le d\u00E9veloppement du projet a \u00E9t\u00E9 men\u00E9e par \u003Ca href=\"http://evidentpoint.com/\"\u003EEvident Point\u003C/a\u003E et par \u003Ca href=\"http://www.bluefirereader.com/\"\u003EBluefire Productions\u003C/a\u003E. Pour contribuer, visiter le \u003Ca href=\"https://github.com/readium/readium\"\u003Ed\u00E9p\u00F4t github\u003C/a\u003E."
+   },
+   "i18n_id": {
+      "message": "ID: "
+   },
+   "i18n_loading": {
+      "message": "Chargement de la biblioth\u00E8que"
+   },
+   "i18n_margins": {
+      "message": "MARGES"
+   },
+   "i18n_modified_date": {
+      "message": "Date de modification : "
+   },
+   "i18n_paginate_all": {
+      "message": "Paginer tout le contenu des EPUB recomposables"
+   },
+   "i18n_pub_date": {
+      "message": "Date de publication :  "
+   },
+   "i18n_publisher": {
+      "message": "Editeur : "
+   },
+   "i18n_read": {
+      "message": "Lire"
+   },
+   "i18n_readium_library": {
+      "message": "Biblioth\u00E8que Readium"
+   },
+   "i18n_readium_options": {
+      "message": "Options de Readium :"
+   },
+   "i18n_sands_of_dune": {
+      "message": "Sables de Dune"
+   },
+   "i18n_save_changes": {
+      "message": "Enregistrer les changements"
+   },
+   "i18n_save_settings": {
+      "message": "Enregistrer"
+   },
+   "i18n_show_warning": {
+      "message": "Montrer les messages d'avertissement pendant la d\u00E9compression des fichiers EPUB"
+   },
+   "i18n_single_pages": {
+      "message": "Pages simples"
+   },
+   "i18n_sorry": {
+      "message": "D\u00E9sol\u00E9, l'EPUB actuel ne contient pas de m\u00E9dia associ\u00E9 (media overlay) pour ce contenu"
+   },
+   "i18n_source": {
+      "message": "Source : "
+   },
+   "i18n_text_and_background_color": {
+      "message": "COULEUR DU TEXTE ET DU FOND"
+   },
+   "i18n_unknown": {
+      "message": "Inconnu"
+   },
+   "i18n_unpacked_directory": {
+      "message": "R\u00E9pertoire non-compress\u00E9 :"
+   },
+   "i18n_validate": {
+      "message": "Valider :"
+   },
+   "i18n_vancouver_mist": {
+      "message": "Le Brouillard de Vancouver"
+   }
+}

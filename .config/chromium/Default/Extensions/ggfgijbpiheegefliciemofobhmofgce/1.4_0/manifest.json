@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/16.png",
+      "default_title": "CSSViewer"
+   },
+   "description": "A simple CSS property viewer.",
+   "icons": {
+      "16": "img/16.png",
+      "22": "img/22.png",
+      "24": "img/24.png",
+      "32": "img/32.png",
+      "48": "img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8L60W2vDQT2G08eT83n9YbIqR7A79WdcIfCVqNoYl3nG8AkaFTF+w7Caaw+vOCLviZqH/3reS1mA/4JGVvcBCutj4IQoraoGAs99nS8vCCSN5d1aEY89bzSgecITp0PefohRDAj2AG9HStVAMM1p+6pp6meZWZPc0e8/PRopfUQIDAQAB",
+   "manifest_version": 2,
+   "name": "CSSViewer",
+   "options_page": "option.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.4",
+   "web_accessible_resources": [ "img/header.png", "img/body.png", "img/list.png", "img/footer.png", "img/bullet.png" ]
+}

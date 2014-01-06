@@ -1,0 +1,428 @@
+{
+   "1059784693423848532": {
+      "message": "ajouter"
+   },
+   "1104234694810969409": {
+      "message": "Impossible de diffuser sur l'appareil"
+   },
+   "1189144544819350763": {
+      "message": "Diffuser cet onglet (audio) sur\u2026"
+   },
+   "1213957982723875920": {
+      "message": "Parmi les propositions suivantes, laquelle d\u00E9crit le mieux votre r\u00E9seau\u00A0?"
+   },
+   "1312042186374481668": {
+      "message": "Zoom en plein \u00E9cran"
+   },
+   "1318160328466758792": {
+      "message": "R\u00E9essayer"
+   },
+   "1510649369757220975": {
+      "message": "OK"
+   },
+   "1942272259363289202": {
+      "message": "Param\u00E8tres de d\u00E9veloppeur"
+   },
+   "2009563581399507712": {
+      "message": "Fluidit\u00E9 de la vid\u00E9o\u00A0:"
+   },
+   "2016072788708608077": {
+      "message": "Joindre les journaux de l'extension Google\u00A0Cast\u00A0\u2013\u00A0Veuillez cocher cette case, car cela nous aide \u00E0 r\u00E9soudre les probl\u00E8mes."
+   },
+   "2076488708707463944": {
+      "message": "D\u00E9tection d'appareils"
+   },
+   "2083306153840951484": {
+      "message": "(obligatoire)"
+   },
+   "2140297194531556668": {
+      "message": "Diffuser l'onglet actif"
+   },
+   "2159130950882492111": {
+      "message": "Annuler"
+   },
+   "2305903324116609221": {
+      "message": "Enregistrer"
+   },
+   "2377419936291389581": {
+      "message": "M\u00E9diocre"
+   },
+   "2438859709710567679": {
+      "message": "Qualit\u00E9 de la projection sur tablette ou sur ordinateur"
+   },
+   "2456043080471762298": {
+      "message": "supprimer"
+   },
+   "2480373522051304868": {
+      "message": "Probl\u00E8me de performances du r\u00E9seau"
+   },
+   "2517473004427269018": {
+      "message": "\u00C9tant donn\u00E9 que votre session a dur\u00E9 plus d'une\u00A0minute, nous aimerions avoir votre avis concernant votre exp\u00E9rience. Si vous avez rencontr\u00E9 des probl\u00E8mes, veuillez joindre les journaux de l'extension Google\u00A0Cast et les journaux externes en cochant les cases correspondantes."
+   },
+   "2581331321407676861": {
+      "message": "Annuler"
+   },
+   "2638991638737993114": {
+      "message": "Les modifications que vous avez apport\u00E9es prendront effet la prochaine fois que vous diffuserez un onglet."
+   },
+   "2673108145745625398": {
+      "message": "Impossible pour Chrome de trouver un appareil connect\u00E9."
+   },
+   "2807800733729323332": {
+      "message": "Oui."
+   },
+   "2884726392788153618": {
+      "message": "Une erreur inattendue s'est produite. Veuillez proc\u00E9der comme suit\u00A0:\u003Cul\u003E\u003Cli\u003EEssayez de relancer la diffusion.\u003C/li\u003E\u003Cli\u003EV\u00E9rifiez la connectivit\u00E9 de votre r\u00E9seau.\u003C/li\u003E\u003C/ul\u003E"
+   },
+   "2942203478948533213": {
+      "message": "Veuillez s\u00E9lectionner un autre appareil."
+   },
+   "3051639087648999069": {
+      "message": "Cette page comporte du contenu incompatible."
+   },
+   "3201699132833978353": {
+      "message": "Cliquez sur l'ic\u00F4ne Cast dans le lecteur sur cette page pour une exp\u00E9rience optimale."
+   },
+   "3268013795447421317": {
+      "message": "Les performances du r\u00E9seau peuvent affecter la qualit\u00E9 de la lecture."
+   },
+   "3314869243569608808": {
+      "message": "Continuer"
+   },
+   "3374149466144554646": {
+      "message": "Interrompre la diffusion"
+   },
+   "3430817026795535765": {
+      "message": "Diffuser l'\u00E9cran sur\u2026"
+   },
+   "3542042671420335679": {
+      "message": "Non."
+   },
+   "3593576714633990163": {
+      "message": "Merci d'avoir essay\u00E9 la mise en miroir de Google\u00A0Cast."
+   },
+   "3789857023572978851": {
+      "message": "Configurer"
+   },
+   "3844709005265884931": {
+      "message": "Saccad\u00E9e de fa\u00E7on occasionnelle"
+   },
+   "3885666702463386029": {
+      "message": "(L'appareil est introuvable\u00A0?)"
+   },
+   "3894950702316166331": {
+      "message": "Chargement en cours\u2026"
+   },
+   "3996247341169314250": {
+      "message": "Autre"
+   },
+   "4014224501758376361": {
+      "message": "Diffusion sur $RECEIVER_NAME$ en cours\u2026",
+      "placeholders": {
+         "RECEIVER_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "4089994756445820175": {
+      "message": "Bug ou erreur"
+   },
+   "4223394109936547558": {
+      "message": "OK"
+   },
+   "4224760847878375792": {
+      "message": "Fluide"
+   },
+   "4272010402571776761": {
+      "message": "M\u00E9diocre"
+   },
+   "4324962226715124466": {
+      "message": "Acceptable"
+   },
+   "4395142077883749984": {
+      "message": "Redimensionne automatiquement le navigateur pour qu'il s'adapte au mieux \u00E0 la taille de l'\u00E9cran du r\u00E9cepteur lors de la diffusion d'un onglet."
+   },
+   "4563873836363331434": {
+      "message": "Processeur\u00A0:"
+   },
+   "4584454172263179470": {
+      "message": "Parfaite"
+   },
+   "4586172406334707448": {
+      "message": "Activ\u00E9\u00A0: \u00E9vite les barres noires sur les vid\u00E9os 16/9."
+   },
+   "464916539454098167": {
+      "message": "OK"
+   },
+   "4687947362658561907": {
+      "message": "L'appareil s\u00E9lectionn\u00E9 n'est plus en ligne"
+   },
+   "4741643884742469674": {
+      "message": "Qualit\u00E9 du son\u00A0:"
+   },
+   "4758756379175339753": {
+      "message": "Qualit\u00E9 de la projection d'onglets"
+   },
+   "482442943064110817": {
+      "message": "Acceptable\u00A0\u2013\u00A0FM"
+   },
+   "4865676252029097872": {
+      "message": "Impossible d'envoyer les commentaires. Veuillez r\u00E9essayer ult\u00E9rieurement."
+   },
+   "5202323856319464688": {
+      "message": "L'appareil que vous utilisiez ne propose pas de journaux."
+   },
+   "5229573508420009298": {
+      "message": "(Facultatif) Quel contenu ou quelle URL diffusiez-vous\u00A0?"
+   },
+   "5289864097969390712": {
+      "message": "Pour une qualit\u00E9 de lecture optimale des vid\u00E9os sur YouTube et Netflix, nous vous conseillons de les diffuser directement via l'ic\u00F4ne du lecteur vid\u00E9o."
+   },
+   "53102003052940787": {
+      "message": "Lorsque vous utilisez un compte Google.com pour signaler un probl\u00E8me, nous joignons automatiquement les journaux de l'extension Google\u00A0Cast, ainsi que ceux de l'appareil \u00E0 distance, si nous les trouvons."
+   },
+   "5339913305209531244": {
+      "message": "Aucun appareil Cast trouv\u00E9."
+   },
+   "5385436389563925676": {
+      "message": "PC et Chromecast partageant le m\u00EAme r\u00E9seau Wi-Fi"
+   },
+   "5395332831907227403": {
+      "message": "Qualit\u00E9 de la vid\u00E9o\u00A0:"
+   },
+   "5453859777568475949": {
+      "message": "Les performances du syst\u00E8me peuvent affecter la qualit\u00E9 de la lecture."
+   },
+   "5458275569533528575": {
+      "message": "D\u00E9sactiv\u00E9\u00A0: le contenu s'affiche comme sur cet \u00E9cran."
+   },
+   "5671949584911040143": {
+      "message": "Autres commentaires\u00A0:"
+   },
+   "5745355507138230213": {
+      "message": "Bonne"
+   },
+   "5823878688587296398": {
+      "message": "N/A"
+   },
+   "5849296180435940955": {
+      "message": "En savoir plus"
+   },
+   "5896115889092537093": {
+      "message": "Vous avez saisi $START_SPAN$$_TRANSLATIONTEXT_$$END_SPAN$.",
+      "placeholders": {
+         "END_SPAN": {
+            "content": "$1"
+         },
+         "START_SPAN": {
+            "content": "$2"
+         },
+         "_TRANSLATIONTEXT_": {
+            "content": "$3"
+         }
+      }
+   },
+   "6018881802001125637": {
+      "message": "Envoi des commentaires en cours\u2026"
+   },
+   "6039331491778328245": {
+      "message": "Bonne\u00A0\u2013\u00A0DVD"
+   },
+   "6046507125919556913": {
+      "message": "Diffuser cet onglet sur\u2026"
+   },
+   "6098003662202355499": {
+      "message": "R\u00E9tablir la configuration d'usine"
+   },
+   "6118473811359442709": {
+      "message": "Inintelligible"
+   },
+   "6181212922679547742": {
+      "message": "Plug-in incompatible d\u00E9tect\u00E9"
+   },
+   "6214031582604719501": {
+      "message": "Retour \u00E0 la liste d'appareils"
+   },
+   "6295154563386647404": {
+      "message": "\u00C9chec de l'envoi des commentaires. Nouvelle tentative ($ATTEMPT_NUMBER$) en cours\u2026",
+      "placeholders": {
+         "ATTEMPT_NUMBER": {
+            "content": "$1"
+         }
+      }
+   },
+   "6327471858774411657": {
+      "message": "Redimensionner automatiquement"
+   },
+   "6392158336204151356": {
+      "message": "Retour"
+   },
+   "6585975561839203683": {
+      "message": "Je n'ai pas essay\u00E9."
+   },
+   "6586903847835267527": {
+      "message": "Joindre les journaux externes\u00A0\u2013\u00A0Veuillez cocher cette case, car cela nous aide \u00E0 r\u00E9soudre les probl\u00E8mes."
+   },
+   "6604600094360523853": {
+      "message": "Commentaires \u00E0 propos de Google\u00A0Cast"
+   },
+   "6619632461064864539": {
+      "message": "Lecture en cours sur $START_DIV$$_SELECTEDACTIVITY_RECEIVER_NAME_$$END_DIV$\u2026",
+      "placeholders": {
+         "END_DIV": {
+            "content": "$1"
+         },
+         "START_DIV": {
+            "content": "$2"
+         },
+         "_SELECTEDACTIVITY_RECEIVER_NAME_": {
+            "content": "$3"
+         }
+      }
+   },
+   "6714111755007279544": {
+      "message": "Ajouter un Chromecast\u2026"
+   },
+   "6988652234001902672": {
+      "message": "Merci de nous avoir envoy\u00E9 vos commentaires."
+   },
+   "6997602168024654529": {
+      "message": "Je ne suis pas s\u00FBr."
+   },
+   "7008828272760191653": {
+      "message": "Impossible \u00E0 regarder"
+   },
+   "7011099479208813570": {
+      "message": "Refuser"
+   },
+   "7028436125721806572": {
+      "message": "Informations sur la qualit\u00E9 de la mise en miroir"
+   },
+   "7029426286291560071": {
+      "message": "Parfaite"
+   },
+   "7053128562708856478": {
+      "message": "Absence de r\u00E9ponse"
+   },
+   "7353352715326499943": {
+      "message": "R\u00E9essayer"
+   },
+   "7458085371029395489": {
+      "message": "Vid\u00E9o haute qualit\u00E9"
+   },
+   "7512888817044182839": {
+      "message": "Les options de l'extension Google\u00A0Cast, les statistiques relatives aux performances de WebRTC, et les versions de Chrome et de votre syst\u00E8me d'exploitation seront envoy\u00E9es, en plus de l'ensemble des informations que vous avez choisi d'inclure ci-dessus. Ce rapport sert \u00E0 diagnostiquer les probl\u00E8mes et \u00E0 am\u00E9liorer l'extension. Toutes les informations personnelles que vous envoyez, de fa\u00E7on explicite ou implicite, sont prot\u00E9g\u00E9es conform\u00E9ment \u00E0 nos r\u00E8gles de confidentialit\u00E9. $START_BOLD$En envoyant ce rapport, vous autorisez Google \u00E0 l'utiliser pour am\u00E9liorer tout produit ou service Google$END_BOLD$.",
+      "placeholders": {
+         "END_BOLD": {
+            "content": "$1"
+         },
+         "START_BOLD": {
+            "content": "$2"
+         }
+      }
+   },
+   "760978735208256393": {
+      "message": "Diffuser l'\u00E9cran entier\u2026"
+   },
+   "7661531377295243900": {
+      "message": "Veuillez red\u00E9marrer votre appareil. Si le probl\u00E8me persiste, contactez le fabricant."
+   },
+   "780135806192376347": {
+      "message": "Demande de fonctionnalit\u00E9"
+   },
+   "7824803162979416790": {
+      "message": "PC et Chromecast utilisant des r\u00E9seaux Wi-Fi diff\u00E9rents (par exemple, 2,4\u00A0GHz contre 5\u00A0GHz)"
+   },
+   "7864119253243497594": {
+      "message": "Veuillez v\u00E9rifier que votre appareil est connect\u00E9."
+   },
+   "7878303393719404217": {
+      "message": "Modifier\u2026"
+   },
+   "7911416166208830577": {
+      "message": "Aide"
+   },
+   "8025420827457681102": {
+      "message": "Votre Chromecast figure-t-il dans l'application d'installation pour Windows ou pour Mac\u00A0?"
+   },
+   "8119187687393606810": {
+      "message": "Probl\u00E8me de performances du syst\u00E8me"
+   },
+   "8189622236075700665": {
+      "message": "Voulez-vous supprimer les commentaires\u00A0?"
+   },
+   "819996403327805209": {
+      "message": "En savoir plus"
+   },
+   "8242882361224206357": {
+      "message": "Quel est le sujet de vos commentaires\u00A0?"
+   },
+   "8288732448265345962": {
+      "message": "Annuler"
+   },
+   "8323971456338263291": {
+      "message": "Diffuser des domaines SDK suppl\u00E9mentaires\u00A0:"
+   },
+   "8351230089123629067": {
+      "message": "Carte graphique/GPU\u00A0:"
+   },
+   "8432562579042371182": {
+      "message": "Options"
+   },
+   "8436497523209458720": {
+      "message": "Envoyer des commentaires\u2026"
+   },
+   "845494741086179740": {
+      "message": "PC connect\u00E9 par c\u00E2ble et Chromecast connect\u00E9 en Wi-Fi"
+   },
+   "8492868760738700855": {
+      "message": "Votre appareil ne s'affiche pas\u00A0?"
+   },
+   "8500110749168055241": {
+      "message": "Saccad\u00E9e"
+   },
+   "8718838760102086977": {
+      "message": "Mode audio"
+   },
+   "872641383564597641": {
+      "message": "Connexion avec l'appareil interrompue"
+   },
+   "8808326359642865369": {
+      "message": "(exp\u00E9rimental)"
+   },
+   "8847227464712783239": {
+      "message": "L'appareil s\u00E9lectionn\u00E9 est d\u00E9fectueux"
+   },
+   "8856112728107888349": {
+      "message": "Accepter"
+   },
+   "8879729374562274188": {
+      "message": "Une erreur s'est produite."
+   },
+   "8887833628383960193": {
+      "message": "Excellente\u00A0\u2013\u00A0HD"
+   },
+   "8948441291106678529": {
+      "message": "Options de l'extension Google\u00A0Cast"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9059560719840598868": {
+      "message": "Envoyer des commentaires"
+   },
+   "9088277355767285044": {
+      "message": "R\u00E9cup\u00E9ration des journaux depuis $_EXTERNALLOGSURL_$ en cours\u2026",
+      "placeholders": {
+         "_EXTERNALLOGSURL_": {
+            "content": "$1"
+         }
+      }
+   },
+   "9120942669794506861": {
+      "message": "Avez-vous install\u00E9 un VPN, un proxy, un pare-feu ou un serveur de stockage en r\u00E9seau\u00A0?"
+   },
+   "9217039427324387516": {
+      "message": "Veuillez v\u00E9rifier que votre appareil\u00A0:\u003Cul\u003E\u003Cli\u003Ese trouve \u00E0 proximit\u00E9 de votre point d'acc\u00E8s sans fil\u00A0;\u003C/li\u003E\u003Cli\u003Eest compatible avec la projection d'onglets.\u003C/li\u003E\u003C/ul\u003EEnsuite, relancez l'op\u00E9ration."
+   }
+}

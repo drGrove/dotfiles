@@ -1,0 +1,16 @@
+{
+   "browser_action": {
+      "default_icon": "48.png",
+      "default_popup": "popup.html"
+   },
+   "description": " HULU - TV Shows button is a useful extensions that allows you to watch TV directly from your browser.",
+   "icons": {
+      "128": "128.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ4zaevd3GovMF5dQgHIYE5dg/D59f79XALz8SHMxHmj6RSxMZFYiIaa0M4bCXttIEzVMbw2DoA7/DWVpysAyhmoRntNR4gy4dRnDPmUhK71alwwDw/k50IioMfX8OBeVyVvIxOFcGQcJzt6JUozteDb/f/2uOS/jRydjUxAcSfwIDAQAB",
+   "manifest_version": 2,
+   "name": "Hulu - TV Shows",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.7"
+}

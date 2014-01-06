@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "Zugriffscode"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Dieser Zugriffscode l\u00E4uft in $1 ab."
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Alle Verbindungen"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "PIN erneut eingeben"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Abbrechen"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Verlauf l\u00F6schen"
+   },
+   "CLOSE": {
+      "message": "Schlie\u00DFen"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Wenn Sie diese Seite verlassen, wird Ihre Chrome Remote Desktop-Sitzung beendet."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "M\u00F6chten Sie die Remote-Verbindung zu $1 wirklich deaktivieren? Wenn Sie die Verbindung sp\u00E4ter erneut aktivieren m\u00F6chten, m\u00FCssen Sie dies von dem betreffenden Computer aus tun."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Von"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Verlauf \"Verbindungen\""
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Verlauf \"Verbindungen\""
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Zu"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Trotzdem verbinden"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Verbinden"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Weiter"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Dieser Computer ist zurzeit f\u00FCr einen anderen Nutzer freigegeben. M\u00F6chten Sie die Freigabe fortsetzen?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Zur Verwendung von Chrome Remote Desktop m\u00FCssen Sie erweiterte Zugriffsberechtigungen auf Ihren Computer gew\u00E4hren. Dieser Schritt ist nur einmal erforderlich."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Bitten Sie den Nutzer, auf dessen Computer Sie zugreifen m\u00F6chten, auf \"Jetzt freigeben\" zu klicken und Ihnen den Zugriffscode mitzuteilen."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Chrome Remote Desktop erm\u00F6glicht die sichere Freigabe Ihres Computers \u00FCber das Internet. Beide Nutzer m\u00FCssen dazu die Chrome Remote Desktop App ausf\u00FChren. Diese App finden Sie unter $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Deaktivieren"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Verbindung trennen"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Verbindung trennen"
+   },
+   "DURATION_HEADER": {
+      "message": "Dauer"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Fehler bei der Authentifizierung. Melden Sie sich erneut in Chrome Remote Desktop an."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Es fehlen einige Komponenten, die f\u00FCr Chrome Remote Desktop erforderlich sind. \u00DCberpr\u00FCfen Sie, ob die neueste Version installiert ist, und versuchen Sie es erneut."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Der Remote-Computer reagiert nicht auf Verbindungsanfragen. \u00DCberpr\u00FCfen Sie, ob er online ist, und versuchen Sie es erneut."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Die Verbindungen zum Remote-Computer werden vor\u00FCbergehend blockiert, da versucht wurde, eine Verbindung mit einer ung\u00FCltigen PIN herzustellen. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Eine inkompatible Version von Chrome Remote Desktop wurde erkannt. \u00DCberpr\u00FCfen Sie, ob die neueste Version von Chrome und Chrome Remote Desktop auf beiden Computern installiert ist, und versuchen Sie es erneut."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Der Zugriffscode ist ung\u00FCltig. Bitte versuchen Sie es erneut."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Gem\u00E4\u00DF den Richtlinieneinstellungen k\u00F6nnen Sie diesen Computer nicht als Chrome Remote Desktop-Host verwenden. Wenden Sie sich f\u00FCr weitere Hilfe an Ihren Systemadministrator."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Es fehlen einige Komponenten, die f\u00FCr Chrome Remote Desktop erforderlich sind. \u00DCberpr\u00FCfen Sie, ob Sie die neueste Version von Chrome verwenden, und versuchen Sie es erneut."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Es konnte keine Verbindung zum Netzwerk hergestellt werden. \u00DCberpr\u00FCfen Sie, ob Ihr Ger\u00E4t online ist."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Sie sind nicht in Chrome Remote Desktop angemeldet. Melden Sie sich an und versuchen Sie es erneut."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Die Verbindung zum Host kann nicht hergestellt werden. Das von Ihnen verwendete Netzwerk ist m\u00F6glicherweise nicht korrekt konfiguriert."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Der Dienst ist vor\u00FCbergehend nicht verf\u00FCgbar. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte melden Sie dieses Problem den Entwicklern."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Verbindung wird hergestellt\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "Warten auf Verbindung..."
+   },
+   "FULL_SCREEN": {
+      "message": "Vollbildmodus"
+   },
+   "GET_STARTED": {
+      "message": "Jetzt starten"
+   },
+   "HELP": {
+      "message": "Hilfe"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Zugreifen"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Freigegebenen Computer sehen und steuern"
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Mit Chrome Remote Desktop erhalten Sie sicheren Zugriff auf diesen Computer."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "PIN \u00E4ndern"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Remote-Verbindungen aktivieren"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Aktivieren Sie die Remote-Verbindungen, wenn Sie mit Chrome Remote Desktop auf diesen Computer zugreifen m\u00F6chten."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Remote-Verbindungen deaktivieren"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Teilen"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Diesen Computer f\u00FCr einen anderen Nutzer zur Ansicht und Steuerung freigeben"
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(Diese Funktion ist noch nicht f\u00FCr Chromebooks verf\u00FCgbar\u2026 Bitte haben Sie noch etwas Geduld.)"
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Um Remote-Verbindungen zu einem anderen Computer zu erm\u00F6glichen, installieren Sie Chrome Remote Desktop auf dem betreffenden Computer und klicken Sie auf \"$1\"."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Sie haben noch keine Computer registriert. Um Remote-Verbindungen zu einem Computer zu erm\u00F6glichen, installieren Sie Chrome Remote Desktop auf dem betreffenden Computer und klicken Sie auf \"$1\"."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Softwareupdates werden normalerweise automatisch ausgef\u00FChrt, in seltenen F\u00E4llen kann dabei jedoch ein Fehler auftreten. Die Aktualisierung der Software dauert nur wenige Minuten und kann bei bestehender Remote-Verbindung zum Computer erfolgen."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Chrome Remote Desktop auf $1 ist veraltet und muss aktualisiert werden."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Helfen Sie uns bei der Verbesserung von Chrome Remote Desktop, indem Sie zulassen, dass wir Nutzungsstatistiken und Absturzberichte erfassen."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Um den Zugriff auf diesen Computer zu sch\u00FCtzen, w\u00E4hlen Sie eine PIN mit $1mindestens 6 Ziffern$2 aus. Die Eingabe dieser PIN ist erforderlich, wenn eine Verbindung von einem anderen Ort aus hergestellt wird."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Fehler beim Starten des Remote-Zugriffsdienstes"
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome l\u00E4dt das Installationsprogramm f\u00FCr den Chrome Remote Desktop-Host herunter. F\u00FChren Sie nach dem Download das Installationsprogramm aus, bevor Sie fortfahren."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "F\u00FChren Sie das Installationsprogramm aus, bevor Sie fortfahren."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "Fehler beim Registrieren dieses Computers"
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Die Remote-Verbindungen f\u00FCr diesen Computer wurden aktiviert."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Bitte \u00FCberpr\u00FCfen Sie die Energieverwaltungseinstellungen Ihres Computers. Vergewissern Sie sich, dass er nicht so konfiguriert ist, dass er bei Inaktivit\u00E4t in den Energiesparmodus schaltet."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Remote-Verbindungen f\u00FCr diesen Computer werden aktiviert\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Die Remote-Verbindungen f\u00FCr diesen Computer wurden deaktiviert."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Remote-Verbindungen f\u00FCr diesen Computer werden deaktiviert\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Fehler beim Deaktivieren des Remote-Zugriffs auf diesen Computer. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "Ihre PIN wurde aktualisiert."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Fehler beim Aktualisieren der PIN. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Die PIN f\u00FCr diesen Computer wird aktualisiert\u2026"
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Zu diesem Computer"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Teilen Sie zur Freigabe Ihres Desktops zun\u00E4chst der Person, die Sie unterst\u00FCtzen wird, den unten stehenden Zugriffscode mit."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Sobald der Nutzer den Code eingibt, beginnt die Freigabesitzung."
+   },
+   "INVALID_PIN": {
+      "message": "Die PIN muss aus mindestens 6 Ziffern bestehen."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Die Bildschirmfreigabe f\u00FCr Nutzer eignet sich besonders f\u00FCr technischen Support per Remote-Zugriff."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Verbunden:"
+   },
+   "LEARN_HOW": {
+      "message": "Weitere Informationen"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Greifen Sie von \u00FCberall aus auf Ihren Computer zu."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Zugriffscode wird generiert..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Ihre Chrome Remote Desktop-Sitzung wurde beendet."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Ihr Desktop ist zurzeit f\u00FCr $1 freigegeben."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autorisieren"
+   },
+   "MODE_IT2ME": {
+      "message": "Remote-Unterst\u00FCtzung"
+   },
+   "MODE_ME2ME": {
+      "message": "Meine Computer"
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Von diesem Computer"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Die PIN muss in beiden Feldern identisch sein."
+   },
+   "PIN_MESSAGE": {
+      "message": "Bitte geben Sie Ihre PIN f\u00FCr $1 ein."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Greifen Sie sicher \u00FCber das Internet auf andere Computer zu oder gew\u00E4hren Sie anderen Nutzern Zugriff auf Ihren Computer."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome Remote Desktop"
+   },
+   "RECONNECT": {
+      "message": "Erneut verbinden"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Desktop-Gr\u00F6\u00DFe anpassen"
+   },
+   "RETRY": {
+      "message": "Wiederholen"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Bildschirmoptionen"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Strg-Alt-Entf"
+   },
+   "SEND_KEYS": {
+      "message": "Eingabe senden"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "Druck"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Gr\u00F6\u00DFe anpassen"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Anmelden"
+   },
+   "SIGN_ME_UP": {
+      "message": "An der Umfrage teilnehmen"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Abmelden"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Freigabe beenden"
+   },
+   "SURVEY_INVITATION": {
+      "message": "M\u00F6chten Sie uns dabei helfen, Chrome Remote Desktop zu verbessern?"
+   },
+   "TIME_HEADER": {
+      "message": "Zeit"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Mit $1 verbinden"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Remote-Verbindungen zu diesem Computer deaktivieren"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Computernamen bearbeiten"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (veraltet)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "Hinweis: Die Richtlinieneinstellungen erlauben nur Verbindungen zwischen Computern in Ihrem Netzwerk."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "HINWEIS: Sie k\u00F6nnen in Chrome Remote Desktop die Option zum \u00D6ffnen als Fenster einstellen, damit alle Tastaturk\u00FCrzel verf\u00FCgbar sind."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Warum ist dieser Vorgang sicher?"
+   }
+}

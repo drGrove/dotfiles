@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "\u00C5tkomstkod"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "\u00C5tkomstkoden upph\u00F6r att g\u00E4lla om $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Alla anslutningar"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Ange PIN-koden igen"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN-kod"
+   },
+   "CANCEL": {
+      "message": "Avbryt"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Rensa historik"
+   },
+   "CLOSE": {
+      "message": "St\u00E4ng"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Om du l\u00E4mnar sidan avslutas sessionen i Chrome Remote Desktop."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "\u00C4r du s\u00E4ker p\u00E5 att du vill inaktivera fj\u00E4rranslutningar till $1? Om du \u00E5ngrar dig m\u00E5ste du bes\u00F6ka datorn f\u00F6r att kunna aktivera anslutningar igen."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Fr\u00E5n"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Anslutningshistorik"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Anslutningshistorik"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Till"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Anslut \u00E4nd\u00E5"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Anslut"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Forts\u00E4tt"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Du delar nu den h\u00E4r datorn med en annan anv\u00E4ndare. Vill du forts\u00E4tta att dela?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Chrome Remote Desktop Host Controller"
+   },
+   "COPYRIGHT": {
+      "message": "Upphovsr\u00E4tt 2013 Google Inc. Med ensamr\u00E4tt."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "Ta bort alla"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "Ta bort"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Om du vill anv\u00E4nda Chrome Remote Desktop m\u00E5ste du bevilja ut\u00F6kad \u00E5tkomstbeh\u00F6righet till datorn. Du beh\u00F6ver bara g\u00F6ra det en g\u00E5ng."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Be anv\u00E4ndaren vars dator du vill f\u00E5 tillg\u00E5ng till att klicka p\u00E5 l\u00E4nken Dela nu och ge dig \u00E5tkomstkoden."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Med Chrome Remote Desktop kan du dela din dator via internet p\u00E5 ett s\u00E4kert s\u00E4tt. B\u00E5da anv\u00E4ndarna m\u00E5ste k\u00F6ra appen Chrome Remote Desktop som du hittar p\u00E5 $1."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "Fj\u00E4rrv\u00E4rden kr\u00E4ver att du autentiserar via en tredje parts webbplats. Om du vill forts\u00E4tta m\u00E5ste du ge Chrome Remote Desktop ytterligare beh\u00F6righeter att komma \u00E5t den h\u00E4r adressen:"
+   },
+   "DISABLE_HOST": {
+      "message": "Inaktivera"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Koppla fr\u00E5n"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Tj\u00E4nsten Chrome Remote Desktop"
+   },
+   "DURATION_HEADER": {
+      "message": "Varaktighet"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Autentiseringen misslyckades. Logga in p\u00E5 Chrome Remote Desktop igen."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Vissa komponenter som kr\u00E4vs f\u00F6r Chrome Remote Desktop saknas. Kontrollera att du har installerat den senaste versionen och f\u00F6rs\u00F6k igen."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Fj\u00E4rrdatorn svarar inte p\u00E5 anslutningsbeg\u00E4ran. Kontrollera att den \u00E4r ansluten till Internet och f\u00F6rs\u00F6k igen."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Anslutningar till fj\u00E4rrdatorn \u00E4r tillf\u00E4lligt blockerade eftersom n\u00E5gon f\u00F6rs\u00F6kt ansluta till fj\u00E4rrdatorn med en ogiltig PIN-kod. F\u00F6rs\u00F6k igen senare."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "Det gick inte att registrera datorn."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Du anv\u00E4nder en inkompatibel version av Chrome Remote Desktop. Se till att den senaste versionen av Chrome och Chrome Remote Desktop har installerats p\u00E5 b\u00E5da datorerna och f\u00F6rs\u00F6k igen."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Koden \u00E4r ogiltig. F\u00F6rs\u00F6k igen."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Enligt policyinst\u00E4llningarna f\u00E5r du inte dela den h\u00E4r datorn som en Chrome Remote Desktop-v\u00E4rd. Kontakta systemadministrat\u00F6ren om du beh\u00F6ver hj\u00E4lp."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Vissa komponenter som kr\u00E4vs f\u00F6r Chrome Remote Desktop saknas. Kontrollera att du anv\u00E4nder den senaste versionen av Chrome och f\u00F6rs\u00F6k igen."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Det gick inte att ansluta till n\u00E4tverket. Kontrollera att enheten \u00E4r online."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Du \u00E4r inte inloggad p\u00E5 Chrome Remote Desktop. Logga in och f\u00F6rs\u00F6k igen."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Det g\u00E5r inte att n\u00E5 v\u00E4rden. Detta beror troligen p\u00E5 konfigurationen av n\u00E4tverket som du anv\u00E4nder."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Tj\u00E4nsten \u00E4r inte tillg\u00E4nglig f\u00F6r n\u00E4rvarande. F\u00F6rs\u00F6k igen senare."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Ett ov\u00E4ntat fel uppstod. Rapportera problemet till utvecklarna."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Anslutningen uppr\u00E4ttas \u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "v\u00E4ntar p\u00E5 anslutning ..."
+   },
+   "FULL_SCREEN": {
+      "message": "Helsk\u00E4rm"
+   },
+   "GET_STARTED": {
+      "message": "Kom ig\u00E5ng"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Vill du hj\u00E4lpa n\u00E5gon samtidigt som ni har kontakt genom en videochatt? Pr\u00F6va $1Fj\u00E4rrskrivbord i Google Hangouts$2."
+   },
+   "HELP": {
+      "message": "Hj\u00E4lp"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "\u00C5tkomst"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Visa och styra en delad dator."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Du kan f\u00E5 s\u00E4ker \u00E5tkomst till den h\u00E4r datorn med Chrome Remote Desktop."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Byt PIN"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "Visa/redigera"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "Den h\u00E4r datorn \u00E4r konfigurerad f\u00F6r att till\u00E5ta att en eller flera klienter ansluter utan att en pinkod m\u00E5ste anges."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Aktivera fj\u00E4rranslutningar"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Du m\u00E5ste aktivera fj\u00E4rranslutningar om du vill anv\u00E4nda Chrome Remote Desktop f\u00F6r att f\u00E5 \u00E5tkomst till den h\u00E4r datorn."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Inaktivera fj\u00E4rranslutningar"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Dela"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Dela den h\u00E4r datorn s\u00E5 att en annan anv\u00E4ndare kan visa och styra den."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(funktionen \u00E4r \u00E4nnu inte tillg\u00E4ngligt f\u00F6r Chromebook ... h\u00E5ll utkik)"
+   },
+   "HOST_CATEGORY": {
+      "message": "V\u00E4rd"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "\u00C5tkomst nekad f\u00F6r klient: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "Klient ansluten: %1."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "Klient fr\u00E5nkopplad: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "IP-adress f\u00F6r kanal f\u00F6r klient: %1 ip='%2' host_ip='%3' channel='%4' connection='%5'."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Om du vill aktivera fj\u00E4rranslutning till en annan dator installerar du Chrome Remote Desktop p\u00E5 den och klickar p\u00E5 $1."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Du har inte registrerat n\u00E5gra datorer. Om du vill aktivera fj\u00E4rranslutningar till en dator installerar du Chrome Remote Desktop p\u00E5 datorn och klickar p\u00E5 $1."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Programuppdateringar sker oftast automatiskt, men kan ibland misslyckas. Uppdateringen av programvaran b\u00F6r inte ta mer \u00E4n n\u00E5gra minuter och du kan g\u00F6ra den n\u00E4r du \u00E4r fj\u00E4rransluten till datorn."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Chrome Remote Desktop p\u00E5 $1 \u00E4r inaktuellt och m\u00E5ste uppdateras."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Hj\u00E4lp oss att f\u00F6rb\u00E4ttra Chrome Remote Desktop genom att l\u00E5ta oss samla in anv\u00E4ndningsstatistik och felrapporter."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Om du vill skydda \u00E5tkomsten till den h\u00E4r datorn v\u00E4ljer du en PIN-kod som best\u00E5r av $1minst sex siffror$2. PIN-koden kr\u00E4vs n\u00E4r du ansluter fr\u00E5n en annan plats."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Det gick inte att starta fj\u00E4rr\u00E5tkomsttj\u00E4nsten."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome h\u00E4mtar installationsprogrammet f\u00F6r fj\u00E4rranslutningsv\u00E4rden Chrome Remote Desktop Host. K\u00F6r installationsprogrammet s\u00E5 fort h\u00E4mtningen \u00E4r klar."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "K\u00F6r installationsprogrammet innan du forts\u00E4tter."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Fj\u00E4rranslutningar har aktiverats f\u00F6r den h\u00E4r datorn."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Kontrollera datorns inst\u00E4llningar f\u00F6r energisparfunktioner och se till att den inte f\u00F6rs\u00E4tts i vilol\u00E4ge vid inaktivitet."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Fj\u00E4rranslutningar aktiveras f\u00F6r den h\u00E4r datorn ..."
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Fj\u00E4rranslutningar har inaktiverats f\u00F6r den h\u00E4r datorn."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Fj\u00E4rranslutningar inaktiveras f\u00F6r den h\u00E4r datorn ..."
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Det gick inte att inaktivera fj\u00E4rr\u00E5tkomst till den h\u00E4r datorn. F\u00F6rs\u00F6k igen senare."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "PIN-koden har uppdaterats."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Det gick inte att uppdatera PIN-koden. F\u00F6rs\u00F6k igen senare."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "PIN-koden f\u00F6r den h\u00E4r datorn uppdateras \u2026"
+   },
+   "HOST_STARTED": {
+      "message": "V\u00E4rd startad f\u00F6r anv\u00E4ndaren: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Till den h\u00E4r datorn"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Om du vill dela ditt skrivbord ger du \u00E5tkomstkoden nedan till den som ska hj\u00E4lpa dig."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "N\u00E4r koden anges startar delningssessionen."
+   },
+   "INVALID_PIN": {
+      "message": "Ange en PIN-kod som best\u00E5r av minst sex siffror."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Sk\u00E4rmdelning mellan anv\u00E4ndare \u00E4r perfekt f\u00F6r fj\u00E4rrstyrd teknisk support."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Ansluten:"
+   },
+   "LEARN_HOW": {
+      "message": "L\u00E4s mer."
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Chrome Remote Desktop Host Preferences"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Chrome Remote\nDesktop Host"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Chrome Remote Desktop Host Uninstaller"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "F\u00E5 \u00E5tkomst till din egen dator var du \u00E4n \u00E4r."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "\u00C5tkomstkod genereras ..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Chrome Remote Desktop-sessionen har avslutats."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Ditt skrivbord delas just nu med $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Auktorisera"
+   },
+   "MODE_IT2ME": {
+      "message": "Fj\u00E4rrhj\u00E4lp"
+   },
+   "MODE_ME2ME": {
+      "message": "Mina datorer"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "Alla kopplade klienter har tagits bort."
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Fr\u00E5n den h\u00E4r datorn"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "F\u00F6ljande klienter har kopplats ihop med den h\u00E4r datorn och kan ansluta utan att en pinkod beh\u00F6ver anges. Du kan \u00E5terkalla beh\u00F6righeten n\u00E4r som helst, antingen individuellt eller f\u00F6r alla klienter."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "Kopplade den"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "Klient"
+   },
+   "PIN": {
+      "message": "PIN-kod"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Ange samma PIN-kod i b\u00E5da rutorna."
+   },
+   "PIN_MESSAGE": {
+      "message": "Ange din PIN-kod f\u00F6r $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "F\u00E5 \u00E5tkomst till andra datorer eller ge andra \u00E5tkomst till din dator \u00F6ver internet p\u00E5 ett s\u00E4kert s\u00E4tt."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome Remote Desktop"
+   },
+   "RECONNECT": {
+      "message": "\u00C5teranslut"
+   },
+   "REMEMBER_PIN": {
+      "message": "Be inte om en pinkod igen n\u00E4r du ansluter till den h\u00E4r v\u00E4rden fr\u00E5n den h\u00E4r datorn."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "Huvudbibliotek"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Integreringsprocess f\u00F6r Desktop"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "V\u00E4rdprocess"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "Till\u00E5t att en annan anv\u00E4ndare kommer \u00E5t datorn s\u00E4kert via internet."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Chrome Remote Desktop Host"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Anpassa skrivbordets storlek"
+   },
+   "RETRY": {
+      "message": "F\u00F6rs\u00F6k igen"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Sk\u00E4rmalternativ"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Skicka tangenter"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Med den h\u00E4r tj\u00E4nsten aktiveras inkommande anslutningar fr\u00E5n Chrome Remote Desktop-klienter."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Krymp den s\u00E5 att den passar in"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Logga in"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Logga ut"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Sluta dela"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Vill du hj\u00E4lpa till att f\u00F6rb\u00E4ttra Chrome Remote Desktop? $1Fyll i enk\u00E4ten.$2"
+   },
+   "TIME_HEADER": {
+      "message": "Tid"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Anslut till $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Inaktivera fj\u00E4rranslutningar till den h\u00E4r datorn"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "\u00C4ndra datorns namn"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (inaktuellt)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Konto"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Bekr\u00E4fta ditt konto och pinkoden nedan f\u00F6r att till\u00E5ta \u00E5tkomst via Chrome Remote Desktop."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "OBS! Enligt policyinst\u00E4llningarna till\u00E5ts endast anslutning mellan datorer i ditt n\u00E4tverk."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "Obs! Om du vill vara s\u00E4ker p\u00E5 att alla kortkommandon \u00E4r tillg\u00E4ngliga kan du st\u00E4lla in Chrome Remote Desktop p\u00E5 \u00D6ppna som f\u00F6nster."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Varf\u00F6r \u00E4r det s\u00E4kert?"
+   },
+   "WORKING": {
+      "message": "Arbetar ..."
+   }
+}

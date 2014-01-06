@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "El\u00E9r\u00E9si k\u00F3d"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Ez az el\u00E9r\u00E9si k\u00F3d lej\u00E1r a k\u00F6vetkez\u0151 id\u0151tartamon bel\u00FCl: $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Minden kapcsolat"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "\u00CDrja be \u00FAjra a PIN k\u00F3dot"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN k\u00F3d"
+   },
+   "CANCEL": {
+      "message": "M\u00E9gse"
+   },
+   "CLEAR_HISTORY": {
+      "message": "El\u0151zm\u00E9nyek t\u00F6rl\u00E9se"
+   },
+   "CLOSE": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Ha elhagyja ezt az oldalt, akkor befejez\u0151dik a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s munkamenete."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Biztosan le szeretn\u00E9 tiltani a t\u00E1voli kapcsolatokat a(z) $1 gazdag\u00E9ppel? Ha meggondolja mag\u00E1t, akkor azon a sz\u00E1m\u00EDt\u00F3g\u00E9pen kell majd \u00FAjb\u00F3l enged\u00E9lyeznie a kapcsolatokat."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Innen:"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Kapcsolatel\u0151zm\u00E9nyek"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Kapcsolatel\u0151zm\u00E9nyek"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Ide:"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Csatlakoz\u00E1s mindenk\u00E9pp"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Csatlakoz\u00E1s"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Folytat\u00E1s"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Ezt a g\u00E9pet jelenleg megosztja egy m\u00E1sik felhaszn\u00E1l\u00F3val. Szeretn\u00E9 folytatni a megoszt\u00E1st?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s haszn\u00E1lat\u00E1hoz kiterjesztett hozz\u00E1f\u00E9r\u00E9si jogosults\u00E1gokat kell adnia a sz\u00E1m\u00EDt\u00F3g\u00E9p\u00E9hez. Ezt csak egyszer kell elv\u00E9gezni."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "K\u00E9rje meg azt a felhaszn\u00E1l\u00F3t, akinek a sz\u00E1m\u00EDt\u00F3g\u00E9p\u00E9t haszn\u00E1lni szeretn\u00E9, hogy kattintson a \u201EMegoszt\u00E1s most\u201D feliratra, \u00E9s adja meg \u00D6nnek a hozz\u00E1f\u00E9r\u00E9si k\u00F3dot."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s lehet\u0151v\u00E9 teszi a sz\u00E1m\u00EDt\u00F3g\u00E9p biztons\u00E1gos megoszt\u00E1s\u00E1t az interneten kereszt\u00FCl. Mindk\u00E9t felhaszn\u00E1l\u00F3n\u00E1l futnia kell a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s alkalmaz\u00E1snak, amely itt tal\u00E1lhat\u00F3: $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Kikapcsol\u00E1s"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Kapcsolat bont\u00E1sa"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Kapcsolat bont\u00E1sa"
+   },
+   "DURATION_HEADER": {
+      "message": "Id\u0151tartam"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "A hiteles\u00EDt\u00E9s nem siker\u00FClt. K\u00E9rj\u00FCk, jelentkezzen be \u00FAjra a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1sba."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s egyes sz\u00FCks\u00E9ges \u00F6sszetev\u0151i hi\u00E1nyoznak. K\u00E9rj\u00FCk, ellen\u0151rizze, hogy telep\u00EDtve van-e a legfrissebb verzi\u00F3, majd pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "A t\u00E1voli sz\u00E1m\u00EDt\u00F3g\u00E9p nem v\u00E1laszol a csatlakoz\u00E1si k\u00E9r\u00E9sekre. K\u00E9rj\u00FCk, ellen\u0151rizze, hogy a t\u00E1voli g\u00E9p onlinekapcsolatban van-e, majd pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "A t\u00E1voli sz\u00E1m\u00EDt\u00F3g\u00E9phez val\u00F3 csatlakoz\u00E1s ideiglenesen le van tiltva, mert valaki \u00E9rv\u00E9nytelen PIN k\u00F3ddal pr\u00F3b\u00E1lt csatlakozni hozz\u00E1. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja \u00FAjra k\u00E9s\u0151bb."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s egy nem kompatibilis verzi\u00F3ja tal\u00E1lhat\u00F3 a sz\u00E1m\u00EDt\u00F3g\u00E9pen. K\u00E9rj\u00FCk, ellen\u0151rizze, hogy mindk\u00E9t sz\u00E1m\u00EDt\u00F3g\u00E9pen a Chrome \u00E9s a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s legfrissebb verzi\u00F3i futnak-e, majd pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "A hozz\u00E1f\u00E9r\u00E9si k\u00F3d \u00E9rv\u00E9nytelen. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Az ir\u00E1nyelv-be\u00E1ll\u00EDt\u00E1sok \u00E9rtelm\u00E9ben a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1sban nem oszthatja meg sz\u00E1m\u00EDt\u00F3g\u00E9p\u00E9t gazdasz\u00E1m\u00EDt\u00F3g\u00E9pk\u00E9nt. Seg\u00EDts\u00E9g\u00E9rt l\u00E9pjen kapcsolatba a rendszergazd\u00E1val."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s egyes sz\u00FCks\u00E9ges \u00F6sszetev\u0151i hi\u00E1nyoznak. K\u00E9rj\u00FCk, ellen\u0151rizze, hogy a Chrome legfrissebb verzi\u00F3j\u00E1t haszn\u00E1lja-e, majd pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Nem siker\u00FClt kapcsol\u00F3dni a h\u00E1l\u00F3zathoz. K\u00E9rj\u00FCk, ellen\u0151rizze, hogy eszk\u00F6ze online \u00E1llapotban van-e."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "\u00D6n nincs bejelentkezve a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1sba. K\u00E9rj\u00FCk, jelentkezzen be, \u00E9s pr\u00F3b\u00E1lja \u00FAjra."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "A gazdag\u00E9p nem \u00E9rhet\u0151 el. Ez val\u00F3sz\u00EDn\u0171leg az \u00D6n \u00E1ltal haszn\u00E1lt h\u00E1l\u00F3zat konfigur\u00E1ci\u00F3ja miatt van."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "A szolg\u00E1ltat\u00E1s \u00E1tmenetileg nem \u00E9rhet\u0151 el. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lkozzon \u00FAjra k\u00E9s\u0151bb."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "V\u00E1ratlan hiba t\u00F6rt\u00E9nt. K\u00E9rj\u00FCk, jelentse a probl\u00E9m\u00E1t a fejleszt\u0151knek."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Csatlakoz\u00E1s\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "v\u00E1rakoz\u00E1s a kapcsolatra..."
+   },
+   "FULL_SCREEN": {
+      "message": "Teljes k\u00E9perny\u0151"
+   },
+   "GET_STARTED": {
+      "message": "Kezd\u0151 l\u00E9p\u00E9sek"
+   },
+   "HELP": {
+      "message": "S\u00FAg\u00F3"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Hozz\u00E1f\u00E9r\u00E9s"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Megosztott sz\u00E1m\u00EDt\u00F3g\u00E9p megtekint\u00E9se \u00E9s ir\u00E1ny\u00EDt\u00E1sa."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Biztons\u00E1gosan hozz\u00E1f\u00E9rhet a sz\u00E1m\u00EDt\u00F3g\u00E9phez a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s seg\u00EDts\u00E9g\u00E9vel."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "PIN k\u00F3d megv\u00E1ltoztat\u00E1sa"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "T\u00E1voli kapcsolatok enged\u00E9lyez\u00E9se"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Enged\u00E9lyeznie kell a t\u00E1voli kapcsolatokat, ha a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1st szeretn\u00E9 haszn\u00E1lni ennek a sz\u00E1m\u00EDt\u00F3g\u00E9pnek az el\u00E9r\u00E9s\u00E9hez."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "T\u00E1voli kapcsolatok letilt\u00E1sa"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Megoszt\u00E1s"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "E sz\u00E1m\u00EDt\u00F3g\u00E9p megoszt\u00E1sa \u00FAgy, hogy azt egy m\u00E1sik felhaszn\u00E1l\u00F3 l\u00E1thassa \u00E9s ir\u00E1ny\u00EDthassa."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(Ez a funkci\u00F3 m\u00E9g nem \u00E9rhet\u0151 el Chromebookok sz\u00E1m\u00E1ra... l\u00E1togasson vissza k\u00E9s\u0151bb)"
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Ahhoz, hogy enged\u00E9lyezhesse a t\u00E1voli kapcsolatokat egy m\u00E1sik sz\u00E1m\u00EDt\u00F3g\u00E9pen, telep\u00EDtse a g\u00E9pre a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1st, majd kattintson a k\u00F6vetkez\u0151 gombra: \u201E$1\u201D."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "\u00D6nnek nincs regisztr\u00E1lt sz\u00E1m\u00EDt\u00F3g\u00E9pe. Ahhoz, hogy enged\u00E9lyezhesse a t\u00E1voli kapcsolatokat egy sz\u00E1m\u00EDt\u00F3g\u00E9pen, telep\u00EDtse a g\u00E9pre a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1st, majd kattintson a k\u00F6vetkez\u0151 gombra: \u201E$1\u201D."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "A szoftverfriss\u00EDt\u00E9sek \u00E1ltal\u00E1ban automatikusan t\u00F6rt\u00E9nnek, \u00E1m egyes ritka esetekben sikertelenek lehetnek. A szoftverfriss\u00EDt\u00E9s nem szokott p\u00E1r percn\u00E9l t\u00F6bb id\u0151t ig\u00E9nybe venni, \u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9phez t\u00E1volr\u00F3l csatlakozva is elv\u00E9gezhet\u0151."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "A(z) $1 Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1sa elavult, friss\u00EDteni kell."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Seg\u00EDtsen fejleszteni a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1st az\u00E1ltal, hogy rendelkez\u00E9s\u00FCnkre bocs\u00E1tja a haszn\u00E1lati statisztik\u00E1kat \u00E9s hibajelent\u00E9seket."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "A sz\u00E1m\u00EDt\u00F3g\u00E9p hozz\u00E1f\u00E9r\u00E9s\u00E9nek v\u00E9delm\u00E9hez v\u00E1lasszon egy $1legal\u00E1bb hat sz\u00E1mjegyb\u0151l \u00E1ll\u00F3$2 PIN k\u00F3dot. Ezt a PIN k\u00F3dot k\u00E9ri a rendszer, ha m\u00E1s helyr\u0151l k\u00EDs\u00E9rlik meg a kapcsol\u00F3d\u00E1st."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Nem siker\u00FClt elind\u00EDtani a t\u00E1voli hozz\u00E1f\u00E9r\u00E9si szolg\u00E1ltat\u00E1st."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "A Chrome let\u00F6lti a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s gazdag\u00E9pekhez val\u00F3 telep\u00EDt\u0151j\u00E9t. Miut\u00E1n a let\u00F6lt\u00E9s befejez\u0151d\u00F6tt, futtassa a telep\u00EDt\u0151t a folytat\u00E1s el\u0151tt."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "K\u00E9rj\u00FCk, futtassa a telep\u00EDt\u0151t a folytat\u00E1s el\u0151tt."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "Nem siker\u00FClt regisztr\u00E1lni a sz\u00E1m\u00EDt\u00F3g\u00E9pet."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "A t\u00E1voli kapcsolatok enged\u00E9lyezve vannak ezen a sz\u00E1m\u00EDt\u00F3g\u00E9pen."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "K\u00E9rj\u00FCk, ellen\u0151rizze a sz\u00E1m\u00EDt\u00F3g\u00E9p energiagazd\u00E1lkod\u00E1si be\u00E1ll\u00EDt\u00E1sait, \u00E9s gy\u0151z\u0151dj\u00F6n meg r\u00F3la, hogy az t\u00E9tlens\u00E9g eset\u00E9n nincs alv\u00F3 \u00FCzemm\u00F3dra \u00E1ll\u00EDtva."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "T\u00E1voli kapcsolatok enged\u00E9lyez\u00E9se ezen a sz\u00E1m\u00EDt\u00F3g\u00E9pen..."
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "A t\u00E1voli kapcsolatok le vannak tiltva ezen a sz\u00E1m\u00EDt\u00F3g\u00E9pen."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "T\u00E1voli kapcsolatok letilt\u00E1sa ezen a sz\u00E1m\u00EDt\u00F3g\u00E9pen..."
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Nem siker\u00FClt letiltani a t\u00E1voli hozz\u00E1f\u00E9r\u00E9st a sz\u00E1m\u00EDt\u00F3g\u00E9phez. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja \u00FAjra k\u00E9s\u0151bb."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "A PIN k\u00F3d friss\u00FClt."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Nem siker\u00FClt m\u00F3dos\u00EDtani a PIN k\u00F3dot. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja \u00FAjra k\u00E9s\u0151bb."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "A sz\u00E1m\u00EDt\u00F3g\u00E9phez tartoz\u00F3 PIN k\u00F3d friss\u00EDt\u00E9se folyamatban..."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Ehhez a sz\u00E1m\u00EDt\u00F3g\u00E9phez"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Az asztal megoszt\u00E1s\u00E1nak megkezd\u00E9s\u00E9hez adja meg az al\u00E1bbi el\u00E9r\u00E9si k\u00F3dot annak a szem\u00E9lynek, aki seg\u00EDt \u00D6nnek."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Miut\u00E1n be\u00EDrj\u00E1k a k\u00F3dot, megkezd\u0151dik a megoszt\u00E1si munkamenet."
+   },
+   "INVALID_PIN": {
+      "message": "K\u00E9rj\u00FCk, legal\u00E1bb hat sz\u00E1mjegyb\u0151l \u00E1ll\u00F3 PIN k\u00F3dot adjon meg."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Felhaszn\u00E1l\u00F3k k\u00F6z\u00F6tti k\u00E9perny\u0151megoszt\u00E1s, amely t\u00F6k\u00E9letes a t\u00E1voli m\u0171szaki t\u00E1mogat\u00E1shoz."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Csatlakoztatva:"
+   },
+   "LEARN_HOW": {
+      "message": "Tudja meg, hogyan."
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "B\u00E1rhonnan hozz\u00E1f\u00E9rhet saj\u00E1t sz\u00E1m\u00EDt\u00F3g\u00E9p\u00E9hez."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Hozz\u00E1f\u00E9r\u00E9si k\u00F3d l\u00E9trehoz\u00E1sa..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "A Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s munkamenet v\u00E9get \u00E9rt."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Az asztalt jelenleg ezzel a felhaszn\u00E1l\u00F3val osztja meg: $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Enged\u00E9lyez\u00E9s"
+   },
+   "MODE_IT2ME": {
+      "message": "T\u00E1vseg\u00EDts\u00E9g"
+   },
+   "MODE_ME2ME": {
+      "message": "Saj\u00E1t sz\u00E1m\u00EDt\u00F3g\u00E9pek"
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Err\u0151l a sz\u00E1m\u00EDt\u00F3g\u00E9pr\u0151l"
+   },
+   "PIN": {
+      "message": "PIN k\u00F3d"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "K\u00E9rj\u00FCk, ugyanazt a PIN k\u00F3dot adja meg mindk\u00E9t mez\u0151ben."
+   },
+   "PIN_MESSAGE": {
+      "message": "K\u00E9rj\u00FCk, adja meg a(z) $1 PIN k\u00F3dj\u00E1t."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "M\u00E1s sz\u00E1m\u00EDt\u00F3g\u00E9pek el\u00E9r\u00E9se vagy annak enged\u00E9lyez\u00E9se, hogy egy m\u00E1sik felhaszn\u00E1l\u00F3 a sz\u00E1m\u00EDt\u00F3g\u00E9phez biztons\u00E1gosan hozz\u00E1f\u00E9rhessen az interneten kereszt\u00FCl."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s"
+   },
+   "RECONNECT": {
+      "message": "\u00DAjrakapcsol\u00F3d\u00E1s"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Az asztal \u00E1tm\u00E9retez\u00E9se, hogy illeszkedjen"
+   },
+   "RETRY": {
+      "message": "\u00DAjra"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "K\u00E9perny\u0151-be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Billenty\u0171le\u00FCt\u00E9sek k\u00FCld\u00E9se"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "M\u00E9retre igaz\u00EDt\u00E1s"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Bejelentkez\u00E9s"
+   },
+   "SIGN_ME_UP": {
+      "message": "R\u00E9szv\u00E9tel a felm\u00E9r\u00E9sben"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Kijelentkez\u00E9s"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Megoszt\u00E1s le\u00E1ll\u00EDt\u00E1sa"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Seg\u00EDtene nek\u00FCnk a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1s fejleszt\u00E9s\u00E9ben?"
+   },
+   "TIME_HEADER": {
+      "message": "Id\u0151"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Csatlakoz\u00E1s a k\u00F6vetkez\u0151h\u00F6z: $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "T\u00E1voli kapcsol\u00F3d\u00E1sok letilt\u00E1sa ezen a sz\u00E1m\u00EDt\u00F3g\u00E9pen"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Sz\u00E1m\u00EDt\u00F3g\u00E9p nev\u00E9nek m\u00F3dos\u00EDt\u00E1sa"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (elavult)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "MEGJEGYZ\u00C9S: az ir\u00E1nyelv-be\u00E1ll\u00EDt\u00E1sok a csatlakoz\u00E1st csak a saj\u00E1t h\u00E1l\u00F3zaton bel\u00FCl tal\u00E1lhat\u00F3 sz\u00E1m\u00EDt\u00F3g\u00E9pek k\u00F6z\u00F6tt teszik lehet\u0151v\u00E9."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "MEGJEGYZ\u00C9S: ha biztos\u00EDtani akarja valamennyi billenty\u0171k\u00F3d el\u00E9rhet\u0151s\u00E9g\u00E9t, konfigur\u00E1lja a Chrome t\u00E1voliasztal-szolg\u00E1ltat\u00E1st a \u201EMegnyit\u00E1s ablakban\u201D lehet\u0151s\u00E9ggel."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Mi\u00E9rt biztons\u00E1gos ez?"
+   }
+}

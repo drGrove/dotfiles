@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Display PHP errors & vars dumps in Google Chrome console and notification popups, execute PHP code remotely.",
+   "homepage_url": "http://code.google.com/p/php-console",
+   "icons": {
+      "128": "img/logo_128.png",
+      "16": "img/logo_16.png",
+      "48": "img/logo_48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDncbe0AAnTZv7+hzCkPzCQaTwU+GxX8XBM9pp/Xwdi3tV4CF39FbrsQfID7AVIFX8l9kB/6t8aYPS8oIdus9iurm+7Km8r7FeBYcP1/w26srIxe57BIbvHOauy/fZ7nhpZ+VHOky+qm9uR1lNN5cbKVxugFeE2HsK+IkxqJrqyUwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "25",
+   "name": "PHP Console",
+   "page_action": {
+      "default_icon": "img/logo_16.png",
+      "default_title": "PHP Console is enabled on server. Right click on the page to access configuration menu."
+   },
+   "permissions": [ "contextMenus", "tabs", "notifications", "webRequest", "*://*/*", "background", "storage", "clipboardWrite", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.17",
+   "web_accessible_resources": [ "notification/style.css", "notification/popup.js", "notification/popup.html" ]
+}

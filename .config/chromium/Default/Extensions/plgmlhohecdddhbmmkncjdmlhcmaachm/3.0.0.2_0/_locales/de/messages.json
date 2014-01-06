@@ -1,0 +1,11 @@
+{
+   "appDesc": {
+      "message": "Diagrams Online"
+   },
+   "appLongDesc": {
+      "message": "draw.io ist eine kostenlose Anwendung zum Zeichnen von Diagrammen mit Unterst\u00FCtzung f\u00FCr Google Drive(tm). Das Zeichnen folgender Diagramme ist mit draw.io m\u00F6glich:\n\n- Flussdiagramme\n- UML\n- Beziehungsdiagramme (ERD)\n- Netzwerkdiagramme\n- Gesch\u00E4ftsprozessmodelle\n- Organigramme\n- Elektronische Schaltungen\n- Drahtgittermodelle und Mockups\n- und vieles mehr\n\nFeatures:\n\n- Unterst\u00FCtzt HTML 5 Browser, sowie IE 6-8\n- Grosse Bibliothek von Zeichenwerkzeugen\n- Intuitive Benutzerschnittstelle mit Drag und Drop\n- Bildsuche und Einf\u00FCgen von Bildern\n- Exportieren nach PNG, GIF, JPG, XML, SVG und PDF\n- Unterst\u00FCtzung f\u00FCr Touch-Ger\u00E4te\n- Zusammenarbeit in Echtzeit\n- Diagramme in Blogs und Wikis einbetten"
+   },
+   "appName": {
+      "message": "draw.io"
+   }
+}

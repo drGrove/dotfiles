@@ -1,0 +1,743 @@
+<!doctype html>
+<html ng-app="dongleSetup" ng-csp>
+  <head>
+    <link href="dongle_setup_flow_css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="angular_sanitize.js"></script>
+    <script type="text/javascript" src="background_script.js"></script>
+    <title>Cast device settings</title>
+  </head>
+  <body id="dongle-setup" ng-controller="dongle.DongleSetupFlowCtrl">
+    <div ng-class="{'cast-device-selection-shifted': flowId}">
+      <h3 ng-show="activeNetworkName && networkingApiSupported">
+        Cast devices on network "{{activeNetworkName}}"
+      </h3>
+      <h3 ng-hide="activeNetworkName && networkingApiSupported">
+        Available Cast devices
+      </h3>
+      <div class="cast-device-box">
+        <div class="grey-text no-cast-devices-status"
+            ng-show="castDeviceList.length == 0">
+          No Cast devices found.
+          <p ng-show="!activeNetworkName && networkingApiSupported">
+            Please connect to a Wi-Fi network to see configured Cast devices.
+          </p>
+          <p ng-show="activeNetworkName && networkingApiSupported && allowAdd">
+            Click one of the buttons below to set up a new device.
+          </p>
+        </div>
+        <ul class="device-list-setup" ng-show="castDeviceList.length">
+          <li ng-class="{
+                'device-item': listItem != castDevice,
+                'device-item-selected': listItem == castDevice
+              }"
+              ng-repeat="listItem in castDeviceList"
+              ng-click="onDeviceSelected($index, 'castDeviceList',
+                  'castDevice')">
+            {{listItem['name']}}
+          </li>
+        </ul>
+      </div>
+      <button ng-click="onAddDevice()" ng-disabled="flowId" ng-show="allowAdd">
+        <angular-message desc="Label for the button in the extension options
+            that starts search for not yet setup Chromecasts."
+            key="dongle_add_chromecast_button_label">
+          Add Chromecast...
+        </angular-message>
+      </button>
+      <button ng-click="onEditDevice()"
+          ng-disabled="!castDevice || !castDevice.isChromecast || flowId"
+          ng-show="allowEdit">
+        <angular-message desc="The label for the button in the extension options
+            that starts flow for editing the selected device's settings."
+            key="dongle_edit_button_label">
+          Edit...
+        </angular-message>
+      </button>
+      <div ng-hide="allowAdd || allowEdit">
+        <a href="http://support.google.com/chromecast/go/nodevices"
+            target="_blank" class="no-devices-warning">
+          <angular-message desc="Text for the link shown in the extension
+              options directing the user to the support page if she cannot
+              find his Chromecast in the list of the detected Chromecasts."
+              key="dongle_no_cast_device_link">
+            Don't see your device?
+          </angular-message>
+        </a>
+      </div>
+    </div>
+
+    <div id="dongle-flow-background" ng-show="flowId"
+        ng-click="showNetworkOptions = false">
+      <div id="flow-edit-device" class="flow-edit-device"
+          ng-show="flowId == 'flow-edit-device'">
+        <div class="header-strip">
+          <div class="flow-title">{{deviceToSetup}} settings</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="network-select-description">
+            Choose the Wi-Fi network this Chromecast should use
+          </div>
+          <div class="grouped">
+            <div class="input-row">
+              <div class="input-row-label">Network:</div>
+              <div class="context-menu">
+                <div class="context-menu-content">
+                  <div class="context-menu-input">
+                    <input type="text" ng-disabled="connecting"
+                        ng-model="networkName"
+                        ng-show="selectCustomNetwork">
+                    </input>
+                    <div class="context-menu-input-arrow"
+                        ng-click="!connecting && toggleNetworkOptions($event)"
+                        ng-show="selectCustomNetwork">
+                    </div>
+                  </div>
+                  <button class="context-menu-button"
+                      ng-show="!selectCustomNetwork"
+                      ng-disabled="connecting"
+                      ng-click="toggleNetworkOptions($event)">
+                    <div class="context-menu-network-option-icon
+                                account-for-button-top-border"
+                        ng-style="getNetworkIconStyle(network, 0)">
+                      <div class="context-menu-network-option-lock"
+                          ng-show="networkNeedsPassword(network)">
+                      </div>
+                    </div>
+                    <span class="context-menu-button-label ng-class:{
+                        'context-menu-button-label-no-icon': !network}">
+                      {{networkName || 'Select network...'}}
+                    </span>
+                    <div class="context-menu-input-arrow
+                                account-for-button-top-border
+                                account-for-button-end-border">
+                    </div>
+                  </button>
+                  <div class="context-menu-options"
+                      ng-show="showNetworkOptions">
+                    <ul class="context-menu-options-group">
+                      <li ng-repeat="option in networkOptions"
+                          class="context-menu-options-item"
+                          ng-click="onNetworkSelected(option)">
+                        <div class="context-menu-network-option-icon"
+                            ng-style="getNetworkIconStyle(option['value'], 0)">
+                          <div class="context-menu-network-option-lock"
+                              ng-show="networkNeedsPassword(option['value'])">
+                          </div>
+                        </div>
+                        {{option['name']}}
+                      </li>
+                    </ul>
+                    <div class="context-menu-options-group-splitter"
+                        ng-show="!selectCustomNetwork && networkOptions.length">
+                    </div>
+                    <ul class="context-menu-options-group">
+                      <li class="context-menu-options-item"
+                          ng-show="!selectCustomNetwork"
+                          ng-click="onJoinOtherNetwork()">
+                        <div class="context-menu-network-option-icon-empty">
+                        </div>
+                        Join other...
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-row" ng-show="selectCustomNetwork">
+              <div class="input-row-label">Security:</div>
+              <select class="input-row-select-field"
+                  ng-model="customNetworkSecurity"
+                  ng-disabled="connecting"
+                  ng-options="auth.value as auth.name
+                              for auth in customNetworkSupportedSecurity"
+                  ng-change="networkPassword=''">
+              </select>
+              <div class="context-menu-input-arrow
+                          account-for-button-top-border
+                          account-for-button-end-border">
+              </div>
+            </div>
+            <div class="input-row" ng-hide="shouldHidePasswordField()">
+              <div class="input-row-label">Password:</div>
+              <input class="input-row-field" type="password"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-hide="showNetworkPassword">
+              </input>
+              <input class="input-row-field" type="text"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-show="showNetworkPassword">
+              </input>
+              <div ng-class="{
+                    'input-password-toggle-button-hidden': !showNetworkPassword,
+                    'input-password-toggle-button-shown': showNetworkPassword
+                  }" ng-show="!shouldDisablePasswordField()"
+                  ng-click='showNetworkPassword = !showNetworkPassword'>
+              </div>
+            </div>
+          </div>
+          <div class="splitter"></div>
+          <div class="grouped">
+            <div class="input-row">
+              <div class="input-row-label">Device name:</div>
+              <input class="input-row-field" ng-model="friendlyName"
+                  ng-disabled="connecting" maxlength="24" type="text">
+            </div>
+            <div class="input-row">
+              <div class="input-row-label">Time zone:</div>
+              <select class="input-row-select-field" ng-model="timezone"
+                  ng-disabled="!supportedTimezones.length || connecting"
+                  ng-options="item.timezone as item.display_string
+                              for item in supportedTimezones">
+              </select>
+              <div class="context-menu-input-arrow
+                          account-for-button-top-border
+                          account-for-button-end-border">
+              </div>
+            </div>
+          </div>
+          <div class="grouped">
+            <div class="input-row">
+              <label>
+                <input type="checkbox" class="input-row-checkbox"
+                    ng-disabled="connecting"
+                    ng-model="optIn.stats">
+                </input>
+                <div class="input-row-checkbox-text">
+                  Automatically send usage statistics and crash reports to
+                  Google
+                </div>
+              </label>
+            </div>
+            <div class="input-row">
+              <label>
+                <input type="checkbox" class="input-row-checkbox"
+                    ng-disabled="connecting"
+                    ng-model="optIn.deviceId">
+                </input>
+                <div class="input-row-checkbox-text">
+                  Use this Chromecast's serial number when checking for updates
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status"  ng-show="connecting">
+            <div class="progress-text grey-text">
+              <div class="progress-icon"></div>
+              <div>Setting up the Chromecast...</div>
+            </div>
+          </div>
+          <div class="control-buttons" ng-hide="connecting">
+            <button ng-click="onFactoryReset()">
+              {{getButtonLabel('factory-reset-button')}}
+            </button>
+          </div>
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onSave()"
+                ng-disabled="connecting || shouldDisableSaveButton()">
+              {{getButtonLabel('save-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-select-device" class="flow"
+          ng-show="flowId == 'flow-select-device'">
+        <div class="header-strip">
+          <div class="flow-title">Set up a new Chromecast</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          Plug your Chromecast into your TV and select the Chromecast name that
+          you see displayed on your TV screen.
+          <div class="device-box">
+            <div class="device-list-status"
+                ng-hide="deviceList && deviceList.length">
+              <span class="grey-text">Searching for Chromecasts...</span>
+            </div>
+            <ul class="device-list-unsetup"
+                ng-show="deviceList && deviceList.length">
+              <li ng-class="{
+                    'device-item': listItem != device,
+                    'device-item-selected': listItem == device
+                  }"
+                  ng-repeat="listItem in deviceList"
+                  ng-click="onDeviceSelected($index, 'deviceList', 'device')">
+                {{listItem['Name']}}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status">
+            <div class="grey-text progress-text"
+                ng-hide="deviceList && deviceList.length">
+              <div class="progress-icon"></div>
+              <div>Searching for Chromecasts...</div>
+            </div>
+            <div ng-show="deviceList && deviceList.length">
+              <a href="" ng-click="updateFlow('flow-no-device-help')">
+                Help, I don't see my Chromecast
+              </a>
+            </div>
+          </div>
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onSetup()" ng-disabled="!device">
+              {{getButtonLabel('set-up-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-setup-notice" class="flow"
+          ng-show="flowId == 'flow-setup-notice'">
+        <div class="header-strip">
+          <div class="flow-title">Ready to set up {{deviceToSetup}}</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          Your computer's internet connection will temporarily be unavailable
+          while we get {{deviceToSetup}} up on your
+          network.<br>
+          <br>
+          But don't worry, your connection will be restored as soon as setup is
+          finished.<br>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onContinue()">
+              {{getButtonLabel('continue-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-connect-to-device" class="flow"
+          ng-show="flowId == 'flow-connect-to-device'">
+        <div class="header-strip">
+          <div class="flow-title">Connecting to {{deviceToSetup}}</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="flow-content-detached">
+            <div class="flow-content-status">
+               <div class="grey-text progress-text">
+               <div class="buffer-div"></div>
+                <div class="progress-icon"></div>
+                <div>Connecting to {{deviceToSetup}}...</div>
+                <div class="buffer-div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-confirm-pin" class="flow"
+          ng-show="flowId == 'flow-confirm-pin'">
+        <div class="header-strip">
+          <div class="flow-title">Connecting to {{deviceToSetup}}</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="pin-status" ng-show="pin.length == 4">
+            Please confirm that this code is shown on your TV:<br>
+            <div class="pin-container">
+              <span class="pin-cell">{{pin[0]}}</span>
+              <span class="pin-cell">{{pin[1]}}</span>
+              <span class="pin-cell">{{pin[2]}}</span>
+              <span class="pin-cell">{{pin[3]}}</span>
+            </div>
+          </div>
+          <div ng-hide="pin.length == 4">
+            We will not complete setup for the Chromecast since you did not
+            confirm that the code is shown on your TV.<br>
+            <br>
+            You may also have accidentally connected to another Chromecast.
+            Please ensure that your Chromecast is plugged in and your TV is
+            set to the right input.
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-show="pin.length == 4" ng-click="startSetup()">
+              {{getButtonLabel('accept-button')}}
+            </button>
+            <button ng-show="pin.length == 4" ng-click="pin = []">
+              {{getButtonLabel('reject-button')}}
+            </button>
+            <button ng-hide="pin.length == 4" ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-select-network" class="flow"
+          ng-show="flowId == 'flow-select-network'">
+        <div class="header-strip">
+          <div class="flow-title">Set up {{deviceToSetup}}</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="network-select-description">
+            Choose the Wi-Fi network this Chromecast should use
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">Network:</div>
+            <div class="context-menu">
+              <div class="context-menu-content">
+                <div class="context-menu-input">
+                  <input type="text" ng-disabled="connecting"
+                      ng-model="networkName"
+                      ng-show="selectCustomNetwork">
+                  </input>
+                  <div class="context-menu-input-arrow"
+                      ng-click="!connection && toggleNetworkOptions($event)"
+                      ng-show="selectCustomNetwork">
+                  </div>
+                </div>
+                <button class="context-menu-button"
+                    ng-disabled="connecting"
+                    ng-show="!selectCustomNetwork"
+                    ng-click="toggleNetworkOptions($event)">
+                  <div class="context-menu-network-option-icon
+                              account-for-button-top-border"
+                      ng-style="getNetworkIconStyle(network, 0)">
+                    <div class="context-menu-network-option-lock"
+                        ng-show="networkNeedsPassword(network)">
+                    </div>
+                  </div>
+                  <span class="context-menu-button-label ng-class:{
+                      'context-menu-button-label-no-icon': !network}">
+                    {{networkName || 'Select network...'}}
+                  </span>
+                  <div class="context-menu-input-arrow
+                              account-for-button-top-border
+                              account-for-button-end-border">
+                  </div>
+                </button>
+                <div class="context-menu-options" ng-show="showNetworkOptions">
+                  <ul class="context-menu-options-group">
+                    <li ng-repeat="option in networkOptions"
+                        class="context-menu-options-item"
+                        ng-click="onNetworkSelected(option)">
+                      <div class="context-menu-network-option-icon"
+                          ng-style="getNetworkIconStyle(option['value'], 0)">
+                        <div class="context-menu-network-option-lock"
+                            ng-show="networkNeedsPassword(option['value'])">
+                        </div>
+                      </div>
+                      {{option['name']}}
+                    </li>
+                  </ul>
+                  <div class="context-menu-options-group-splitter"
+                      ng-show="!selectCustomNetwork && networkOptions.length">
+                  </div>
+                  <ul class="context-menu-options-group">
+                    <li class="context-menu-options-item"
+                        ng-show="!selectCustomNetwork"
+                        ng-click="onJoinOtherNetwork()">
+                      <div class="context-menu-network-option-icon-empty"></div>
+                      Join other...
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-row" ng-show="selectCustomNetwork">
+            <div class="input-row-label">Security:</div>
+            <select class="input-row-select-field"
+                ng-disabled="connecting"
+                ng-model="customNetworkSecurity"
+                ng-options="auth.value as auth.name
+                            for auth in customNetworkSupportedSecurity"
+                ng-change="networkPassword=''">
+            </select>
+            <div class="context-menu-input-arrow
+                        account-for-button-top-border
+                        account-for-button-end-border">
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">Password:</div>
+              <input class="input-row-field" type="password"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-hide="showNetworkPassword">
+              </input>
+              <input class="input-row-field" type="text"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-show="showNetworkPassword">
+              </input>
+               <div ng-class="{
+                    'input-password-toggle-button-hidden': !showNetworkPassword,
+                    'input-password-toggle-button-shown': showNetworkPassword
+                  }" ng-show="!shouldDisablePasswordField()"
+                  ng-click='showNetworkPassword = !showNetworkPassword'>
+              </div>
+          </div>
+          <div class="friendly-name-description">
+            Give this Chromecast a friendly name (e.g. Living Room)
+          </div>
+          <input class="friendly-name-input"
+              placeholder="{{deviceToSetup}}" ng-model="friendlyName"
+              ng-disabled="connecting" maxlength="24" type="text">
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status">
+            <div class="grey-text progress-text" ng-show="connecting">
+              <div class="progress-icon"></div>
+              <div>Setting up the Chromecast...</div>
+            </div>
+          </div>
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onNetworkOK()"
+                ng-disabled="!getNetwork() || connecting">
+              {{getButtonLabel('ok-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-invalid-password" class="flow"
+          ng-show="flowId == 'flow-invalid-password'">
+        <div class="header-strip">
+          <div class="flow-title">Unable to connect to network</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="input-row">
+            <div class="input-row-label">Network:</div>
+            <input type="text" class="input-row-field" ng-model="networkName">
+            </input>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">Security:</div>
+            <select class="input-row-select-field"
+                ng-model="customNetworkSecurity"
+                ng-options="auth.value as auth.name
+                            for auth in customNetworkSupportedSecurity"
+                ng-change="networkPassword=''">
+            </select>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">Password:</div>
+              <input class="input-row-field" type="password"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField()"
+                  ng-hide="showNetworkPassword"
+                  ng-change="disableConfirmPasswordButton = false;">
+              </input>
+              <input class="input-row-field" type="text"
+                  ng-model="networkPassword"
+                  ng-disabled="shouldDisablePasswordField()"
+                  ng-show="showNetworkPassword"
+                  ng-change="disableConfirmPasswordButton = false;">
+              </input>
+              <div ng-class="{
+                    'input-password-toggle-button-hidden': !showNetworkPassword,
+                    'input-password-toggle-button-shown': showNetworkPassword
+                  }" ng-show="!shouldDisablePasswordField()"
+                  ng-click='showNetworkPassword = !showNetworkPassword'>
+              </div>
+          </div>
+          <div class="input-row-warning">Incorrect password.</div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onPasswordConfirmed()"
+                ng-disabled="!getNetwork() || disableConfirmPasswordButton">
+              {{getButtonLabel('try-again-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-no-device-help" class="flow"
+          ng-show="flowId == 'flow-no-device-help'">
+        <div class="header-strip">
+          <div class="flow-title">
+            Why doesn't my Chromecast appear in the setup list?
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          You may have already set up a Chromecast. To check, click on the Cast
+          extension. If your Chromecast is listed there, you can start casting
+          immediately without additional setup.<br>
+          <br>
+          If not, please verify that yout Chromecast is plugged in, powered on,
+          and is within 20 feet of this computer.<br>
+          <br>
+          If you still don't see your Chromecast, you can factory reset by
+          holding the reset button down for 15 seconds on your Chromecast.<br>
+          <br>
+          For more help, visit:
+          <a href="http://support.google.com/chromecast" target="_blank">
+            support.google.com/chromecast
+          </a>
+        </div>
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="updateFlow('flow-select-device')">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-factory-reset" class="flow-edit-device"
+          ng-show="flowId == 'flow-factory-reset'">
+        <div class="flow-title">
+          <span ng-show="nameAfterFactoryReset">
+            Your Chromecast has been reset
+          </span>
+          <span ng-show="!nameAfterFactoryReset">
+            Your Chromecast is being reset
+          </span>
+        </div>
+        <div class="flow-content" ng-show="nameAfterFactoryReset">
+          All done - the device you have reset is now known as
+          "{{nameAfterFactoryReset}}" and is not connected to a network.<br>
+          <br>
+          If you'd like to set it up on your network, just select "Add
+          Chromecast" on the Chromecast extension options page.
+        </div>
+        <div class="flow-content" ng-show="!nameAfterFactoryReset">
+          Please wait while your Chromecast resets and restarts.
+          <div class="flow-content-detached">
+            <div class="grey-text flow-content-status">
+              <div class="progress-text">
+                <div class="buffer-div"></div>
+                <div class="progress-icon"></div>
+                <div>Reseting your Chromecast...</div>
+                <div class="buffer-div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-disabled="!nameAfterFactoryReset" ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-network-api-unavailable" class="flow"
+          ng-show="flowId == 'flow-network-api-unavailable'">
+        <div class="header-strip">
+          <div class="flow-title">Set up a new Chromecast</div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <p ng-show="os != 'ChromeOS'">
+            We're sorry, but setup from the extension is only supported on
+            Chrome OS at this time.
+          </p>
+          <p>
+            <div ng-show="os == 'ChromeOS'">
+              Chromecast setup requires Chrome OS version 28 or above. Please
+              update to the latest version of Chrome OS to set up your
+              Chromecast using the Chromecast extension.
+            </div>
+          </p>
+        </div>
+        <div class="control-strip">
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="flow-error" class="flow" ng-show="flowId == 'flow-error'">
+        <div class="header-strip">
+          <div class="flow-title"></div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <!-- Error dialog icon -->
+        <div class="error-icon-div ng-class: error.iconClass"></div>
+
+        <!-- Error dialog title -->
+        <div class="error-title">{{error.title || ''}}</div>
+
+        <!-- Error dialog message -->
+        <div class="error-message" ng-show="error.message"
+            ng-bind-html-unsafe="error.message">
+        </div>
+        <div class="error-message" ng-show="error.messageFun"
+            ng-bind-html="error.messageFun(deviceToSetup, networkName)">
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status" ng-show="error.feedbackLink.show">
+            <a href="feedback.html?feedbackType=Bug" target="_blank">
+              Send feedback
+            </a>
+          </div>
+          <div class="buffer-div"></div>
+          <div class="control-buttons">
+            <button ng-click="updateFlowAfterError(error.okButton.next)"
+                ng-show="error.okButton.show">
+              {{getButtonLabel(error.okButton.type)}}
+            </button>
+            <button ng-click="updateFlowAfterError(error.cancelButton.next)"
+                ng-show="error.cancelButton.show">
+              {{getButtonLabel(error.cancelButton.type)}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Window Resizer Settings</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/options.css" />
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+</head>
+<body>
+	<div id="optionsWrapper">
+	
+		<div class="chromeWindow">
+			<a href="#" title="Close" class="chromeClose" id="closeOptions"></a>
+			<div class="chromeContent version-history">
+			
+				<ul id="chromeMenu">
+					<li><a href="options.html">Presets</a></li>
+					<li class="selected"><a href="settings.html">Settings</a></li>
+					<li><a href="import-export.html">Import/Export</a></li>
+					<li><a href="news.html">History</a></li>
+					<li><a href="poll.html">SUPPORT</a></li>
+				</ul>
+				
+				<h1>Settings</h1>
+				
+				<div class="fieldSet">
+					<span class="title">Window position</span>
+					<label>
+						<input type="checkbox" id="overrideWindowPosition" name="overrideWindowPosition" value="1" />
+						Always center the window.
+					</label>
+					<br />
+					<span class="note">(<strong>WARNING:</strong> This will override any position settings you might have specified for your presets.)</span>
+				</div>
+				
+				<div class="fieldSet">
+					<span class="title">Extension's icon behavior on click</span>
+					<label>
+						<input type="radio" id="iconBehavior0" name="iconBehavior" value="0" />
+						Show resolutions list and options <span class="note">(Default)</span>
+					</label>
+					<br />
+					<label>
+						<input type="radio" id="iconBehavior1" name="iconBehavior" value="1" />
+						Toggle between all resolutions
+					</label>
+				</div>
+				
+				<div class="fieldSet">
+					<span class="title">Tooltip visibility</span>
+					<label>
+						<input type="checkbox" id="hideTooltip" name="hideTooltip" value="1" />
+						Hide the tooltip displayed when resizing the window
+					</label>
+				</div>
+				
+				<div class="fieldSet" id="tooltipDelaySet">
+					<form id="tooltipDelayForm">
+						<span class="title">Tooltip display time</span>
+						The tooltip will hide after:
+						<input type="text" maxlength="5" class="small-input" style="text-align:center" id="tooltipDelay" name="tooltipDelay" value="" /> miliseconds
+						<input type="submit" id="setDelay" value="Set Time" />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="tooltipDelaySaved" style="color:#090; display:none;">Saved!</span>
+						<br />
+						<span class="note">(Default: 2000 miliseconds)</span>
+					</form>
+				</div>
+				
+				
+				
+				<div class="fieldSet">
+					<span class="title">Popup menu description</span>
+					<label>
+						<input type="checkbox" id="hidePopupDescription" name="hidePopupDescription" value="1" />
+						Hide the resolution description in the popup menu
+					</label>
+				</div>
+				
+				<div class="fieldSet">
+					<form id="popupWidthForm">
+						<span class="title">Popup menu width</span>
+						<input type="text" maxlength="4" class="small-input" style="text-align:center" id="popupWidth" name="popupWidth" value="" /> pixels
+						<input type="submit" id="setWidth" value="Set Width" />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="popupWidthSaved" style="color:#090; display:none;">Saved!</span>
+						<br />
+						<span class="note">(Default: 250px; Minimum 155px)</span>
+					</form>
+				</div>
+				
+				<div id="footNote">
+					<strong>* NOTE:</strong> The settings are saved/applied automatically.
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="footerOptions">
+			<a href="https://chrome.google.com/extensions/detail/kkelicaakdanhinjdeammmilcgefonfh" rel="external" title="Homepage">Homepage</a>
+			::
+			<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="external" title="License">License</a>
+			
+			<a id="paypalBtn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9597376" rel="external" title="Buy me a cofee">
+				<img src="images/paypal_btn.png" title="Buy me a cofee" />
+			</a>
+		</div>
+
+	</div>
+</body>
+</html>

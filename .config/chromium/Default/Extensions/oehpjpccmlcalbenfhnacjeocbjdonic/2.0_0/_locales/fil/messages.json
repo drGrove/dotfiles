@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Hindi Naaangkop."
+   },
+   "alignment_btn_txt": {
+      "message": "Ayusin ang posisyon"
+   },
+   "allow_access_to_webcam": {
+      "message": "Pakipayagan ang access sa webcam mo mula sa notification bar."
+   },
+   "back_to_step1_msg": {
+      "message": "Sigurado ka bang nais mong mag-import ng bagong larawan? Mawawala mo ang anumang mga pagbabagong ginawa mo dito."
+   },
+   "background": {
+      "message": "I-edit ang kulay ng background"
+   },
+   "bottom_align": {
+      "message": "ibaba"
+   },
+   "cancel": {
+      "message": "Kanselahin"
+   },
+   "center_align": {
+      "message": "gitna"
+   },
+   "change_img_btn_txt": {
+      "message": "Mag-import ng bagong larawan"
+   },
+   "continue_anyways": {
+      "message": "Magpatuloy pa rin"
+   },
+   "continue_to": {
+      "message": "Magpatuloy sa Hakbang $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Lumikha sariling tema"
+   },
+   "custom": {
+      "message": "I-custom"
+   },
+   "custom_color": {
+      "message": "Custom na kulay"
+   },
+   "default": {
+      "message": "Itakda bilang default"
+   },
+   "delete": {
+      "message": "Tanggalin"
+   },
+   "delete_theme": {
+      "message": "Tanggalin ang tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Sigurado ka bang nais mong tanggalin ang tema na \"$1\"?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Error habang tinatanggal."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Error while deleting. Please retry."
+   },
+   "deleted": {
+      "message": "Tinanggal"
+   },
+   "deleting": {
+      "message": "Tinatanggal..."
+   },
+   "deleting_theme": {
+      "message": "Tanggalin ang tema"
+   },
+   "design_mode": {
+      "message": "mode ng pagdidisenyo"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Tpos"
+   },
+   "download_theme_zip": {
+      "message": "I-download ang tema bilang zip"
+   },
+   "enhance_btn_txt": {
+      "message": "I-edit sa Picnik"
+   },
+   "error": {
+      "message": "ERROR"
+   },
+   "error_while_publishing": {
+      "message": "Error habang binubuo ang URL. Pakisubukang muli."
+   },
+   "error_while_unpublishing": {
+      "message": "Error habang inaalis ang URL. Pakisubukang muli."
+   },
+   "ext_description": {
+      "message": "Lumikha at magbahagi ng mga tema sa Google Chrome na ikaw mismo ang nagdisenyo."
+   },
+   "ext_name": {
+      "message": "Aking Tema sa Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Sinusuwerte Ako"
+   },
+   "fetch_image_error_msg": {
+      "message": "Oops! May nangyaring mali sa iyong na-edit na larawan, at gumagawa kami ng paraan upang maayos ito."
+   },
+   "fill_screen": {
+      "message": "Punuin ang screen"
+   },
+   "filter_black_and_white": {
+      "message": "Black and White"
+   },
+   "filter_bolder": {
+      "message": "Bolder"
+   },
+   "filter_cooler": {
+      "message": "Cooler"
+   },
+   "filter_inverted": {
+      "message": "Baliktad"
+   },
+   "filter_posterized": {
+      "message": "Posterized"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Effct ng Lrwn"
+   },
+   "filter_warmer": {
+      "message": "Warmer"
+   },
+   "fit_screen": {
+      "message": "Pagkasyahin sa Screen"
+   },
+   "footer_share_site_txt": {
+      "message": "Ibahagi:"
+   },
+   "frame": {
+      "message": "I-edit ang kulay ng frame"
+   },
+   "generate_theme": {
+      "message": "Binubuo ang Tema"
+   },
+   "goback": {
+      "message": "Bumalik"
+   },
+   "hide_themes": {
+      "message": "Itago tema"
+   },
+   "image_format_error_msg": {
+      "message": "Oops! Mukhang nagkaroon ng problema sa iyong larawan. Pakisubukang muli, o pumili ng ibang larawan."
+   },
+   "image_size_error_msg": {
+      "message": "Oops! Mukhang masyadong malaki ang iyong file ng larawan. Pakisubukang muli gamit ang isang file na $1 $2 o mas mababa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Sinusuportahan namin ang JPEG, PNG, GIF at BMP na mga uri ng file."
+   },
+   "image_type_error_msg": {
+      "message": "Paumanhin, ngunit hindi namin sinusuportahan ang format ng file na sinusubukan mong piliin."
+   },
+   "img_fetching": {
+      "message": "Kinukuha ang Larawan"
+   },
+   "img_upload_wait": {
+      "message": "Mangyaring maghintay habang ina-upload ang iyong larawan"
+   },
+   "informative": {
+      "message": "Nakapagbibigay-alam"
+   },
+   "install_box_text": {
+      "message": "I-click upang i-install ang temang ito sa iyong browser ng Chrome ngayon"
+   },
+   "install_btn": {
+      "message": "I-install ang aking tema"
+   },
+   "left_align": {
+      "message": "kaliwa"
+   },
+   "loading": {
+      "message": "Naglo-load..."
+   },
+   "loading_application": {
+      "message": "Nilo-load ang Application..."
+   },
+   "locale": {
+      "message": "fil"
+   },
+   "make_new": {
+      "message": "Gumawa ng bagong tema \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Bagong Tab"
+   },
+   "no": {
+      "message": "Hindi"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Mukhang hindi ka pa nakakapag-import  ng larawan para sa background ng iyong tema. Sigurado ka bang nais mong magpatuloy ng wala nito?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Mukhang hindi mo pinangalanan ng kahit ano ang iyong tema. Nais mo pa rin bang magpatuloy?"
+   },
+   "no_theme_to_view": {
+      "message": "Walang tema na matitingnan"
+   },
+   "no_webcam_msg": {
+      "message": "Walang nakitang webcam"
+   },
+   "not_available_offline": {
+      "message": "Di available offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Oops,"
+   },
+   "open_preview_text": {
+      "message": "I-preview ang tema"
+   },
+   "original": {
+      "message": "Orihinal"
+   },
+   "package_btn": {
+      "message": "Gawin ang aking tema!"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Pumili ng kulay"
+   },
+   "picnik_save_btn": {
+      "message": "I-save sa Aking Tema sa Chrome"
+   },
+   "please_wait": {
+      "message": "Mangyaring maghintay ..."
+   },
+   "preset_color": {
+      "message": "Preset na kulay"
+   },
+   "preview_error_msg": {
+      "message": "Mukhang hindi na available ang tema na hinahanap mo."
+   },
+   "preview_mode": {
+      "message": "mode ng preview"
+   },
+   "privacy_policy": {
+      "message": "Patakaran sa Privacy"
+   },
+   "publish_theme": {
+      "message": "IBAHAGI ANG TEMA"
+   },
+   "publish_theme_text": {
+      "message": "I-click upang ibahagi ang iyong tema sa iba pa."
+   },
+   "publishing": {
+      "message": "Binubuo ang URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Para sa pag-publish ng Zip sa Chrome Web Store, pumunta [dito]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Pangalanan ang iyong tema upang gawin itong natatanging sa iyo. Makikita ang pangalan ng tema kung pipiliin mong ibahagi ang iyong tema sa iba."
+   },
+   "rear_tab_text": {
+      "message": "Background Tab"
+   },
+   "reartab": {
+      "message": "I-edit ang kulay ng tab ng background"
+   },
+   "retake_picture": {
+      "message": "Retake"
+   },
+   "retry": {
+      "message": "Muling subukan"
+   },
+   "right_align": {
+      "message": "kanan"
+   },
+   "share_box_text": {
+      "message": "Kopyahin ang natatanging URL na ito upang ibahagi ang iyong tema sa iba"
+   },
+   "show_all_themes": {
+      "message": "Pkita lhat tema"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "SIMULANG GAWIN ANG TEMA"
+   },
+   "start_screen_description": {
+      "message": "Magdagdag ng personal na estilo sa iyong browser. Bumuo at magbahagi ng mga custom na tema ng Google Chrome gamit ang iyong sariling mga larawan at disenyo sa tatlong simpleng hakbang lamang."
+   },
+   "start_screen_heading": {
+      "message": "Likhain ang iyong sariling tema sa Chrome"
+   },
+   "step": {
+      "message": "Hakbang $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 I-import ang iyong larawan",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Mag-upload ng file mula sa iyong computer, o kumuha ng larawan gamit ang iyong webcam."
+   },
+   "step1_header_msg_text": {
+      "message": "Pumili ng larawan para sa background ng iyong tema."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Magdagdag ng kulay",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "O kaya, maaari kang awtomatikong magdagdag ng mga kulay [kung sa palagay mo ay masuwerte ka]"
+   },
+   "step2_header_msg_text": {
+      "message": "Mag-click sa isang pin upang simulang kulayan ang iyong tema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 I-install at ibahagi",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Makakita ng higit pang mga tema sa Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Mag-click sa mga thumbnail sa ibaba upang mag-install, magbahagi o magtanggal ng mga nakaraang temang nilikha sa computer na ito."
+   },
+   "take_picture": {
+      "message": "Kuha ng larawan"
+   },
+   "text": {
+      "message": "I-edit ang kulay ng teksto"
+   },
+   "theme_deleted": {
+      "message": "Theme deleted"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Magdagdag ng kaunti pang salita upang ilarawan ang iyong tema. Makikita ang paglalarawang ito kung ibabahagi mo ang iyong tema."
+   },
+   "theme_description_box_title": {
+      "message": "Ilarawan ang Iyong Tema"
+   },
+   "theme_description_text": {
+      "message": "Magdagdag ng opsyonal na paglalarawan"
+   },
+   "theme_does_not_exist": {
+      "message": "Hindi umiiral ang tema"
+   },
+   "theme_name_placeholder": {
+      "message": "Bigyan ng pangalan ang iyong tema"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Ibahagi sa natatanging URL:"
+   },
+   "tile_image": {
+      "message": "Larawang Tile"
+   },
+   "toolbar": {
+      "message": "I-edit ang kulay ng toolbar"
+   },
+   "top_align": {
+      "message": "tuktok"
+   },
+   "try_again": {
+      "message": "Subukang muli"
+   },
+   "unpublish": {
+      "message": "I-undo ang pagbabahagi"
+   },
+   "unpublishing": {
+      "message": "Inaalis ang URL..."
+   },
+   "untitled": {
+      "message": "Walang pamagat"
+   },
+   "upload_btn_txt": {
+      "message": "I-upload ang Larawan"
+   },
+   "upload_crx_error_msg": {
+      "message": "Oops! May nangyaring mali noong sinubukan naming gawin ang iyong tema."
+   },
+   "upload_error_msg": {
+      "message": "Mukhang nagkaroon ng problema habang ina-upload ang iyong larawan. Pakisubukang i-upload muli ang iyong file, o bumalik at pumili ng iba."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Mangyaring i-upload lang ang mga larawang mayroon kang karapatang gamitin."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Ang Mga Larawan at Tema ay iho-host ng Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Permanenteng matatanggal ang mga larawan at temang aalisin mo."
+   },
+   "uploading": {
+      "message": "INA-UPLOAD"
+   },
+   "url_tooltip": {
+      "message": "Kopyahin at i-paste upang ibahagi"
+   },
+   "use_picture": {
+      "message": "Gmit Lrawan"
+   },
+   "warning": {
+      "message": "BABALA"
+   },
+   "webcam_btn_txt": {
+      "message": "Gumamit ng Webcam"
+   },
+   "woohoo_text": {
+      "message": "Woo-hoo! Nalikha na ang \"$1\" $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Oo"
+   }
+}

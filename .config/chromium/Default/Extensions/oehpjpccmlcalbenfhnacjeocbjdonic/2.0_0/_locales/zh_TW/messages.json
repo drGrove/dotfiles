@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "\u4E0D\u9069\u7528"
+   },
+   "alignment_btn_txt": {
+      "message": "\u8ABF\u6574\u4F4D\u7F6E"
+   },
+   "allow_access_to_webcam": {
+      "message": "\u8ACB\u900F\u904E\u901A\u77E5\u5217\u5141\u8A31\u5B58\u53D6\u60A8\u7684\u7DB2\u8DEF\u651D\u5F71\u6A5F\u3002"
+   },
+   "back_to_step1_msg": {
+      "message": "\u60A8\u78BA\u5B9A\u8981\u532F\u5165\u65B0\u5716\u7247\u55CE\uFF1F\u7CFB\u7D71\u5C07\u4E0D\u6703\u5132\u5B58\u60A8\u5C0D\u9019\u5F35\u5716\u7247\u6240\u505A\u7684\u4EFB\u4F55\u8B8A\u66F4\u3002"
+   },
+   "background": {
+      "message": "\u7DE8\u8F2F\u80CC\u666F\u984F\u8272"
+   },
+   "bottom_align": {
+      "message": "\u5E95\u90E8\u5C0D\u9F4A"
+   },
+   "cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "center_align": {
+      "message": "\u7F6E\u4E2D\u5C0D\u9F4A"
+   },
+   "change_img_btn_txt": {
+      "message": "\u532F\u5165\u65B0\u5716\u7247"
+   },
+   "continue_anyways": {
+      "message": "\u4ECD\u8981\u7E7C\u7E8C"
+   },
+   "continue_to": {
+      "message": "\u7E7C\u7E8C\u9032\u884C\u6B65\u9A5F $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "\u81EA\u884C\u5EFA\u7ACB\u4E3B\u984C"
+   },
+   "custom": {
+      "message": "\u81EA\u8A02"
+   },
+   "custom_color": {
+      "message": "\u81EA\u8A02\u984F\u8272"
+   },
+   "default": {
+      "message": "\u8A2D\u70BA\u9810\u8A2D\u503C"
+   },
+   "delete": {
+      "message": "\u522A\u9664"
+   },
+   "delete_theme": {
+      "message": "\u522A\u9664\u4E3B\u984C"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "\u60A8\u78BA\u5B9A\u8981\u522A\u9664\u300C$1\u300D\u4E3B\u984C\u55CE\uFF1F",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "\u522A\u9664\u6642\u767C\u751F\u932F\u8AA4\u3002"
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "\u522A\u9664\u6642\u767C\u751F\u932F\u8AA4\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002"
+   },
+   "deleted": {
+      "message": "\u522A\u9664\u6210\u529F"
+   },
+   "deleting": {
+      "message": "\u522A\u9664\u4E2D..."
+   },
+   "deleting_theme": {
+      "message": "\u6B63\u5728\u522A\u9664\u4E3B\u984C"
+   },
+   "design_mode": {
+      "message": "\u8A2D\u8A08\u6A21\u5F0F"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "\u5B8C\u6210"
+   },
+   "download_theme_zip": {
+      "message": "\u4EE5 zip \u58D3\u7E2E\u6A94\u683C\u5F0F\u4E0B\u8F09\u4E3B\u984C"
+   },
+   "enhance_btn_txt": {
+      "message": "\u5728 Picnik \u4E2D\u7DE8\u8F2F"
+   },
+   "error": {
+      "message": "\u932F\u8AA4"
+   },
+   "error_while_publishing": {
+      "message": "\u7522\u751F\u7DB2\u5740\u6642\u767C\u751F\u932F\u8AA4\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002"
+   },
+   "error_while_unpublishing": {
+      "message": "\u79FB\u9664\u7DB2\u5740\u6642\u767C\u751F\u932F\u8AA4\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002"
+   },
+   "ext_description": {
+      "message": "\u88FD\u4F5C\u7531\u60A8\u81EA\u884C\u8A2D\u8A08\u7684 Google Chrome \u4E3B\u984C\uFF0C\u4E26\u4E14\u5206\u4EAB\u7D66\u5176\u4ED6\u4EBA\u4F7F\u7528\u3002"
+   },
+   "ext_name": {
+      "message": "\u6211\u7684 Chrome \u4E3B\u984C"
+   },
+   "feeling_lucky": {
+      "message": "\u597D\u624B\u6C23"
+   },
+   "fetch_image_error_msg": {
+      "message": "\u7CDF\u7CD5\uFF01\u60A8\u6240\u7DE8\u8F2F\u7684\u5716\u7247\u767C\u751F\u932F\u8AA4\uFF0C\u6211\u5011\u6B63\u5728\u9032\u884C\u4FEE\u5FA9\u3002"
+   },
+   "fill_screen": {
+      "message": "\u586B\u6EFF\u756B\u9762"
+   },
+   "filter_black_and_white": {
+      "message": "\u9ED1\u767D"
+   },
+   "filter_bolder": {
+      "message": "\u52A0\u7C97"
+   },
+   "filter_cooler": {
+      "message": "\u51B7\u8272\u8ABF"
+   },
+   "filter_inverted": {
+      "message": "\u8272\u5F69\u53CD\u8F49"
+   },
+   "filter_posterized": {
+      "message": "\u8272\u8ABF\u5206\u96E2"
+   },
+   "filter_sepia": {
+      "message": "\u6DF1\u8910\u8272\u8ABF"
+   },
+   "filter_title": {
+      "message": "\u5716\u7247\u6548\u679C"
+   },
+   "filter_warmer": {
+      "message": "\u6696\u8272\u8ABF"
+   },
+   "fit_screen": {
+      "message": "\u8ABF\u6574\u6210\u87A2\u5E55\u5927\u5C0F"
+   },
+   "footer_share_site_txt": {
+      "message": "\u5206\u4EAB\uFF1A"
+   },
+   "frame": {
+      "message": "\u7DE8\u8F2F\u5916\u6846\u984F\u8272"
+   },
+   "generate_theme": {
+      "message": "\u6B63\u5728\u7522\u751F\u4E3B\u984C"
+   },
+   "goback": {
+      "message": "\u8FD4\u56DE"
+   },
+   "hide_themes": {
+      "message": "\u96B1\u85CF\u4E3B\u984C"
+   },
+   "image_format_error_msg": {
+      "message": "\u7CDF\u7CD5\uFF01\u60A8\u7684\u5716\u7247\u767C\u751F\u554F\u984C\u3002\u8ACB\u518D\u8A66\u4E00\u6B21\u6216\u9078\u53D6\u5176\u4ED6\u5716\u7247\u3002"
+   },
+   "image_size_error_msg": {
+      "message": "\u7CDF\u7CD5\uFF01\u60A8\u7684\u5716\u7247\u6A94\u6848\u592A\u5927\u4E86\u3002\u8ACB\u4F7F\u7528 $1 $2 \u4EE5\u4E0B\u7684\u6A94\u6848\u518D\u8A66\u4E00\u6B21\u3002",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "\u6211\u5011\u652F\u63F4 JPEG\u3001PNG\u3001GIF \u548C BMP \u6A94\u6848\u985E\u578B\u3002"
+   },
+   "image_type_error_msg": {
+      "message": "\u5F88\u62B1\u6B49\uFF0C\u6211\u5011\u4E0D\u652F\u63F4\u60A8\u6240\u9078\u53D6\u7684\u6A94\u6848\u683C\u5F0F\u3002"
+   },
+   "img_fetching": {
+      "message": "\u6B63\u5728\u64F7\u53D6\u5716\u7247"
+   },
+   "img_upload_wait": {
+      "message": "\u76EE\u524D\u6B63\u5728\u4E0A\u50B3\u60A8\u7684\u5716\u7247\uFF0C\u8ACB\u7A0D\u5019"
+   },
+   "informative": {
+      "message": "\u8AAA\u660E\u8CC7\u8A0A"
+   },
+   "install_box_text": {
+      "message": "\u6309\u4E00\u4E0B\u5373\u53EF\u7ACB\u5373\u70BA\u60A8\u7684 Chrome \u700F\u89BD\u5668\u5B89\u88DD\u9019\u500B\u4E3B\u984C"
+   },
+   "install_btn": {
+      "message": "\u5B89\u88DD\u6211\u7684\u4E3B\u984C"
+   },
+   "left_align": {
+      "message": "\u9760\u5DE6\u5C0D\u9F4A"
+   },
+   "loading": {
+      "message": "\u8F09\u5165\u4E2D\u2026"
+   },
+   "loading_application": {
+      "message": "\u6B63\u5728\u8F09\u5165\u61C9\u7528\u7A0B\u5F0F..."
+   },
+   "locale": {
+      "message": "zh-TW"
+   },
+   "make_new": {
+      "message": "\u88FD\u4F5C\u65B0\u4E3B\u984C \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "\u65B0\u5206\u9801"
+   },
+   "no": {
+      "message": "\u5426"
+   },
+   "no_image_uploaded_msg": {
+      "message": "\u60A8\u9084\u6C92\u6709\u70BA\u4E3B\u984C\u532F\u5165\u80CC\u666F\u5716\u7247\uFF0C\u78BA\u5B9A\u8981\u7E7C\u7E8C\u55CE\uFF1F"
+   },
+   "no_theme_name_error_msg": {
+      "message": "\u60A8\u9084\u6C92\u6709\u70BA\u4E3B\u984C\u547D\u540D\uFF0C\u8981\u7E7C\u7E8C\u55CE\uFF1F"
+   },
+   "no_theme_to_view": {
+      "message": "\u60A8\u6C92\u6709\u4EFB\u4F55\u4E3B\u984C\u53EF\u4F9B\u6AA2\u8996"
+   },
+   "no_webcam_msg": {
+      "message": "\u672A\u5075\u6E2C\u5230\u7DB2\u8DEF\u651D\u5F71\u6A5F"
+   },
+   "not_available_offline": {
+      "message": "\u7121\u6CD5\u5728\u96E2\u7DDA\u6642\u6AA2\u8996"
+   },
+   "ok": {
+      "message": "\u78BA\u5B9A"
+   },
+   "oops_msg": {
+      "message": "\u7CDF\u7CD5\uFF01"
+   },
+   "open_preview_text": {
+      "message": "\u9810\u89BD\u4E3B\u984C"
+   },
+   "original": {
+      "message": "\u539F\u59CB"
+   },
+   "package_btn": {
+      "message": "\u88FD\u4F5C\u6211\u7684\u4E3B\u984C\uFF01"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "\u6311\u9078\u984F\u8272"
+   },
+   "picnik_save_btn": {
+      "message": "\u5132\u5B58\u81F3\u6211\u7684 Chrome \u4E3B\u984C"
+   },
+   "please_wait": {
+      "message": "\u8ACB\u7A0D\u5019\u2026"
+   },
+   "preset_color": {
+      "message": "\u9810\u8A2D\u984F\u8272"
+   },
+   "preview_error_msg": {
+      "message": "\u60A8\u8981\u5C0B\u627E\u7684\u4E3B\u984C\u5DF2\u4E0D\u5B58\u5728\u3002"
+   },
+   "preview_mode": {
+      "message": "\u9810\u89BD\u6A21\u5F0F"
+   },
+   "privacy_policy": {
+      "message": "\u96B1\u79C1\u6B0A\u653F\u7B56"
+   },
+   "publish_theme": {
+      "message": "\u5206\u4EAB\u4E3B\u984C"
+   },
+   "publish_theme_text": {
+      "message": "\u6309\u4E00\u4E0B\u5373\u53EF\u8207\u4ED6\u4EBA\u5206\u4EAB\u60A8\u7684\u4E3B\u984C\u3002"
+   },
+   "publishing": {
+      "message": "\u6B63\u5728\u7522\u751F\u7DB2\u5740..."
+   },
+   "publishing_zip_help_link": {
+      "message": "\u5982\u8981\u5728 Chrome \u7DDA\u4E0A\u61C9\u7528\u7A0B\u5F0F\u5546\u5E97\u767C\u4F48 zip \u58D3\u7E2E\u6A94\uFF0C\u8ACB\u524D\u5F80 [\u9019\u88E1]"
+   },
+   "question_mark": {
+      "message": "\uFF1F"
+   },
+   "question_mark_tooltip": {
+      "message": "\u70BA\u60A8\u7684\u4E3B\u984C\u547D\u540D\uFF0C\u4F7F\u5176\u7368\u5177\u500B\u4EBA\u98A8\u683C\u3002\u5982\u679C\u60A8\u9078\u64C7\u8207\u4ED6\u4EBA\u5206\u4EAB\u4E3B\u984C\uFF0C\u5C0D\u65B9\u5C07\u6703\u770B\u5230\u9019\u500B\u4E3B\u984C\u540D\u7A31\u3002"
+   },
+   "rear_tab_text": {
+      "message": "\u80CC\u666F\u5206\u9801"
+   },
+   "reartab": {
+      "message": "\u7DE8\u8F2F\u80CC\u666F\u5206\u9801\u984F\u8272"
+   },
+   "retake_picture": {
+      "message": "\u91CD\u62CD"
+   },
+   "retry": {
+      "message": "\u91CD\u8A66"
+   },
+   "right_align": {
+      "message": "\u9760\u53F3\u5C0D\u9F4A"
+   },
+   "share_box_text": {
+      "message": "\u8907\u88FD\u9019\u500B\u5C08\u5C6C\u7DB2\u5740\uFF0C\u5373\u53EF\u8207\u4ED6\u4EBA\u5206\u4EAB\u60A8\u7684\u4E3B\u984C"
+   },
+   "show_all_themes": {
+      "message": "\u986F\u793A\u6240\u6709\u4E3B\u984C"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "\u958B\u59CB\u88FD\u4F5C\u4E3B\u984C"
+   },
+   "start_screen_description": {
+      "message": "\u70BA\u60A8\u7684\u700F\u89BD\u5668\u589E\u6DFB\u500B\u4EBA\u98A8\u683C\u3002\u53EA\u8981\u5B8C\u6210 3 \u500B\u7C21\u55AE\u7684\u8A2D\u8A08\u6B65\u9A5F\uFF0C\u5373\u53EF\u4F7F\u7528\u81EA\u5DF1\u7684\u76F8\u7247\u5EFA\u7ACB\u81EA\u8A02 Google Chrome \u4E3B\u984C\uFF0C\u9084\u80FD\u8207\u4ED6\u4EBA\u5206\u4EAB\u60A8\u7684\u4E3B\u984C\u3002"
+   },
+   "start_screen_heading": {
+      "message": "\u8A2D\u8A08\u5C08\u5C6C\u65BC\u60A8\u7684\u4E3B\u984C"
+   },
+   "step": {
+      "message": "\u6B65\u9A5F $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 \u532F\u5165\u60A8\u7684\u5716\u7247",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "\u4E0A\u50B3\u96FB\u8166\u4E2D\u7684\u5716\u6A94\u6216\u7528\u7DB2\u8DEF\u651D\u5F71\u6A5F\u62CD\u7167\u3002"
+   },
+   "step1_header_msg_text": {
+      "message": "\u70BA\u60A8\u7684\u4E3B\u984C\u9078\u64C7\u80CC\u666F\u5716\u7247\u3002"
+   },
+   "step2_btn_txt": {
+      "message": "$1 \u52A0\u4E0A\u4E00\u4E9B\u984F\u8272",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "\u60A8\u4E5F\u53EF\u4EE5\u9078\u64C7\u81EA\u52D5\u4E0A\u8272 [\u597D\u624B\u6C23\u6A21\u5F0F]"
+   },
+   "step2_header_msg_text": {
+      "message": "\u6309\u4E00\u4E0B\u5716\u91D8\uFF0C\u5373\u53EF\u958B\u59CB\u5C0D\u60A8\u7684\u4E3B\u984C\u8457\u8272"
+   },
+   "step3_btn_txt": {
+      "message": "$1 \u5B89\u88DD\u53CA\u5206\u4EAB",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "\u524D\u5F80 Chrome \u7DDA\u4E0A\u61C9\u7528\u7A0B\u5F0F\u5546\u5E97\u641C\u5C0B\u66F4\u591A\u4E3B\u984C"
+   },
+   "stored_themes_title": {
+      "message": "\u6309\u4E0B\u65B9\u5C0D\u61C9\u7684\u7E2E\u5716\uFF0C\u5373\u53EF\u5B89\u88DD\u3001\u5206\u4EAB\u6216\u522A\u9664\u4E4B\u524D\u5728\u9019\u53F0\u96FB\u8166\u4E0A\u5EFA\u7ACB\u7684\u4E3B\u984C\u3002"
+   },
+   "take_picture": {
+      "message": "\u62CD\u651D\u76F8\u7247"
+   },
+   "text": {
+      "message": "\u7DE8\u8F2F\u6587\u5B57\u984F\u8272"
+   },
+   "theme_deleted": {
+      "message": "\u4E3B\u984C\u5DF2\u522A\u9664"
+   },
+   "theme_description_box_placeholder": {
+      "message": "\u63D0\u4F9B\u4E00\u4E9B\u8AAA\u660E\u8A0A\u606F\u4F86\u63CF\u8FF0\u60A8\u7684\u4E3B\u984C\u3002\u5982\u679C\u60A8\u8207\u4ED6\u4EBA\u5206\u4EAB\u4E3B\u984C\uFF0C\u5C0D\u65B9\u5C31\u6703\u770B\u5230\u9019\u4E9B\u8AAA\u660E\u8A0A\u606F\u3002"
+   },
+   "theme_description_box_title": {
+      "message": "\u63CF\u8FF0\u60A8\u7684\u4E3B\u984C"
+   },
+   "theme_description_text": {
+      "message": "\u52A0\u5165\u8AAA\u660E\u8A0A\u606F (\u53EF\u7701\u7565)"
+   },
+   "theme_does_not_exist": {
+      "message": "\u627E\u4E0D\u5230\u9019\u500B\u4E3B\u984C"
+   },
+   "theme_name_placeholder": {
+      "message": "\u70BA\u60A8\u7684\u4E3B\u984C\u547D\u540D"
+   },
+   "theme_str": {
+      "message": "\u4E3B\u984C"
+   },
+   "theme_unique_url": {
+      "message": "\u4F7F\u7528\u9019\u500B\u5C08\u5C6C\u7DB2\u5740\u5206\u4EAB\uFF1A"
+   },
+   "tile_image": {
+      "message": "\u92EA\u6392\u5716\u7247"
+   },
+   "toolbar": {
+      "message": "\u7DE8\u8F2F\u5DE5\u5177\u5217\u984F\u8272"
+   },
+   "top_align": {
+      "message": "\u9802\u7AEF\u5C0D\u9F4A"
+   },
+   "try_again": {
+      "message": "\u518D\u8A66\u4E00\u6B21"
+   },
+   "unpublish": {
+      "message": "\u5FA9\u539F\u5206\u4EAB"
+   },
+   "unpublishing": {
+      "message": "\u6B63\u5728\u79FB\u9664\u7DB2\u5740..."
+   },
+   "untitled": {
+      "message": "\u672A\u547D\u540D"
+   },
+   "upload_btn_txt": {
+      "message": "\u4E0A\u50B3\u5716\u7247"
+   },
+   "upload_crx_error_msg": {
+      "message": "\u7CDF\u7CD5\uFF01\u7CFB\u7D71\u5617\u8A66\u4E0A\u50B3\u60A8\u7684\u4E3B\u984C\u6642\u767C\u751F\u932F\u8AA4\u3002"
+   },
+   "upload_error_msg": {
+      "message": "\u4E0A\u50B3\u60A8\u7684\u5716\u7247\u6642\u767C\u751F\u554F\u984C\u3002\u8ACB\u5617\u8A66\u91CD\u65B0\u4E0A\u50B3\u6A94\u6848\uFF0C\u6216\u8FD4\u56DE\u9078\u53D6\u5176\u4ED6\u6A94\u6848\u3002"
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "\u8ACB\u52D9\u5FC5\u53EA\u4E0A\u50B3\u60A8\u6709\u6B0A\u4F7F\u7528\u7684\u5716\u7247\u3002"
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "\u5716\u7247\u548C\u4E3B\u984C\u5C07\u7531 Google \u4EE3\u7BA1\u3002"
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "\u60A8\u6240\u79FB\u9664\u7684\u5716\u7247\u548C\u4E3B\u984C\u5C07\u6703\u6C38\u4E45\u88AB\u522A\u9664\u3002"
+   },
+   "uploading": {
+      "message": "\u4E0A\u50B3\u4E2D"
+   },
+   "url_tooltip": {
+      "message": "\u8907\u88FD\u4E26\u8CBC\u4E0A\u5373\u53EF\u5206\u4EAB\u4E3B\u984C"
+   },
+   "use_picture": {
+      "message": "\u4F7F\u7528\u76F8\u7247"
+   },
+   "warning": {
+      "message": "\u8B66\u544A"
+   },
+   "webcam_btn_txt": {
+      "message": "\u4F7F\u7528\u7DB2\u8DEF\u651D\u5F71\u6A5F"
+   },
+   "woohoo_text": {
+      "message": "\u592A\u68D2\u4E86\uFF01\u300C$1\u300D$2 \u5DF2\u6210\u529F\u5EFA\u7ACB",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "\u662F"
+   }
+}

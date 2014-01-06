@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "PHP Ninja Manual"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "PHP 5.4 documentation in a popup",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDH/AJMk1ALKp47Hx/yW4Zrl9g9opPIl8H0FL3nHCfxOAgbn4Zie5EdWOSXBu1hI+0rk50Fgr4Z4J0udJZVXeNf7+UElGEHn9xfzptfthefyecFtpvn8QIBXJlCrIIpzOKNIDDOH6Swaxi5bTq2Y63cdmHnHkTfg3RiYp4g3wVwnQIDAQAB",
+   "manifest_version": 2,
+   "name": "PHP Ninja Manual",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "unlimitedStorage", "clipboardWrite" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.5",
+   "web_accessible_resources": [ "js/App.js", "js/Autocomplete.js", "js/Background.js", "js/BackgroundInstaller.js", "js/BackgroundTests.js", "js/ContentManager.js", "js/Database.js", "js/GoogleAnalytics.js", "js/jquery.tipsy.js", "js/jquery.tzSelect.js", "js/jquery.copy.js", "js/jquery-1.7.2.min.js", "js/jquery-1.8.1.min.js", "js/Model.js", "js/options.js", "js/popup.js", "js/PopupInstaller.js", "js/progressBar.js", "js/SearchTerm.js", "js/smartPopup.js", "js/Utils.js", "js/checkbox/jquery.checkbox.min.js", "js/checkbox/checkbox.png", "js/checkbox/empty.png", "js/checkbox/jquery.checkbox.css", "https://ssl.google-analytics.com/ga.js", "syntaxhighlighter/sh_main.min.js", "syntaxhighlighter/sh_php.min.js", "chrome/i18n.js", "chrome/manifest.js", "css/buttons.css", "css/jquery.tzSelect.css", "css/syntaxhighlighter/sh_matlab.min.css", "css/kodify.css", "css/options.css", "css/popup.css", "css/progressBar.css", "css/reset.css", "css/tipsy.css", "images/ajax-loader.gif", "images/arrow.png", "images/arrows.png", "images/small-icons.png", "images/clipboard.png", "images/close.png", "images/php-ninja.png", "manifest.json", "json/en/database.json", "json/en/functions.json", "json/en/stats.json" ]
+}

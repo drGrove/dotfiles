@@ -1,0 +1,93 @@
+@import url(base.css);
+@import url(../lib/ui/carousel.css);
+
+
+body {
+	background-color: white;
+	font-size:11px;
+	margin:0px;
+	max-width:300px;
+}
+
+#header {
+    padding: 0px;
+    padding-left: 18px;
+    background: url(data:image/gif;base64,R0lGODlhEAAQALMPAHp6evf394qKiry8vJOTk83NzYKCgubm5t7e3qysrMXFxe7u7pubm7S0tKOjo////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCAAPACwAAAAAEAAQAAAETPDJSau9NRDAgWxDYGmdZADCkQnlU7CCOA3oNgXsQG2FRhUAAoWDIU6MGeSDR0m4ghRa7JjIUXCogqQzpRxYhi2HILsOGuJxGcNuTyIAIfkECQgADwAsAAAAABAAEAAABGLwSXmMmjhLAQjSWDAYQHmAz8GVQPIESxZwggIYS0AIATYAvAdh8OIQJwRAQbJkdjAlUCA6KfU0VEmyGWgWnpNfcEAoAo6SmWtBUtCuk9gjwQKeQAeWYQAHIZICKBoKBncTEQAh+QQJCAAPACwAAAAAEAAQAAAEWvDJORejGCtQsgwDAQAGGWSHMK7jgAWq0CGj0VEDIJxPnvAU0a13eAQKrsnI81gqAZ6AUzIonA7JRwFAyAQSgCQsjCmUAIhjDEhlrQTFV+lMGLApWwUzw1jsIwAh+QQJCAAPACwAAAAAEAAQAAAETvDJSau9L4QaBgEAMWgEQh0CqALCZ0pBKhRSkYLvM7Ab/OGThoE2+QExyAdiuexhVglKwdCgqKKTGGBgBc00Np7VcVsJDpVo5ydyJt/wCAAh+QQJCAAPACwAAAAAEAAQAAAEWvDJSau9OAwCABnBtQhdCQjHlQhFWJBCOKWPLAXk8KQIkCwWBcAgMDw4Q5CkgOwohCVCYTIwdAgPolVhWSQAiN1jcLLVQrQbrBV4EcySA8l0Alo0yA8cw+9TIgAh+QQFCAAPACwAAAAAEAAQAAAEWvDJSau9WA4AyAhWMChPwXHCQRUGYARgKQBCzJxAQgXzIC2KFkc1MREoHMTAhwQ0Y5oBgkMhAAqUw8mgWGho0EcCx5DwaAUQrGXATg6zE7bwCQ2sAGZmz7dEAAA7) left no-repeat infobackground;
+    background-image: url(../icons/icon-16.png);
+    min-height: 15px;
+    -webkit-border-after: 1px solid #bbb;
+    -moz-border-after: 1px solid #bbb;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#addon-changes{
+	width:100%;
+}
+
+.addon-change{
+	width:300px;
+	padding:2px 14px;
+}
+
+.addon{
+	margin-bottom:5px;	
+}
+.addon-thumbnail{
+	height:24px;
+	padding-left:28px;
+}
+
+
+.addon-name {
+    font-size: 125%;
+    vertical-align: middle;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.previous{
+	text-decoration:line-through;
+}
+
+
+
+.variation{
+	display:inline-block;
+}
+
+.changes{
+	margin:auto;
+	display:table;
+}
+.change{
+/*	display:table-row;*/
+	font-size:120%;
+}
+
+.change>*{
+	padding-right:5px;
+	/*display:table-cell;*/
+}
+
+.property{
+	margin-right:40px;
+}
+.property:after{
+	content:':';
+}
+.previous{
+		font-size:110%;
+
+}
+.current{
+	font-size:130%;
+}
+
+
+.carousel > a[rel = previous], .carousel > a[rel = next]{
+	top:70%;
+}

@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Ikke gyldig."
+   },
+   "alignment_btn_txt": {
+      "message": "Juster posisjonen"
+   },
+   "allow_access_to_webcam": {
+      "message": "Du m\u00E5 tillate bruken av nettkameraet ditt fra varselfeltet."
+   },
+   "back_to_step1_msg": {
+      "message": "Er du sikker p\u00E5 at du vil importere et nytt bilde? Du mister eventuelle endringer du har gjort."
+   },
+   "background": {
+      "message": "Rediger bakgrunnsfargen"
+   },
+   "bottom_align": {
+      "message": "nederst"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "center_align": {
+      "message": "midtstill"
+   },
+   "change_img_btn_txt": {
+      "message": "Importer et nytt bilde"
+   },
+   "continue_anyways": {
+      "message": "Fortsett likevel"
+   },
+   "continue_to": {
+      "message": "Fortsett til trinn $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Lag ditt eget tema"
+   },
+   "custom": {
+      "message": "Egendefinert"
+   },
+   "custom_color": {
+      "message": "Egendefinert farge"
+   },
+   "default": {
+      "message": "Bruk som standard"
+   },
+   "delete": {
+      "message": "Slett"
+   },
+   "delete_theme": {
+      "message": "Slett tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Er du sikker p\u00E5 at du vil slette temaet \u00AB$1\u00BB?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Feil under sletting."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Feil ved sletting. Pr\u00F8v p\u00E5 nytt."
+   },
+   "deleted": {
+      "message": "Slettet"
+   },
+   "deleting": {
+      "message": "Sletter \u2026"
+   },
+   "deleting_theme": {
+      "message": "Sletter temaet"
+   },
+   "design_mode": {
+      "message": "utformingsmodus"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Ferdig"
+   },
+   "download_theme_zip": {
+      "message": "Last ned temaet som .zip-fil"
+   },
+   "enhance_btn_txt": {
+      "message": "Rediger i Picnik"
+   },
+   "error": {
+      "message": "FEIL"
+   },
+   "error_while_publishing": {
+      "message": "Det oppsto en feil under genereringen av nettadressen. Pr\u00F8v p\u00E5 nytt."
+   },
+   "error_while_unpublishing": {
+      "message": "Det oppsto en feil under delingen av nettadressen. Pr\u00F8v p\u00E5 nytt."
+   },
+   "ext_description": {
+      "message": "Lag og del dine egne Google Chrome-temaer."
+   },
+   "ext_name": {
+      "message": "Mitt Chrome-tema"
+   },
+   "feeling_lucky": {
+      "message": "Jeg pr\u00F8ver lykken"
+   },
+   "fetch_image_error_msg": {
+      "message": "Beklager, noe gikk galt med det redigerte bildet ditt. Vi jobber med \u00E5 fikse det."
+   },
+   "fill_screen": {
+      "message": "Fyll skjermen"
+   },
+   "filter_black_and_white": {
+      "message": "Svart-hvitt"
+   },
+   "filter_bolder": {
+      "message": "Fetere"
+   },
+   "filter_cooler": {
+      "message": "Kj\u00F8ligere"
+   },
+   "filter_inverted": {
+      "message": "Omvendt"
+   },
+   "filter_posterized": {
+      "message": "Posterisert"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Bildeeffekter"
+   },
+   "filter_warmer": {
+      "message": "Varmere"
+   },
+   "fit_screen": {
+      "message": "Tilpass til skjermen"
+   },
+   "footer_share_site_txt": {
+      "message": "Del:"
+   },
+   "frame": {
+      "message": "Rediger rammefargen"
+   },
+   "generate_theme": {
+      "message": "Genererer tema"
+   },
+   "goback": {
+      "message": "G\u00E5 tilbake"
+   },
+   "hide_themes": {
+      "message": "Skjul temaer"
+   },
+   "image_format_error_msg": {
+      "message": "Det ser ut som noe gikk galt med bildet ditt. Pr\u00F8v p\u00E5 nytt eller velg et annet bilde."
+   },
+   "image_size_error_msg": {
+      "message": "Bildefilen din er for stor. Pr\u00F8v p\u00E5 nytt med en fil p\u00E5 $1 $2 eller mindre.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Vi st\u00F8tter filtypene JPEG, PNG, GIF og BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Beklager, vi st\u00F8tter ikke filformatet du har valgt."
+   },
+   "img_fetching": {
+      "message": "Henter bildet"
+   },
+   "img_upload_wait": {
+      "message": "Vent mens bildet ditt lastes opp"
+   },
+   "informative": {
+      "message": "Informativ"
+   },
+   "install_box_text": {
+      "message": "Klikk for \u00E5 installere temaet p\u00E5 Chrome-nettleseren din"
+   },
+   "install_btn": {
+      "message": "Installer temaet mitt"
+   },
+   "left_align": {
+      "message": "venstre"
+   },
+   "loading": {
+      "message": "Laster inn \u2026"
+   },
+   "loading_application": {
+      "message": "Laster inn programmet \u2026"
+   },
+   "locale": {
+      "message": "no"
+   },
+   "make_new": {
+      "message": "Lag et nytt tema"
+   },
+   "new_tab_text": {
+      "message": "Ny fane"
+   },
+   "no": {
+      "message": "Nei"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Du har ikke importert noe bakgrunnsbilde til temaet ditt. Er du sikker p\u00E5 du vil fortsette?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Du har ikke navngitt temaet ditt. Vil du fortsette likevel?"
+   },
+   "no_theme_to_view": {
+      "message": "Du har ingen temaer"
+   },
+   "no_webcam_msg": {
+      "message": "Fant ikke nettkamera"
+   },
+   "not_available_offline": {
+      "message": "Ikke tilgjengelig uten nettilkobling"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Beklager,"
+   },
+   "open_preview_text": {
+      "message": "Forh\u00E5ndsvis temaet"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Lag temaet mitt!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Velg farge"
+   },
+   "picnik_save_btn": {
+      "message": "Lagre i Mitt Chrome-tema"
+   },
+   "please_wait": {
+      "message": "Vent litt \u2026"
+   },
+   "preset_color": {
+      "message": "Forh\u00E5ndsdefinert farge"
+   },
+   "preview_error_msg": {
+      "message": "det ser ut til at temaet du er p\u00E5 utkikk etter, ikke lenger er tilgjengelig."
+   },
+   "preview_mode": {
+      "message": "forh\u00E5ndsvisning"
+   },
+   "privacy_policy": {
+      "message": "Personvern"
+   },
+   "publish_theme": {
+      "message": "DEL TEMAET"
+   },
+   "publish_theme_text": {
+      "message": "Klikk for \u00E5 dele temaet ditt med andre."
+   },
+   "publishing": {
+      "message": "Genererer nettadresse ..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Hvis du vil publisere .zip-filen i Chrome Nettmarked, m\u00E5 du g\u00E5 [hit]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Gi temaet ditt et navn for \u00E5 gj\u00F8re det til ditt eget. Navnet blir synlig hvis du velger \u00E5 dele temaet."
+   },
+   "rear_tab_text": {
+      "message": "Bakre fane"
+   },
+   "reartab": {
+      "message": "Rediger fargen p\u00E5 den bakre fanen"
+   },
+   "retake_picture": {
+      "message": "Ta nytt bilde"
+   },
+   "retry": {
+      "message": "Pr\u00F8v p\u00E5 nytt"
+   },
+   "right_align": {
+      "message": "h\u00F8yre"
+   },
+   "share_box_text": {
+      "message": "Kopier denne unike nettadressen for \u00E5 dele temaet ditt med andre"
+   },
+   "show_all_themes": {
+      "message": "Vis alle temaene"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "LAG ET TEMA"
+   },
+   "start_screen_description": {
+      "message": "Gi nettleseren din et personlig preg. Bygg og del egendefinerte Google Chrome-temaer med dine egne bilder og utforminger gjennom tre enkle trinn."
+   },
+   "start_screen_heading": {
+      "message": "Lag ditt eget Chrome-tema"
+   },
+   "step": {
+      "message": "Trinn $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importer bildet ditt",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Last opp en fil fra datamaskinen din, eller ta et bilde med nettkameraet ditt."
+   },
+   "step1_header_msg_text": {
+      "message": "Velg bakgrunnsbilde for temaet ditt."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Legg til farger",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Du kan ogs\u00E5 legge til farger automatisk [hvis du vil pr\u00F8ve lykken]"
+   },
+   "step2_header_msg_text": {
+      "message": "Klikk p\u00E5 et malekostinkon for \u00E5 begynne \u00E5 fargelegge temaet ditt"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installer og del",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Finn flere temaer i Chrome Nettmarked"
+   },
+   "stored_themes_title": {
+      "message": "Klikk p\u00E5 miniatyrbildene nedenfor for \u00E5 installere, dele eller slette tidligere temaer som er opprettet p\u00E5 denne datamaskinen."
+   },
+   "take_picture": {
+      "message": "Ta et bilde"
+   },
+   "text": {
+      "message": "Rediger tekstfargen"
+   },
+   "theme_deleted": {
+      "message": "Tema slettet"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Legg til en beskrivelse av temaet ditt. Beskrivelsen blir synlig hvis du deler temaet."
+   },
+   "theme_description_box_title": {
+      "message": "Beskriv temaet ditt"
+   },
+   "theme_description_text": {
+      "message": "Legg til beskrivelse (valgfritt)"
+   },
+   "theme_does_not_exist": {
+      "message": "Dette temaet finnes ikke"
+   },
+   "theme_name_placeholder": {
+      "message": "Gi temaet ditt et navn"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Del med denne unike nettadressen:"
+   },
+   "tile_image": {
+      "message": "Side ved side"
+   },
+   "toolbar": {
+      "message": "Rediger fargen p\u00E5 verkt\u00F8ylinjen"
+   },
+   "top_align": {
+      "message": "\u00F8verst"
+   },
+   "try_again": {
+      "message": "Pr\u00F8v p\u00E5 nytt"
+   },
+   "unpublish": {
+      "message": "Angre deling"
+   },
+   "unpublishing": {
+      "message": "Fjerner nettadressen ..."
+   },
+   "untitled": {
+      "message": "Uten tittel"
+   },
+   "upload_btn_txt": {
+      "message": "Last opp bildet"
+   },
+   "upload_crx_error_msg": {
+      "message": "Beklager, det oppsto en feil under fors\u00F8ket p\u00E5 \u00E5 generere temaet ditt."
+   },
+   "upload_error_msg": {
+      "message": "Det oppsto et problem under opplastingen av bildet. Pr\u00F8v \u00E5 laste opp filen p\u00E5 nytt, eller g\u00E5 tilbake og velg en annen."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Last opp bare bilder du har rett til \u00E5 bruke."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Bilder og temaer blir driftet av Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Bilder og temaer som du fjerner blir permanent slettet."
+   },
+   "uploading": {
+      "message": "LASTER OPP"
+   },
+   "url_tooltip": {
+      "message": "Kopier og lim inn for \u00E5 dele"
+   },
+   "use_picture": {
+      "message": "Bruk bildet"
+   },
+   "warning": {
+      "message": "ADVARSEL"
+   },
+   "webcam_btn_txt": {
+      "message": "Bruk nettkamera"
+   },
+   "woohoo_text": {
+      "message": "Jippi! Temaet \u00AB$1\u00BB $2 er opprettet",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

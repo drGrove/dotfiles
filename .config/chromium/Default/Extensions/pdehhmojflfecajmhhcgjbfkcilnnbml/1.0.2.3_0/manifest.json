@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "chrome/app.html"
+      }
+   },
+   "background_page": "chrome/background_page.html",
+   "default_locale": "en",
+   "description": "Useful tools for your Chrome extensions and apps: Statistics, notifications, charts, comments, Google+, Facebook, Twitter posts ...",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCl3gZoQD/KO03VOkFKc92UkaWIP44B6WEGXTmdZrJ1qGlRIbbk7LQtxP02fqIvlDELUM9rtYY1KIWKGt6uzkB+ScjKOn6OLt4jHBbRujDswCDEtAL5UoJE7vsltoxybrD96ksv7sjts6mgrUn9TxBWH59gnOm4HoV8tBbWlhSUOwIDAQAB",
+   "manifest_version": 1,
+   "name": "WebStore developer",
+   "permissions": [ "background", "bookmarks", "chrome://favicon/", "clipboardRead", "clipboardWrite", "contextMenus", "cookies", "fileBrowserHandler", "geolocation", "history", "idle", "management", "notifications", "tabs", "tts", "unlimitedStorage", "webNavigation", "webRequest", "*://*/*", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2.3"
+}

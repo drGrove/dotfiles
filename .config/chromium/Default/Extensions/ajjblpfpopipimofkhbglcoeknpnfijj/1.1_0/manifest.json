@@ -1,0 +1,18 @@
+{
+   "app": {
+      "browse-urls": [ "*://*.runescape.com/" ],
+      "launch": {
+         "web_url": "http://www.runescape.com/a=569/create"
+      },
+      "urls": [ "*://*.runescape.com/" ]
+   },
+   "description": "RuneScape: the World's most popular free Multiplayer Game by Jagex Games Studio",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXPKb3PZ3Zl8XPCb4net1y4PHQa0LGYUw8XwjlqPvVeRbRecGw7K9c9RGPOTRx8gU2dvmghw/RhNYSMkEF37JFAgrFSGiyw9trIiYDd6QMBFVBwdklkfjxCrZ8rooU3K9J8WQEhaMbkZNU8AoxabgEdju1xBIKNLd1IQ8RiqOk7wIDAQAB",
+   "name": "RuneScape",
+   "permissions": [  ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

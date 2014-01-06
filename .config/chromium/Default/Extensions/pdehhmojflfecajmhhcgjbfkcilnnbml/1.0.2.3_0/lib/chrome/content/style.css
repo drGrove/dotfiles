@@ -1,0 +1,177 @@
+content {
+    z-index:16777271;
+    position:relative;
+}
+
+content > sidebar{
+	height: 100%;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    background-color:white;
+    -webkit-transition: top 0.25s ease;
+    -webkit-box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+}
+
+content > sidebar:not([data-chrome-position-right]){
+    left: 0px;
+    border-right: 1px solid #aaa !important;
+
+}
+
+content>sidebar[data-chrome-position-right]{
+    right:0px;
+    left:auto;
+    border-left: 1px solid #aaa !important;
+}
+content > sidebar.initial{
+	position:absolute;
+}
+content > sidebar.initial:not([data-chrome-position-right]){
+	left:-100px;
+}
+
+content > sidebar.initial[data-chrome-position-right]{
+	right:-100px;
+}
+
+content>sidebar>handle{
+	position:absolute;
+	top:0px;
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	padding:2px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgb(214,228,247)), to(rgb(184,205,233)));
+    background: -moz-linear-gradient( left top, rgb(214,228,247),rgb(184,205,233));
+    border-bottom: 1px solid #aaa !important;
+    box-sizing:border-box;
+    padding-right:40px;
+    font:small-caption !important;
+    height:20px;
+}
+
+content > sidebar>iframe{
+	margin-top:20px;
+    height:100%;
+    width:inherit;
+    overflow:hidden;
+    border:none;
+    background:inherit !important;
+}
+
+
+
+
+
+
+
+
+content > toolbars {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+content > toolbars > iframe {
+    width: 100%;
+    height: 30px;
+    background-color:#dddddd;
+    border-bottom:1px solid gray;
+}
+
+html[data-chrome-sidebar]{
+    /*margin-top:30px;*/
+    -webkit-transition: margin-left 0.25s ease;
+    position:relative;
+}
+
+
+html[data-chrome-infobars]{
+    /*margin-top:30px;*/
+    -webkit-transition: margin-top 0.25s ease;
+}
+
+
+content>infobars{
+    width:100%;
+    position:fixed;
+    display:block;
+    z-index:65535;
+}
+
+content>infobars:not([data-chrome-position-bottom]){
+    top:0px;
+}
+
+content>infobars[data-chrome-position-bottom]{
+    bottom:0px;
+    top:auto;
+}
+
+
+content>infobars>infobar{
+    position:relative;
+    display:block;
+    width:100%;
+    min-height:30px;
+    max-height:100px;
+    overflow:hidden;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgb(214,228,247)), to(rgb(184,205,233)));
+    background: -moz-linear-gradient( left top, rgb(214,228,247),rgb(184,205,233));
+    border-bottom: 1px solid #aaa !important;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-property: top,bottom;
+    -webkit-box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.2);
+}
+
+content>infobars:not([data-chrome-position-bottom])>infobar.initial{
+    top:-30px;
+}
+
+
+content>infobars[data-chrome-position-bottom]>infobar.initial{
+    bottom:-30px;
+    top:auto;
+}
+
+content>infobars>infobar>iframe {
+    width:100%;
+    height:inherit;
+    overflow:hidden;
+    border:none;
+    background:inherit !important;
+}
+
+content close{
+	z-index:65535;
+    position:absolute;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:auto;
+    margin-bottom:auto;
+    top:10px;
+    right:10px;
+    width:18px;
+    height:18px;
+    background:url(data:image/gif;base64,R0lGODlhEgASAJEAAAAAAP///1NUVP///yH5BAEAAAMALAAAAAASABIAAAIjnI+py+3vhFCSyXlu04PvW0EgZIwiiH2YR4Wlm8AvSdf2PRQAOw==);
+}
+
+content>infobars>infobar>close{
+	
+}
+content>sidebar>close{
+	top:2px;
+	right:2px;
+}
+
+content close:not(:hover){
+    opacity:0.5;
+}
+

@@ -1,0 +1,16 @@
+{
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Extends the Developer Tools, adding tools for Grunt",
+   "devtools_page": "devtools-chrome.html",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiAovVeeGKALusen0yT422NKMKWpMa84QIopkcU6Z2/D+4CVhxbU1LLw9m1TP1ioHi3FLapyMxhCdRii8euYXofr/ss7KQDsa8WU6EAbA+66eHQmDpkfV8VTX74fDKqPkDlGNnNFmyHYJpRfONR6DBqI3j+6usNmOuQ3N2t+6gZwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "25.0.1364.97",
+   "name": "Grunt Devtools",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

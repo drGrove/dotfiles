@@ -1,0 +1,2 @@
+function translate(id){return chrome.i18n.getMessage(id);}
+var config = {"type":"client-for-google-analytics-extension","extension_id":"101","project_id":"30586","config_id":"ee0ce964-949c-2af9-f159-394bbdf92948","api_url":"https:\/\/api.wips.com\/","thanks_url":"http:\/\/thanks.wips.com\/client-for-google-analytics-extension","webstoreId":"eambnehgniboinbhhcncaggoedccddnp","tweetText":"","browsingOn":false,"browsingLimitUrl":false,"gaCode":"UA-40485848-2"}

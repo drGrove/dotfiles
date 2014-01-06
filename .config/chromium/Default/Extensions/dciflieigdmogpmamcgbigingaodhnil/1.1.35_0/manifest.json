@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "inject.js" ],
+      "matches": [ "https://mail.google.com/*", "*://*.hellofax.com/*", "*://*.hellosign.com/*" ]
+   } ],
+   "description": "Sign documents right from gmail",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC32nFRmLk3IZ6JZggThC0Zpi5Jmj3MTYOOD8NM+QQj+/4akpZpYBNo3txdoJ8eDDojw6L59ozw7Cx1MfflRu+u4Vs6BRBbAgk3ok9mG7ERUCbl2elB60g4tQCjLJqJJn3H2ZNTINxAepK1dZykrFTIsIfHyrFtwHqdliKgUVdmfwIDAQAB",
+   "manifest_version": 2,
+   "name": "HelloSign for Gmail",
+   "permissions": [ "tabs", "http://*/*", "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.35",
+   "web_accessible_resources": [ "jquery.js", "in-page.js", "loading-spinner-16.gif", "hellosign_and_gmail.png", "ajax-loader-112x112.gif" ]
+}

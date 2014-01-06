@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "Adgangskode"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Denne adgangskode udl\u00F8ber om $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Alle forbindelser"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Indtast pinkoden igen"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "Pinkode"
+   },
+   "CANCEL": {
+      "message": "Annuller"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Ryd historik"
+   },
+   "CLOSE": {
+      "message": "Luk"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Hvis du forlader denne side, afsluttes din session med Chrome Fjernskrivebord."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Er du sikker p\u00E5, at du vil deaktivere fjernforbindelserne til $1? Hvis du ombestemmer dig, skal du genaktivere forbindelserne p\u00E5 den computer."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Fra"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Forbindelseshistorik"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Forbindelseshistorik"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Til"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Opret forbindelse alligevel"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Opret forbindelse"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Forts\u00E6t"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Du deler i \u00F8jeblikket denne maskine med en anden bruger. Vil du forts\u00E6tte med at dele?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Administration af host for Chrome Fjernskrivebord"
+   },
+   "COPYRIGHT": {
+      "message": "Copyright \u00A9 2013 Google Inc. Alle rettigheder forbeholdes."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "Slet alle"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "Slet"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Hvis du vil bruge Chrome Fjernskrivebord, skal du give udvidet adgangstilladelse til din computer. Du skal kun g\u00F8re dette \u00E9n gang."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Bed den bruger, hvis computer, du \u00F8nsker adgang til, om at klikke p\u00E5 \"Del nu\" og give dig adgangskoden."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Med Chrome Fjernskrivebord f\u00E5r du mulighed for sikkert at dele din computer via internettet. Begge brugere skal k\u00F8re appen Chrome Fjernskrivebord, som kan findes p\u00E5 $1."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "Fjernv\u00E6rten kr\u00E6ver, at du bekr\u00E6ftes over for et tredjepartswebsite. Du skal give Chrome Fjernskrivebord yderligere tilladelser til at f\u00E5 adgang til denne adresse, f\u00F8r du kan forts\u00E6tte:"
+   },
+   "DISABLE_HOST": {
+      "message": "Deaktiver"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Afbryd"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Tjenesten Chrome Fjernskrivebord"
+   },
+   "DURATION_HEADER": {
+      "message": "Varighed"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Godkendelse mislykkedes. Log ind p\u00E5 Chrome Fjernskrivebord igen."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Nogle komponenter, der kr\u00E6ves til Chrome Fjernskrivebord, mangler. Kontroll\u00E9r, at du har den nyeste version af Google Chrome, og pr\u00F8v igen."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Fjerncomputeren svarer ikke p\u00E5 anmodninger om oprettelse af forbindelse. Kontroll\u00E9r, at den er online, og pr\u00F8v igen."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Forbindelserne til fjerncomputeren er midlertidigt blokeret, fordi nogen fors\u00F8gte at f\u00E5 forbindelse til den med en ugyldig pinkode. Pr\u00F8v igen senere."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "Denne computer kunne ikke registreres."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Der er registreret en inkompatibel version af Chrome Fjernskrivebord. Kontroll\u00E9r, at du har den nyeste version af Chrome og Chrome Fjernskrivebord p\u00E5 begge computere, og pr\u00F8v igen."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Adgangskoden er ugyldig. Pr\u00F8v igen."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Politikindstillingerne tillader ikke, at denne computer deles som en Chrome Fjernskrivebord-host. Kontakt din systemadministrator for at f\u00E5 hj\u00E6lp."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Nogle komponenter, der kr\u00E6ves til Chrome Fjernskrivebord, mangler. Kontroll\u00E9r, at du har den nyeste version af Chrome, og pr\u00F8v igen."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Der kunne ikke oprettes forbindelse til netv\u00E6rket. Kontroll\u00E9r, at din enhed er p\u00E5 nettet."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Du er ikke logget ind p\u00E5 Chrome Fjernskrivebord. Log ind, og pr\u00F8v igen."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "V\u00E6rten kunne ikke n\u00E5s. Dette skyldes sandsynligvis konfigurationen af det netv\u00E6rk, du bruger."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Tjenesten er midlertidigt utilg\u00E6ngelig. Pr\u00F8v igen senere."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Der opstod en uventet fejl. Rapport\u00E9r dette problem til udviklerne."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Opretter forbindelse..."
+   },
+   "FOOTER_WAITING": {
+      "message": "venter p\u00E5 forbindelse..."
+   },
+   "FULL_SCREEN": {
+      "message": "Fuld sk\u00E6rm"
+   },
+   "GET_STARTED": {
+      "message": "Kom godt i gang"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Vil du hj\u00E6lpe en anden person, mens I videochatter? Pr\u00F8v $1Fjernskrivebord i Google Hangouts$2."
+   },
+   "HELP": {
+      "message": "Hj\u00E6lp"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Adgang"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "F\u00E5 vist og kontroll\u00E9r en delt computer."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Du kan f\u00E5 sikker adgang til denne computer via Chrome Fjernskrivebord."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Skift PIN-kode"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "Vis/rediger"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "Denne computer er konfigureret til at tillade, at en eller flere klienter opretter forbindelse uden at angive en pinkode."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Aktiv\u00E9r fjernforbindelser"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Du skal aktivere fjernforbindelserne, hvis du vil bruge Chrome Fjernskrivebord til at f\u00E5 adgang til denne computer."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Deaktiver fjernforbindelserne"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Del"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Del denne computer, s\u00E5 en anden bruger kan se og kontrollere den."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(denne funktion er endnu ikke tilg\u00E6ngelig for Chromebooks... hold dig opdateret)"
+   },
+   "HOST_CATEGORY": {
+      "message": "Host"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "Adgang n\u00E6gtet for klient: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "Tilsluttet klient: %1 ."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "Frakoblet klient: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "Kanal-IP for klient: %1 ip='%2' host_ip='%3' channel='%4' connection='%5'."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Hvis du vil aktivere fjernforbindelser til en anden computer, skal du installere Chrome Fjernskrivebord p\u00E5 den p\u00E5g\u00E6ldende computer og klikke p\u00E5 \"$1\"."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Du har ingen registrerede computere. Hvis du vil aktivere fjernforbindelser til en computer, skal du installere Chrome Fjernskrivebord p\u00E5 den p\u00E5g\u00E6ldende computer og klikke p\u00E5 \"$1\"."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Softwareopdateringer udf\u00F8res s\u00E6dvanligvis automatisk, men de kan i sj\u00E6ldne tilf\u00E6lde mislykkes. Det b\u00F8r ikke tage mere end et par minutter at opdatere softwaren, og opdateringen kan udf\u00F8res, mens du er forbundet til din computer via en fjernforbindelse."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Chrome Fjernskrivebord p\u00E5 $1 er for\u00E6ldet og skal opdateres."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Hj\u00E6lp os med at forbedre Chrome Fjernskrivebord ved at lade os indsamle brugsstatistikker og rapporter om nedbrud."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Beskyt adgangen til denne computer ved at v\u00E6lge en pinkode p\u00E5 $1mindst seks cifre$2. Denne pinkode skal indtastes, n\u00E5r du opretter forbindelse fra et andet sted."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Tjenesten til fjernadgang kunne ikke starte."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome downloader installationsprogrammet Chrome Remote Desktop Host. N\u00E5r overf\u00F8rslen er f\u00E6rdig, skal du k\u00F8re installationsprogrammet, f\u00F8r du forts\u00E6tter."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "K\u00F8r installationsprogrammet, f\u00F8r du forts\u00E6tter."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Fjernforbindelserne til denne computer er blevet aktiveret."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Kontroll\u00E9r indstillingerne for str\u00F8mstyring p\u00E5 din computer, og s\u00F8rg for, at den ikke er konfigureret til at g\u00E5 i dvale, n\u00E5r den er inaktiv."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Aktiverer fjernforbindelserne for denne computer\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Fjernforbindelserne til denne computer er blevet deaktiveret."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Deaktiverer fjernforbindelserne for denne computer\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Fjernadgangen til denne computer kunne ikke deaktiveres. Pr\u00F8v igen senere."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "Din pinkode er blevet opdateret."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Pinkoden kunne ikke opdateres. Pr\u00F8v igen senere."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Pinkoden for denne computer opdateres\u2026"
+   },
+   "HOST_STARTED": {
+      "message": "Host er startet for bruger: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Til denne computer"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Hvis du vil begynde at dele dit skrivebord, skal du give adgangskoden nedenfor til den person, som skal hj\u00E6lpe dig."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "N\u00E5r personen indtaster koden, startes delingssessionen."
+   },
+   "INVALID_PIN": {
+      "message": "Indtast en pinkode, der best\u00E5r af seks eller flere cifre."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Sk\u00E6rmdeling med funktionen bruger-til-bruger \u2013 perfekt til ekstern teknisk support."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Tilsluttet:"
+   },
+   "LEARN_HOW": {
+      "message": "F\u00E5 flere oplysninger."
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Pr\u00E6ferencer for host for Chrome Fjernskrivebord"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Host for Chrome\nFjernskrivebord"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Afinstallationsprogram til host for Chrome Fjernskrivebord"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "F\u00E5 adgang til din egen computer, uanset hvor du er."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Genererer adgangskode..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Din session med Chrome Fjernskrivebord er afsluttet."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Dit skrivebord deles i \u00F8jeblikket med $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autoriser"
+   },
+   "MODE_IT2ME": {
+      "message": "Fjernsupport"
+   },
+   "MODE_ME2ME": {
+      "message": "Mine computere"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "Alle parrede klienter er blevet slettet."
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Fra denne computer"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "F\u00F8lgende klienter er parret med denne computer og kan oprette forbindelse uden at angive en pinkode. Du kan altid tr\u00E6kke denne tilladelse tilbage, enten for hver enkelt eller for alle klienter."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "Dato for parring"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "Klient"
+   },
+   "PIN": {
+      "message": "Pinkode"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Indtast den samme pinkode i begge felter."
+   },
+   "PIN_MESSAGE": {
+      "message": "Indtast din pinkode til $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "F\u00E5 adgang til andre computere, eller giv en anden bruger adgang til din computer sikkert via internettet."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome Fjernskrivebord"
+   },
+   "RECONNECT": {
+      "message": "Genopret forbindelse"
+   },
+   "REMEMBER_PIN": {
+      "message": "Bed ikke om en pinkode igen, n\u00E5r der oprettes forbindelse til denne host fra denne computer."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "Kernebiblioteket"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Proces til skrivebordsintegration"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "Hostproces"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "Giv en anden bruger sikker adgang til din computer via internettet."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Host for Chrome Fjernskrivebord"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Tilpas st\u00F8rrelse p\u00E5 skrivebord"
+   },
+   "RETRY": {
+      "message": "Pr\u00F8v igen"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Valgmuligheder for sk\u00E6rm"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Send taster"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Denne tjeneste muligg\u00F8r indg\u00E5ende forbindelse fra klienter i Chrome Fjernskrivebord."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Tilpas til vinduet"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Log ind"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Log ud"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Stop deling"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Vil du gerne v\u00E6re med til at forbedre Chrome Fjernskrivebord? $1Deltag i sp\u00F8rgeunders\u00F8gelsen.$2"
+   },
+   "TIME_HEADER": {
+      "message": "Tid"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Opret forbindelse til $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Deaktiver fjernforbindelserne til denne computer"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Rediger computerens navn"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (for\u00E6ldet)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Konto"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Bekr\u00E6ft din konto og pinkode nedenfor for at tillade adgang via Chrome Fjernskrivebord."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "BEM\u00C6RK! Politikindstillingerne tillader kun forbindelser mellem computere inden for dit netv\u00E6rk."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "BEM\u00C6RK! Du kan sikre, at alle tastaturgenveje er tilg\u00E6ngelige ved at konfigurere Chrome Fjernskrivebord til \"\u00C5bn som vindue\"."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Hvorfor er det sikkert?"
+   },
+   "WORKING": {
+      "message": "Arbejder..."
+   }
+}

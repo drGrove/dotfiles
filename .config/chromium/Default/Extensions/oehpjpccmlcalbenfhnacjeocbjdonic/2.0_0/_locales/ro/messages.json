@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Neaplicabil."
+   },
+   "alignment_btn_txt": {
+      "message": "Ajusta\u0163i pozi\u0163ia"
+   },
+   "allow_access_to_webcam": {
+      "message": "Permite\u0163i accesul la camera web din bara de notificare."
+   },
+   "back_to_step1_msg": {
+      "message": "Sigur dori\u0163i s\u0103 importa\u0163i o imagine nou\u0103? Ve\u0163i pierde toate modific\u0103rile pe care le-a\u0163i f\u0103cut asupra imaginii actuale."
+   },
+   "background": {
+      "message": "Edita\u0163i culoarea de fundal"
+   },
+   "bottom_align": {
+      "message": "jos"
+   },
+   "cancel": {
+      "message": "Anula\u0163i"
+   },
+   "center_align": {
+      "message": "centru"
+   },
+   "change_img_btn_txt": {
+      "message": "Importa\u0163i o imagine nou\u0103"
+   },
+   "continue_anyways": {
+      "message": "Continua\u0163i oricum"
+   },
+   "continue_to": {
+      "message": "Continua\u0163i cu pasul $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Crea\u0163i propria tem\u0103"
+   },
+   "custom": {
+      "message": "Personaliza\u0163i"
+   },
+   "custom_color": {
+      "message": "Culoare personalizat\u0103"
+   },
+   "default": {
+      "message": "Seta\u0163i la valoarea prestabilit\u0103"
+   },
+   "delete": {
+      "message": "\u015Eterge\u0163i"
+   },
+   "delete_theme": {
+      "message": "\u015Eterg. tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Sigur dori\u0163i s\u0103 \u015Fterge\u0163i tema \u201E$1\u201D?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Eroare la \u015Ftergere."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "A ap\u0103rut o eroare la \u015Ftergere. \u00CEncerca\u0163i din nou."
+   },
+   "deleted": {
+      "message": "\u015Etears\u0103"
+   },
+   "deleting": {
+      "message": "Se \u015Fterge..."
+   },
+   "deleting_theme": {
+      "message": "Se \u015Fterge tema"
+   },
+   "design_mode": {
+      "message": "modul Design"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Gata"
+   },
+   "download_theme_zip": {
+      "message": "Desc\u0103rca\u0163i tema ca fi\u015Fier zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Edita\u0163i \u00EEn Picnik"
+   },
+   "error": {
+      "message": "EROARE"
+   },
+   "error_while_publishing": {
+      "message": "Eroare la generarea URL. Re\u00EEncerca\u0163i."
+   },
+   "error_while_unpublishing": {
+      "message": "Eroare la eliminarea URL. Re\u00EEncerca\u0163i."
+   },
+   "ext_description": {
+      "message": "Crea\u0163i \u015Fi distribui\u0163i teme Google Chrome concepute de dvs."
+   },
+   "ext_name": {
+      "message": "Tema mea Chrome"
+   },
+   "feeling_lucky": {
+      "message": "M\u0103 simt norocos"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hopa! A ap\u0103rut o eroare \u00EEn privin\u0163a imaginii dvs. editate, iar noi lucr\u0103m la remedierea acesteia."
+   },
+   "fill_screen": {
+      "message": "Pe tot ecranul"
+   },
+   "filter_black_and_white": {
+      "message": "Alb-negru"
+   },
+   "filter_bolder": {
+      "message": "+aldin"
+   },
+   "filter_cooler": {
+      "message": "+rece"
+   },
+   "filter_inverted": {
+      "message": "Inversat"
+   },
+   "filter_posterized": {
+      "message": "Posterizat"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Efecte foto"
+   },
+   "filter_warmer": {
+      "message": "+cald"
+   },
+   "fit_screen": {
+      "message": "Potrivire pe ecran"
+   },
+   "footer_share_site_txt": {
+      "message": "Distribui\u0163i:"
+   },
+   "frame": {
+      "message": "Edita\u0163i culoarea cadrului"
+   },
+   "generate_theme": {
+      "message": "Se genereaz\u0103 tema"
+   },
+   "goback": {
+      "message": "\u00CEnapoi"
+   },
+   "hide_themes": {
+      "message": "Ascunde\u0163i"
+   },
+   "image_format_error_msg": {
+      "message": "Hopa! A ap\u0103rut o eroare \u00EEn privin\u0163a imaginii. Re\u00EEncerca\u0163i sau selecta\u0163i alt\u0103 imagine."
+   },
+   "image_size_error_msg": {
+      "message": "Hopa! Fi\u015Fierul imagine este prea mare. Re\u00EEncerca\u0163i cu un fi\u015Fier de cel mult $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Accept\u0103m tipurile de fi\u015Fiere JPEG, PNG, GIF \u015Fi BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Ne pare r\u0103u, dar nu accept\u0103m formatul de fi\u015Fier pe care \u00EEncerca\u0163i s\u0103 \u00EEl selecta\u0163i."
+   },
+   "img_fetching": {
+      "message": "Se preia imaginea"
+   },
+   "img_upload_wait": {
+      "message": "A\u015Ftepta\u0163i ca imaginea dvs. s\u0103 se \u00EEncarce"
+   },
+   "informative": {
+      "message": "Informativ"
+   },
+   "install_box_text": {
+      "message": "Face\u0163i clic pentru a instala aceast\u0103 tem\u0103 \u00EEn browserul dvs. Chrome acum"
+   },
+   "install_btn": {
+      "message": "Instala\u0163i tema dvs."
+   },
+   "left_align": {
+      "message": "st\u00E2nga"
+   },
+   "loading": {
+      "message": "Se \u00EEncarc\u0103..."
+   },
+   "loading_application": {
+      "message": "Se \u00EEncarc\u0103 aplica\u0163ia..."
+   },
+   "locale": {
+      "message": "ro"
+   },
+   "make_new": {
+      "message": "Crea\u0163i o tem\u0103 nou\u0103 \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Fil\u0103 nou\u0103"
+   },
+   "no": {
+      "message": "Nu"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Se pare c\u0103 nu a\u0163i importat o imagine pentru fundalul temei dvs. Sigur dori\u0163i s\u0103 continua\u0163i f\u0103r\u0103 o astfel de imagine?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Se pare c\u0103 nu a\u0163i dat niciun nume temei dvs. Dori\u0163i totu\u015Fi s\u0103 continua\u0163i?"
+   },
+   "no_theme_to_view": {
+      "message": "Nicio tem\u0103 de afi\u015Fat"
+   },
+   "no_webcam_msg": {
+      "message": "Nu a fost detectat\u0103 nicio camer\u0103 web"
+   },
+   "not_available_offline": {
+      "message": "Indisponibil\u0103 offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Hopa,"
+   },
+   "open_preview_text": {
+      "message": "Previzualiza\u0163i tema"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Crea\u0163i tema!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Alege\u0163i o culoare"
+   },
+   "picnik_save_btn": {
+      "message": "Salva\u0163i \u00EEn Tema mea Chrome"
+   },
+   "please_wait": {
+      "message": "A\u015Ftepta\u0163i..."
+   },
+   "preset_color": {
+      "message": "Culoare presetat\u0103"
+   },
+   "preview_error_msg": {
+      "message": "Se pare c\u0103 tema pe care o c\u0103uta\u0163i nu mai este disponibil\u0103."
+   },
+   "preview_mode": {
+      "message": "modul Previzualizare"
+   },
+   "privacy_policy": {
+      "message": "Politica de confiden\u0163ialitate"
+   },
+   "publish_theme": {
+      "message": "PUBLICA\u0162I"
+   },
+   "publish_theme_text": {
+      "message": "Clic pentru a trimite tema altora."
+   },
+   "publishing": {
+      "message": "Se genereaz\u0103 URL"
+   },
+   "publishing_zip_help_link": {
+      "message": "Pentru a publica fi\u015Fierul zip \u00EEn Magazinul Web Chrome, [accesa\u021Bi]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Da\u0163i un nume temei dvs. pentru ca aceasta s\u0103 fie unic\u0103. Numele temei va fi vizibil dac\u0103 alege\u0163i s\u0103 distribui\u0163i tema dvs. altor persoane."
+   },
+   "rear_tab_text": {
+      "message": "Fila de fundal"
+   },
+   "reartab": {
+      "message": "Edita\u0163i culoarea filei de fundal"
+   },
+   "retake_picture": {
+      "message": "Repet."
+   },
+   "retry": {
+      "message": "Re\u00EEncerca\u0163i"
+   },
+   "right_align": {
+      "message": "dreapta"
+   },
+   "share_box_text": {
+      "message": "Copia\u0163i aceast\u0103 adres\u0103 URL unic\u0103 pentru a distribui tema dvs. altor persoane"
+   },
+   "show_all_themes": {
+      "message": "Toate temele"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "\u00CENCEPE\u0162I CREAREA TEMEI"
+   },
+   "start_screen_description": {
+      "message": "Ad\u0103uga\u0163i o not\u0103 personal\u0103 browserului dvs. Crea\u0163i \u015Fi distribui\u0163i teme Google Chrome personalizate utiliz\u00E2nd propriile dvs. fotografii \u015Fi modele, \u00EEn doar trei pa\u015Fi simpli."
+   },
+   "start_screen_heading": {
+      "message": "Crea\u0163i propria dvs. tem\u0103 Chrome"
+   },
+   "step": {
+      "message": "Pasul $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importa\u0163i imaginea",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "\u00CEnc\u0103rca\u0163i un fi\u015Fier de pe computer sau realiza\u0163i o fotografie cu camera web."
+   },
+   "step1_header_msg_text": {
+      "message": "Alege\u0163i o imagine pentru fundalul temei dvs."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Ad\u0103uga\u0163i pu\u0163in\u0103 culoare",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Sau, pute\u0163i s\u0103 ad\u0103uga\u0163i automat culorile [dac\u0103 v\u0103 sim\u0163i\u0163i norocos]"
+   },
+   "step2_header_msg_text": {
+      "message": "Face\u0163i clic pe un indicator pentru a \u00EEncepe s\u0103 colora\u0163i tema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Instala\u0163i \u015Fi distribui\u0163i",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "G\u0103si\u0163i mai multe teme \u00EEn Magazinul web Chrome"
+   },
+   "stored_themes_title": {
+      "message": "Face\u0163i clic pe miniaturile de mai jos pentru a instala, distribui sau \u015Fterge temele anterioare create pe acest computer."
+   },
+   "take_picture": {
+      "message": "Fotografia\u0163i"
+   },
+   "text": {
+      "message": "Edita\u0163i culoarea textului"
+   },
+   "theme_deleted": {
+      "message": "Tema a fost \u015Ftears\u0103"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Mai ad\u0103uga\u0163i c\u00E2teva cuvinte pentru a descrie tema dvs. Aceast\u0103 descriere va fi vizibil\u0103 dac\u0103 distribui\u0163i tema."
+   },
+   "theme_description_box_title": {
+      "message": "Descrie\u0163i tema"
+   },
+   "theme_description_text": {
+      "message": "Ad\u0103uga\u0163i o descriere op\u0163ional\u0103"
+   },
+   "theme_does_not_exist": {
+      "message": "Aceast\u0103 tem\u0103 nu exist\u0103"
+   },
+   "theme_name_placeholder": {
+      "message": "Da\u0163i un nume temei dvs."
+   },
+   "theme_str": {
+      "message": "tem\u0103"
+   },
+   "theme_unique_url": {
+      "message": "Distribui\u0163i cu URL unic:"
+   },
+   "tile_image": {
+      "message": "Imagine"
+   },
+   "toolbar": {
+      "message": "Edita\u0163i culoarea barei de instrumente"
+   },
+   "top_align": {
+      "message": "sus"
+   },
+   "try_again": {
+      "message": "\u00CEncerca\u0163i din nou"
+   },
+   "unpublish": {
+      "message": "Retrage\u0163i"
+   },
+   "unpublishing": {
+      "message": "Se elimin\u0103 URL"
+   },
+   "untitled": {
+      "message": "F\u0103r\u0103 titlu"
+   },
+   "upload_btn_txt": {
+      "message": "\u00CEnc\u0103rca\u0163i imaginea"
+   },
+   "upload_crx_error_msg": {
+      "message": "Hopa! A ap\u0103rut o eroare c\u00E2nd am \u00EEncercat s\u0103 cre\u0103m tema dvs."
+   },
+   "upload_error_msg": {
+      "message": "Se pare c\u0103 a ap\u0103rut o problem\u0103 la \u00EEnc\u0103rcarea imaginii. \u00CEncerca\u0163i s\u0103 \u00EEnc\u0103rca\u0163i fi\u015Fierul din nou sau reveni\u0163i \u015Fi selecta\u0163i alt fi\u015Fier."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "\u00CEnc\u0103rca\u0163i numai imagini pentru care de\u0163ine\u0163i drepturile de utilizare."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Imaginile \u015Fi temele vor fi g\u0103zduite de Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Imagini, teme \u015Fterse se elimin\u0103 definitiv."
+   },
+   "uploading": {
+      "message": "SE \u00CENCARC\u0102"
+   },
+   "url_tooltip": {
+      "message": "Copia\u0163i \u015Fi insera\u0163i pentru a distribui"
+   },
+   "use_picture": {
+      "message": "Utiliza\u0163i"
+   },
+   "warning": {
+      "message": "AVERTISMENT"
+   },
+   "webcam_btn_txt": {
+      "message": "Utiliza\u0163i camera web"
+   },
+   "woohoo_text": {
+      "message": "Iu-hu! \u201E$1\u201D $2 a fost creat\u0103",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Da"
+   }
+}

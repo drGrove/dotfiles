@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Mitterakendatav"
+   },
+   "alignment_btn_txt": {
+      "message": "Reguleeri positsiooni"
+   },
+   "allow_access_to_webcam": {
+      "message": "Lubage m\u00E4rguanderibal juurdep\u00E4\u00E4s veebikaamerale."
+   },
+   "back_to_step1_msg": {
+      "message": "Kas olete kindel, et soovite importida uue kujutise? K\u00F5ik selles kujutises tehtud muudatused l\u00E4hevad kaduma."
+   },
+   "background": {
+      "message": "Taustav\u00E4rvi muutmine"
+   },
+   "bottom_align": {
+      "message": "alla"
+   },
+   "cancel": {
+      "message": "T\u00FChista"
+   },
+   "center_align": {
+      "message": "keskele"
+   },
+   "change_img_btn_txt": {
+      "message": "Impordi uus kujutis"
+   },
+   "continue_anyways": {
+      "message": "J\u00E4tka ikkagi"
+   },
+   "continue_to": {
+      "message": "J\u00E4tkake $1. sammuga",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Looge oma teema"
+   },
+   "custom": {
+      "message": "Kohandatud"
+   },
+   "custom_color": {
+      "message": "Kohandatud v\u00E4rv"
+   },
+   "default": {
+      "message": "M\u00E4\u00E4ra vaikeseadeks"
+   },
+   "delete": {
+      "message": "Kustuta"
+   },
+   "delete_theme": {
+      "message": "Kust. teema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Kas soovite kindlasti kustutada teema \u201E$1\u201D?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Kustutamisel ilmnes viga."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Viga kustutamisel. Proovige uuesti."
+   },
+   "deleted": {
+      "message": "Kustutatud"
+   },
+   "deleting": {
+      "message": "Kustutamine ..."
+   },
+   "deleting_theme": {
+      "message": "Teema kustutamine"
+   },
+   "design_mode": {
+      "message": "kujundusre\u017Eiimi"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Valmis"
+   },
+   "download_theme_zip": {
+      "message": "Teema allalaadimine Zip-failina"
+   },
+   "enhance_btn_txt": {
+      "message": "Muuda rakenduses Picnik"
+   },
+   "error": {
+      "message": "VIGA"
+   },
+   "error_while_publishing": {
+      "message": "Viga URL-i genereerimisel. Proovige uuesti."
+   },
+   "error_while_unpublishing": {
+      "message": "Viga URL-i eemaldamisel. Proovige uuesti."
+   },
+   "ext_description": {
+      "message": "Looge ja jagage enda loodud Google Chrome'i teemasid."
+   },
+   "ext_name": {
+      "message": "Minu Chrome'i teema"
+   },
+   "feeling_lucky": {
+      "message": "Ehk mul veab"
+   },
+   "fetch_image_error_msg": {
+      "message": "Vabandust! Muudetud kujutisega juhtus midagi ja proovime seda parandada."
+   },
+   "fill_screen": {
+      "message": "Terve ekraani t\u00E4itmine"
+   },
+   "filter_black_and_white": {
+      "message": "Mustvalge"
+   },
+   "filter_bolder": {
+      "message": "Tugevam"
+   },
+   "filter_cooler": {
+      "message": "K\u00FClmem"
+   },
+   "filter_inverted": {
+      "message": "\u00DCmber p\u00F6\u00F6ratud"
+   },
+   "filter_posterized": {
+      "message": "Plakatiks"
+   },
+   "filter_sepia": {
+      "message": "Seepia"
+   },
+   "filter_title": {
+      "message": "Kujutise efektid"
+   },
+   "filter_warmer": {
+      "message": "Soojem"
+   },
+   "fit_screen": {
+      "message": "Ekraanile mahutamine"
+   },
+   "footer_share_site_txt": {
+      "message": "Jagamine:"
+   },
+   "frame": {
+      "message": "Raami v\u00E4rvi muutmine"
+   },
+   "generate_theme": {
+      "message": "Teema loomine"
+   },
+   "goback": {
+      "message": "Mine tagasi"
+   },
+   "hide_themes": {
+      "message": "Peida teemad"
+   },
+   "image_format_error_msg": {
+      "message": "Vabandust! Paistab, et kujutisega juhtus midagi. Proovige uuesti v\u00F5i valige teine kujutis."
+   },
+   "image_size_error_msg": {
+      "message": "Vabandust! Paistab, et pildifail on liiga suur. Proovige uuesti failiga, mis pole suurem kui $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Toetame failit\u00FC\u00FCpe JPEG, PNG, GIF ja BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Kahjuks ei toeta me failivormingut, mida p\u00FC\u00FCate valida."
+   },
+   "img_fetching": {
+      "message": "Kujutise toomine"
+   },
+   "img_upload_wait": {
+      "message": "Oodake, kuni teie kujutist \u00FCles laaditakse."
+   },
+   "informative": {
+      "message": "Informatiivne"
+   },
+   "install_box_text": {
+      "message": "Kl\u00F5psake, et installida see teema n\u00FC\u00FCd oma Chrome'i brauserisse"
+   },
+   "install_btn": {
+      "message": "Installi minu teema"
+   },
+   "left_align": {
+      "message": "vasakule"
+   },
+   "loading": {
+      "message": "Laadimine ..."
+   },
+   "loading_application": {
+      "message": "Rakenduse laadimine ..."
+   },
+   "locale": {
+      "message": "et"
+   },
+   "make_new": {
+      "message": "Uue teema loomine \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Uus vaheleht"
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Paistab, et te pole teema tausta jaoks kujutist importinud. Kas olete kindel, et soovite j\u00E4tkata ilma selleta?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Paistab, et te ei andnud oma teemale nime. Kas soovite ikkagi j\u00E4tkata?"
+   },
+   "no_theme_to_view": {
+      "message": "Teil pole \u00FChtegi teemat, mida kuvada"
+   },
+   "no_webcam_msg": {
+      "message": "Ei tuvastatud \u00FChtegi veebikaamerat"
+   },
+   "not_available_offline": {
+      "message": "Pole v\u00F5rgu\u00FChenduseta saadaval"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Vabandust,"
+   },
+   "open_preview_text": {
+      "message": "Teema eelvaate"
+   },
+   "original": {
+      "message": "Originaal"
+   },
+   "package_btn": {
+      "message": "Loo mu teema!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "V\u00E4rvi valimine"
+   },
+   "picnik_save_btn": {
+      "message": "Salvesta jaotisesse Minu Chrome'i teemad"
+   },
+   "please_wait": {
+      "message": "Oodake ..."
+   },
+   "preset_color": {
+      "message": "Eelseadistatud v\u00E4rv"
+   },
+   "preview_error_msg": {
+      "message": "paistab, et otsitav teema pole enam saadaval."
+   },
+   "preview_mode": {
+      "message": "eelvaatere\u017Eiim"
+   },
+   "privacy_policy": {
+      "message": "Privaatsuseeskirjad"
+   },
+   "publish_theme": {
+      "message": "TEEMA JAGAMINE"
+   },
+   "publish_theme_text": {
+      "message": "Kl\u00F5psake, et jagada teemat teistega."
+   },
+   "publishing": {
+      "message": "URL-i genereerimine ..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Zip-faili Chrome'i veebipoes avaldamiseks minge [siia]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Pange teemale nimi ja muutke see oman\u00E4oliseks. Kui otsustate teemat jagada, siis kuvatakse nime teistele kasutajatele."
+   },
+   "rear_tab_text": {
+      "message": "Taustavaheleht"
+   },
+   "reartab": {
+      "message": "Taustavahelehe v\u00E4rvi muutmine"
+   },
+   "retake_picture": {
+      "message": "Tee uuesti"
+   },
+   "retry": {
+      "message": "Proovi uuesti"
+   },
+   "right_align": {
+      "message": "paremale"
+   },
+   "share_box_text": {
+      "message": "Oma teema teistega jagamiseks kopeerige see unikaalne URL"
+   },
+   "show_all_themes": {
+      "message": "Kuva k\u00F5ik teemad"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "ALUSTAGE TEEMA LOOMIST"
+   },
+   "start_screen_description": {
+      "message": "Lisage brauserile isikup\u00E4ra. Looge ja jagage kohandatud Google Chrome'i teemasid. Saate kasutada enda fotosid ja kujundust ning loomiseks tuleb teha vaid kolm lihtsat sammu."
+   },
+   "start_screen_heading": {
+      "message": "Looge oma Chrome'i teema"
+   },
+   "step": {
+      "message": "$1. samm",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importige kujutis",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Laadige \u00FCles fail oma arvutist v\u00F5i tehke foto veebikaameraga."
+   },
+   "step1_header_msg_text": {
+      "message": "Valige kujutis teema tausta jaoks."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Lisage veidi v\u00E4rvi",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "V\u00F5i v\u00F5ite lisada v\u00E4rve automaatselt [kl\u00F5psates Ehk mul veab]"
+   },
+   "step2_header_msg_text": {
+      "message": "Kl\u00F5psake n\u00F6\u00F6pn\u00F5elal, et alustada teema v\u00E4rvimist"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installige ja jagage",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Rohkem teemasid leiate Chrome'i veebipoest"
+   },
+   "stored_themes_title": {
+      "message": "Kl\u00F5psake allolevatel pisipiltidel, et installida, jagada v\u00F5i kustutada varem selles arvutis loodud teemasid."
+   },
+   "take_picture": {
+      "message": "Tee pilt"
+   },
+   "text": {
+      "message": "Teksti v\u00E4rvi muutmine"
+   },
+   "theme_deleted": {
+      "message": "Teema on kustutatud"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Lisage paar s\u00F5na oma teema kirjeldamiseks. Kui jagate oma teemat, siis kuvatakse seda kirjeldust."
+   },
+   "theme_description_box_title": {
+      "message": "Teema kirjeldus"
+   },
+   "theme_description_text": {
+      "message": "Vajadusel lisage kirjeldus"
+   },
+   "theme_does_not_exist": {
+      "message": "Sellist teemat pole olemas"
+   },
+   "theme_name_placeholder": {
+      "message": "Andke oma teemale nimi"
+   },
+   "theme_str": {
+      "message": "teema"
+   },
+   "theme_unique_url": {
+      "message": "Jaga selle kordumatu URL-iga:"
+   },
+   "tile_image": {
+      "message": "Paani kujutis"
+   },
+   "toolbar": {
+      "message": "T\u00F6\u00F6riistariba v\u00E4rvi muutmine"
+   },
+   "top_align": {
+      "message": "\u00FCles"
+   },
+   "try_again": {
+      "message": "Proovi uuesti"
+   },
+   "unpublish": {
+      "message": "\u00C4ra jaga"
+   },
+   "unpublishing": {
+      "message": "URL-i eemaldamine ..."
+   },
+   "untitled": {
+      "message": "Pealkirjata"
+   },
+   "upload_btn_txt": {
+      "message": "Laadige kujutis \u00FCles"
+   },
+   "upload_crx_error_msg": {
+      "message": "Vabandust! Teie teema loomisel l\u00E4ks midagi valesti."
+   },
+   "upload_error_msg": {
+      "message": "Paistab, et kujutise \u00FCleslaadimisel ilmnes probleem. Proovige faili uuesti \u00FCles laadida v\u00F5i minge tagasi ja valige muu fail."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Laadige \u00FCles ainult selliseid kujutisi, mida teil on \u00F5igus kasutada."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Kujutisi ja teemasid hostib Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Eemaldatud kujutised ja teemad kustutatakse j\u00E4\u00E4davalt."
+   },
+   "uploading": {
+      "message": "\u00DCLESLAADIMINE"
+   },
+   "url_tooltip": {
+      "message": "Kopeerige ja kleepige jagamiseks"
+   },
+   "use_picture": {
+      "message": "Kasuta pilti"
+   },
+   "warning": {
+      "message": "HOIATUS"
+   },
+   "webcam_btn_txt": {
+      "message": "Kasutage veebikaamerat"
+   },
+   "woohoo_text": {
+      "message": "Teema \u201E$1\u201D $2 on valmis",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Jah"
+   }
+}

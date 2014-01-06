@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "Kode akses"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Kode akses ini akan kedaluwarsa dalam waktu $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Semua sambungan"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Ketik ulang PIN"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Batal"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Hapus riwayat"
+   },
+   "CLOSE": {
+      "message": "Tutup"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Dengan meninggalkan laman ini, Anda akan mengakhiri sesi Chrome Desktop Jarak Jauh."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Yakin ingin menonaktifkan sambungan jarak jauh dengan $1? Jika Anda berubah pikiran, Anda harus mengunjungi komputer tersebut untuk mengaktifkan kembali sambungan."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Dari"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Riwayat sambungan"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Riwayat Sambungan"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Ke"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Tetap sambungkan"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Hubungkan"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Lanjut"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Saat ini Anda sedang berbagi mesin ini dengan pengguna lain. Apakah Anda ingin terus berbagi?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Untuk menggunakan Chrome Desktop Jarak Jauh, Anda harus memberikan izin akses yang diperpanjang ke komputer. Anda hanya perlu melakukan ini satu kali."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Mintalah kepada pengguna yang ingin Anda akses komputernya agar mengeklik 'Bagikan Sekarang' dan memberikan kode aksesnya kepada Anda."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Chrome Desktop Jarak Jauh memungkinkan Anda berbagi komputer melalui web dengan aman. Kedua pengguna harus menjalankan aplikasi Chrome Desktop Jarak Jauh yang dapat ditemukan di $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Nonaktifkan"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Putuskan"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Putuskan"
+   },
+   "DURATION_HEADER": {
+      "message": "Durasi"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Autentikasi gagal. Masuk ke Chrome Desktop Jarak Jauh lagi."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Beberapa komponen yang diperlukan untuk Chrome Desktop Jarak Jauh hilang. Pastikan bahwa Anda telah memasang versi teranyar dan coba lagi."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Komputer jarak jauh tidak menanggapi permintaan sambungan. Verifikasikan bahwa komputer jarak jauh sedang online dan coba lagi."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Sambungan ke komputer jarak jauh diblokir untuk sementara karena seseorang mencoba untuk menyambungkannya dengan PIN yang tidak valid. Coba lagi nanti."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Versi Chrome Desktop Jarak Jauh yang tidak kompatibel terdeteksi. Pastikan bahwa Anda memiliki Chrome dan Chrome Desktop Jarak Jauh versi teranyar di kedua komputer, lalu coba lagi."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Kode akses tidak valid. Harap coba lagi."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Setelan kebijakan tidak mengizinkan berbagi komputer ini sebagai inang Chrome Desktop Jarak Jauh. Hubungi administrator sistem Anda untuk mendapatkan bantuan."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Beberapa komponen yang diperlukan untuk Chrome Desktop Jarak Jauh hilang. Pastikan bahwa Anda menjalankan versi Chrome teranyar dan coba lagi."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Tidak dapat tersambung ke jaringan. Periksa bahwa perangkat Anda telah tersambung."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Anda belum masuk ke Chrome Desktop Jarak Jauh. Masuk dan coba lagi."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Tidak dapat menjangkau inang. Ini mungkin karena konfigurasi jaringan yang Anda gunakan."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Layanan kami tidak tersedia untuk sementara. Coba lagi nanti."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Terjadi kesalahan yang tidak terduga. Laporkan masalah ini kepada pengembang."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Menyambungkan..."
+   },
+   "FOOTER_WAITING": {
+      "message": "menunggu sambungan..."
+   },
+   "FULL_SCREEN": {
+      "message": "Layar penuh"
+   },
+   "GET_STARTED": {
+      "message": "Memulai"
+   },
+   "HELP": {
+      "message": "Bantuan"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Akses"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Melihat dan mengontrol komputer bersama."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Mungkin Anda dapat mengakses komputer ini dengan aman menggunakan Chrome Desktop Jarak Jauh."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Ubah PIN"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Aktifkan sambungan jarak jauh"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Anda harus mengaktifkan sambungan jarak jauh jika ingin menggunakan Chrome Desktop Jarak Jauh untuk mengakses komputer ini."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Nonaktifkan sambungan jarak jauh"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Bagikan"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Membagi komputer ini agar pengguna lain dapat melihat dan mengontrol."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(fitur ini belum tersedia untuk Chromebook... nantikan kabar berikutnya)"
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Untuk mengaktifkan sambungan jarak jauh ke komputer yang berbeda, pasang Chrome Desktop Jarak Jauh di komputer tersebut, lalu klik \u201C$1\u201D."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Anda tidak memiliki komputer yang terdaftar. Untuk mengaktifkan sambungan jarak jauh ke komputer, pasang Chrome Desktop Jarak Jauh di komputer tersebut, lalu klik \u201C$1\u201D."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Pembaruan perangkat lunak biasanya otomatis terjadi, namun dalam kasus yang sangat jarang, pembaruan dapat gagal. Memperbarui perangkat lunak seharusnya tidak memakan waktu lebih dari beberapa menit dan dapat dilakukan saat tersambung ke komputer Anda dari jarak jauh."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Chrome Desktop Jarak Jauh di $1 telah kedaluwarsa dan perlu diperbarui."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Bantu kami meningkatkan Chrome Desktop Jarak Jauh dengan mengizinkan kami mengumpulkan statistik penggunaan dan laporan kerusakan."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Untuk melindungi akses ke komputer ini, gunakan PIN $1setidaknya enam digit$2. PIN ini akan diperlukan saat menyambung dari lokasi lainnya."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Gagal memulai layanan akses jarak jauh."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome sedang mengunduh pemasang Inang Chrome Desktop Jarak Jauh. Setelah unduhan selesai, jalankan pemasang sebelum melanjutkan."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Jalankan pemasang sebelum melanjutkan."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "Gagal mendaftarkan komputer ini."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Sambungan jarak jauh untuk komputer ini telah diaktifkan."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Periksa setelan pengelolaan daya komputer Anda dan pastikan agar tidak dikonfigurasi untuk tidur ketika menganggur."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Mengaktifkan sambungan jarak jauh untuk komputer ini..."
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Sambungan jarak jauh untuk komputer ini telah dinonaktifkan."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Menonaktifkan sambungan jarak jauh untuk komputer ini..."
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Gagal menonaktifkan akses jarak jauh ke komputer ini. Coba lagi nanti."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "PIN Anda telah diperbarui."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Gagal memperbarui PIN. Coba lagi nanti."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "PIN untuk komputer ini sedang diperbarui..."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Ke komputer ini"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Untuk mulai berbagi desktop, berikan kode akses di bawah kepada orang yang akan membantu Anda."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Setelah mereka memasukkan kode, sesi berbagi Anda akan dimulai."
+   },
+   "INVALID_PIN": {
+      "message": "Masukkan PIN, minimal enam digit atau lebih."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Berbagi layar pengguna ke pengguna, cocok untuk dukungan teknis jarak jauh."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Tersambung:"
+   },
+   "LEARN_HOW": {
+      "message": "Pelajari caranya."
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Akses komputer Anda dari mana saja."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Membuat kode akses..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Sesi Chrome Desktop Jarak Jauh Anda telah berakhir."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Desktop Anda saat ini sedang dibagikan dengan $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Beri Otorisasi"
+   },
+   "MODE_IT2ME": {
+      "message": "Bantuan Jarak Jauh"
+   },
+   "MODE_ME2ME": {
+      "message": "Komputer Saya"
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "Oke"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Dari komputer ini"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Masukkan PIN yang sama di kedua kotak."
+   },
+   "PIN_MESSAGE": {
+      "message": "Masukkan PIN Anda untuk $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Mengakses komputer lain atau mengizinkan pengguna lain mengakses komputer Anda dengan aman melalui internet."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome Desktop Jarak Jauh"
+   },
+   "RECONNECT": {
+      "message": "Sambungkan ulang"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Ubah ukuran desktop agar sesuai"
+   },
+   "RETRY": {
+      "message": "Coba lagi"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Opsi layar"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Kirim kunci"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Susutkan agar sesuai"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Masuk"
+   },
+   "SIGN_ME_UP": {
+      "message": "Ikut survei"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Keluar"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Hentikan Berbagi"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Ingin membantu meningkatkan Chrome Desktop Jarak Jauh?"
+   },
+   "TIME_HEADER": {
+      "message": "Waktu"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Sambungkan ke $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Nonaktifkan sambungan jarak jauh ke komputer ini"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Edit nama komputer"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (kedaluwarsa)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "CATATAN: Setelan kebijakan hanya mengizinkan sambungan antar-komputer dalam jaringan Anda."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "CATATAN: Untuk memastikan bahwa semua pintasan keyboard tersedia, Anda dapat mengonfigurasi Chrome Desktop Jarak Jauh menjadi \u2018Buka sebagai jendela\u2019."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Mengapa ini aman?"
+   }
+}

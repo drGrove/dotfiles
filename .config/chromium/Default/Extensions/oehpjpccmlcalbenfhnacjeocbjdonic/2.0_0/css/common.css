@@ -1,0 +1,252 @@
+/* Copyright 2012 Google Inc. All Rights Reserved. */
+
+/**
+ * Contains CSS rules that are common to both then main application
+ * page and the theme preview page.
+ */
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(OpenSans), url(../fonts/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local(OpenSans), url(../fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: local(OpenSans-Semibold), url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local(OpenSans-Italic), url(../fonts/OpenSans-Italic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.header {
+  height: 39px;
+  display: -webkit-box;
+  -webkit-box-pack: end;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #d1d1d1;
+  background-image: -webkit-linear-gradient(top,#ffffff,#f9f9f9);
+}
+
+.header div:FIRST-CHILD {
+  -webkit-box-flex: 1;
+  height: 100%;
+  cursor: move;
+  font-size: 12px;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+
+.header .close {
+  height: 100%;
+  width: 25px;
+  cursor: pointer;
+}
+
+.header div:FIRST-CHILD,
+.header .close {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+/* Error/Confirm Container */
+#error-container,
+#confirm-container {
+  background-color: #f9f9f9;
+  border: 3px solid #2e2e2e;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .4);
+  display: none;
+  left: 50%;
+  position: absolute;
+  height: 200px;
+  top: 25%;
+  width: 460px;
+  margin: 0 0 0 -230px;
+  z-index: 101;
+}
+#error-container.show,
+#confirm-container.show {
+  display: block;
+}
+#error-container .header .title,
+#confirm-container .header .title {
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#confirm-container .header .title {
+  cursor: default;
+}
+#error-container .content {
+  padding-top: 40px;
+}
+#confirm-container .content {
+  height: 100px;
+}
+#error-container .content > div,
+#confirm-container .content > div {
+  text-align: center;
+  width: 300px;
+}
+#error-container .content .message,
+#confirm-container .content .message {
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+}
+#error-container .content .more {
+  color: #9a9a9a;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 20px;
+}
+#confirm-container .buttons {
+  border-top: 1px solid #d1d1d1;
+  height: 59px;
+}
+#confirm-container .buttons .ok {
+  margin-right: 20px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* Buttons */
+.button {
+  background: #f4f4f4;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  color: #333;
+  cursor: pointer;
+  display: -webkit-box;
+  font-size: 12px;
+  font-weight: bold;
+  height: 38px;
+  text-shadow: 0 1px 0 #fff;
+  /* text-transform: uppercase; Issue with message load.*/ 
+  min-width: 158px;
+}
+.button > div,
+.button > img {
+  display: block;
+  line-height: 1;
+}
+.button:hover {
+  background: #fbfbfb;
+}
+.button:active {
+  background: -webkit-linear-gradient(top,
+                                      #e1e1e1,
+                                      #e4e4e4 50%,
+                                      #f5f5f5);
+}
+.button.blue,
+.button.green {
+  background: -webkit-linear-gradient(top, #479ae6, #489ce5);
+  border-color: #666;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
+.button.blue:hover {
+  background: #6dafec;
+}
+.button.blue:active {
+  background: -webkit-linear-gradient(top, #418fe4, #50a7ec);
+}
+.button.green {
+  background: -webkit-linear-gradient(top, #319C2E, #42AE3C);
+}
+.button.green:hover {
+  background: #42AE3C;
+}
+.button.green:active {
+  background: -webkit-linear-gradient(top, #42AE3C, #319C2E);
+}
+.button.small {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: normal;
+  height: 24px;
+  text-transform: none;
+  width: 108px;
+}
+.button.disabled, .button.disabled:hover, .button.disabled:active {
+  background: #F4F4F4;
+  cursor: default;
+  opacity: .6;
+}
+.button.blue.disabled, .button.blue.disabled:hover, .button.blue.disabled:active {
+  background: #489CE6;
+}
+
+
+/* Class to hide elements. */
+.hidden,
+.template {
+  display: none !important;
+}
+
+/* BOX MODEL*/
+/* For generic elements */
+.box {
+  display: -webkit-box;
+}
+.box-v {
+  -webkit-box-orient: vertical;
+}
+.box-ac {
+  -webkit-box-align: center;
+}
+.box-pc {
+  -webkit-box-pack: center;
+}
+.box-pe {
+  -webkit-box-pack: end;
+}
+.box-c-c {
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+.box-flex {
+  -webkit-box-flex: 1;
+}
+
+/* Tooltips */
+.tooltip {
+  border-radius: 5px;
+  box-shadow: 0 9px 21px rgba(0, 0, 0, .5);
+  background: rgba(34, 34, 34, 0.93);
+  color: white;
+  font-size: 11px;
+  min-height: 40px;
+  min-width: 180px;
+  position: absolute;
+  padding: 0 10px;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}

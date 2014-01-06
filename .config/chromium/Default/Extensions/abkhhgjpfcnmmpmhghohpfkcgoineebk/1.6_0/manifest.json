@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://cloudygame.com/#play/doodle-jump-deluxe-flash-hd/46"
+      },
+      "urls": [ "http://cloudygame.com/#play/doodle-jump-deluxe-flash-hd/46" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCu4zicklCnUWhFSSp2Nz0fGejMU3lCmdOdAqwsWXiGFW0Dtp1Bs5W7F71NrYXuN7B9dxTa2+8SjAOn3uCrQPs/PC3vMHgpgTcya42zvQA58BNU80RZjN1tUfVS4SJNcjj37TBZ58HeyubA4t73Yc4VlAYhejwDX1/3nPaVMvEhRwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

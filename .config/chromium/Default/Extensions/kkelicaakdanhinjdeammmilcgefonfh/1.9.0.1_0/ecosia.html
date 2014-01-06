@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Window Resizer Settings</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/options.css" />
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/ecosia.js"></script>
+</head>
+<body>
+	<div id="optionsWrapper">
+		<div id="ecosia">
+			This extension supports <a href="http://www.ecosia.org/what" target="_blank">Ecosia.org</a> by adding EcoLinks to the Google search page.
+			You can opt-out of this feature in the <a href="ecosia.html">options</a>, if you want to.
+		</div>
+		
+		<div class="chromeWindow">
+			<a href="#" title="Close" class="chromeClose" id="closeOptions"></a>
+			<div class="chromeContent version-history">
+			
+				<ul id="chromeMenu">
+					<li><a href="options.html">Presets</a></li>
+					<li><a href="settings.html">Settings</a></li>
+					<li><a href="hotkeys.html">Hotkeys</a></li>
+					<li><a href="sync.html">Sync</a></li>
+					<li><a href="news.html">History</a></li>
+					
+					<li class="selected ecolinks">
+						<a href="ecosia.html">
+							<img src="images/ecosia-ico.png" />
+							EcoLinks
+						</a>
+					</li>
+				</ul>
+				
+				<h1>EcoLinks Settings</h1>
+				
+				<div class="fieldSet">
+					Please note that this setting does not alter in any way your search results. It just takes the links returned by Google and converts them to EcoLinks, without adding any extra content.
+					<br />
+					It is a completeley <b>transparent and free</b> way for you to plant trees and support this extension at the same time. :) <a class="eco-related" href="http://blog.ecosia.org/private/68462872760/tumblr_mx16gzeb711surx8u" target="_blank">Learn more</a>
+					<br /><br />
+					<label>
+						<input type="checkbox" value="1" name="enableEcoLinks" id="enableEcoLinks" />
+						Enable EcoLinks
+					</label>
+					<br />
+				</div>
+			</div>
+		</div>
+		
+		<div id="suportBtns">
+			<script src="js/paypal-button.min.js?merchant=ionut.botizan@gmail.com" 
+			        data-button="donate" 
+			        data-label="xxx" 
+			        data-name="Window Resizer"
+			></script>
+			
+			<a target="_blank" href="https://flattr.com/submit/auto?user_id=prafuitu&amp;url=http%3A%2F%2Fionut-botizan.net&amp;title=Chrome%20Window%20Resizer">
+				<img src="images/flattr-badge-large.png" alt="Flattr Chrome Window Resizer" />
+			</a>
+		</div>
+		
+		<div id="footerOptions">
+			<a href="https://chrome.google.com/extensions/detail/kkelicaakdanhinjdeammmilcgefonfh" rel="external" title="Homepage">Homepage</a>
+			::
+			<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="external" title="License">License</a>
+		</div>
+
+	</div>
+</body>
+</html>

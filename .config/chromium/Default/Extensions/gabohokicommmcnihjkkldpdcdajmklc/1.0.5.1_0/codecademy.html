@@ -1,0 +1,110 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Codecademy Chrome Extension</title>
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="codecademy.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<div id="container" class="contain pull-right">
+			<div id="user-info" class="pull-left">
+				<p class="info">
+					Search for a codecademy user in the search box to the right to see their stats.
+				</p>
+				<section id="user" style="display:none;">
+					<header class="contain">
+						<img class="pull-left" data-prop="photo"/>
+						<hgroup class="pull-left">
+							<h1 data-prop="displayName"></h1>
+							<h2 data-prop="username"></h2>
+						</hgroup>
+					</header>
+					<div class="contain">
+						<ul class="stats row-fluid contain">
+							<li data-original-title="Points today" class="span3">
+								<span data-prop="pointsToday" class="num">
+									
+								</span>
+								TODAY
+							</li>
+							<li data-original-title="Points earned all time" class="span3">
+								<span data-prop="pointsTotal" class="num">
+									
+								</span>
+								TOTAL
+							</li>
+							<li data-original-title="Days in a row you've coded" class="span3">
+								<span data-prop="currentStreak" class="num">
+									
+								</span>
+								STREAK
+							</li>
+							<li data-original-title="Personal best streak" class="span3">
+								<span data-prop="bestStreak" class="num">
+									
+								</span>
+								BEST
+							</li>
+							<!-- <li data-original-title="Most points in one day">
+								<span data-prop="lastCoded" class="num">
+									
+								</span>
+								DAYS
+							</li> -->
+						</ul>
+					</div>
+					<div class="lists contain">
+						<div id="drawers" class="contain">
+						
+						</div>
+						<div id="tracks" class="contain">
+							
+						</div>
+					</div>
+					<div class="ribbon">
+						<div class="ribbon-front">
+							<span class="icon user">&nbsp;</span>
+						</div>
+						<div class="ribbon-edge"></div>
+					</div>
+				</section>
+			</div>
+			<div class="pull-right">
+				<div id="saved-users" class="empty">
+					<div class="alert fade in" style="display:none;">
+						This user has already been saved.
+					</div>
+					<p class="info">
+						No users have been saved.
+					</p>
+					<ul>						
+					</ul>
+				</div>
+				<div id="user-search" class="contain">
+					<p style="display:none;" class="error">
+						Username not found.	Please try again.
+					</p>
+					<form>
+						<input id="username-input" type="text" placeholder="Username" data-provide="typeahead"/>
+						<button class="" type="submit">Go</button>
+					</form>
+				</div>
+			</div>
+			<div style="display:none;" id="loading"></div>
+		</div>
+		<script src="jquery-1.7.2.min.js"></script>
+		<script src="jquery.scrollTo-min.js"></script>
+		<script src="jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="jquery.comments.js"></script>
+		<script src="bootstrap-tooltip.js"></script>
+		<script src="bootstrap-popover.js"></script>
+		<script src="bootstrap-typeahead.js"></script>
+		<script src="CodecademyUser.js"></script>
+		<script src="script.js"></script>
+		<script src="underscore-min.js"></script>
+		<script src="moment.js"></script>
+	</body>
+</html>

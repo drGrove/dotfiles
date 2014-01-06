@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Nie je mo\u017En\u00E9 pou\u017Ei\u0165."
+   },
+   "alignment_btn_txt": {
+      "message": "Upravi\u0165 poz\u00EDciu"
+   },
+   "allow_access_to_webcam": {
+      "message": "Povo\u013Ete pr\u00EDstup k webovej kamere na paneli s upozorneniami."
+   },
+   "back_to_step1_msg": {
+      "message": "Naozaj chcete importova\u0165 nov\u00FD obr\u00E1zok? Strat\u00EDte v\u0161etky zmeny, ktor\u00E9 ste vykonali na tomto obr\u00E1zku."
+   },
+   "background": {
+      "message": "Upravi\u0165 farbu pozadia"
+   },
+   "bottom_align": {
+      "message": "dolu"
+   },
+   "cancel": {
+      "message": "Zru\u0161i\u0165"
+   },
+   "center_align": {
+      "message": "na stred"
+   },
+   "change_img_btn_txt": {
+      "message": "Importova\u0165 nov\u00FD obr\u00E1zok"
+   },
+   "continue_anyways": {
+      "message": "Aj napriek tomu pokra\u010Dova\u0165"
+   },
+   "continue_to": {
+      "message": "Prejs\u0165 na krok $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Vytvori\u0165 vlastn\u00FD mot\u00EDv"
+   },
+   "custom": {
+      "message": "Vlastn\u00E9"
+   },
+   "custom_color": {
+      "message": "Vlastn\u00E1 farba"
+   },
+   "default": {
+      "message": "Nastavi\u0165 na predvolen\u00FA hodnotu"
+   },
+   "delete": {
+      "message": "Odstr\u00E1ni\u0165"
+   },
+   "delete_theme": {
+      "message": "Zru\u0161i\u0165 mot\u00EDv"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Naozaj chcete odstr\u00E1ni\u0165 mot\u00EDv \u201E$1\u201C?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Pri odstra\u0148ovan\u00ED sa vyskytla chyba."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Chyba pri odstra\u0148ovan\u00ED. Sk\u00FAste to znova."
+   },
+   "deleted": {
+      "message": "Odstr\u00E1nen\u00E9"
+   },
+   "deleting": {
+      "message": "Prebieha odstra\u0148ovanie..."
+   },
+   "deleting_theme": {
+      "message": "Prebieha odstr\u00E1nenie mot\u00EDvu"
+   },
+   "design_mode": {
+      "message": "re\u017Eim vzh\u013Eadu"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Hotovo"
+   },
+   "download_theme_zip": {
+      "message": "Prevzia\u0165 mot\u00EDv ako s\u00FAbor zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Upravi\u0165 v slu\u017Ebe Picnik"
+   },
+   "error": {
+      "message": "CHYBA"
+   },
+   "error_while_publishing": {
+      "message": "Pri generovan\u00ED adresy URL sa vyskytla chyba. Sk\u00FAste to znova."
+   },
+   "error_while_unpublishing": {
+      "message": "Pri odstra\u0148ovan\u00ED adresy URL sa vyskytla chyba. Sk\u00FAste to znova."
+   },
+   "ext_description": {
+      "message": "Vytv\u00E1rajte a zdie\u013Eajte mot\u00EDvy vlastn\u00E9ho vzh\u013Eadu prehliada\u010Da Google Chrome."
+   },
+   "ext_name": {
+      "message": "M\u00F4j mot\u00EDv prehliada\u010Da Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Sk\u00FAsim \u0161\u0165astie"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hops! V s\u00FAvislosti s upraven\u00FDm obr\u00E1zkom sa vyskytla chyba. Na jej odstr\u00E1nen\u00ED pracujeme."
+   },
+   "fill_screen": {
+      "message": "Na cel\u00FA obrazovku"
+   },
+   "filter_black_and_white": {
+      "message": "\u010Ciernobiele"
+   },
+   "filter_bolder": {
+      "message": "Hrub\u0161ie"
+   },
+   "filter_cooler": {
+      "message": "Chladnej\u0161ie"
+   },
+   "filter_inverted": {
+      "message": "Inverzn\u00E9"
+   },
+   "filter_posterized": {
+      "message": "Posteriz\u00E1cia"
+   },
+   "filter_sepia": {
+      "message": "S\u00E9pia"
+   },
+   "filter_title": {
+      "message": "Obrazov\u00E9 efekty"
+   },
+   "filter_warmer": {
+      "message": "Teplej\u0161ie"
+   },
+   "fit_screen": {
+      "message": "Prisp\u00F4sobi\u0165 obrazovke"
+   },
+   "footer_share_site_txt": {
+      "message": "Zdie\u013Ea\u0165:"
+   },
+   "frame": {
+      "message": "Upravi\u0165 farbu r\u00E1mu"
+   },
+   "generate_theme": {
+      "message": "Generovanie mot\u00EDvu"
+   },
+   "goback": {
+      "message": "Prejs\u0165 sp\u00E4\u0165"
+   },
+   "hide_themes": {
+      "message": "Skry\u0165 mot\u00EDvy"
+   },
+   "image_format_error_msg": {
+      "message": "Hops! Zd\u00E1 sa, \u017Ee obr\u00E1zok nie je v poriadku. Sk\u00FAste to znova alebo vyberte in\u00FD obr\u00E1zok."
+   },
+   "image_size_error_msg": {
+      "message": "Hops! Zd\u00E1 sa, \u017Ee s\u00FAbor obr\u00E1zka je pr\u00EDli\u0161 ve\u013Ek\u00FD. Sk\u00FAste to znova so s\u00FAborom, ktor\u00E9ho ve\u013Ekos\u0165 nepresahuje $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Podporujeme typy s\u00FAborov JPEG, PNG, GIF a BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Je n\u00E1m \u013E\u00FAto, ale nepodporujeme form\u00E1t s\u00FAboru, ktor\u00FD sa sna\u017E\u00EDte vybra\u0165."
+   },
+   "img_fetching": {
+      "message": "Na\u010D\u00EDtavanie obr\u00E1zka"
+   },
+   "img_upload_wait": {
+      "message": "Po\u010Dkajte, k\u00FDm sa obr\u00E1zok odovzd\u00E1"
+   },
+   "informative": {
+      "message": "Informat\u00EDvne"
+   },
+   "install_box_text": {
+      "message": "Kliknut\u00EDm nain\u0161talujete tento mot\u00EDv do v\u00E1\u0161ho prehliada\u010Da Chrome"
+   },
+   "install_btn": {
+      "message": "Nain\u0161talova\u0165 mot\u00EDv"
+   },
+   "left_align": {
+      "message": "do\u013Eava"
+   },
+   "loading": {
+      "message": "Prebieha na\u010D\u00EDtavanie..."
+   },
+   "loading_application": {
+      "message": "Prebieha na\u010D\u00EDtavanie aplik\u00E1cie..."
+   },
+   "locale": {
+      "message": "sk"
+   },
+   "make_new": {
+      "message": "Vytvori\u0165 nov\u00FD mot\u00EDv \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nov\u00E1 karta"
+   },
+   "no": {
+      "message": "Nie"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Zd\u00E1 sa, \u017Ee ste neimportovali obr\u00E1zok pozadia mot\u00EDvu. Naozaj chcete pokra\u010Dova\u0165 aj bez neho?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Zd\u00E1 sa, \u017Ee ste mot\u00EDv nepomenovali. Chcete aj napriek tomu pokra\u010Dova\u0165?"
+   },
+   "no_theme_to_view": {
+      "message": "\u017Diadne mot\u00EDvy na zobrazenie"
+   },
+   "no_webcam_msg": {
+      "message": "Nena\u0161la sa \u017Eiadna webov\u00E1 kamera"
+   },
+   "not_available_offline": {
+      "message": "Nie je k dispoz\u00EDcii offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Hops,"
+   },
+   "open_preview_text": {
+      "message": "Uk\u00E1\u017Eka mot\u00EDvu"
+   },
+   "original": {
+      "message": "P\u00F4vodn\u00E9"
+   },
+   "package_btn": {
+      "message": "Vytvori\u0165 vlastn\u00FD mot\u00EDv."
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "V\u00FDber farby"
+   },
+   "picnik_save_btn": {
+      "message": "Ulo\u017Ei\u0165 do prie\u010Dinka M\u00F4j mot\u00EDv prehliada\u010Da Chrome"
+   },
+   "please_wait": {
+      "message": "\u010Cakajte..."
+   },
+   "preset_color": {
+      "message": "Predvolen\u00E1 farba"
+   },
+   "preview_error_msg": {
+      "message": "Mot\u00EDv, ktor\u00FD h\u013Ead\u00E1te, u\u017E zrejme nie je k dispoz\u00EDcii."
+   },
+   "preview_mode": {
+      "message": "re\u017Eim uk\u00E1\u017Eky"
+   },
+   "privacy_policy": {
+      "message": "Pravidl\u00E1 ochrany osobn\u00FDch \u00FAdajov"
+   },
+   "publish_theme": {
+      "message": "ZVEREJNI\u0164 MOT\u00CDV"
+   },
+   "publish_theme_text": {
+      "message": "Kliknut\u00EDm nastav\u00EDte zdie\u013Eanie tohto mot\u00EDvu s ostatn\u00FDmi pou\u017E\u00EDvate\u013Emi."
+   },
+   "publishing": {
+      "message": "Prebieha generovanie adresy URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Ak chcete zverejni\u0165 mot\u00EDv ako s\u00FAbor zip v Internetovom obchode Chrome, prejdite [tu]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Ak chcete, aby bol v\u00E1\u0161 mot\u00EDv jedine\u010Dn\u00FD, pomenujte ho. Ak sa rozhodnete mot\u00EDv zdie\u013Ea\u0165 s ostatn\u00FDmi pou\u017E\u00EDvate\u013Emi, jeho n\u00E1zov bude vidite\u013En\u00FD."
+   },
+   "rear_tab_text": {
+      "message": "Karta na pozad\u00ED"
+   },
+   "reartab": {
+      "message": "Upravi\u0165 farbu karty na pozad\u00ED"
+   },
+   "retake_picture": {
+      "message": "Nasn\u00EDma\u0165 znova"
+   },
+   "retry": {
+      "message": "Sk\u00FAsi\u0165 znova"
+   },
+   "right_align": {
+      "message": "doprava"
+   },
+   "share_box_text": {
+      "message": "Ak chcete mot\u00EDv zdie\u013Ea\u0165 s ostatn\u00FDmi pou\u017E\u00EDvate\u013Emi, skop\u00EDrujte t\u00FAto jedine\u010Dn\u00FA adresu URL"
+   },
+   "show_all_themes": {
+      "message": "Zobrazi\u0165 v\u0161etky mot\u00EDvy"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "VYTVORI\u0164 MOT\u00CDV"
+   },
+   "start_screen_description": {
+      "message": "Dodajte svojmu prehliada\u010Du osobitn\u00FD \u0161t\u00FDl. Vytvorte a zdie\u013Eajte mot\u00EDvy prehliada\u010Da Google Chrome s vlastn\u00FDmi fotkami a vzh\u013Eadmi pomocou troch jednoduch\u00FDch krokov."
+   },
+   "start_screen_heading": {
+      "message": "Vytvorte si vlastn\u00FD mot\u00EDv prehliada\u010Da Chrome"
+   },
+   "step": {
+      "message": "Krok $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Import obr\u00E1zka",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Odovzdajte s\u00FAbor z po\u010D\u00EDta\u010Da alebo nasn\u00EDmajte fotografiu pomocou webovej kamery."
+   },
+   "step1_header_msg_text": {
+      "message": "Vyberte si obr\u00E1zok pozadia mot\u00EDvu."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Pridanie farby",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Pr\u00EDpadne m\u00F4\u017Eete farby prida\u0165 automaticky [ak chcete sk\u00FAsi\u0165 \u0161\u0165astie]"
+   },
+   "step2_header_msg_text": {
+      "message": "Ak chcete za\u010Da\u0165 mot\u00EDv vyfarbova\u0165, kliknite na \u0161pendl\u00EDk"
+   },
+   "step3_btn_txt": {
+      "message": "$1 In\u0161tal\u00E1cia a zdie\u013Eanie",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Vyh\u013Eada\u0165 \u010Fal\u0161ie mot\u00EDvy v Internetovom obchode Chrome"
+   },
+   "stored_themes_title": {
+      "message": "Ak chcete in\u0161talova\u0165, zdie\u013Ea\u0165 alebo odstr\u00E1ni\u0165 predch\u00E1dzaj\u00FAce mot\u00EDvy vytvoren\u00E9 na tomto po\u010D\u00EDta\u010Di, kliknite na miniat\u00FAry ni\u017E\u0161ie."
+   },
+   "take_picture": {
+      "message": "Urobi\u0165 fotografiu"
+   },
+   "text": {
+      "message": "Upravi\u0165 farbu textu"
+   },
+   "theme_deleted": {
+      "message": "Mot\u00EDv bol odstr\u00E1nen\u00FD"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Pridajte popis v\u00E1\u0161ho mot\u00EDvu. Ak mot\u00EDv zdie\u013Eate, tento popis bude vidite\u013En\u00FD."
+   },
+   "theme_description_box_title": {
+      "message": "Pop\u00ED\u0161te svoj mot\u00EDv"
+   },
+   "theme_description_text": {
+      "message": "Prida\u0165 volite\u013En\u00FD popis"
+   },
+   "theme_does_not_exist": {
+      "message": "Tento mot\u00EDv neexistuje"
+   },
+   "theme_name_placeholder": {
+      "message": "Pomenujte svoj mot\u00EDv"
+   },
+   "theme_str": {
+      "message": "mot\u00EDv"
+   },
+   "theme_unique_url": {
+      "message": "Zdie\u013Ea\u0165 s touto jedine\u010Dnou adresou URL:"
+   },
+   "tile_image": {
+      "message": "Obr\u00E1zok dla\u017Edice"
+   },
+   "toolbar": {
+      "message": "Upravi\u0165 farbu panela n\u00E1strojov"
+   },
+   "top_align": {
+      "message": "hore"
+   },
+   "try_again": {
+      "message": "Sk\u00FAsi\u0165 znova"
+   },
+   "unpublish": {
+      "message": "Nezdie\u013Ea\u0165"
+   },
+   "unpublishing": {
+      "message": "Prebieha odstra\u0148ovanie adresy URL..."
+   },
+   "untitled": {
+      "message": "Bez n\u00E1zvu"
+   },
+   "upload_btn_txt": {
+      "message": "Odovzda\u0165 obr\u00E1zok"
+   },
+   "upload_crx_error_msg": {
+      "message": "Hops! Pri vytv\u00E1ran\u00ED mot\u00EDvu sa vyskytla chyba."
+   },
+   "upload_error_msg": {
+      "message": "Zd\u00E1 sa, \u017Ee pri odovzd\u00E1van\u00ED obr\u00E1zka sa vyskytol probl\u00E9m. Sk\u00FAste s\u00FAbor odovzda\u0165 znova alebo prejdite sp\u00E4\u0165 a vyberte in\u00FD obr\u00E1zok."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Odovzd\u00E1vajte len obr\u00E1zky, na ktor\u00FDch pou\u017E\u00EDvanie m\u00E1te pr\u00EDslu\u0161n\u00E9 pr\u00E1va."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Obr\u00E1zky a mot\u00EDvy bud\u00FA hosten\u00E9 spolo\u010Dnos\u0165ou Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Odstr\u00E1nen\u00E9 obr\u00E1zky a mot\u00EDvy sa odstr\u00E1nia natrvalo."
+   },
+   "uploading": {
+      "message": "ODOVZD\u00C1VANIE"
+   },
+   "url_tooltip": {
+      "message": "Ak chcete mot\u00EDv zdie\u013Ea\u0165, skop\u00EDrujte a vlo\u017Ete t\u00FAto adresu URL"
+   },
+   "use_picture": {
+      "message": "Pou\u017Ei\u0165 obr\u00E1zok"
+   },
+   "warning": {
+      "message": "UPOZORNENIE"
+   },
+   "webcam_btn_txt": {
+      "message": "Pou\u017Ei\u0165 webov\u00FA kameru"
+   },
+   "woohoo_text": {
+      "message": "V\u00FDborne! Vytvorili ste mot\u00EDv \u201E$1\u201C $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "\u00C1no"
+   }
+}

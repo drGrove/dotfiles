@@ -1,0 +1,635 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache; max-age=0" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title></title>
+    <link rel = 'stylesheet' href = '../css/common.css'/>
+    <link rel = 'stylesheet' href = '../css/main.css'/>
+    <script src="../javascript/jquery-bundle.js"></script>
+    <script src="../javascript/draggable-bundle.js"></script>
+    <script src="../javascript/base_crypto-bundle.js"></script>
+    <script src="../javascript/main.js"></script>
+  </head>
+  <body>
+    <div id="loading-page" class="box-c-c">
+      <!-- <script>document.write(chrome.i18n.getMessage('loading_application'));</script> -->
+    </div>
+    <div id="main-container" disabled="false" class="step0 loading">
+      <div id="mask">
+        <div id="frame-container">
+          <iframe id="iframe-view" name="iframe-view" class="box flex"></iframe>
+          <div id="frame-close" class="close box box-c-c">
+            <img src="../images/cross.png"/>
+          </div>
+        </div>
+
+        <div id="webcam-container" data-view="loading">
+          <div id="webcam-close" class="close box box-c-c">
+            <img src="../images/cross.png"/>
+          </div>
+          <div id = "webcam">
+            <video autoplay="autoplay" height="1024" width="800"></video>
+            <canvas id = "captured-image"></canvas>
+            <div class="loading-container box-c-c"></div>
+          </div>
+          <div id = "webcam-controls" class="box">
+            <div id = "capture-view" class="box actions box-c-c">
+              <div id="capture" class="button blue">
+                <img class="img" src="/images/webcam_capture.png"/>
+                <div class="text"></div>
+              </div>
+            </div>
+            <div id = "capture-finished" class="box box-c-c actions">
+              <div id="webcam-done" class="button blue"></div>
+              <div id="webcam-retake" class="button"></div>
+            </div>
+          </div>
+
+        </div>
+        <div id="filters-main">
+          <div class="header">
+            <div class="title flex"></div>
+            <div class="close">
+              <img src="../images/cross.png">
+            </div>
+          </div>
+          <div class="content box flex">
+            <div class="large-preview box box-v flex">
+              <div class="preview box box-v box-c-c flex">
+                <canvas></canvas>
+                <!-- <div class="name"></div> -->
+              </div>
+            </div>
+            <div id="filters-thumbs-container">
+              <div id="filters-thumbs"></div>
+            </div>
+          </div>
+          <div class="footer box box-c-c">
+            <div class="small blue button box box-c-c done">
+              <div class="text"></div>
+            </div>
+            <div class="small button box box-c-c cancel">
+              <div class="text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id = "top-bar" class="box box-c-c">
+        <div id = "logo" class="logo box box-ac flex">
+          <img src = "../images/logo.png"/>
+        </div>
+        <div id="top-navigation" class="box disabled">
+          <div id="step0-arrows" class="step-arrows">
+          </div>
+          <div id="step1" class="steps">
+            <div class="img"></div>
+            <div class="txt"></div>
+          </div>
+          <div id="step1-arrows" class="step-arrows">
+          </div>
+          <div id="step2" class="steps">
+            <div class="img"></div>
+            <div class="txt"></div>
+          </div>
+          <div id="step2-arrows" class="step-arrows"></div>
+          <div id="step3" class="steps">
+            <div class="img"></div>
+            <div class="txt"></div>
+          </div>
+        </div>
+        <div id="dummy" class="box flex">
+        </div>
+      </div>
+      <div id = "content" class="box box-v flex">
+        <div id = "initial-view" class="box-c-c flex">
+          <div class="box box-c-c flex">
+            <div class="box">
+              <div class="desc-container">
+                <div class = "heading"></div>
+                <div class = "description"></div>
+                <div class="button-container">
+                  <div id="start-btn" class="button blue">
+                  <div></div>
+                  <img src="../images/right_arrow_btn.png">
+                  </div>
+                </div>
+              </div>
+              <div id = "browser-with-themes" class="img-container flex">
+                <img src="../images/browser_with_themes.png"/>
+              </div>
+            </div>
+          </div>
+          <div id= "stored-theme-box" class="box hidden">
+            <div class = "title"></div>
+            <div id="slider-box">
+              <div id="left-theme" class="shift-theme box box-c-c disabled">
+                <div class = "img"></div>
+              </div>
+              <div id="right-theme" class="shift-theme box box-c-c disabled">
+                <div class = "img"></div>
+              </div>
+              <div id="themes-container">
+              </div>
+            </div>
+          </div>
+          <div id="stored-theme-footer">
+            <a href = "https://chrome.google.com/webstore/category/themes?utm_campaign=en&utm_medium=mychrometheme&utm_source=en-et-na-us-et-mychrometheme" target='_blank'></a>
+          </div>
+        </div>
+        <div id = "gen-theme-view" class="box-v flex box-ac">
+          <div id = "status-container" class="box box-pc">
+            <div id = "status" class="box box-pc">
+               <div id="status-step1">
+                 <div class = "step-indicator box box-c-c"></div>
+                 <div class="msg box">
+                   <div class = "msg-text"></div>
+                   <div class = "msg-desc"></div>
+                 </div>
+               </div>
+               <div id = "status-step2">
+                 <div class = "step-indicator box box-c-c"></div>
+                 <div class="msg box">
+                   <div class = "msg-text"></div>
+                   <div class = "msg-desc"></div>
+                 </div>
+               </div>
+               <div id = "status-step3" class="flex">
+                 <div class = "step-indicator box box-c-c"></div>
+                 <div id ="theme-name-container" class="box flex">
+                   <input id="theme-name" class="box flex" maxlength="40">
+                   <div id="question" class="box box-c-c">
+                     <div></div>
+                     <div class="tooltip">
+                       <div class="tooltip-text"></div>
+                       <div class="arrow top-arrow"></div>
+                     </div>
+                   </div>
+                 </div>
+                 <div id = "package-theme" class="button blue"></div>
+               </div>
+                <div id="save-continue" class="box blue button">
+                </div>
+            </div>
+          </div>
+          <div id="describe-container" class="box box-v">
+            <div class="box">
+              <div id="describe-button" class="expand">
+              </div>
+              <div id="describe-text">
+              </div>
+            </div>
+            <div id="describe-input" class="closed box box-v">
+              <div id="describe-arrow" class="arrow top-arrow">
+              </div>
+              <div class="header">
+                <div class="title flex" id="describe-label"></div>
+                <div class="close" id="desc-close">
+                  <img src="../images/cross.png">
+                </div>
+              </div>
+              <div id="desc-body" class="flex">
+                <hr class="desc-line" id="desc-1-line"/>
+                <hr class="desc-line" id="desc-2-line"/>
+                <hr class="desc-line" id="desc-3-line"/>
+                <textarea id="desc-text-area" maxlength="120" rows="4" cols="54">
+                </textarea>
+                <div id="desc-left-char-ct">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id = "preview-container" class="box box-c-c flex">
+            <div id = "canvas-container">
+              <canvas id='frame-canvas' width="740" height="460"></canvas>
+              <canvas id='rear-tab-canvas' width="740" height="460"></canvas>
+              <canvas id='toolbar-canvas' width="740" height="460"></canvas>
+              <canvas id='background-canvas' width="740" height="401"></canvas>
+              <canvas id='button-canvas' width="740" height="460"></canvas>
+              <canvas id='icon-canvas' class="hidden" width="740" height="460"></canvas>
+              <canvas id='border-canvas' width="750" height="466"></canvas>
+              <div id = "upload-view" class="buttons-container">
+                <div id = "frm-cmp" class="buttons box box-v box-ac">
+                  <input class="upload-file" type="file" accept="image/*"/>
+                  <div class="img-container"></div>
+                  <div class="img-text"></div>
+                </div>
+                <!-- Add CLASS DISABLED TO frm-webcam (when not using WEBRTC)-->
+                <div id = "frm-webcam" class="buttons box box-v box-ac">
+                  <div class="tooltip">
+                    <div class="loading-anim">
+                      <div class="img"></div>
+                    </div>
+                    <div class="text"></div>
+                    <div class="default button"></div>
+                    <div class="arrow btm-arrow"></div>
+                    <div class = "dummy-div"></div>
+                  </div>
+                  <div class="img-container"></div>
+                  <div class="img-text"></div>
+                </div>
+              </div>
+              <div id = "canvas-footer" class="box-pc">
+                <div id ="cf-line1" class="box box-pc text"></div>
+                <div id ="cf-line2" class="box box-pc text"></div>
+                <div id ="cf-line3" class="box box-pc text"></div>
+              </div>
+              <div id = "progress-bar" class="box-ac">
+                <span id = "progress-percent"></span>
+              </div>
+              <div id = "uploading-text" class="box-v box-c-c">
+                <div class = "big-text"></div>
+                <div class="txt"></div>
+              </div>
+              <div id = "image-controls">
+                <div id = "change-align" class="buttons box box-c-c flex">
+                  <div class = "img"></div>
+                  <div></div>
+                </div>
+                <div id="open-filters" class="buttons box box-c-c flex">
+                  <div class="img"></div>
+                  <div class = "text"></div>
+                </div>
+                <div id = "change-img" class="buttons box box-c-c flex">
+                  <div class = "img"></div>
+                  <div class= "text"></div>
+                </div>
+              </div>
+              <div id = "feeling-lucky-container" class="box-c-c">
+                <div id = "feeling-lucky-btn" class="box box-ac buttons"></div>
+              </div>
+              <div id = "crx-creation-loading" class="loading-spinner">
+                  <div id = "crx-loading" class="box-v box-c-c flex">
+                    <div class="loading-anim">
+                      <div class='img'></div>
+                    </div>
+                    <div class="msg box box-ac"></div>
+                  </div>
+                  <div id = "fetching-image" class="box-v box-c-c flex">
+                    <div class="loading-anim">
+                      <div class='img'></div>
+                    </div>
+                    <div class="msg box box-ac"></div>
+                  </div>
+              </div>
+              <div id="theme-controls-container">
+                <div id = "frame" class="bubble">
+                  <div class="pin"></div>
+                  <div class = "tooltip-holder">
+                    <div class="tooltip">
+                      <div></div>
+                      <div class="default button" data-id="frame">
+                      </div>
+                      <div class="arrow btm-arrow"></div>
+                      <div class = "dummy-div"></div>
+                    </div>
+                  </div>
+                </div>
+                <div id = "background" class="bubble">
+                  <div class="pin"></div>
+                  <div class="tooltip-holder">
+                    <div class="tooltip">
+                      <div></div>
+                      <div class="default button" data-id="background">
+                      </div>
+                      <div class="arrow btm-arrow"></div>
+                      <div class = "dummy-div"></div>
+                    </div>
+                  </div>
+                </div>
+                <div id = "reartab" class="bubble">
+                  <div class="pin"></div>
+                  <div class="tooltip-holder">
+                    <div class="tooltip">
+                      <div></div>
+                      <div class="default button" data-id="reartab">
+                      </div>
+                      <div class="arrow btm-arrow"></div>
+                      <div class = "dummy-div"></div>
+                    </div>
+                  </div>
+                </div>
+                <div id = "toolbar" class="bubble">
+                  <div class="pin"></div>
+                  <div class="tooltip-holder">
+                    <div class="tooltip">
+                      <div></div>
+                      <div class="default button" data-id="toolbar">
+                      </div>
+                      <div class="arrow btm-arrow"></div>
+                      <div class = "dummy-div"></div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- #theme-controls-container -->
+                <!-- Edit image Web Intent -->
+                <!-- 
+                <div id="edit-ext" class="box-c-c button">
+                  <div class="img"></div>
+                  <div class="text">EDIT</div>
+                </div>
+                -->
+            </div><!-- #canvas-container -->
+          </div><!-- #preview-container -->
+          <div id="icon-switcher" class="box box-c-c" data-state="off">
+            <div id="icon-slider-off" class = "box" data-nextstate="off">
+              <div class="text"></div>
+            </div>
+            <div id="icon-slider" class="box box-ac" data-state="off">
+              <div id="icon-slider-thumb"></div>
+            </div>
+            <div id="icon-slider-on" class = "box" data-nextstate="on">
+              <div class="text"></div>
+            </div>
+          </div>
+        </div>
+        <div id="step4" class="box-v box-c-c flex">
+          <div id = "crx-deletion-container" class = "loading-spinner">
+            <div id = "crx-deletion" class="box box-v box-c-c box-flex">
+              <div class="loading-anim">
+                <div class='img'></div>
+              </div>
+              <div class="msg box box-ac"></div>
+            </div>
+          </div>
+          <div id="woohoo" class="box box-a-c">
+            <div class="text box box-c-c flex"></div>
+            <div class="close box box-c-c clickable">
+              <img src="../images/cross_white.png"/>
+            </div>
+          </div>
+          <div id="install-box" class="box box-v box-c-c">
+            <div class="text"></div>
+            <div id="install-theme" class="button blue">
+              <img src="../images/install_white.png" width="23" height="19">
+              <div class="text"></div>
+            </div>
+          </div>
+          <div id="share-box" class="box box-v box-c-c" data-state="unshared">
+            <div class="text"></div>
+            <div id="theme-meta">
+              <div id="theme-url" class="box flex box-ac">
+                <div id="url-tip" class="tooltip box box-c-c">
+                  <div class="tip-text"></div>
+                  <div class="arrow btm-arrow"></div>
+                  <div class = "dummy-div"></div>
+                </div>
+                <input value="" class="box box-ac" readonly>
+              </div>
+              <div id="share-theme" class="box box-c-c">
+                <div id="plusone"></div>
+              </div>
+            </div>
+            <div id = "share-progress-container">
+              <div id = "share-progress-bar" class="box box-ac"></div>
+            </div>
+            <div class="error-container"></div>
+            <div id = "share-loading" class="box-c-c">
+              <img src="../images/spinner.gif"/>
+            </div>
+            <div id = "share" class="button">
+              <img src="/images/share_gray.png"/>
+              <div class="text"></div>
+            </div>
+            <div id="theme-preview" class="box box-ac box-pe">
+              <div id="open-preview" class="clickable box box-c-c">
+                <img src="../images/preview.png">
+                <div class="text"></div>
+              </div>
+              <div id="delete-theme" class="clickable box box-c-c">
+                <img src="../images/trash.png"/>
+                <div class="text"></div>
+              </div>
+              <div id="unshare-theme" class="clickable box box-c-c">
+                <img src="../images/unshare_gray.png"/>
+                <div class="text"></div>
+              </div>
+            </div>
+          </div>
+          <div id="make-another" class="clickable">
+            <div class="text"></div>
+          </div>
+        </div><!-- #step4 -->
+        <div id="previous" class="box box-c-c">
+          <div class="img"></div>
+          <div class = "text">
+            <div id = "previous-step"></div>
+            <div id = "previous-step-text"></div>
+          </div>
+        </div>
+      </div><!-- #content -->
+      <div id = "image-alignment" data-id="none">
+        <div class = "header">
+          <div></div>
+          <div class="close">
+            <img src="../images/cross.png"/>
+          </div>
+        </div>
+        <div id = "options">
+          <div id="fitscreen" class="option-container box box-v box-ac">
+            <div class="alignment-checkbox-container" id="fit-container">
+              <div class="alignment-checkbox-outer" id="fit-screen">
+              </div>
+              <div class="checkbox-text"></div>
+            </div>
+            <div id="fit-container-h" class="box">
+              <div id="left-fit-h" class="embed-component">
+              </div>
+              <div id="top-center-fit-h" class="embed-component selected">
+              </div>
+              <div id="right-fit-h" class="embed-component">
+              </div>
+            </div>
+            <div id="fit-container-v" class="box box-v">
+              <div id="top-fit-v" class="embed-component">
+              </div>
+              <div id="left-center-fit-v" class="embed-component selected">
+              </div>
+              <div id="bottom-fit-v" class="embed-component">
+              </div>
+            </div>
+          </div>
+          <div class="tooltip box hidden" id="disabled-alignments">
+            <div id="disabled-align-opt">
+            </div>
+            <div class="arrow btm-arrow">
+            </div>
+          </div>
+          <div id="fillscreen" class="option-container box box-v box-ac">
+            <div class="alignment-checkbox-container" id="fill-container">
+              <div class="alignment-checkbox-outer" id="fill">
+              </div>
+              <div class="checkbox-text"></div>
+            </div>
+            <div id="fill-container-h" class="box">
+              <div id="left-fill-h" class="embed-component">
+              </div>
+              <div id="top-center-fill-h" class="embed-component selected">
+              </div>
+              <div id="right-fill-h" class="embed-component">
+              </div>
+            </div>
+            <div id="fill-container-v" class="box box-v">
+              <div id="top-fill-v" class="embed-component selected">
+              </div>
+              <div id="left-center-fill-v" class="embed-component">
+              </div>
+              <div id="bottom-fill-v" class="embed-component">
+              </div>
+            </div>
+          </div>
+          <div class="option-container box box-ac box-v" id="repeat-option">
+            <div class="alignment-checkbox-container" id="repeat-container">
+              <div class="alignment-checkbox-outer" id="repeat">
+              </div>
+              <div class="checkbox-text"></div>
+            </div>
+          </div>
+          <div id = "position" class="option-container box-ac box box-v">
+            <div class="alignment-checkbox-container" id="custom-container">
+              <div class="alignment-checkbox-outer" id="custom">
+              </div>
+              <div class="checkbox-text"></div>
+            </div>
+            <div id="pos-table-container">
+              <table class="alignment">
+                <tr>
+                  <td align="center" class="image-align" data-id="left top">
+                    <div>
+                    </div>
+                  </td>
+                  <td align="center" class="image-align" data-id="top">
+                    <div>
+                    </div>
+                  </td>
+                  <td align="center" class="image-align" data-id="right top">
+                    <div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="image-align" data-id="left">
+                    <div>
+                    </div>
+                  </td>
+                  <td class="image-align-disabled" align="center">
+                    <div>
+                    </div>
+                  </td>
+                  <td align="center" class="image-align" data-id="right">
+                    <div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="image-align" data-id="left bottom">
+                    <div>
+                    </div>
+                  </td>
+                  <td align="center" class="image-align" data-id="bottom">
+                    <div>
+                    </div>
+                  </td>
+                  <td align="center" class="image-align" data-id="right bottom">
+                    <div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id = "color-picker">
+        <div class = "header">
+         <div></div>
+         <div class="close">
+           <img src="../images/cross.png"/>
+         </div>
+        </div>
+        <div id = "color-selector-container" class="box flex" data-state="">
+          <div id = "left-arr" class="nav box box-c-c">
+            <div class="img"></div>
+          </div>
+          <div id = "right-arr" class="nav box box-c-c">
+            <div class="img"></div>
+          </div>
+          <div class = "box flex grids"></div>
+        </div>
+      </div>
+
+      <div id="footer" class="box">
+        <div class ="txt box box-ac flex">
+          <span>&copy; Google </span>
+          <a href="http://www.google.com/policies/privacy/" target="_blank"></a>
+        </div>
+        <div id="share-site" class="box box-ac flex">
+          <div class="text"></div>
+          <g:plusone size="small" href="https://chrome.google.com/webstore/detail/oehpjpccmlcalbenfhnacjeocbjdonic"></g:plusone>
+        </div>
+      </div>
+      <div id="color-grid-tpl" class="template">
+        <table>
+          <td align="center">
+            <div class="grid-color box box-c-c">
+              <div class ="lock"></div>
+            </div>
+          </td>
+        </table>
+      </div>
+      <div class="stored-theme template">
+        <div class="delete box-c-c">
+          <div></div>
+        </div>
+        <div class="thumb-container">
+          <div class="loader box-c-c">
+            <div></div>
+          </div>
+          <div class = "msg box-c-c"></div>
+          <img class="thumb" src=""/>
+        </div>
+        <div class = "theme-name"></div>
+      </div>
+      <div id="error-container">
+        <div class="header">
+          <div class="title flex"></div>
+          <div class="close">
+            <img src="../images/cross.png">
+          </div>
+        </div>
+        <div class="content box box-v box-c-c">
+          <div class="message"></div>
+          <div class="more"></div>
+        </div>
+      </div><!-- #error-container -->
+      <div id="confirm-container">
+        <div class="header">
+          <div class="title flex"></div>
+          <div class="close">
+            <img src="../images/cross.png">
+          </div>
+        </div>
+        <div class="content box box-c-c">
+          <div class="message"></div>
+        </div>
+        <div class="buttons box box-c-c">
+          <div class="ok button blue small"></div>
+          <div class="cancel close button small"></div>
+        </div>
+      </div><!-- #confirm-container -->
+    </div>
+    <!-- 
+    <iframe id="checkcam" class="hidden" src="https://www.mychrometheme.com/static/html/checkwebcam.html"></iframe>
+    -->
+    <div id="templates" style="display: none">
+      <div class="filters-thumb">
+        <div class="selc"><canvas></canvas></div>
+        <div class="name"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

@@ -68,3 +68,9 @@ export EDITOR='vim'
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Grunt cli auto-complete
+eval "$(grunt --completion=zsh)"
+
+# Wearscript Support
+export WEARSCRIPT_ENDPOINT="ws://udderweb.com:8042/ws/client/4Xj1egh3dP9qKLfR"

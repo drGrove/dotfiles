@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "Codi d'acc\u00E9s"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Aquest codi d'acc\u00E9s caducar\u00E0 d'aqu\u00ED a $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Totes les connexions"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Torneu a escriure el PIN"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Cancel\u00B7la"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Esborra l'historial"
+   },
+   "CLOSE": {
+      "message": "Tanca"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Si sortiu d'aquesta p\u00E0gina, la sessi\u00F3 de l'escriptori remot de Chrome finalitzar\u00E0."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Esteu segur que voleu desactivar les connexions remotes a $1? Si canvieu de parer, haureu de visitar aquest ordinador per tornar-les a activar."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "De"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Historial de connexions"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Historial de connexions"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Per a"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Connecta't de totes maneres"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Connecta"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Continua"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Esteu compartint aquest ordinador amb un altre usuari. Voleu continuar compartint-lo?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Controlador de l'amfitri\u00F3 de l'escriptori remot de Chrome"
+   },
+   "COPYRIGHT": {
+      "message": "Copyright 2013 Google Inc. Tots els drets reservats."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "Suprimeix-ho tot"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "Suprimeix"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Per utilitzar l'escriptori remot de Chrome heu de concedir permisos d'acc\u00E9s ampliat a l'ordinador. Nom\u00E9s ho heu de fer una vegada."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Demaneu a l'usuari de l'ordinador al qual voleu accedir que faci clic a Comparteix ara i que us doni el codi d'acc\u00E9s."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "L'escriptori remot de Chrome us permet compartir el vostre ordinador de manera segura al web. Els dos usuaris han d'executar l'aplicaci\u00F3 d'escriptori remot de Chrome, que podeu trobar a la p\u00E0gina $1."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "L'amfitri\u00F3 remot necessita que us autentiqueu en un lloc web de tercers. Per continuar, cal que concediu permisos addicionals a l'escriptori remot de Chrome per accedir a aquesta adre\u00E7a:"
+   },
+   "DISABLE_HOST": {
+      "message": "Desactiva"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Desconnecta"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Servei d'escriptori remot de Chrome"
+   },
+   "DURATION_HEADER": {
+      "message": "Durada"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Ha fallat l'autenticaci\u00F3. Torneu a iniciar la sessi\u00F3 a l'escriptori remot de Chrome."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Falten alguns components necessaris per a l'escriptori remot de Chrome. Assegureu-vos que heu instal\u00B7lat la versi\u00F3 m\u00E9s recent i torneu-ho a provar."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "L'ordinador remot no respon a les sol\u00B7licituds de connexi\u00F3. Verifiqueu que estigui en l\u00EDnia i torneu-ho a provar."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "S'han bloquejat temporalment les connexions a l'ordinador remot perqu\u00E8 alg\u00FA ha provat de connectar-hi amb un PIN no v\u00E0lid. Torneu-ho a provar m\u00E9s tard."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "No s'ha pogut registrar aquest ordinador."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "S'ha detectat una versi\u00F3 incompatible de l'escriptori remot de Chrome. Assegureu-vos que teniu la versi\u00F3 m\u00E9s recent de Google Chrome i de l'escriptori remot de Chrome als dos ordinadors i torneu-ho a provar."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "El codi d'acc\u00E9s no \u00E9s v\u00E0lid. Torneu-ho a provar."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "La configuraci\u00F3 de la pol\u00EDtica no permet compartir aquest ordinador com a amfitri\u00F3 de l'escriptori remot de Chrome. Contacteu amb l'administrador del sistema per obtenir assist\u00E8ncia."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Falten alguns components necessaris per a l'escriptori remot de Chrome. Assegureu-vos que executeu la versi\u00F3 m\u00E9s recent de Google Chrome i torneu-ho a provar."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "No s'ha pogut connectar a la xarxa. Comproveu que el dispositiu estigui connectat a Internet."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "No heu iniciat la sessi\u00F3 a l'escriptori remot de Chrome. Inicieu-hi la sessi\u00F3 i torneu-ho a provar."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "No es pot connectar amb l'amfitri\u00F3. Probablement, aix\u00F2 passa a causa de la configuraci\u00F3 de la xarxa que esteu fent servir."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "El servei est\u00E0 temporalment no disponible. Torneu-ho a provar m\u00E9s tard."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "S'ha produ\u00EFt un error inesperat. Informeu d'aquest problema als desenvolupadors."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "S'est\u00E0 connectant..."
+   },
+   "FOOTER_WAITING": {
+      "message": "s'est\u00E0 esperant la connexi\u00F3..."
+   },
+   "FULL_SCREEN": {
+      "message": "Pantalla completa"
+   },
+   "GET_STARTED": {
+      "message": "Introducci\u00F3"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Voleu ajudar alg\u00FA mentre manteniu una videotrucada? Proveu $1 Escriptori remot a Google Hangouts$2."
+   },
+   "HELP": {
+      "message": "Ajuda"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Accedeix"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Vegeu i controleu un ordinador compartit."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Podeu accedir de manera segura a aquest ordinador mitjan\u00E7ant l'escriptori remot de Chrome."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Canvia el PIN"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "Mostra/edita"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "La configuraci\u00F3 d'aquest ordinador permet que un o m\u00E9s clients es connectin sense introduir cap PIN."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Activa les connexions remotes"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Heu d'activar les connexions remotes si voleu utilitzar l'escriptori remot de Chrome per accedir a aquest ordinador."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Desactiva les connexions remotes"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Comparteix"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Compartiu aquest ordinador perqu\u00E8 un altre usuari el vegi i el controli."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(Aquesta funci\u00F3 encara no est\u00E0 disponible als Chromebook... Estigueu ben atent.)"
+   },
+   "HOST_CATEGORY": {
+      "message": "Amfitri\u00F3"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "S'ha rebutjat l'acc\u00E9s del client: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "Client connectat: %1."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "Client desconnectat: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "IP del canal del client: %1 ip='%2' host_ip='%3' channel='%4' connection='%5'."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Per activar les connexions remotes a un altre ordinador, instal\u00B7leu-hi l'escriptori remot de Chrome i feu clic a $1."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "No teniu cap ordinador registrat. Per activar les connexions remotes a un ordinador, instal\u00B7leu-hi l'escriptori remot de Chrome i feu clic a $1."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Les actualitzacions de programari se solen fer autom\u00E0ticament, per\u00F2 poden fallar en casos excepcionals. L'actualitzaci\u00F3 del programari hauria de trigar nom\u00E9s uns minuts i es pot fer mentre esteu connectat a l'ordinador de forma remota."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "L'escriptori remot de Chrome a $1 \u00E9s obsolet i cal actualitzar-lo."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Ajudeu-nos a millorar l'escriptori remot de Chrome: permeteu-nos recollir estad\u00EDstiques d'\u00FAs i informes d'error."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Per protegir l'acc\u00E9s a aquest ordinador, trieu un PIN de $1sis d\u00EDgits com a m\u00EDnim$2. Necessitareu aquest PIN per connectar-vos a aquest ordinador des d'una altra ubicaci\u00F3."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "No s'ha pogut iniciar el servei d'acc\u00E9s remot."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome est\u00E0 baixant l'instal\u00B7lador de l'amfitri\u00F3 de l'escriptori remot de Chrome. Quan s'hagi completat la baixada, executeu l'instal\u00B7lador abans de continuar."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Executeu l'instal\u00B7lador abans de continuar."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "S'han activat les connexions remotes en aquest ordinador."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Comproveu la configuraci\u00F3 de gesti\u00F3 d'energia de l'ordinador i assegureu-vos que no s'hagi configurat per estar en mode de baix consum quan estigui inactiu."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "S'estan activant les connexions remotes en aquest ordinador..."
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "S'han desactivat les connexions remotes en aquest ordinador."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "S'estan desactivant les connexions remotes en aquest ordinador..."
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "No s'ha pogut desactivar l'acc\u00E9s remot a aquest ordinador. Torneu-ho a provar m\u00E9s tard."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "S'ha actualitzat el vostre PIN."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "No s'ha pogut actualitzar el PIN. Torneu-ho a provar m\u00E9s tard."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "S'est\u00E0 actualitzant el PIN d'aquest ordinador..."
+   },
+   "HOST_STARTED": {
+      "message": "L'amfitri\u00F3 ha comen\u00E7at per a l'usuari: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "A aquest ordinador"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Per comen\u00E7ar a compartir l'escriptori, proporcioneu el codi d'acc\u00E9s seg\u00FCent a la persona que us oferir\u00E0 assist\u00E8ncia."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Quan hagin introdu\u00EFt el codi, la sessi\u00F3 d'\u00FAs compartit comen\u00E7ar\u00E0."
+   },
+   "INVALID_PIN": {
+      "message": "Introdu\u00EFu un PIN que tingui sis d\u00EDgits o m\u00E9s."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "\u00DAs compartit de pantalla d'usuari a usuari, perfecte per a l'assist\u00E8ncia t\u00E8cnica remota."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Connectat:"
+   },
+   "LEARN_HOW": {
+      "message": "M\u00E9s informaci\u00F3"
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Prefer\u00E8ncies de l'amfitri\u00F3 de l'escriptori remot de Chrome"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Amfitri\u00F3 de l'escriptori\nremot de Chrome"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Programa de desinstal\u00B7laci\u00F3 de l'amfitri\u00F3 de l'escriptori remot de Chrome"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Accediu al vostre ordinador des de qualsevol lloc."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "S'est\u00E0 generant el codi d'acc\u00E9s..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "La sessi\u00F3 de l'escriptori remot de Chrome ha finalitzat."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Esteu compartint l'escriptori amb $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autoritza"
+   },
+   "MODE_IT2ME": {
+      "message": "Assist\u00E8ncia remota"
+   },
+   "MODE_ME2ME": {
+      "message": "Els meus ordinadors"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "S'han suprimit tots els clients sincronitzats."
+   },
+   "OFFLINE": {
+      "message": "$1 (fora de l\u00EDnia)"
+   },
+   "OK": {
+      "message": "D'acord"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Des d'aquest ordinador"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "Els clients seg\u00FCents s'han sincronitzat amb aquest ordinador i s'hi poden connectar sense indicar cap PIN. Podeu revocar aquest perm\u00EDs en qualsevol moment, ja sigui individualment o per a tots els clients."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "Data de sincronitzaci\u00F3"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "Client"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Introdu\u00EFu el mateix PIN als dos quadres."
+   },
+   "PIN_MESSAGE": {
+      "message": "Introdu\u00EFu el vostre PIN per a $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Accediu a altres ordinadors o permeteu que un altre usuari accedeixi al vostre ordinador de manera segura per Internet."
+   },
+   "PRODUCT_NAME": {
+      "message": "Escriptori remot de Chrome"
+   },
+   "RECONNECT": {
+      "message": "Torna a connectar"
+   },
+   "REMEMBER_PIN": {
+      "message": "No tornis a demanar el PIN en connectar amb aquest amfitri\u00F3 des d'aquest ordinador."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "Biblioteca principal"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Proc\u00E9s d'integraci\u00F3 de l'escriptori"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "Proc\u00E9s de l'amfitri\u00F3"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "Permeteu que un altre usuari accedeixi al vostre ordinador de manera segura per Internet."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Amfitri\u00F3 de l'escriptori remot de Chrome"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Ajusta la mida de l'escriptori"
+   },
+   "RETRY": {
+      "message": "Torna-ho a provar"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Opcions de pantalla"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Supr"
+   },
+   "SEND_KEYS": {
+      "message": "Envia les claus"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "Impr Pant"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Aquest servei permet les connexions entrants de clients de l'escriptori remot de Chrome."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Redueix per ajustar"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Inicieu la sessi\u00F3"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Tanca la sessi\u00F3"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Deixa de compartir"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Voleu ajudar a millorar l'Escriptori remot de Chrome? $1Responeu a l'enquesta.$2"
+   },
+   "TIME_HEADER": {
+      "message": "Hora"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Connecta amb $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Desactiva les connexions remotes a aquest ordinador"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Edita el nom de l'ordinador"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (obsolet)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Compte"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Confirmeu el vostre compte i PIN a continuaci\u00F3 per permetre l'acc\u00E9s per l'escriptori remot de Chrome."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NOTA: La configuraci\u00F3 de la pol\u00EDtica nom\u00E9s permet connexions entre ordinadors de la vostra xarxa."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NOTA: Per assegurar-vos que totes les tecles de drecera estiguin disponibles, podeu configurar l'escriptori remot de Chrome amb l'opci\u00F3 \"Obre com a finestra\"."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Per qu\u00E8 \u00E9s segur?"
+   },
+   "WORKING": {
+      "message": "S'hi est\u00E0 treballant..."
+   }
+}

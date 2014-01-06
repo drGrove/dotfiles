@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Niet van toepassing."
+   },
+   "alignment_btn_txt": {
+      "message": "Positie aanpassen"
+   },
+   "allow_access_to_webcam": {
+      "message": "Verleen toegang tot uw webcam via de meldingsbalk."
+   },
+   "back_to_step1_msg": {
+      "message": "Weet u zeker dat u een nieuwe afbeelding wilt importeren? Alle wijzigingen die u heeft aangebracht aan deze afbeelding, gaan verloren."
+   },
+   "background": {
+      "message": "Achtergrondkleur bewerken"
+   },
+   "bottom_align": {
+      "message": "onder"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "center_align": {
+      "message": "midden"
+   },
+   "change_img_btn_txt": {
+      "message": "Nieuwe afbeelding importeren"
+   },
+   "continue_anyways": {
+      "message": "Toch doorgaan"
+   },
+   "continue_to": {
+      "message": "Ga door naar stap $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Uw eigen thema maken"
+   },
+   "custom": {
+      "message": "Aangepast"
+   },
+   "custom_color": {
+      "message": "Aangepaste kleur"
+   },
+   "default": {
+      "message": "Instellen op standaard"
+   },
+   "delete": {
+      "message": "Verwijderen"
+   },
+   "delete_theme": {
+      "message": "Verwijderen"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Weet u zeker dat u het thema '$1' wilt verwijderen?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Fout bij verwijderen."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Fout tijdens het verwijderen. Probeer het opnieuw."
+   },
+   "deleted": {
+      "message": "Verwijderd"
+   },
+   "deleting": {
+      "message": "Verwijderen..."
+   },
+   "deleting_theme": {
+      "message": "Thema wordt verwijderd"
+   },
+   "design_mode": {
+      "message": "ontwerpmodus"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Gereed"
+   },
+   "download_theme_zip": {
+      "message": "Thema downloaden als zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Bewerken in Picnik"
+   },
+   "error": {
+      "message": "FOUT"
+   },
+   "error_while_publishing": {
+      "message": "Fout bij het genereren van de URL. Probeer het opnieuw."
+   },
+   "error_while_unpublishing": {
+      "message": "Fout bij het verwijderen van de URL. Probeer het opnieuw."
+   },
+   "ext_description": {
+      "message": "Google Chrome-thema's met uw eigen ontwerp maken en delen."
+   },
+   "ext_name": {
+      "message": "Mijn Chrome-thema"
+   },
+   "feeling_lucky": {
+      "message": "Ik doe een gok"
+   },
+   "fetch_image_error_msg": {
+      "message": "Er is een fout opgetreden met uw bewerkte afbeelding. We werken eraan dit te verhelpen."
+   },
+   "fill_screen": {
+      "message": "Aanpassen aan scherm"
+   },
+   "filter_black_and_white": {
+      "message": "Zwart/wit"
+   },
+   "filter_bolder": {
+      "message": "Scherper afgetekend"
+   },
+   "filter_cooler": {
+      "message": "Koeler"
+   },
+   "filter_inverted": {
+      "message": "Omgekeerd"
+   },
+   "filter_posterized": {
+      "message": "Gereduceerde schakeringen"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Beeldeffecten"
+   },
+   "filter_warmer": {
+      "message": "Warmer"
+   },
+   "fit_screen": {
+      "message": "Aanpassen aan scherm"
+   },
+   "footer_share_site_txt": {
+      "message": "Delen:"
+   },
+   "frame": {
+      "message": "Framekleur bewerken"
+   },
+   "generate_theme": {
+      "message": "Thema maken"
+   },
+   "goback": {
+      "message": "Ga terug"
+   },
+   "hide_themes": {
+      "message": "Thema's verbergen"
+   },
+   "image_format_error_msg": {
+      "message": "Het lijkt erop dat er iets is misgegaan met uw afbeelding. Probeer het opnieuw of selecteer een andere afbeelding."
+   },
+   "image_size_error_msg": {
+      "message": "Uw afbeeldingsbestand is te groot. Probeer het opnieuw met een bestand dat $1 $2 of kleiner is.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "We ondersteunen de bestandstypen JPEG, PNG, GIF en BMP."
+   },
+   "image_type_error_msg": {
+      "message": "We ondersteunen de bestandsindeling niet die u probeert te selecteren."
+   },
+   "img_fetching": {
+      "message": "Afbeelding ophalen"
+   },
+   "img_upload_wait": {
+      "message": "Uw afbeelding wordt momenteel ge\u00FCpload.."
+   },
+   "informative": {
+      "message": "Informatief"
+   },
+   "install_box_text": {
+      "message": "Klik hier om dit thema nu in uw Chrome-browser te installeren"
+   },
+   "install_btn": {
+      "message": "Mijn thema installeren"
+   },
+   "left_align": {
+      "message": "links"
+   },
+   "loading": {
+      "message": "Laden..."
+   },
+   "loading_application": {
+      "message": "Applicatie laden..."
+   },
+   "locale": {
+      "message": "nl"
+   },
+   "make_new": {
+      "message": "Een nieuw thema maken \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nieuw tabblad"
+   },
+   "no": {
+      "message": "Nee"
+   },
+   "no_image_uploaded_msg": {
+      "message": "U heeft geen afbeelding ge\u00EFmporteerd voor de achtergrond van uw thema. Weet u zeker dat u wilt doorgaan zonder achtergrondafbeelding?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "U heeft uw thema geen naam gegeven. Wilt u toch doorgaan?"
+   },
+   "no_theme_to_view": {
+      "message": "U heeft geen thema's om weer te geven"
+   },
+   "no_webcam_msg": {
+      "message": "Geen webcam gevonden"
+   },
+   "not_available_offline": {
+      "message": "Niet offline beschikbaar"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Oeps,"
+   },
+   "open_preview_text": {
+      "message": "Voorbeeld van thema bekijken"
+   },
+   "original": {
+      "message": "Origineel"
+   },
+   "package_btn": {
+      "message": "Maak mijn thema."
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Een kleur kiezen"
+   },
+   "picnik_save_btn": {
+      "message": "Opslaan in Mijn Chrome-thema"
+   },
+   "please_wait": {
+      "message": "Even wachten..."
+   },
+   "preset_color": {
+      "message": "Vooraf ingestelde kleur"
+   },
+   "preview_error_msg": {
+      "message": "Het lijkt erop dat het thema dat u zoekt, niet meer beschikbaar is."
+   },
+   "preview_mode": {
+      "message": "voorbeeldmodus"
+   },
+   "privacy_policy": {
+      "message": "Privacybeleid"
+   },
+   "publish_theme": {
+      "message": "THEMA DELEN"
+   },
+   "publish_theme_text": {
+      "message": "Klik om uw thema met anderen te delen."
+   },
+   "publishing": {
+      "message": "URL genereren..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Ga naar [here] om de zip te publiceren in de Chrome Web Store"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Geef uw thema een naam om het thema uniek te maken. De naam van het thema is zichtbaar wanneer u uw thema deelt met anderen."
+   },
+   "rear_tab_text": {
+      "message": "Achtergrondtab"
+   },
+   "reartab": {
+      "message": "Kleur van achtergrondtabblad bewerken"
+   },
+   "retake_picture": {
+      "message": "Opnieuw maken"
+   },
+   "retry": {
+      "message": "Opnieuw proberen"
+   },
+   "right_align": {
+      "message": "rechts"
+   },
+   "share_box_text": {
+      "message": "Kopieer deze unieke URL om uw thema te delen met anderen"
+   },
+   "show_all_themes": {
+      "message": "Alle thema's weergeven"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "THEMA MAKEN"
+   },
+   "start_screen_description": {
+      "message": "Voeg een persoonlijk tintje toe aan uw browser. Maak en deel aangepaste Google Chrome-thema's met uw eigen foto's en ontwerpen in slechts drie eenvoudige stappen."
+   },
+   "start_screen_heading": {
+      "message": "Cre\u00EBer uw eigen Chrome-thema"
+   },
+   "step": {
+      "message": "Stap $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Uw afbeelding importeren",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Upload een bestand van uw computer of maak een foto met uw webcam."
+   },
+   "step1_header_msg_text": {
+      "message": "Kies een afbeelding voor de achtergrond van uw thema."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Een beetje kleur toevoegen",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Of u kunt automatisch kleuren toevoegen [als u een gok wilt doen]"
+   },
+   "step2_header_msg_text": {
+      "message": "Klik op een punaise om uw thema in te kleuren"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installeren en delen",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Meer thema's zoeken in de Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Klik op de onderstaande miniaturen om eerder gemaakte thema's op deze computer te installeren, te delen of te verwijderen."
+   },
+   "take_picture": {
+      "message": "Een foto maken"
+   },
+   "text": {
+      "message": "Tekstkleur bewerken"
+   },
+   "theme_deleted": {
+      "message": "Thema verwijderd"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Voeg een korte beschrijving van uw thema toe. Deze beschrijving is zichtbaar als u uw thema deelt."
+   },
+   "theme_description_box_title": {
+      "message": "Uw thema beschrijven"
+   },
+   "theme_description_text": {
+      "message": "Een optionele beschrijving toevoegen"
+   },
+   "theme_does_not_exist": {
+      "message": "Dit thema bestaat niet"
+   },
+   "theme_name_placeholder": {
+      "message": "Geef uw thema een naam"
+   },
+   "theme_str": {
+      "message": "thema"
+   },
+   "theme_unique_url": {
+      "message": "Delen met deze unieke URL:"
+   },
+   "tile_image": {
+      "message": "Tegelafbeelding"
+   },
+   "toolbar": {
+      "message": "Werkbalkkleur bewerken"
+   },
+   "top_align": {
+      "message": "boven"
+   },
+   "try_again": {
+      "message": "Probeer het opnieuw"
+   },
+   "unpublish": {
+      "message": "Niet delen"
+   },
+   "unpublishing": {
+      "message": "URL verwijderen..."
+   },
+   "untitled": {
+      "message": "Naamloos"
+   },
+   "upload_btn_txt": {
+      "message": "Afbeelding uploaden"
+   },
+   "upload_crx_error_msg": {
+      "message": "Er is een fout opgetreden tijdens het maken van uw thema."
+   },
+   "upload_error_msg": {
+      "message": "Er is een probleem opgetreden bij het uploaden van uw afbeelding. Probeer uw bestand opnieuw te uploaden of ga terug en selecteer een andere afbeelding."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Upload alleen afbeeldingen waarover u de gebruiksrechten beschikt."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Afbeeldingen en thema's worden gehost door Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Afbeeldingen en thema's die u verwijdert, worden permanent verwijderd."
+   },
+   "uploading": {
+      "message": "UPLOADEN"
+   },
+   "url_tooltip": {
+      "message": "Kopieer en plak om te delen"
+   },
+   "use_picture": {
+      "message": "Foto gebruiken"
+   },
+   "warning": {
+      "message": "WAARSCHUWING"
+   },
+   "webcam_btn_txt": {
+      "message": "Webcam gebruiken"
+   },
+   "woohoo_text": {
+      "message": "Hoera! Het $2 '$1' is gemaakt.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

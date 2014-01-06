@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://zeitkit.com/"
+      }
+   },
+   "description": "Management toolset for developers and freelancers. Track time, write invoices, take meeting notes.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "256": "icon256.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyyjhnPMcFPoAFNffakmvRc7fuLaYjv2BBVr3d4GGc2k6QNniPMRTr3QGHsurD1PDrp2XBOIT+NgPdEUh7vuylvS9VUTX9j5S6enk5vwx9zIecsnoE1zDClLHz0xaUyiOAEzpkLB6c/1MmefT15w0hksLz5FJr+Bv4zZbL1W4aHwIDAQAB",
+   "manifest_version": 2,
+   "name": "Developer Tools",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.2"
+}

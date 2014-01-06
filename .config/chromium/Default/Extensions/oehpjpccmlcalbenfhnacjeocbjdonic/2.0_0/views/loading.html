@@ -1,0 +1,57 @@
+<html>
+<style>
+  @font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+  }
+
+  body {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+  }
+
+  #loading-container {
+    display: -webkit-box;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+  }
+  
+  #loading {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 300px;
+    height: 150px;
+  }
+
+  #loading .msg {
+    height: 40px;
+  }
+
+  .flex {
+    -webkit-box-flex: 1;
+  }
+
+  .center-align {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+  }
+</style>
+<body>
+<div id = "loading-container">
+  <div id = "loading">
+    <div class="msg center-align">
+      <script>document.write(chrome.i18n.getMessage('loading'));</script>
+    </div>
+    <div class="flex center-align"><img src="../images/spinner.gif"/></div>
+  </div>
+</div>
+</body>
+</html>

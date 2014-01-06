@@ -1,0 +1,3476 @@
+{
+   "0_9": {
+      "message": "0-9"
+   },
+   "1Password": {
+      "message": "1Password"
+   },
+   "1__Insert_your_YubiKey_in_the_USB_port_with_the_USB_contact_facing_upward": {
+      "message": "1. Vlo\u017Ete YubiKey do USB portu tak, aby kontakt sm\u011B\u0159oval vzh\u016Fru"
+   },
+   "1__Run_the_Google_Authenticator_application_on_your_mobile_device": {
+      "message": "1. Spus\u0165te aplikaci Google Authenticator na sv\u00E9m mobiln\u00EDm za\u0159\u00EDzen\u00ED"
+   },
+   "1__Run_the_LastPass_Sesame_application_to_generate_a_one_time_password": {
+      "message": "1. Spus\u0165te aplikaci LastPass Sesame pro vygenerov\u00E1n\u00ED jednor\u00E1zov\u00E9ho hesla"
+   },
+   "2__Enter_your_current_verification_code_in_the_box_below": {
+      "message": "2. Zadejte aktu\u00E1ln\u00ED ov\u011B\u0159ovac\u00ED k\u00F3d do pole n\u00ED\u017Ee"
+   },
+   "2__Paste_the_one_time_password_in_the_input_box_below_and_click__Authenticate_": {
+      "message": "2. Vlo\u017Ete jednor\u00E1zov\u00E9 heslo do kolonky n\u00ED\u017Ee a klikn\u011Bte na 'Ov\u011B\u0159it'"
+   },
+   "2__Wait_until_your_YubiKey_touch_button_shines_with_a_steady_light": {
+      "message": "2. Po\u010Dkejte dokud nebude dotekov\u00E9 tla\u010D\u00EDtko na Va\u0161em YubiKey trvale sv\u00EDtit"
+   },
+   "3__Click_Authenticate": {
+      "message": "3. Klikn\u011Bte na ov\u011B\u0159en\u00ED"
+   },
+   "ACTION": {
+      "message": "AKCE"
+   },
+   "A_Zupper": {
+      "message": "A-Z"
+   },
+   "A_required_update_is_available_for_LastPass__Please_press_OK_to_begin_download_and_installation_": {
+      "message": "Je dostupn\u00E1 vy\u017Eadovan\u00E1 aktualizace. Pros\u00EDm stiskn\u011Bte OK pro za\u010D\u00E1tek stahov\u00E1n\u00ED a instalace."
+   },
+   "A_retry_file_has_been_found__This_likely_means_that_not_all_of_your_site_changes_have_been_saved__Would_you_like_to_delete_this_file_and_potentially_lose_some_changes_": {
+      "message": "Byl nalezen soubor pro opakov\u00E1n\u00ED spojen\u00ED. To zpravidla znamen\u00E1, \u017Ee nebyly ulo\u017Eeny v\u0161echny zm\u011Bny va\u0161ich str\u00E1nek. Chcete tento soubor odstranit a p\u0159\u00EDpadn\u011B ztratit n\u011Bkter\u00E9 proveden\u00E9 zm\u011Bny?"
+   },
+   "A_server_error_occurred_while_processing_your_request_": {
+      "message": "Server ohl\u00E1sil chybu p\u0159i zpracov\u00E1v\u00E1n\u00ED Va\u0161eho dotazu."
+   },
+   "A_site_that_has_been_previously_shared_cannot_be_moved_to_a_shared_folder___Would_you_like_to_make_a_copy_": {
+      "message": "Str\u00E1nka, kter\u00E1 byla d\u0159\u00EDve sd\u00EDlena, nem\u016F\u017Ee b\u00FDt p\u0159esunuta do sd\u00EDlen\u00E9 slo\u017Eky.\n\nChcete vytvo\u0159it kopii?"
+   },
+   "About": {
+      "message": "O programu"
+   },
+   "About___": {
+      "message": "O programu..."
+   },
+   "Accept": {
+      "message": "P\u0159ijmout"
+   },
+   "Account_Settings": {
+      "message": "Nastaven\u00ED \u00FA\u010Dtu"
+   },
+   "Account_Type": {
+      "message": "Typ \u00FA\u010Dtu"
+   },
+   "Account_number": {
+      "message": "\u010C\u00EDslo \u00FA\u010Dtu"
+   },
+   "Actionproper": {
+      "message": "Akce"
+   },
+   "Actions": {
+      "message": "Akce"
+   },
+   "Add": {
+      "message": "P\u0159idat"
+   },
+   "Add_Credit_Card": {
+      "message": "P\u0159idat kreditn\u00ED kartu"
+   },
+   "Add_Credit_Card_profile": {
+      "message": "P\u0159idat profil kreditn\u00ED karty"
+   },
+   "Add_Field": {
+      "message": "P\u0159idat pole"
+   },
+   "Add_Form_Fill_profile": {
+      "message": "P\u0159idat profil vypln\u011Bn\u00ED formul\u00E1\u0159e"
+   },
+   "Add_Identity": {
+      "message": "P\u0159idat identitu"
+   },
+   "Add_New_Site": {
+      "message": "P\u0159idat novou str\u00E1nku"
+   },
+   "Add_Note": {
+      "message": "P\u0159idat Pozn\u00E1mku"
+   },
+   "Add_Profile": {
+      "message": "P\u0159idat profil"
+   },
+   "Add_Secure_Note": {
+      "message": "P\u0159idat zabezpe\u010Denou pozn\u00E1mku"
+   },
+   "Add_Site": {
+      "message": "P\u0159idat str\u00E1nku"
+   },
+   "Add_another_custom_field": {
+      "message": "Vlo\u017Eit dal\u0161\u00ED vlastn\u00ED pole"
+   },
+   "Address": {
+      "message": "Adresa"
+   },
+   "Address_1": {
+      "message": "Adresa 1"
+   },
+   "Address_2": {
+      "message": "Adresa 2"
+   },
+   "Address_3": {
+      "message": "Adresa 3"
+   },
+   "Adelaide": {
+      "message": "Adelaide"
+   },
+   "Admin_Tools": {
+      "message": "Administr\u00E1torsk\u00E9 n\u00E1stroje"
+   },
+   "Advanced": {
+      "message": "Pokro\u010Dil\u00E9"
+   },
+   "Advanced_Options": {
+      "message": "Pokro\u010Dil\u00E9 mo\u017Enosti"
+   },
+   "Afghanistan": {
+      "message": "Afgh\u00E1nist\u00E1n"
+   },
+   "Agent_Name": {
+      "message": "Jm\u00E9no agenta"
+   },
+   "Agent_Phone": {
+      "message": "Telefon agenta"
+   },
+   "Aland_Islands": {
+      "message": "Alandy"
+   },
+   "Alaska": {
+      "message": "Alja\u0161ka"
+   },
+   "Albania": {
+      "message": "Alb\u00E1nie"
+   },
+   "Algeria": {
+      "message": "Al\u017E\u00EDrsko"
+   },
+   "Alias": {
+      "message": "P\u0159ezd\u00EDvka"
+   },
+   "All": {
+      "message": "V\u0161e"
+   },
+   "Allow_LastPass_to_find_insecure_data_on_your_computer_": {
+      "message": "Povolit LastPass nalezen\u00ED nezabezpe\u010Den\u00FDch dat ve Va\u0161em po\u010D\u00EDta\u010Di?"
+   },
+   "Alt": {
+      "message": "Alt"
+   },
+   "Alter_the_below_information_to_edit_the_Credit_Card_profile": {
+      "message": "Pou\u017E\u00EDt n\u00ED\u017Ee uveden\u00E9 informace pro zm\u011Bnu profilu Kreditn\u00ED karty"
+   },
+   "Alter_the_below_information_to_edit_the_Form_Fill_profile": {
+      "message": "Pou\u017E\u00EDt n\u00ED\u017Ee uveden\u00E9 informace pro zm\u011Bnu formul\u00E1\u0159ov\u00E9ho profilu"
+   },
+   "Always_Choose_Profile_and_Credit_Card": {
+      "message": "V\u017Edy zvolit profil a kreditn\u00ED kartu"
+   },
+   "American_Samoa": {
+      "message": "Americk\u00E1 Samoa"
+   },
+   "Amman__Athens__Istanbul__Beirut__Cairo__Jerusalem": {
+      "message": "Amm\u00E1n, At\u00E9ny, Istanbul, Bejr\u00FAt, K\u00E1hira, Jeruzal\u00E9m"
+   },
+   "Amsterdam__Berlin__Rome__Vienna__Prague__Brussels": {
+      "message": "Amsterdam, Berl\u00EDn, \u0158\u00EDm, V\u00EDde\u0148, Praha, Brusel"
+   },
+   "An_Update_is_Available__Would_you_like_to_install_": {
+      "message": "Je dostupn\u00E1 aktualizace. Chcete ji nainstalovat?"
+   },
+   "An_error_has_been_encountered_while_loading_your_sites__Please_relogin_": {
+      "message": "P\u0159i na\u010D\u00EDt\u00E1n\u00ED \u00FAdaj\u016F o Va\u0161ich str\u00E1nk\u00E1ch do\u0161lo k chyb\u011B. Pros\u00EDm, p\u0159ihla\u0161te se znovu."
+   },
+   "An_error_occurred": {
+      "message": "Do\u0161lo k chyb\u011B"
+   },
+   "An_error_occurred_while_importing_your_Google_Chrome_passwords_": {
+      "message": "Do\u0161lo k chyb\u011B p\u0159i importu hesel z Google Chrome."
+   },
+   "An_error_occurred_while_re_encrypting_your_data": {
+      "message": "Nastala chyba p\u0159i \u0161ifrovan\u00ED dat."
+   },
+   "An_error_occurred_while_uploading_your_data___Would_you_like_to_retry_": {
+      "message": "Nastala chyba p\u0159i uploadu dat. Opakovat akci?"
+   },
+   "Andorra": {
+      "message": "Andorra"
+   },
+   "Angola": {
+      "message": "Angola"
+   },
+   "Anguilla": {
+      "message": "Anguilla"
+   },
+   "Antarctica": {
+      "message": "Antarktida"
+   },
+   "Antigua_and_Barbuda": {
+      "message": "Antigua a Barbuda"
+   },
+   "Appearance": {
+      "message": "Vzhled"
+   },
+   "Application_": {
+      "message": "Pou\u017Eit\u00ED:"
+   },
+   "Applications": {
+      "message": "Aplikace"
+   },
+   "April": {
+      "message": "Duben"
+   },
+   "Arbitrary_notes_to_store_along_with_this_Form_Fill_profile": {
+      "message": "Dopl\u0148uj\u00EDc\u00ED pozn\u00E1mky, kter\u00E9 budou ulo\u017Eeny spole\u010Dn\u011B s profilem"
+   },
+   "Are_you_sure_you_want_to_delete_this_identity_": {
+      "message": "Opravdu chcete smazat tuto identitu?"
+   },
+   "Are_you_sure_you_want_to_delete_this_site_": {
+      "message": "Opravdu chcete smazat tuto str\u00E1nku?"
+   },
+   "Are_you_sure_you_want_to_have_LastPass_remember_your_password___This_will_significantly_decrease_the_security_of_your_LastPass_account_": {
+      "message": "Opravdu chcete, aby si LastPass zapamatovat Va\u0161e heslo? Toto opat\u0159en\u00ED znateln\u011B sn\u00ED\u017E\u00ED bezpe\u010Dnost va\u0161eho LastPass \u00FA\u010Dtu."
+   },
+   "Are_you_sure_you_want_to_share_this_item___Doing_so_will_cause_you_to_lose_any_changes_you_have_made_to_this_item_": {
+      "message": "Jste si jisti, \u017Ee chcete sd\u00EDlet tuto polo\u017Eku? Mohlo by doj\u00EDt ke ztr\u00E1t\u011B ve\u0161ker\u00FDch zm\u011Bn, kter\u00E9 jste provedli!"
+   },
+   "Are_you_sure_you_want_to_view_history___Doing_so_will_cause_you_to_lose_any_changes_you_have_made_to_this_item_": {
+      "message": "Jste si jisti, \u017Ee chcete zobrazit historii? Mohlo by doj\u00EDt ke ztr\u00E1t\u011B ve\u0161ker\u00FDch zm\u011Bn, kter\u00E9 jste provedli!"
+   },
+   "Are_you_sure_you_would_like_to_delete_": {
+      "message": "Jste si jist\u00FD, \u017Ee chcete smazat?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_items_": {
+      "message": "Chcete skute\u010Dn\u011B vymazat v\u0161echny vybran\u00E9 polo\u017Eky?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_sites_": {
+      "message": "Opravdu chcete odstranit tyto vybran\u00E9 str\u00E1nky?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_application_": {
+      "message": "Opravdu chcete odstranit tuto aplikaci?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_field_": {
+      "message": "Opravdu chcete odstranit toto pole?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_form_fill_profile_": {
+      "message": "Opravdu chcete odstranit tento profil pro automatick\u00E9 dopl\u0148ov\u00E1n\u00ED?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_generated_password_": {
+      "message": "Opravdu chcete odstranit toto vygenerovan\u00E9 heslo?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_group_": {
+      "message": "Jste si jisti, \u017Ee chcete vymazat tuto skupinu?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_never_URL_": {
+      "message": "Jste si jisti, \u017Ee chcete smazat tuto nov\u011Bj\u0161\u00ED URL."
+   },
+   "Are_you_sure_you_would_like_to_delete_this_secure_note_": {
+      "message": "Opravdu chcete odstranit tuto bezpe\u010Dnou pozn\u00E1mku?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_site_": {
+      "message": "Opravdu chcete odstranit tuto str\u00E1nku?"
+   },
+   "Are_you_sure_you_would_like_to_remove_this_attachment_": {
+      "message": "Jste si jisti, \u017Ee chcete odstranit tuto p\u0159\u00EDlohu?"
+   },
+   "Argentina": {
+      "message": "Argentina"
+   },
+   "Arizona": {
+      "message": "Arizona"
+   },
+   "Armenia": {
+      "message": "Arm\u00E9nie"
+   },
+   "Aruba": {
+      "message": "Aruba"
+   },
+   "Astana__Dhaka__Ekaterinburg": {
+      "message": "Astana, Dh\u00E1ka, Jekat\u011Brinburg"
+   },
+   "Atlantic_Time__Canada___Manaus__Santiago": {
+      "message": "Atlantick\u00FD \u010Das (Kanada), Manaus, Santiago"
+   },
+   "Auckland__Wellington": {
+      "message": "Auckland, Wellington"
+   },
+   "August": {
+      "message": "Srpen"
+   },
+   "Australia": {
+      "message": "Austr\u00E1lie"
+   },
+   "Austria": {
+      "message": "Rakousko"
+   },
+   "Authenticate": {
+      "message": "Ov\u011B\u0159it"
+   },
+   "Authentication": {
+      "message": "Ov\u011B\u0159en\u00ED"
+   },
+   "Authentication_Failed_": {
+      "message": "Nepoda\u0159ilo se ov\u011B\u0159it."
+   },
+   "AutoFill": {
+      "message": "Automaticky vyplnit"
+   },
+   "AutoLogin": {
+      "message": "Automatick\u00E9 p\u0159ihl\u00E1\u0161en\u00ED"
+   },
+   "Automatically_Fill_Login_Information": {
+      "message": "Automaticky vypl\u0148ovat p\u0159ihla\u0161ovac\u00ED informace"
+   },
+   "Automatically_Logoff_after_idle__mins_": {
+      "message": "Automaticky odhl\u00E1sit p\u0159i ne\u010Dinnosti (min)"
+   },
+   "Automatically_Logoff_when_all_browsers_are_closed_and_Chrome_has_been_closed_for__mins_": {
+      "message": "Automaticky odhl\u00E1sit, kdy\u017E jsou v\u0161echna okna prohl\u00ED\u017Ee\u010De zav\u0159en\u00E1 a Chrome byl zav\u0159en po dobu (minuty)"
+   },
+   "Automatically_login_to_sites_if_time_since_last_login____seconds_": {
+      "message": "Automaticky se p\u0159ihl\u00E1sit na str\u00E1nky, pokud je doba od posledn\u00EDho p\u0159ihl\u00E1\u0161en\u00ED v\u011Bt\u0161\u00ED ne\u017E (sekund)"
+   },
+   "Avoid_Ambiguous_Characters": {
+      "message": "Nepou\u017E\u00EDvat snadno zam\u011Bniteln\u00E9 znaky"
+   },
+   "Azerbaijan": {
+      "message": "\u00C1zerbajd\u017E\u00E1n"
+   },
+   "Azores": {
+      "message": "Azory"
+   },
+   "Back": {
+      "message": "Zp\u011Bt"
+   },
+   "Baghdad": {
+      "message": "Bagd\u00E1d"
+   },
+   "Bahamas": {
+      "message": "Bahamy"
+   },
+   "Bahrain": {
+      "message": "Bahrajn"
+   },
+   "Baku__Yerevan": {
+      "message": "Baku, Jerevan"
+   },
+   "Bangkok__Hanoi__Jakarta__Novosibirsk": {
+      "message": "Bangkok, Hanoi, Jakarta, Novosibirsk"
+   },
+   "Bangladesh": {
+      "message": "Banglad\u00E9\u0161"
+   },
+   "Bank_Account": {
+      "message": "Bankovn\u00ED \u00FA\u010Det"
+   },
+   "Bank_accountformfill": {
+      "message": "Bankovn\u00ED \u00FA\u010Det"
+   },
+   "Bank_name": {
+      "message": "N\u00E1zev banky"
+   },
+   "Barbados": {
+      "message": "Barbados"
+   },
+   "Before_you_can_use_LastPass__you_must_first_connect_your_fingerprint_reader_and_enroll_one_or_more_fingers_": {
+      "message": "Ne\u017E budete moci pou\u017E\u00EDvat LastPass, mus\u00EDte nejprve p\u0159ipojit \u010Dte\u010Dku otisk\u016F prst\u016F a zapsat jeden nebo v\u00EDce prst\u016F."
+   },
+   "Beijing__Hong_Kong__Singapore__Taipei__Krasnoyarsk": {
+      "message": "Peking, Hong Kong, Singapur, Taipei, Krasnojarsk"
+   },
+   "Belarus": {
+      "message": "B\u011Blorusko"
+   },
+   "Belgium": {
+      "message": "Belgie"
+   },
+   "Belize": {
+      "message": "Belize"
+   },
+   "Benin": {
+      "message": "Benin"
+   },
+   "Bermuda": {
+      "message": "Bermudy"
+   },
+   "Bhutan": {
+      "message": "Bh\u00FAt\u00E1n"
+   },
+   "Binary_Component_": {
+      "message": "Bin\u00E1rn\u00ED slo\u017Eka:"
+   },
+   "Birthday": {
+      "message": "Narozeniny"
+   },
+   "Blacklist": {
+      "message": "V\u00E1\u0161 \u00FA\u010Det byl do\u010Dasn\u011B zablokov\u00E1n (5 minut) kv\u016Fli p\u0159\u00EDli\u0161n\u00E9mu po\u010Dtu pokus\u016F o p\u0159ihl\u00E1\u0161en\u00ED"
+   },
+   "Blog": {
+      "message": "Blog"
+   },
+   "Bolivia": {
+      "message": "Bol\u00EDvie"
+   },
+   "Bookmarklets": {
+      "message": "Bookmarklety"
+   },
+   "Bosnia_and_Herzegovina": {
+      "message": "Bosna a Hercegovina"
+   },
+   "Botswana": {
+      "message": "Botswana"
+   },
+   "Bouvet_Island": {
+      "message": "Bouvet\u016Fv ostrov"
+   },
+   "Branch_Address": {
+      "message": "Adresa pobo\u010Dky"
+   },
+   "Branch_Phone": {
+      "message": "Telefon pobo\u010Dky"
+   },
+   "Brazil": {
+      "message": "Braz\u00EDlie"
+   },
+   "Brisbane__Guam__Port_Moresby__Yakutsk": {
+      "message": "Brisbane, Guam, Port Moresby, Jakutsk"
+   },
+   "British_Indian_Ocean_Territory": {
+      "message": "Britsk\u00E9 indickooce\u00E1nsk\u00E9 \u00FAzem\u00ED"
+   },
+   "Browse_the_web_as_you_normally_would_and_LastPass_will_automatically_remember_passwords_as_you_enter_them_": {
+      "message": "Prohl\u00ED\u017Eejte internet jako doposud, LastPass bude s\u00E1m ukl\u00E1dat V\u00E1mi vypl\u0148ovan\u00E1 hesla."
+   },
+   "Brunei_Darussalam": {
+      "message": "Brunej"
+   },
+   "Buenos_Aires__Georgetown": {
+      "message": "Buenos Aires, Georgetown"
+   },
+   "Built_": {
+      "message": "Vystaven\u00FD:"
+   },
+   "Bulgaria": {
+      "message": "Bulharsko"
+   },
+   "Burkina_Faso": {
+      "message": "Burkina Faso"
+   },
+   "Burundi": {
+      "message": "Burundi"
+   },
+   "But_I_m_a_forgetful_person___what_should_I_do_if_I_forget_my_password_": {
+      "message": "J\u00E1 jsem ale zapomn\u011Btliv\u00FD \u010Dlov\u011Bk...co m\u00E1m d\u011Blat, pokud zapomenu heslo?"
+   },
+   "CSV_Files": {
+      "message": "CSV Soubory"
+   },
+   "Cambodia": {
+      "message": "Kambod\u017Ea"
+   },
+   "Cameroon": {
+      "message": "Kamerun"
+   },
+   "Can_t_find_hidden_LastPass_window": {
+      "message": "Nelze nal\u00E9zt skryt\u00E9 okno LastPass."
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canary_Islands": {
+      "message": "Kan\u00E1rsk\u00E9 ostrovy"
+   },
+   "Canberra__Melbourne__Sydney__Hobart": {
+      "message": "Canberra, Melbourne, Sydney, Hobart"
+   },
+   "Cancel": {
+      "message": "Zru\u0161it"
+   },
+   "Cape_Verde": {
+      "message": "Kapverdy"
+   },
+   "Cape_Verde_Is_": {
+      "message": "Kapverdy"
+   },
+   "Caracas": {
+      "message": "Caracas"
+   },
+   "Casablanca__Monrovia__Reykjavik": {
+      "message": "Casablanca, Monrovia, Reykjavik"
+   },
+   "Catalan": {
+      "message": "Katal\u00E1n\u0161tina"
+   },
+   "Cayman_Islands": {
+      "message": "Kajmansk\u00E9 ostrovy"
+   },
+   "Central_African_Republic": {
+      "message": "St\u0159edoafrick\u00E1 republika"
+   },
+   "Central_America__Saskatchewan": {
+      "message": "St\u0159edn\u00ED Amerika, Saskatchewan"
+   },
+   "Central_Time__US___Canada___Guadalajara__Mexico_City": {
+      "message": "Centr\u00E1ln\u00ED \u010Das (USA a Kanada), Guadalajara, Mexico City"
+   },
+   "Chad": {
+      "message": "\u010Cad"
+   },
+   "Change": {
+      "message": "Zm\u011Bnit"
+   },
+   "Change_Group_Name": {
+      "message": "Zm\u011Bnit n\u00E1zev skupiny"
+   },
+   "Change_Password": {
+      "message": "Zm\u011Bnit heslo"
+   },
+   "Check_For_Updates": {
+      "message": "Zkontrolovat aktualizace"
+   },
+   "Checkbox": {
+      "message": "Volba"
+   },
+   "Checking_For_Updates___": {
+      "message": "Kontroluji aktualizace"
+   },
+   "Chennai__Kolkata__Mumbai__New_Delhi__Sri_Jayawardenepura": {
+      "message": "Chennai, Kolkata, Mumbai, New Delhi, Sr\u00ED Jayawardenepura"
+   },
+   "Chile": {
+      "message": "Chile"
+   },
+   "China": {
+      "message": "\u010C\u00EDna"
+   },
+   "Chinese__Simplified_": {
+      "message": "Zjednodu\u0161en\u00E1 \u010D\u00EDn\u0161tina"
+   },
+   "Chinese__Traditional_": {
+      "message": "Tradi\u010Dn\u00ED \u010D\u00EDn\u0161tina"
+   },
+   "Choose_Profile_and_Credit_Card": {
+      "message": "Zvolte profil a kreditn\u00ED katru"
+   },
+   "Choose_a_source_above_": {
+      "message": "Zvolte zdroj naho\u0159e."
+   },
+   "Christmas_Island": {
+      "message": "V\u00E1no\u010Dn\u00ED ostrov"
+   },
+   "Chrome": {
+      "message": "Chrome"
+   },
+   "City___Town": {
+      "message": "M\u011Bsto"
+   },
+   "Clear": {
+      "message": "Vy\u010Distit"
+   },
+   "Clear_Clipboard_after_use__seconds_": {
+      "message": "Vymazat schr\u00E1nku po pou\u017Eit\u00ED (sekund)"
+   },
+   "Clear_Forms": {
+      "message": "Vy\u010Distit formul\u00E1\u0159e"
+   },
+   "Clear_Local_Cache": {
+      "message": "Vy\u010Distit lok\u00E1ln\u00ED vyrovn\u00E1vac\u00ED pam\u011B\u0165"
+   },
+   "Clear_Recent": {
+      "message": "Vymazat ned\u00E1vno pou\u017Eit\u00E9"
+   },
+   "Clear_filled_fields_on_logoff": {
+      "message": "Vymazat vypln\u011Bn\u00E1 pole po odhl\u00E1\u0161en\u00ED"
+   },
+   "Click_Continue_to_start_using_LastPass_": {
+      "message": "Klikn\u011Bte na Pokra\u010Dovat abyste mohli za\u010D\u00EDt pou\u017E\u00EDvat LastPass"
+   },
+   "Click_here_to_launch_account_settings": {
+      "message": "Klikn\u011Bte sem pro nastaven\u00ED \u00FA\u010Dtu"
+   },
+   "Click_here_to_launch_feedback": {
+      "message": "Klikn\u011Bte sem pro zanech\u00E1n\u00ED zp\u011Btn\u00E9 vazby"
+   },
+   "Click_here_to_view_the_LastPass_User_Manual": {
+      "message": "Klikn\u011Bte abyste zobrazily LastPass u\u017Eivatelsk\u00FD manu\u00E1l"
+   },
+   "Clipperz": {
+      "message": "Clipperz"
+   },
+   "Close": {
+      "message": "Zav\u0159\u00EDt"
+   },
+   "Close_this_window": {
+      "message": "Zav\u0159\u00EDt okno"
+   },
+   "Cocos__Keeling__Islands": {
+      "message": "Kokosov\u00E9 (Keelingovy) ostrovy"
+   },
+   "Collapse_All": {
+      "message": "Zav\u0159\u00EDt v\u0161e"
+   },
+   "Colombia": {
+      "message": "Kolumbie"
+   },
+   "Comoros": {
+      "message": "Komory"
+   },
+   "Company": {
+      "message": "Spole\u010Dnost"
+   },
+   "CompanyPolicyProhibits": {
+      "message": "Firemn\u00ED politika tuto operaci zakazuje."
+   },
+   "Company_Phone": {
+      "message": "Firemn\u00ED telefon"
+   },
+   "Company_policy_prevents_changing_some_settings__not_all_updates_have_been_saved_": {
+      "message": "Firemn\u00ED politika br\u00E1n\u00ED zm\u011Bn\u011B n\u011Bkter\u00E9ho nastaven\u00ED, ne v\u0161echny aktualizace byly ulo\u017Eeny."
+   },
+   "Complete_the_below_information_to_add_a_new_Credit_Card_profile": {
+      "message": "Vypln\u011B n\u00E1sleduj\u00EDc\u00ED informace pro p\u0159id\u00E1n\u00ED profilu kreditn\u00ED karty"
+   },
+   "Complete_the_below_information_to_add_a_new_Form_Fill_profile": {
+      "message": "Vypl\u0148te n\u00E1sleduj\u00EDc\u00ED informace pro p\u0159id\u00E1n\u00ED nov\u00E9ho profilu vypln\u011Bn\u00ED formul\u00E1\u0159e"
+   },
+   "Configure_Form_Fill": {
+      "message": "Nastavte vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F"
+   },
+   "Confirm": {
+      "message": "Potvrdit"
+   },
+   "Confirm_Password": {
+      "message": "Potvrdit heslo"
+   },
+   "Congo": {
+      "message": "Kongo"
+   },
+   "Congo__the_Democratic_Republic_of_The": {
+      "message": "Demokratick\u00E1 republika Kongo"
+   },
+   "Congratulations": {
+      "message": "Blahop\u0159ejeme"
+   },
+   "Connection_Mode": {
+      "message": "Re\u017Eim p\u0159ipojen\u00ED"
+   },
+   "Connection_Type": {
+      "message": "Typ p\u0159ipojen\u00ED"
+   },
+   "Contact": {
+      "message": "Kontakt"
+   },
+   "Continue": {
+      "message": "Pokra\u010Dovat"
+   },
+   "Control_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "Ve vybran\u00E9m n\u00E1zvu souboru byly nalezeny kontroln\u00ED znaky, nebude zpracov\u00E1n"
+   },
+   "Cook_Islands": {
+      "message": "Cookovy ostrovy"
+   },
+   "Copy": {
+      "message": "Kop\u00EDrovat"
+   },
+   "Copy_Note": {
+      "message": "Zkop\u00EDruj pozn\u00E1mku"
+   },
+   "Copy_Password": {
+      "message": "Kop\u00EDrovat heslo"
+   },
+   "Copy_URL": {
+      "message": "Zkop\u00EDrovat adresu"
+   },
+   "Copy_Username": {
+      "message": "Kop\u00EDrovat p\u0159ihla\u0161ovac\u00ED jm\u00E9no"
+   },
+   "Copyright_2008_LastPass__All_Rights_Reserved__Portions_of_this_software_were_licensed_from_third_parties_as_described_at_": {
+      "message": "Copyright 2008 LastPass. V\u0161echna pr\u00E1va vyhrazena. Sou\u010D\u00E1sti tohoto software byly licencov\u00E1ny t\u0159et\u00EDmi stranami, jak je pops\u00E1no v:"
+   },
+   "Costa_Rica": {
+      "message": "Kostarika"
+   },
+   "Cote_D_ivoire": {
+      "message": "Pob\u0159e\u017E\u00ED slonoviny"
+   },
+   "Country": {
+      "message": "Zem\u011B"
+   },
+   "County": {
+      "message": "Kraj"
+   },
+   "Create_Account": {
+      "message": "Vytvo\u0159it \u00FA\u010Det"
+   },
+   "Create_Group": {
+      "message": "Vytvo\u0159it skupinu"
+   },
+   "Create_Sub_Group": {
+      "message": "Vytvo\u0159it podskupinu"
+   },
+   "Create_an_Account": {
+      "message": "Vytvo\u0159it \u00FA\u010Det"
+   },
+   "Creating_Account___": {
+      "message": "Vytv\u00E1\u0159\u00EDm \u00FA\u010Det..."
+   },
+   "Credit_Monitoring": {
+      "message": "Credit Monitoring"
+   },
+   "Credit_card": {
+      "message": "Kreditn\u00ED karta"
+   },
+   "Credit_card_number": {
+      "message": "\u010C\u00EDslo kreditn\u00ED karty"
+   },
+   "Croatia": {
+      "message": "Chorvatsko"
+   },
+   "Ctrl": {
+      "message": "Ctrl"
+   },
+   "Cuba": {
+      "message": "Kuba"
+   },
+   "Custom_Value": {
+      "message": "Vlastn\u00ED hodnota"
+   },
+   "Custom_field__": {
+      "message": "Vlastn\u00ED pole #"
+   },
+   "Custom_fields": {
+      "message": "Vlastn\u00ED pole"
+   },
+   "Cyprus": {
+      "message": "Kypr"
+   },
+   "Czech_Republic": {
+      "message": "\u010Cesk\u00E1 republika"
+   },
+   "Danish": {
+      "message": "D\u00E1n\u0161tina"
+   },
+   "Darn__Passwords_": {
+      "message": "Darn! Passwords!"
+   },
+   "Darwin": {
+      "message": "Darwin"
+   },
+   "Database": {
+      "message": "Datab\u00E1ze"
+   },
+   "Date": {
+      "message": "Datum"
+   },
+   "Date_of_Birth": {
+      "message": "Datum narozen\u00ED"
+   },
+   "December": {
+      "message": "Prosinec"
+   },
+   "Default": {
+      "message": "V\u00FDchoz\u00ED"
+   },
+   "Default_Form_Fill_Profile": {
+      "message": "V\u00FDchoz\u00ED profil"
+   },
+   "Delete": {
+      "message": "Vymazat"
+   },
+   "Delete_Cache": {
+      "message": "Vymazat Cache"
+   },
+   "Delete_Group": {
+      "message": "Vymazat skupinu"
+   },
+   "Delete_Selected": {
+      "message": "Smazat vybran\u00E9"
+   },
+   "Delete_Site_": {
+      "message": "Vymazat web?"
+   },
+   "Delete_this_form_fill_profile": {
+      "message": "Smazat tento profil"
+   },
+   "Denmark": {
+      "message": "D\u00E1nsko"
+   },
+   "Disable_Insecure_Chrome_Password_Manager": {
+      "message": "Zak\u00E1zat nezabezpe\u010Den\u00E9ho Spr\u00E1vce Hesel Chrome"
+   },
+   "Disable_Multifactor_Authentication": {
+      "message": "Zak\u00E1zat v\u00EDcen\u00E1sobnou autentizaci"
+   },
+   "Disable_Single_factor_Authentication": {
+      "message": "Zak\u00E1zat jednoduchou autentizaci"
+   },
+   "Disable_alert___": {
+      "message": "Zak\u00E1zat upozorn\u011Bn\u00ED..."
+   },
+   "Disable_alert_for_this_site": {
+      "message": "Zak\u00E1zat upozorn\u011Bn\u00ED na t\u00E9to str\u00E1nce"
+   },
+   "Disable_all_weak_duplicate_site_alerts": {
+      "message": "Zak\u00E1zat v\u0161echna upozorn\u011Bn\u00ED na slab\u00E9/duplicitn\u00ED str\u00E1nky"
+   },
+   "Discard_changes_and_close_this_window": {
+      "message": "Zahodit zm\u011Bny a zav\u0159\u00EDt okno"
+   },
+   "Djibouti": {
+      "message": "D\u017Eibutsko"
+   },
+   "Do_not_overwrite_fields_that_are_already_filled": {
+      "message": "Nep\u0159episovat pole, kter\u00E1 jsou ji\u017E vypln\u011Bna"
+   },
+   "Do_not_re_prompt_for_": {
+      "message": "Znovu neupozor\u0148ovat na"
+   },
+   "Do_you_like_LastPass_": {
+      "message": "L\u00EDb\u00ED se v\u00E1m LastPass?"
+   },
+   "Do_you_really_want_to_quit___You_cannot_use_LastPass_without_creating_an_account_": {
+      "message": "Chcete opravdu skon\u010Dit? Bez vytvo\u0159en\u00ED \u00FA\u010Dtu nelze LastPass pou\u017E\u00EDvat."
+   },
+   "Dominica": {
+      "message": "Dominika"
+   },
+   "Dominican_Republic": {
+      "message": "Dominik\u00E1nsk\u00E1 republika"
+   },
+   "Down": {
+      "message": "Dol\u016F"
+   },
+   "Dr": {
+      "message": "Doktor"
+   },
+   "Driver_s_License": {
+      "message": "\u0158idi\u010Dsk\u00FD pr\u016Fkaz"
+   },
+   "Duplicate_password": {
+      "message": "Duplikovat heslo"
+   },
+   "Dutch": {
+      "message": "Nizozem\u0161tina"
+   },
+   "ERROR__Moving_sites_between_shared_folders_is_currently_not_supported_": {
+      "message": "CHYBA: P\u0159esouv\u00E1n\u00ED str\u00E1nek mezi sd\u00EDlen\u00FDmi slo\u017Ekami nen\u00ED v sou\u010Dasn\u00E9 dob\u011B podporovan\u00FD."
+   },
+   "ERROR__You_are_not_allowed_to_move_sites_out_of_shared_folders__Delete_is_the_only_supported_operation_": {
+      "message": "CHYBA: P\u0159esouv\u00E1n\u00ED str\u00E1nek ze sd\u00EDlen\u00FDch slo\u017Eek nen\u00ED povoleno. Jedinou povolenou operac\u00ED je odstran\u011Bn\u00ED."
+   },
+   "Eastern_Time__US___Canada_": {
+      "message": "V\u00FDchodn\u00ED \u010Das (USA a Kanada)"
+   },
+   "Ecuador": {
+      "message": "Ekv\u00E1dor"
+   },
+   "Edit": {
+      "message": "Zm\u011Bnit"
+   },
+   "Edit_Application": {
+      "message": "Upravit aplikaci"
+   },
+   "Edit_Application_Fields": {
+      "message": "Upravit aplika\u010Dn\u00EDch oblast\u00ED"
+   },
+   "Edit_Credit_Card_profile": {
+      "message": "Upravit profil kreditn\u00ED karty"
+   },
+   "Edit_Form_Fields": {
+      "message": "Zm\u011Bnit formul\u00E1\u0159ov\u00E1 pole"
+   },
+   "Edit_Form_Fill_profile": {
+      "message": "Editovat profil vypln\u011Bn\u00ED formul\u00E1\u0159e"
+   },
+   "Edit_Secure_Note": {
+      "message": "Upravit zabezpe\u010Dnou pozn\u00E1mku"
+   },
+   "Edit_Secure_Notes": {
+      "message": "Upravit Zabezpe\u010Dn\u00E9 pozn\u00E1mky"
+   },
+   "Edit_Site": {
+      "message": "Zm\u011Bnit str\u00E1nky"
+   },
+   "Edit_Site_Fields": {
+      "message": "Upravit formul\u00E1\u0159e na str\u00E1nce"
+   },
+   "Egypt": {
+      "message": "Egypt"
+   },
+   "El_Salvador": {
+      "message": "El Salvador"
+   },
+   "Email": {
+      "message": "Email"
+   },
+   "Email_Account": {
+      "message": "E-mailov\u00FD \u00FA\u010Det"
+   },
+   "Email_address": {
+      "message": "E-mailov\u00E1 adresa"
+   },
+   "Email_already_in_use__have_you_forgotten_your_password_": {
+      "message": "Tato emailov\u00E1 adresa je ji\u017E pou\u017E\u00EDv\u00E1na, zapomn\u011Bli jste Va\u0161e heslo?"
+   },
+   "Enable_Credit_Monitoring": {
+      "message": "Zapnout monitorov\u00E1n\u00ED kreditu"
+   },
+   "Enable_Free_Credit_Monitoring": {
+      "message": "Zapnout monitorov\u00E1n\u00ED voln\u00E9ho kreditu"
+   },
+   "Encryption": {
+      "message": "\u0160ifrov\u00E1n\u00ED"
+   },
+   "End": {
+      "message": "Konec"
+   },
+   "English": {
+      "message": "Angli\u010Dtina"
+   },
+   "English__United_Kingdom_": {
+      "message": "Angli\u010Dtina (United Kingdom)"
+   },
+   "Enter_arbitrary_notes": {
+      "message": "Vlo\u017Eit dopl\u0148uj\u00EDc\u00ED informace "
+   },
+   "Enter_your_smart_card_PIN_": {
+      "message": "Zadejte sv\u016Fj PIN \u010Dipov\u00E9 karty:"
+   },
+   "Enterprise": {
+      "message": "Podnik"
+   },
+   "Enterprise_Console": {
+      "message": "Enterprise konzole"
+   },
+   "Equatorial_Guinea": {
+      "message": "Rovn\u00EDkov\u00E1 Guinea"
+   },
+   "Eritrea": {
+      "message": "Eritrea"
+   },
+   "ErrorGetAcctsMsg": {
+      "message": "P\u0159i na\u010D\u00EDt\u00E1n\u00ED \u00FAdaj\u016F o Va\u0161ich str\u00E1nk\u00E1ch do\u0161lo k chyb\u011B. Pros\u00EDm, zkuste se p\u0159ihl\u00E1sit znovu."
+   },
+   "ErrorLoginMsg": {
+      "message": "P\u0159i p\u0159ihla\u0161ov\u00E1n\u00ED ke slu\u017Eb\u011B LastPass do\u0161lo k chyb\u011B. Pros\u00EDm, zkontrolujte sv\u00E9 internetov\u00E9 p\u0159ipojen\u00ED."
+   },
+   "ErrorSendingMsg": {
+      "message": "P\u0159i pokusu kontaktovat server do\u0161lo k chyb\u011B. Pros\u00EDm, zkontrolujte Va\u0161e internetov\u00E9 p\u0159ipojen\u00ED."
+   },
+   "ErrorSessionMsg": {
+      "message": "Vypad\u00E1 to, \u017Ee va\u0161e LastPass relace vypr\u0161ela. P\u0159ihlaste se znovu."
+   },
+   "Error__This_folder_has_already_been_moved_": {
+      "message": "Chyba: Tato slo\u017Eka ji\u017E byla p\u0159esunuta?"
+   },
+   "Error_opening_attachment_": {
+      "message": "Chyba p\u0159i otev\u00EDr\u00E1n\u00ED p\u0159\u00EDloh."
+   },
+   "Estonia": {
+      "message": "Estonsko"
+   },
+   "Ethiopia": {
+      "message": "Etiopie"
+   },
+   "Evening_number": {
+      "message": "Ve\u010Dern\u00ED \u010D\u00EDslo"
+   },
+   "ExistingUsersOTPPrompt": {
+      "message": "LastPass m\u016F\u017Ee ulo\u017Eit va\u0161e jednor\u00E1zov\u00E9 heslo na lok\u00E1ln\u00ED disk, tak\u017Ee pokud v budoucnu zapomenete sv\u00E9 hlavn\u00ED heslo, budete moci obnovit \u00FA\u010Det s t\u00EDmto heslem. Jednor\u00E1zov\u00E9 heslo na disku bude zablokovan\u00E9 do t\u00E9 doy, dokud nebude odblokov\u00E1no na serveru.\n\nP\u0159ejete si spustit obnovu \u00FA\u010Dtu?"
+   },
+   "Expand_All": {
+      "message": "Rozbalit v\u0161e"
+   },
+   "Expiration": {
+      "message": "Vypr\u0161en\u00ED platnosti"
+   },
+   "Expiration_date": {
+      "message": "Datum vypr\u0161en\u00ED"
+   },
+   "Export": {
+      "message": "Exportovat"
+   },
+   "Export_To": {
+      "message": "Exportovat do"
+   },
+   "Export_To_LastPass_CSV_File": {
+      "message": "Exportovat do LastPass CSV souboru"
+   },
+   "FIPS_Mode": {
+      "message": "FIPS Mode"
+   },
+   "Falkland_Islands__Malvinas_": {
+      "message": "Falklandsk\u00E9 ostrovy (Malv\u00EDny)"
+   },
+   "Faroe_Islands": {
+      "message": "Faersk\u00E9 ostrovy"
+   },
+   "Favorite": {
+      "message": "Obl\u00EDben\u00E9"
+   },
+   "Favoritesproper": {
+      "message": "Obl\u00EDben\u00E9"
+   },
+   "Fax_number": {
+      "message": "Fax"
+   },
+   "February": {
+      "message": "\u00DAnor"
+   },
+   "Feedback": {
+      "message": "V\u00E1\u0161 n\u00E1zor"
+   },
+   "Female": {
+      "message": "\u017Dena"
+   },
+   "Fields_": {
+      "message": "Pole:"
+   },
+   "Fiji": {
+      "message": "Fid\u017Ei"
+   },
+   "Fiji__Kamchatka__Marshall_Is_": {
+      "message": "Fid\u017Ei, Kam\u010Datka, Mar\u0161\u00E1lovy ostrovy"
+   },
+   "File": {
+      "message": "Soubor"
+   },
+   "File_too_large__it_must_be_less_than_10MB_": {
+      "message": "Soubor je p\u0159\u00EDli\u0161 velk\u00FD, mus\u00ED b\u00FDt men\u0161\u00ED ne\u017E 10 MB."
+   },
+   "File_too_large__it_must_be_less_than_5MB_": {
+      "message": "Soubor je p\u0159\u00EDli\u0161 velk\u00FD, mus\u00ED b\u00FDt men\u0161\u00ED ne\u017E 5 MB."
+   },
+   "Fill": {
+      "message": "Vyplnit"
+   },
+   "Fill_Current": {
+      "message": "Vyplnit sou\u010Dasn\u00FD"
+   },
+   "Fill_Form": {
+      "message": "Vyplnit formul\u00E1\u0159"
+   },
+   "Fill_Forms": {
+      "message": "Vyplnit formul\u00E1\u0159e"
+   },
+   "Fill_In_Default_Form_Fill_Profile": {
+      "message": "Vyplnit pomoc\u00ED p\u0159ednastaven\u00E9ho profilu"
+   },
+   "Fill_In_Next_Login__When_Multiple_": {
+      "message": "Vypl\u0148te Dal\u0161\u00ED P\u0159ihla\u0161. Jm\u00E9no (Pokud je jich v\u00EDc)"
+   },
+   "Fill_In_Previous_Login__When_Multiple_": {
+      "message": "Vypl\u0148te P\u0159edchoz\u00ED P\u0159ihla\u0161. Jm\u00E9no (Pokud je jich v\u00EDc)"
+   },
+   "Fill_or_Edit_Form_Fill_Data": {
+      "message": "P\u0159idat nebo upravit vypl\u0148ovan\u00E1 formul\u00E1\u0159ov\u00E1 pole"
+   },
+   "FillableFormDetected": {
+      "message": "Na str\u00E1nce byl detekov\u00E1n vyplniteln\u00FD prvek"
+   },
+   "Filter": {
+      "message": "Filtr"
+   },
+   "Find_a_site": {
+      "message": "Naj\u00EDt str\u00E1nku"
+   },
+   "Finland": {
+      "message": "Finsko"
+   },
+   "Finnish": {
+      "message": "Fin\u0161tina"
+   },
+   "FireForm": {
+      "message": "FireForm"
+   },
+   "Firefox_Password_Manager": {
+      "message": "Spr\u00E1vce hesel Firefox"
+   },
+   "First_3_digits_of_your_phone_number": {
+      "message": "Prvn\u00ED 3 \u010D\u00EDslice va\u0161eho telefonn\u00EDho \u010D\u00EDsla"
+   },
+   "First_name": {
+      "message": "K\u0159estn\u00ED jm\u00E9no"
+   },
+   "For_each_coordinate_listed_below__find_the_value_on_your_grid_and_enter_the_value_": {
+      "message": "Pro ka\u017Edou sou\u0159adnici uvedenou n\u00ED\u017Ee nalezn\u011Bte p\u0159\u00EDslu\u0161nou hodnotu v m\u0159\u00ED\u017Ece a napi\u0161te ji."
+   },
+   "FormFill": {
+      "message": "Vypln\u011Bn\u00ED formul\u00E1\u0159\u016F"
+   },
+   "FormFill_Profiles": {
+      "message": "Profily pro vypln\u011Bn\u00ED formul\u00E1\u0159\u016F"
+   },
+   "Form_Fill": {
+      "message": "Vyplnit formul\u00E1\u0159"
+   },
+   "Form_Fill_Profile": {
+      "message": "Profil vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159e"
+   },
+   "Form_Fill_Profiles": {
+      "message": "Profily pro vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F"
+   },
+   "Form_Name_": {
+      "message": "N\u00E1zev Formul\u00E1\u0159e"
+   },
+   "Format": {
+      "message": "Form\u00E1t"
+   },
+   "Forums": {
+      "message": "F\u00F3ra"
+   },
+   "France": {
+      "message": "Francie"
+   },
+   "French": {
+      "message": "Francouz\u0161tina"
+   },
+   "French_Guiana": {
+      "message": "Francouzsk\u00E1 Guyana"
+   },
+   "French_Polynesia": {
+      "message": "Francouzsk\u00E1 Polyn\u00E9sie"
+   },
+   "French_Southern_Territories": {
+      "message": "Francouzsk\u00FD ji\u017En\u00ED \u00FAzem\u00ED"
+   },
+   "French__Canada_": {
+      "message": "Francouz\u0161tina (Kanada)"
+   },
+   "Full_path_of_file_to_import_": {
+      "message": "\u00DApln\u00E1 cesta k souboru pro import:"
+   },
+   "Full_path_of_the_file_to_import_": {
+      "message": "\u00DApln\u00E1 cesta k souboru, kter\u00FD chcete importovat:"
+   },
+   "GET_FREE_PREMIUM": {
+      "message": "Z\u00EDskejte zdarma premium \u00FA\u010Det"
+   },
+   "GMT_5": {
+      "message": "GMT+5"
+   },
+   "GMT_7": {
+      "message": "GMT+7"
+   },
+   "GMT_9": {
+      "message": "GMT+9"
+   },
+   "GMT_Dublin__Edinburgh__Lisbon__London": {
+      "message": "St\u0159edn\u00ED \u010Das Dublin, Edinburgh, Lisabon, Lond\u00FDn"
+   },
+   "GMT__Dublin__Edinburgh__Lisbon__London": {
+      "message": "GMT: Dublin, Edinburgh, Lisabon, Lond\u00FDn"
+   },
+   "Gabon": {
+      "message": "Gabun"
+   },
+   "Gambia": {
+      "message": "Gambie"
+   },
+   "Gender": {
+      "message": "Pohlav\u00ED"
+   },
+   "General": {
+      "message": "Hlavn\u00ED"
+   },
+   "Generate": {
+      "message": "Vygenerovat"
+   },
+   "GeneratePassword": {
+      "message": "Pokud vytv\u00E1\u0159\u00EDte \u00FA\u010Det, nebo m\u011Bn\u00EDte heslo, klikn\u011Bte na 'vytvo\u0159it' za \u00FA\u010Delem vygenerov\u00E1n\u00ED jedine\u010Dn\u00E9ho a bezpe\u010Dn\u00E9ho hesla prost\u0159ednictv\u00EDm LastPass."
+   },
+   "Generate_Password": {
+      "message": "Vygenerovat heslo"
+   },
+   "Generate_Secure_Password": {
+      "message": "Vygenerovat bezpe\u010Dn\u00E9 heslo"
+   },
+   "Generated_Password_for": {
+      "message": "Vygenerovan\u00E9 heslo pro"
+   },
+   "Generic": {
+      "message": "Obecn\u011B"
+   },
+   "Generic_CSV_File": {
+      "message": "Obecn\u00FD CSV soubor"
+   },
+   "Georgia": {
+      "message": "Gruzie"
+   },
+   "German": {
+      "message": "N\u011Bme\u010Dtina"
+   },
+   "Germany": {
+      "message": "N\u011Bmecko"
+   },
+   "Ghana": {
+      "message": "Ghana"
+   },
+   "Gibraltar": {
+      "message": "Gibraltar"
+   },
+   "Go_Premium_": {
+      "message": "P\u0159ej\u00EDt na verzi Premium!"
+   },
+   "Go_to_URL": {
+      "message": "P\u0159ej\u00EDt na URL"
+   },
+   "Google_Authenticator_Multifactor_Authentication": {
+      "message": "Google Authenticator Multifactor ov\u011B\u0159ov\u00E1n\u00ED"
+   },
+   "Google_Chrome": {
+      "message": "Google Chrome"
+   },
+   "Google_Chrome_Password_Manager": {
+      "message": "Spr\u00E1vce hesel Google Chrome"
+   },
+   "Google_Chrome_requires_that_extensions_use_the_same_language_as_the_browser__so_in_order_to_switch_LastPass_s_language__please_change_the_main_browser_language_under_Chrome_s_Options_": {
+      "message": "Google Chrome vy\u017Eaduje, aby roz\u0161\u00ED\u0159en\u00ED pou\u017E\u00EDvaly stejn\u00FD jazyk, jako prohl\u00ED\u017Ee\u010D. Pro zm\u011Bnu jazyku pros\u00EDm zm\u011B\u0148te hlavn\u00ED jazyk prohl\u00ED\u017Ee\u010De v nastaven\u00ED Chrome."
+   },
+   "Greece": {
+      "message": "\u0158ecko"
+   },
+   "Greenland": {
+      "message": "Gr\u00F3nsko"
+   },
+   "Greenland__Brasilia__Montevideo": {
+      "message": "Gr\u00F3nsko, Braz\u00EDlie, Montevideo"
+   },
+   "Grenada": {
+      "message": "Grenada"
+   },
+   "Group_": {
+      "message": "Skupina:"
+   },
+   "Group_ID": {
+      "message": "ID skupiny"
+   },
+   "Group_Name": {
+      "message": "Jm\u00E9no skupiny"
+   },
+   "Group_will_be_created_under": {
+      "message": "Skupina bude vytvo\u0159ena nebo v sou\u010Dasn\u00E9 dob\u011B existuje pod"
+   },
+   "Groups": {
+      "message": "Skupiny"
+   },
+   "Guadeloupe": {
+      "message": "Guadeloupe"
+   },
+   "Guam": {
+      "message": "Guam"
+   },
+   "Guatemala": {
+      "message": "Guatemala"
+   },
+   "Guernsey": {
+      "message": "Guernsey"
+   },
+   "Guinea": {
+      "message": "Guinea"
+   },
+   "Guinea_Bissau": {
+      "message": "Guinea-Bissau"
+   },
+   "Guyana": {
+      "message": "Guyana"
+   },
+   "HP_Password_Safe": {
+      "message": "HP Password Safe"
+   },
+   "Haiti": {
+      "message": "Haiti"
+   },
+   "Harare__Pretoria": {
+      "message": "Harare, Pretoria"
+   },
+   "Hawaii": {
+      "message": "Havaj"
+   },
+   "Health_Insurance": {
+      "message": "Zdravotn\u00ED poji\u0161t\u011Bn\u00ED"
+   },
+   "Heard_Island_and_Mcdonald_Islands": {
+      "message": "Heard\u016Fv ostrov a McDonaldovy ostrovy"
+   },
+   "Height": {
+      "message": "V\u00FD\u0161ka"
+   },
+   "Help_Translate": {
+      "message": "Pomozte s p\u0159ekladem"
+   },
+   "Help___": {
+      "message": "N\u00E1pov\u011Bda..."
+   },
+   "Help_spread_the_word": {
+      "message": "Pomozte \u0161\u00ED\u0159it do pov\u011Bdom\u00ED"
+   },
+   "Hide_Context_Menu_Options": {
+      "message": "Skr\u00FDt Kontextov\u00E9 menu Volby"
+   },
+   "Highlight_input_boxes": {
+      "message": "Zv\u00FDraznit vstupn\u00ED pole"
+   },
+   "History": {
+      "message": "Historie"
+   },
+   "Holy_See__Vatican_City_State_": {
+      "message": "Svat\u00FD Stolec (Vatik\u00E1nsk\u00FD m\u011Bstsk\u00FD st\u00E1t)"
+   },
+   "Home": {
+      "message": "\u00DAvod"
+   },
+   "Honduras": {
+      "message": "Honduras"
+   },
+   "Hong_Kong": {
+      "message": "Hongkong"
+   },
+   "Hostname": {
+      "message": "Hostname"
+   },
+   "HotKeys": {
+      "message": "Kl\u00E1vesov\u00E9 zkratky"
+   },
+   "Hungarian": {
+      "message": "Ma\u010Far\u0161tina"
+   },
+   "Hungary": {
+      "message": "Ma\u010Farsko"
+   },
+   "IBAN_Number": {
+      "message": "IBAN \u010D\u00EDslo"
+   },
+   "IMPORT_": {
+      "message": "IMPORT?"
+   },
+   "IT_IS_CRITICAL_THAT_YOU_NEVER_FORGET_YOUR_NEW_LASTPASS_PASSWORD_": {
+      "message": "JE NESM\u00CDRN\u011A D\u016ELE\u017DIT\u00C9, ABYSTE NIKDY NEZAPOMN\u011ALI SV\u00C9 LASTPASS HESLO."
+   },
+   "I_Forgot_my_Password": {
+      "message": "Zapomn\u011Bl jsem heslo"
+   },
+   "I_forgot_my_password__Help_": {
+      "message": "Zapomn\u011Bl jsem heslo, pomoc"
+   },
+   "I_have_read_and_agree_with_the": {
+      "message": "\u010Cetl jsem a souhlas\u00EDm s"
+   },
+   "I_understand_that_my_encrypted_data_will_be_sent_to_LastPass": {
+      "message": "Rozum\u00EDm, \u017Ee m\u00E1 k\u00F3dovan\u00E1 data budou odesl\u00E1na do LastPass"
+   },
+   "Iceland": {
+      "message": "Island"
+   },
+   "Identities": {
+      "message": "Identity"
+   },
+   "Identity": {
+      "message": "Identita"
+   },
+   "If_checked__you_will_be_asked_to_re_enter_your_master_password_before_being_able_to_access_this_Form_Fill_profile": {
+      "message": "Pokud je za\u0161krtnuto, budete vyzv\u00E1n\u00ED k zad\u00E1n\u00ED hlavn\u00EDho hesla p\u0159ed t\u00EDm ne\u017E bude mo\u017En\u00E9 pou\u017E\u00EDt tento profil"
+   },
+   "If_checked__your_credit_report_will_be_regularly_monitored_and_you_will_be_alerted_if_any_suspicious_activity_occurs_": {
+      "message": "Pokud je za\u0161krtnuto, pak bude v\u00E1\u0161 kredit pravideln\u011B monitorov\u00E1n a budete upozorn\u011Bni v p\u0159\u00EDpad\u011B jak\u00E9koli podez\u0159el\u00E9 aktivity."
+   },
+   "If_you_already_have_a_LastPass_account_you_can_close_this_window_and_login_": {
+      "message": "Pokud ji\u017E m\u00E1te LastPass \u00FA\u010Det, m\u016F\u017Eete zav\u0159\u00EDt toho okno a p\u0159ihl\u00E1\u0161en\u00ED."
+   },
+   "If_you_do_end_up_forgetting_your_LastPass_master_password_": {
+      "message": "Pokud ji\u017E nezapomenete LastPass hlavn\u00ED heslo,"
+   },
+   "If_you_forgot_your_answer__click_here_to_reset_your_security_question": {
+      "message": "Pokud jste zapomn\u011Bli odpov\u011B\u010F, klikn\u011Bte zde pro resetov\u00E1n\u00ED va\u0161\u00ED bezpe\u010Dnostn\u00ED ot\u00E1zky"
+   },
+   "If_you_have_another_format_that_LastPass_doesn_t_currently_support_you_can_attempt_to_save_your_data_as_a_CSV_file__YOU_MUST_MODIFY_THE_FIRST_ROW_OF_THE_CSV_FILE_FOR_LASTPASS_TO_RECOGNIZE_IT__The_first_row_s_column_names_should_be_properly_setup_for_the_data_in_the_columns_Possible_first_row_names___url_username_password_extra_name_grouping___extra__means__notes__and__grouping__is_what_group_it_should_be_in___You_do_not_have_to_use_all_the_column_names_and_they_don_t_need_to_be_in_any_order___For_example_your_file_s_first_row_might_be_like___name_username_password_url__If_you_want_to_import_a_Secure_Note_instead_of_a_Site__simply_ensure_the__url____username___and__password__columns_are_left_blank__or_omit_the__url____username___and_or__password__columns_entirely___and_ensure_the__extra__column_is_not_blank___As_long_as_these_two_things_have_been_done__the_record_will_automatically_be_imported_as_a_Secure_Note_instead_of_a_Site___This_should_be_very_simple__just_open_your_saved_CSV_file_in_Excel_and_make_sure_the_top_row_has_the_appropriate_name_from_above_for_what_it_is___Save_it__then_import_the_resulting_file_": {
+      "message": "Pokud m\u00E1te data ve form\u00E1tu, kter\u00FD LastPass dosud nepodporuje, m\u016F\u017Eete je importovat do LastPass ve form\u00E1tu CSV.\n\nV tom p\u0159\u00EDpad\u011B je nutn\u00E9 pozm\u011Bnit prvn\u00ED \u0159\u00E1dek CSV souboru tak, aby ho LastPass rozpoznal."
+   },
+   "If_you_lost_your_Google_Authenticator_device__click_here_to_disable_Google_Authenticator_authentication": {
+      "message": "Pokud jste ztratili Google Authenticator za\u0159\u00EDzen\u00ED, klikn\u011Bte sem pro zak\u00E1z\u00E1n\u00ED Google Authenticator ov\u011B\u0159ov\u00E1n\u00ED."
+   },
+   "If_you_lost_your_Sesame_device__click_here_to_disable_Sesame_authentication": {
+      "message": "Pokud jste ztratili Va\u0161e za\u0159\u00EDzen\u00ED Sesame, klikn\u011Bte sem pro zak\u00E1z\u00E1n\u00ED ov\u011B\u0159ov\u00E1n\u00ED Sesame."
+   },
+   "If_you_lost_your_YubiKey_device__click_here_to_disable_YubiKey_authentication": {
+      "message": "Pokud ztrat\u00EDte sv\u016Fj YubiKey, klikn\u011Bte zde pro zablokov\u00E1n\u00ED p\u0159ihla\u0161ov\u00E1n\u00ED pomoc\u00ED tohoto za\u0159\u00EDzen\u00ED."
+   },
+   "If_you_lost_your_device__click_here_to_disable_multifactor_authentication": {
+      "message": "Pokud jste ztratili sv\u00E9 za\u0159\u00EDzen\u00ED, klikn\u011Bte zde pro zak\u00E1z\u00E1n\u00ED v\u00EDcen\u00E1sobn\u00E9ho ov\u011B\u0159ov\u00E1n\u00ED"
+   },
+   "If_you_lost_your_grid__click_here_to_disable_grid_authentication": {
+      "message": "Pokud jste va\u0161\u00ED m\u0159\u00ED\u017Eku ztratili, klikn\u011Bte zde a autentizace m\u0159\u00ED\u017Ekou bude zak\u00E1z\u00E1na"
+   },
+   "Import": {
+      "message": "Importovat"
+   },
+   "Import_From": {
+      "message": "Importovat z"
+   },
+   "Import_Your_Data": {
+      "message": "Importovat va\u0161e data"
+   },
+   "Importing_your_data_to_your_LastPass_vault_will_secure_it_and_protect_you_against_identity_theft__All_imported_data_remains_COMPLETELY_confidential__the_only_person_who_can_view_YOUR_data_is_YOU_": {
+      "message": "Importov\u00E1n\u00EDm va\u0161ich dat do LastPass trezoru v\u00E1s ochr\u00E1n\u00ED p\u0159ed kr\u00E1de\u017E\u00ED identity. V\u0161echny importovan\u00E1 data z\u016Fst\u00E1vaj\u00ED zcela d\u016Fv\u011Brn\u00E1. Jedin\u00FD, kdo je m\u016F\u017Ee zobrazit, jste vy."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_enable_access_for_assistive_devices_": {
+      "message": "Aby mohl LastPass vypl\u0148ovat z\u00E1kladn\u00ED ov\u011B\u0159ovac\u00ED dialogy, je t\u0159eba povolit p\u0159\u00EDstup asisten\u010Dn\u00EDm za\u0159\u00EDzen\u00EDm."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_install_the_binary_version_of_LastPass_for_Chrome_": {
+      "message": "Aby mohl LastPass vypl\u0148ovat z\u00E1kladn\u00ED ov\u011B\u0159ovac\u00ED dialogy, je t\u0159eba nainstalovat bin\u00E1rn\u00ED verzi LastPass pro Chrome."
+   },
+   "India": {
+      "message": "Indie"
+   },
+   "Indiana__Bogota__Lima__Quito__Rio_Branco": {
+      "message": "Indiana, Bogota, Lima, Quito, Rio Branco"
+   },
+   "Indonesia": {
+      "message": "Indon\u00E9sie"
+   },
+   "Install": {
+      "message": "Instalovat"
+   },
+   "Install_the_LastPass_Library_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "Nainstalujte LastPass roz\u0161\u00ED\u0159en\u00ED pro Chrome abyste mohl zapnout automatick\u00E9 odhl\u00E1\u0161en\u00ED p\u0159i ne\u010Dinnosti"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "Nainstalujte si bin\u00E1rn\u00ED verzi LastPass pro Google Chrome, pro zp\u0159\u00EDstupn\u011Bn\u00ED automatick\u00E9ho odl\u00E1\u0161en\u00ED p\u0159i ne\u010Dinnosti"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_importing_passwords_from_Google_Chrome_password_manager": {
+      "message": "Nainstalujte bin\u00E1rn\u00ED verzi LastPass pro Chrome, k umo\u017En\u011Bn\u00ED importu hesel ulo\u017Een\u00FDch v Chromu"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_sharing_login_state_between_other_browsers": {
+      "message": "Nainstalovat bin\u00E1rn\u00ED verzi LastPass pro Chrome ve snaze umo\u017Enit sd\u00EDlen\u00ED stavu p\u0159ihl\u00E1\u0161en\u00ED mezi ostatn\u00EDmi prohl\u00ED\u017Ee\u010Di"
+   },
+   "Instant_Messenger": {
+      "message": "Instant Messenger"
+   },
+   "Instructions": {
+      "message": "Instrukce"
+   },
+   "Insurance": {
+      "message": "Poji\u0161t\u011Bn\u00ED"
+   },
+   "International_Date_Line_West": {
+      "message": "Z\u00E1padn\u00ED mezin\u00E1rodn\u00ED \u010Dasov\u00E1 osa"
+   },
+   "Invalid_Password_": {
+      "message": "Nespr\u00E1vn\u00E9 heslo."
+   },
+   "Invalid_email_address__try_again": {
+      "message": "Neplatn\u00E1 elektronick\u00E1 adresa, zkuste to znovu"
+   },
+   "Invalid_file_type__it_must_be_an_image_that_can_be_displayed_by_your_browser_": {
+      "message": "Neplatn\u00FD typ souboru, mus\u00ED to b\u00FDt obr\u00E1zek, kter\u00FD lze zobrazit pomoc\u00ED Va\u0161eho prohl\u00ED\u017Ee\u010De."
+   },
+   "Iran__Islamic_Republic_Of_": {
+      "message": "\u00CDr\u00E1n (Isl\u00E1msk\u00E1 republika)"
+   },
+   "Iraq": {
+      "message": "Ir\u00E1k"
+   },
+   "Ireland": {
+      "message": "Irsko"
+   },
+   "Islamabad__Karachi__Tashkent": {
+      "message": "Islamabad, Karachi, Ta\u0161kent"
+   },
+   "Isle_of_Man": {
+      "message": "Ostrov Man"
+   },
+   "Israel": {
+      "message": "Izrael"
+   },
+   "Issue_number": {
+      "message": "\u010C\u00EDslo vyd\u00E1n\u00ED"
+   },
+   "Issued_Date": {
+      "message": "Datum vyd\u00E1n\u00ED"
+   },
+   "Issuing_Authority": {
+      "message": "Vyd\u00E1vaj\u00EDc\u00ED \u00FA\u0159ad"
+   },
+   "It_is_recommended_that_you_delete_the_attachment_file_after_you_use_it_": {
+      "message": "Je doporu\u010Deno odstranit soubor s p\u0159\u00EDlohou po jeho pou\u017Eit\u00ED."
+   },
+   "Italian": {
+      "message": "Ital\u0161tina"
+   },
+   "Italy": {
+      "message": "It\u00E1lie"
+   },
+   "Jamaica": {
+      "message": "Jamajka"
+   },
+   "January": {
+      "message": "Leden"
+   },
+   "Japan": {
+      "message": "Japonsko"
+   },
+   "Japanese": {
+      "message": "Japon\u0161tina"
+   },
+   "Jersey": {
+      "message": "Jersey"
+   },
+   "Jordan": {
+      "message": "Jord\u00E1n"
+   },
+   "July": {
+      "message": "\u010Cervenec"
+   },
+   "June": {
+      "message": "\u010Cerven"
+   },
+   "Kabul": {
+      "message": "K\u00E1bul"
+   },
+   "Kathmandu": {
+      "message": "Kathmandu"
+   },
+   "Kazakhstan": {
+      "message": "Kazachst\u00E1n"
+   },
+   "KeePass": {
+      "message": "KeePass"
+   },
+   "Keep_a_history_of_my_logins_and_form_fills": {
+      "message": "Zachovat historii m\u00FDch p\u0159ihla\u0161ovac\u00EDch \u00FAdaj\u016F"
+   },
+   "Kenya": {
+      "message": "Ke\u0148a"
+   },
+   "Key_Index": {
+      "message": "Index kl\u00ED\u010De"
+   },
+   "Key_Type": {
+      "message": "Typ kl\u00ED\u010De"
+   },
+   "Kiribati": {
+      "message": "Kiribati"
+   },
+   "Korea__Democratic_People_s_Republic_Of": {
+      "message": "Korea, Lidov\u011B demokratick\u00E1 republika"
+   },
+   "Korea__Republic_Of": {
+      "message": "Ji\u017En\u00ED Korea"
+   },
+   "Korean": {
+      "message": "Korej\u0161tina"
+   },
+   "Kuwait": {
+      "message": "Kuvajt"
+   },
+   "Kuwait__Riyadh__Nairobi__Tbilisi": {
+      "message": "Kuvajt, Rij\u00E1d, Nairobi, Tbilisi"
+   },
+   "Kyrgyzstan": {
+      "message": "Kyrgyzst\u00E1n"
+   },
+   "La_Paz": {
+      "message": "La Paz"
+   },
+   "Language": {
+      "message": "Jazyk"
+   },
+   "Lao_People_s_Democratic_Republic": {
+      "message": "Laosk\u00E1 lidov\u011B demokratick\u00E1 republika"
+   },
+   "LastPass": {
+      "message": "LastPass"
+   },
+   "LastPass_CSV_File": {
+      "message": "CSV soubor LastPass"
+   },
+   "LastPass_Chrome_Toolbar": {
+      "message": "N\u00E1strojov\u00E1 li\u0161ta LastPass pro Chrome"
+   },
+   "LastPass_Encrypted_File": {
+      "message": "LastPass zakodov\u00E1n\u00FD soubor"
+   },
+   "LastPass_Grid_Multifactor_Authentication": {
+      "message": "V\u00EDcen\u00E1sobn\u00E1 autentizace m\u0159\u00ED\u017Ekou LastPass"
+   },
+   "LastPass_Menu": {
+      "message": "LastPass Menu"
+   },
+   "LastPass_can_automatically_fill_web_page_forms_with_a_single_click___Using_automatic__Form_Filling__will_not_only_save_you_time__but_will_also_enhance_your_security_when_shopping_online_": {
+      "message": "LastPass m\u016F\u017Ee automaticky vypl\u0148ovat formul\u00E1\u0159e na webov\u00FDch str\u00E1nk\u00E1ch jedin\u00FDm kliknut\u00EDm. Pou\u017Eit\u00ED automatick\u00E9ho 'Vypln\u011Bn\u00ED Formul\u00E1\u0159e' u\u0161et\u0159\u00ED V\u00E1\u0161 \u010Das a zv\u00FD\u0161\u00ED bezpe\u010Dnost p\u0159i nakupov\u00E1n\u00ED online."
+   },
+   "LastPass_cannot_login_until_cookies_are_allowed_from_lastpass_com": {
+      "message": "LastPass se nem\u016F\u017Ee p\u0159ipojit dokud nebudou povoleny cookies pro LastPass.com"
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_like_to_continue_": {
+      "message": "LastPass zjistil nezabezpe\u010Den\u00FD p\u0159ihla\u0161ovac\u00ED formul\u00E1\u0159.\n\nChcete pokra\u010Dovat?"
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_still_like_LastPass_to_fill_the_form_": {
+      "message": "LastPass zjistil nezabezpe\u010Den\u00FD p\u0159ila\u0161ovac\u00ED formul\u00E1\u0159.\n\nChcete p\u0159esto, aby LastPass vyplnil Va\u0161e p\u0159ihla\u0161ovac\u00ED \u00FAdaje?"
+   },
+   "LastPass_detected_a_password_change_for": {
+      "message": "LastPass detekoval zm\u011Bnu hesla na"
+   },
+   "LastPass_detected_a_password_change_for_domain_": {
+      "message": "LastPass zjistil zm\u011Bnu hesla na t\u00E9to dom\u00E9n\u011B:"
+   },
+   "LastPass_detected_a_password_change_for_user_": {
+      "message": "LastPass detekoval zm\u011Bnu hesla u u\u017Eivatele:"
+   },
+   "LastPass_has_detected_an_installation_error___Please_reinstall_LastPass_": {
+      "message": "LastPass zjistil chybu instalace. Pros\u00EDm, nainstalujte LastPass znovu."
+   },
+   "LastPass_has_detected_that_you_are_using_a_weak_password_for_the_site_below__We_recommend_going_to_your_account_settings_for_this_site__and_creating_a_new_password__Use_LastPass_to_generate_a_unique__strong_password_for_this_account__You_can_then_save_the_changes_on_the_site__and_to_LastPass_": {
+      "message": "LastPass zjistil, \u017Ee pou\u017E\u00EDv\u00E1te slab\u00E9 heslo pro webovou str\u00E1nku n\u00ED\u017Ee. Doporu\u010Dujeme v\u00E1m p\u0159ej\u00EDt do nastaven\u00ED \u00FA\u010Dtu na t\u00E9to str\u00E1nce a vytvo\u0159en\u00ED nov\u00E9ho hesla. Pou\u017Eijte LastPass k vygenerov\u00E1n\u00ED jedine\u010Dn\u00E9ho siln\u00E9ho hesla pro tento \u00FA\u010Det. Pak ulo\u017Ete zm\u011Bny na tomto webu, a tak\u00E9 v LastPass."
+   },
+   "LastPass_has_detected_that_you_have_used_the_password_for_this_login_on_other_sites__too__We_recommend_going_to_your_account_settings_for_this_site__and_creating_a_new_password__Use_LastPass_to_generate_a_unique__strong_password_for_this_account__You_can_then_save_the_changes_on_the_site__and_to_LastPass_": {
+      "message": "LastPass zjistil, \u017Ee jste pou\u017Eili stejn\u00E9 heslo pro tento \u00FA\u010Det tak\u00E9 na jin\u00FDch str\u00E1nk\u00E1ch. Doporu\u010Dujeme v\u00E1m p\u0159ej\u00EDt do nastaven\u00ED \u00FA\u010Dtu na t\u00E9to str\u00E1nce a vytvo\u0159en\u00ED nov\u00E9ho hesla. Pou\u017Eijte LastPass k vygenerov\u00E1n\u00ED jedine\u010Dn\u00E9ho siln\u00E9ho hesla pro tento \u00FA\u010Det. Pak ulo\u017Ete zm\u011Bny na tomto webu, a tak\u00E9 v LastPass."
+   },
+   "LastPass_has_filled_your_login_information_into_the_form_on_this_page_": {
+      "message": "LastPass vyplnil Va\u0161e p\u0159ihla\u0161ovac\u00ED \u00FAdaje na t\u00E9to str\u00E1nce."
+   },
+   "LastPass_is_fully_installed___When_you_install_LastPass_on_other_computers_you_will_not_have_to_go_through_this_process_again__you_ll_simply_be_able_to_login____Do_not_share_your_Master_Password_with_anyone__including_LastPass_employees__we_ll_never_ask_for_it___LastPass_encrypts_your_sensitive_data_locally_so_even_LastPass_employees_do_not_have_access_to_it___You_can_get_help_by_clicking_on_the_LastPass_icon_and_going_to_Help_": {
+      "message": "LastPass je nainstalov\u00E1n! Pokud budete instalovat LastPass na jin\u00FDch po\u010D\u00EDta\u010D\u00EDch, tento proces ji\u017E nebudete muset opakovat, jednodu\u0161e se pouze p\u0159ihl\u00E1s\u00EDte k \u00FA\u010Dtu. Nesd\u011Blujte nikdo sv\u00E9 Hlavn\u00ED heslo, a to ani zam\u011Bstnanc\u016Fm LastPass. Nikdo z LastPass se V\u00E1s na hesla pt\u00E1t nebude! LastPass k\u00F3duje data na lok\u00E1ln\u00EDm \u00FAlo\u017Ei\u0161ti, nikdo z LastPass k nim tedy nem\u00E1 p\u0159\u00EDstup. Pro v\u00EDce informac\u00ED klikn\u011Bte na ikonu 'Pomoc'."
+   },
+   "LastPass_is_the_last_password_you_ll_ever_have_to_remember___If_you_re_new_to_LastPass__we_ll_just_need_a_few_minutes_of_your_time_to_setup_your_account___You_ll_be_able_to_use_this_account_on_any_other_PC_you_use_to_always_keep_your_personal_data_in_sync___Hit_create_account_to_begin_": {
+      "message": "LastPass je posledn\u00ED 'heslo', kter\u00E9 budete si kdy pot\u0159ebovat zapamatovat. Pokud jste nov\u00FDm u\u017Eivatelem LastPass, budete pot\u0159ebovat pouze p\u00E1r minut pro nastaven\u00ED Va\u0161eho \u00FA\u010Dtu. Ten budete pot\u00E9 moci vyu\u017E\u00EDvat na jin\u00FDch po\u010D\u00EDta\u010D\u00EDch a p\u0159istupovat na nich k Va\u0161im dat\u016Fm. Klikn\u011Bte zde pro pokra\u010Dov\u00E1n\u00ED."
+   },
+   "LastPass_must_reencrypt_all_of_your_data_because_of_a_key_change_": {
+      "message": "Proto\u017Ee byl zm\u011Bn\u011Bn (\u0161ifrovac\u00ED) kl\u00ED\u010D, LastPass nyn\u00ED mus\u00ED p\u0159e\u0161ifrovat v\u0161echna va\u0161e data."
+   },
+   "Last_4_digits_of_your_phone_number": {
+      "message": "Posledn\u00ED 4 \u010D\u00EDslice va\u0161eho telefonn\u00EDho \u010D\u00EDsla"
+   },
+   "Last_Name2": {
+      "message": "P\u0159\u00EDjmen\u00ED 2"
+   },
+   "Last_Touch": {
+      "message": "Naposledy pou\u017Eito"
+   },
+   "Last_name": {
+      "message": "P\u0159\u00EDjmen\u00ED"
+   },
+   "Latvia": {
+      "message": "Loty\u0161sko"
+   },
+   "Launch": {
+      "message": "Otev\u0159\u00EDt str\u00E1nky"
+   },
+   "Lebanon": {
+      "message": "Libanon"
+   },
+   "Left": {
+      "message": "Doleva"
+   },
+   "Lesotho": {
+      "message": "Lesotho"
+   },
+   "Liberia": {
+      "message": "Lib\u00E9rie"
+   },
+   "Libyan_Arab_Jamahiriya": {
+      "message": "Libyjsk\u00E1 Arabsk\u00E1 D\u017Eamah\u00EDrija"
+   },
+   "License_Class": {
+      "message": "T\u0159\u00EDda licence"
+   },
+   "License_Key": {
+      "message": "\u010C\u00EDslo licence"
+   },
+   "Liechtenstein": {
+      "message": "Lichten\u0161tejnsko"
+   },
+   "Link_Personal_Account": {
+      "message": "Odkaz osobn\u00EDho \u00FA\u010Dtu"
+   },
+   "Lithuania": {
+      "message": "Litva"
+   },
+   "Local": {
+      "message": "M\u00EDstn\u00ED"
+   },
+   "Log_into_a_Site": {
+      "message": "P\u0159ihl\u00E1sit se na str\u00E1nku"
+   },
+   "LoggedInOffline": {
+      "message": "LastPass nemohl kontaktovat p\u0159ihla\u0161ovac\u00ED server, tak\u017Ee jste nyn\u00ED v re\u017Eimu offline.\n\nN\u011Bkter\u00E9 funkce mohou b\u00FDt omezeny."
+   },
+   "Login": {
+      "message": "P\u0159ihl\u00E1sit"
+   },
+   "LoginError": {
+      "message": "Chyba p\u0159i p\u0159ihla\u0161ov\u00E1n\u00ED. Zkuste to znovu."
+   },
+   "Login_to_LastPass": {
+      "message": "P\u0159ihl\u00E1sit k LastPass"
+   },
+   "Logoff": {
+      "message": "Odhl\u00E1sit"
+   },
+   "Logoff_": {
+      "message": "Odhl\u00E1sit:"
+   },
+   "LoseChanges": {
+      "message": "Opravdu chcete zm\u011Bnit \u00FAdaje t\u00FDkaj\u00EDc\u00ED se str\u00E1nky? M\u016F\u017Ee doj\u00EDt ke ztr\u00E1t\u011B proveden\u00FDch zm\u011Bn."
+   },
+   "LoseChangesApp": {
+      "message": "Jste si jisti, \u017Ee chcete zm\u011Bnit tyto \u00FAdaje? Pokud tak u\u010Din\u00EDte, ztrat\u00EDte v\u0161echny dosud proveden\u00E9 zm\u011Bny!"
+   },
+   "Luxembourg": {
+      "message": "Lucembursko"
+   },
+   "MSI_PasswordKeeper": {
+      "message": "MSI PasswordKeeper"
+   },
+   "Macao": {
+      "message": "Macao"
+   },
+   "Macedonia__the_Former_Yugoslav_Republic_Of": {
+      "message": "Makedonie, B\u00FDval\u00E1 jugosl\u00E1vsk\u00E1 republika"
+   },
+   "Madagascar": {
+      "message": "Madagaskar"
+   },
+   "Magadan__Solomon_Is___New_Caledonia__Vladivostok": {
+      "message": "Magadan, \u0160alamounovy ostrovy, Nov\u00E1 Kaledonie, Vladivostok"
+   },
+   "Malawi": {
+      "message": "Malawi"
+   },
+   "Malaysia": {
+      "message": "Malajsie"
+   },
+   "Maldives": {
+      "message": "Maledivy"
+   },
+   "Male": {
+      "message": "Mu\u017E"
+   },
+   "Mali": {
+      "message": "Mali"
+   },
+   "Malta": {
+      "message": "Malta"
+   },
+   "Manage_Shared_Folders": {
+      "message": "Spr\u00E1va sd\u00EDlen\u00FDch slo\u017Eek"
+   },
+   "March": {
+      "message": "B\u0159ezen"
+   },
+   "Marshall_Islands": {
+      "message": "Marshallovy ostrovy"
+   },
+   "Martinique": {
+      "message": "Martinik"
+   },
+   "Master_Password": {
+      "message": "Hlavn\u00ED heslo"
+   },
+   "Matching_Sites": {
+      "message": "Odpov\u00EDdaj\u00EDc\u00ED str\u00E1nky"
+   },
+   "Mauritania": {
+      "message": "Maurit\u00E1nie"
+   },
+   "Mauritius": {
+      "message": "Mauricius"
+   },
+   "Maxthon": {
+      "message": "Maxthon"
+   },
+   "May": {
+      "message": "Kv\u011Bten"
+   },
+   "Mayotte": {
+      "message": "Mayotte"
+   },
+   "Member_ID": {
+      "message": "ID \u010Dlena"
+   },
+   "Member_Name": {
+      "message": "Jm\u00E9no \u010Dlena"
+   },
+   "Membership": {
+      "message": "\u010Clenstv\u00ED"
+   },
+   "Membership_Number": {
+      "message": "\u010Clensk\u00E9 \u010D\u00EDslo"
+   },
+   "Meta": {
+      "message": "Meta"
+   },
+   "Mexico": {
+      "message": "Mexiko"
+   },
+   "Micronesia__Federated_States_Of": {
+      "message": "Mikron\u00E9sie, Federativn\u00ED st\u00E1ty"
+   },
+   "Mid_Atlantic": {
+      "message": "St\u0159edn\u00ED-Atlantik"
+   },
+   "Middle_3_digits_of_your_phone_number": {
+      "message": "Prost\u0159edn\u00ED 3 \u010D\u00EDslice va\u0161eho telefonn\u00EDho \u010D\u00EDsla"
+   },
+   "Middle_name": {
+      "message": "Druh\u00E9 jm\u00E9no"
+   },
+   "Midway_Island__Samoa": {
+      "message": "Ostrov Midway, Samoa"
+   },
+   "Minimum_Digit_Count": {
+      "message": "Minim\u00E1ln\u00ED po\u010Det \u010D\u00EDslic"
+   },
+   "Mobile_Email_Address": {
+      "message": "Mobiln\u00ED emailov\u00E1 adresa"
+   },
+   "Mobile_number": {
+      "message": "Mobiln\u00ED \u010D\u00EDslo"
+   },
+   "Moldova__Republic_Of": {
+      "message": "Moldavsk\u00E1 republika"
+   },
+   "Monaco": {
+      "message": "Monako"
+   },
+   "Mongolia": {
+      "message": "Mongolsko"
+   },
+   "Montenegro": {
+      "message": "\u010Cern\u00E1 Hora"
+   },
+   "Montserrat": {
+      "message": "Montserrat"
+   },
+   "More": {
+      "message": "v\u00EDce"
+   },
+   "More_Information": {
+      "message": "V\u00EDce informac\u00ED"
+   },
+   "Morocco": {
+      "message": "Maroko"
+   },
+   "Mountain_Time__US___Canada_": {
+      "message": "Horsk\u00E1 oblast (USA a Kanada)"
+   },
+   "Move_Selected_to_Group": {
+      "message": "Vlo\u017Eit do vybran\u00E9 skupiny"
+   },
+   "Move_to_Group": {
+      "message": "P\u0159esunout do skupiny"
+   },
+   "Move_to_Sub_Group": {
+      "message": "P\u0159esunout do podskupiny"
+   },
+   "Mozambique": {
+      "message": "Mosambik"
+   },
+   "Mr": {
+      "message": "Pan"
+   },
+   "Mrs": {
+      "message": "Pan\u00ED"
+   },
+   "Ms": {
+      "message": "Pan\u00ED"
+   },
+   "Multifactor_Authentication": {
+      "message": "V\u00EDcen\u00E1sobn\u00E1 autentizace"
+   },
+   "MyPasswordSafe": {
+      "message": "MyPasswordSafe"
+   },
+   "My_LastPass_Vault": {
+      "message": "M\u016Fj LastPass Trezor"
+   },
+   "Myanmar": {
+      "message": "Myanmaru"
+   },
+   "NAME": {
+      "message": "JM\u00C9NO"
+   },
+   "Name_": {
+      "message": "Jm\u00E9no:"
+   },
+   "Name_on_card": {
+      "message": "Jm\u00E9no na kart\u011B"
+   },
+   "Nameproper": {
+      "message": "Jm\u00E9no"
+   },
+   "Namibia": {
+      "message": "Namibie"
+   },
+   "Nationality": {
+      "message": "N\u00E1rodnost"
+   },
+   "Nauru": {
+      "message": "Nauru"
+   },
+   "Nepal": {
+      "message": "Nep\u00E1l"
+   },
+   "Netherlands": {
+      "message": "Nizozemsko"
+   },
+   "Netherlands_Antilles": {
+      "message": "Nizozemsk\u00E9 Antily"
+   },
+   "Never": {
+      "message": "Nikdy"
+   },
+   "Never_Add_Site": {
+      "message": "Nikdy nep\u0159id\u00E1vat str\u00E1nku"
+   },
+   "Never_AutoFill": {
+      "message": "Nikdy automaticky nevypl\u0148ovat"
+   },
+   "Never_AutoLogin": {
+      "message": "Nep\u0159ihla\u0161ovat automaticky"
+   },
+   "Never_Fill_Forms": {
+      "message": "Nevypl\u0148ovat formul\u00E1\u0159e"
+   },
+   "Never_For_This_Domain": {
+      "message": "Nikdy pro tuto dom\u00E9nu"
+   },
+   "Never_For_This_Page": {
+      "message": "Nikdy pro tuto str\u00E1nku"
+   },
+   "Never_For_This_Site": {
+      "message": "Nikdy pro tuto str\u00E1nku"
+   },
+   "Never_Generate_Password": {
+      "message": "Nenab\u00EDzet generovan\u00ED hesel"
+   },
+   "Never_Show_Again": {
+      "message": "P\u0159\u00ED\u0161t\u011B nezobrazovat"
+   },
+   "Never___": {
+      "message": "Nikdy..."
+   },
+   "New_Caledonia": {
+      "message": "Nov\u00E1 Kaledonie"
+   },
+   "New_Master_Password": {
+      "message": "Nov\u00E9 hlavn\u00ED heslo"
+   },
+   "New_Zealand": {
+      "message": "Nov\u00FD Z\u00E9land"
+   },
+   "Newfoundland": {
+      "message": "Newfoundland"
+   },
+   "Nicaragua": {
+      "message": "Nikaragua"
+   },
+   "Niger": {
+      "message": "Niger"
+   },
+   "Nigeria": {
+      "message": "Nig\u00E9rie"
+   },
+   "Niue": {
+      "message": "Niue"
+   },
+   "No": {
+      "message": "Ne"
+   },
+   "No_Matching_Sites_": {
+      "message": "\u017Dd\u00E1n\u00FD server neodpov\u00EDd\u00E1!"
+   },
+   "No_Thanks": {
+      "message": "Ne d\u011Bkuji"
+   },
+   "No_Updates_Are_Available": {
+      "message": "Nejsou dostupn\u00E9 \u017E\u00E1dn\u00E9 aktualizace"
+   },
+   "No_Wi_Fi_adapter_was_detected_on_this_computer___This_feature_requires_a_Wi_Fi_adapter_": {
+      "message": "\u017D\u00E1dn\u00FD Wi-Fi adapt\u00E9r nebyl nalezen na tomto po\u010D\u00EDta\u010Di. Tato funkce vy\u017Eaduje Wi-Fi adapt\u00E9r."
+   },
+   "No__I_do_not_want_LastPass_to_help_me_fill_forms_automatically": {
+      "message": "Ne, nechci,aby mi LastPass pom\u00E1hal automaticky vypl\u0148ovat formul\u00E1\u0159e"
+   },
+   "No__do_not_import_any_of_my_insecure_items": {
+      "message": "Ne, neimporotovat \u017E\u00E1dn\u00E1 nezabezpe\u010Den\u00E1 hesla"
+   },
+   "None_Available": {
+      "message": "Nedostupn\u00FD"
+   },
+   "Norfolk_Island": {
+      "message": "Norfolk"
+   },
+   "Northern_Mariana_Islands": {
+      "message": "Severn\u00ED Mariany"
+   },
+   "Norway": {
+      "message": "Norsko"
+   },
+   "Norwegian": {
+      "message": "Nor\u0161tina"
+   },
+   "Norwegian_Nynorsk": {
+      "message": "Nor\u0161tina"
+   },
+   "Not_Now": {
+      "message": "Nyn\u00ED ne"
+   },
+   "Note_Type": {
+      "message": "Typ pozn\u00E1mky"
+   },
+   "Notes": {
+      "message": "Pozn\u00E1mky"
+   },
+   "Notes_": {
+      "message": "Pozn\u00E1mky:"
+   },
+   "Notifications": {
+      "message": "Upozorn\u011Bn\u00ED"
+   },
+   "November": {
+      "message": "Listopad"
+   },
+   "Nuku_alofa": {
+      "message": "Nuku'alofa"
+   },
+   "Number": {
+      "message": "\u010C\u00EDslo"
+   },
+   "Number_of_Licenses": {
+      "message": "Po\u010Det licenc\u00ED"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "October": {
+      "message": "\u0158\u00EDjen"
+   },
+   "Offer_to_Generate_Secure_Passwords": {
+      "message": "Nab\u00EDdka na generov\u00E1n\u00ED hesel"
+   },
+   "Old_Password": {
+      "message": "Star\u00E9 heslo"
+   },
+   "Oman": {
+      "message": "Om\u00E1n"
+   },
+   "One_Time_Passwords": {
+      "message": "Jednor\u00E1zov\u00E9 heslo"
+   },
+   "Open_All": {
+      "message": "Otev\u0159\u00EDt v\u0161e"
+   },
+   "Open_Favorites": {
+      "message": "Otev\u0159\u00EDt obl\u00EDben\u00E9"
+   },
+   "Open_My_LastPass_Vault": {
+      "message": "Otev\u0159\u00EDt M\u016Fj LastPass trezor"
+   },
+   "Open_New_Pages_in": {
+      "message": "Otev\u00EDrat str\u00E1nky v"
+   },
+   "Open_Popover": {
+      "message": "Otev\u0159\u00EDt Popover"
+   },
+   "Open_Security_Check": {
+      "message": "Otev\u0159\u00EDt kontrolu zabezpe\u010Den\u00ED"
+   },
+   "Open_Sticky_Password___Manage_Database___Export___Export_as_text__Import_this_file": {
+      "message": "Otev\u0159\u00EDt Sticky Password - Spr\u00E1va datab\u00E1ze - Export - Export jako text. Importovat tento soubor"
+   },
+   "Open_login_dialog_when_start_browser": {
+      "message": "Po startu prohl\u00ED\u017Ee\u010De otev\u0159\u00EDt p\u0159ihla\u0161ovac\u00ED okno"
+   },
+   "Opera": {
+      "message": "Opera"
+   },
+   "Opera_Password_Manager": {
+      "message": "Spr\u00E1vce hesel Opera"
+   },
+   "Order_Number": {
+      "message": "\u010C\u00EDslo objedn\u00E1vky"
+   },
+   "Order_Total": {
+      "message": "Celkov\u00E1 objedn\u00E1vka"
+   },
+   "Organization": {
+      "message": "Organizace"
+   },
+   "Other": {
+      "message": "Ostatn\u00ED"
+   },
+   "Other_Sessions": {
+      "message": "Zobrazit p\u0159ipojen\u00ED"
+   },
+   "PASSWORDupper": {
+      "message": "HESLO"
+   },
+   "PINs_Password_Manager": {
+      "message": "PINs Password Manager"
+   },
+   "Pacific_Time__US___Canada_": {
+      "message": "\u010Casov\u00E9 p\u00E1smo Tichomo\u0159\u00ED (USA a Kanada)"
+   },
+   "Page_Down": {
+      "message": "Page Down"
+   },
+   "Page_Up": {
+      "message": "Page Up"
+   },
+   "Pakistan": {
+      "message": "P\u00E1kist\u00E1n"
+   },
+   "Palau": {
+      "message": "Palau"
+   },
+   "Palestinian_Territories": {
+      "message": "Palestinsk\u00E1 \u00FAzem\u00ED"
+   },
+   "Panama": {
+      "message": "Panama"
+   },
+   "Papua_New_Guinea": {
+      "message": "Papua-Nov\u00E1 Guinea"
+   },
+   "Paraguay": {
+      "message": "Paraguay"
+   },
+   "Passpack": {
+      "message": "Passpack"
+   },
+   "Passphrase": {
+      "message": "P\u0159\u00EDstupov\u00E9 heslo"
+   },
+   "Passport": {
+      "message": "Cestovn\u00ED pas"
+   },
+   "Password": {
+      "message": "Heslo"
+   },
+   "Password_": {
+      "message": "Heslo:"
+   },
+   "Password_Agent": {
+      "message": "Password Agent"
+   },
+   "Password_Corral": {
+      "message": "Password Corral"
+   },
+   "Password_Depot": {
+      "message": "Password Depot"
+   },
+   "Password_Dragon": {
+      "message": "Password Dragon"
+   },
+   "Password_Keeper": {
+      "message": "Password Keeper"
+   },
+   "Password_Length": {
+      "message": "D\u00E9lka hesla"
+   },
+   "Password_Reminder": {
+      "message": "N\u00E1pov\u011Bda k heslu"
+   },
+   "Password_Safe": {
+      "message": "Password Safe"
+   },
+   "Password_reminder_cannot_match_password": {
+      "message": "N\u00E1pov\u011Bda k heslu neodpov\u00EDd\u00E1 heslu"
+   },
+   "Password_updated_": {
+      "message": "Heslo aktualizov\u00E1no!"
+   },
+   "Passwords_Max": {
+      "message": "Passwords Max"
+   },
+   "Personal": {
+      "message": "Osobn\u00ED"
+   },
+   "Peru": {
+      "message": "Peru"
+   },
+   "Philippines": {
+      "message": "Filip\u00EDny"
+   },
+   "Phone_number": {
+      "message": "Telefonn\u00ED \u010D\u00EDslo"
+   },
+   "Pin": {
+      "message": "PIN"
+   },
+   "Pitcairn": {
+      "message": "Pitcairn"
+   },
+   "Please_Make_a_Selection": {
+      "message": "Pros\u00EDm vytvo\u0159te v\u00FDb\u011Br"
+   },
+   "Please_Wait___": {
+      "message": "\u010Cekejte pros\u00EDm ..."
+   },
+   "Please_answer_the_following_question_": {
+      "message": "Pros\u00EDm odpov\u011Bzte na n\u00E1sleduj\u00EDc\u00ED ot\u00E1zku:"
+   },
+   "Please_choose_the_type_of_export_you_would_like_to_perform_": {
+      "message": "Pros\u00EDm, vyberte typ exportu, kter\u00FD chcete prov\u00E9st:"
+   },
+   "Please_complete_multifactor_authentication_on_your_mobile_device_": {
+      "message": "Vypl\u0148te pros\u00EDm multifaktori\u00E1ln\u00ED ov\u011B\u0159ov\u00E1n\u00ED na va\u0161em mobiln\u00EDm za\u0159\u00EDzen\u00ED."
+   },
+   "Please_enter_a_Password_Reminder": {
+      "message": "Vlo\u017Ete, pros\u00EDm, n\u00E1pov\u011Bdu k heslu"
+   },
+   "Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "Zadejte \u00FAplnou cestu k souboru, kter\u00FD chcete importovat."
+   },
+   "Please_keep_this_page_open_until_the_operation_completes_": {
+      "message": "Nechte pros\u00EDm tuto str\u00E1nku otev\u0159enou dokud se operace nedokon\u010D\u00ED."
+   },
+   "Please_move_sites_from_only_one_shared_folder_at_a_time_": {
+      "message": "P\u0159esu\u0148te str\u00E1nky najednou pouze z jedn\u00E9 sd\u00EDlen\u00E9 slo\u017Eky."
+   },
+   "Please_note_that_upgrading_from_LastPass_Local_to_LastPass_Online_will_result_in_your_password_data_being_uploaded_in_its_encrypted_format_to_LastPass_servers___You_will_be_able_to_access_your_data_from_anywhere__and_LastPass_will_not_be_able_to_read_it___Would_you_like_to_continue_": {
+      "message": "Upgrade z LastPass Local na LastPass Online znamen\u00E1, \u017Ee budou Va\u0161e hesla v za\u0161ifrovan\u00E9 podob\u011B odesl\u00E1na na servery LastPass. Budete schopni k nim p\u0159istupovat odkudkoliv a LastPass je nebude schopen \u010D\u00EDst. Chcete pokra\u010Dovat?"
+   },
+   "Please_provide_this_computer_a_name": {
+      "message": "Pros\u00EDm pojmenujte tento po\u010D\u00EDta\u010D"
+   },
+   "Please_reload_the_page_to_view_your_changes_": {
+      "message": "Pros\u00EDm, obnovte str\u00E1nku pro zobrazen\u00ED zm\u011Bn."
+   },
+   "Please_restart_all_your_browsers_to_begin_using_LastPass_Online_": {
+      "message": "Restartujte pros\u00EDm v\u0161echny prohl\u00ED\u017Ee\u010De, abyste mohli pou\u017E\u00EDvat LastPass online."
+   },
+   "Please_select": {
+      "message": "Pros\u00EDm, vyberte"
+   },
+   "Please_select_which_sites_you_wish_to_apply_this_change_": {
+      "message": "Pros\u00EDm vyberte weby k uplatn\u011Bn\u00ED t\u00E9to zm\u011Bny."
+   },
+   "Please_visit_https___lastpass_com_to_create_an_account_at_a_later_time_": {
+      "message": "Za \u00FA\u010Delem vytvo\u0159en\u00ED \u00FA\u010Dtu v budoucnu, nav\u0161tivte, pros\u00EDm, https://lastpass.com."
+   },
+   "Poland": {
+      "message": "Polsko"
+   },
+   "Policy_Number": {
+      "message": "\u010C\u00EDslo pravidla"
+   },
+   "Policy_Type": {
+      "message": "Typ pravidla"
+   },
+   "Polish": {
+      "message": "Pol\u0161tina"
+   },
+   "Poll_Server_for_account_changes__mins_": {
+      "message": "Periodicky stahovat zm\u011Bny \u00FA\u010Dtu ze serveru (minuty)"
+   },
+   "Port": {
+      "message": "Port"
+   },
+   "Portugal": {
+      "message": "Portugalsko"
+   },
+   "Portuguese": {
+      "message": "Portugal\u0161tina"
+   },
+   "Portuguese__Brazilian_": {
+      "message": "Portugal\u0161tina (Braz\u00EDlie)"
+   },
+   "Preferences": {
+      "message": "P\u0159edvolby"
+   },
+   "Price": {
+      "message": "Cena"
+   },
+   "Print": {
+      "message": "Vytisknout"
+   },
+   "Print_Screen": {
+      "message": "Vytisknout obrazovku"
+   },
+   "Print_Secure_Notes": {
+      "message": "Vytisknout bezpe\u010Dnostn\u00ED pozn\u00E1mky"
+   },
+   "Print_Sites": {
+      "message": "Vytisknout str\u00E1nky"
+   },
+   "Private_Key": {
+      "message": "Soukrom\u00FD kl\u00ED\u010D"
+   },
+   "Profile": {
+      "message": "Profil"
+   },
+   "Profile_language": {
+      "message": "Jazyk"
+   },
+   "Profile_name": {
+      "message": "N\u00E1zev profilu"
+   },
+   "Pronounceable": {
+      "message": "Vysloviteln\u00FD"
+   },
+   "Protected": {
+      "message": "Chr\u00E1n\u011Bno"
+   },
+   "Public_Key": {
+      "message": "Ve\u0159ejn\u00FD kl\u00ED\u010D"
+   },
+   "Publisher": {
+      "message": "Vydavatel"
+   },
+   "Puerto_Rico": {
+      "message": "Portoriko"
+   },
+   "Purchase_Date": {
+      "message": "Datum n\u00E1kupu"
+   },
+   "Qatar": {
+      "message": "Katar"
+   },
+   "Re_enter_Password": {
+      "message": "Zadejte heslo je\u0161t\u011B jednou"
+   },
+   "Recent_Sites": {
+      "message": "Posledn\u00ED str\u00E1nky"
+   },
+   "Recently_Used": {
+      "message": "Ned\u00E1vno pou\u017Eit\u00E9"
+   },
+   "Recently_Used_list_size": {
+      "message": "Po\u010Det polo\u017Eek v seznamu Ned\u00E1vno pou\u017Eit\u00FDch"
+   },
+   "Recheck_Page": {
+      "message": "Znovu zkontrolovat str\u00E1nku"
+   },
+   "Reencrypting_Data___": {
+      "message": "P\u0159e\u0161ifrov\u00E1v\u00E1n\u00ED dat..."
+   },
+   "Refresh": {
+      "message": "Obnovit"
+   },
+   "Refresh_Sites": {
+      "message": "Obnovit data"
+   },
+   "Reject": {
+      "message": "Zam\u00EDtnout"
+   },
+   "Remember_Email": {
+      "message": "Zapamatovat email"
+   },
+   "Remember_Password": {
+      "message": "Zapamatovat heslo"
+   },
+   "Remove_Personal_Account": {
+      "message": "Odstranit osobn\u00ED \u00FA\u010Det"
+   },
+   "Rename_Group": {
+      "message": "P\u0159ejmenovat skupinu"
+   },
+   "Replace_Existing_Site": {
+      "message": "P\u0159epsat existuj\u00EDc\u00ED web"
+   },
+   "Require_Every_Character_Type": {
+      "message": "Pou\u017E\u00EDt v\u0161echny typy znak\u016F"
+   },
+   "Require_Password_Reprompt": {
+      "message": "Po\u017Eadovat znovu zad\u00E1n\u00ED hesla"
+   },
+   "Require_security_reprompt_when_": {
+      "message": "Vy\u017Eadovat bezpe\u010Dnostn\u00ED upom\u00EDnku, kdy\u017E:"
+   },
+   "Respect_AutoComplete_off__allow_websites_to_disable_AutoFill": {
+      "message": "Respektovat AutoComplete=off: povolit webov\u00FDm str\u00E1nk\u00E1m zak\u00E1z\u00E1n\u00ED automatick\u00E9ho vypl\u0148ov\u00E1n\u00ED "
+   },
+   "Reunion": {
+      "message": "Reunion"
+   },
+   "Revelation_Password_Manager": {
+      "message": "Zjeven\u00ED spr\u00E1vce hesel"
+   },
+   "Right": {
+      "message": "Doprava"
+   },
+   "RoboForm": {
+      "message": "RoboForm"
+   },
+   "Romania": {
+      "message": "Rumunsko"
+   },
+   "Routing_number": {
+      "message": "Sm\u011Brov\u00E1c\u00ED \u010D\u00EDslo"
+   },
+   "Russian": {
+      "message": "Ru\u0161tina"
+   },
+   "Russian_Federation": {
+      "message": "Rusk\u00E1 federace"
+   },
+   "Rwanda": {
+      "message": "Rwanda"
+   },
+   "SID": {
+      "message": "SID"
+   },
+   "SITE": {
+      "message": "STR\u00C1NKA"
+   },
+   "SMTP_Port": {
+      "message": "SMTP Port"
+   },
+   "SMTP_Server": {
+      "message": "SMTP Server"
+   },
+   "SPB_Wallet": {
+      "message": "SPB pen\u011B\u017Eenka"
+   },
+   "SSH_Key": {
+      "message": "SSH kl\u00ED\u010D"
+   },
+   "SSID": {
+      "message": "SSID"
+   },
+   "SWIFT_Code": {
+      "message": "SWIFT k\u00F3d"
+   },
+   "Safari": {
+      "message": "Safari"
+   },
+   "Safari_Password_Manager": {
+      "message": "Spr\u00E1vce hesel Safari"
+   },
+   "Saint_Barthelemy": {
+      "message": "Saint Barthelemy"
+   },
+   "Saint_Helena": {
+      "message": "Svat\u00E1 Helena"
+   },
+   "Saint_Kitts_and_Nevis": {
+      "message": "Svat\u00FD Kry\u0161tof a Nevis"
+   },
+   "Saint_Lucia": {
+      "message": "Svat\u00E1 Lucie"
+   },
+   "Saint_Martin__French_Part_": {
+      "message": "Svat\u00FD Martin (francouzsk\u00E1 \u010D\u00E1st)"
+   },
+   "Saint_Pierre_and_Miquelon": {
+      "message": "Saint Pierre a Miquelon"
+   },
+   "Saint_Vincent_and_the_Grenadines": {
+      "message": "Svat\u00FD Vincenc a Grenadiny"
+   },
+   "Samoa": {
+      "message": "Samoa"
+   },
+   "San_Marino": {
+      "message": "San Marino"
+   },
+   "Sao_Tome_and_Principe": {
+      "message": "Svat\u00FD Tom\u00E1\u0161 a Princ\u016Fv ostrov"
+   },
+   "Saudi_Arabia": {
+      "message": "Sa\u00FAdsk\u00E1 Ar\u00E1bie"
+   },
+   "Save": {
+      "message": "Ulo\u017Eit"
+   },
+   "Save_All_Entered_Data": {
+      "message": "Ulo\u017Eit v\u0161echna vlo\u017Een\u00E1 data"
+   },
+   "Save_Credit_Card_profile": {
+      "message": "Ulo\u017Eit profil pro Kreditn\u00ED kartu"
+   },
+   "Save_Form_Fill_profile": {
+      "message": "Ulo\u017Eit profil pro vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F"
+   },
+   "Save_New_Site": {
+      "message": "Ulo\u017Eit novou str\u00E1nku"
+   },
+   "Save_Site": {
+      "message": "Ulo\u017Eit str\u00E1nku"
+   },
+   "Save_a_disabled_One_Time_Password_locally_for_Account_Recovery": {
+      "message": "Ulo\u017Eit zablokovan\u00E9 jednor\u00E1zov\u00E9 heslo pro obnovu \u00FA\u010Dtu na lok\u00E1ln\u00ED disk?"
+   },
+   "Save_your_changes_and_close_this_window": {
+      "message": "Ulo\u017Ete zm\u011Bny a zav\u0159ete okno"
+   },
+   "Screen_Keyboard": {
+      "message": "Kl\u00E1vesnice na obrazovce"
+   },
+   "Search_All_Data": {
+      "message": "Hledat v\u0161echna data"
+   },
+   "Search_All_Groups": {
+      "message": "Hledat v\u0161echny skupiny"
+   },
+   "Search_All_Notes": {
+      "message": "Hledat v\u0161echny pozn\u00E1mky"
+   },
+   "Search_All_Sites": {
+      "message": "Prohledat v\u0161echny str\u00E1nky"
+   },
+   "Search_Vault": {
+      "message": "Hledan\u00E9 slovo"
+   },
+   "Search_within_secure_notes": {
+      "message": "Vyhled\u00E1v\u00E1n\u00ED v bezpe\u010Dn\u00FDch pozn\u00E1mk\u00E1ch"
+   },
+   "Searchproper": {
+      "message": "Hledat"
+   },
+   "Secure_Notes": {
+      "message": "Zabezpe\u010Den\u00E9 pozn\u00E1mky"
+   },
+   "Security": {
+      "message": "Bezpe\u010Dnost"
+   },
+   "Security_Check": {
+      "message": "Bezpe\u010Dnostn\u00ED kontrola"
+   },
+   "Security_Question_Multifactor_Authentication": {
+      "message": "Bezpe\u010Dnostn\u00ED ot\u00E1zka pro Multifactor ov\u011B\u0159ov\u00E1n\u00ED"
+   },
+   "Security_code": {
+      "message": "Bezpe\u010Dnostn\u00ED k\u00F3d"
+   },
+   "Select": {
+      "message": "Vybrat"
+   },
+   "Select_All": {
+      "message": "Vybrat v\u0161e"
+   },
+   "Select_or_enter_a_new_group_name": {
+      "message": "Vyberte nebo vlo\u017Ete jm\u00E9no nov\u00E9 skupiny"
+   },
+   "Send_anonymous_error_reporting_data_to_help_improve_LastPass": {
+      "message": "Pos\u00EDlat anonymn\u00ED hl\u00E1\u0161en\u00ED chyb a pom\u00E1hat tak ke zlep\u0161en\u00ED LastPass"
+   },
+   "Senegal": {
+      "message": "Senegal"
+   },
+   "Seoul__Osaka__Sapporo__Tokyo__Irkutsk": {
+      "message": "Soul, Osaka, Sapporo, Tokio, Irkutsk"
+   },
+   "September": {
+      "message": "Z\u00E1\u0159\u00ED"
+   },
+   "Serbia": {
+      "message": "Srbsko"
+   },
+   "Server": {
+      "message": "Server"
+   },
+   "SesameWrongButton": {
+      "message": "Pro zobrazen\u00ED Va\u0161ich dat v re\u017Eimu offline mus\u00EDte spustit Sesame a pou\u017E\u00EDt tla\u010D\u00EDtko 'Kop\u00EDrovat Offline Heslo' m\u00EDsto tla\u010D\u00EDtka 'Generovat Jednor\u00E1zov\u00E9 Heslo'"
+   },
+   "Sesame_Multifactor_Authentication": {
+      "message": "V\u00EDcen\u00E1sobn\u00E1 autentizace pomoc\u00ED Sesame."
+   },
+   "Sessions": {
+      "message": "Sezen\u00ED"
+   },
+   "Set_up_custom_form_fields": {
+      "message": "Nastavit vlastn\u00ED formul\u00E1\u0159ov\u00E1 pole"
+   },
+   "Settings": {
+      "message": "Nastaven\u00ED"
+   },
+   "Sex": {
+      "message": "Pohlav\u00ED"
+   },
+   "Seychelles": {
+      "message": "Seychely"
+   },
+   "Share": {
+      "message": "Sd\u00EDlet"
+   },
+   "Share_Selected": {
+      "message": "Sd\u00EDlet vybran\u00E9"
+   },
+   "Share_login_state_between_other_browsers": {
+      "message": "Sd\u00EDlet stav p\u0159ihl\u00E1\u0161en\u00ED mezi prohl\u00ED\u017Ee\u010Di"
+   },
+   "Share_offer_from": {
+      "message": "Sd\u00EDlet nab\u00EDdku"
+   },
+   "Shares": {
+      "message": "Sd\u00EDlen\u00ED"
+   },
+   "Shift": {
+      "message": "Shift"
+   },
+   "Should_LastPass_remember_this_password_": {
+      "message": "M\u011Bl by si LastPass toto heslo pamatovat?"
+   },
+   "Show": {
+      "message": "Zobrazit"
+   },
+   "Show_Advanced_Options": {
+      "message": "Zobrazit pokro\u010Dil\u00E1 nastaven\u00ED"
+   },
+   "Show_Change_Password_Notification_Bar": {
+      "message": "Zobrazit ozn\u00E1men\u00ED na li\u0161t\u011B p\u0159i zm\u011Bn\u011B hesla"
+   },
+   "Show_Deleted_Sites": {
+      "message": "Uk\u00E1zat vymazan\u00E9 servery"
+   },
+   "Show_Fill_Notification_Bar": {
+      "message": "Zobrazit oznamovac\u00ED li\u0161tu"
+   },
+   "Show_Form_Fill_Notifications": {
+      "message": "Uk\u00E1zat upozorn\u011Bn\u00ED vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F"
+   },
+   "Show_My_LastPass_Vault_After_Login": {
+      "message": "Po p\u0159ihl\u00E1\u0161en\u00ED zobrazit domovskou str\u00E1nku"
+   },
+   "Show_Notifications": {
+      "message": "Uk\u00E1zat upozorn\u011Bn\u00ED"
+   },
+   "Show_Save_Site_Notification_Bar": {
+      "message": "Zobrazit oznamovac\u00ED li\u0161tu 'Ulo\u017Eit str\u00E1nku'"
+   },
+   "Show_Save_Site_Notifications": {
+      "message": "Zobrazovat upozorn\u011Bn\u00ED p\u0159i ukl\u00E1d\u00E1n\u00ED web\u016F"
+   },
+   "Show_Sites_in_Groups": {
+      "message": "Zobrazit servery ve skupin\u00E1ch"
+   },
+   "Show_Vault_After_Login": {
+      "message": "Zobrazit Trezor po p\u0159ihl\u00E1\u0161en\u00ED"
+   },
+   "Show_all_sites": {
+      "message": "Zobrazit v\u0161echny str\u00E1nky"
+   },
+   "Show_certain_notifications_only_after_click": {
+      "message": "Po kliknut\u00ED uk\u00E1zat n\u011Bkter\u00E9 upozorn\u011Bn\u00ED"
+   },
+   "Shows_another_custom_field_entry": {
+      "message": "Zobraz\u00ED dal\u0161\u00ED z\u00E1znam pro vlastn\u00ED pole"
+   },
+   "Sierra_Leone": {
+      "message": "Sierra Leone"
+   },
+   "Simplify_your_life__Use_LastPass_to_autofill_in_this_site_s_login_info_": {
+      "message": "Usnadn\u011Bte si \u017Eivot: Pou\u017Eijte LastPass pro vypl\u0148ov\u00E1n\u00ED p\u0159ihla\u0161ovac\u00EDch \u00FAdaj\u016F"
+   },
+   "Singapore": {
+      "message": "Singapur"
+   },
+   "Site_Search": {
+      "message": "Vyhled\u00E1v\u00E1n\u00ED"
+   },
+   "Sites": {
+      "message": "Weby"
+   },
+   "Slovak": {
+      "message": "Sloven\u0161tina"
+   },
+   "Slovakia": {
+      "message": "Slovensko"
+   },
+   "Slovenia": {
+      "message": "Slovinsko"
+   },
+   "Social_Security": {
+      "message": "Soci\u00E1ln\u00ED zabezpe\u010Den\u00ED"
+   },
+   "Social_security_number": {
+      "message": "\u010C\u00EDslo soci\u00E1ln\u00EDho zabezpe\u010Den\u00ED"
+   },
+   "Software_License": {
+      "message": "Sofwarov\u00E1 licence"
+   },
+   "Solomon_Islands": {
+      "message": "\u0160alamounovy ostrovy"
+   },
+   "Somalia": {
+      "message": "Som\u00E1lsko"
+   },
+   "Sorry__this_shared_folder_is_read_only_": {
+      "message": "Je n\u00E1m l\u00EDto, tato sd\u00EDlen\u00E1 slo\u017Eka je pouze ke \u010Dten\u00ED."
+   },
+   "Sorry__you_cannot_perform_this_operation_on_a_mix_of_shared_and_non_shared_folders__or_multiple_shared_folders_at_once_": {
+      "message": "Je n\u00E1m l\u00EDto, ale nem\u016F\u017Eete prov\u00E9st tuto operaci na skupin\u011B sd\u00EDlen\u00FDch a nesd\u00EDlen\u00FDch adres\u00E1\u0159\u016F nebo na v\u00EDce sd\u00EDlen\u00FDch adres\u00E1\u0159\u00EDch najednou."
+   },
+   "Source_": {
+      "message": "Zdroj:"
+   },
+   "South_Africa": {
+      "message": "Ji\u017En\u00ED Afrika"
+   },
+   "South_Georgia": {
+      "message": "Ji\u017En\u00ED Georgie"
+   },
+   "South_Georgia_and_the_South_Sandwich_Islands": {
+      "message": "Ji\u017En\u00ED Georgie a Ji\u017En\u00ED Sandwichovy ostrovy"
+   },
+   "Spain": {
+      "message": "\u0160pan\u011Blsko"
+   },
+   "Spanish": {
+      "message": "\u0160pan\u011Bl\u0161tina"
+   },
+   "Spanish__Mexico_": {
+      "message": "\u0160pan\u011Bl\u0161tina (MExiko)"
+   },
+   "Special": {
+      "message": "Speci\u00E1ln\u00ED"
+   },
+   "SplashID": {
+      "message": "SplashID"
+   },
+   "Sri_Lanka": {
+      "message": "Sr\u00ED Lanka"
+   },
+   "Start_date": {
+      "message": "Datum zah\u00E1jen\u00ED"
+   },
+   "State": {
+      "message": "St\u00E1t"
+   },
+   "State___Province": {
+      "message": "St\u00E1t"
+   },
+   "Sticky_Password": {
+      "message": "Sticky Password"
+   },
+   "Submit_Form": {
+      "message": "Odeslat formul\u00E1\u0159"
+   },
+   "Submitting___": {
+      "message": "Odes\u00EDl\u00E1m..."
+   },
+   "Sudan": {
+      "message": "S\u00FAd\u00E1n"
+   },
+   "Support_Email": {
+      "message": "Email podpory"
+   },
+   "Suriname": {
+      "message": "Surinam"
+   },
+   "Suspicious_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "Ve vybran\u00E9m n\u00E1zvu souboru byly nalezeny podez\u0159el\u00E9 znaky, nebude zpracov\u00E1n"
+   },
+   "Svalbard_and_Jan_Mayen": {
+      "message": "Svalbard a Jan Mayen"
+   },
+   "Swaziland": {
+      "message": "Svazijsko"
+   },
+   "Sweden": {
+      "message": "\u0160v\u00E9dsko"
+   },
+   "Swedish": {
+      "message": "\u0160v\u00E9d\u0161tina"
+   },
+   "Swipe_current_user_s_finger": {
+      "message": "P\u0159ejet prstem sou\u010Dasn\u00E9ho u\u017Eivatele"
+   },
+   "Swipe_finger": {
+      "message": "Pohybujte prstem"
+   },
+   "Swipe_your_finger_on_the_fingerprint_sensor": {
+      "message": "Pohybujte prstem na \u010Dte\u010Dce otisk\u016F prst\u016F."
+   },
+   "Switzerland": {
+      "message": "\u0160v\u00FDcarsko"
+   },
+   "Syrian_Arab_Republic": {
+      "message": "Syrsk\u00E1 arabsk\u00E1 republika"
+   },
+   "Tabs": {
+      "message": "v nov\u00E9 z\u00E1lo\u017Ece"
+   },
+   "Taiwan": {
+      "message": "Tchaj-wan"
+   },
+   "Tajikistan": {
+      "message": "T\u00E1d\u017Eikist\u00E1n"
+   },
+   "Tanzania__United_Republic_Of": {
+      "message": "Sjednocen\u00E1 republika Tanzanie"
+   },
+   "Tehran": {
+      "message": "Teher\u00E1n"
+   },
+   "Telephone": {
+      "message": "Telefon"
+   },
+   "Tell_a_friend_": {
+      "message": "\u0158ekn\u011Bte o tom zn\u00E1m\u00E9mu!"
+   },
+   "Text": {
+      "message": "Text"
+   },
+   "Text_to_find": {
+      "message": "Text k nalezen\u00ED"
+   },
+   "Thailand": {
+      "message": "Thajsko"
+   },
+   "That_file_is_missing_or_empty___Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "Soubor chyb\u00ED nebo je pr\u00E1zdn\u00FD. Zadejte \u00FAplnou cestu k souboru, kter\u00FD chcete importovoat."
+   },
+   "That_group_already_exists_": {
+      "message": "Tato skupina ji\u017E existuje."
+   },
+   "The_4_digit_year_the_credit_card_was_issued": {
+      "message": "Rok vyd\u00E1n\u00ED kreditn\u00ED karty (\u010Dty\u0159cifern\u00E9 \u010Dislo)"
+   },
+   "The_LastPass_Wi_Fi_utility_was_not_detected_on_this_computer___Would_you_like_to_run_the_LastPass_Universal_Installer_in_order_to_install_it_": {
+      "message": "LastPass Wi-Fi utilita nebyla detekov\u00E1na na tomto po\u010D\u00EDta\u010Di. Chcete spustit Univerz\u00E1ln\u00ED Instala\u010Dn\u00ED Aplikaci LastPass abyste tuto aplikaci nainstalovali?"
+   },
+   "The_LastPass_master_password_you_reentered_does_not_match": {
+      "message": "Zadan\u00E9 LastPass hlavn\u00ED heslo je neplatn\u00E9."
+   },
+   "The__Old_Password__you_entered_is_not_your_correct_LastPass_master_password": {
+      "message": "Zadan\u00E9 'P\u016Fvodn\u00ED heslo' nen\u00ED to spr\u00E1vn\u00E9 hlavn\u00ED heslo LastPassu."
+   },
+   "The_binary_version_of_the_LastPass_plugin_is_required_for_this_operation__It_can_be_downloaded_from_lastpass_com_": {
+      "message": "Pro tuto operaci je vy\u017Eadov\u00E1na bin\u00E1rn\u00ED verze pluginu LastPass. M\u016F\u017Eete ji st\u00E1hnout na lastpass.com."
+   },
+   "The_credit_card_number": {
+      "message": "\u010C\u00EDslo kreditn\u00ED karty"
+   },
+   "The_credit_card_s_4_digit_expiration_year": {
+      "message": "Rok expirace kreditn\u00ED karty (\u010Dty\u0159cifern\u00E9 \u010D\u00EDslo) "
+   },
+   "The_credit_card_s_expiration_month": {
+      "message": "M\u011Bs\u00EDc expirace kreditn\u00ED karty"
+   },
+   "The_credit_card_s_issue_number__Only_applicable_to_certain_European_brands_of_debit_cards__such_as_Maestro_": {
+      "message": "Speci\u00E1ln\u00ED \u010D\u00EDslo (issue number) kreditn\u00ED karty.\nVyskytuje se pouze u n\u011Bkter\u00FDch evropsk\u00E9 debetn\u00EDch karet, nap\u0159. Maestro."
+   },
+   "The_credit_card_s_security_code__For_most_credit_cards__this_is_the_last_3_digits_of_a_number_printed_on_the_back_of_the_card__For_American_Express_credit_cards__it_is_the_last_4_digits_of_a_number_printed_in_small_print_on_the_front_of_the_card_": {
+      "message": "Bezpe\u010Dnostn\u00ED k\u00F3d kreditn\u00ED karty.\nU v\u011Bt\u0161iny kreditn\u00EDch karet jsou toto posledn\u00ED 3 \u010D\u00EDslice na zadn\u00ED stran\u011B karty.\nU kreditn\u00EDch karet American Express jsou to posledn\u00ED 4 \u010D\u00EDslice vyti\u0161t\u011Bn\u00E9 mal\u00FDm p\u00EDsmem na p\u0159edn\u00ED stran\u011B karty."
+   },
+   "The_full_name_printed_on_the_credit_card": {
+      "message": "Cel\u00E9 jm\u00E9no vyti\u0161t\u011Bn\u00E9 na kreditn\u00ED kart\u011B"
+   },
+   "The_language_of_the_Web_sites_where_this_Form_Fill_profile_will_be_used": {
+      "message": "Pou\u017E\u00EDt tento profil pro str\u00E1nky v tomto jazyce"
+   },
+   "The_month_the_credit_card_was_issued": {
+      "message": "M\u011Bs\u00EDc vyd\u00E1n\u00ED kteridn\u00ED karty"
+   },
+   "The_name_of_the_Form_Fill_profile": {
+      "message": "N\u00E1zev profilu"
+   },
+   "The_name_of_your_bank": {
+      "message": "N\u00E1zev Va\u0161\u00ED banky"
+   },
+   "The_notes_field_contains_too_much_data___You_may_store_a_maximum_of_45_000_characters_per_note___Would_you_like_us_to_truncate_the_note_for_you___You_will_lose_some_of_your_data_": {
+      "message": "Pozn\u00E1mka je p\u0159\u00EDli\u0161 dlouh\u00E1. M\u016F\u017Eete ulo\u017Eit maxim\u00E1ln\u011B 45 000 znak\u016F v jedn\u00E9 pozn\u00E1mce.\n\nChcete ji zkr\u00E1tit? Dojde ke ztr\u00E1t\u011B n\u011Bkter\u00FDch dat."
+   },
+   "The_value_to_be_filled": {
+      "message": "Hodnota mus\u00ED b\u00FDt vypln\u011Bna"
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work_": {
+      "message": "Verze prohl\u00ED\u017Ee\u010De Chrome, kterou pr\u00E1v\u011B pou\u017E\u00EDv\u00E1te nem\u00E1 zapnutou podporu HTML5 datab\u00E1z\u00ED. Z tohoto d\u016Fvodu si tato p\u0159ihla\u0161ovac\u00ED str\u00E1nka nebude pamatovat v\u00E1\u0161 email a heslo a dal\u0161\u00ED funkce jako automatick\u00E9 p\u0159ihl\u00E1\u0161en\u00ED po restartu prohl\u00ED\u017Ee\u010De nebudou fungovat."
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work___You_may_be_able_to_fix_this_by_adding___enable_databases_as_a_parameter_to_your_Google_Chrome_browser_shortcut_": {
+      "message": "Verze Chrome, kterou pr\u00E1v\u011B pou\u017E\u00EDv\u00E1te, nem\u00E1 povolenou podporu HTML5 datab\u00E1z\u00ED. Proto si tato p\u0159ihla\u0161ovac\u00ED str\u00E1nka nebude pamatovat V\u00E1\u0161 email a heslo a ostatn\u00ED funkce, jako automatick\u00E9 p\u0159ihl\u00E1\u0161en\u00ED p\u0159i restartu prohl\u00ED\u017Ee\u010De, nebudou fungovat. M\u016F\u017Eete zkusit opravit tento probl\u00E9m p\u0159id\u00E1n\u00EDm parametru --enable-databases k odkazu na V\u00E1\u0161 prohl\u00ED\u017Ee\u010D Google Chrome."
+   },
+   "This_attachment_needs_to_be_saved_first_": {
+      "message": "Tato p\u0159\u00EDloha mus\u00ED b\u00FDt nejd\u0159\u00EDve ulo\u017Eena."
+   },
+   "This_can_only_be_handled_from_a_webpage": {
+      "message": "Nastaven\u00ED \u00FA\u010Dtu je mo\u017En\u00E9 m\u011Bnit pouze z webu"
+   },
+   "This_computer_is_trusted__do_not_require_a_second_form_of_authentication_": {
+      "message": "Tento po\u010D\u00EDta\u010D je d\u016Fv\u011Bryhodn\u00FD, nevy\u017Eaduje dal\u0161\u00ED zp\u016Fsob autentizace."
+   },
+   "This_feature_is_not_available_in_this_version__Please_install_the_binary_extension_by_going_to_https___lastpass_com_dl": {
+      "message": "Tato funkce nen\u00ED dostupn\u00E1 v t\u00E9to verzi. Pros\u00EDm, nainstalujte bin\u00E1rn\u00ED roz\u0161\u00ED\u0159en\u00ED z adresy https://lastpass.com/dl"
+   },
+   "This_feature_requires_the_binary_version_of_this_browser_extension___Would_you_like_to_install_it_now_": {
+      "message": "Tato funkce vy\u017Eaduje bin\u00E1rn\u00ED verzi tohoto roz\u0161\u00ED\u0159en\u00ED prohl\u00ED\u017Ee\u010De. Chcete ho nainstalovat te\u010F?"
+   },
+   "This_is_a_shared_site__You_are_not_permitted_to_view_the_password_": {
+      "message": "Toto je sd\u00EDlen\u00E1 str\u00E1nka. Nen\u00ED povoleno zobrazen\u00ED hesla."
+   },
+   "This_may_take_a_while___": {
+      "message": "Toto m\u016F\u017Ee chv\u00EDli trvat ..."
+   },
+   "This_page_failed_to_load_properly___Please_ensure_you_are_running_the_latest_version_of_Maxthon__LastPass_requires_at_least_Maxthon_4_0_3_2000____Otherwise__this_may_have_happened_to_due_a_bug_in_Maxthon___Please_try_opening_this_page_again_": {
+      "message": "Tuto str\u00E1nku se nepoda\u0159ilo na\u010D\u00EDst spr\u00E1vn\u011B. Pros\u00EDm, ujist\u011Bte se, zda pou\u017E\u00EDv\u00E1te nejnov\u011Bj\u0161\u00ED verzi Maxthon (LastPass vy\u017Eaduje minim\u00E1ln\u011B Maxthon 4.0.3.2000). V opa\u010Dn\u00E9m p\u0159\u00EDpad\u011B se toto m\u016F\u017Ee p\u0159ihodit v d\u016Fsledku chyby v Maxthon. Pros\u00EDm zkuste otev\u0159\u00EDt tuto str\u00E1nku znovu."
+   },
+   "This_page_failed_to_load_properly___Please_ensure_you_are_running_the_latest_version_of_Maxthon__LastPass_requires_at_least_Maxthon_4_0_3_3000____Otherwise__this_may_have_happened_to_due_a_bug_in_Maxthon___Please_try_opening_this_page_again_": {
+      "message": "Tuto str\u00E1nku se nepoda\u0159ilo na\u010D\u00EDst spr\u00E1vn\u011B. Pros\u00EDm, ujist\u011Bte se, zda pou\u017E\u00EDv\u00E1te nejnov\u011Bj\u0161\u00ED verzi Maxthon (LastPass vy\u017Eaduje minim\u00E1ln\u011B Maxthon 4.0.3.3000). V opa\u010Dn\u00E9m p\u0159\u00EDpad\u011B se toto m\u016F\u017Ee p\u0159ihodit v d\u016Fsledku chyby v Maxthon. Pros\u00EDm zkuste otev\u0159\u00EDt tuto str\u00E1nku znovu."
+   },
+   "Time_Zone": {
+      "message": "\u010Casov\u00E9 p\u00E1smo"
+   },
+   "Timor_Leste": {
+      "message": "Timoru-Leste"
+   },
+   "Title": {
+      "message": "N\u00E1zev"
+   },
+   "To_create_your_account__please_re_enter_your_LastPass_master_password": {
+      "message": "Pro vytvo\u0159en\u00ED Va\u0161eho \u00FA\u010Dtu, zopakujte sv\u00E9 LastPass hlavn\u00ED heslo"
+   },
+   "To_export_1Password_logins__login_to_1Password__Select_all_or_just_passwords_that_you_want_to_export__Then_select__File_menu___Export_All___Text_file_____Or____File_menu___Export_Selected___Text_file____Click_Export_button_and_Save_password_file__and_Import_the_resulting_file_": {
+      "message": "Pro export p\u0159ihla\u0161ovac\u00EDch \u00FAdaj\u016F z 1Password se do n\u011Bj p\u0159ihla\u0161te, vyberte po\u017Eadovan\u00E1 hesla pro export, potom vyberte 'Soubor / Exportovat v\u0161e / Textov\u00FD soubor' nebo 'Soubor / Exportovat vybran\u00E9 / Textov\u00FD soubor'. Klikn\u011Bte na tla\u010D\u00EDtko 'Exportovat' a ulo\u017Ete soubor s hesly. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_Clipperz_cards__login_to_www_clipperz_com__Click_on_data__then_Export__then_Export_to_JSON__Copy_all_of_the_text_and_save_it_to_a_file_using_a_text_editor__then_import_it__Please_note_that_this_import_may_not_work_properly_if_you_ve_changed_field_names_from_their_defaults_": {
+      "message": "Pro export karet z Clipperz, p\u0159ihla\u0161te se na www.clipperz.com. Klikn\u011Bte na data, potom Export, potom Export do JSON. Zkop\u00EDrujte ve\u0161ker\u00FD text a ulo\u017Ete jej do souboru s pou\u017Eit\u00ED textov\u00E9ho editoru, potom jej importujte. M\u011Bjte na pam\u011Bti, \u017Ee tento import nemus\u00ED fungovat spr\u00E1vn\u011B, pokud jste zm\u011Bnili p\u016Fvodn\u00ED n\u00E1zvy pol\u00ED."
+   },
+   "To_export_FireForm_profiles__right_click_the_FireForm_icon__then_choose_Simple_setup___Go_to_the_General_options_tab__click_Export_all_profiles__and_save_an_XML_file___Import_the_resulting_file_": {
+      "message": "Pro export profil\u016F z FireForm, klikn\u011Bte prav\u00FDm my\u0161\u00EDtkem na ikonu FireFormu, potom vyberte 'Jednoduch\u00E9 nastaven\u00ED'. Jd\u011Bte do z\u00E1lo\u017Eky 'Obecn\u00E9 nastaven\u00ED', klikn\u011Bte na 'Exportovat v\u0161echny profily' a ulo\u017Ete jako XML soubor. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_HP_Password_Safe_save_to_an_HTML_file__Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat HP Password Safe ulo\u017Een\u00ED do souboru HTML. Import v\u00FDsledn\u00E9ho souboru."
+   },
+   "To_export_KeePass_logins__open_your_KeePass_database__and_click_on_File___Export_To___XML_File___Choose_a_file_location_and_press_the_Save_button___Then__press_the_OK_button___Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat KeePass p\u0159ihl\u00E1\u0161en\u00ED, otev\u0159ete KeePass datab\u00E1zi a klikn\u011Bte na Soubor - Exportovat do - XML \u200B\u200Bsouboru. Vyberte um\u00EDst\u011Bn\u00ED souboru a stiskn\u011Bte tla\u010D\u00EDtko Ulo\u017Eit. Pot\u00E9 stiskn\u011Bte tla\u010D\u00EDtko OK. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_LastPass_logins__open_your_browser_with_the_LastPass_plugin_installed__and_click_on_LastPass___Tools___Export_To___CSV_File___Choose_a_file_location_and_press_the_Save_button___Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat LastPass p\u0159ihl\u00E1\u0161en\u00ED, otev\u0159ete prohl\u00ED\u017Ee\u010D s nainstalovan\u00FDm LastPass pluginem, a klikn\u011Bte na tla\u010D\u00EDtko LastPass - N\u00E1stroje - Exportovat do - soubor CSV. Vyberte um\u00EDst\u011Bn\u00ED souboru a stiskn\u011Bte tla\u010D\u00EDtko Ulo\u017Eit. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_RoboForm_logins__click_on_RoboForm_Logins____Print_List__Click_on_the_Full_URL_check_box_and_press_the_save_button__Import_the_resulting_file___To_export_RoboForm_SafeNotes__click_on_RoboForm_SafeNotes_Print_List__Press_the_save_button__Import_the_resulting_file___To_export_RoboForm_Identities__click_on_RoboForm_Identities_Print_List__Press_the_save_button__Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat RoboForm p\u0159ihl\u00E1\u0161en\u00ED, klikn\u011Bte na RoboForm-p\u0159ihl\u00E1\u0161en\u00ED ...-Print List. Za\u0161krtn\u011Bte \u00FAplnou adresu URL a stiskn\u011Bte tla\u010D\u00EDtko Ulo\u017Eit. Importujte v\u00FDsledn\u00FD soubor.\n\nPro export RoboForm Bezpe\u010Dn\u00FDch pozn\u00E1mek, klikn\u011Bte na RoboForm-Bezpe\u010Dn\u00E9 pozn\u00E1mky-Print List. Stiskn\u011Bte tla\u010D\u00EDtko Ulo\u017Eit. Importujte v\u00FDsledn\u00FD soubor.\n\nPro export RoboForm identit, klikn\u011Bte na RoboForm-Identity-Print List. Stiskn\u011Bte tla\u010D\u00EDtko Ulo\u017Eit. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_eWallet_cards__go_to_eWallet___Tools___Export__Save_as_a_text_file__Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat eWallet karty, p\u0159ejd\u011Bte na eWallet - N\u00E1stroje - Export. Ulo\u017Eit jako textov\u00FD soubor. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_from_MyPasswordSafe__Click_on_File___Save_As___Select_type_of_UNENCRYPTED_XML___Save_the_file___Import_the_resulting_file_": {
+      "message": "Chcete-li exportovat z MyPasswordSafe, klikn\u011Bte na Soubor - Ulo\u017Eit jako - Vyberte typ ne\u0161ifrovan\u00E9 XML - Ulo\u017Ete soubor. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_passwords__login_to_the_desktop_application_and_go_to_File___Export___CSV___All_Entries___Import_the_resulting_file_": {
+      "message": "Pro exportov\u00E1n\u00ED hesel, se p\u0159ihl\u00E1ste do desktopov\u00E9 aplikace a p\u0159ejd\u011Bte na Soubor - Export - CSV - v\u0161echny polo\u017Eky. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_export_passwords_from_Passpack__Login__go_to_the_Tools_screen__and_click_Export__Under__What_Type_of_Format_Would_You_Like_To_Export___Select__Comma_Separated_Values___and_on__Which_Entries_Would_You_Like_To_Export___Select__All_of_my_entries___then_hit__Continue___Select_all_of_the_text_in_the_text_box_on_the_next_screen__copy_it_to_the_clipboard__create_a_new_file_with_notepad_called_passpack_csv__paste_the_contents_into_this_file__Import_this_file_": {
+      "message": "Pro export hesel z Passpacku: P\u0159ihlaste se, p\u0159ejd\u011Bte do okna N\u00E1stroje a klikn\u011Bte na Exportovat. Pod 'V jak\u00E9m form\u00E1tu chcete exportovat?' vyberte 'Hodnoty odd\u011Blen\u00E9 \u010D\u00E1rkou' a pod 'Kter\u00E9 z\u00E1znamy chcete exportovat?' vybere 'V\u0161echny z\u00E1znamy', potom klikn\u011Bte na 'Pokra\u010Dovat'. Vyberte ve\u0161ker\u00FD text v textov\u00E9m poli v n\u00E1sleduj\u00EDc\u00EDm okn\u011B, zkop\u00EDrujte jej, vytvo\u0159te nov\u00FD soubor v Pozn\u00E1mkov\u00E9m bloku s n\u00E1zvem passpack.csv a vlo\u017Ete do n\u011Bj zkop\u00EDrovan\u00FD obsah. Importujte tento soubor."
+   },
+   "To_export_passwords_from_Password_Corral__Login__go_to_the_File___Export_Password___Create_a_plaintext_export_of_all_your_password___Import_this_file_": {
+      "message": "Chcete-li exportovat hesla z Corral Heslo: P\u0159ihlaste a klikn\u011Bt\u011B na Soubor - Export hesla - Vytvo\u0159en\u00ED prost\u00E9ho textu exportujte ve\u0161ker\u00E1 va\u0161e hesla. Importujte tento soubor."
+   },
+   "To_export_passwords_from_Password_Dragon__Login__go_to_the_File___Export___Text_File__make_sure_you_check__Password___it_defaults_off___Import_the_saved_file_": {
+      "message": "Chcete-li exportovat hesla z Dragon Heslo: P\u0159ihl\u00E1sit p\u0159ejd\u011Bte na Soubor - Export - Textov\u00FD soubor, ujist\u011Bte se, zda 'heslo', je vypnuto. Importujte ulo\u017Een\u00FD soubor."
+   },
+   "To_export_passwords_from_Revelation_Password_Manager__export_the_data_as_XML_": {
+      "message": "Chcete-li exportovat hesla ze spr\u00E1vce hesel Revelation, exportujte data jako XML."
+   },
+   "To_get_started_with_LastPass__you_will_need_to_add_sites_to_your_account_": {
+      "message": "Abyste mohli za\u010D\u00EDt LastPass pou\u017E\u00EDvat, mus\u00EDte do sv\u00E9ho \u00FA\u010Dtu p\u0159idat n\u011Bjak\u00E9 stranky."
+   },
+   "To_import_Wi_Fi_passwords__simply_click_Import_below_": {
+      "message": "Chcete-li importovat Wi-Fi hesla, jednodu\u0161e klikn\u011Bte na tla\u010D\u00EDtko importovat n\u00ED\u017Ee."
+   },
+   "To_import_from_PINs_Password_Manager_Export_in_Tab_Separated_format___Then__import_the_resulting_file_": {
+      "message": "Pro import z PIN's Password Manageru, exportujte ve form\u00E1tu textu odd\u011Blen\u00FDm tabul\u00E1tory. Pot\u00E9 importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_import_passwords_from_Opera_Password_Manager__simply_click_Import_below_": {
+      "message": "Chcete-li importovat hesla ze spr\u00E1vce hesel Opera, jednodu\u0161e klepn\u011Bte na tla\u010D\u00EDtko importovat n\u00ED\u017Ee."
+   },
+   "To_import_passwords_from_Safari_Password_Manager__simply_click_Import_below_": {
+      "message": "Chcete-li importovat hesla ze spr\u00E1vce hesel Safari, jednodu\u0161e klikn\u011Bte na tla\u010D\u00EDtko importovat n\u00ED\u017Ee."
+   },
+   "To_import_your_MSI_PasswordKeeper_logins__open_the_program___Click__Txt___and_then__Open____Import_the_resulting_file_": {
+      "message": "Pro import p\u0159ihla\u0161ovac\u00EDch \u00FAdaj\u016F z MSI PasswordKeeperu otev\u0159ete program, klikn\u011Bte na 'Txt' a potom na 'Otev\u0159it'. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_import_your_Password_Keeper_logins__open_the_program__and_the_password_file_to_be_exported___Click_File___Export_File___Click_Yes__enter_your_password__and_click_OK___This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location___Import_the_resulting_file_": {
+      "message": "Chcete-li importovat p\u0159ihla\u0161ovac\u00ED \u00FAdaje, otev\u0159ete program a soubor s hesly, kter\u00E9 maj\u00ED b\u00FDt exportov\u00E1ny. Klikn\u011Bte na Soubor - Exportovat soubor a klikn\u011Bte na tla\u010D\u00EDtko Ano. Zadejte heslo a klikn\u011Bte na tla\u010D\u00EDtko OK. T\u00EDm se otev\u0159e standardn\u00ED Windows dialog 'Ulo\u017Eit', zadejte n\u00E1zev souboru a jeho um\u00EDst\u011Bn\u00ED. Importujte v\u00FDsledn\u00FD soubor."
+   },
+   "To_import_your_TurboPasswords_logins__open_the_program__and_the_password_file_to_be_exported__If_you_want_to_restrict_the_export_to_a_particular_category_or_type__filter_the_entries_displayed_using_the_Category_and_Type_drop_downs_above_the_main_window__Click_File_Export_Category__This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location__and_select_Comma_Separated_Values___csv__from_the_Save_as_Type_box_": {
+      "message": "Pro import p\u0159ihla\u0161ovac\u00EDch \u00FAdaj\u016F z TurboPasswords otev\u0159ete program a soubor s hesly, kter\u00FD m\u00E1 b\u00FDt exportov\u00E1n. Pokud chcete omezit export na ur\u010Ditou kategorii nebo typ, odfiltrujte zobrazen\u00E9 z\u00E1znamy pomoc\u00ED rolovac\u00EDch nab\u00EDdek 'Kategorie' a 'Typ' nad hlavn\u00EDm oknem. Klikn\u011Bte na 'Soubor/Exportovat kategorii'. T\u00EDm se otev\u0159e standardn\u00ED ukl\u00E1dac\u00ED dialog Windows, vlo\u017Ete n\u00E1zev souboru a vyberte um\u00EDst\u011Bn\u00ED. Z nab\u00EDdky 'Ulo\u017Eit jako typ' vyberte 'Hodnoty odd\u011Blen\u00E9 \u010D\u00E1rkou (.csv)'."
+   },
+   "To_protect_your_privacy_and_keep_your_data_confidential_": {
+      "message": "Chcete-li chr\u00E1nit sv\u00E9 soukrom\u00ED a udr\u017Eet va\u0161e d\u016Fv\u011Brn\u00E1 data,"
+   },
+   "Togo": {
+      "message": "Togo"
+   },
+   "Tokelau": {
+      "message": "Tokelau"
+   },
+   "Tonga": {
+      "message": "Tonga"
+   },
+   "Tools": {
+      "message": "N\u00E1stroje"
+   },
+   "Trinidad_and_Tobago": {
+      "message": "Trinidad a Tobago"
+   },
+   "Try_Again": {
+      "message": "Zkusit znovu"
+   },
+   "Tunisia": {
+      "message": "Tunisko"
+   },
+   "TurboPasswords": {
+      "message": "TurboPasswords"
+   },
+   "Turkey": {
+      "message": "Turecko"
+   },
+   "Turkmenistan": {
+      "message": "Turkmenist\u00E1n"
+   },
+   "Turks_and_Caicos_Islands": {
+      "message": "Ostrovy Turks a Caicos"
+   },
+   "Tutorials": {
+      "message": "N\u00E1vody"
+   },
+   "Tuvalu": {
+      "message": "Tuvalu"
+   },
+   "Type": {
+      "message": "Typ"
+   },
+   "Type_": {
+      "message": "Typ:"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "URL_": {
+      "message": "URL:"
+   },
+   "USERNAME": {
+      "message": "U\u017DIVATELSK\u00C9 JM\u00C9NO"
+   },
+   "Uganda": {
+      "message": "Uganda"
+   },
+   "Ukraine": {
+      "message": "Ukrajina"
+   },
+   "Ulaan_Bataar__Perth": {
+      "message": "Ulaan Bataar, Perth"
+   },
+   "United_Arab_Emirates": {
+      "message": "Spojen\u00E9 arabsk\u00E9 emir\u00E1ty"
+   },
+   "United_Kingdom": {
+      "message": "Velk\u00E1 Brit\u00E1nie"
+   },
+   "United_States": {
+      "message": "Spojen\u00E9 st\u00E1ty americk\u00E9"
+   },
+   "United_States_Minor_Outlying_Islands": {
+      "message": "Spojen\u00E9 st\u00E1ty Men\u0161\u00ED odlehl\u00E9 ostrovy"
+   },
+   "Unknown": {
+      "message": "Nezn\u00E1m\u00FD"
+   },
+   "Unselect_All": {
+      "message": "Odzna\u010Dit v\u0161e"
+   },
+   "Up": {
+      "message": "Nahoru"
+   },
+   "Upgrade_to_LastPass_Online_": {
+      "message": "Upgrade na LastPass Online!"
+   },
+   "Uploading_Data___": {
+      "message": "Odes\u00EDl\u00E1n\u00ED dat..."
+   },
+   "Uruguay": {
+      "message": "Uruguay"
+   },
+   "Use_802_1X": {
+      "message": "Pou\u017E\u00EDt 802.1X"
+   },
+   "User_Manual": {
+      "message": "U\u017Eivatelsk\u00E1 p\u0159\u00EDru\u010Dka"
+   },
+   "User_name": {
+      "message": "U\u017Eivatelsk\u00E9 jm\u00E9no"
+   },
+   "Username_": {
+      "message": "U\u017Eivatelsk\u00E9 jm\u00E9no:"
+   },
+   "Usernameproper": {
+      "message": "U\u017Eivatelsk\u00E9 jm\u00E9no"
+   },
+   "Uzbekistan": {
+      "message": "Uzbekist\u00E1n"
+   },
+   "Value_to_fill": {
+      "message": "Hodnota k vypln\u011Bn\u00ED"
+   },
+   "Vanuatu": {
+      "message": "Vanuatu"
+   },
+   "Vault": {
+      "message": "Trezor"
+   },
+   "Venezuela": {
+      "message": "Venezuela"
+   },
+   "Version": {
+      "message": "Verze"
+   },
+   "Version_": {
+      "message": "Verze:"
+   },
+   "Viet_Nam": {
+      "message": "Viet Nam"
+   },
+   "View_Passwords": {
+      "message": "Zobrazit hesla"
+   },
+   "Virgin_Islands__British_": {
+      "message": "Panensk\u00E9 ostrovy (Britsk\u00E9)"
+   },
+   "Virgin_Islands__U_S__": {
+      "message": "Panensk\u00E9 ostrovy (USA)"
+   },
+   "Wallis_and_Futuna": {
+      "message": "Wallis a Futuna"
+   },
+   "Warn_before_filling_insecure_forms": {
+      "message": "Varovat p\u0159ed vypl\u0148ov\u00E1n\u00EDm nezabezpe\u010Den\u00FDch fomul\u00E1\u0159\u016F"
+   },
+   "Watch_a_video_on_basic_usage": {
+      "message": "Zhl\u00E9dnout video jednoduch\u00E9ho pou\u017Eit\u00ED"
+   },
+   "We_also_DO_NOT_keep_a_copy_or_backup_of_it_": {
+      "message": "Z\u00E1rove\u0148 NEVEDEME \u017E\u00E1dnou kopii nebo z\u00E1lohu."
+   },
+   "Weak_Password": {
+      "message": "Slab\u00E9 heslo"
+   },
+   "Website": {
+      "message": "Str\u00E1nka"
+   },
+   "Welcome_to_LastPass_": {
+      "message": "V\u00EDtejte v LastPass!"
+   },
+   "West_Central_Africa": {
+      "message": "Z\u00E1pad st\u0159edn\u00ED Afriky"
+   },
+   "Western_Sahara": {
+      "message": "Z\u00E1padn\u00ED Sahara"
+   },
+   "Wi_Fi_Password": {
+      "message": "Wi-Fi heslo"
+   },
+   "Wi_Fi_Passwords": {
+      "message": "Wi-Fi hesla"
+   },
+   "Windows": {
+      "message": "v nov\u00E9m okn\u011B"
+   },
+   "Would_you_like_to_set_up_a_Form_Filling_profile_now_": {
+      "message": "Chcete nyn\u00ED nastavit profil pro automatick\u00E9 vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F?"
+   },
+   "XML_Files": {
+      "message": "XML Soubory"
+   },
+   "Yangon__Rangoon_": {
+      "message": "Yangon (Rang\u00FAn)"
+   },
+   "Yemen": {
+      "message": "Jemen"
+   },
+   "Yes": {
+      "message": "Ano"
+   },
+   "Yes__let_me_choose_which_items_I_want_imported_into_LastPass": {
+      "message": "Ano, nech m\u011B vybrat kter\u00E9 v\u011Bci chci improtovat do LastPass"
+   },
+   "Yes__let_me_enter_and_review_data_that_will_be_used_when_filling_forms": {
+      "message": "Ano, nechte m\u011B zkontrolovat data, kter\u00E1 budou pou\u017Eita p\u0159i vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F"
+   },
+   "You_are_moving_sites_from_a_shared_folder_into_your_general_vault__This_will_potentially_make_them_unavailable_to_others____Do_you_want_to_continue_": {
+      "message": "P\u0159esouv\u00E1te str\u00E1nky ze sd\u00EDlen\u00E9 slo\u017Eky do va\u0161eho z\u00E1kladn\u00EDho trezoru. To je m\u016F\u017Ee znep\u0159\u00EDstupnit ostatn\u00EDm.\n\n Chcete pokra\u010Dovat?"
+   },
+   "You_are_moving_sites_to_a_different_shared_folder__This_may_change_who_has_access_to_the_sites____Do_you_want_to_continue_": {
+      "message": "P\u0159esouv\u00E1te str\u00E1nky do jin\u00E9ho sd\u00EDlen\u00E9ho adres\u00E1\u0159e. Tato akce m\u016F\u017Ee zm\u011Bnit p\u0159\u00EDstup k t\u011Bmto s\u00EDt\u00EDm.\n\nP\u0159ejete si pokra\u010Dovat?"
+   },
+   "You_are_moving_sites_to_a_shared_folder__This_will_potentially_make_them_available_to_others___Are_you_sure_you_would_like_to_continue_": {
+      "message": "P\u0159esouv\u00E1te str\u00E1nky do sd\u00EDlen\u00E9 adres\u00E1\u0159e. Toto zp\u016Fsob\u00ED, \u017Ee budou potencion\u00E1ln\u011B viditeln\u00E9 ostatn\u00EDm.\n\nJste si jist, \u017Ee chce pokra\u010Dovat?"
+   },
+   "You_cannot_assign_more_than_one_HotKey_the_same_value_": {
+      "message": "Nem\u016F\u017Eete p\u0159i\u0159adit v\u00EDce kl\u00E1vesov\u00FDch zkratek k jedn\u00E9 akci."
+   },
+   "You_cannot_move_individually_shared_sites_into_a_shared_folder_": {
+      "message": "Nem\u016F\u017Eete p\u0159esunout samostatn\u011B sd\u00EDlen\u00E9 str\u00E1nky do sd\u00EDlen\u00E9ho adres\u00E1\u0159e."
+   },
+   "You_currently_have_LastPass_set_to_remember_your_password___Doing_so_essentially_makes_the_automatically_logoff_options_you_ve_chosen_useless___Would_you_like_LastPass_to_stop_remembering_your_password_": {
+      "message": "LasPass je nyn\u00ED nastaven, aby si pamatoval Va\u0161e heslo. T\u00EDm je volba automatick\u00E9ho odhla\u0161ov\u00E1n\u00ED nepou\u017Eiteln\u00E1. Chcete, aby si LastPass p\u0159estal pamatovat Va\u0161e heslo?"
+   },
+   "You_have_not_yet_chosen_a_default_form_fill_profile___Would_you_like_to_choose_one_now_": {
+      "message": "Dosud jste nevybrali v\u00FDchoz\u00ED profil pro vypl\u0148ov\u00E1n\u00ED formul\u00E1\u0159\u016F. Cht\u011Bli bysto ho vybrat te\u010F?"
+   },
+   "You_may_also_be_blocking_all_cookies__which_causes_Chrome_to_disallow_HTML5_database_access_": {
+      "message": "Mo\u017En\u00E1 m\u00E1te zablokovan\u00E9 cookies, co\u017E znemo\u017E\u0148uje p\u0159\u00EDstup k datab\u00E1zi prohl\u00ED\u017Ee\u010De."
+   },
+   "You_must_agree_to_send_your_encrypted_data_to_LastPass_com___LastPass_com_encrypts_your_data_and_sends_it_to_its_secure_servers__No_one_at_LastPass_can_read_your_confidential_data_since_it_is_encrypted_using_your_secret_password_and_you_are_the_only_one_who_knows_your_password_": {
+      "message": "Mus\u00EDte souhlasit se zas\u00EDl\u00E1n\u00EDm Va\u0161ich dat do LastPass.com.\n\nLastPass.com za\u0161ifruje Va\u0161e data a po\u0161le je na zabezpe\u010Den\u00E9 servery.\nNikdo v LastPass nem\u016F\u017Ee \u010D\u00EDst va\u0161e d\u016Fv\u011Brn\u00E1 data, proto\u017Ee jsou za\u0161ifrovan\u00E1 za pou\u017Eit\u00ED Va\u0161eho tajn\u00E9ho hesla a vy jste jedin\u00FD, kdo jej zn\u00E1."
+   },
+   "You_must_agree_to_the_terms_to_continue": {
+      "message": "Pro pokra\u010Dov\u00E1n\u00ED mus\u00EDte souhlasit s ujedn\u00E1n\u00EDm"
+   },
+   "You_must_enter_a_name_": {
+      "message": "Mus\u00EDte vlo\u017Eit jm\u00E9no"
+   },
+   "You_must_enter_a_unique_name_": {
+      "message": "Mus\u00EDte vlo\u017Eit jedine\u010Dn\u00E9 jm\u00E9no"
+   },
+   "You_must_restart_Chrome_or_logoff_and_back_in_to_get_logoff_on_browser_close_changes_to_be_reflected": {
+      "message": "Mus\u00EDte restartovat Chrome nebo se odhl\u00E1sit a znovu p\u0159ihl\u00E1sit, aby se projevily zm\u011Bny nastaven\u00ED funkce odhl\u00E1\u0161en\u00ED p\u0159i zav\u0159en\u00ED prohl\u00ED\u017Ee\u010De"
+   },
+   "You_must_restart_your_browser_before_all_of_the_changes_will_take_effect_": {
+      "message": "Aby se projevily zm\u011Bny, je pot\u0159eba restartovat prohl\u00ED\u017Ee\u010D."
+   },
+   "Your_4_digit_birth_year": {
+      "message": "Datum narozen\u00ED (4 \u010D\u00EDslice)"
+   },
+   "Your_Google_Chrome_passwords_have_been_imported_successfully_": {
+      "message": "Va\u0161e hesla byla \u00FAsp\u011B\u0161n\u011B importov\u00E1na z prohl\u00ED\u017Ee\u010De Google Chrome."
+   },
+   "Your_ZIP_or_postal_code": {
+      "message": "Va\u0161e PS\u010C"
+   },
+   "Your_address_information": {
+      "message": "Va\u0161e informace o adrese"
+   },
+   "Your_attachment_is_located_at_": {
+      "message": "P\u0159\u00EDlohu naleznete v:"
+   },
+   "Your_bank_account_information": {
+      "message": "\u00DAdaje o bankovn\u00EDm \u00FA\u010Dtu"
+   },
+   "Your_bank_account_number__This_number_can_typically_be_found_to_the_right_of_the_routing_number_on_your_personal_checks_": {
+      "message": "\u010C\u00EDslo Va\u0161eho bankovn\u00EDho \u00FA\u010Dtu.\nToto \u010D\u00EDslo naleznete napravo od k\u00F3du banky na Va\u0161em osobn\u00EDm \u0161eku."
+   },
+   "Your_bank_s_routing_number__This_9_digit_number_can_typically_be_found_on_your_personal_checks_in_the_bottom_left_corner_": {
+      "message": "\u010C\u00EDslo Va\u0161\u00ED banky.\nToto dev\u00EDtim\u00EDstn\u00E9 \u010D\u00EDslo naleznete v lev\u00E9m doln\u00EDm koutu Va\u0161eho osobn\u00EDho \u0161eku."
+   },
+   "Your_birth_day": {
+      "message": "V\u00E1\u0161 den narozen\u00ED"
+   },
+   "Your_birth_month": {
+      "message": "V\u00E1\u0161 m\u011Bs\u00EDc narozen\u00ED"
+   },
+   "Your_city_name": {
+      "message": "Jm\u00E9no va\u0161eho m\u011Bsta"
+   },
+   "Your_company_s_name": {
+      "message": "Jm\u00E9no va\u0161\u00ED spole\u010Dnosti"
+   },
+   "Your_contact_information": {
+      "message": "Va\u0161e kontaktn\u00ED \u00FAdaje"
+   },
+   "Your_country_name": {
+      "message": "Jm\u00E9no va\u0161\u00ED zem\u011B"
+   },
+   "Your_county_name": {
+      "message": "Jm\u00E9no va\u0161eho kraje"
+   },
+   "Your_credit_card_information": {
+      "message": "Va\u0161e informace o kreditn\u00ED kart\u011B"
+   },
+   "Your_current_settings_require_you_to_enter_your_LastPass_password_to_complete_this_action_": {
+      "message": "Va\u0161e aktu\u00E1ln\u00ED nastaven\u00ED vy\u017Eaduje vlo\u017Een\u00ED va\u0161eho LastPass hesla pro dokon\u010Den\u00ED akce"
+   },
+   "Your_data_has_been_exported_to": {
+      "message": "Va\u0161e data byla exportov\u00E1na do"
+   },
+   "Your_email_address": {
+      "message": "Va\u0161e e-mailov\u00E1 adresa"
+   },
+   "Your_first_name": {
+      "message": "Va\u0161e jm\u00E9no"
+   },
+   "Your_government_ID_number": {
+      "message": "Va\u0161e vl\u00E1dn\u00ED ID \u010D\u00EDslo"
+   },
+   "Your_last_name": {
+      "message": "Va\u0161e p\u0159\u00EDjmen\u00ED"
+   },
+   "Your_middle_name": {
+      "message": "Va\u0161e druh\u00E9 jm\u00E9no"
+   },
+   "Your_password_can_not_be_the_same_as_your_email_": {
+      "message": "Va\u0161e heslo nesm\u00ED b\u00FDt toto\u017En\u00E9 se zadanou elektronickou adresou."
+   },
+   "Your_password_is_easily_guessable_": {
+      "message": "Va\u0161e heslo je snadno odhadnuteln\u00E9."
+   },
+   "Your_password_is_too_short__It_must_be_at_least_6_characters_long": {
+      "message": "Va\u0161e heslo je p\u0159\u00EDli\u0161 kr\u00E1tk\u00E9. Mus\u00ED b\u00FDt alespo\u0148 6 znak\u016F dlouh\u00E9"
+   },
+   "Your_password_is_too_short__It_must_be_at_least_8_characters_long": {
+      "message": "Va\u0161e heslo je p\u0159\u00EDli\u0161 kr\u00E1tk\u00E9. Mus\u00ED m\u00EDt d\u00E9lku alespo\u0148 8 znak\u016F."
+   },
+   "Your_password_reminder_serves_to_remind_you_of_what_your": {
+      "message": "N\u00E1pov\u011Bda k heslu v\u00E1m pom\u00E1h\u00E1 pamatovat si co je va\u0161e"
+   },
+   "Your_passwords_did_not_match_": {
+      "message": "Hesla se neshoduj\u00ED."
+   },
+   "Your_personal_information": {
+      "message": "Va\u0161e osobn\u00ED \u00FAdaje"
+   },
+   "Your_phone_number": {
+      "message": "Telefonn\u00ED \u010D\u00EDslo"
+   },
+   "Your_phone_number_extension": {
+      "message": "Koncovka va\u0161eho tel. \u010D\u00EDsla"
+   },
+   "Your_prefix_or_title": {
+      "message": "V\u00E1\u0161 titul"
+   },
+   "Your_selected_Identity_no_longer_exists__Defaulting_to__All__and_logging_off_": {
+      "message": "Va\u0161e pr\u00E1v\u011B vybran\u00E1 identita p\u0159estala existovat. Nastavuji identitu na 'V\u0161e' a odhla\u0161uji se.."
+   },
+   "Your_sex": {
+      "message": "Va\u0161e pohlav\u00ED"
+   },
+   "Your_state_or_province_name": {
+      "message": "Jm\u00E9no va\u0161eho st\u00E1tu nebo provincie"
+   },
+   "Your_street_address": {
+      "message": "Po\u0161tovn\u00ED adresa"
+   },
+   "Your_time_zone": {
+      "message": "\u010Casov\u00E9 p\u00E1smo"
+   },
+   "Your_username_when_signing_into_Web_sites": {
+      "message": "Va\u0161e u\u017Eivatelsk\u00E9 jm\u00E9no k p\u0159ihla\u0161ov\u00E1n\u00ED do webov\u00FDch str\u00E1nek"
+   },
+   "YubiKey_Multifactor_Authentication": {
+      "message": "V\u00EDcen\u00E1sobn\u00E1 autentizace pomoc\u00ED YubiKey"
+   },
+   "Yugoslavia": {
+      "message": "Jugosl\u00E1vie"
+   },
+   "ZIP___Postal_code": {
+      "message": "PS\u010C"
+   },
+   "Zambia": {
+      "message": "Zambie"
+   },
+   "Zimbabwe": {
+      "message": "Zimbabwe"
+   },
+   "_Hide_": {
+      "message": "[Skr\u00FDt]"
+   },
+   "_History_": {
+      "message": "[Historie]"
+   },
+   "_New_Pending_Share_Offers_": {
+      "message": "(Nov\u00E9 nab\u00EDdky ke sd\u00EDlen\u00ED)"
+   },
+   "_Show_": {
+      "message": "[Zobrazit]"
+   },
+   "_domain_": {
+      "message": "(dom\u00E9na)"
+   },
+   "_none_": {
+      "message": "(bez skupiny)"
+   },
+   "a_zlower": {
+      "message": "a-z"
+   },
+   "actual_password_is__while_still_maintaining_its_secrecy_": {
+      "message": "aktu\u00E1ln\u00ED heslo, st\u00E1le si uchov\u00E1v\u00E1 sv\u00E9 tajemstv\u00ED"
+   },
+   "ago": {
+      "message": "p\u0159ed"
+   },
+   "and": {
+      "message": "a"
+   },
+   "contact_us_and_we_will_email_you_your_password_reminder_": {
+      "message": "kontaktujte n\u00E1s a my v\u00E1m po\u0161leme n\u00E1pov\u011Bdu k va\u0161emu heslu."
+   },
+   "day": {
+      "message": "den"
+   },
+   "days": {
+      "message": "dn\u00ED"
+   },
+   "dummy": {
+      "message": "dummy, leave this here so we don't mess up the trailing comma"
+   },
+   "eWallet": {
+      "message": "eWallet"
+   },
+   "ext_": {
+      "message": "p\u0159\u00EDp."
+   },
+   "false": {
+      "message": "nepravda"
+   },
+   "favorites": {
+      "message": "obl\u00EDben\u00E9"
+   },
+   "hour": {
+      "message": "hodina"
+   },
+   "hours": {
+      "message": "hodin"
+   },
+   "just_now": {
+      "message": "P\u0159ed okam\u017Eikem"
+   },
+   "minute": {
+      "message": "minuta"
+   },
+   "minutes": {
+      "message": "minut"
+   },
+   "month": {
+      "message": "m\u011Bs\u00EDc\u016F"
+   },
+   "months": {
+      "message": "m\u011Bs\u00EDc\u016F"
+   },
+   "privacy_statement": {
+      "message": "Prohl\u00E1\u0161en\u00ED o ochran\u011B osobn\u00EDch \u00FAdaj\u016F"
+   },
+   "recently_usedlower": {
+      "message": "ned\u00E1vno pou\u017Eit\u00E9"
+   },
+   "search": {
+      "message": "hledat"
+   },
+   "second": {
+      "message": "vedlej\u0161\u00ED"
+   },
+   "seconds": {
+      "message": "vte\u0159in"
+   },
+   "terms_of_service": {
+      "message": "podm\u00EDnky pou\u017Eit\u00ED"
+   },
+   "the_current_tab": {
+      "message": "aktu\u00E1ln\u00ED z\u00E1lo\u017Ece"
+   },
+   "true": {
+      "message": "pravda"
+   },
+   "we_DO_NOT_know_what_your_LastPass_password_is_": {
+      "message": "NEZN\u00C1ME va\u0161e LastPass heslo."
+   },
+   "week": {
+      "message": "t\u00FDden"
+   },
+   "weeks": {
+      "message": "t\u00FDdn\u016F"
+   },
+   "year": {
+      "message": "rok"
+   },
+   "years": {
+      "message": "rok\u016F"
+   }
+}

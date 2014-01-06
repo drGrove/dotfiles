@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Nicht zutreffend"
+   },
+   "alignment_btn_txt": {
+      "message": "Position anpassen"
+   },
+   "allow_access_to_webcam": {
+      "message": "Bitte gew\u00E4hren Sie \u00FCber Ihre Benachrichtigungsleiste Zugriff auf Ihre Webcam."
+   },
+   "back_to_step1_msg": {
+      "message": "M\u00F6chten Sie wirklich ein neues Bild importieren? Alle \u00C4nderungen an diesem Bild gehen dann verloren."
+   },
+   "background": {
+      "message": "Hintergrundfarbe bearbeiten"
+   },
+   "bottom_align": {
+      "message": "Unten"
+   },
+   "cancel": {
+      "message": "Abbrechen"
+   },
+   "center_align": {
+      "message": "Mitte"
+   },
+   "change_img_btn_txt": {
+      "message": "Neues Bild importieren"
+   },
+   "continue_anyways": {
+      "message": "Trotzdem fortfahren"
+   },
+   "continue_to": {
+      "message": "Weiter mit Schritt $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Eigenes Design erstellen"
+   },
+   "custom": {
+      "message": "Benutzerdefiniert"
+   },
+   "custom_color": {
+      "message": "Benutzerdefinierte Farbe"
+   },
+   "default": {
+      "message": "Zur\u00FCcksetzen"
+   },
+   "delete": {
+      "message": "L\u00F6schen"
+   },
+   "delete_theme": {
+      "message": "L\u00F6schen"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "M\u00F6chten Sie das Design \"$1\" wirklich l\u00F6schen?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Fehler beim L\u00F6schen"
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Fehler beim L\u00F6schen. Bitte versuchen Sie es erneut."
+   },
+   "deleted": {
+      "message": "Gel\u00F6scht"
+   },
+   "deleting": {
+      "message": "Wird gel\u00F6scht..."
+   },
+   "deleting_theme": {
+      "message": "Design wird gel\u00F6scht."
+   },
+   "design_mode": {
+      "message": "Designmodus"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Fertig"
+   },
+   "download_theme_zip": {
+      "message": "Design als ZIP-Datei herunterladen"
+   },
+   "enhance_btn_txt": {
+      "message": "In Picnik bearbeiten"
+   },
+   "error": {
+      "message": "Fehler"
+   },
+   "error_while_publishing": {
+      "message": "Beim Generieren der URL ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+   },
+   "error_while_unpublishing": {
+      "message": "Beim Entfernen der URL ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+   },
+   "ext_description": {
+      "message": "Erstellen Sie eigene Google Chrome-Designs und teilen Sie sie."
+   },
+   "ext_name": {
+      "message": "Mein Chrome-Design"
+   },
+   "feeling_lucky": {
+      "message": "Auf gut Gl\u00FCck!"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hoppla! Es ist ein Problem mit Ihrem bearbeiteten Bild aufgetreten. Wir arbeiten an einer L\u00F6sung."
+   },
+   "fill_screen": {
+      "message": "Bildschirm ausf\u00FCllen"
+   },
+   "filter_black_and_white": {
+      "message": "Schwarz-Wei\u00DF"
+   },
+   "filter_bolder": {
+      "message": "Rahmen"
+   },
+   "filter_cooler": {
+      "message": "K\u00E4lter"
+   },
+   "filter_inverted": {
+      "message": "Umgekehrt"
+   },
+   "filter_posterized": {
+      "message": "Tontrennung"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Bildeffekte"
+   },
+   "filter_warmer": {
+      "message": "W\u00E4rmer"
+   },
+   "fit_screen": {
+      "message": "An Bildschirm anpassen"
+   },
+   "footer_share_site_txt": {
+      "message": "Teilen:"
+   },
+   "frame": {
+      "message": "Frame-Farbe bearbeiten"
+   },
+   "generate_theme": {
+      "message": "Design wird erstellt..."
+   },
+   "goback": {
+      "message": "Zur\u00FCck"
+   },
+   "hide_themes": {
+      "message": "Designs ausblenden"
+   },
+   "image_format_error_msg": {
+      "message": "Hoppla! Bei Ihrem Bild ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder w\u00E4hlen Sie ein anderes Bild aus."
+   },
+   "image_size_error_msg": {
+      "message": "Hoppla! Offenbar ist Ihre Bilddatei zu gro\u00DF. Versuchen Sie es noch einmal mit einer Datei mit maximal $1\u00A0$2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Unterst\u00FCtzte Dateitypen sind JPEG, PNG, GIF und BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Das Dateiformat, das Sie ausw\u00E4hlen m\u00F6chten, wird leider nicht unterst\u00FCtzt."
+   },
+   "img_fetching": {
+      "message": "Bild wird abgerufen..."
+   },
+   "img_upload_wait": {
+      "message": "Bitte warten Sie, w\u00E4hrend Ihr Bild hochgeladen wird."
+   },
+   "informative": {
+      "message": "Informationen"
+   },
+   "install_box_text": {
+      "message": "Klicken Sie, um dieses Design jetzt in Ihrem Chrome-Browser zu installieren"
+   },
+   "install_btn": {
+      "message": "Design installieren"
+   },
+   "left_align": {
+      "message": "Links"
+   },
+   "loading": {
+      "message": "Wird geladen..."
+   },
+   "loading_application": {
+      "message": "App wird geladen..."
+   },
+   "locale": {
+      "message": "de"
+   },
+   "make_new": {
+      "message": "Neues Design erstellen \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Neuer Tab"
+   },
+   "no": {
+      "message": "Nein"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Offenbar haben Sie kein Bild f\u00FCr den Hintergrund Ihres Designs importiert. M\u00F6chten Sie wirklich ohne Bild fortfahren?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Sie haben Ihr Design nicht benannt. M\u00F6chten Sie dennoch fortfahren?"
+   },
+   "no_theme_to_view": {
+      "message": "Es sind keine Designs zur Ansicht vorhanden."
+   },
+   "no_webcam_msg": {
+      "message": "Keine Webcam erkannt"
+   },
+   "not_available_offline": {
+      "message": "Nicht offline verf\u00FCgbar"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Hoppla!"
+   },
+   "open_preview_text": {
+      "message": "Vorschau des Designs ansehen"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Design erstellen!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Farbe ausw\u00E4hlen"
+   },
+   "picnik_save_btn": {
+      "message": "In meinem Chrome-Design speichern"
+   },
+   "please_wait": {
+      "message": "Bitte warten..."
+   },
+   "preset_color": {
+      "message": "Vordefinierte Farbe"
+   },
+   "preview_error_msg": {
+      "message": "Das gew\u00FCnschte Design ist offenbar nicht mehr verf\u00FCgbar."
+   },
+   "preview_mode": {
+      "message": "Vorschaumodus"
+   },
+   "privacy_policy": {
+      "message": "Datenschutzerkl\u00E4rung"
+   },
+   "publish_theme": {
+      "message": "Design teilen"
+   },
+   "publish_theme_text": {
+      "message": "Klicken Sie, um Ihr Design mit anderen zu teilen."
+   },
+   "publishing": {
+      "message": "URL wird generiert..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Zur Ver\u00F6ffentlichung der ZIP-Datei im Chrome Web Store [here] aufrufen"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Geben Sie Ihrem Design eine individuellen Namen. Der Name des Designs ist sichtbar, wenn Sie es mit anderen teilen."
+   },
+   "rear_tab_text": {
+      "message": "Hintergrund"
+   },
+   "reartab": {
+      "message": "Farbe des Tabs im Hintergrund bearbeiten"
+   },
+   "retake_picture": {
+      "message": "Erneut aufnehmen"
+   },
+   "retry": {
+      "message": "Wiederholen"
+   },
+   "right_align": {
+      "message": "Rechts"
+   },
+   "share_box_text": {
+      "message": "Kopieren Sie diese eindeutige URL, um Ihr Design mit anderen zu teilen"
+   },
+   "show_all_themes": {
+      "message": "Alle Designs anzeigen"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "Design erstellen"
+   },
+   "start_screen_description": {
+      "message": "Verleihen Sie Ihrem Browser eine pers\u00F6nliche Note. Erstellen und teilen Sie in drei einfachen Schritten benutzerdefinierte Google Chrome-Designs mit Ihren eigenen Fotos und Designs."
+   },
+   "start_screen_heading": {
+      "message": "Erstellen Sie Ihr eigenes Chrome-Design"
+   },
+   "step": {
+      "message": "Schritt $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Bild importieren",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Laden Sie eine Datei von Ihrem Computer hoch oder machen Sie mit Ihrer Webcam ein Bild."
+   },
+   "step1_header_msg_text": {
+      "message": "W\u00E4hlen Sie ein Bild f\u00FCr den Hintergrund Ihres Designs."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Farbe hinzuf\u00FCgen",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Sie k\u00F6nnen auch automatisch Farben hinzuf\u00FCgen lassen [auf gut Gl\u00FCck]."
+   },
+   "step2_header_msg_text": {
+      "message": "Klicken Sie auf eine Rei\u00DFzwecke und beginnen Sie, Ihr Design farblich zu gestalten."
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installieren und teilen",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Weitere Designs im Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Klicken Sie unten auf die Miniaturansichten, um bereits auf diesem Computer erstellte Designs zu installieren, zu teilen oder zu l\u00F6schen."
+   },
+   "take_picture": {
+      "message": "Bild aufnehmen"
+   },
+   "text": {
+      "message": "Textfarbe bearbeiten"
+   },
+   "theme_deleted": {
+      "message": "Design gel\u00F6scht"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Beschreiben Sie Ihr Design mit einigen Worten. Diese Beschreibung ist sichtbar, wenn Sie Ihr Design teilen."
+   },
+   "theme_description_box_title": {
+      "message": "Beschreiben Sie Ihr Design"
+   },
+   "theme_description_text": {
+      "message": "Optionale Beschreibung einf\u00FCgen"
+   },
+   "theme_does_not_exist": {
+      "message": "Dieses Design existiert nicht."
+   },
+   "theme_name_placeholder": {
+      "message": "Geben Sie Ihrem Design einen Namen."
+   },
+   "theme_str": {
+      "message": "Design"
+   },
+   "theme_unique_url": {
+      "message": "\u00DCber diese eindeutige URL teilen:"
+   },
+   "tile_image": {
+      "message": "Gekacheltes Bild"
+   },
+   "toolbar": {
+      "message": "Farbe der Symbolleiste bearbeiten"
+   },
+   "top_align": {
+      "message": "Oben"
+   },
+   "try_again": {
+      "message": "Erneut versuchen"
+   },
+   "unpublish": {
+      "message": "Nicht teilen"
+   },
+   "unpublishing": {
+      "message": "URL wird entfernt..."
+   },
+   "untitled": {
+      "message": "Unbenannt"
+   },
+   "upload_btn_txt": {
+      "message": "Bild hochladen"
+   },
+   "upload_crx_error_msg": {
+      "message": "Hoppla! Beim Erstellen Ihres Designs ist ein Problem aufgetreten."
+   },
+   "upload_error_msg": {
+      "message": "Offenbar gab es ein Problem beim Hochladen Ihres Bilds. Bitte versuchen Sie erneut, Ihre Datei hochzuladen, oder gehen Sie zur\u00FCck und w\u00E4hlen Sie ein anderes aus."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Bitte laden Sie nur Bilder hoch, die Sie verwenden d\u00FCrfen."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Bilder und Designs werden von Google gehostet."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Bilder und Designs, die Sie entfernen, werden endg\u00FCltig gel\u00F6scht."
+   },
+   "uploading": {
+      "message": "Upload l\u00E4uft"
+   },
+   "url_tooltip": {
+      "message": "Zum Teilen kopieren und einf\u00FCgen"
+   },
+   "use_picture": {
+      "message": "Bild verwenden"
+   },
+   "warning": {
+      "message": "Warnung"
+   },
+   "webcam_btn_txt": {
+      "message": "Webcam verwenden"
+   },
+   "woohoo_text": {
+      "message": "Gl\u00FCckwunsch! Das $2 \"$1\" wurde erstellt.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

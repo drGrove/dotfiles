@@ -1,0 +1,30 @@
+
+.button {
+    display: inline;
+    color:#666666;
+    
+    /*border-width:1px;
+    border-style:solid;*/
+
+    cursor:pointer;
+
+    border-radius:2px;
+    padding: 3px 15px;
+    
+    background: -webkit-linear-gradient(#FBFBFB, #FBFBFB 80%, #EEEEEE);
+    border:1px solid #aaa; -webkit-box-shadow:1px 1px 3px #E4E4E4;
+    /*line-height:30px;*/
+}
+.button:hover {
+    color:#3892A5;
+}
+
+/*
+.button:hover {
+    background-image: none;
+    color:#3892A5;
+    background-color: #CEECF0;
+    border-color:#62B8CA !important;
+    -webkit-box-shadow:0 0 5px #A6D7E1 !important;
+}
+*/

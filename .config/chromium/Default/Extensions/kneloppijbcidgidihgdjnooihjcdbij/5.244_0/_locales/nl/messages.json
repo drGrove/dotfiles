@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Publiceer updates, track activiteiten en analyseer resultaten over verschillende sociale netwerken zoals Twitter en Facebook."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "HootSuite"
+   }
+}

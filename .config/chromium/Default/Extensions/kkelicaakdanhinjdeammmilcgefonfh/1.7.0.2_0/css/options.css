@@ -1,0 +1,71 @@
+HTML, BODY	{	padding:0; margin:0; border:0; background:#fff; color:#333; font:normal 11px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+H1	{	font:bold 16px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; margin:0; padding:0 0 10px; }
+H3	{	font:bold 13px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; margin:0; padding:0; }
+
+
+#optionsWrapper	{	position:relative; overflow:hidden; width:520px; margin:10px auto 0; }
+
+#manageResolutions	{	position:relative; width:270px; float:left; }
+
+#titleEdit		{	display:none; }
+
+#addResolution	{	position:relative; overflow:hidden; width:220px; float:left; margin-left:-1px; }
+	#addResForm		{	position:relative; overflow:hidden; border-left:1px solid #4B8CDC; padding:0 0 0 10px; }
+	
+	#errorMsg		{	display:none; padding:5px; margin:0 0 20px; background:#900; color:#fff; border-radius:4px; }
+
+	.fieldSet		{	position:relative; margin:10px 0 20px; padding:10px 3px 3px; border:1px solid #ddd; border-radius:4px; }
+		.fieldSet .title	{	position:absolute; display:block; top:-10px; left:10px; padding:2px 5px; border-radius:10px; background: #e9e9e9; }
+			.fieldSet .title SPAN	{	font-size:10px; }
+		
+		.screenType LABEL		{	display:block; margin:5px; padding:4px 0; cursor:pointer; background-position:right center; background-repeat:no-repeat; border-top:1px dotted #eee; }
+			.screenType LABEL.i_desktop	{	border:0 !important; }
+
+	
+	INPUT[type="text"]	{	width:190px; line-height:12px; font-size:11px; padding:1px 2px; border:1px solid #bbb; border-radius:4px; }
+		INPUT[type="text"]:focus	{	border-color:#4B8CDC; outline:none; }
+	
+	LABEL					{	cursor:pointer; }
+	
+	INPUT[type="checkbox"]	{	vertical-align:text-bottom; }
+	
+	TEXTAREA			{	width:480px; height:70px; line-height:12px; font-size:11px; padding:1px 2px; border:1px solid #bbb; border-radius:4px; overflow:auto; resize:none; }
+		TEXTAREA:focus		{	border-color:#4B8CDC; outline:none; }
+	
+	#newWidth,
+	#newHeight,
+	#newX,
+	#newY				{	width:85px; text-align:center; }
+
+	INPUT[type="radio"]	{	vertical-align:text-bottom; }
+	
+	INPUT[type="button"],
+	INPUT[type="reset"],
+	INPUT[type="submit"],
+	.blue-button		{	position:relative; line-height:14px; cursor:pointer; padding:0 12px; color:#fff; font-size:11px; font-weight:bold; text-decoration:none; border:2px solid #2469BD; border-radius:20px;
+							background: -webkit-gradient(linear, left top, left bottom, from(#83AFE6), to(#4B8CDC) ) 0 ; 
+						}
+		#addResForm INPUT[type="submit"]	{	float:right; }
+		
+		#resetDefault,
+		#resetEdit		{	color:#333; border-color:#ddd; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd) ) 0 ; }
+		#resetEdit		{	display:none; }
+	
+	#footNote	{	position:relative; clear:both; float:left; width:100%; color:#999; padding:10px 0 0; margin:10px 0 0; border-top:1px solid #ddd; text-align:center; }
+
+
+#footerOptions	{	padding:5px; line-height:20px; }
+	#footerOptions A	{	color:#999; text-decoration:underline; }
+	#footerOptions A:hover	{	text-decoration:none; }
+	
+	#paypalBtn	{	position:absolute; right:5px; }
+
+
+.chromeWindow	{	position:relative; padding:23px 3px 3px; margin:5px 5px 15px; border-radius:4px;
+					background: -webkit-gradient(linear, left top, left 23, from(#83AFE6), to(#4B8CDC) ) 0 ; 
+					-webkit-box-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
+				}
+	.chromeContent	{	padding:10px 5px; background:#fff; overflow:auto; }
+	.chromeClose	{	position:absolute; top:3px; right:3px; display:inline-block; width:16px; height:16px; background:url(../images/ic_close.png) center center no-repeat }
+		.chromeClose:hover	{	background-image:url(../images/ic_close_h.png) }

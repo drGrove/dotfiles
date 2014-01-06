@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "Pristupni k\u00F4d"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Ovaj pristupni k\u00F4d iste\u0107i \u0107e za $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Sve veze"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Ponovo upi\u0161ite PIN"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Odustani"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Izbri\u0161i povijest"
+   },
+   "CLOSE": {
+      "message": "Zatvori"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Ako napustite ovu stranicu, zavr\u0161it \u0107e va\u0161a sesija u aplikaciji Udaljena radna povr\u0161ina Chrome."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Jeste li sigurni da \u017Eelite onemogu\u0107iti daljinske veze s hostom $1? Ako se predomislite, morat \u0107ete se spojiti na to ra\u010Dunalo da biste ponovo omogu\u0107ili veze."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Od"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Povijest veza"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Povijest veza"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Prima"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Svejedno pove\u017Ei"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Pove\u017Ei se"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Nastavi"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Ovaj ure\u0111aj trenuta\u010Dno dijelite s drugim korisnikom. \u017Delite li nastaviti dijeljenje?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Da biste upotrebljavali Udaljenu radnu povr\u0161inu Chrome, morate odobriti dozvole za pro\u0161ireni pristup svojem ra\u010Dunalu. To morate u\u010Diniti samo jednom."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Korisnika \u010Dijem ra\u010Dunalu \u017Eelite pristupiti zamolite da klikne \"Dijeli sada\" i da vam dodijeli pristupni k\u00F4d."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Udaljena radna povr\u0161ina Chrome omogu\u0107uje vam da svoje ra\u010Dunalo sigurno dijelite putem weba. Na ra\u010Dunalima oba korisnika mora biti pokrenuta aplikacija Udaljena radna povr\u0161ina Chrome koju mo\u017Eete prona\u0107i na web-lokaciji $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Onemogu\u0107i"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Prekini vezu"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Prekini vezu"
+   },
+   "DURATION_HEADER": {
+      "message": "Trajanje"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Autentifikacija nije uspjela. Ponovo se prijavite na Udaljenu radnu povr\u0161inu Chrome."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Nedostaju neke komponente potrebne za aplikaciju Udaljena radna povr\u0161ina Chrome. Provjerite jeste li instalirali najnoviju verziju i poku\u0161ajte ponovo."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Udaljeno ra\u010Dunalo ne odgovara na zahtjev za povezivanje. Provjerite je li na mre\u017Ei i poku\u0161ajte ponovo."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Veze s udaljenim ra\u010Dunalom privremeno su blokirane jer se na njih poku\u0161ava spojiti korisnik s PIN-om koji nije va\u017Ee\u0107i. Poku\u0161ajte ponovo kasnije."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Otkrivena je nekompatibilna verzija aplikacije Udaljena radna povr\u0161ina Chrome. Provjerite imate li na oba ra\u010Dunala najnoviju verziju sustava Chrome i aplikacije Udaljena radna povr\u0161ina Chrome, a zatim poku\u0161ajte ponovo."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Pristupni je k\u00F4d neva\u017Ee\u0107i. Poku\u0161ajte ponovo."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Postavke pravila ne dopu\u0161taju dijeljenje ovog ra\u010Dunala kao hosta za Udaljenu radnu povr\u0161inu Chrome. Obratite se administratoru sustava za pomo\u0107."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Nedostaju neke komponente potrebne za Udaljenu radnu povr\u0161inu Chrome. Provjerite imate li pokrenutu najnoviju verziju sustava Chrome i poku\u0161ajte ponovo."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Nije bilo mogu\u0107e povezati se s mre\u017Eom. Provjerite je li ure\u0111aj na mre\u017Ei."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Niste prijavljeni na Udaljenu radnu povr\u0161inu Chrome. Prijavite se i poku\u0161ajte ponovo."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Nije mogu\u0107e pristupiti hostu. To je vjerojatno zbog konfiguracije mre\u017Ee koju upotrebljavate."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Usluga je privremeno nedostupna. Poku\u0161ajte ponovo kasnije."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Pojavila se neo\u010Dekivana pogre\u0161ka. Prijavite taj problem razvojnim programerima."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Povezivanje\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "\u010Dekanje na vezu..."
+   },
+   "FULL_SCREEN": {
+      "message": "Cijeli zaslon"
+   },
+   "GET_STARTED": {
+      "message": "Po\u010Detak kori\u0161tenja"
+   },
+   "HELP": {
+      "message": "Pomo\u0107"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Pristup"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Gledajte dijeljeno ra\u010Dunalo i upravljajte njime."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Ovom ra\u010Dunalu mo\u017Eete sigurno pristupiti pomo\u0107u Udaljene radne povr\u0161ine Chrome."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Promijeni PIN"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Omogu\u0107i daljinske veze"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Morate omogu\u0107iti daljinske veze ako \u017Eelite pristupati ra\u010Dunalu pomo\u0107u Udaljene radne povr\u0161ine Chrome."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Onemogu\u0107i daljinske veze"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Podijeli"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Dijelite ovo ra\u010Dunalo kako bi ga drugi korisnik mogao vidjeti i upravljati njime."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(ova zna\u010Dajka jo\u0161 nije dostupna za Chromebookove... pratite nas i dalje)"
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Da biste omogu\u0107ili povezivanje s razli\u010Ditim udaljenim ra\u010Dunalima, na njima instalirajte Udaljenu radnu povr\u0161inu Chrome pa kliknite gumb \"$1\"."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Nije registrirano nijedno ra\u010Dunalo. Da biste omogu\u0107ili daljinske veze s ra\u010Dunalom, instalirajte Udaljenu radnu povr\u0161inu Chrome pa kliknite \"$1\"."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Softver se obi\u010Dno a\u017Eurira automatski, ali u nekim rijetkim slu\u010Dajevima a\u017Euriranja mo\u017Eda ne\u0107e uspjeti. A\u017Euriranje softvera ne bi smjelo trajati dulje od nekoliko minuta te se mo\u017Ee izvr\u0161iti dok ste daljinski povezani s ra\u010Dunalom."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Udaljena radna povr\u0161ina Chrome na hostu $1 zastarjela je i mora se a\u017Eurirati."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Pomognite nam pobolj\u0161ati Udaljenu radnu povr\u0161inu Chrome, dopustite nam prikupljanje statistike upotrebe i izvje\u0161\u0107a o padu programa."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Da biste za\u0161titili pristup ovom ra\u010Dunalu, odaberite PIN s $1najmanje \u0161est brojeva$2. Taj \u0107e PIN biti potreban pri povezivanju s druge lokacije."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Nisam uspio pokrenuti uslugu daljinskog pristupa."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome preuzima instalacijski program Udaljene radne povr\u0161ine Chrome. Nakon zavr\u0161etka preuzimanja pokrenite alat za instalaciju prije nego \u0161to nastavite."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Ponovo pokrenite instalacijski program prije nastavka."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "Nisam uspio registrirati ovo ra\u010Dunalo."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Na ovom su ra\u010Dunalu omogu\u0107ene daljinske veze."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Provjerite postavke upravljanja potro\u0161njom energije svojeg ra\u010Dunala i provjerite da nije konfigurirano tako da prelazi u stanje mirovanja kad je neaktivno."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Omogu\u0107avanje daljinskih veza za ovo ra\u010Dunalo\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Na ovom su ra\u010Dunalu onemogu\u0107ene daljinske veze."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Onemogu\u0107avanje daljinskih veza za ovo ra\u010Dunalo\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Onemogu\u0107avanje daljinskog pristupa ovom ra\u010Dunalu nije uspjelo. Poku\u0161ajte ponovo kasnije."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "A\u017Euriran je PIN."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "PIN nije uspje\u0161no a\u017Euriran. Poku\u0161ajte ponovo kasnije."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "U tijeku je a\u017Euriranje PIN-a za ovo ra\u010Dunalo\u2026"
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Na ovo ra\u010Dunalo"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Da biste zapo\u010Deli dijeliti radnu povr\u0161inu, po\u0161aljite pristupni k\u00F4d u nastavku osobi koja \u0107e vam pomagati."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Nakon \u0161to se unese k\u00F4d, po\u010Det \u0107e sesija dijeljenja."
+   },
+   "INVALID_PIN": {
+      "message": "Unesite PIN koji se sastoji od \u0161est ili vi\u0161e znamenki."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Dijeljenje zaslona izme\u0111u korisnika savr\u0161eno je za daljinsku tehni\u010Dku podr\u0161ku."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Povezan:"
+   },
+   "LEARN_HOW": {
+      "message": "Saznajte kako."
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Pristupite svojem ra\u010Dunalu s bilo kojeg mjesta."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Generiranje pristupnog koda..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Zavr\u0161ila je va\u0161a sesija u aplikaciji Udaljena radna povr\u0161ina Chrome."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Va\u0161a se radna povr\u0161ina trenuta\u010Dno dijeli s korisnikom $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autoriziraj"
+   },
+   "MODE_IT2ME": {
+      "message": "Daljinska pomo\u0107"
+   },
+   "MODE_ME2ME": {
+      "message": "Moja ra\u010Dunala"
+   },
+   "OFFLINE": {
+      "message": "$1 (van mre\u017Ee)"
+   },
+   "OK": {
+      "message": "U redu"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "S ovog ra\u010Dunala"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Unesite isti PIN u oba polja."
+   },
+   "PIN_MESSAGE": {
+      "message": "Unesite svoj PIN za host $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Putem interneta pristupajte drugim ra\u010Dunalima ili drugim korisnicima omogu\u0107ite siguran pristup svojem ra\u010Dunalu."
+   },
+   "PRODUCT_NAME": {
+      "message": "Udaljena radna povr\u0161ine Chrome"
+   },
+   "RECONNECT": {
+      "message": "Ponovno povezivanje"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Prilagodi veli\u010Dinu radne povr\u0161ine"
+   },
+   "RETRY": {
+      "message": "Poku\u0161aj ponovo"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Opcije zaslona"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl \u2013 Alt \u2013 Del"
+   },
+   "SEND_KEYS": {
+      "message": "Tipke za slanje"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Smanji da stane u prozor"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Prijava"
+   },
+   "SIGN_ME_UP": {
+      "message": "Ispunite anketu"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Odjava"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Zaustavi dijeljenje"
+   },
+   "SURVEY_INVITATION": {
+      "message": "\u017Delite li pomo\u0107i pobolj\u0161ati udaljenu radnu povr\u0161inu Chrome?"
+   },
+   "TIME_HEADER": {
+      "message": "Vrijeme"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Povezivanje s hostom $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Onemogu\u0107i daljinske veze na ovom ra\u010Dunalu"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Uredi naziv ra\u010Dunala"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (zastarjelo)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NAPOMENA: postavke pravila dopu\u0161taju jedino veze izme\u0111u ra\u010Dunala u va\u0161oj mre\u017Ei."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NAPOMENA: kako biste osigurali dostupnost svih tipkovni\u010Dkih pre\u010Daca, mo\u017Eete konfigurirati udaljenu radnu povr\u0161inu Chrome da se otvara kao prozor."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Za\u0161to je ovo sigurno?"
+   }
+}

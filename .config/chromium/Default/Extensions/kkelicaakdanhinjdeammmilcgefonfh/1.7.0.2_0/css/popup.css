@@ -1,0 +1,20 @@
+.popup	{	width:250px; padding:0 !important; margin:0 !important; border:none !important; }
+
+	.popup .resRow	{	padding:3px !important; border:none !important; }
+	
+	.popup .resRow .handle		{	cursor:pointer; min-height:0; }
+	
+	
+	.popup .resRow STRONG		{	 }
+
+	.popup .resRow .i_delete,
+	.popup .resRow .i_edit	{	display:none; }
+
+	.popup .customize		{	border-top:1px solid #ddd !important; margin-top:2px; padding-top:3px; }
+	.popup #customize,
+	.popup #settings,
+	.popup #news			{	font-weight:bold; }
+	
+	.popup .icon	{	height:16px !important; margin-top:-8px !important; }
+	
+	.popup #customize .icon	{	height:16px !important; margin-top:-8px !important; }

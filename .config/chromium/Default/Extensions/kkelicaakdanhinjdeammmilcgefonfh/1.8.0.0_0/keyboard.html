@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Window Resizer Keyboard Shortcuts</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/options.css" />
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/keyboard.js"></script>
+</head>
+<body>
+	<div id="optionsWrapper">
+		
+		<div id="suportBtns">
+			<script src="js/paypal-button.min.js?merchant=ionut.botizan@gmail.com" 
+			        data-button="donate" 
+			        data-label="xxx" 
+			        data-name="Window Resizer"
+			></script>
+			
+			<a target="_blank" href="https://flattr.com/submit/auto?user_id=prafuitu&amp;url=http%3A%2F%2Fionut-botizan.net&amp;title=Chrome%20Window%20Resizer">
+				<img src="images/flattr-badge-large.png" alt="Flattr Chrome Window Resizer" />
+			</a>
+		</div>
+	
+		<div class="chromeWindow">
+			<a href="#" title="Close" class="chromeClose" id="closeOptions"></a>
+			<div class="chromeContent version-history">
+			
+				<ul id="chromeMenu">
+					<li><a href="options.html">Presets</a></li>
+					<li><a href="settings.html">Settings</a></li>
+					<li class="selected"><a href="keyboard.html">Keyboard</a></li>
+					<li><a href="import-export.html">Import/Export</a></li>
+					<li><a href="news.html">History</a></li>
+					<!-- <li><a href="poll.html">SUPPORT</a></li> -->
+				</ul>
+		
+				<h1>Keyboard Shortcuts</h1>
+				
+				<div class="fieldSet">
+					<span class="title">Popup specific</span>
+					
+					<ul class="list">
+						<li>
+							When the popup is visible, you can:
+							<ul class="list">
+								<li>navigate through the presets using the <code>Up</code> &amp; <code>Down</code> arrow keys and press <code>Enter</code> to select one of the options;</li>
+								<li>use any of the numeric keys <code>0 - 9</code> to resize to the appropriate preset in the list;</li>
+								<li>press <code>E</code> to edit the presets or <code>S</code> to edit the other settings.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="fieldSet">
+					<span class="title">Global shortcuts</span>
+					
+					<ul class="list">
+						<li>Show/hide the extension's popup by pressing <code id="extensionPopup">&lt;disabled&gt;</code></li>
+						<li>Cycle through all your presets by pressing <code id="extensionPresets">&lt;disabled&gt;</code></li>
+						
+						<li>
+							Please, PLEASE remember that any presets that would resize the viewport will only work on tabs that contain a page loaded using one of the following protocols: 
+							<code>http://</code>, <code>https://</code> or <code>file://</code>
+						</li>
+						
+						<li>
+							Due to Chrome limitations, developers are allowed to set suggested shortcuts for up to 4 commands. 
+							This is why you'll have to manually edit your shortcut keys before being able to use any of the global commands.
+						</li>
+						
+						<li>
+							Use the link at the bottom of the extensions' listing page to <a href="chrome://extensions/#footer-section" id="openSettings" class="blue-button" target="_blank">edit the shortcuts</a>
+							<br /><br />
+							<span class="note">something like this</span>
+							<br /><br />
+							<img src="images/keyboard-shortcuts.png" width="446" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footerOptions">
+			<a href="https://chrome.google.com/extensions/detail/kkelicaakdanhinjdeammmilcgefonfh" rel="external" title="Homepage">Homepage</a>
+			::
+			<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="external" title="License">License</a>
+			
+		</div>
+
+	</div>
+</body>
+</html>

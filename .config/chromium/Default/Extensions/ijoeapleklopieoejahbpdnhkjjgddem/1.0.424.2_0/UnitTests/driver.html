@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+    <title>Adobe Shadow Chrome Extension - Unit Test Driver</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script language="JavaScript">
+    // Call it like this, but with your extension ID
+    // chrome-extension://dikjdlleodjcpgfgemjcnhdhkjbkange/UnitTests/driver.html#action=pair&passcode=YOURPASSCODE
+    $(document).ready(function() {
+        if (window.location.hash) {
+            var args = window.location.hash.replace("#", "").split("&");
+            var action = args[0].split("=");
+                   
+            // pair device
+            if (action[0] === "action" && action[1] === "pair") {
+                var pairingList = chrome.extension.getBackgroundPage().SkyLabController.getNowPairing();
+                var pairingDevice = pairingList[0];
+                var param1 = args[1].split("=");
+                chrome.extension.getBackgroundPage().SkyLabController.pairDevice(param1[1], pairingDevice.id);
+                
+            }
+            // eject device
+            if (action[0] === "action" && action[1] === "eject") {
+                var connectedList = chrome.extension.getBackgroundPage().SkyLabController.getDeviceList();
+                var connectedDevice = connectedList[0];
+                chrome.extension.getBackgroundPage().SkyLabController.ejectDevice([connectedDevice.id]);
+            }
+            
+            // eject all devices
+            if (action[0] === "action" && action[1] === "ejectAll") {
+                var connectedList = chrome.extension.getBackgroundPage().SkyLabController.getDeviceList();
+                for (var i=0; i<connectedList.length; i++) {
+                    chrome.extension.getBackgroundPage().SkyLabController.ejectDevice([connectedList[i].id]);                           
+                }
+            }
+        
+            // deauthorize device
+            if (action[0] === "action" && action[1] === "forget") {
+                var unavailableList = chrome.extension.getBackgroundPage().SkyLabController.getUnavailableDeviceList();
+                var unavailableDevice = unavailableList[0];
+                chrome.extension.getBackgroundPage().SkyLabController.forgetDevice(unavailableDevice.id);      
+            }
+             
+            // deauthorize all devices
+            if (action[0] === "action" && action[1] === "forgetAll") {
+                var unavailableList = chrome.extension.getBackgroundPage().SkyLabController.getUnavailableDeviceList();
+                for (var i=0; i<unavailableList.length; i++) {
+                    chrome.extension.getBackgroundPage().SkyLabController.forgetDevice(unavailableList[i].id);      
+                }
+
+                
+            }
+            // remote inspection
+            if (action[0] === "action" && action[1] === "remoteinspect") {
+                var riserver = chrome.extension.getBackgroundPage().SkyLabController.getRemoteInspectionServer();
+                var connectedList = chrome.extension.getBackgroundPage().SkyLabController.getDeviceList();
+                var connectedDevice = connectedList[0];
+                chrome.extension.getBackgroundPage().SkyLabController.remoteInspect(connectedDevice.id, riserver);      
+            }
+                      
+                      // screenshot
+            if (action[0] === "action" && action[1] === "screenshot") {
+                chrome.extension.getBackgroundPage().SkyLabController.screenshot();
+            }          
+        }
+    });
+    </script>
+    </head>
+    <body>
+    </body>
+</html>

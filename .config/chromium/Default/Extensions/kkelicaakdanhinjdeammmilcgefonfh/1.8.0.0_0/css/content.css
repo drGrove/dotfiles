@@ -1,0 +1,16 @@
+#window-resizer-tooltip		{	display:none; position:fixed; z-index:100000; bottom:0; right:0; color:#ccc; 
+								background:rgba(0, 0, 0, 0.8); background-position:10px 10px; background-repeat:no-repeat; padding:5px 0px 5px 40px; width:200px; white-space: nowrap; border-top-left-radius:10px; 
+								font:normal 11px Tahoma, Verdana, sans-serif;
+							}
+	
+	#window-resizer-tooltip A		{	position:absolute; display:block; width:19px; height:19px; left:11px; top:50%; margin-top:-9px; }
+	
+	#window-resizer-tooltip .tooltipTitle		{	display:inline-block; width:70px; text-align:right; }
+	
+	#window-resizer-tooltip .tooltipWidth,
+	#window-resizer-tooltip .tooltipHeight		{	display:inline-block; width:35px; text-align:right; font-weight:bold; color:#fff; }
+	#window-resizer-tooltip .tooltipHeight		{	text-align:left; }
+
+@media print	{
+	#window-resizer-tooltip	{	display:none !important; }
+}

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.magicscroll.net/"
+      },
+      "urls": [ "http://www.magicscroll.net/" ]
+   },
+   "description": "Read your favorite books.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9waFKbVETQH8zgBFSZqecrOl0zmc1cyHavQEIWAYwuhq2A2kTceV4liyRNs8U5UM2vVREVNdzbLrN2366z/IjetPyqWM0lTRfv2bi8wlT2J5FqvKSpAdTS1Ug4duyLewYI690hYCcEADLLN7xVu7h3zrHUbR9pulu38ErH/lhKwIDAQAB",
+   "name": "MagicScroll eBook Reader",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.0"
+}

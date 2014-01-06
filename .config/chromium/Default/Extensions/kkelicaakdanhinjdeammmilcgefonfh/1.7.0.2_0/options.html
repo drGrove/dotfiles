@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Customize Window Resizer</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/options.css" />
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+</head>
+<body>
+	<div id="optionsWrapper">
+	
+		<div class="chromeWindow">
+			<a href="#" title="Close" class="chromeClose" id="closeOptions"></a>
+			<div class="chromeContent">
+			
+				<ul id="chromeMenu">
+					<li class="selected"><a href="options.html">Presets</a></li>
+					<li><a href="settings.html">Settings</a></li>
+					<li><a href="import-export.html">Import/Export</a></li>
+					<li><a href="news.html">History</a></li>
+					<li><a href="poll.html">SUPPORT</a></li>
+				</ul>
+		
+				<div id="manageResolutions">
+					<h1>Manage existing resolutions</h1>
+					
+					<ul id="resolutionsList"></ul>
+				</div>
+				
+				
+				
+				<div id="addResolution">
+					<h1><span id="titleAdd">Add new</span><span id="titleEdit">Edit</span> resolution</h1>
+					
+					<form action="#" method="post" id="addResForm" >
+						<input type="hidden" id="editID" name="editID" value="" />
+						
+						<div id="errorMsg"></div>
+						
+						<div class="fieldSet">
+							<span class="title">Width x Height</span>
+							<div id="sizeFields">
+								<input type="text" maxlength="4" id="newWidth" name="newWidth" />
+								x
+								<input type="text" maxlength="4" id="newHeight" name="newHeight" />
+							</div>
+							<br />
+							<label>
+								<input type="radio" value="1" checked="checked" id="useCustomSize" name="useSize" />
+								Use custom size
+							</label>
+							<br />
+							<label>
+								<input type="radio" value="2" id="useWinSize" name="useSize" />
+								Use current window size
+							</label>
+							<br />
+							<label>
+								<input type="radio" value="3" id="useViewportSize" name="useSize" />
+								Use current viewport size
+							</label>
+						</div>
+						
+						<div class="fieldSet">
+							<span class="title">Position <span>(optional: left/top)</span></span>
+							<div id="posFields">
+								<input type="text" disabled="true" maxlength="4" id="newX" name="newX" />
+								/
+								<input type="text" disabled="true" maxlength="4" id="newY" name="newY" />
+							</div>
+							<br />
+							<label>
+								<input type="radio" value="0" checked="checked" id="leavePosUnchanged" name="usePos" />
+								Leave unchanged
+							</label>
+							<br />
+							<label>
+								<input type="radio" value="1" id="useCustomPos" name="usePos" />
+								Use custom position
+							</label>
+							<br />
+							<label>
+								<input type="radio" value="2" id="useWinPos" name="usePos" />
+								Use current window position
+							</label>
+							<br />
+							<label>
+								<input type="radio" value="3" id="centerPos" name="usePos" />
+								Center on screen
+							</label>
+						</div>
+						
+						<div class="fieldSet">
+							<span class="title">Description <span>(optional)</span></span>
+							<input type="text" id="newTitle" name="newTitle" />
+						</div>
+												
+						<div class="fieldSet screenType">
+							<span class="title">Screen Type</span>
+							<label class="i_desktop">
+								<input type="radio" name="newType" value="desktop" /> Desktop
+							</label>
+							
+							<label class="i_laptop">
+								<input type="radio" name="newType" value="laptop" /> Laptop/Notebook
+							</label>
+							
+							<label class="i_mobile">
+								<input type="radio" name="newType" value="mobile" /> Mobile device
+							</label>
+							
+						</div>
+						
+						
+						<input type="submit" value="SAVE" />
+						<input type="reset" id="resetEdit" value="CANCEL" />
+						
+					</form>
+					
+				</div>
+				
+				<div id="footNote">
+					<input type="button" id="resetDefault" value="Restore Defaults" />
+					<input type="button" id="finish" value="Finish editing" />
+					<br /><br />
+					<strong>* NOTE:</strong> If you choose <strong>"Mobile device"</strong> then the selected width and height will be those of the viewport, not those of the entire window.
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="footerOptions">
+			<a href="https://chrome.google.com/extensions/detail/kkelicaakdanhinjdeammmilcgefonfh" rel="external" title="Homepage">Homepage</a>
+			::
+			<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="external" title="License">License</a>
+			
+			<a id="paypalBtn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9597376" rel="external" title="Buy me a cofee">
+				<img src="images/paypal_btn.png" title="Buy me a cofee" />
+			</a>
+		</div>
+
+	</div>
+</body>
+</html>

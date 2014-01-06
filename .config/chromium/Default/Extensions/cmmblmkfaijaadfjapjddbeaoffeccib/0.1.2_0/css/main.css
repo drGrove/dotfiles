@@ -1,0 +1,223 @@
+body{
+    /*    background: #778;*/
+    font: 16px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+    direction: __MSG_@@bidi_dir__;
+}
+h1{
+
+}
+div.main{
+    width: 1024px;
+    margin: 0px auto;
+}
+label{
+    cursor: pointer;
+}
+.form-inputs {
+
+}
+.form-inputs input,
+.form-inputs textarea{
+    border: 1px solid #CCC;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset;
+    padding: 3px 5px;
+}
+input[required],
+textarea[required] {
+    border-color: #88a;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset, rgba(0, 0, 255, 0.5) 0px 0px 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset, rgba(0, 0, 255, 0.5) 0px 0px 3px;
+}
+input:invalid,
+textarea:invalid {
+    border-color: #e88;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset, 0 0 5px rgba(255, 0, 0, .8);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px inset, 0 0 5px rgba(255, 0, 0, .8);
+}
+label.row-label{
+    /*    display: block;*/
+}
+#pattern{
+    height: 50px;
+}
+#body{
+    height: 100px;
+}
+#replace{
+
+}
+span.highlight{
+    box-shadow: rgba(255, 0, 0, 0.4) 2px 2px;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 2px;
+    min-width: 2px;
+}
+span.replaceHighlight{
+    text-shadow: silver 1px 1px;
+    font-weight: bold;
+}
+form > input,
+form > textarea{
+    width: 100%;
+}
+
+div.results-tabs{
+    margin-top: 10px;
+    width: 100%;
+}
+div.results-tabs > div.tabs{
+    display: -webkit-box;
+}
+div.results-tabs > div.tabs > a{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    -webkit-margin-end: 5px;
+    padding: 2px 10px;
+    background-color: #EAEAEA;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.results-tabs > div.tabs > a.current{
+    background-color: #ccc;
+}
+div.results-tabs > div.content{
+    padding: 5px;
+    border: 2px #ccc solid;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    min-height: 200px;
+}
+div.results-tabs > div.content > div{
+    display: none;
+}
+div.results-tabs > div.content > div.current{
+    display: -webkit-box;
+}
+img.help-dialog{
+    -webkit-transition: opacity 0.15s ease-in-out;
+    opacity: 0.4;
+    cursor: pointer;
+    margin-left: 7px;
+    width: 20px;
+    vertical-align: baseline;
+}
+img.help-dialog:hover{
+    opacity: 1;
+}
+div.popupPanelGlass{
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-transition: 0.25s opacity, 0.5s z-index;
+    background: -webkit-radial-gradient(rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 0.5) 35%, rgba(0, 0, 0, 0.7));
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    padding-bottom: 130px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+    display: -webkit-box;
+}
+div.popupPanelGlass.visible{
+    opacity: 1;
+    z-index: 10;
+}
+.hidden{
+    display: none !important;
+}
+
+div.dialog-container{
+    -webkit-box-shadow: 0px 5px 80px #505050;
+    background: white;
+    border: 1px solid #BCC1D0;
+    border-radius: 2px;
+    min-width: 400px;
+    padding: 0;
+    position: relative;
+    display: none;
+}
+div.dialog-container > h2 {
+    background: -webkit-linear-gradient(white, #F8F8F8);
+    border-bottom: 1px solid rgba(188, 193, 208, .5);
+    font-size: 105%;
+    font-weight: bold;
+    padding: 10px 15px 8px 15px;
+    -webkit-padding-end: 24px;
+    -webkit-user-select: none;
+    margin: 0;
+    text-shadow: white 0 1px 2px;
+}
+div.dialog-content{
+    padding: 10px 15px 5px 15px;
+    overflow: auto;
+    height: 400px;
+}
+div.dialog-buttons{
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: end;
+    border-top: 1px solid rgba(188, 193, 208, .5);
+    display: -webkit-box;
+    padding: 12px;
+}
+.button-strip {
+    -webkit-box-orient: horizontal;
+    display: -webkit-box;
+    -webkit-box-direction: reverse;
+}
+.button-strip > button {
+    
+}
+button, input[type="button"], input[type="submit"] {
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    background: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    border: 1px solid #AAA;
+    color: #444;
+    font-size: inherit;
+    margin-bottom: 0px;
+    min-width: 4em;
+    padding: 3px 12px 3px 12px;
+    cursor: pointer;
+}
+div.dialog-content ul.patterns-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+div.dialog-content ul.patterns-list > li{
+    padding: 3px 0;
+    font-size: 12px;
+    white-space: nowrap;
+}
+div.dialog-content ul.patterns-list > li > span{
+    display: inline-block;
+    width: 100px;
+}
+span.patters-group{
+    font-weight: bold;
+    display: block;
+}
+footer{
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+}
+footer > div {
+    margin-left: 25px;
+}

@@ -1,0 +1,2 @@
+"use strict";(function(){var a=devhd.pkg("pages");a.StartPage=function(){};var b=a.StartPage.prototype=new a.BasePage();b.allowsSideArea=function(){return false};b.allowsPageHeader=function(){return false};b.service=function(d,c){this.pageInfo=d;this.width=c.width;this.initBase(c);this.feedly.askShowStore();this.startRenderHTML();var e=this;window.setTimeout(function(){e.feedly.askShowStore()
+},100)};b.destroy=function(){this.destroyBase()};b.startRenderHTML=function(){this.feedly.setPageTitle("Get Started");this.pageElem.innerHTML=templates.page.start.layout()}})();

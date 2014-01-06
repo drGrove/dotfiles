@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "N\u00E3o aplic\u00E1vel."
+   },
+   "alignment_btn_txt": {
+      "message": "Ajustar a posi\u00E7\u00E3o"
+   },
+   "allow_access_to_webcam": {
+      "message": "Permita o acesso \u00E0 sua webcam na barra de notifica\u00E7\u00E3o."
+   },
+   "back_to_step1_msg": {
+      "message": "Tem certeza de que deseja importar uma nova imagem? Voc\u00EA perder\u00E1 todas as altera\u00E7\u00F5es feitas na imagem atual."
+   },
+   "background": {
+      "message": "Editar cor do plano de fundo"
+   },
+   "bottom_align": {
+      "message": "parte inferior"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "center_align": {
+      "message": "centrada"
+   },
+   "change_img_btn_txt": {
+      "message": "Importar nova imagem"
+   },
+   "continue_anyways": {
+      "message": "Continuar mesmo assim"
+   },
+   "continue_to": {
+      "message": "Prosseguir para o passo $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Criar seu tema"
+   },
+   "custom": {
+      "message": "Personalizado"
+   },
+   "custom_color": {
+      "message": "Cor personalizada"
+   },
+   "default": {
+      "message": "Definir como padr\u00E3o"
+   },
+   "delete": {
+      "message": "Excluir"
+   },
+   "delete_theme": {
+      "message": "Excluir tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Tem certeza de que deseja excluir o tema \"$1\"?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Erro durante a exclus\u00E3o."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Erro ao excluir. Tente novamente."
+   },
+   "deleted": {
+      "message": "Exclu\u00EDdo"
+   },
+   "deleting": {
+      "message": "Excluindo..."
+   },
+   "deleting_theme": {
+      "message": "Excluindo tema"
+   },
+   "design_mode": {
+      "message": "modo de design"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Conclu\u00EDdo"
+   },
+   "download_theme_zip": {
+      "message": "Fazer o download de tema como zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Editar no Picnik"
+   },
+   "error": {
+      "message": "ERRO"
+   },
+   "error_while_publishing": {
+      "message": "Erro ao gerar o URL. Tente novamente."
+   },
+   "error_while_unpublishing": {
+      "message": "Erro ao remover o URL. Tente novamente."
+   },
+   "ext_description": {
+      "message": "Criar e compartilhar temas do Google Chrome feitos por voc\u00EA."
+   },
+   "ext_name": {
+      "message": "Meu tema do Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Estou com sorte"
+   },
+   "fetch_image_error_msg": {
+      "message": "Algo deu errado com sua imagem editada. Estamos trabalhando para corrigir isto."
+   },
+   "fill_screen": {
+      "message": "Preencher a tela"
+   },
+   "filter_black_and_white": {
+      "message": "Branco e preto"
+   },
+   "filter_bolder": {
+      "message": "Mais escuro"
+   },
+   "filter_cooler": {
+      "message": "Mais frio"
+   },
+   "filter_inverted": {
+      "message": "Invertida"
+   },
+   "filter_posterized": {
+      "message": "Contrastante"
+   },
+   "filter_sepia": {
+      "message": "S\u00E9pia"
+   },
+   "filter_title": {
+      "message": "Efeitos de imagem"
+   },
+   "filter_warmer": {
+      "message": "Mais quente"
+   },
+   "fit_screen": {
+      "message": "Ajustar \u00E0 tela"
+   },
+   "footer_share_site_txt": {
+      "message": "Compartilhar:"
+   },
+   "frame": {
+      "message": "Editar cor da moldura"
+   },
+   "generate_theme": {
+      "message": "Gerando tema"
+   },
+   "goback": {
+      "message": "Voltar"
+   },
+   "hide_themes": {
+      "message": "Ocultar temas"
+   },
+   "image_format_error_msg": {
+      "message": "Parece que algo deu errado com sua imagem. Tente novamente ou selecione uma imagem diferente."
+   },
+   "image_size_error_msg": {
+      "message": "Parece que seu arquivo de imagem \u00E9 muito grande. Tente novamente com um arquivo de $1 $2 ou menor.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Os formatos de arquivo JPEG, PNG, GIF e BMP s\u00E3o compat\u00EDveis."
+   },
+   "image_type_error_msg": {
+      "message": "O formato de arquivo que voc\u00EA est\u00E1 tentando selecionar n\u00E3o \u00E9 compat\u00EDvel."
+   },
+   "img_fetching": {
+      "message": "Buscando imagem"
+   },
+   "img_upload_wait": {
+      "message": "Aguarde enquanto fazemos o upload de sua imagem"
+   },
+   "informative": {
+      "message": "Informativo"
+   },
+   "install_box_text": {
+      "message": "Clique para instalar agora este tema no navegador Chrome"
+   },
+   "install_btn": {
+      "message": "Instalar meu tema"
+   },
+   "left_align": {
+      "message": "esquerda"
+   },
+   "loading": {
+      "message": "Carregando..."
+   },
+   "loading_application": {
+      "message": "Carregando aplicativo..."
+   },
+   "locale": {
+      "message": "pt-BR"
+   },
+   "make_new": {
+      "message": "Criar um novo tema \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nova guia"
+   },
+   "no": {
+      "message": "N\u00E3o"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Parece que voc\u00EA n\u00E3o importou uma imagem para o plano de fundo de seu tema. Tem certeza de que deseja continuar sem ela?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Parece que voc\u00EA n\u00E3o atribuiu um nome ao tema. Deseja prosseguir de qualquer forma?"
+   },
+   "no_theme_to_view": {
+      "message": "Voc\u00EA n\u00E3o tem temas para visualizar"
+   },
+   "no_webcam_msg": {
+      "message": "Nenhuma webcam detectada"
+   },
+   "not_available_offline": {
+      "message": "N\u00E3o est\u00E1 dispon\u00EDvel off-line"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Ops."
+   },
+   "open_preview_text": {
+      "message": "Visualize o tema"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Criar meu tema."
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Escolha uma cor"
+   },
+   "picnik_save_btn": {
+      "message": "Salvar em Meus Temas do Chrome"
+   },
+   "please_wait": {
+      "message": "Aguarde ..."
+   },
+   "preset_color": {
+      "message": "Cor predefinida"
+   },
+   "preview_error_msg": {
+      "message": "Parece que o tema que voc\u00EA est\u00E1 procurando n\u00E3o est\u00E1 mais dispon\u00EDvel."
+   },
+   "preview_mode": {
+      "message": "modo de visualiza\u00E7\u00E3o"
+   },
+   "privacy_policy": {
+      "message": "Pol\u00EDtica de Privacidade"
+   },
+   "publish_theme": {
+      "message": "COMP. TEMA"
+   },
+   "publish_theme_text": {
+      "message": "Clique para compartilhar seu tema."
+   },
+   "publishing": {
+      "message": "Gerando URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Para publicar o Zip na Chrome Web Store, v\u00E1 [aqui]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "D\u00EA um nome a seu tema para torn\u00E1-lo exclusivo. O nome do tema ser\u00E1 vis\u00EDvel se voc\u00EA optar por compartilh\u00E1-lo com outras pessoas."
+   },
+   "rear_tab_text": {
+      "message": "Plano de fundo"
+   },
+   "reartab": {
+      "message": "Editar cor da guia de plano de fundo"
+   },
+   "retake_picture": {
+      "message": "Tirar outra"
+   },
+   "retry": {
+      "message": "Tentar novamente"
+   },
+   "right_align": {
+      "message": "direita"
+   },
+   "share_box_text": {
+      "message": "Copie este URL \u00FAnico para compartilhar seu tema com outras pessoas"
+   },
+   "show_all_themes": {
+      "message": "Mostrar todos os temas"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "INICIAR A CRIA\u00C7\u00C3O DE SEU TEMA"
+   },
+   "start_screen_description": {
+      "message": "Adicione um toque pessoal ao navegador. Construa e compartilhe temas personalizados do Google Chrome com as imagens pr\u00F3prias e design em tr\u00EAs passos simples."
+   },
+   "start_screen_heading": {
+      "message": "Crie seu pr\u00F3prio tema do Chrome"
+   },
+   "step": {
+      "message": "Etapa $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importar sua imagem",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Fa\u00E7a upload de um arquivo em seu computador ou tire uma foto com sua webcam."
+   },
+   "step1_header_msg_text": {
+      "message": "Escolha uma imagem para o plano de fundo de seu tema."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Adicionar cor",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Ou voc\u00EA pode adicionar cores automaticamente [se voc\u00EA estiver com sorte]"
+   },
+   "step2_header_msg_text": {
+      "message": "Clique em um marcador para come\u00E7ar a colorir seu tema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Instalar e compartilhar",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Encontrar mais temas na Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Clique nas miniaturas abaixo para instalar, compartilhar ou excluir temas anteriores criados neste computador."
+   },
+   "take_picture": {
+      "message": "Tirar uma foto"
+   },
+   "text": {
+      "message": "Editar cor do texto"
+   },
+   "theme_deleted": {
+      "message": "Tema exclu\u00EDdo"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Adicione mais algumas palavras para descrever seu tema. Esta descri\u00E7\u00E3o ser\u00E1 vis\u00EDvel se voc\u00EA compartilhar seu tema."
+   },
+   "theme_description_box_title": {
+      "message": "Descreva seu tema"
+   },
+   "theme_description_text": {
+      "message": "Adicionar uma descri\u00E7\u00E3o opcional"
+   },
+   "theme_does_not_exist": {
+      "message": "Este tema n\u00E3o existe"
+   },
+   "theme_name_placeholder": {
+      "message": "D\u00EA um nome a seu tema"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Compartilhar com este URL exclusivo:"
+   },
+   "tile_image": {
+      "message": "Imagem de bloco"
+   },
+   "toolbar": {
+      "message": "Editar a cor da barra de ferramentas"
+   },
+   "top_align": {
+      "message": "parte superior"
+   },
+   "try_again": {
+      "message": "Tentar novamente"
+   },
+   "unpublish": {
+      "message": "Desf. comp."
+   },
+   "unpublishing": {
+      "message": "Removendo URL.."
+   },
+   "untitled": {
+      "message": "Sem nome"
+   },
+   "upload_btn_txt": {
+      "message": "Fazer upload de imagem"
+   },
+   "upload_crx_error_msg": {
+      "message": "Alguma coisa deu errado na tentativa de criar seu tema."
+   },
+   "upload_error_msg": {
+      "message": "Parece que houve um problema no upload da imagem. Tente carregar o arquivo novamente ou retorne e selecione outra imagem."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Fa\u00E7a somente upload de imagens que voc\u00EA tenha o direito de usar."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Imagens e Temas ser\u00E3o hospedados pelo Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Imagens e temas removidos ser\u00E3o exclu\u00EDdos."
+   },
+   "uploading": {
+      "message": "ENVIANDO"
+   },
+   "url_tooltip": {
+      "message": "Copie e cole para compartilhar"
+   },
+   "use_picture": {
+      "message": "Usar foto"
+   },
+   "warning": {
+      "message": "AVISO"
+   },
+   "webcam_btn_txt": {
+      "message": "Utilizar webcam"
+   },
+   "woohoo_text": {
+      "message": "Uhu! $2 \"$1\" foi criado",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Sim"
+   }
+}

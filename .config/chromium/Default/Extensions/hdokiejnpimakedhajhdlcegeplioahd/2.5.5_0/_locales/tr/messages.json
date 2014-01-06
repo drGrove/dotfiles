@@ -1,0 +1,3488 @@
+{
+   "0_9": {
+      "message": "0-9"
+   },
+   "1Password": {
+      "message": "1Password"
+   },
+   "1__Insert_your_YubiKey_in_the_USB_port_with_the_USB_contact_facing_upward": {
+      "message": "1. YubiKey'inizi USB portuna USB temas noktalar\u0131 yukar\u0131 bakacak \u015Fekilde tak\u0131n"
+   },
+   "1__Run_the_Google_Authenticator_application_on_your_mobile_device": {
+      "message": ".1 Mobil cihaz\u0131n\u0131zda Google Authenticator uygulamas\u0131n\u0131 \u00E7al\u0131\u015Ft\u0131r\u0131n"
+   },
+   "1__Run_the_LastPass_Sesame_application_to_generate_a_one_time_password": {
+      "message": "1. Tek kullan\u0131ml\u0131k parola olu\u015Fturmak i\u00E7in LastPass Sesame uygulamas\u0131n\u0131 \u00E7al\u0131\u015Ft\u0131r\u0131n "
+   },
+   "2__Enter_your_current_verification_code_in_the_box_below": {
+      "message": "2. A\u015Fa\u011F\u0131daki kutuya mevcut do\u011Frulama kodununuzu girin"
+   },
+   "2__Paste_the_one_time_password_in_the_input_box_below_and_click__Authenticate_": {
+      "message": "2. Bir defal\u0131k parolan\u0131z\u0131 yap\u0131\u015Ft\u0131r\u0131n a\u015Fa\u011F\u0131daki girdi kutusuna yap\u0131\u015Ft\u0131r\u0131n ve 'Onayla' ya t\u0131klay\u0131n"
+   },
+   "2__Wait_until_your_YubiKey_touch_button_shines_with_a_steady_light": {
+      "message": "2. YubiKey'inizin dokunmatik d\u00FC\u011Fmesi aral\u0131ks\u0131z yanana kadar bekleyin"
+   },
+   "3__Click_Authenticate": {
+      "message": "3. Yetkilendir'e t\u0131klay\u0131n"
+   },
+   "3__Hold_your_fingertip_on_the_touch_button_for_1_second": {
+      "message": "3. Parma\u011F\u0131n\u0131z\u0131 dokunmatik d\u00FC\u011Fmesi \u00FCzerinde 1 saniye tutun"
+   },
+   "ACTION": {
+      "message": "EYLEM"
+   },
+   "A_Zupper": {
+      "message": "A-Z"
+   },
+   "A_required_update_is_available_for_LastPass__Please_press_OK_to_begin_download_and_installation_": {
+      "message": "LastPass i\u00E7in gerekli bir g\u00FCncelleme var.L\u00FCtfen indirmeye ve y\u00FCklemeye ba\u015Flamak i\u00E7in Tamam'a t\u0131klay\u0131n."
+   },
+   "A_retry_file_has_been_found__This_likely_means_that_not_all_of_your_site_changes_have_been_saved__Would_you_like_to_delete_this_file_and_potentially_lose_some_changes_": {
+      "message": "Bir tekrar dene dosyas\u0131 bulundu. T\u00FCm site de\u011Fi\u015Fiklikleriniz kaydedilmemi\u015F olabilir. Bu dosyay\u0131 silmek ve bir ihtimal olarak baz\u0131 de\u011Fi\u015Fiklikleri kaybetmek ister misiniz?"
+   },
+   "A_server_error_occurred_while_processing_your_request_": {
+      "message": "Talebiniz i\u015Flenirken bir sunucu hatas\u0131 olu\u015Ftu."
+   },
+   "A_site_that_has_been_previously_shared_cannot_be_moved_to_a_shared_folder___Would_you_like_to_make_a_copy_": {
+      "message": "Daha \u00F6nce payla\u015F\u0131lm\u0131\u015F bir site payla\u015F\u0131lanlar klas\u00F6r\u00FCne ta\u015F\u0131namaz.\nBir kopyas\u0131n\u0131 olu\u015Fturmak ister misiniz?"
+   },
+   "About": {
+      "message": "Hakk\u0131nda"
+   },
+   "About___": {
+      "message": "Hakk\u0131nda..."
+   },
+   "Abu_Dhabi__Muscat__Moscow__St__Petersburg__Volgograd": {
+      "message": "Abu Dabi, Muscat, Moskova, St. Petersburg, Volgograd"
+   },
+   "Accept": {
+      "message": "Kabul Et"
+   },
+   "Account_Settings": {
+      "message": "Hesap Ayarlar\u0131"
+   },
+   "Account_Type": {
+      "message": "Hesap T\u00FCr\u00FC"
+   },
+   "Account_number": {
+      "message": "Hesap Numaras\u0131"
+   },
+   "Actionproper": {
+      "message": "Eylem"
+   },
+   "Actions": {
+      "message": "Eylemler"
+   },
+   "Add": {
+      "message": "Ekle"
+   },
+   "Add_Credit_Card": {
+      "message": "Kredi Kart\u0131 Ekle"
+   },
+   "Add_Credit_Card_profile": {
+      "message": "Kredi Kart\u0131 profili ekle"
+   },
+   "Add_Field": {
+      "message": "Alan Ekle"
+   },
+   "Add_Form_Fill_profile": {
+      "message": "Form Doldurma profili ekle"
+   },
+   "Add_Identity": {
+      "message": "Kimlik Ekle"
+   },
+   "Add_New_Site": {
+      "message": "Yeni Site Ekle"
+   },
+   "Add_Note": {
+      "message": "Not Ekle"
+   },
+   "Add_Profile": {
+      "message": "Profil Ekle"
+   },
+   "Add_Secure_Note": {
+      "message": "G\u00FCvenli Not Ekle"
+   },
+   "Add_Site": {
+      "message": "Site Ekle"
+   },
+   "Add_another_custom_field": {
+      "message": "Bir ba\u015Fka \u00F6zel alan ekle"
+   },
+   "Address": {
+      "message": "Adres"
+   },
+   "Address_1": {
+      "message": "Adres 1"
+   },
+   "Address_2": {
+      "message": "Adres 2"
+   },
+   "Address_3": {
+      "message": "Adres 3"
+   },
+   "Adelaide": {
+      "message": "Adelaide"
+   },
+   "Admin_Tools": {
+      "message": "Y\u00F6netici Ara\u00E7lar\u0131"
+   },
+   "Advanced": {
+      "message": "Geli\u015Fmi\u015F"
+   },
+   "Advanced_Options": {
+      "message": "Geli\u015Fmi\u015F Se\u00E7enekler"
+   },
+   "Afghanistan": {
+      "message": "Afganistan"
+   },
+   "Agent_Name": {
+      "message": "Acenta Ad\u0131"
+   },
+   "Agent_Phone": {
+      "message": "Acenta Telefonu"
+   },
+   "Aland_Islands": {
+      "message": "Aland Adalar\u0131"
+   },
+   "Alaska": {
+      "message": "Alaska"
+   },
+   "Albania": {
+      "message": "Arnavutluk"
+   },
+   "Algeria": {
+      "message": "Cezayir"
+   },
+   "Alias": {
+      "message": "Kod Adlar\u0131"
+   },
+   "All": {
+      "message": "Hepsi"
+   },
+   "Allow_LastPass_to_find_insecure_data_on_your_computer_": {
+      "message": "LastPass'in bilgisayar\u0131mdaki g\u00FCvensiz verileri bulmas\u0131na izin ver"
+   },
+   "Almaty": {
+      "message": "Almat\u0131"
+   },
+   "Alt": {
+      "message": "Alt"
+   },
+   "Alter_the_below_information_to_edit_the_Credit_Card_profile": {
+      "message": "Kredi Kart\u0131 profilinizi d\u00FCzenlemek i\u00E7in a\u015Fa\u011F\u0131daki bilgileri de\u011Fi\u015Ftiriniz."
+   },
+   "Alter_the_below_information_to_edit_the_Form_Fill_profile": {
+      "message": "Form Doldurma profilinizi d\u00FCzenlemek i\u00E7in a\u015Fa\u011F\u0131daki bilgileri de\u011Fi\u015Ftiriniz."
+   },
+   "Always_Choose_Profile_and_Credit_Card": {
+      "message": "Her zaman Profili ve Kredi Kart\u0131n\u0131 se\u00E7"
+   },
+   "American_Samoa": {
+      "message": "Amerikan Samoas\u0131"
+   },
+   "Amman__Athens__Istanbul__Beirut__Cairo__Jerusalem": {
+      "message": "Amman, Atina, \u0130stanbul, Beyrut, Kahire, Kud\u00FCs"
+   },
+   "Amsterdam__Berlin__Rome__Vienna__Prague__Brussels": {
+      "message": "Amsterdam, Berlin, Roma, Viyana, Prag, Br\u00FCksel"
+   },
+   "An_Update_is_Available__Would_you_like_to_install_": {
+      "message": "Yeni bir g\u00FCncelleme mevcut. Y\u00FCklemek ister misiniz?"
+   },
+   "An_error_has_been_encountered_while_loading_your_sites__Please_relogin_": {
+      "message": "Siteleriniz y\u00FCklenirken bir sorunla kar\u015F\u0131la\u015F\u0131ld\u0131.L\u00FCtfen yeniden giri\u015F yap\u0131n."
+   },
+   "An_error_occurred": {
+      "message": "Bir hata olu\u015Ftu"
+   },
+   "An_error_occurred_while_importing_your_Google_Chrome_passwords_": {
+      "message": "Google Chrome \u015Fifreleri al\u0131rken bir hata olu\u015Ftu."
+   },
+   "An_error_occurred_while_re_encrypting_your_data": {
+      "message": "Verileriniz terar \u015Fifrelenirken bir hata olu\u015Ftu."
+   },
+   "An_error_occurred_while_uploading_your_data___Would_you_like_to_retry_": {
+      "message": "Veriniz y\u00FCklenirken bir hata olu\u015Ftu. Tekrar denemek ister misiniz?"
+   },
+   "Andorra": {
+      "message": "Andorra"
+   },
+   "Angola": {
+      "message": "Angola"
+   },
+   "Anguilla": {
+      "message": "Anguilla"
+   },
+   "Antarctica": {
+      "message": "Antarktika"
+   },
+   "Antigua_and_Barbuda": {
+      "message": "Antigua ve Barbuda"
+   },
+   "Appearance": {
+      "message": "G\u00F6r\u00FCn\u00FCm"
+   },
+   "Application_": {
+      "message": "Uygulama:"
+   },
+   "Applications": {
+      "message": "Uygulamalar"
+   },
+   "April": {
+      "message": "Nisan"
+   },
+   "Arbitrary_notes_to_store_along_with_this_Form_Fill_profile": {
+      "message": "Geli\u015Fig\u00FCzel notlar\u0131n\u0131z\u0131 saklamak i\u00E7in bu Form Doldurma profili ile birlikte doldurunuz. "
+   },
+   "Are_you_sure_you_want_to_delete_this_identity_": {
+      "message": "Bu kimli\u011Fi silmek istedi\u011Finizden emin misiniz? "
+   },
+   "Are_you_sure_you_want_to_delete_this_site_": {
+      "message": "Bu siteyi silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_want_to_have_LastPass_remember_your_password___This_will_significantly_decrease_the_security_of_your_LastPass_account_": {
+      "message": "LastPass'\u0131n \u015Fifrenizi hat\u0131rlamas\u0131n\u0131 istedi\u011Finizden emin misiniz? Bu \u00F6nemli LastPass hesab\u0131n\u0131z\u0131n g\u00FCvenlik seviyesini d\u00FC\u015Furecektir!"
+   },
+   "Are_you_sure_you_would_like_to_delete_": {
+      "message": "Silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_items_": {
+      "message": "Se\u00E7ilen \u00F6\u011Feleri silmeye emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_sites_": {
+      "message": "Se\u00E7ili siteleri silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_application_": {
+      "message": "Bunu uygulamay\u0131 silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_field_": {
+      "message": "Bu alan\u0131 silmek istedi\u011Finize emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_form_fill_profile_": {
+      "message": "Bu forum doldurma profilini silmek istedi\u011Finize emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_generated_password_": {
+      "message": "Bu olu\u015Fturulan \u015Fifreyi silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_group_": {
+      "message": "Bu grubu silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_never_URL_": {
+      "message": "Silmek istedi\u011Finden emin misin bunu:'Never URL'"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_secure_note_": {
+      "message": "Bu g\u00FCvenli notu silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_site_": {
+      "message": "Bu siteyi silmek istedi\u011Finizden emin misiniz?"
+   },
+   "Are_you_sure_you_would_like_to_remove_this_attachment_": {
+      "message": "Bu eki kald\u0131rmak istedi\u011Finizden emin misiniz?"
+   },
+   "Argentina": {
+      "message": "Arjantin"
+   },
+   "Arizona": {
+      "message": "Arizona"
+   },
+   "Armenia": {
+      "message": "Ermenistan"
+   },
+   "Aruba": {
+      "message": "Aruba"
+   },
+   "Astana__Dhaka__Ekaterinburg": {
+      "message": "Astana, Dhaka, Ekaterinburg"
+   },
+   "Atlantic_Time__Canada___Manaus__Santiago": {
+      "message": "Atlantik Zaman\u0131 (Kanada), Manaus, Santiago"
+   },
+   "Auckland__Wellington": {
+      "message": "Auckland, Wellington"
+   },
+   "August": {
+      "message": "A\u011Fustos"
+   },
+   "Australia": {
+      "message": "Avustralya"
+   },
+   "Austria": {
+      "message": "Avusturya"
+   },
+   "Authenticate": {
+      "message": "Do\u011Frulama"
+   },
+   "Authentication": {
+      "message": "Kimlik Do\u011Frulama"
+   },
+   "Authentication_Failed_": {
+      "message": "Do\u011Frulama ge\u00E7ersiz."
+   },
+   "AutoFill": {
+      "message": "Otomatik Doldur"
+   },
+   "AutoLogin": {
+      "message": "Otomatik Giri\u015F"
+   },
+   "Automatically_Fill_Login_Information": {
+      "message": "Giri\u015F bilgilerini otomatik olarak doldur"
+   },
+   "Automatically_Logoff_after_idle__mins_": {
+      "message": "Oturumu belirli birka\u00E7 dakika sonra otomatik olarak kapat"
+   },
+   "Automatically_Logoff_when_all_browsers_are_closed_and_Chrome_has_been_closed_for__mins_": {
+      "message": "T\u00FCm taray\u0131c\u0131lar ve Chrome [mins] dakika boyunca kapal\u0131 kal\u0131rsa oturumu kapat"
+   },
+   "Automatically_login_to_sites_if_time_since_last_login____seconds_": {
+      "message": "E\u011Fer son giri\u015F zaman\u0131 ... (saniye) ise Sitelere otomatik gir."
+   },
+   "Avoid_Ambiguous_Characters": {
+      "message": "Belirsiz karakterlerden ka\u00E7\u0131n\u0131n"
+   },
+   "Azerbaijan": {
+      "message": "Azerbaycan"
+   },
+   "Azores": {
+      "message": "Azores"
+   },
+   "Back": {
+      "message": "Geri"
+   },
+   "Baghdad": {
+      "message": "Ba\u011Fdat"
+   },
+   "Bahamas": {
+      "message": "Bahamalar"
+   },
+   "Bahrain": {
+      "message": "Bahreyn"
+   },
+   "Baku__Yerevan": {
+      "message": "Bak\u00FC, Erivan"
+   },
+   "Bangkok__Hanoi__Jakarta__Novosibirsk": {
+      "message": "Bangkok, Hanoi, Jakarta, Novosibirsk"
+   },
+   "Bangladesh": {
+      "message": "Banglade\u015F"
+   },
+   "Bank_Account": {
+      "message": "Banka Hesab\u0131"
+   },
+   "Bank_accountformfill": {
+      "message": "Banka hesab\u0131"
+   },
+   "Bank_name": {
+      "message": "Banka ad\u0131"
+   },
+   "Barbados": {
+      "message": "Barbados"
+   },
+   "Before_you_can_use_LastPass__you_must_first_connect_your_fingerprint_reader_and_enroll_one_or_more_fingers_": {
+      "message": "Lastpass'\u0131 kullanmadan \u00F6nce, \u00F6ncelikle parmak izi okuyucunuzu ba\u011Flamal\u0131 ve bir veya daha fazla parmak izinizi kaydetmelisiniz."
+   },
+   "Beijing__Hong_Kong__Singapore__Taipei__Krasnoyarsk": {
+      "message": "Pekin, Hong Kong, Singapur, Taipei, Krasnoyarsk"
+   },
+   "Belarus": {
+      "message": "Beyaz Rusya"
+   },
+   "Belgium": {
+      "message": "Bel\u00E7ika"
+   },
+   "Belize": {
+      "message": "Belize"
+   },
+   "Benin": {
+      "message": "Benin"
+   },
+   "Bermuda": {
+      "message": "Bermuda"
+   },
+   "Bhutan": {
+      "message": "Bhutan"
+   },
+   "Binary_Component_": {
+      "message": "Binary Bile\u015Feni:"
+   },
+   "Birthday": {
+      "message": "Do\u011Fum g\u00FCn\u00FC"
+   },
+   "Bit_Strength": {
+      "message": "Bit G\u00FCc\u00FC"
+   },
+   "Blacklist": {
+      "message": "Birden fazla ba\u015Far\u0131s\u0131z oturum a\u00E7ma denemesi nedeniyle hesab\u0131n\u0131z ge\u00E7ici olarak(5 dakika) ask\u0131ya al\u0131nm\u0131\u015Ft\u0131r."
+   },
+   "Blog": {
+      "message": "Blog"
+   },
+   "Bolivia": {
+      "message": "Bolivya"
+   },
+   "Bookmarklets": {
+      "message": "Yer \u0130mletleri"
+   },
+   "Bosnia_and_Herzegovina": {
+      "message": "Bosna Hersek"
+   },
+   "Botswana": {
+      "message": "Botswana"
+   },
+   "Bouvet_Island": {
+      "message": "Bouvet Adas\u0131"
+   },
+   "Branch_Address": {
+      "message": "\u015Eube Adresi"
+   },
+   "Branch_Phone": {
+      "message": "\u015Eube Telefon"
+   },
+   "Brazil": {
+      "message": "Brezilya"
+   },
+   "Brisbane__Guam__Port_Moresby__Yakutsk": {
+      "message": "Brisbane, Guam, Port Moresby, Yakutsk"
+   },
+   "British_Indian_Ocean_Territory": {
+      "message": "\u0130ngiliz Hint Okyanusu B\u00F6lgesi"
+   },
+   "Browse_the_web_as_you_normally_would_and_LastPass_will_automatically_remember_passwords_as_you_enter_them_": {
+      "message": "Normal bi\u00E7imde web'de gezinin, LastPass otomatik olarak girdi\u011Finiz parolalar\u0131 hat\u0131rlayacak."
+   },
+   "Brunei_Darussalam": {
+      "message": "Brunei Sultanl\u0131\u011F\u0131"
+   },
+   "Buenos_Aires__Georgetown": {
+      "message": "Buenos Aires, Georgetown"
+   },
+   "Built_": {
+      "message": "Derleme:"
+   },
+   "Bulgaria": {
+      "message": "Bulgaristan"
+   },
+   "Burkina_Faso": {
+      "message": "Burkina Faso"
+   },
+   "Burundi": {
+      "message": "Burundi"
+   },
+   "But_I_m_a_forgetful_person___what_should_I_do_if_I_forget_my_password_": {
+      "message": "Ama ben unutkan biriyim... \u015Eifremi unutursam ne yapmal\u0131y\u0131m?"
+   },
+   "CSV_Files": {
+      "message": "CSV Dosyalar\u0131"
+   },
+   "Cambodia": {
+      "message": "Kambo\u00E7ya"
+   },
+   "Cameroon": {
+      "message": "Kamerun"
+   },
+   "Can_t_find_hidden_LastPass_window": {
+      "message": "Gizli LastPass penceresi bulunamad\u0131."
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canary_Islands": {
+      "message": "Kanarya Adalar\u0131"
+   },
+   "Canberra__Melbourne__Sydney__Hobart": {
+      "message": "Canberra, Melbourne, Sidney, Hobart"
+   },
+   "Cancel": {
+      "message": "\u0130ptal"
+   },
+   "Cape_Verde": {
+      "message": "Cape Verde"
+   },
+   "Cape_Verde_Is_": {
+      "message": "Ye\u015Fil Burun Adalar\u0131"
+   },
+   "Caracas": {
+      "message": "Caracas"
+   },
+   "Casablanca__Monrovia__Reykjavik": {
+      "message": "Casablanca, Monrovia, Reykjavik"
+   },
+   "Catalan": {
+      "message": "Katalanca"
+   },
+   "Cayman_Islands": {
+      "message": "Cayman Adalar\u0131"
+   },
+   "Central_African_Republic": {
+      "message": "Orta Afrika Cumhuriyeti"
+   },
+   "Central_America__Saskatchewan": {
+      "message": "Orta Amerika, Saskatchewan"
+   },
+   "Central_Time__US___Canada___Guadalajara__Mexico_City": {
+      "message": "Merkezi Saati (ABD ve Kanada), Guadalajara, Mexico City"
+   },
+   "Chad": {
+      "message": "\u00C7ad"
+   },
+   "Change": {
+      "message": "De\u011Fi\u015Ftir"
+   },
+   "Change_Group_Name": {
+      "message": "Grup Ad\u0131n\u0131 De\u011Fi\u015Ftir"
+   },
+   "Change_Password": {
+      "message": "\u015Eifreyi De\u011Fi\u015Ftir"
+   },
+   "Check_For_Updates": {
+      "message": "G\u00FCncellemeleri Denetle"
+   },
+   "Checkbox": {
+      "message": "Onay Kutusu"
+   },
+   "Checking_For_Updates___": {
+      "message": "G\u00FCncellemeler kontrol ediliyor..."
+   },
+   "Chennai__Kolkata__Mumbai__New_Delhi__Sri_Jayawardenepura": {
+      "message": "Madras, Kalk\u00FCta, Bombay, Yeni Delhi, Sri Jayawardenepura"
+   },
+   "Chile": {
+      "message": "\u015Eili"
+   },
+   "China": {
+      "message": "\u00C7in"
+   },
+   "Chinese__Simplified_": {
+      "message": "\u00C7ince (Basitle\u015Ftirilmi\u015F)"
+   },
+   "Chinese__Traditional_": {
+      "message": "\u00C7ince (Geleneksel)"
+   },
+   "Choose_Profile_and_Credit_Card": {
+      "message": "Profil ve Kredi Kart\u0131  se\u00E7in"
+   },
+   "Choose_a_source_above_": {
+      "message": "Yukar\u0131dan bir kaynak se\u00E7in."
+   },
+   "Christmas_Island": {
+      "message": "Christmas Adas\u0131"
+   },
+   "Chrome": {
+      "message": "Chrome"
+   },
+   "City___Town": {
+      "message": "\u0130l / \u0130l\u00E7e"
+   },
+   "Clear": {
+      "message": "Temizle"
+   },
+   "Clear_Clipboard_after_use__seconds_": {
+      "message": "Clipboard'u kullan\u0131mdan sonra temizle (saniye)"
+   },
+   "Clear_Forms": {
+      "message": "Formlar\u0131 Temizle"
+   },
+   "Clear_Local_Cache": {
+      "message": "Yerel \u00D6nbelle\u011Fi Temizle"
+   },
+   "Clear_Recent": {
+      "message": "Yak\u0131n ge\u00E7mi\u015Fi temizle"
+   },
+   "Clear_filled_fields_on_logoff": {
+      "message": "\u00C7\u0131k\u0131\u015Fta doldurulmu\u015F alanlar\u0131 temizle"
+   },
+   "Click_Continue_to_start_using_LastPass_": {
+      "message": "LastPass'\u0131 kullanmaya ba\u015Flamak i\u00E7in Devam'\u0131 t\u0131klay\u0131n"
+   },
+   "Click_Icons_in_Fields": {
+      "message": "Alanlardaki simgelere t\u0131klay\u0131n"
+   },
+   "Click_here_to_launch_account_settings": {
+      "message": "Hesap ayarlar\u0131na ula\u015Fmak i\u00E7in buraya t\u0131klay\u0131n\u0131z."
+   },
+   "Click_here_to_launch_feedback": {
+      "message": "Geri Bildirim yapmak i\u00E7in buraya t\u0131klay\u0131n\u0131z."
+   },
+   "Clipperz": {
+      "message": "Clipperz"
+   },
+   "Close": {
+      "message": "Kapat"
+   },
+   "Close_this_window": {
+      "message": "Bu pencereyi kapat"
+   },
+   "Co_pay": {
+      "message": "Ortak \u00F6deme"
+   },
+   "Cocos__Keeling__Islands": {
+      "message": "Cocos (Keeling) Adalar\u0131"
+   },
+   "Collapse_All": {
+      "message": "T\u00FCm\u00FCn\u00FC Daralt"
+   },
+   "Colombia": {
+      "message": "Kolombiya"
+   },
+   "Comoros": {
+      "message": "Komorlar"
+   },
+   "Company": {
+      "message": "\u015Eirket"
+   },
+   "CompanyPolicyProhibits": {
+      "message": "LastPass Form Doldurma'n\u0131n terc\u00FCmesine yard\u0131mc\u0131 olun ar \u00E7evirmek Yard\u0131m"
+   },
+   "Company_policy_prevents_changing_some_settings__not_all_updates_have_been_saved_": {
+      "message": "\u015Eirket politikas\u0131 baz\u0131 ayarlar\u0131n de\u011Fi\u015Ftirilmesini engelliyor, yap\u0131lan g\u00FCncellemelerin hepsi kaydedilmedi."
+   },
+   "Complete_the_below_information_to_add_a_new_Credit_Card_profile": {
+      "message": "Yeni bir Kredi Kart\u0131 profili eklemek i\u00E7in a\u015Fa\u011F\u0131daki bilgiyi doldurun"
+   },
+   "Complete_the_below_information_to_add_a_new_Form_Fill_profile": {
+      "message": "Yeni bir Form Doldurma profili eklemek i\u00E7in a\u015Fa\u011F\u0131daki bilgiyi doldurun"
+   },
+   "Configure_Form_Fill": {
+      "message": "Form Doldurucuyu Yap\u0131land\u0131r"
+   },
+   "Confirm": {
+      "message": "Onayla"
+   },
+   "Confirm_Password": {
+      "message": "\u015Eifreyi Onayla"
+   },
+   "Congo": {
+      "message": "Kongo"
+   },
+   "Congo__the_Democratic_Republic_of_The": {
+      "message": "Kongo, Demokratik Cumhuriyeti"
+   },
+   "Congratulations": {
+      "message": "Tebrikler"
+   },
+   "Connection_Mode": {
+      "message": "Ba\u011Flant\u0131 Modu"
+   },
+   "Connection_Type": {
+      "message": "Ba\u011Flant\u0131 T\u00FCr\u00FC"
+   },
+   "Contact": {
+      "message": "\u0130leti\u015Fim"
+   },
+   "Continue": {
+      "message": "Devam"
+   },
+   "Control_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "Se\u00E7ilen dosya ad\u0131nda kontrol karakterleri bulundu, i\u015Flem yap\u0131lmayacak"
+   },
+   "Cook_Islands": {
+      "message": "Cook Adalar\u0131"
+   },
+   "Copy": {
+      "message": "Kopyala"
+   },
+   "Copy_Note": {
+      "message": "Notu Kopyala"
+   },
+   "Copy_Password": {
+      "message": "\u015Eifreyi Kopyala"
+   },
+   "Copy_URL": {
+      "message": "URL'yi Kopyala"
+   },
+   "Copy_Username": {
+      "message": "Kullan\u0131c\u0131 Ad\u0131n\u0131 Kopyala"
+   },
+   "Copyright_2008_LastPass__All_Rights_Reserved__Portions_of_this_software_were_licensed_from_third_parties_as_described_at_": {
+      "message": "Copyright 2008 LastPass. T\u00FCm Haklar\u0131 Sakl\u0131d\u0131r.\nBu yaz\u0131l\u0131m\u0131n par\u00E7alar\u0131 a\u015Fa\u011F\u0131daki ba\u011Flant\u0131da belirtildi\u011Fi gibi lisanslanm\u0131\u015Ft\u0131r:"
+   },
+   "Costa_Rica": {
+      "message": "Kostarika"
+   },
+   "Cote_D_ivoire": {
+      "message": "Fildi\u015Fi Sahili"
+   },
+   "Country": {
+      "message": "\u00DClke"
+   },
+   "County": {
+      "message": "\u0130l\u00E7e"
+   },
+   "Create_Account": {
+      "message": "Hesap Olu\u015Ftur"
+   },
+   "Create_Group": {
+      "message": "Grup yarat"
+   },
+   "Create_Sub_Group": {
+      "message": "Alt Grup Olu\u015Ftur"
+   },
+   "Create_an_Account": {
+      "message": "Hesap Olu\u015Ftur"
+   },
+   "Creating_Account___": {
+      "message": "Hesap Olu\u015Fturuluyor..."
+   },
+   "Credit_Monitoring": {
+      "message": "Kredi \u0130zleme"
+   },
+   "Credit_card": {
+      "message": "Kredi kart\u0131"
+   },
+   "Credit_card_number": {
+      "message": "Kredi kart\u0131 numaras\u0131"
+   },
+   "Croatia": {
+      "message": "H\u0131rvatistan"
+   },
+   "Ctrl": {
+      "message": "Ctrl"
+   },
+   "Cuba": {
+      "message": "K\u00FCba"
+   },
+   "Custom_Value": {
+      "message": "\u00D6zel de\u011Fer"
+   },
+   "Custom_field__": {
+      "message": "\u00D6zel alan #"
+   },
+   "Custom_fields": {
+      "message": "\u00D6zel alanlar"
+   },
+   "Cyprus": {
+      "message": "K\u0131br\u0131s"
+   },
+   "Czech_Republic": {
+      "message": "\u00C7ek Cumhuriyeti"
+   },
+   "Danish": {
+      "message": "Danca"
+   },
+   "Darn__Passwords_": {
+      "message": "Hay aksi! \u015Eifreler!"
+   },
+   "Darwin": {
+      "message": "Darwin"
+   },
+   "Database": {
+      "message": "Veritaban\u0131"
+   },
+   "Date": {
+      "message": "Tarih"
+   },
+   "Date_of_Birth": {
+      "message": "Do\u011Fum Tarihi"
+   },
+   "December": {
+      "message": "Aral\u0131k"
+   },
+   "Default": {
+      "message": "Varsay\u0131lan"
+   },
+   "Default_Form_Fill_Profile": {
+      "message": "Varsay\u0131lan Form Tamamlama Profili"
+   },
+   "Delete": {
+      "message": "Sil"
+   },
+   "Delete_Cache": {
+      "message": "\u00D6nbelle\u011Fi Sil"
+   },
+   "Delete_Group": {
+      "message": "Grubu Sil"
+   },
+   "Delete_Identity_": {
+      "message": "Kimlik Sil?"
+   },
+   "Delete_Selected": {
+      "message": "Se\u00E7ileni Sil"
+   },
+   "Delete_Site_": {
+      "message": "Siteyi Sil?"
+   },
+   "Delete_this_form_fill_profile": {
+      "message": "Bu Form Doldurma profilini sil"
+   },
+   "Denmark": {
+      "message": "Danimarka"
+   },
+   "Disable_Insecure_Chrome_Password_Manager": {
+      "message": "G\u00FCvensiz Chrome Parola Y\u00F6neticisini devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "Disable_Multifactor_Authentication": {
+      "message": "\u00C7okFakt\u00F6r'l\u00FC Do\u011Frulamay\u0131 Devre D\u0131\u015F\u0131 B\u0131rak"
+   },
+   "Disable_Single_factor_Authentication": {
+      "message": "Tek Etmenli Kimlik Do\u011Frulamay\u0131 Kapat"
+   },
+   "Disable_alert___": {
+      "message": "Uyar\u0131lar\u0131 kapat.."
+   },
+   "Disable_alert_for_this_site": {
+      "message": "Site i\u00E7in uyar\u0131lar\u0131 kapat"
+   },
+   "Discard_changes_and_close_this_window": {
+      "message": "De\u011Fi\u015Fiklikleri g\u00F6z ard\u0131 et ve pencereyi kapat"
+   },
+   "Djibouti": {
+      "message": "Cibuti"
+   },
+   "Do_not_overwrite_fields_that_are_already_filled": {
+      "message": "Zaten doldurulmu\u015F alanlardaki bilgileri de\u011Fi\u015Ftirme!"
+   },
+   "Do_not_re_prompt_for_": {
+      "message": "i\u00E7in yeniden sorma"
+   },
+   "Do_you_like_LastPass_": {
+      "message": "LastPass'i be\u011Feniyor musunuz?"
+   },
+   "Do_you_really_want_to_quit___You_cannot_use_LastPass_without_creating_an_account_": {
+      "message": "Ger\u00E7ekten \u00E7\u0131kmak istiyor musunuz? Bir hesap olu\u015Fturmadan LastPass'i kullanamazs\u0131n\u0131z."
+   },
+   "Dominica": {
+      "message": "Dominik"
+   },
+   "Dominican_Republic": {
+      "message": "Dominik Cumhuriyeti"
+   },
+   "Down": {
+      "message": "A\u015Fa\u011F\u0131"
+   },
+   "Dr": {
+      "message": "Dr"
+   },
+   "Driver_s_License": {
+      "message": "Ehliyet"
+   },
+   "Duplicate_password": {
+      "message": "Yinelenen \u015Fifre"
+   },
+   "Dutch": {
+      "message": "Flemenk\u00E7e"
+   },
+   "ERROR__Moving_sites_between_shared_folders_is_currently_not_supported_": {
+      "message": "HATA: Siteleri payla\u015F\u0131lan klas\u00F6rler aras\u0131nda ta\u015F\u0131ma \u015Fu anda desteklenmiyor."
+   },
+   "ERROR__You_are_not_allowed_to_move_sites_out_of_shared_folders__Delete_is_the_only_supported_operation_": {
+      "message": "HATA: sitelerinde payla\u015F\u0131lan klas\u00F6rleri d\u0131\u015Far\u0131 ta\u015F\u0131mak i\u00E7in izin verilmez. Sil desteklenen tek i\u015Flemdir."
+   },
+   "Eastern_Time__US___Canada_": {
+      "message": "Do\u011Fu Saati (ABD ve Kanada)"
+   },
+   "Ecuador": {
+      "message": "Ekvador"
+   },
+   "Edit": {
+      "message": "D\u00FCzenle"
+   },
+   "Edit_Application": {
+      "message": "Uygulamay\u0131 D\u00FCzenle"
+   },
+   "Edit_Application_Fields": {
+      "message": "Uygulama Alanlar\u0131n\u0131 D\u00FCzenle"
+   },
+   "Edit_Credit_Card_profile": {
+      "message": "Kredi Kart\u0131 profilini d\u00FCzenle"
+   },
+   "Edit_Form_Fields": {
+      "message": "Form alanlar\u0131n\u0131 d\u00FCzenle"
+   },
+   "Edit_Form_Fill_profile": {
+      "message": "Form doldurma profilini d\u00FCzenle"
+   },
+   "Edit_Secure_Note": {
+      "message": "G\u00FCvenli notu d\u00FCzenle"
+   },
+   "Edit_Secure_Notes": {
+      "message": "G\u00FCvenli notlar\u0131 d\u00FCzenle"
+   },
+   "Edit_Site": {
+      "message": "Siteyi d\u00FCzenle"
+   },
+   "Edit_Site_Fields": {
+      "message": "Site alanlar\u0131n\u0131 d\u00FCzenle"
+   },
+   "Egypt": {
+      "message": "M\u0131s\u0131r"
+   },
+   "El_Salvador": {
+      "message": "El Salvador"
+   },
+   "Email": {
+      "message": "E-posta"
+   },
+   "Email_Account": {
+      "message": "E-posta Hesab\u0131"
+   },
+   "Email_address": {
+      "message": "Email adresi"
+   },
+   "Email_already_in_use__have_you_forgotten_your_password_": {
+      "message": "E-posta zaten kullan\u0131mda. \u015Eifrenizi mi unuttunuz?"
+   },
+   "Enable_Credit_Monitoring": {
+      "message": "Kredi \u0130zlemeyi etkinle\u015Ftirin"
+   },
+   "Enable_Free_Credit_Monitoring": {
+      "message": "\u00DCcretsiz Kredi \u0130zlemeyi etkinle\u015Ftirin"
+   },
+   "Encryption": {
+      "message": "\u015Eifreleme"
+   },
+   "End": {
+      "message": "Son"
+   },
+   "English": {
+      "message": "\u0130ngilizce"
+   },
+   "English__United_Kingdom_": {
+      "message": "\u0130ngilizce (Birle\u015Fik Krall\u0131k)"
+   },
+   "Enter_PIN": {
+      "message": "PIN kodunu girin"
+   },
+   "Enter_arbitrary_notes": {
+      "message": "Keyfi Notlar\u0131n\u0131z\u0131 Giriniz"
+   },
+   "Enter_your_smart_card_PIN_": {
+      "message": "Ak\u0131ll\u0131 kart PIN kodunuzu giriniz:"
+   },
+   "Enterprise": {
+      "message": "\u015Eirket"
+   },
+   "Enterprise_Console": {
+      "message": "Kurumsal Konsol"
+   },
+   "Equatorial_Guinea": {
+      "message": "Ekvator Ginesi"
+   },
+   "Eritrea": {
+      "message": "Eritre"
+   },
+   "ErrorGetAcctsMsg": {
+      "message": "LastPass sitelerinizi al\u0131rken bir hata olu\u015Ftu.L\u00FCtfen sitelerinizi almak i\u00E7in yeniden giri\u015F yap\u0131n."
+   },
+   "ErrorLoginMsg": {
+      "message": "LastPass'a giri\u015F yaparken bir hata olu\u015Ftu.L\u00FCtfen internet ba\u011Flant\u0131n\u0131z\u0131 kontrol edin."
+   },
+   "ErrorSendingMsg": {
+      "message": "Sunucuya ba\u011Flan\u0131rken bir hata olu\u015Ftu.L\u00FCtfen internet ba\u011Flant\u0131n\u0131z\u0131 kontrol edin."
+   },
+   "ErrorSessionMsg": {
+      "message": "LastPass oturumunuzun s\u00FCresi dolmu\u015F g\u00F6z\u00FCk\u00FCyor. L\u00FCtfen tekrar giri\u015F yap\u0131n."
+   },
+   "Error__This_folder_has_already_been_moved_": {
+      "message": "Hata: Bu klas\u00F6r zaten ta\u015F\u0131nm\u0131\u015F"
+   },
+   "Error_opening_attachment_": {
+      "message": "Eki a\u00E7arken hata olu\u015Ftu."
+   },
+   "Estonia": {
+      "message": "Estonya"
+   },
+   "Ethiopia": {
+      "message": "Etiyopya"
+   },
+   "Evening_number": {
+      "message": "Ak\u015Fam numaras\u0131"
+   },
+   "ExistingUsersOTPPrompt": {
+      "message": "LastPass \u015Fiimdi ana LastPass \u015Fifrenizi unutursan\u0131z hesab\u0131n\u0131z\u0131 kurtarman\u0131z i\u00E7in yerel bir 'Tek Kullan\u0131ml\u0131k Parola' (TKP) saklayabilir. Bu TKP sunucudan etkin hale getirilene kadar devre d\u0131\u015F\u0131 kalacakt\u0131r.\n\nHesap Kurtarmay\u0131 etkin hale getirmek istiyor musunuz?"
+   },
+   "Expand_All": {
+      "message": "T\u00FCm\u00FCn\u00FC Geni\u015Flet"
+   },
+   "Expiration": {
+      "message": "Sona erme"
+   },
+   "Expiration_date": {
+      "message": "Biti\u015F tarihi"
+   },
+   "Export": {
+      "message": "D\u0131\u015Fa Aktar"
+   },
+   "Export_To": {
+      "message": "\u015Euraya D\u0131\u015Fa Aktar"
+   },
+   "Export_To_LastPass_CSV_File": {
+      "message": "LastPass CSV dosyas\u0131na aktar"
+   },
+   "FIPS_Mode": {
+      "message": "FIPS Modu"
+   },
+   "Falkland_Islands__Malvinas_": {
+      "message": "Falkland Adalar\u0131 (Malvinas)"
+   },
+   "Faroe_Islands": {
+      "message": "Faroe Adalar\u0131"
+   },
+   "Favorite": {
+      "message": "S\u0131k Kullan\u0131lan"
+   },
+   "Favoritesproper": {
+      "message": "Yer \u0130mleri"
+   },
+   "Fax_number": {
+      "message": "Faks numaras\u0131"
+   },
+   "February": {
+      "message": "\u015Eubat"
+   },
+   "Feedback": {
+      "message": "Geri Bildirim"
+   },
+   "Female": {
+      "message": "Kad\u0131n"
+   },
+   "Fields_": {
+      "message": "Alanlar:"
+   },
+   "Fiji": {
+      "message": "Fiji"
+   },
+   "Fiji__Kamchatka__Marshall_Is_": {
+      "message": "Fiji, Kam\u00E7atka, Marshall Adalar\u0131"
+   },
+   "File": {
+      "message": "Dosya"
+   },
+   "File_too_large__it_must_be_less_than_5MB_": {
+      "message": "Dosya boyutu \u00E7ok b\u00FCy\u00FCk, doya boyutu 5MB'tan k\u00FC\u00E7\u00FCk olmal\u0131d\u0131r."
+   },
+   "Files": {
+      "message": "Dosyalar"
+   },
+   "Fill": {
+      "message": "Doldur"
+   },
+   "Fill_Current": {
+      "message": "Ge\u00E7erliyi Doldur"
+   },
+   "Fill_Form": {
+      "message": "Formu Doldur"
+   },
+   "Fill_Forms": {
+      "message": "Formlar\u0131 Doldur"
+   },
+   "Fill_In_Default_Form_Fill_Profile": {
+      "message": "Varsay\u0131lan Form Tamamlama Profilini Tan\u0131mla"
+   },
+   "Fill_In_Next_Login__When_Multiple_": {
+      "message": "Bir Sonraki Giri\u015Fte Doldur(\u00C7oklu oldu\u011Fu zaman)"
+   },
+   "Fill_In_Previous_Login__When_Multiple_": {
+      "message": "Bir \u00D6nceki Giri\u015Fte Doldur(\u00C7oklu oldu\u011Fu zaman)"
+   },
+   "Fill_or_Edit_Form_Fill_Data": {
+      "message": "Form doldurma bilgilerini doldur veya d\u00FCzenle"
+   },
+   "FillableFormDetected": {
+      "message": "Bu sayfada doldurulabilir bir form alg\u0131land\u0131."
+   },
+   "Filter": {
+      "message": "Filtre"
+   },
+   "Find_a_site": {
+      "message": "Bir site bul"
+   },
+   "Finland": {
+      "message": "Finlandiya"
+   },
+   "Finnish": {
+      "message": "Fince"
+   },
+   "FireForm": {
+      "message": "FireForm"
+   },
+   "Firefox_Password_Manager": {
+      "message": "Firefox Parola Y\u00F6neticisi"
+   },
+   "First_3_digits_of_your_phone_number": {
+      "message": "Telefon numaran\u0131z\u0131n ilk 3 hanesi"
+   },
+   "First_name": {
+      "message": "Ad"
+   },
+   "For_each_coordinate_listed_below__find_the_value_on_your_grid_and_enter_the_value_": {
+      "message": "A\u015Fa\u011F\u0131da listelenen her koordinat i\u00E7in, tablodaki de\u011Feri bulun ve de\u011Ferini girin."
+   },
+   "FormFill": {
+      "message": "Form Doldur"
+   },
+   "FormFill_Profiles": {
+      "message": "Form Doldurma Profilleri"
+   },
+   "Form_Fill": {
+      "message": "Formu Doldurma"
+   },
+   "Form_Fill_Profile": {
+      "message": "Form Doldurma Profili"
+   },
+   "Form_Fill_Profiles": {
+      "message": "Form Doldurma Profilleri"
+   },
+   "Form_Name_": {
+      "message": "Form Ad\u0131:"
+   },
+   "Forums": {
+      "message": "Forumlar"
+   },
+   "France": {
+      "message": "Fransa"
+   },
+   "French": {
+      "message": "Frans\u0131zca"
+   },
+   "French_Guiana": {
+      "message": "Frans\u0131z Guyanas\u0131"
+   },
+   "French_Polynesia": {
+      "message": "Frans\u0131z Polinezyas\u0131"
+   },
+   "French_Southern_Territories": {
+      "message": "Frans\u0131z G\u00FCney Topraklar\u0131"
+   },
+   "French__Canada_": {
+      "message": "Frans\u0131zca (Kanada)"
+   },
+   "Full_path_of_file_to_import_": {
+      "message": "\u0130\u00E7e aktarmak i\u00E7in dosyan\u0131n tam yolu:"
+   },
+   "Full_path_of_the_file_to_import_": {
+      "message": "\u0130\u00E7e Aktarmak i\u00E7in dosyan\u0131n tam yolu:"
+   },
+   "GET_FREE_PREMIUM": {
+      "message": "\u00DCCRETS\u0130Z PREMIUM ALIN"
+   },
+   "GMT_5": {
+      "message": "GMT +5"
+   },
+   "GMT_7": {
+      "message": "GMT +7"
+   },
+   "GMT_9": {
+      "message": "GMT +9"
+   },
+   "GMT_Dublin__Edinburgh__Lisbon__London": {
+      "message": "GMT Dublin, Edinburg, Lizbon, Londra"
+   },
+   "GMT__Dublin__Edinburgh__Lisbon__London": {
+      "message": "GMT: Dublin, Edinburgh, Lizbon, Londra"
+   },
+   "Gabon": {
+      "message": "Gabon"
+   },
+   "Gambia": {
+      "message": "Gambiya"
+   },
+   "Gender": {
+      "message": "Cinsiyet"
+   },
+   "General": {
+      "message": "Genel"
+   },
+   "Generate": {
+      "message": "Olu\u015Ftur"
+   },
+   "GeneratePassword": {
+      "message": "E\u011Fer bir hesap olu\u015Fturuyorsan\u0131z veya \u015Fifrenizi de\u011Fi\u015Ftiriyorsan\u0131z, \u00F6zg\u00FCn ve g\u00FCvenli bir \u015Fifre i\u00E7in '\u00DCret' e bas\u0131n."
+   },
+   "Generate_Password": {
+      "message": "\u015Eifre Olu\u015Ftur"
+   },
+   "Generate_Secure_Password": {
+      "message": "G\u00FCvenli \u015Eifre Olu\u015Ftur"
+   },
+   "Generated_Password_for": {
+      "message": "Olu\u015Fturulan \u015Fifre:"
+   },
+   "Generic": {
+      "message": "Genel"
+   },
+   "Generic_CSV_File": {
+      "message": "Genel CSV dosyas\u0131"
+   },
+   "Georgia": {
+      "message": "G\u00FCrcistan"
+   },
+   "German": {
+      "message": "Almanca"
+   },
+   "Germany": {
+      "message": "Almanya"
+   },
+   "Ghana": {
+      "message": "Gana"
+   },
+   "Gibraltar": {
+      "message": "Cebelitar\u0131k"
+   },
+   "Go_Premium_": {
+      "message": "Premium Al!"
+   },
+   "Go_to_URL": {
+      "message": "URL'ye git"
+   },
+   "Google_Authenticator_Multifactor_Authentication": {
+      "message": "Google \u015Eifrematik Multifakt\u00F6r Do\u011Frulamas\u0131"
+   },
+   "Google_Chrome": {
+      "message": "Google Chrome"
+   },
+   "Google_Chrome_Password_Manager": {
+      "message": "Google Chrome \u015Eifre Y\u00F6neticisi"
+   },
+   "Google_Chrome_requires_that_extensions_use_the_same_language_as_the_browser__so_in_order_to_switch_LastPass_s_language__please_change_the_main_browser_language_under_Chrome_s_Options_": {
+      "message": "Bu eklenti ile Google Chrome' un ayn\u0131 dilde olmas\u0131 gerekiyor. \u015Eayet LastPass' \u0131n dil ayar\u0131n\u0131 de\u011Fi\u015Ftirdiyseniz, Chrome' un Se\u00E7enekler (options)- Dil (language) men\u00FClerinden dil ayar\u0131n\u0131 da de\u011Fi\u015Ftirmelisiniz."
+   },
+   "Greece": {
+      "message": "Yunanistan"
+   },
+   "Greenland": {
+      "message": "Gr\u00F6nland"
+   },
+   "Greenland__Brasilia__Montevideo": {
+      "message": "Gr\u00F6nland, Brasilia, Montevideo"
+   },
+   "Grenada": {
+      "message": "Grenada"
+   },
+   "Group_": {
+      "message": "Grup:"
+   },
+   "Group_ID": {
+      "message": "Grup Kimli\u011Fi"
+   },
+   "Group_Name": {
+      "message": "Grup Ad\u0131"
+   },
+   "Groups": {
+      "message": "Gruplar"
+   },
+   "Guadeloupe": {
+      "message": "Guadeloupe"
+   },
+   "Guam": {
+      "message": "Guam"
+   },
+   "Guatemala": {
+      "message": "Guatemala"
+   },
+   "Guernsey": {
+      "message": "Guernsey"
+   },
+   "Guinea": {
+      "message": "Gine"
+   },
+   "Guinea_Bissau": {
+      "message": "Gine Bissau"
+   },
+   "Guyana": {
+      "message": "Guyana"
+   },
+   "HP_Password_Safe": {
+      "message": "HP Password Safe"
+   },
+   "Haiti": {
+      "message": "Haiti"
+   },
+   "Harare__Pretoria": {
+      "message": "Harare, Pretoria"
+   },
+   "Hawaii": {
+      "message": "Hawaii"
+   },
+   "Health_Insurance": {
+      "message": "Sa\u011Fl\u0131k Sigortas\u0131"
+   },
+   "Heard_Island_and_Mcdonald_Islands": {
+      "message": "Heard Adas\u0131 ve McDonald Adalar\u0131"
+   },
+   "Height": {
+      "message": "Y\u00FCkseklik"
+   },
+   "Help_Translate": {
+      "message": "Terc\u00FCmeye yard\u0131m edin"
+   },
+   "Help___": {
+      "message": "Yard\u0131m..."
+   },
+   "Help_spread_the_word": {
+      "message": "Ad\u0131m\u0131z\u0131 duyurmam\u0131zda yard\u0131mc\u0131 olun"
+   },
+   "Hide_Context_Menu_Options": {
+      "message": "\u0130\u00E7erik Men\u00FCs\u00FC Se\u00E7eneklerini sakla."
+   },
+   "Highlight_input_boxes": {
+      "message": "Giri\u015F kutular\u0131n\u0131 vurgula"
+   },
+   "History": {
+      "message": "Ge\u00E7mi\u015F"
+   },
+   "Holy_See__Vatican_City_State_": {
+      "message": "Vatikan"
+   },
+   "Home": {
+      "message": "Ana Sayfa"
+   },
+   "Honduras": {
+      "message": "Honduras"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hostname": {
+      "message": "Sunucu Ad\u0131"
+   },
+   "HotKeys": {
+      "message": "K\u0131sayollar"
+   },
+   "Hungarian": {
+      "message": "Macarca"
+   },
+   "Hungary": {
+      "message": "Macaristan"
+   },
+   "IBAN_Number": {
+      "message": "IBAN Numaras\u0131"
+   },
+   "IMPORT_": {
+      "message": "\u0130\u00C7E AKTAR?"
+   },
+   "IT_IS_CRITICAL_THAT_YOU_NEVER_FORGET_YOUR_NEW_LASTPASS_PASSWORD_": {
+      "message": "YEN\u0130 LASTPASS PAROLANIZI ASLA UNUTMAMANIZ \u00C7OK \u00D6NEML\u0130D\u0130R."
+   },
+   "I_Forgot_my_Password": {
+      "message": "\u015Eifremi unuttum"
+   },
+   "I_forgot_my_password__Help_": {
+      "message": "Parolam\u0131 unuttum"
+   },
+   "I_have_read_and_agree_with_the": {
+      "message": "Okudum ve kabul ediyorum"
+   },
+   "I_understand_that_my_encrypted_data_will_be_sent_to_LastPass": {
+      "message": "\u015Eifrelenmi\u015F verilerimin LastPass'e g\u00F6nderilece\u011Fini anlad\u0131m"
+   },
+   "Iceland": {
+      "message": "\u0130zlanda"
+   },
+   "Identities": {
+      "message": "Kimlikler"
+   },
+   "Identity": {
+      "message": "Kimlik"
+   },
+   "If_checked__you_will_be_asked_to_re_enter_your_master_password_before_being_able_to_access_this_Form_Fill_profile": {
+      "message": "\u015Eayet se\u00E7ili ise, FORM DOLDURMA profiline eri\u015Fmeden \u00F6nce ana parolan\u0131z\u0131 tekrar girmeniz istenecek."
+   },
+   "If_checked__your_credit_report_will_be_regularly_monitored_and_you_will_be_alerted_if_any_suspicious_activity_occurs_": {
+      "message": "E\u011Fer i\u015Faretlerseniz, kredi raporunuz d\u00FCzenli olarak izlenecek ve herhangi bir \u015F\u00FCpheli eylem olu\u015Fmas\u0131 durumunda uyar\u0131lacaks\u0131n\u0131z."
+   },
+   "If_not_specified__will_use_a_file_extension_of_": {
+      "message": "Belirtilmezse, \u015Fu dosya uzant\u0131s\u0131 kullan\u0131r:"
+   },
+   "If_you_already_have_a_LastPass_account_you_can_close_this_window_and_login_": {
+      "message": "E\u011Fer bir LastPass hesab\u0131n\u0131z varsa bu pencereyi kapay\u0131p oturum a\u00E7abilirsiniz."
+   },
+   "If_you_do_end_up_forgetting_your_LastPass_master_password_": {
+      "message": "E\u011Fer ana LastPass \u015Fifrenizi unutursan\u0131z,"
+   },
+   "If_you_forgot_your_answer__click_here_to_reset_your_security_question": {
+      "message": "E\u011Fer cevab\u0131 unuttuysan\u0131z, g\u00FCvenlik sorunuzu s\u0131f\u0131rlamak i\u00E7in buraya t\u0131klay\u0131n"
+   },
+   "If_you_have_another_format_that_LastPass_doesn_t_currently_support_you_can_attempt_to_save_your_data_as_a_CSV_file__YOU_MUST_MODIFY_THE_FIRST_ROW_OF_THE_CSV_FILE_FOR_LASTPASS_TO_RECOGNIZE_IT__The_first_row_s_column_names_should_be_properly_setup_for_the_data_in_the_columns_Possible_first_row_names___url_username_password_extra_name_grouping___extra__means__notes__and__grouping__is_what_group_it_should_be_in___You_do_not_have_to_use_all_the_column_names_and_they_don_t_need_to_be_in_any_order___For_example_your_file_s_first_row_might_be_like___name_username_password_url__If_you_want_to_import_a_Secure_Note_instead_of_a_Site__simply_ensure_the__url____username___and__password__columns_are_left_blank__or_omit_the__url____username___and_or__password__columns_entirely___and_ensure_the__extra__column_is_not_blank___As_long_as_these_two_things_have_been_done__the_record_will_automatically_be_imported_as_a_Secure_Note_instead_of_a_Site___This_should_be_very_simple__just_open_your_saved_CSV_file_in_Excel_and_make_sure_the_top_row_has_the_appropriate_name_from_above_for_what_it_is___Save_it__then_import_the_resulting_file_": {
+      "message": "LastPass'in \u015Fuan desteklemedi\u011Fi bir formattaki veriyi CSV format\u0131nda kaydetmeyi deneyebilirsiniz.\n\nCSV DOSYASININ ILK SATIRINI LASTPASS'IN VERIYI AKTARABILMESI ICIN DUZENLEMELISINIZ"
+   },
+   "If_you_lost_your_Google_Authenticator_device__click_here_to_disable_Google_Authenticator_authentication": {
+      "message": "E\u011Fer Google \u015Eifrematik cihaz\u0131n\u0131z\u0131 kaybettiyseniz Google \u015Eifrematik kimlik do\u011Frulamas\u0131n\u0131 devre d\u0131\u015F\u0131 b\u0131rakmak i\u00E7in buraya t\u0131klay\u0131n."
+   },
+   "If_you_lost_your_Sesame_device__click_here_to_disable_Sesame_authentication": {
+      "message": "Sesame cihaz\u0131n\u0131z\u0131 kaybederseniz, Sesame onay\u0131n\u0131z\u0131 devre d\u0131\u015F\u0131 b\u0131rakmak i\u00E7in buraya t\u0131klay\u0131n."
+   },
+   "If_you_lost_your_YubiKey_device__click_here_to_disable_YubiKey_authentication": {
+      "message": "E\u011Fer YubiKey cihaz\u0131n\u0131z\u0131 kaybederseniz, YubiKey onay\u0131n\u0131z\u0131 devre d\u0131\u015F\u0131 b\u0131rakmak i\u00E7in buraya t\u0131klay\u0131n."
+   },
+   "If_you_lost_your_device__click_here_to_disable_multifactor_authentication": {
+      "message": "Cihaz\u0131n\u0131z\u0131 kaybettiyseniz, \u00E7ok fakt\u00F6rl\u00FC kimlik do\u011Frulamay\u0131 devre d\u0131\u015F\u0131 b\u0131rakmak i\u00E7in buraya t\u0131klay\u0131n"
+   },
+   "If_you_lost_your_grid__click_here_to_disable_grid_authentication": {
+      "message": "E\u011Fer tablonuzu kaybettiyseniz, buraya t\u0131klayarak tablo i\u00E7in kimlik do\u011Frulamay\u0131 etkisiz hale getirebilirsiniz."
+   },
+   "Import": {
+      "message": "\u0130\u00E7e aktar"
+   },
+   "Import_From": {
+      "message": "\u015Euradan \u0130\u00E7e Aktar"
+   },
+   "Import_Your_Data": {
+      "message": "Verinizi \u0130\u00E7e Aktar\u0131n"
+   },
+   "Importing_your_data_to_your_LastPass_vault_will_secure_it_and_protect_you_against_identity_theft__All_imported_data_remains_COMPLETELY_confidential__the_only_person_who_can_view_YOUR_data_is_YOU_": {
+      "message": "Bilgilerinizin LastPass i\u00E7erisindeki size ait olan alana aktarmak, bilgilerinizi g\u00FCvenli bir ortama ta\u015F\u0131mak anlam\u0131na gelir ve sizi sanal su\u00E7lulara kar\u015F\u0131 korur. \u0130\u00E7e aktar\u0131lan b\u00FCt\u00FCn bilgiler TAMAMEN gizli kalacakt\u0131r: S\u0130Z\u0130N verilerinizi g\u00F6rebilecek olan tek ki\u015Fi S\u0130ZS\u0130N\u0130Z."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_enable_access_for_assistive_devices_": {
+      "message": "LastPass'\u0131n temel kimlik do\u011Frulama diyaloglar\u0131n\u0131 doldurabilmesi i\u00E7in yard\u0131mc\u0131 cihazlar i\u00E7in eri\u015Fimi aktif hale getirmeniz gerekir."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_install_the_binary_version_of_LastPass_for_Chrome_": {
+      "message": "LastPass'\u0131n temel kimlik do\u011Frulama diyaloglar\u0131n\u0131 doldurabilmesi i\u00E7in LastPass'\u0131n Chrome i\u00E7in dijital versiyonunu y\u00FCklemeniz gerekir."
+   },
+   "India": {
+      "message": "Hindistan"
+   },
+   "Indiana__Bogota__Lima__Quito__Rio_Branco": {
+      "message": "Indiana, Bogota, Lima, Quito, Rio Branco"
+   },
+   "Indonesia": {
+      "message": "Endonezya"
+   },
+   "Install": {
+      "message": "Y\u00FCkle"
+   },
+   "Install_the_LastPass_Library_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "Bo\u015Ftayken otomatik oturum kapanma \u00F6zelli\u011Fini etkinle\u015Ftirmek i\u00E7in Chrome i\u00E7in LastPass K\u00FCt\u00FCphanesi'ni y\u00FCkleyin."
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "Bo\u015Fta durma an\u0131nda otomatik olarak LastPass'\u0131n \u00E7\u0131k\u0131\u015F yapmas\u0131n\u0131 etkinle\u015Ftirmek i\u00E7in, LastPass' \u0131n Chrome i\u00E7in \u00E7\u0131kard\u0131\u011F\u0131 'Binary S\u00FCr\u00FCm\u00FC' n\u00FC y\u00FCkleyin."
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_importing_passwords_from_Google_Chrome_password_manager": {
+      "message": "Google Chrome' daki \u015Fifre kay\u0131tlar\u0131n\u0131z\u0131n LastPass' a aktar\u0131lmas\u0131n\u0131 etkinle\u015Ftirmek i\u00E7in, LastPass' \u0131n Chrome i\u00E7in \u00E7\u0131kard\u0131\u011F\u0131 'Binary S\u00FCr\u00FCm\u00FCn\u00FC' y\u00FCkleyiniz."
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_sharing_login_state_between_other_browsers": {
+      "message": "Di\u011Fer web taray\u0131c\u0131lar\u0131 aras\u0131nda giri\u015F durumunuzu payla\u015Fma \u00F6zelli\u011Fini etkinle\u015Ftirmek i\u00E7in, LastPass' \u0131n Chrome i\u00E7in \u00E7\u0131kard\u0131\u011F\u0131 'Binary S\u00FCr\u00FCm\u00FCn\u00FC' y\u00FCkleyiniz."
+   },
+   "Instant_Messenger": {
+      "message": "IM"
+   },
+   "Instructions": {
+      "message": "Talimatlar"
+   },
+   "Insurance": {
+      "message": "Sigorta"
+   },
+   "International_Date_Line_West": {
+      "message": "Uluslararas\u0131 Tarih Hatt\u0131 Bat\u0131"
+   },
+   "Invalid_Password_": {
+      "message": "Ge\u00E7ersiz \u015Fifre."
+   },
+   "Invalid_email_address__try_again": {
+      "message": "Ge\u00E7ersiz e-posta adresi, tekrar deneyin"
+   },
+   "Invalid_file_type__it_must_be_an_image_that_can_be_displayed_by_your_browser_": {
+      "message": "Ge\u00E7ersiz dosya tipi, taray\u0131c\u0131n\u0131z taraf\u0131ndan g\u00F6sterilebilir olmas\u0131 i\u00E7in resim dosyas\u0131 olmas\u0131 gerekmektedir. "
+   },
+   "Iran__Islamic_Republic_Of_": {
+      "message": "\u0130ran (\u0130slam Cumhuriyeti)"
+   },
+   "Iraq": {
+      "message": "Irak"
+   },
+   "Ireland": {
+      "message": "\u0130rlanda"
+   },
+   "Islamabad__Karachi__Tashkent": {
+      "message": "\u0130slamabad, Kara\u00E7i, Ta\u015Fkent"
+   },
+   "Isle_of_Man": {
+      "message": "Man Adas\u0131"
+   },
+   "Israel": {
+      "message": "\u0130srail"
+   },
+   "Issue_number": {
+      "message": "Olay numaras\u0131"
+   },
+   "Issued_Date": {
+      "message": "Verilme Tarihi"
+   },
+   "Issuing_Authority": {
+      "message": "D\u00FCzenleyen Kurum"
+   },
+   "Italian": {
+      "message": "\u0130talyanca"
+   },
+   "Italy": {
+      "message": "\u0130talya"
+   },
+   "Jamaica": {
+      "message": "Jameika"
+   },
+   "January": {
+      "message": "Ocak"
+   },
+   "Japan": {
+      "message": "Japonya"
+   },
+   "Japanese": {
+      "message": "Japonca"
+   },
+   "Jersey": {
+      "message": "Jersey"
+   },
+   "Jordan": {
+      "message": "\u00DCrd\u00FCn"
+   },
+   "July": {
+      "message": "Temmuz"
+   },
+   "June": {
+      "message": "Haziran"
+   },
+   "Kabul": {
+      "message": "Kabil"
+   },
+   "Kathmandu": {
+      "message": "Katmandu"
+   },
+   "Kazakhstan": {
+      "message": "Kazakistan"
+   },
+   "KeePass": {
+      "message": "KeePass"
+   },
+   "Keep_a_history_of_my_logins_and_form_fills": {
+      "message": "Giri\u015F ve form doldurma bilgilerimin ge\u00E7mi\u015Fini tut"
+   },
+   "Kenya": {
+      "message": "Kenya"
+   },
+   "Key_Index": {
+      "message": "Anahtar Dizini"
+   },
+   "Key_Type": {
+      "message": "Anahtar Tipi"
+   },
+   "Kiribati": {
+      "message": "Kiribati"
+   },
+   "Korea__Democratic_People_s_Republic_Of": {
+      "message": "Kuzey Kore"
+   },
+   "Korea__Republic_Of": {
+      "message": "G\u00FCney Kore"
+   },
+   "Korean": {
+      "message": "Korece"
+   },
+   "Kuwait": {
+      "message": "Kuveyt"
+   },
+   "Kuwait__Riyadh__Nairobi__Tbilisi": {
+      "message": "Kuveyt, Riyad, Nairobi, Tiflis"
+   },
+   "Kyrgyzstan": {
+      "message": "K\u0131rg\u0131zistan"
+   },
+   "La_Paz": {
+      "message": "La Paz"
+   },
+   "Language": {
+      "message": "Dil"
+   },
+   "Lao_People_s_Democratic_Republic": {
+      "message": "Lao Demokratik Halk Cumhuriyeti"
+   },
+   "LastPass": {
+      "message": "LastPass"
+   },
+   "LastPass_CSV_File": {
+      "message": "LastPass CSV Dosyas\u0131"
+   },
+   "LastPass_Chrome_Toolbar": {
+      "message": "LastPass Chrome Ara\u00E7 \u00C7ubu\u011Fu"
+   },
+   "LastPass_Encrypted_File": {
+      "message": "LastPass \u015Eifreli Dosyas\u0131"
+   },
+   "LastPass_Grid_Multifactor_Authentication": {
+      "message": "LastPass \u00C7okFakt\u00F6r'l\u00FC Do\u011Frulama \u00C7izgileri"
+   },
+   "LastPass_Menu": {
+      "message": "LastPass Men\u00FCs\u00FC"
+   },
+   "LastPass_can_automatically_fill_web_page_forms_with_a_single_click___Using_automatic__Form_Filling__will_not_only_save_you_time__but_will_also_enhance_your_security_when_shopping_online_": {
+      "message": "LastPass web forumlar\u0131n\u0131 otomatik bir \u015Fekilde ve sadece tek bir t\u0131kla doldurabilir. 'Forum doldurucu' hem daha k\u0131sa s\u00FCrede i\u015Fleminizi yapar hem de \u00E7evrimi\u00E7i al\u0131\u015Fveri\u015Finizde sizlere g\u00FCvenlik sa\u011Flar."
+   },
+   "LastPass_cannot_login_until_cookies_are_allowed_from_lastpass_com": {
+      "message": "lastpass.com'dan \u00E7erezler kabul edilmedik\u00E7e LastPass oturum a\u00E7amaz."
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_like_to_continue_": {
+      "message": "LastPass g\u00FCvenli olmayan bir giri\u015F formu tespit etti.\n\nDevam etmek istiyor musunuz?"
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_still_like_LastPass_to_fill_the_form_": {
+      "message": "LastPass g\u00FCvenli olmayan bir giri\u015F formu tespit etti.\n\nLastPass'in yine de formu doldurmas\u0131n\u0131 istiyor musunuz?"
+   },
+   "LastPass_detected_a_password_change_for": {
+      "message": "LastPass bir \u015Fifre de\u011Fi\u015Fikli\u011Fi tespit etti"
+   },
+   "LastPass_detected_a_password_change_for_domain_": {
+      "message": "LastPass bu alan an\u0131 i\u00E7in bir \u015Fifre de\u011Fi\u015Fikli\u011Fi tespit etti:"
+   },
+   "LastPass_detected_a_password_change_for_user_": {
+      "message": "LastPass bu kullan\u0131c\u0131 i\u00E7in bir \u015Fifre de\u011Fi\u015Fikli\u011Fi tespit etti:"
+   },
+   "LastPass_has_detected_an_installation_error___Please_reinstall_LastPass_": {
+      "message": "LassPast bir y\u00FCkleme hatas\u0131 tespit etti. L\u00FCtfen tekrar y\u00FCkleyiniz."
+   },
+   "LastPass_has_filled_your_login_information_into_the_form_on_this_page_": {
+      "message": "LastPass bu sayfadaki forma giri\u015F bilgilerinizi girdi."
+   },
+   "LastPass_is_fully_installed___When_you_install_LastPass_on_other_computers_you_will_not_have_to_go_through_this_process_again__you_ll_simply_be_able_to_login____Do_not_share_your_Master_Password_with_anyone__including_LastPass_employees__we_ll_never_ask_for_it___LastPass_encrypts_your_sensitive_data_locally_so_even_LastPass_employees_do_not_have_access_to_it___You_can_get_help_by_clicking_on_the_LastPass_icon_and_going_to_Help_": {
+      "message": "LastPass tamamen y\u00FCklendi! LastPass'i di\u011Fer bilgisayarlara y\u00FCkledi\u011Finizde bu s\u00FCreci tekrarlaman\u0131za gerek olmayacak, sadece giri\u015F yapman\u0131z yeterli olacakt\u0131r. Ana parolan\u0131z\u0131 LastPass \u00E7al\u0131\u015Fanlar\u0131 dahil kimseye s\u00F6ylemeyin! LastPass \u00F6nemli verilerinizi yerel olarak \u015Fifreler, b\u00F6ylece LastPass personeli dahi bilgilerinize ula\u015Famaz. LastPass simgesine t\u0131klay\u0131p Yard\u0131m'\u0131 se\u00E7erek yard\u0131m alabilirsiniz."
+   },
+   "LastPass_is_the_last_password_you_ll_ever_have_to_remember___If_you_re_new_to_LastPass__we_ll_just_need_a_few_minutes_of_your_time_to_setup_your_account___You_ll_be_able_to_use_this_account_on_any_other_PC_you_use_to_always_keep_your_personal_data_in_sync___Hit_create_account_to_begin_": {
+      "message": "LasstPass hat\u0131rlamak zorunda oldu\u011Funuz son parolad\u0131r. LastPass'e yeniyseniz, hesap ayarlar\u0131n\u0131z i\u00E7in birka\u00E7 dakikan\u0131za ihtiyac\u0131m\u0131z var. Bu hesab\u0131n\u0131z\u0131 herhangi ba\u015Fka bilgisayarlarda da kullan\u0131p ki\u015Fisel bilgilerinizi uyum i\u00E7inde saklayabileceksiniz. Ba\u015Flamak i\u00E7in Hesap Olu\u015Ftur tu\u015Funa bas\u0131n."
+   },
+   "LastPass_must_reencrypt_all_of_your_data_because_of_a_key_change_": {
+      "message": "LastPass, anahtar de\u011Fi\u015Fimi nedeniyle t\u00FCm verileri tekrar \u015Fifrelemeli"
+   },
+   "Last_4_digits_of_your_phone_number": {
+      "message": "Telefon numaran\u0131z\u0131n son 4 hanesi"
+   },
+   "Last_Name2": {
+      "message": "Soyad\u01312"
+   },
+   "Last_Touch": {
+      "message": "Son Dokunu\u015F"
+   },
+   "Last_name": {
+      "message": "Soyad"
+   },
+   "Latvia": {
+      "message": "Letonya"
+   },
+   "Launch": {
+      "message": "\u00C7al\u0131\u015Ft\u0131r"
+   },
+   "Lebanon": {
+      "message": "L\u00FCbnan"
+   },
+   "Left": {
+      "message": "Sol"
+   },
+   "Lesotho": {
+      "message": "Lesotho"
+   },
+   "Liberia": {
+      "message": "Liberya"
+   },
+   "Libyan_Arab_Jamahiriya": {
+      "message": "Libya"
+   },
+   "License_Class": {
+      "message": "Lisans S\u0131n\u0131f\u0131"
+   },
+   "License_Key": {
+      "message": "Lisans Anahtar\u0131"
+   },
+   "Liechtenstein": {
+      "message": "Liechtenstein"
+   },
+   "Link_Personal_Account": {
+      "message": "Ki\u015Fisel Hesap Ba\u011Fla"
+   },
+   "Lithuania": {
+      "message": "Litvanya"
+   },
+   "Local": {
+      "message": "Yerel"
+   },
+   "Log_into_a_Site": {
+      "message": "Bir siteye giri\u015F yap"
+   },
+   "Login": {
+      "message": "Giri\u015F"
+   },
+   "LoginError": {
+      "message": "LastPass'e oturum a\u00E7\u0131lamad\u0131. L\u00FCtfen tekrar deneyin."
+   },
+   "Login_to_LastPass": {
+      "message": "LastPass'e Giri\u015F Yap"
+   },
+   "Logoff": {
+      "message": "Oturumu kapat"
+   },
+   "Logoff_": {
+      "message": "Oturumu kapat:"
+   },
+   "LoseChanges": {
+      "message": "Bu sitenin alanlar\u0131 d\u00FCzenlemek istedi\u011Finizden emin misiniz? Bunu yapmak bu sitede yapt\u0131\u011F\u0131n\u0131z t\u00FCm de\u011Fi\u015Fiklikleri kaybetmenize sebep olacakt\u0131r!"
+   },
+   "LoseChangesApp": {
+      "message": "Bunu uygulaman\u0131n alanlar\u0131 d\u00FCzenlemek istedi\u011Finizden emin misiniz? Bunu yapmak bu uygulama i\u00E7in yap\u0131lan de\u011Fi\u015Fiklikleri kaybetmenize sebep olacakt\u0131r!"
+   },
+   "Luxembourg": {
+      "message": "L\u00FCksemburg"
+   },
+   "MSI_PasswordKeeper": {
+      "message": "MSI PasswordKeeper"
+   },
+   "Macao": {
+      "message": "Macao"
+   },
+   "Macedonia__the_Former_Yugoslav_Republic_Of": {
+      "message": "Makedonya, Eski Yugoslav Cumhuriyeti"
+   },
+   "Madagascar": {
+      "message": "Madagaskar"
+   },
+   "Magadan__Solomon_Is___New_Caledonia__Vladivostok": {
+      "message": "Magadan, Solomon Is., Yeni Kaledonya, Vladivostok"
+   },
+   "Malawi": {
+      "message": "Malawi"
+   },
+   "Malaysia": {
+      "message": "Malezya"
+   },
+   "Maldives": {
+      "message": "Maldivler"
+   },
+   "Male": {
+      "message": "Erkek"
+   },
+   "Mali": {
+      "message": "Mali"
+   },
+   "Malta": {
+      "message": "Malta"
+   },
+   "Manage_Shared_Folders": {
+      "message": "Payla\u015F\u0131lan Klas\u00F6rler Y\u00F6net"
+   },
+   "March": {
+      "message": "Mart"
+   },
+   "Marshall_Islands": {
+      "message": "Marshall Adalar\u0131"
+   },
+   "Martinique": {
+      "message": "Martinik"
+   },
+   "Master_Password": {
+      "message": "Ana \u015Eifre"
+   },
+   "Matching_Sites": {
+      "message": "E\u015Fle\u015Fen Siteler"
+   },
+   "Mauritania": {
+      "message": "Moritanya"
+   },
+   "Mauritius": {
+      "message": "Mauritius"
+   },
+   "May": {
+      "message": "May\u0131s"
+   },
+   "Mayotte": {
+      "message": "Mayot"
+   },
+   "Member_ID": {
+      "message": "\u00DCye Kimli\u011Fi"
+   },
+   "Member_Name": {
+      "message": "\u00DCye Ad\u0131"
+   },
+   "Membership": {
+      "message": "\u00DCyelik"
+   },
+   "Membership_Number": {
+      "message": "\u00DCyelik Numaras\u0131"
+   },
+   "Meta": {
+      "message": "Meta"
+   },
+   "Mexico": {
+      "message": "Meksika"
+   },
+   "Micronesia__Federated_States_Of": {
+      "message": "Federe Mikronezya Eyaletleri"
+   },
+   "Mid_Atlantic": {
+      "message": "Orta-Atlantik"
+   },
+   "Middle_3_digits_of_your_phone_number": {
+      "message": "Telefon numaran\u0131z\u0131n ortadaki 3 hanesi"
+   },
+   "Middle_name": {
+      "message": "\u0130kinci ad"
+   },
+   "Midway_Island__Samoa": {
+      "message": "Midway Adas\u0131, Samoa"
+   },
+   "Minimum_Digit_Count": {
+      "message": "Minimum Rakam Say\u0131s\u0131"
+   },
+   "Mobile_Email_Address": {
+      "message": "Mobil E-Posta Adresi"
+   },
+   "Mobile_number": {
+      "message": "Cep telefonu numaras\u0131"
+   },
+   "Moldova__Republic_Of": {
+      "message": "Moldova Cumhuriyeti"
+   },
+   "Monaco": {
+      "message": "Monaco"
+   },
+   "Mongolia": {
+      "message": "Mo\u011Folistan"
+   },
+   "Montenegro": {
+      "message": "Karada\u011F"
+   },
+   "Montserrat": {
+      "message": "Montserrat"
+   },
+   "More": {
+      "message": "Daha fazla"
+   },
+   "More_Information": {
+      "message": "Daha Fazla Bilgi"
+   },
+   "Morocco": {
+      "message": "Fas"
+   },
+   "Mountain_Time__US___Canada_": {
+      "message": "Da\u011F Saati (ABD ve Kanada)"
+   },
+   "Move_Selected_to_Group": {
+      "message": "Se\u00E7ileni Gruba Ta\u015F\u0131"
+   },
+   "Move_to_Group": {
+      "message": "Gruba Ta\u015F\u0131"
+   },
+   "Move_to_Sub_Group": {
+      "message": "Alt-gruba ta\u015F\u0131"
+   },
+   "Mozambique": {
+      "message": "Mozambik"
+   },
+   "Mr": {
+      "message": "Bay"
+   },
+   "Mrs": {
+      "message": "Bayan"
+   },
+   "Ms": {
+      "message": "Bayan(bekar)"
+   },
+   "Multifactor_Authentication": {
+      "message": "\u00C7ok fakt\u00F6rl\u00FC kimlik do\u011Frulama"
+   },
+   "MyPasswordSafe": {
+      "message": "MyPasswordSafe"
+   },
+   "My_LastPass_Vault": {
+      "message": "LastPass Kasam"
+   },
+   "Myanmar": {
+      "message": "Myanmar"
+   },
+   "NAME": {
+      "message": "AD:"
+   },
+   "Name_": {
+      "message": "Ad\u0131:"
+   },
+   "Name_on_card": {
+      "message": "Karttaki ad"
+   },
+   "Nameproper": {
+      "message": "\u0130sim"
+   },
+   "Namibia": {
+      "message": "Namibya"
+   },
+   "Nationality": {
+      "message": "Uyruk"
+   },
+   "Nauru": {
+      "message": "Nauru"
+   },
+   "Nepal": {
+      "message": "Nepal"
+   },
+   "Netherlands": {
+      "message": "Hollanda"
+   },
+   "Netherlands_Antilles": {
+      "message": "Hollanda Antilleri"
+   },
+   "Never": {
+      "message": "Asla"
+   },
+   "Never_Add_Site": {
+      "message": "Hi\u00E7bir Zaman Site Ekleme"
+   },
+   "Never_AutoFill": {
+      "message": "Asla Otomatik Doldurma"
+   },
+   "Never_AutoLogin": {
+      "message": "Hi\u00E7bir Zaman Otomatik Login Olma"
+   },
+   "Never_Fill_Forms": {
+      "message": "Hi\u00E7bir Zaman Formlar\u0131 Doldurma"
+   },
+   "Never_For_This_Domain": {
+      "message": "Bu Alan Ad\u0131 \u0130\u00E7in Asla"
+   },
+   "Never_For_This_Page": {
+      "message": "Bu Sayfa \u0130\u00E7in Asla"
+   },
+   "Never_For_This_Site": {
+      "message": "Bu Site \u0130\u00E7in Asla"
+   },
+   "Never_Generate_Password": {
+      "message": "Hi\u00E7bir Zaman \u015Eifre \u00DCretme"
+   },
+   "Never_Show_Again": {
+      "message": "Tekrar G\u00F6sterme"
+   },
+   "Never___": {
+      "message": "Bunun i\u00E7in Asla..."
+   },
+   "New_Caledonia": {
+      "message": "Yeni Kaledonya"
+   },
+   "New_Master_Password": {
+      "message": "Yeni Ana \u015Eifre"
+   },
+   "New_Zealand": {
+      "message": "Yeni Zelanda"
+   },
+   "Newfoundland": {
+      "message": "Newfoundland"
+   },
+   "Nicaragua": {
+      "message": "Nikaragua"
+   },
+   "Niger": {
+      "message": "Nijer"
+   },
+   "Nigeria": {
+      "message": "Nijerya"
+   },
+   "Niue": {
+      "message": "Niue"
+   },
+   "No": {
+      "message": "Hay\u0131r"
+   },
+   "No_Matching_Sites_": {
+      "message": "E\u015Fle\u015Fen Site Yok!"
+   },
+   "No_Thanks": {
+      "message": "Hay\u0131r, te\u015Fekk\u00FCrler"
+   },
+   "No_Updates_Are_Available": {
+      "message": "G\u00FCncelle\u015Ftirme mevcut de\u011Fil"
+   },
+   "No_Wi_Fi_adapter_was_detected_on_this_computer___This_feature_requires_a_Wi_Fi_adapter_": {
+      "message": "Bu bilgisayarda Wi-Fi(kablosus a\u011F) ayg\u0131t\u0131 alg\u0131lanamad\u0131. Bu \u00F6zellik, bir Wi-Fi ayg\u0131t\u0131 gerektirir."
+   },
+   "No__I_do_not_want_LastPass_to_help_me_fill_forms_automatically": {
+      "message": "Hay\u0131r, otomatik olarak formlar\u0131 doldurmak i\u00E7in LastPass'\u0131n yard\u0131m etmesini istemiyorum"
+   },
+   "No__do_not_import_any_of_my_insecure_items": {
+      "message": "Hay\u0131r, benim herhangi bir g\u00FCvensiz \u00F6\u011Femi aktarma"
+   },
+   "None_Available": {
+      "message": "Eri\u015Filebilir yok"
+   },
+   "Norfolk_Island": {
+      "message": "Norfolk Adas\u0131"
+   },
+   "Northern_Mariana_Islands": {
+      "message": "Kuzey Mariana Adalar\u0131"
+   },
+   "Norway": {
+      "message": "Norve\u00E7"
+   },
+   "Norwegian": {
+      "message": "Norve\u00E7ce"
+   },
+   "Norwegian_Nynorsk": {
+      "message": "Norve\u00E7 Nynorsk'i"
+   },
+   "Not_Now": {
+      "message": "\u015Eimdi de\u011Fil"
+   },
+   "Note_Type": {
+      "message": "Not T\u00FCr\u00FC"
+   },
+   "Notes": {
+      "message": "Notlar"
+   },
+   "Notes_": {
+      "message": "Notlar:"
+   },
+   "Notifications": {
+      "message": "Bildirimler"
+   },
+   "November": {
+      "message": "Kas\u0131m"
+   },
+   "Nuku_alofa": {
+      "message": "Nuku'alofa"
+   },
+   "Number": {
+      "message": "Numara"
+   },
+   "Number_of_Licenses": {
+      "message": "Lisans Say\u0131s\u0131"
+   },
+   "OK": {
+      "message": "Tamam"
+   },
+   "October": {
+      "message": "Ekim"
+   },
+   "Offer_to_Generate_Secure_Passwords": {
+      "message": "G\u00FCvenli Parola Olu\u015Fturmay\u0131 Teklif Et"
+   },
+   "Old_Password": {
+      "message": "Eski \u015Eifre"
+   },
+   "Oman": {
+      "message": "Umman"
+   },
+   "One_Time_Passwords": {
+      "message": "Tek Kullan\u0131ml\u0131k \u015Eifreler"
+   },
+   "Open_All": {
+      "message": "T\u00FCm\u00FCn\u00FC a\u00E7"
+   },
+   "Open_Favorites": {
+      "message": "S\u0131k Kullan\u0131lanlar\u0131 A\u00E7"
+   },
+   "Open_My_LastPass_Vault": {
+      "message": "LastPass Kasam\u0131 A\u00E7"
+   },
+   "Open_New_Pages_in": {
+      "message": "Yeni sayfalar\u0131"
+   },
+   "Open_Popover": {
+      "message": "Ziyaret'i A\u00E7"
+   },
+   "Open_Sticky_Password___Manage_Database___Export___Export_as_text__Import_this_file": {
+      "message": "Yap\u0131\u015Fkan \u015Eifreleri A\u00E7 - Veritaban\u0131n\u0131 Y\u00F6net -D\u0131\u015Far\u0131 Aktar - Metin Belgesi olarak d\u0131\u015Far\u0131 aktar. Bu dosyay\u0131 i\u00E7e aktar"
+   },
+   "Open_login_dialog_when_start_browser": {
+      "message": "Taray\u0131c\u0131 a\u00E7\u0131ld\u0131\u011F\u0131nda giri\u015F penceresini a\u00E7"
+   },
+   "Opera": {
+      "message": "Opera"
+   },
+   "Opera_Password_Manager": {
+      "message": "Opera \u015Eifre Y\u00F6neticisi"
+   },
+   "Order_Number": {
+      "message": "Sipari\u015F Numaras\u0131"
+   },
+   "Order_Total": {
+      "message": "Sipari\u015F Toplam\u0131"
+   },
+   "Organization": {
+      "message": "Organizasyon"
+   },
+   "Other": {
+      "message": "Di\u011Fer"
+   },
+   "Other_Sessions": {
+      "message": "Di\u011Fer Oturumlar"
+   },
+   "PASSWORDupper": {
+      "message": "PAROLA"
+   },
+   "PINs_Password_Manager": {
+      "message": "PINs Parola Y\u00F6neticisi"
+   },
+   "Pacific_Time__US___Canada_": {
+      "message": "Pasifik Saati (ABD ve Kanada)"
+   },
+   "Page_Down": {
+      "message": "Page Down"
+   },
+   "Page_Up": {
+      "message": "Page Up"
+   },
+   "Pakistan": {
+      "message": "Pakistan"
+   },
+   "Palau": {
+      "message": "Palau"
+   },
+   "Palestinian_Territories": {
+      "message": "Filistin Topraklar\u0131"
+   },
+   "Panama": {
+      "message": "Panama"
+   },
+   "Papua_New_Guinea": {
+      "message": "Papua Yeni Gine"
+   },
+   "Paraguay": {
+      "message": "Paraguay"
+   },
+   "Passpack": {
+      "message": "Passpack"
+   },
+   "Passphrase": {
+      "message": "Parola"
+   },
+   "Passport": {
+      "message": "Pasaport"
+   },
+   "Password": {
+      "message": "\u015Eifre"
+   },
+   "Password_": {
+      "message": "\u015Eifre:"
+   },
+   "Password_Agent": {
+      "message": "Password Agent"
+   },
+   "Password_Corral": {
+      "message": "Password Corral"
+   },
+   "Password_Depot": {
+      "message": "\u015Eifre Deposu"
+   },
+   "Password_Dragon": {
+      "message": "Password Dragon"
+   },
+   "Password_Keeper": {
+      "message": "Password Keeper"
+   },
+   "Password_Length": {
+      "message": "Parola Uzunlu\u011Fu"
+   },
+   "Password_Reminder": {
+      "message": "\u015Eifre Hat\u0131rlat\u0131c\u0131"
+   },
+   "Password_Safe": {
+      "message": "\u015Eifre G\u00FCvenli\u011Fi"
+   },
+   "Password_reminder_cannot_match_password": {
+      "message": "\u015Eifremi hat\u0131rlat\u0131c\u0131 \u015Fifreleri e\u015Fle\u015Ftiremiyor"
+   },
+   "Password_updated_": {
+      "message": "\u015Eifre g\u00FCncellendi!"
+   },
+   "Passwords_Max": {
+      "message": "Passwords Max"
+   },
+   "Personal": {
+      "message": "Ki\u015Fisel"
+   },
+   "Peru": {
+      "message": "Peru"
+   },
+   "Philippines": {
+      "message": "Filipinler"
+   },
+   "Phone_number": {
+      "message": "Telefon numaras\u0131"
+   },
+   "Physician_Address": {
+      "message": "Doktor Adresi"
+   },
+   "Physician_Name": {
+      "message": "Doktor Ad\u0131"
+   },
+   "Physician_Phone": {
+      "message": "Doktor Telefon"
+   },
+   "Pin": {
+      "message": "Pin"
+   },
+   "Pitcairn": {
+      "message": "Pitcairn"
+   },
+   "Please_Make_a_Selection": {
+      "message": "L\u00FCtfen bir se\u00E7im yap\u0131n"
+   },
+   "Please_Wait___": {
+      "message": "L\u00FCtfen Bekleyiniz..."
+   },
+   "Please_answer_the_following_question_": {
+      "message": "L\u00FCtfen \u015Fu soruya cevap verin:"
+   },
+   "Please_choose_the_type_of_export_you_would_like_to_perform_": {
+      "message": "Ger\u00E7ekle\u015Ftirmek istedi\u011Finiz d\u0131\u015Fa aktar\u0131m t\u00FCr\u00FCn\u00FC se\u00E7iniz:"
+   },
+   "Please_choose_the_type_of_print_you_would_like_to_perform_": {
+      "message": "L\u00FCtfen ger\u00E7ekle\u015Ftirmek istedi\u011Finiz yazd\u0131rma t\u00FCr\u00FCn\u00FC se\u00E7iniz"
+   },
+   "Please_close_this_window": {
+      "message": "L\u00FCtfen bu pencereyi kapat\u0131n"
+   },
+   "Please_complete_multifactor_authentication_on_your_mobile_device_": {
+      "message": "L\u00FCtfen mobil cihaz\u0131n\u0131zdaki \u00E7ok fa\u00F6kt\u00FCrl\u00FC kimlik do\u011Frulamay\u0131 tamamlay\u0131n\u0131z."
+   },
+   "Please_enter_a_Password_Reminder": {
+      "message": "L\u00FCtfen bir parola hat\u0131rlat\u0131c\u0131 girin"
+   },
+   "Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "\u0130\u00E7e aktarmak i\u00E7in dosyan\u0131n tam yolunu giriniz."
+   },
+   "Please_move_sites_from_only_one_shared_folder_at_a_time_": {
+      "message": "L\u00FCtfen siteleri ta\u015F\u0131rken tek seferde yanl\u0131zca bir payla\u015F\u0131lan klas\u00F6rden ta\u015F\u0131y\u0131n."
+   },
+   "Please_note_that_upgrading_from_LastPass_Local_to_LastPass_Online_will_result_in_your_password_data_being_uploaded_in_its_encrypted_format_to_LastPass_servers___You_will_be_able_to_access_your_data_from_anywhere__and_LastPass_will_not_be_able_to_read_it___Would_you_like_to_continue_": {
+      "message": "LastPass Yerel'den LastPass Online'a y\u00FCkseltme yaparken, \u015Fifre bilgileriniz LastPass sunucular\u0131na \u015Fifrelenmi\u015F formatta y\u00FCklenece\u011Fini unutmay\u0131n. Herhangi bir yerden bilgilerinize eri\u015Febileceksiniz ve LastPass'\u0131n okumas\u0131 m\u00FCmk\u00FCn olmayacakt\u0131r. Devam etmek ister misiniz?"
+   },
+   "Please_provide_this_computer_a_name": {
+      "message": "L\u00FCtfen bu bilgisayara bir isim verin"
+   },
+   "Please_reload_the_page_to_view_your_changes_": {
+      "message": "L\u00FCtfen de\u011Fi\u015Fiklikleri g\u00F6rmek i\u00E7in sayfay\u0131 yeniden y\u00FCkleyin."
+   },
+   "Please_restart_all_your_browsers_to_begin_using_LastPass_Online_": {
+      "message": "L\u00FCtfen, LastPass'\u0131 \u00E7evrim i\u00E7i kullanmaya ba\u015Flamak i\u00E7in t\u00FCm taray\u0131c\u0131lar\u0131n\u0131z\u0131 yeniden ba\u015Flat\u0131n\u0131z."
+   },
+   "Please_select": {
+      "message": "L\u00FCtfen se\u00E7iniz"
+   },
+   "Please_select_which_sites_you_wish_to_apply_this_change_": {
+      "message": "L\u00FCtfen bu de\u011Fi\u015Fikli\u011Fin uygulanmas\u0131n\u0131 istedi\u011Finiz siteleri se\u00E7iniz."
+   },
+   "Please_visit_https___lastpass_com_to_create_an_account_at_a_later_time_": {
+      "message": "Hesab\u0131n\u0131z\u0131 daha sonra olu\u015Fturmak i\u00E7in l\u00FCtfen https://lastpass.com adresini ziyaret ediniz."
+   },
+   "Poland": {
+      "message": "Polonya"
+   },
+   "Policy_Number": {
+      "message": "Poli\u00E7e Numaras\u0131"
+   },
+   "Policy_Type": {
+      "message": "Poli\u00E7e T\u00FCr\u00FC"
+   },
+   "Polish": {
+      "message": "Leh\u00E7e"
+   },
+   "Poll_Server_for_account_changes__mins_": {
+      "message": "Hesap de\u011Fi\u015Fiklikleri i\u00E7in server' \u0131 sorgula (dk)"
+   },
+   "Port": {
+      "message": "Port"
+   },
+   "Portugal": {
+      "message": "Portekiz"
+   },
+   "Portuguese": {
+      "message": "Portekizce"
+   },
+   "Portuguese__Brazilian_": {
+      "message": "Portekizce (Brezilya)"
+   },
+   "Preferences": {
+      "message": "Tercihler"
+   },
+   "Price": {
+      "message": "Fiyat"
+   },
+   "Print": {
+      "message": "Yazd\u0131r"
+   },
+   "Print_Screen": {
+      "message": "Print Screen"
+   },
+   "Print_Secure_Notes": {
+      "message": "Guvenli notlar\u0131 yazd\u0131r"
+   },
+   "Print_Sites": {
+      "message": "Siteleri yazd\u0131r"
+   },
+   "Private_Key": {
+      "message": "\u00D6zel Anahtar"
+   },
+   "Profile": {
+      "message": "Profil"
+   },
+   "Profile_language": {
+      "message": "Profil dili"
+   },
+   "Profile_name": {
+      "message": "Profil ad\u0131"
+   },
+   "Pronounceable": {
+      "message": "S\u00F6ylenebilir"
+   },
+   "Protected": {
+      "message": "Korumal\u0131"
+   },
+   "Public_Key": {
+      "message": "Genel Anahtar"
+   },
+   "Publisher": {
+      "message": "Yay\u0131mc\u0131"
+   },
+   "Puerto_Rico": {
+      "message": "Porto Riko"
+   },
+   "Purchase_Date": {
+      "message": "Sat\u0131n Alma Tarihi"
+   },
+   "Qatar": {
+      "message": "Katar"
+   },
+   "Re_enter_Password": {
+      "message": "\u015Eifreyi Yeniden Gir"
+   },
+   "Recent_Sites": {
+      "message": "En son siteler"
+   },
+   "Recently_Used": {
+      "message": "Son Kullan\u0131lanlar"
+   },
+   "Recently_Used_list_size": {
+      "message": "En Son Kullan\u0131lanlar liste boyutu"
+   },
+   "Recheck_Page": {
+      "message": "Sayfay\u0131 Yeniden Kontrol Et"
+   },
+   "Reencrypting_Data___": {
+      "message": "Veriler tekrar \u015Fifreleniyor..."
+   },
+   "Refresh": {
+      "message": "Yenile"
+   },
+   "Refresh_Sites": {
+      "message": "Siteleri Yenile"
+   },
+   "Reject": {
+      "message": "Reddet"
+   },
+   "Remember_Email": {
+      "message": "E-postam\u0131 Hat\u0131rla"
+   },
+   "Remember_Password": {
+      "message": "\u015Eifreyi Hat\u0131rla"
+   },
+   "Remove_Personal_Account": {
+      "message": "Ki\u015Fisel Hesap Kald\u0131r"
+   },
+   "Rename_Group": {
+      "message": "Grubu Yeniden Adland\u0131r"
+   },
+   "Replace_Existing_Site": {
+      "message": "Mevcut siteyi de\u011Fi\u015Ftir"
+   },
+   "Require_Every_Character_Type": {
+      "message": "T\u00FCr\u00FC Karakter Tiplerinden \u0130ste"
+   },
+   "Require_Password_Reprompt": {
+      "message": "\u015Eifreyi Yeniden \u0130ste"
+   },
+   "Require_security_reprompt_when_": {
+      "message": "Gerekli g\u00FCvenlik tekrar istemde bulunma zaman\u0131:"
+   },
+   "Respect_AutoComplete_off__allow_websites_to_disable_AutoFill": {
+      "message": "OtomatikDoldur=kapal\u0131 talebine uy: Web sitelerinin OtomatikDoldur'u devre d\u0131\u015F\u0131 b\u0131rakmas\u0131na izin verir"
+   },
+   "Reunion": {
+      "message": "Birle\u015Fmi\u015F"
+   },
+   "Revelation_Password_Manager": {
+      "message": "Revelation \u015Eifre Y\u00F6neticisi"
+   },
+   "Right": {
+      "message": "Sa\u011F"
+   },
+   "RoboForm": {
+      "message": "RoboForm"
+   },
+   "Romania": {
+      "message": "Romanya"
+   },
+   "Routing_number": {
+      "message": "Y\u00F6nlendirme numaras\u0131"
+   },
+   "Russian": {
+      "message": "Rus\u00E7a"
+   },
+   "Russian_Federation": {
+      "message": "Rusya Federasyonu"
+   },
+   "Rwanda": {
+      "message": "Ruanda"
+   },
+   "SID": {
+      "message": "SID"
+   },
+   "SITE": {
+      "message": "Site"
+   },
+   "SMTP_Port": {
+      "message": "SMTP Portu"
+   },
+   "SMTP_Server": {
+      "message": "SMTP Sunucusu"
+   },
+   "SPB_Wallet": {
+      "message": "SPB Wallet"
+   },
+   "SSH_Key": {
+      "message": "SSH Anahtar\u0131"
+   },
+   "SSID": {
+      "message": "SSID"
+   },
+   "SWIFT_Code": {
+      "message": "SWIFT kodu"
+   },
+   "Safari": {
+      "message": "Safari"
+   },
+   "Safari_Password_Manager": {
+      "message": "Safari \u015Eifre Y\u00F6neticisi"
+   },
+   "Saint_Barthelemy": {
+      "message": "Saint Barthelemy"
+   },
+   "Saint_Helena": {
+      "message": "Saint Helena"
+   },
+   "Saint_Kitts_and_Nevis": {
+      "message": "Saint Kitts ve Nevis"
+   },
+   "Saint_Lucia": {
+      "message": "Saint Lucia"
+   },
+   "Saint_Martin__French_Part_": {
+      "message": "Saint Martin (Frans\u0131z B\u00F6l\u00FCm\u00FC)"
+   },
+   "Saint_Pierre_and_Miquelon": {
+      "message": "Saint Pierre ve Miquelon"
+   },
+   "Saint_Vincent_and_the_Grenadines": {
+      "message": "Saint Vincent ve Grenadinler"
+   },
+   "Samoa": {
+      "message": "Samoa"
+   },
+   "San_Marino": {
+      "message": "San Marino"
+   },
+   "Sao_Tome_and_Principe": {
+      "message": "Sao Tome ve Principe"
+   },
+   "Saudi_Arabia": {
+      "message": "Suudi Arabistan"
+   },
+   "Save": {
+      "message": "Kaydet"
+   },
+   "Save_All_Entered_Data": {
+      "message": "Girilen t\u00FCm verileri kaydet"
+   },
+   "Save_Credit_Card_profile": {
+      "message": "Kredi kart\u0131 profilini kaydet"
+   },
+   "Save_Form_Fill_profile": {
+      "message": "Formu kaydet,profili doldur"
+   },
+   "Save_New_Site": {
+      "message": "Yeni Site Kaydet"
+   },
+   "Save_Site": {
+      "message": "Siteyi Kaydet"
+   },
+   "Save_a_disabled_One_Time_Password_locally_for_Account_Recovery": {
+      "message": "Hesap Kurtarma i\u00E7in Tek Kullan\u0131ml\u0131k Parolan\u0131z\u0131 bir yere not edin"
+   },
+   "Save_your_changes_and_close_this_window": {
+      "message": "De\u011Fi\u015Fiklikleri kaydet ve pencereyi kapat"
+   },
+   "Screen_Keyboard": {
+      "message": "Ekran Klavyesi"
+   },
+   "Search_All_Data": {
+      "message": "T\u00FCm Verileri ara"
+   },
+   "Search_All_Groups": {
+      "message": "T\u00FCm Gruplar\u0131 Ara"
+   },
+   "Search_All_Notes": {
+      "message": "T\u00FCm Notlar\u0131 Ara"
+   },
+   "Search_All_Sites": {
+      "message": "T\u00FCm Siteleri Ara"
+   },
+   "Search_Vault": {
+      "message": "Kasada Ara"
+   },
+   "Search_within_secure_notes": {
+      "message": "G\u00FCvenli notlar\u0131n i\u00E7inde ara"
+   },
+   "Searchproper": {
+      "message": "Ara"
+   },
+   "Secure_Notes": {
+      "message": "G\u00FCvenli Notlar"
+   },
+   "Security": {
+      "message": "G\u00FCvenlik"
+   },
+   "Security_Check": {
+      "message": "G\u00FCvenlik Kontrol\u00FC"
+   },
+   "Security_Question_Multifactor_Authentication": {
+      "message": "G\u00FCvenlik Sorusu \u00C7ok Fakt\u00F6rl\u00FC Kimlik Do\u011Frulamas\u0131"
+   },
+   "Security_code": {
+      "message": "G\u00FCvenlik kodu"
+   },
+   "Select": {
+      "message": "Se\u00E7in"
+   },
+   "Select_All": {
+      "message": "T\u00FCm\u00FCn\u00FC Se\u00E7"
+   },
+   "Select_or_enter_a_new_group_name": {
+      "message": "Bir grup se\u00E7in ya da yeni bir grup ad\u0131 girin"
+   },
+   "Send_anonymous_error_reporting_data_to_help_improve_LastPass": {
+      "message": "Anonim hata raporlama verilerini LastPass'a g\u00F6ndererek geli\u015Ftirmeye yard\u0131mc\u0131 ol"
+   },
+   "Senegal": {
+      "message": "Senegal"
+   },
+   "Seoul__Osaka__Sapporo__Tokyo__Irkutsk": {
+      "message": "Seul, Osaka, Sapporo, Tokyo, Irkutsk"
+   },
+   "September": {
+      "message": "Eyl\u00FCl"
+   },
+   "Serbia": {
+      "message": "S\u0131rbistan"
+   },
+   "Server": {
+      "message": "Sunucu"
+   },
+   "SesameWrongButton": {
+      "message": "\u00C7evrimd\u0131\u015F\u0131 bilgilerinizi g\u00F6rmek i\u00E7in Sesame'\u0131 \u00E7al\u0131\u015Ft\u0131rmal\u0131 ve 'Tek Kullan\u0131ml\u0131k Parola Olu\u015Ftur' yerine '\u00C7evrimd\u0131\u015F\u0131 Parola Kopyala' y\u0131 kullanmal\u0131s\u0131n\u0131z."
+   },
+   "Sesame_Multifactor_Authentication": {
+      "message": "Sesame \u00E7ok fakt\u00F6rl\u00FC kimlik do\u011Frulama"
+   },
+   "Sessions": {
+      "message": "Oturumlar"
+   },
+   "Set_up_custom_form_fields": {
+      "message": "\u00D6zel form alanlar\u0131 y\u00FCkle"
+   },
+   "Settings": {
+      "message": "Ayarlar"
+   },
+   "Sex": {
+      "message": "Cinsiyet"
+   },
+   "Seychelles": {
+      "message": "Sey\u015Fel Adalar\u0131"
+   },
+   "Share": {
+      "message": "Payla\u015F"
+   },
+   "Share_Selected": {
+      "message": "Se\u00E7imi Payla\u015F"
+   },
+   "Share_login_state_between_other_browsers": {
+      "message": "Giri\u015F kay\u0131tlar\u0131n\u0131 di\u011Fer taray\u0131c\u0131larla payla\u015F"
+   },
+   "Share_offer_from": {
+      "message": "Payla\u015F\u0131lacak teklif:"
+   },
+   "Shares": {
+      "message": "Payla\u015F\u0131mlar"
+   },
+   "Shift": {
+      "message": "Shift"
+   },
+   "Should_LastPass_remember_this_password_": {
+      "message": "LastPass bu \u015Fifreyi hat\u0131rlamal\u0131 m\u0131?"
+   },
+   "Show": {
+      "message": "G\u00F6ster"
+   },
+   "Show_Advanced_Options": {
+      "message": "Geli\u015Fmi\u015F Se\u00E7enekleri G\u00F6ster"
+   },
+   "Show_Change_Password_Notification_Bar": {
+      "message": "De\u011Fi\u015Fen parolay\u0131 durum \u00E7ubu\u011Funda g\u00F6ster"
+   },
+   "Show_Deleted_Sites": {
+      "message": "Silinmi\u015F Siteleri G\u00F6ster"
+   },
+   "Show_Fill_Notification_Bar": {
+      "message": "Doldurma bildirim bar\u0131n\u0131 g\u00F6ster"
+   },
+   "Show_Form_Fill_Notifications": {
+      "message": "Form Doldurma Bildirimlerini G\u00F6ster"
+   },
+   "Show_My_LastPass_Vault_After_Login": {
+      "message": "Giri\u015Ften Sonra LastPass Kasam\u0131 G\u00F6ster"
+   },
+   "Show_Notifications": {
+      "message": "Bildirimleri G\u00F6ster"
+   },
+   "Show_Save_Site_Notification_Bar": {
+      "message": "Kay\u0131tl\u0131 site bildirim bar\u0131n\u0131 g\u00F6ster"
+   },
+   "Show_Save_Site_Notifications": {
+      "message": "Site Kaydetme Bildirimlerini G\u00F6ster"
+   },
+   "Show_Sites_in_Groups": {
+      "message": "Gruplardaki Siteleri G\u00F6ster"
+   },
+   "Show_Vault_After_Login": {
+      "message": "LastPass Kasas\u0131n\u0131 Giri\u015Ften Sonra G\u00F6ster"
+   },
+   "Show_all_sites": {
+      "message": "T\u00FCm siteleri g\u00F6ster"
+   },
+   "Show_certain_notifications_only_after_click": {
+      "message": "Tek t\u0131klamadan sonra belirli hat\u0131rlatmalar\u0131 g\u00F6ster"
+   },
+   "Shows_another_custom_field_entry": {
+      "message": "Ba\u015Fka bir \u00F6zel alan giri\u015Fi g\u00F6sterir"
+   },
+   "Sierra_Leone": {
+      "message": "Sierra Leone"
+   },
+   "Simplify_your_life__Use_LastPass_to_autofill_in_this_site_s_login_info_": {
+      "message": "Hayat\u0131 kolayla\u015Ft\u0131r\u0131n: Bu sitenin giri\u015F bilgilerini doldurmas\u0131 i\u00E7in LastPass'den yararlan\u0131n!"
+   },
+   "Singapore": {
+      "message": "Singapur"
+   },
+   "Site_Search": {
+      "message": "Sitede Arama"
+   },
+   "Sites": {
+      "message": "Siteler"
+   },
+   "Slovak": {
+      "message": "Slovak\u00E7a"
+   },
+   "Slovakia": {
+      "message": "Slovakya"
+   },
+   "Slovenia": {
+      "message": "Slovenya"
+   },
+   "Social_Security": {
+      "message": "Sosyal G\u00FCvenlik"
+   },
+   "Social_security_number": {
+      "message": "Sosyal g\u00FCvenlik numaras\u0131"
+   },
+   "Software_License": {
+      "message": "Yaz\u0131l\u0131m Lisan\u0131"
+   },
+   "Solomon_Islands": {
+      "message": "Solomon Adalar\u0131"
+   },
+   "Somalia": {
+      "message": "Somali"
+   },
+   "Sorry__this_shared_folder_is_read_only_": {
+      "message": "\u00DCzg\u00FCn\u00FCz, bu payla\u015F\u0131lan klas\u00F6r salt-okunur."
+   },
+   "Sorry__you_cannot_perform_this_operation_on_a_mix_of_shared_and_non_shared_folders__or_multiple_shared_folders_at_once_": {
+      "message": "\u00DCzg\u00FCn\u00FCz, bu eylemi payla\u015F\u0131lan ve payla\u015F\u0131lmayan klas\u00F6rler ya da bir defada birden fazla payla\u015F\u0131lan klas\u00F6r i\u00E7inde yapamazs\u0131n\u0131z."
+   },
+   "Source_": {
+      "message": "Kaynak:"
+   },
+   "South_Africa": {
+      "message": "G\u00FCney Afrika"
+   },
+   "South_Georgia": {
+      "message": "G\u00FCney Georgia"
+   },
+   "South_Georgia_and_the_South_Sandwich_Islands": {
+      "message": "G\u00FCney Georgia ve G\u00FCney Sandwich Adalar\u0131"
+   },
+   "Spain": {
+      "message": "\u0130spanya"
+   },
+   "Spanish": {
+      "message": "\u0130spanyolca"
+   },
+   "Spanish__Mexico_": {
+      "message": "\u0130spanyolca (Meksika)"
+   },
+   "Special": {
+      "message": "\u00D6zel"
+   },
+   "SplashID": {
+      "message": "SplashID"
+   },
+   "Sri_Lanka": {
+      "message": "Sri Lanka"
+   },
+   "Start_date": {
+      "message": "Ba\u015Flang\u0131\u00E7 tarihi"
+   },
+   "State": {
+      "message": "Eyalet"
+   },
+   "State___Province": {
+      "message": "Eyalet / B\u00F6lge"
+   },
+   "Sticky_Password": {
+      "message": "Yap\u0131\u015Fkan Password"
+   },
+   "Submit_Form": {
+      "message": "Formu G\u00F6nder"
+   },
+   "Submitting___": {
+      "message": "G\u00F6nderiliyor..."
+   },
+   "Sudan": {
+      "message": "Sudan"
+   },
+   "Support_Email": {
+      "message": "Destek E-postas\u0131"
+   },
+   "Suriname": {
+      "message": "Surinam"
+   },
+   "Suspicious_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "Se\u00E7ilen dosya ad\u0131nda \u015F\u00FCpheli karakterler bulundu, i\u015Flem yap\u0131lmayacak"
+   },
+   "Svalbard_and_Jan_Mayen": {
+      "message": "Svalbard ve Jan Mayen"
+   },
+   "Swaziland": {
+      "message": "Swaziland"
+   },
+   "Sweden": {
+      "message": "\u0130sve\u00E7"
+   },
+   "Swedish": {
+      "message": "\u0130sve\u00E7\u00E7e"
+   },
+   "Swipe_current_user_s_finger": {
+      "message": "Ge\u00E7erli kullan\u0131c\u0131n\u0131n parmak izini okuyucudan ge\u00E7ir"
+   },
+   "Swipe_finger": {
+      "message": "Parmak izinizi okutun"
+   },
+   "Swipe_your_finger_on_the_fingerprint_sensor": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 parmak izi taray\u0131c\u0131s\u0131ndan ge\u00E7irin"
+   },
+   "Switzerland": {
+      "message": "\u0130svi\u00E7re"
+   },
+   "Syrian_Arab_Republic": {
+      "message": "Suriye Arap Cumhuriyeti"
+   },
+   "Tabs": {
+      "message": "sekmede a\u00E7"
+   },
+   "Taiwan": {
+      "message": "Tayvan"
+   },
+   "Tajikistan": {
+      "message": "Tacikistan"
+   },
+   "Tanzania__United_Republic_Of": {
+      "message": "Tanzanya Birle\u015Fik Cumhuriyeti"
+   },
+   "Tehran": {
+      "message": "Tahran"
+   },
+   "Telephone": {
+      "message": "Telefon"
+   },
+   "Tell_a_friend_": {
+      "message": "Bir arkada\u015F\u0131na \u00F6ner!"
+   },
+   "Text": {
+      "message": "Metin"
+   },
+   "Text_to_find": {
+      "message": "Aran\u0131lacak metin"
+   },
+   "Thailand": {
+      "message": "Tayland"
+   },
+   "That_file_is_missing_or_empty___Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "Bu dosya eksik veya bo\u015F. \u0130\u00E7e aktarmak i\u00E7in dosyan\u0131n tam yolunu giriniz."
+   },
+   "That_group_already_exists_": {
+      "message": "Bu grup zaten var."
+   },
+   "The_4_digit_year_the_credit_card_was_issued": {
+      "message": "Kredi kart\u0131n\u0131n verildi\u011Fi y\u0131l, 4 haneli"
+   },
+   "The_LastPass_Wi_Fi_utility_was_not_detected_on_this_computer___Would_you_like_to_run_the_LastPass_Universal_Installer_in_order_to_install_it_": {
+      "message": "Bu b\u0131lg\u0131sayarda LastPass uygulamas\u0131 alg\u0131lanamad\u0131. Uygulamay\u0131 y\u011Fklemek i\u00E7in Universal Installer'\u0131 \u00E7al\u0131\u015Ft\u0131rmak ister misiniz? "
+   },
+   "The_LastPass_master_password_you_reentered_does_not_match": {
+      "message": "Tekrar girdi\u011Finiz LastPass ana \u015Fifresi uymuyor"
+   },
+   "The__Old_Password__you_entered_is_not_your_correct_LastPass_master_password": {
+      "message": "Girdi\u011Finiz 'Eski \u015Eifre' do\u011Fru de\u011Fil"
+   },
+   "The_binary_version_of_the_LastPass_plugin_is_required_for_this_operation__It_can_be_downloaded_from_lastpass_com_": {
+      "message": "LastPass binary(ikili) versiyon plugin'i gereklidir. Bunu lastpass.com dan indirebilirsiniz."
+   },
+   "The_credit_card_number": {
+      "message": "Kredi kart\u0131 numaras\u0131"
+   },
+   "The_credit_card_s_4_digit_expiration_year": {
+      "message": "Kredi kart\u0131n\u0131z\u0131n son kullanma tarihi (Y\u0131l - 4 haneli)"
+   },
+   "The_credit_card_s_expiration_month": {
+      "message": "Kredi kart\u0131n\u0131z\u0131n son kullanma tarihi (Ay)"
+   },
+   "The_credit_card_s_issue_number__Only_applicable_to_certain_European_brands_of_debit_cards__such_as_Maestro_": {
+      "message": "Kredi kart\u0131n\u0131n numaras\u0131 sadece belli avrupa markas\u0131 kredi kartlar\u0131nda uygulanabilir, Maestro gibi."
+   },
+   "The_credit_card_s_security_code__For_most_credit_cards__this_is_the_last_3_digits_of_a_number_printed_on_the_back_of_the_card__For_American_Express_credit_cards__it_is_the_last_4_digits_of_a_number_printed_in_small_print_on_the_front_of_the_card_": {
+      "message": "Kredi kart\u0131 cv2 kodu. Bu numara kredi kart\u0131n\u0131n arka y\u00FCz\u00FCndeki say\u0131lar\u0131n son 3 rakam\u0131d\u0131r."
+   },
+   "The_full_name_printed_on_the_credit_card": {
+      "message": "Kart\u0131n \u00F6n y\u00FCz\u00FCnde bulunan tam isim"
+   },
+   "The_language_of_the_Web_sites_where_this_Form_Fill_profile_will_be_used": {
+      "message": "Bu Form Doldurma profilinin kullan\u0131laca\u011F\u0131 web sitesinin dili"
+   },
+   "The_month_the_credit_card_was_issued": {
+      "message": "Kredi kart\u0131n\u0131n verildi\u011Fi ay"
+   },
+   "The_name_of_the_Form_Fill_profile": {
+      "message": "Form Doldurma profilinin i\u00E7in isim"
+   },
+   "The_name_of_your_bank": {
+      "message": "Bankan\u0131z\u0131n ad\u0131"
+   },
+   "The_notes_field_contains_too_much_data___You_may_store_a_maximum_of_45_000_characters_per_note___Would_you_like_us_to_truncate_the_note_for_you___You_will_lose_some_of_your_data_": {
+      "message": "Yaz\u0131 alan\u0131 \u00E7ok fazla karakter i\u00E7eriyor. Her not i\u00E7in en fazla 45,000 karakter bulundurabilirsiniz. \n\nSizin i\u00E7in notu k\u0131saltmam\u0131z\u0131 ister misiniz? Girdinin bir k\u0131sm\u0131n\u0131 kaybedeceksiniz."
+   },
+   "The_value_to_be_filled": {
+      "message": "Doldurulacak de\u011Fer"
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work_": {
+      "message": "Chrome'un kulland\u0131\u011F\u0131n\u0131z bu s\u00FCr\u00FCm\u00FCnde HTML5 veritaban\u0131 deste\u011Fi etkin de\u011Fildir. Bu nedenle bu oturum a\u00E7ma penceresi e-posta ve \u015Fifrenizi hat\u0131rlama, otomatik giri\u015F ve taray\u0131c\u0131y\u0131 yeniden ba\u015Flatma gibi \u00F6zellikler \u00E7al\u0131\u015Fmayacakt\u0131r. "
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work___You_may_be_able_to_fix_this_by_adding___enable_databases_as_a_parameter_to_your_Google_Chrome_browser_shortcut_": {
+      "message": "Kulland\u0131\u011F\u0131n\u0131z Chrome s\u00FCr\u00FCm\u00FC HTML5 veritaban\u0131 deste\u011Fine sahip de\u011Fil. Bundan dolay\u0131 da giri\u015F kay\u0131tlarn\u0131z (e-posta ve parola gibi) taray\u0131c\u0131n\u0131z taraf\u0131ndan hat\u0131rlanmayacak ve taray\u0131c\u0131 yeniden ba\u015Flatma eyleminin ard\u0131ndan otomatik giri\u015F gibi \u00F6zelliklerde pasif olacak. Bu gibi sorunlar\u0131 Google Chrome k\u0131sayoluna --enable-databases parametresini girerek d\u00FCzeltebilirsiniz."
+   },
+   "This_attachment_needs_to_be_saved_first_": {
+      "message": "\u00D6ncelikle bu ekin kaydedilmesi gerekiyor."
+   },
+   "This_can_only_be_handled_from_a_webpage": {
+      "message": "Buna sadece bir web sayfasndan m\u00FCdahale edilebilir."
+   },
+   "This_computer_is_trusted__do_not_require_a_second_form_of_authentication_": {
+      "message": "Bu bilgisayar g\u00FCvenli, tekrar bir kimlik do\u011Frulama formu gerektirmiyor."
+   },
+   "This_feature_is_not_available_in_this_version__Please_install_the_binary_extension_by_going_to_https___lastpass_com_dl": {
+      "message": "Bu \u00F6zellik bu s\u00FCr\u00FCmde mevcut de\u011Fildir. https://lastpass.com/dl adresindeki b\u0131nary uzant\u0131s\u0131n\u0131 kurun."
+   },
+   "This_feature_requires_the_binary_version_of_this_browser_extension___Would_you_like_to_install_it_now_": {
+      "message": "Bu \u00F6zellik taray\u0131c\u0131 eklentisinin binary versiyonunu gerektirir. \u015Eimdi y\u00FCklemek ister misiniz?"
+   },
+   "This_feature_still_needs_to_be_implemented__to_read_directly_from_": {
+      "message": "... dan direkt okuyabilmek i\u00E7in hala bu \u00F6zelli\u011Fin dahil edilmesi gerekiyor."
+   },
+   "This_is_a_shared_site__You_are_not_permitted_to_view_the_password_": {
+      "message": "Bu payla\u015F\u0131lan bir sitedir. \u015Eifreyi g\u00F6rmeye yetkiniz yok."
+   },
+   "Time_Zone": {
+      "message": "Saat Dilimi"
+   },
+   "Timor_Leste": {
+      "message": "Do\u011Fu Timor"
+   },
+   "Title": {
+      "message": "Ba\u015Fl\u0131k"
+   },
+   "To_create_your_account__please_re_enter_your_LastPass_master_password": {
+      "message": "L\u00FCtfen hesab\u0131n\u0131z\u0131 olu\u015Fturmak i\u00E7in sizin LastPass ana \u015Fifrenizi girin"
+   },
+   "To_export_1Password_logins__login_to_1Password__Select_all_or_just_passwords_that_you_want_to_export__Then_select__File_menu___Export_All___Text_file_____Or____File_menu___Export_Selected___Text_file____Click_Export_button_and_Save_password_file__and_Import_the_resulting_file_": {
+      "message": "1Password hesab\u0131n\u0131zdaki kay\u0131tlar\u0131 LastPass'e aktarman\u0131z i\u00E7in 1Password hesab\u0131n\u0131za giri\u015F yap\u0131n. Hepsini ya da sadece aktarmak istedi\u011Finiz kay\u0131tlar\u0131 se\u00E7in. Sonra 'Dosya \u003E Hepsini Aktar \u003E Text dosyas\u0131'n\u0131 veya Dosya \u003E Se\u00E7iliyi Aktar \u003E Text dosyas\u0131'n\u0131 se\u00E7iniz. Sonunda da 'Aktar' tu\u015Funa basarak kay\u0131t dosyan\u0131z\u0131 d\u0131\u015Far\u0131ya aktar\u0131p kaydedin ve art\u0131k LastPass'e bu kay\u0131tlar\u0131 Ayarlar \u003E \u015Euradan \u0130\u00E7e Aktar men\u00FClerini kullanarak aktar\u0131n."
+   },
+   "To_export_Clipperz_cards__login_to_www_clipperz_com__Click_on_data__then_Export__then_Export_to_JSON__Copy_all_of_the_text_and_save_it_to_a_file_using_a_text_editor__then_import_it__Please_note_that_this_import_may_not_work_properly_if_you_ve_changed_field_names_from_their_defaults_": {
+      "message": "Clipperz kartlar\u0131n\u0131z\u0131 d\u0131\u015Far\u0131 aktarmak i\u00E7in www.clipperz.com adresine gidip s\u0131ras\u0131yla 'Data' \u003E 'Export to JSON' t\u0131klan\u0131r. JSON i\u00E7erisindeki bilgilerin t\u00FCm\u00FCn\u00FC se\u00E7ip bir metin belgesi i\u00E7ine kaydedin ve sonra LastPass'e aktar\u0131n. Ama \u015Funu unutmay\u0131n ki kayna\u011F\u0131ndan ald\u0131\u011F\u0131n\u0131z bilgilerde herhangi bir de\u011Fi\u015Fim bu i\u015Flemin ba\u015Faar\u0131s\u0131z olmas\u0131na neden olacakt\u0131r."
+   },
+   "To_export_FireForm_profiles__right_click_the_FireForm_icon__then_choose_Simple_setup___Go_to_the_General_options_tab__click_Export_all_profiles__and_save_an_XML_file___Import_the_resulting_file_": {
+      "message": "FireForm profillerini d\u0131\u015Fa aktarmak i\u00E7in FireForm simgesine sa\u011F t\u0131klay\u0131n ve Basit Kurulum'u se\u00E7in.Genel se\u00E7enekler sekmesine gidin, T\u00FCm Profilleri D\u0131\u015Fa Aktar'a t\u0131klay\u0131n ve XML dosyas\u0131na kaydedin.\u00C7\u0131kan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_export_HP_Password_Safe_save_to_an_HTML_file__Import_the_resulting_file_": {
+      "message": "HP Password Safe'den d\u0131\u015Fa aktarma yapmak i\u00E7in bir HTML dosyas\u0131na kay\u0131t yap\u0131n. Olu\u015Fan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_export_KeePass_logins__open_your_KeePass_database__and_click_on_File___Export_To___XML_File___Choose_a_file_location_and_press_the_Save_button___Then__press_the_OK_button___Import_the_resulting_file_": {
+      "message": "KeePass oturum a\u00E7ma bilgilerinizi d\u0131\u015Fa aktarmak i\u00E7in KeePass veritaban\u0131n\u0131z\u0131 a\u00E7\u0131n, Dosya - D\u0131\u015Fa Aktar - XML Dosya'y\u0131 se\u00E7in. Ard\u0131ndan onay butonuna t\u0131klay\u0131n. Olu\u015Fturulan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_export_LastPass_logins__open_your_browser_with_the_LastPass_plugin_installed__and_click_on_LastPass___Tools___Export_To___CSV_File___Choose_a_file_location_and_press_the_Save_button___Import_the_resulting_file_": {
+      "message": "LastPass oturumlar ihracat LastPass eklentisi y\u00FCkl\u00FC olan taray\u0131c\u0131n\u0131z\u0131 a\u00E7\u0131n ve LastPass t\u0131klay\u0131n - Tools - CSV Dosyas\u0131na - Aktar. Bir dosya konumu se\u00E7in ve Save tu\u015Funa bas\u0131n. \u00C7\u0131kan dosya \u0130thalat."
+   },
+   "To_export_Password_Agent_logins__open_your_Password_Agent_database__and_click_on_File___Print_and_Export___Change_the_output_format_to_XML_File__make_sure__Group__is_checked___Choose_a_file_location_and_press_the_Save_button___Import_the_resulting_file_": {
+      "message": "Password Agent oturumlar\u0131n\u0131 ihracat etmek i\u00E7in, Password Agent veritaban\u0131n\u0131n\u0131z\u0131 a\u00E7\u0131n ve Men\u00FCden Dosya - Bask\u0131 ve \u0130hracat - t\u0131klay\u0131p, dosya bi\u00E7imini XML \u200B\u200Bolarak de\u011Fi\u015Ftirip ( 'Grup' se\u00E7ene\u011Fin se\u00E7ili oldu\u011Funa dikkat edin) dosya konumunu se\u00E7erek Kaydet tu\u015Funa t\u0131klay\u0131n\u0131z. Daha sonra \u00E7\u0131kan dosyay\u0131 ithal ediniz."
+   },
+   "To_export_Passwords_Max_passwords__click_File___Database___Export___Text___Click_OK__and_save_a_CSV_file___Import_the_resulting_file_": {
+      "message": "Passwords Max \u015Fifrelerini ihracat etmek i\u00E7in, men\u00FCden File - Database - Export - Text se\u00E7in ve OK t\u0131klay\u0131p CSV dosya format\u0131nda kaydedin. Kaydedilen dosyay\u0131 ithal edin."
+   },
+   "To_export_RoboForm_logins__click_on_RoboForm_Logins____Print_List__Click_on_the_Full_URL_check_box_and_press_the_save_button__Import_the_resulting_file___To_export_RoboForm_SafeNotes__click_on_RoboForm_SafeNotes_Print_List__Press_the_save_button__Import_the_resulting_file___To_export_RoboForm_Identities__click_on_RoboForm_Identities_Print_List__Press_the_save_button__Import_the_resulting_file_": {
+      "message": "RoboForm oturumlar vermek i\u00E7in, RoboForm-Giri\u015Fler t\u0131klay\u0131n ...- Liste Yazd\u0131r. Tam URL onay kutusunu t\u0131klay\u0131n ve kay\u0131t d\u00FC\u011Fmesine bas\u0131n. Ortaya \u00E7\u0131kan file.\n\nTo ihracat RoboForm G\u00FCvenli Notlar \u0130thalat, RoboForm-G\u00FCvenli Notlar Bask\u0131 Listesi t\u0131klat\u0131n. Kaydet tu\u015Funa bas\u0131n. Sonu\u00E7ta file.\n\nTo ihracat RoboForm Kimlikleri \u0130thalat, RoboForm-Kimlikler-Print Listesi t\u0131klat\u0131n. Kaydet tu\u015Funa bas\u0131n. \u00C7\u0131kan dosya \u0130thalat."
+   },
+   "To_export_eWallet_cards__go_to_eWallet___Tools___Export__Save_as_a_text_file__Import_the_resulting_file_": {
+      "message": "eWallet kartlar\u0131n\u0131 ihra\u00E7 etmek i\u00E7in men\u00FCden eWallet - Tools - Export t\u0131klay\u0131p txt format\u0131nda kaydedin. Kaydedilen dosyay\u0131 ithal edin"
+   },
+   "To_export_from_MyPasswordSafe__Click_on_File___Save_As___Select_type_of_UNENCRYPTED_XML___Save_the_file___Import_the_resulting_file_": {
+      "message": "MyPasswordSafe gelen ihracat i\u00E7in, File t\u0131klay\u0131n - Farkl\u0131 Kaydet - UNENCRYPTED XML t\u00FCr\u00FCn\u00FC se\u00E7in - dosyay\u0131 kaydedin. \u00C7\u0131kan dosya \u0130thalat."
+   },
+   "To_export_from_Password_Safe__Click_on_File___Export_To___XML___Save_the_file___Import_the_resulting_file_": {
+      "message": "Password Safe'ten ihra\u00E7 etmek i\u00E7in men\u00FCden File - Export To - XML t\u0131klay\u0131p dosyay\u0131 kaydedin. Kaydedilen dosyay\u0131 ithal edin."
+   },
+   "To_export_passwords__login_to_the_desktop_application_and_go_to_File___Export___CSV___All_Entries___Import_the_resulting_file_": {
+      "message": "\u015Eifreleri d\u0131\u015Far\u0131 vermek i\u00E7in, masa\u00FCst\u00FC uygulamas\u0131na giri\u015F yap\u0131n ve Dosya - Ver - CSV - T\u00FCm Giri\u015Fler se\u00E7ene\u011Fine gidin. Sonu\u00E7 dosyas\u0131n\u0131 i\u00E7eri al\u0131n."
+   },
+   "To_export_passwords_from_Darn__Passwords___click_Tools___Print___Click_Settings__and_check_Include_Notes_in_Export___Click_Print__and_click_the_Export_to_File_icon_that_looks_like_a_blue_disk___Name_the_file__and_click_Open___Import_the_resulting_file_": {
+      "message": "Darn! Passwords!'tan ihra\u00E7at i\u00E7in , men\u00FCden Tools - Print t\u0131klay\u0131n. Settings t\u0131klay\u0131n ve Include Notes in Export i\u015Faretleyin. Print t\u0131klay\u0131n, ve mavi bir diskete benzeyen Export ikonuna t\u0131klay\u0131n. Dosyaya bir isim verip Open t\u0131klay\u0131n. Kaydedilen dosyay\u0131 ithal edin"
+   },
+   "To_export_passwords_from_Passpack__Login__go_to_the_Tools_screen__and_click_Export__Under__What_Type_of_Format_Would_You_Like_To_Export___Select__Comma_Separated_Values___and_on__Which_Entries_Would_You_Like_To_Export___Select__All_of_my_entries___then_hit__Continue___Select_all_of_the_text_in_the_text_box_on_the_next_screen__copy_it_to_the_clipboard__create_a_new_file_with_notepad_called_passpack_csv__paste_the_contents_into_this_file__Import_this_file_": {
+      "message": "Passpack'teki bilgilerinizi d\u0131\u015Fa aktarmak i\u00E7in: Giri\u015F yap\u0131n, Ara\u00E7lar b\u00F6l\u00FCm\u00FCne ge\u00E7in ve D\u0131\u015Fa Aktar'\u0131 t\u0131klay\u0131n. Kar\u015F\u0131n\u0131za gelen ekrandaki b\u00FCt\u00FCn kutular\u0131 i\u015Faretleyip hepsini se\u00E7in ve sa\u011F fare t\u0131k\u0131yla kopyalaya bas\u0131n ve yeni bir metin belgesi olu\u015Fturarak i\u00E7ine yap\u0131\u015Ft\u0131r\u0131n. Bu metin belgesini de passpack.csv olarak kaydedin. Olu\u015Fan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_export_passwords_from_Password_Corral__Login__go_to_the_File___Export_Password___Create_a_plaintext_export_of_all_your_password___Import_this_file_": {
+      "message": "Password Corral'dan \u015Fifreleri ithal i\u00E7in: Giri\u015F yap\u0131p men\u00FCden File - Export Password t\u0131klay\u0131n. \u015Eifrelerin hepsini ithal i\u00E7in d\u00FCz metin olarak kaydedin. Kaydedilen dosyay\u0131 ihra\u00E7 edin."
+   },
+   "To_export_passwords_from_Password_Depot__click_on_the__Tools__tab_and_select__Export___Select_the__Extensible_Markup_Language_format____xml____specify_a_target_file_and_select_the_folder_you_want_to_export_": {
+      "message": "\u015Eifre Deposu'ndaki bilgilerinizi d\u0131\u015Fa aktarmak i\u00E7in: Giri\u015F yap\u0131n, Ara\u00E7lar b\u00F6l\u00FCm\u00FCne ge\u00E7in ve D\u0131\u015Fa Aktar'\u0131 t\u0131klay\u0131n. 'Geni\u015Fletilebilir Bi\u00E7imlendirme Dili bi\u00E7imi (*. xml)' se\u00E7in, bir hedef dosya belirtin ve vermek istedi\u011Finiz klas\u00F6r\u00FC se\u00E7in."
+   },
+   "To_export_passwords_from_Password_Dragon__Login__go_to_the_File___Export___Text_File__make_sure_you_check__Password___it_defaults_off___Import_the_saved_file_": {
+      "message": "Password Dragon \u015Fifrelerini d\u0131\u015Far\u0131 vermek i\u00E7in: Oturum a\u00E7\u0131n, File - Export - Text File se\u00E7ene\u011Fine gidin, varsay\u0131lan\u0131 kapal\u0131 olan 'Password' se\u00E7ene\u011Finin i\u015Faretlendi\u011Finden emin olun. Sonu\u00E7 dosyas\u0131n\u0131 i\u00E7eri al\u0131n."
+   },
+   "To_export_passwords_from_Revelation_Password_Manager__export_the_data_as_XML_": {
+      "message": "Revelation \u015Eifre Y\u00F6neticisi'nden \u015Fifreleri d\u0131\u015Fa aktarmak i\u00E7in veriyi XML olarak d\u0131\u015Fa aktar\u0131n"
+   },
+   "To_export_passwords_from_SPB_Wallet__open_the_wallet__click_File__Export__select_file_destination_in_the_dialog_box_and_click_Save__Then__paste_the_data_into_the_box_on_this_page_": {
+      "message": "SPB C\u00FCzdan\u0131ndan \u015Fifreleri aktarmak i\u00E7in, c\u00FCzdan\u0131 a\u00E7\u0131n, \u00F6nce Dosya'ya daha sonra d\u0131\u015Fa aktar'a t\u0131klay\u0131n, a\u00E7\u0131lan diyalog kutusunda dosyan\u0131n yerini se\u00E7in ve Kaydet'e t\u0131klay\u0131n. Daha sonra, veriyi bu sayfadaki kutuya yap\u0131\u015Ft\u0131r\u0131n. "
+   },
+   "To_get_started_with_LastPass__you_will_need_to_add_sites_to_your_account_": {
+      "message": "Hesab\u0131n\u0131za siteleri ekleyerek LastPass'in nas\u0131l \u00E7al\u0131\u015Ft\u0131\u011F\u0131n\u0131 rahatl\u0131kla g\u00F6rebilirsiniz."
+   },
+   "To_import_Wi_Fi_passwords__simply_click_Import_below_": {
+      "message": "Wi-Fi \u015Fifrelerini almak i\u00E7in, a\u015Fa\u011F\u0131daki \u0130\u00E7e Aktar'\u0131 t\u0131klat\u0131n."
+   },
+   "To_import_from_PINs_Password_Manager_Export_in_Tab_Separated_format___Then__import_the_resulting_file_": {
+      "message": "PINs Parola Y\u00F6neticisinden veri aktarmak i\u00E7in, sekme ile ayr\u0131lm\u0131\u015F formatta aktar\u0131m al\u0131n ve \u00E7\u0131kan dosyay\u0131 import edin."
+   },
+   "To_import_passwords_from_Opera_Password_Manager__simply_click_Import_below_": {
+      "message": "Safari Password Manager'dan \u015Fifreleri aktarmak i\u00E7in, a\u015Fa\u011F\u0131daki Aktar butonunu t\u0131klay\u0131n."
+   },
+   "To_import_passwords_from_Safari_Password_Manager__simply_click_Import_below_": {
+      "message": "Safari Password Manager'dan \u015Fifreleri aktarmak i\u00E7in, a\u015Fa\u011F\u0131daki Aktar butonunu t\u0131klay\u0131n."
+   },
+   "To_import_your_MSI_PasswordKeeper_logins__open_the_program___Click__Txt___and_then__Open____Import_the_resulting_file_": {
+      "message": "MSI PasswordKeeper bilgilerini d\u0131\u015Fa aktarmak i\u00E7in program\u0131 a\u00E7\u0131n. Txt'ye t\u0131klay\u0131n ve ard\u0131ndan A\u00E7'a t\u0131klay\u0131n. Olu\u015Fan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_import_your_Password_Keeper_logins__open_the_program__and_the_password_file_to_be_exported___Click_File___Export_File___Click_Yes__enter_your_password__and_click_OK___This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location___Import_the_resulting_file_": {
+      "message": "\u015Eifre koruyucu oturumlar\u0131n\u0131z\u0131 ta\u015F\u0131mak d\u0131\u015Fa aktarmak i\u00E7in, program\u0131 ve verileri i\u00E7ine aktaraca\u011F\u0131n\u0131z dosyay\u0131 a\u00E7\u0131n. Dosya - Dosyay\u0131 D\u0131\u015Fa Aktar'\u0131 t\u0131klay\u0131n. Evet'i t\u0131klay\u0131n, \u015Fifrenizi girin ve OK'ye t\u0131klay\u0131n. Bu standart bir Windows Kaydet diyalo\u011Fu a\u00E7acakt\u0131r, bir dosya ad\u0131 ve yeri girin. Olu\u015Fturulan dosyaya bilgileri aktar\u0131n.  "
+   },
+   "To_import_your_TurboPasswords_logins__open_the_program__and_the_password_file_to_be_exported__If_you_want_to_restrict_the_export_to_a_particular_category_or_type__filter_the_entries_displayed_using_the_Category_and_Type_drop_downs_above_the_main_window__Click_File_Export_Category__This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location__and_select_Comma_Separated_Values___csv__from_the_Save_as_Type_box_": {
+      "message": "TurboPasswords bilgilerinizi d\u0131\u015Fa aktarmak i\u00E7in ilk \u00F6nce program\u0131 a\u00E7\u0131n. E\u011Fer parolalar\u0131n\u0131z\u0131n sadece bir k\u0131sm\u0131n\u0131n d\u0131\u015Far\u0131 aktar\u0131lmas\u0131n\u0131 istiyorsan\u0131z istedi\u011Finiz kategorilerdeki parolalar\u0131 se\u00E7in ve ard\u0131ndan Dosya=\u003ED\u0131\u015Fa Aktar'e t\u0131klay\u0131n. Standart bir windows uyar\u0131 penceresi gelecek ve dosyay\u0131 kaydetmeniz i\u00E7in sizi y\u00F6nlendirecek. Dosyay\u0131 kaydedin ve Olu\u015Fan dosyay\u0131 i\u00E7e aktar\u0131n."
+   },
+   "To_protect_your_privacy_and_keep_your_data_confidential_": {
+      "message": "Gizlili\u011Finizi korumak ve \u00F6zel bilgilerinizi saklamak i\u00E7in,"
+   },
+   "Togo": {
+      "message": "Togo"
+   },
+   "Tokelau": {
+      "message": "Tokelau"
+   },
+   "Tonga": {
+      "message": "Tonga"
+   },
+   "Tools": {
+      "message": "Ara\u00E7lar"
+   },
+   "Trinidad_and_Tobago": {
+      "message": "Trinidad ve Tobago"
+   },
+   "Try_Again": {
+      "message": "Yeniden Dene"
+   },
+   "Tunisia": {
+      "message": "Tunus"
+   },
+   "TurboPasswords": {
+      "message": "TurboPasswords"
+   },
+   "Turkey": {
+      "message": "T\u00FCrkiye"
+   },
+   "Turkmenistan": {
+      "message": "T\u00FCrkmenistan"
+   },
+   "Turks_and_Caicos_Islands": {
+      "message": "Turks ve Caicos Adalar\u0131"
+   },
+   "Tuvalu": {
+      "message": "Tuvalu"
+   },
+   "Type": {
+      "message": "T\u00FCr"
+   },
+   "Type_": {
+      "message": "T\u00FCr:"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "URL_": {
+      "message": "URL:"
+   },
+   "USERNAME": {
+      "message": "KULLANICI ADI"
+   },
+   "Uganda": {
+      "message": "Uganda"
+   },
+   "Ukraine": {
+      "message": "Ukrayna"
+   },
+   "Ulaan_Bataar__Perth": {
+      "message": "Ulan Batur, Perth"
+   },
+   "Unexpected_data_type__": {
+      "message": "Beklenmeyen veri t\u00FCr\u00FC:"
+   },
+   "United_Arab_Emirates": {
+      "message": "Birle\u015Fik Arap Emirlikleri"
+   },
+   "United_Kingdom": {
+      "message": "Birle\u015Fik Krall\u0131k"
+   },
+   "United_States": {
+      "message": "Amerika Birle\u015Fik Devletleri"
+   },
+   "United_States_Minor_Outlying_Islands": {
+      "message": "Birle\u015Fmi\u015F Devletler D\u0131\u015F Adalar\u0131"
+   },
+   "Unknown": {
+      "message": "Bilinmeyen"
+   },
+   "Unselect_All": {
+      "message": "T\u00FCm\u00FCn\u00FCn Se\u00E7imini Kald\u0131r"
+   },
+   "Up": {
+      "message": "Yukar\u0131"
+   },
+   "Upgrade_to_LastPass_Online_": {
+      "message": "LastPass online Y\u00FCkseltildi!"
+   },
+   "Uploading_Data___": {
+      "message": "Veriler y\u00FCkleniyor..."
+   },
+   "Uruguay": {
+      "message": "Uruguay"
+   },
+   "Use_802_1X": {
+      "message": "802.1X kullan"
+   },
+   "User_Manual": {
+      "message": "Kullan\u0131m K\u0131lavuzu"
+   },
+   "User_name": {
+      "message": "Kullan\u0131c\u0131 ad\u0131"
+   },
+   "Username_": {
+      "message": "Kullan\u0131c\u0131 Ad\u0131:"
+   },
+   "Usernameproper": {
+      "message": "Kullan\u0131c\u0131 Ad\u0131"
+   },
+   "Uzbekistan": {
+      "message": "\u00D6zbekistan"
+   },
+   "Value_to_fill": {
+      "message": "Doldurulacak de\u011Fer"
+   },
+   "Vanuatu": {
+      "message": "Vanuatu"
+   },
+   "Vault": {
+      "message": "Kasa"
+   },
+   "Venezuela": {
+      "message": "Venezuela"
+   },
+   "Version": {
+      "message": "S\u00FCr\u00FCm"
+   },
+   "Version_": {
+      "message": "S\u00FCr\u00FCm:"
+   },
+   "Viet_Nam": {
+      "message": "Viet Nam"
+   },
+   "View_Image": {
+      "message": "Resmi g\u00F6r\u00FCnt\u00FCle"
+   },
+   "View_Passwords": {
+      "message": "\u015Eifreleri g\u00F6ster"
+   },
+   "Virgin_Islands__British_": {
+      "message": "Virgin Adalar\u0131 (\u0130ngilizce)"
+   },
+   "Virgin_Islands__U_S__": {
+      "message": "Virgin Adalar\u0131 (ABD)"
+   },
+   "Wallis_and_Futuna": {
+      "message": "Wallis ve Futuna"
+   },
+   "Warn_before_filling_insecure_forms": {
+      "message": "G\u00FCvenli olmayan formlar\u0131 doldurmadan \u00F6nce uyar"
+   },
+   "Watch_a_video_on_basic_usage": {
+      "message": "Temel kullan\u0131m hakk\u0131nda bir vidyo  izleyin"
+   },
+   "We_also_DO_NOT_keep_a_copy_or_backup_of_it_": {
+      "message": "Ayn\u0131 zamanda kopyas\u0131n\u0131 veya yede\u011Fini de TUTMUYORUZ."
+   },
+   "Weak_Password": {
+      "message": "Zay\u0131f Parola"
+   },
+   "Website": {
+      "message": "Web sitesi"
+   },
+   "Welcome_to_LastPass_": {
+      "message": "LastPass'e ho\u015F geldiniz!"
+   },
+   "West_Central_Africa": {
+      "message": "Orta Bat\u0131 Afrika"
+   },
+   "Western_Sahara": {
+      "message": "Bat\u0131 Sahara"
+   },
+   "Wi_Fi_Password": {
+      "message": "Wi-Fi \u015Eifresi"
+   },
+   "Wi_Fi_Passwords": {
+      "message": "Wi-Fi \u015Eifreleri"
+   },
+   "Windows": {
+      "message": "pencerede a\u00E7"
+   },
+   "Would_you_like_to_set_up_a_Form_Filling_profile_now_": {
+      "message": "FormDoldur profili olu\u015Fturmak ister misiniz?"
+   },
+   "XML_Files": {
+      "message": "XML Dosyalar\u0131"
+   },
+   "Yangon__Rangoon_": {
+      "message": "Yangon (Rangoon)"
+   },
+   "Yemen": {
+      "message": "Yemen"
+   },
+   "Yes": {
+      "message": "Evet"
+   },
+   "Yes__let_me_choose_which_items_I_want_imported_into_LastPass": {
+      "message": "Evet, LastPass i\u00E7ine aktarmak istedi\u011Fim \u00F6\u011Freleri se\u00E7meme izin ver"
+   },
+   "Yes__let_me_enter_and_review_data_that_will_be_used_when_filling_forms": {
+      "message": "Evet, Form doldurmada kullan\u0131lacak bilgileri girmeme ve g\u00F6zden ge\u00E7irmeme izin ver"
+   },
+   "You_are_moving_sites_from_a_shared_folder_into_your_general_vault__This_will_potentially_make_them_unavailable_to_others____Do_you_want_to_continue_": {
+      "message": "Siteleri payla\u015F\u0131lan klas\u00F6rden genel kasan\u0131za ta\u015F\u0131yorsunuz. Bu durum potansiyel olarak sitelerin ba\u015Fkalar\u0131na eri\u015Filebilir olmas\u0131n\u0131 engelleyecek. \nDevam etmek istiyor musunuz?"
+   },
+   "You_are_moving_sites_to_a_different_shared_folder__This_may_change_who_has_access_to_the_sites____Do_you_want_to_continue_": {
+      "message": "Siteleri ba\u015Fka bir klas\u00F6re ta\u015F\u0131yorsunuz. Bu sitelere olan eri\u015Fim haklar\u0131n\u0131 da de\u011Fi\u015Ftirebilir. Devam etmek istiyor musunuz?"
+   },
+   "You_are_moving_sites_to_a_shared_folder__This_will_potentially_make_them_available_to_others___Are_you_sure_you_would_like_to_continue_": {
+      "message": "Siteleri payla\u015F\u0131lan klas\u00F6re ta\u015F\u0131mak \u00FCzeresiniz. Bu i\u015Flem onlar\u0131 di\u011Fer kullan\u0131c\u0131lara kal\u0131c\u0131 olarak g\u00F6r\u00FCn\u00FCr yapacakt\u0131r. \n\nDevam etmek istedi\u011Finizden emin misiniz?"
+   },
+   "You_cannot_assign_more_than_one_HotKey_the_same_value_": {
+      "message": "Ayn\u0131 de\u011Fere birden fazla HotKey atayamazs\u0131n\u0131z."
+   },
+   "You_cannot_move_individually_shared_sites_into_a_shared_folder_": {
+      "message": "Ayr\u0131 ayr\u0131 payla\u015F\u0131lan siteleri payla\u015F\u0131lan klas\u00F6re ta\u015F\u0131yamazs\u0131n\u0131z."
+   },
+   "You_currently_have_LastPass_set_to_remember_your_password___Doing_so_essentially_makes_the_automatically_logoff_options_you_ve_chosen_useless___Would_you_like_LastPass_to_stop_remembering_your_password_": {
+      "message": "\u015Eu andan itibaren, LastPass \u015Fifrenizi hat\u0131rlayacak. Bunu yaparken asl\u0131nda otomatik \u00E7\u0131k\u0131\u015F se\u00E7enekleri yarars\u0131z k\u0131l\u0131n\u0131yor. LastPass'\u0131n \u015Fifrelerinizi hat\u0131rlamamas\u0131n\u0131 ister miydiniz?"
+   },
+   "You_have_not_yet_chosen_a_default_form_fill_profile___Would_you_like_to_choose_one_now_": {
+      "message": "Hen\u00FCz bir varsay\u0131lan form doldurma profili se\u00E7mediniz. \u015Euan ayarlamaya ne dersiniz?"
+   },
+   "You_may_also_be_blocking_all_cookies__which_causes_Chrome_to_disallow_HTML5_database_access_": {
+      "message": "Ayr\u0131ca b\u00FCt\u00FCn \u00E7erezleri engelliyor olabilirsiniz. Bu durum Chrome' un HTML5 veritab\u0131nlar\u0131na eri\u015Fimesini engelleyecektir."
+   },
+   "You_must_agree_to_send_your_encrypted_data_to_LastPass_com___LastPass_com_encrypts_your_data_and_sends_it_to_its_secure_servers__No_one_at_LastPass_can_read_your_confidential_data_since_it_is_encrypted_using_your_secret_password_and_you_are_the_only_one_who_knows_your_password_": {
+      "message": "\u015Eifrelenmi\u015F bilgilerinizi LastPass'e g\u00F6ndermeyi kabul etmelisiniz.\n\nLastPass.com bilgilerinizi \u015Fifreler ve g\u00FCvenli sunuculara yollar.\nGizli parolan\u0131z ile \u015Fifrelendi\u011Finden ve bu \u015Fifreyi sadece siz bildi\u011Finizden LastPass'deki hi\u00E7kimse \u00F6zel verilerinizi okuyamaz."
+   },
+   "You_must_agree_to_the_terms_to_continue": {
+      "message": "Devam etmeniz i\u00E7in \u015Fartlar\u0131 kabul etmelisiniz"
+   },
+   "You_must_enter_a_name_": {
+      "message": "Bir isim girmelisiniz."
+   },
+   "You_must_enter_a_unique_name_": {
+      "message": "Benzersiz bir isim girmeniz gerekyor."
+   },
+   "You_must_restart_Chrome_or_logoff_and_back_in_to_get_logoff_on_browser_close_changes_to_be_reflected": {
+      "message": "Yap\u0131lan de\u011Fi\u015Fikliklerin yans\u0131t\u0131lmas\u0131 i\u00E7in, Chrome'u ya da LastPass oturumunu kapat\u0131p tekrar a\u00E7mal\u0131s\u0131n\u0131z."
+   },
+   "You_must_restart_your_browser_before_all_of_the_changes_will_take_effect_": {
+      "message": "B\u00FCt\u00FCn de\u011Fi\u015Fikliklerin ger\u00E7ekle\u015Fmesi i\u00E7in taray\u0131c\u0131n\u0131z\u0131 tekrar ba\u015Flatman\u0131z gerekmektedir."
+   },
+   "Your_4_digit_birth_year": {
+      "message": "4 haneli do\u011Fum y\u0131l\u0131n\u0131z"
+   },
+   "Your_Google_Chrome_passwords_have_been_imported_successfully_": {
+      "message": "Google Chrome \u015Fifreleriniz ba\u015Far\u0131yla aktar\u0131lm\u0131\u015Ft\u0131r."
+   },
+   "Your_ZIP_or_postal_code": {
+      "message": "ZIP veya posta kodunuz"
+   },
+   "Your_address_information": {
+      "message": "Adres bilgileriniz"
+   },
+   "Your_attachment_is_located_at_": {
+      "message": "Ek dosyan\u0131z\u0131n konumu:"
+   },
+   "Your_bank_account_information": {
+      "message": "Banka hesap bilgileriniz"
+   },
+   "Your_bank_account_number__This_number_can_typically_be_found_to_the_right_of_the_routing_number_on_your_personal_checks_": {
+      "message": "Banka hesab\u0131 numaran\u0131z.\nBu numara genellikle ki\u015Fisel \u00E7eklerde y\u00F6nlendirme numaras\u0131 sa\u011F\u0131nda bulunabilir."
+   },
+   "Your_bank_s_routing_number__This_9_digit_number_can_typically_be_found_on_your_personal_checks_in_the_bottom_left_corner_": {
+      "message": "Banka y\u00F6nlendirme numaran\u0131z.\nBu 9 basamakl\u0131 say\u0131 genellikle ki\u015Fisel \u00E7eklerin sol alt k\u00F6\u015Fesinde bulunabilir."
+   },
+   "Your_birth_day": {
+      "message": "Do\u011Fum tarihi (g\u00FCn)"
+   },
+   "Your_birth_month": {
+      "message": "Do\u011Fum tarihi (ay)"
+   },
+   "Your_city_name": {
+      "message": "\u015Eehrinizin ad\u0131"
+   },
+   "Your_company_s_name": {
+      "message": "\u015Eirketinizin ad\u0131"
+   },
+   "Your_contact_information": {
+      "message": "\u0130leti\u015Fim bilgileriniz"
+   },
+   "Your_country_name": {
+      "message": "\u00DClkeniz ismi"
+   },
+   "Your_county_name": {
+      "message": "\u00DClkenizin ismi"
+   },
+   "Your_credit_card_information": {
+      "message": "Kredi kart\u0131 bilgileriniz"
+   },
+   "Your_current_settings_require_you_to_enter_your_LastPass_password_to_complete_this_action_": {
+      "message": "Ge\u00E7erli ayarlar\u0131n\u0131z bu eylemi tamamlamak i\u00E7in LastPass \u015Fifrenizi girmenizi gerektiriyor."
+   },
+   "Your_data_has_been_exported_to": {
+      "message": "Verileriniz d\u0131\u015Fa aktar\u0131lm\u0131\u015Ft\u0131r"
+   },
+   "Your_email_address": {
+      "message": "Email adresiniz"
+   },
+   "Your_first_name": {
+      "message": "Ad\u0131n\u0131z"
+   },
+   "Your_government_ID_number": {
+      "message": "Kimlik Numaras\u0131"
+   },
+   "Your_last_name": {
+      "message": "Soyad\u0131n\u0131z"
+   },
+   "Your_middle_name": {
+      "message": "\u0130kinci ad\u0131n\u0131z"
+   },
+   "Your_password_can_not_be_the_same_as_your_email_": {
+      "message": "\u015Eifreniz e-postan\u0131z ile ayn\u0131 olamaz."
+   },
+   "Your_password_is_easily_guessable_": {
+      "message": "\u015Eifreniz kolayca tahmin edilebilir."
+   },
+   "Your_password_is_too_short__It_must_be_at_least_6_characters_long": {
+      "message": "\u015Eifreniz \u00E7ok k\u0131sa. Bu en az 6 karakter uzunlu\u011Funda olmal\u0131d\u0131r"
+   },
+   "Your_password_is_too_short__It_must_be_at_least_8_characters_long": {
+      "message": "\u015Eifreniz \u00E7ok k\u0131sa. En az 8 karakter uzunlu\u011Funda olmal\u0131d\u0131r"
+   },
+   "Your_password_reminder_serves_to_remind_you_of_what_your": {
+      "message": "\u015Eifre hat\u0131rlat\u0131c\u0131 size"
+   },
+   "Your_passwords_did_not_match_": {
+      "message": "\u015Eifreleriniz e\u015Fle\u015Fmedi."
+   },
+   "Your_personal_information": {
+      "message": "Ki\u015Fisel bilgileriniz"
+   },
+   "Your_phone_number": {
+      "message": "Telefon numaran\u0131z"
+   },
+   "Your_phone_number_extension": {
+      "message": "Dahili telefon numaras\u0131"
+   },
+   "Your_prefix_or_title": {
+      "message": "\u00DCnvan\u0131n\u0131z"
+   },
+   "Your_selected_Identity_no_longer_exists__Defaulting_to__All__and_logging_off_": {
+      "message": "Se\u00E7mi\u015F oldu\u011Funuz kimlik art\u0131k i\u015Fler durumda de\u011Fil.\n'T\u00FCm\u00FC' \u00F6zelli\u011Fine ge\u00E7iliyor ve oturum kapat\u0131l\u0131yor."
+   },
+   "Your_sex": {
+      "message": "Cinsiyetiniz"
+   },
+   "Your_state_or_province_name": {
+      "message": "Eyalet veya \u015Fehir ad\u0131"
+   },
+   "Your_street_address": {
+      "message": "Adresiniz"
+   },
+   "Your_time_zone": {
+      "message": "Zaman diliminiz"
+   },
+   "Your_username_when_signing_into_Web_sites": {
+      "message": "Web sitelerine giri\u015F yaparken kulland\u0131\u011F\u0131n\u0131z kullan\u0131c\u0131 ad\u0131"
+   },
+   "YubiKey_Multifactor_Authentication": {
+      "message": "YubiKey \u00E7ok fakt\u00F6rl\u00FC kimlik do\u011Frulama"
+   },
+   "Yugoslavia": {
+      "message": "Yugoslavya"
+   },
+   "ZIP___Postal_code": {
+      "message": "Posta Kodunuz"
+   },
+   "Zambia": {
+      "message": "Zambiya"
+   },
+   "Zimbabwe": {
+      "message": "Zimbabve"
+   },
+   "_Hide_": {
+      "message": "[Gizle]"
+   },
+   "_History_": {
+      "message": "[Ge\u00E7mi\u015F]"
+   },
+   "_New_Pending_Share_Offers_": {
+      "message": "(Bekleyen Yeni Payla\u015F\u0131m Teklifleri)"
+   },
+   "_Show_": {
+      "message": "[G\u00F6ster]"
+   },
+   "_domain_": {
+      "message": "(alan ad\u0131)"
+   },
+   "_none_": {
+      "message": "(Hi\u00E7biri)"
+   },
+   "a_zlower": {
+      "message": "A-Z"
+   },
+   "actual_password_is__while_still_maintaining_its_secrecy_": {
+      "message": "Ger\u00E7ek parola hala gizlili\u011Fini koruyand\u0131r."
+   },
+   "ago": {
+      "message": "\u00F6nce"
+   },
+   "and": {
+      "message": "ve"
+   },
+   "contact_us_and_we_will_email_you_your_password_reminder_": {
+      "message": "bize ula\u015F\u0131n ve size \u015Fifrenizi hat\u0131rlatmak i\u00E7in size bir hat\u0131rlarma e-postas\u0131 g\u00F6nderelim."
+   },
+   "day": {
+      "message": "g\u00FCn"
+   },
+   "days": {
+      "message": "g\u00FCn"
+   },
+   "dummy": {
+      "message": "dummy, leave this here so we don't mess up the trailing comma"
+   },
+   "eWallet": {
+      "message": "eWallet"
+   },
+   "ext_": {
+      "message": "harici"
+   },
+   "false": {
+      "message": "yanl\u0131\u015F"
+   },
+   "favorites": {
+      "message": "s\u0131k kullan\u0131lanlar"
+   },
+   "hour": {
+      "message": "saat"
+   },
+   "hours": {
+      "message": "saat"
+   },
+   "just_now": {
+      "message": "\u015Fimdi"
+   },
+   "minute": {
+      "message": "dakika"
+   },
+   "minutes": {
+      "message": "dakika"
+   },
+   "month": {
+      "message": "ay"
+   },
+   "months": {
+      "message": "ay"
+   },
+   "privacy_statement": {
+      "message": "gizlilik beyanlar\u0131"
+   },
+   "recently_usedlower": {
+      "message": "son kullan\u0131lan"
+   },
+   "second": {
+      "message": "saniye"
+   },
+   "seconds": {
+      "message": "saniye"
+   },
+   "terms_of_service": {
+      "message": "hizmet ko\u015Fullar\u0131"
+   },
+   "the_current_tab": {
+      "message": "ge\u00E7erli sekmede a\u00E7"
+   },
+   "true": {
+      "message": "do\u011Fru"
+   },
+   "we_DO_NOT_know_what_your_LastPass_password_is_": {
+      "message": "LastPass \u015Fifrenizin ne oldu\u011Funu B\u0130LM\u0130YORUZ."
+   },
+   "week": {
+      "message": "hafta"
+   },
+   "weeks": {
+      "message": "hafta"
+   },
+   "year": {
+      "message": "y\u0131l"
+   },
+   "years": {
+      "message": "y\u0131l"
+   }
+}

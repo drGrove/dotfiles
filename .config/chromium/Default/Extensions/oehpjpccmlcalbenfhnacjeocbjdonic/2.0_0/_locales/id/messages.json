@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Tidak Dapat Diterapkan."
+   },
+   "alignment_btn_txt": {
+      "message": "Sesuaikan posisi"
+   },
+   "allow_access_to_webcam": {
+      "message": "Izinkan akses ke webcam Anda dari bilah pemberitahuan."
+   },
+   "back_to_step1_msg": {
+      "message": "Yakin ingin mengimpor gambar baru? Anda akan kehilangan perubahan apa pun yang Anda buat untuk gambar ini."
+   },
+   "background": {
+      "message": "Mengedit warna latar belakang"
+   },
+   "bottom_align": {
+      "message": "bawah"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "center_align": {
+      "message": "tengah"
+   },
+   "change_img_btn_txt": {
+      "message": "Impor gambar baru"
+   },
+   "continue_anyways": {
+      "message": "Tetap lanjutkan"
+   },
+   "continue_to": {
+      "message": "Lanjutkan ke Langkah $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Buat tema Anda sendiri"
+   },
+   "custom": {
+      "message": "Khusus"
+   },
+   "custom_color": {
+      "message": "Warna khusus"
+   },
+   "default": {
+      "message": "Setel ke default"
+   },
+   "delete": {
+      "message": "Hapus"
+   },
+   "delete_theme": {
+      "message": "Hapus tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Yakin ingin menghapus tema \"$1\"?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Kesalahan saat menghapus."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Kesalahan saat menghapus. Coba lagi."
+   },
+   "deleted": {
+      "message": "Dihapus"
+   },
+   "deleting": {
+      "message": "Menghapus..."
+   },
+   "deleting_theme": {
+      "message": "Menghapus tema"
+   },
+   "design_mode": {
+      "message": "mode merancang"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Selesai"
+   },
+   "download_theme_zip": {
+      "message": "Unduh tema sebagai zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Edit di Picnik"
+   },
+   "error": {
+      "message": "GALAT"
+   },
+   "error_while_publishing": {
+      "message": "Kesalahan saat membuat URL. Coba lagi."
+   },
+   "error_while_unpublishing": {
+      "message": "Kesalahan menghapus URL. Coba lagi."
+   },
+   "ext_description": {
+      "message": "Membuat dan berbagi tema Google Chrome dari rancangan Anda."
+   },
+   "ext_name": {
+      "message": "Tema Chrome Saya"
+   },
+   "feeling_lucky": {
+      "message": "Saya Lagi Beruntung"
+   },
+   "fetch_image_error_msg": {
+      "message": "Ups! Terjadi masalah pada gambar yang diedit, dan kami sedang berupaya untuk memperbaikinya."
+   },
+   "fill_screen": {
+      "message": "Penuhi Layar"
+   },
+   "filter_black_and_white": {
+      "message": "Hitam dan Putih"
+   },
+   "filter_bolder": {
+      "message": "Berani"
+   },
+   "filter_cooler": {
+      "message": "Dingin"
+   },
+   "filter_inverted": {
+      "message": "Terbalik"
+   },
+   "filter_posterized": {
+      "message": "Poster"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Efek Gambar"
+   },
+   "filter_warmer": {
+      "message": "Hangat"
+   },
+   "fit_screen": {
+      "message": "Sesuaikan dengan Layar"
+   },
+   "footer_share_site_txt": {
+      "message": "Bagikan:"
+   },
+   "frame": {
+      "message": "Mengedit warna frame"
+   },
+   "generate_theme": {
+      "message": "Membuat Tema"
+   },
+   "goback": {
+      "message": "Kembali"
+   },
+   "hide_themes": {
+      "message": "Sembunyikan tema"
+   },
+   "image_format_error_msg": {
+      "message": "Ups! Sepertinya ada yang salah dengan gambar Anda. Coba lagi, atau pilih gambar lainnya."
+   },
+   "image_size_error_msg": {
+      "message": "Ups! Sepertinya file gambar terlalu besar. Coba lagi dengan file berukuran $1 $2 atau lebih kecil.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Kami mendukung jenis file JPEG, PNG, GIF, dan BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Maaf, namun kami tidak mendukung format file yang Anda coba pilih."
+   },
+   "img_fetching": {
+      "message": "Mengambil Gambar"
+   },
+   "img_upload_wait": {
+      "message": "Tunggu sampai gambar Anda selesai diunggah"
+   },
+   "informative": {
+      "message": "Informatif"
+   },
+   "install_box_text": {
+      "message": "Klik untuk memasang tema ini pada browser Chrome Anda sekarang"
+   },
+   "install_btn": {
+      "message": "Pasang tema saya"
+   },
+   "left_align": {
+      "message": "kiri"
+   },
+   "loading": {
+      "message": "Memuat..."
+   },
+   "loading_application": {
+      "message": "Memuat Aplikasi..."
+   },
+   "locale": {
+      "message": "id"
+   },
+   "make_new": {
+      "message": "Buat tema baru \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Tab Baru"
+   },
+   "no": {
+      "message": "Tidak"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Sepertinya Anda belum mengimpor gambar untuk latar belakang tema Anda. Yakin ingin melanjutkan tanpa memberi nama?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Sepertinya Anda belum memberi nama pada tema. Tetap ingin melanjutkan?"
+   },
+   "no_theme_to_view": {
+      "message": "Anda tidak memiliki tema untuk ditampilkan"
+   },
+   "no_webcam_msg": {
+      "message": "Kamera web tidak terdeteksi"
+   },
+   "not_available_offline": {
+      "message": "Tidak tersedia secara offline"
+   },
+   "ok": {
+      "message": "Oke"
+   },
+   "oops_msg": {
+      "message": "Ups,"
+   },
+   "open_preview_text": {
+      "message": "Pratinjau tema"
+   },
+   "original": {
+      "message": "Asli"
+   },
+   "package_btn": {
+      "message": "Jadikan tema saya!"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Pilih warna"
+   },
+   "picnik_save_btn": {
+      "message": "Simpan ke Tema Chrome Saya"
+   },
+   "please_wait": {
+      "message": "Harap tunggu ..."
+   },
+   "preset_color": {
+      "message": "Warna prasetel"
+   },
+   "preview_error_msg": {
+      "message": "Tampaknya tema yang Anda cari tidak lagi tersedia."
+   },
+   "preview_mode": {
+      "message": "mode pratinjau"
+   },
+   "privacy_policy": {
+      "message": "Kebijakan Privasi"
+   },
+   "publish_theme": {
+      "message": "BAGI TEMA"
+   },
+   "publish_theme_text": {
+      "message": "Klik untuk berbagi tema ke orang lain."
+   },
+   "publishing": {
+      "message": "Membuat URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Untuk memublikasikan Zip ke Toko Web Chrome, buka [di sini]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Beri nama unik pada tema sesuai keinginan Anda. Nama tema akan terlihat jika Anda memilih untuk berbagi tema dengan orang lain."
+   },
+   "rear_tab_text": {
+      "message": "Tab Latar"
+   },
+   "reartab": {
+      "message": "Edit warna tab latar"
+   },
+   "retake_picture": {
+      "message": "Ambil ulang"
+   },
+   "retry": {
+      "message": "Coba lagi"
+   },
+   "right_align": {
+      "message": "kanan"
+   },
+   "share_box_text": {
+      "message": "Salin URL unik ini untuk berbagi tema Anda dengan orang lain"
+   },
+   "show_all_themes": {
+      "message": "Tampilkan semua tema"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "MULAI MEMBUAT TEMA"
+   },
+   "start_screen_description": {
+      "message": "Tambahkan sentuhan pribadi untuk browser Anda. Buat dan bagikan tema Google Chrome khusus dengan foto dan rancangan Anda hanya dalam tiga langkah sederhana."
+   },
+   "start_screen_heading": {
+      "message": "Buat sendiri tema Chrome Anda"
+   },
+   "step": {
+      "message": "Langkah $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Impor gambar Anda",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Unggah file dari komputer Anda atau ambil foto dengan kamera web Anda."
+   },
+   "step1_header_msg_text": {
+      "message": "Pilih gambar untuk latar belakang tema Anda."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Tambahkan beberapa warna",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Atau, Anda dapat menambahkan warna secara otomatis [jika Anda lagi beruntung]"
+   },
+   "step2_header_msg_text": {
+      "message": "Klik pin untuk mulai mewarnai tema Anda"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Pasang & Bagikan",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Cari tema lainnya di Toko Web Chrome"
+   },
+   "stored_themes_title": {
+      "message": "Klik thumbnail di bawah untuk memasang, berbagi, atau menghapus tema yang sebelumnya dibuat di komputer ini."
+   },
+   "take_picture": {
+      "message": "Ambil gambar"
+   },
+   "text": {
+      "message": "Mengedit warna teks"
+   },
+   "theme_deleted": {
+      "message": "Tema dihapus"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Menambahkan beberapa kata untuk menguraikan tema Anda. Deskripsi ini akan terlihat jika Anda membagikan tema tersebut."
+   },
+   "theme_description_box_title": {
+      "message": "Uraikan Tema Anda"
+   },
+   "theme_description_text": {
+      "message": "Tambahkan deskripsi opsional"
+   },
+   "theme_does_not_exist": {
+      "message": "Tema ini tidak ada."
+   },
+   "theme_name_placeholder": {
+      "message": "Berikan nama untuk tema Anda"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Bagikan dengan URL unik ini:"
+   },
+   "tile_image": {
+      "message": "Gambar Ubin"
+   },
+   "toolbar": {
+      "message": "Mengedit warna bilah alat"
+   },
+   "top_align": {
+      "message": "atas"
+   },
+   "try_again": {
+      "message": "Coba lagi"
+   },
+   "unpublish": {
+      "message": "Urung bagi"
+   },
+   "unpublishing": {
+      "message": "Menghapus URL.."
+   },
+   "untitled": {
+      "message": "Tanpa judul"
+   },
+   "upload_btn_txt": {
+      "message": "Unggah Gambar"
+   },
+   "upload_crx_error_msg": {
+      "message": "Ups! Terjadi kesalahan saat kami mencoba membuat tema Anda."
+   },
+   "upload_error_msg": {
+      "message": "Sepertinya terjadi masalah saat mengunggah gambar Anda. Coba unggah lagi, atau kembali dan pilih gambar yang berbeda."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Mohon hanya unggah gambar yang Anda miliki hak penggunaannya."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Gambar dan Tema akan dihosting oleh Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Gambar dan tema yang dihapus juga akan dihapus secara permanen."
+   },
+   "uploading": {
+      "message": "MENGUNGGAH"
+   },
+   "url_tooltip": {
+      "message": "Salin & tempel untuk berbagi"
+   },
+   "use_picture": {
+      "message": "Gunakan Gambar"
+   },
+   "warning": {
+      "message": "PERINGATAN"
+   },
+   "webcam_btn_txt": {
+      "message": "Gunakan Kamera Web"
+   },
+   "woohoo_text": {
+      "message": "Horee! \"$1\" $2 selesai dibuat",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ya"
+   }
+}

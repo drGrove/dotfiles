@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head><script src="../lib/sf/loader.js" type="text/javascript"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>stats</title>
+        
+        <script type="text/javascript" src="../lib/chrome/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/jquery/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/persistence/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/ui/lib.js">
+        </script>
+        <script type="text/javascript" src="lib/lib.js">
+        </script>
+        <script type="text/javascript" src="query.js">
+        </script>
+        <link rel="shortcut icon" href="../icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="../skin/app.css"/>
+    </head>
+    <body>
+        <ul id="topbar">
+        <li>
+            <A href="app.html" rel="home">home</A>
+        </li>
+        </li>
+        <li>
+            <a href="https://chrome.google.com/webstore/" target="_blank">Chrome webstore</a>
+        </li>
+        <li id="updated">
+        </li>
+    </ul>
+    <div id="templates">
+        <div id="template-variation">
+            <span jscontent="Formater.toInteger($value)" jsskip="$value==null"></span>
+            <span jsdisplay="$variation" jscontent="Formater.toInteger(Math.abs($variation))" jsvalues="variation:($variation>0?'positive':'negative')" class="variation"></span>
+        </div>
+    </div>
+    <form id="form-query">
+        <select name="uid">
+            <option jsselect="addon" jscontent="name" jsvalues="value:uid;.style.backgroundImage:thumbnail" jsvalues="value:uid"></option>
+        </select>
+        <input type="text" name="searchTerm">
+        <input type="hidden" name="index" value="0">
+        <input type="hidden" name="count" value="200">
+		<br>
+		category:<select name="category">
+            <option value="home">home</option>
+            <option value="app/6-news">News and Weather</option>
+            <option value="app/2-entertainement">Entertainement</option>
+            <option value="app/8-education">Education</option>
+            <option value="extensions">Extensions</option>
+            <option value="ext/22-accessibility">Extensions/Accessibility</option>
+            <option value="ext/6-news">Extensions/News and Weather</option>
+
+
+
+        </select>
+		
+        language:<select name="hl">
+            <option value="en">english</option>
+            <option value="fr">french</option>
+        </select>
+        country:<select name="gl">
+            <option value="US">US</option>        	
+            <option value="FR">France</option>
+            <option value="001">World</option>
+        </select>
+		<input type="submit" name="add">
+    </form>
+	<div id="result"><span jscontent="name"></span>:<span jscontent="rank"></span></div>
+    
+	
+
+    <div id="chart" style="display:none;">
+    </div>
+    <ul id="comments" style="display:none;" class="custom-scrollbar">
+        <li jsselect="comment" class="comment">
+            <span jsdisplay="!user.url" jscontent="user.name||'anonymous'" target="_blank" class="link"></span>
+            <a jsdisplay="user.url" jsvalues="href:user.url" jscontent="user.name||'anonymous'" target="_blank"></a>
+            <span jscontent="jQuery.timeago(new Date(date))" class="comment-date"></span>
+            <div jscontent="description" class="comment-description">
+            </div>
+        </li>
+    </ul>
+    <div id="panel-start" style="display:none;">
+        <div class="curtain">
+        </div>
+        <div class="content">
+            <h2>You have not imported any application yet!</h2>
+            You may:
+            <ul>
+                <li>
+                    <a name="import-webstore" href="#">import applications from current Google account </a>
+                </li>
+                <li>
+                    <a href="#" name="import-own">import installed applications </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,467 @@
+[
+	{
+		"id"		:"bt_index",
+		"command"	:"index",
+		"type"		:"REDIRECT",
+		"url"		:"docs/index.html",
+		"title"		:"Home",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_get_started",
+		"command"	:"get started",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html",
+		"title"		:"Getting Started",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_download",
+		"command"	:"download",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#download-bootstrap",
+		"title"		:"Download"
+	},
+	{
+		"id"		:"bt_structure",
+		"command"	:"structure",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#file-structure",
+		"title"		:"File Structure"
+	},
+	{
+		"id"		:"bt_whats_include",
+		"command"	:"whats include",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#contents",
+		"title"		:"What's Include"
+	},
+	{
+		"id"		:"bt_template",
+		"command"	:"template",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#html-template",
+		"title"		:"Basic HTML template"
+	},
+	{
+		"id"		:"bt_example",
+		"command"	:"example",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#examples",
+		"title"		:"Examples"
+	},
+	{
+		"id"		:"bt_what_next",
+		"command"	:"what next",
+		"type"		:"REDIRECT",
+		"url"		:"docs/getting-started.html#what-next",
+		"title"		:"What Next"
+	},
+	{
+		"id"		:"bt_scaffolding",
+		"command"	:"scaffolding",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html",
+		"title"		:"Scaffolding",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_global",
+		"command"	:"global",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html#global",
+		"title"		:"Global settings"
+	},
+	{
+		"id"		:"bt_grid",
+		"command"	:"grid",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html#gridSystem",
+		"title"		:"Grid System"
+	},
+	{
+		"id"		:"bt_grid_fluid",
+		"command"	:"grid fluid",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html#fluidGridSystem",
+		"title"		:"Fluid grid system"
+	},
+	{
+		"id"		:"bt_layout",
+		"command"	:"layout",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html#layouts",
+		"title"		:"Layouts"
+	},
+	{
+		"id"		:"bt_responsive",
+		"command"	:"responsive",
+		"type"		:"REDIRECT",
+		"url"		:"docs/scaffolding.html#responsive",
+		"title"		:"Responsive"
+	},
+	{
+		"id"		:"bt_base_css",
+		"command"	:"base css",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html",
+		"title"		:"Base CSS",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_typography",
+		"command"	:"typography",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#typography",
+		"title"		:"Typography"
+	},
+	{
+		"id"		:"bt_code",
+		"command"	:"code",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#code",
+		"title"		:"Code"
+	},
+	{
+		"id"		:"bt_table",
+		"command"	:"table",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#tables",
+		"title"		:"Tables"
+	},
+	{
+		"id"		:"bt_form",
+		"command"	:"form",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#forms",
+		"title"		:"Forms"
+	},
+	{
+		"id"		:"bt_button",
+		"command"	:"button",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#buttons",
+		"title"		:"Buttons"
+	},
+	{
+		"id"		:"bt_image",
+		"command"	:"image",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#images",
+		"title"		:"Image"
+	},
+	{
+		"id"		:"bt_icon",
+		"command"	:"icon",
+		"type"		:"REDIRECT",
+		"url"		:"docs/base-css.html#icons",
+		"title"		:"Icons"
+	},
+	{
+		"id"		:"bt_component",
+		"command"	:"component",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html",
+		"title"		:"Components",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_dropdown",
+		"command"	:"dropdown",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#dropdowns",
+		"title"		:"Dropdown menus"
+	},
+	{
+		"id"		:"bt_button_group",
+		"command"	:"button group",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#buttonGroups",
+		"title"		:"Button groups"
+	},
+	{
+		"id"		:"bt_nav",
+		"command"	:"nav",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#navs",
+		"title"		:"Nav: tabs, pills, and lists"
+	},
+	{
+		"id"		:"bt_navbar",
+		"command"	:"navbar",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#navbar",
+		"title"		:"Navbar"
+	},
+	{
+		"id"		:"bt_breadcrumb",
+		"command"	:"breadcrumb",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#breadcrumbs",
+		"title"		:"Breadcrumbs"
+	},
+	{
+		"id"		:"bt_pagination",
+		"command"	:"pagination",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#pagination",
+		"title"		:"Pagination"
+	},
+	{
+		"id"		:"bt_label",
+		"command"	:"label badge",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#labels-badges",
+		"title"		:"Labels and badges"
+	},
+	{
+		"id"		:"bt_typography_com",
+		"command"	:"typography com",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#typography",
+		"title"		:"Typographic components"
+	},
+	{
+		"id"		:"bt_thumbnail",
+		"command"	:"thumbnail",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#thumbnails",
+		"title"		:"Thumbnails"
+	},
+	{
+		"id"		:"bt_progress",
+		"command"	:"progress",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#progress",
+		"title"		:"Progress bars"
+	},
+	{
+		"id"		:"bt_media",
+		"command"	:"media",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#media",
+		"title"		:"Media object"
+	},
+	{
+		"id"		:"bt_misc",
+		"command"	:"misc",
+		"type"		:"REDIRECT",
+		"url"		:"docs/components.html#misc",
+		"title"		:"Miscellaneous"
+	},
+	{
+		"id"		:"bt_js",
+		"command"	:"js",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html",
+		"title"		:"JavaScript",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_js_overview",
+		"command"	:"js overview",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#overview",
+		"title"		:"JavaScript in Bootstrap (Overview)"
+	},
+	{
+		"id"		:"bt_transition",
+		"command"	:"transition",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#transitions",
+		"title"		:"Transitions (bootstrap-transition.js)"
+	},
+	{
+		"id"		:"bt_modal",
+		"command"	:"modal",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#modal",
+		"title"		:"Modals (bootstrap-modal.js)"
+	},
+	{
+		"id"		:"bt_js_dropdown",
+		"command"	:"js dropdown",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#dropdowns",
+		"title"		:"Dropdowns (bootstrap-dropdown.js)"
+	},
+	{
+		"id"		:"bt_scrollspy",
+		"command"	:"scrollspy",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#scrollspy",
+		"title"		:"ScrollSpy (bootstrap-scrollspy.js)"
+	},
+	{
+		"id"		:"bt_tab",
+		"command"	:"tab",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#tabs",
+		"title"		:"Togglable tabs (bootstrap-tab.js)"
+	},
+	{
+		"id"		:"bt_tooltip",
+		"command"	:"tooltip",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#tooltips",
+		"title"		:"Tooltips (bootstrap-tooltip.js)"
+	},
+	{
+		"id"		:"bt_popover",
+		"command"	:"popover",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#popovers",
+		"title"		:"Popovers (bootstrap-popover.js)"
+	},
+	{
+		"id"		:"bt_alert",
+		"command"	:"alert",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#alerts",
+		"title"		:"Alert messages (bootstrap-alert.js)"
+	},
+	{
+		"id"		:"bt_js_button",
+		"command"	:"js button",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#buttons",
+		"title"		:"Buttons (bootstrap-button.js)"
+	},
+	{
+		"id"		:"bt_collapse",
+		"command"	:"collapse",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#collapse",
+		"title"		:"Collapse (bootstrap-collapse.js)"
+	},
+	{
+		"id"		:"bt_carousel",
+		"command"	:"carousel",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#carousel",
+		"title"		:"Carousel (bootstrap-carousel.js)"
+	},
+	{
+		"id"		:"bt_typehead",
+		"command"	:"typehead",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#typehead",
+		"title"		:"Typeahead (bootstrap-typehead.js)"
+	},
+	{
+		"id"		:"bt_affix",
+		"command"	:"affix",
+		"type"		:"REDIRECT",
+		"url"		:"docs/javascript.html#affix",
+		"title"		:"Affix (bootstrap-affix.js)"
+	},
+	{
+		"id"		:"bt_customize",
+		"command"	:"customize",
+		"type"		:"REDIRECT",
+		"url"		:"docs/customize.html",
+		"title"		:"Customize and download",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_choose",
+		"command"	:"choose",
+		"type"		:"REDIRECT",
+		"url"		:"docs/customize.html#choose",
+		"title"		:"Choose components"
+	},
+	{
+		"id"		:"bt_select",
+		"command"	:"select",
+		"type"		:"REDIRECT",
+		"url"		:"docs/customize.html#plugins",
+		"title"		:"Select jQuery plugins"
+	},
+	{
+		"id"		:"bt_variabel",
+		"command"	:"variabel",
+		"type"		:"REDIRECT",
+		"url"		:"docs/customize.html#variabels",
+		"title"		:"Customize variables"
+	},
+	{
+		"id"		:"bt_custom_download",
+		"command"	:"custom download",
+		"type"		:"REDIRECT",
+		"url"		:"docs/customize.html#download",
+		"title"		:"Download"
+	},
+	{
+		"id"		:"bt_extend",
+		"command"	:"extend",
+		"type"		:"REDIRECT",
+		"url"		:"docs/extend.html",
+		"title"		:"Extending Bootstrap",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_less",
+		"command"	:"less",
+		"type"		:"REDIRECT",
+		"url"		:"docs/extend.html#built-with-less",
+		"title"		:"Built with LESS"
+	},
+	{
+		"id"		:"bt_compile",
+		"command"	:"compile",
+		"type"		:"REDIRECT",
+		"url"		:"docs/extend.html#compiling",
+		"title"		:"Compiling Bootstrap with Less"
+	},
+	{
+		"id"		:"bt_static",
+		"command"	:"static",
+		"type"		:"REDIRECT",
+		"url"		:"docs/extend.html#static-assets",
+		"title"		:"Use as static assets"
+	},
+	{
+		"id"		:"bt_site",
+		"command"	:"site",
+		"type"		:"REDIRECT",
+		"url"		:"http://twitter.github.com/bootstrap/",
+		"title"		:"Online Docs",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_download_it",
+		"command"	:"download it",
+		"type"		:"REDIRECT",
+		"url"		:"http://twitter.github.com/bootstrap/assets/bootstrap.zip",
+		"title"		:"Download Bootstrap",
+		"cmenu"		:"true"
+	},
+	{
+		"id"		:"bt_download_source",
+		"command"	:"download source",
+		"type"		:"REDIRECT",
+		"url"		:"http://github.com/twitter/bootstrap/zipball/maste",
+		"title"		:"Download source of Bootstrap"
+	},
+	{
+		"id"		:"bt_opt",
+		"command"	:"opt",
+		"type"		:"REDIRECT",
+		"url"		:"options.html",
+		"title"		:"Option page for this chrome extension."
+	},
+	{
+		"id"		:"bt_help",
+		"command"	:"help",
+		"type"		:"REDIRECT",
+		"url"		:"help.html",
+		"title"		:"Yes! It will bring you here."
+	},
+	{
+		"id"		:"bt_about",
+		"command"	:"about",
+		"type"		:"NOTIF_ABOUT",
+		"url"		:"-",
+		"title"		:"About this app. Will show you desktop notif."
+	}
+]

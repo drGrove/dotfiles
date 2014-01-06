@@ -1,0 +1,86 @@
+{
+   "althelpPatterns": {
+      "description": "",
+      "message": "Pomoc wyra\u017Cenia"
+   },
+   "dialogClose": {
+      "description": "",
+      "message": "Zamknij"
+   },
+   "dialogPatternsBrackets": {
+      "description": "",
+      "message": "Brackets"
+   },
+   "dialogPatternsExplMain": {
+      "description": "",
+      "message": "Mo\u017Cesz u\u017Cy\u0107 poni\u017Cszych wyra\u017Ce\u0144:"
+   },
+   "dialogTitlePatterns": {
+      "description": "",
+      "message": "Wyra\u017Cenia"
+   },
+   "extensionDesc": {
+      "description": "Extension main description.",
+      "message": "Stw\u00F3rz i testuj wyra\u017Cenia regularne."
+   },
+   "extensionName": {
+      "description": "Extension main name.",
+      "message": "RegExp Tester App"
+   },
+   "indexHeaderMain": {
+      "description": "",
+      "message": "RegExp tester"
+   },
+   "labelCiOption": {
+      "description": "",
+      "message": "bez rozr\u00F3\u017Cnienia wielko\u015Bci znak\u00F3w"
+   },
+   "labelGlobalOption": {
+      "description": "",
+      "message": "globelne"
+   },
+   "labelMultilineOption": {
+      "description": "",
+      "message": "wiele linii"
+   },
+   "labelPattern": {
+      "description": "",
+      "message": "Wyra\u017Cenie"
+   },
+   "labelReplace": {
+      "description": "",
+      "message": "Zamie\u0144 na"
+   },
+   "labelSearch": {
+      "description": "",
+      "message": "Tekst wyszukiwania"
+   },
+   "tabHeaderMatch": {
+      "description": "",
+      "message": "Znalezione"
+   },
+   "tabHeaderReplace": {
+      "description": "",
+      "message": "Zamienione"
+   },
+   "titleIndex": {
+      "description": "",
+      "message": "RegExp tester"
+   },
+   "titlehelpPatterns": {
+      "description": "",
+      "message": "Otw\u00F3rz pomoc dot. wyra\u017Ce\u0144"
+   },
+   "titlelabelCiOption": {
+      "description": "",
+      "message": "Perform case-insensitive matching"
+   },
+   "titlelabelGlobalOption": {
+      "description": "",
+      "message": "Perform a global match (find all matches rather than stopping after the first match)"
+   },
+   "titlelabelMultilineOption": {
+      "description": "",
+      "message": "Perform multiline matching"
+   }
+}

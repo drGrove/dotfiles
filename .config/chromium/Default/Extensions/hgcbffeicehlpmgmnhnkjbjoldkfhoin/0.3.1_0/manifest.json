@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "ref-inject-code-search.js" ],
+      "matches": [ "*://developer.android.com/reference/*", "*://developer.android.com/guide/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://developer.android.com; object-src 'self'",
+   "description": "Adds an 'ad' omnibox command and view source links for the Android SDK.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCW1E5C0WTVVsF6FkOVPPSKp6A/r8J1WOzrlHJH2u8pU1nf6sEIUzRAWW1CZ7v6DY6v6wwVEHN0xs4A55kSJvGxL7ZjoPlQwFjMvbWfQrAyFY+SGO+wuVFtj41G0qqGu3JcrGqAgZw4sfaz+dAhs/EjGLlgKpyh0yj23Hq0wXEYlQIDAQAB",
+   "manifest_version": 2,
+   "name": "Android SDK Search",
+   "omnibox": {
+      "keyword": "ad"
+   },
+   "permissions": [ "tabs", "*://developer.android.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.1"
+}

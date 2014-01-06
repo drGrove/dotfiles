@@ -1,0 +1,39 @@
+
+.block{
+    padding-bottom:6px !important;
+}
+ul{
+    margin-top:5px;
+    list-style: none;
+    width:100%;
+    float:left;
+}
+ul li{
+    font-size:12px;
+    display: block;
+    padding:4px 9px;
+    margin-bottom:9px;
+}
+
+
+.checkbox{
+    display: inline-block;
+    height: 25px;
+    padding:0 0 0 35px;
+    cursor: pointer;
+    line-height:25px;
+    background: url('/images/checkbox.png') no-repeat 0 0;
+    margin-left:20px;
+    margin-top:-7px;
+}
+
+.checkbox input{
+    display: none;
+    margin-left:20px;
+}
+.checkbox label{
+    color:#444;
+    cursor:pointer;
+    position: relative;
+    top:-1px;
+}

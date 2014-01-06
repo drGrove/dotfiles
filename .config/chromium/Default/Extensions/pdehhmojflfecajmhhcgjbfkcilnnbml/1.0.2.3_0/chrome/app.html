@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head><script src="../lib/sf/loader.js" type="text/javascript"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>WebStore developer</title>
+        
+        <script type="text/javascript" src="../lib/chrome/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/jquery/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/persistence/lib.js">
+        </script>
+        <script type="text/javascript" src="../lib/ui/lib.js">
+        </script>
+        <script type="text/javascript" src="lib/lib.js">
+        </script>
+        <script type="text/javascript" src="app.js">
+        </script>
+        <script type="text/javascript" src="news.js">
+        </script>
+        <link rel="shortcut icon" href="../icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="../skin/app.css"/>
+    </head>
+    <body>
+        <ul id="topbar">
+            <li>
+                <form id="form-search">
+                    <div class="input-container">
+                        <input name="query" type="text" placeholder="search the Chrome Webstore">
+                        <ul class="addons" style="display:none;">
+                            <li name="addon" jsselect="addon" jseval="jQuery(this).data('addon',$this)" jsvalues=".style.backgroundImage:'url('+thumbnail+')'" class="addon-thumbnail">
+                                <a href="#" class="addon"><h2 jscontent="name" class="addon-name"></h2><h3 jscontent="developper" class="addon-developper"></h3></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+                </form>
+            </li>
+            <li>
+                <a href="#" class="expandable">actions</a>
+                <ul>
+                    <li>
+                        <a name="import-webstore" href="#">import applications from current Google account </a>
+                    </li>
+                    <li>
+                        <a href="#" name="import-own">import installed applications </a>
+                    </li>
+                    <li>
+                        <a href="#" name="update-now">update now</a>
+                    </li>
+                </ul>
+            </li>
+            
+
+            <li style="width:inherit;"></li>
+            <li>
+                <a href="http://s.extensionfactory.com/promo-wd/" target="_blank"
+                   title="Get more users advertising on a free, non-commercial, banner exchange network!">
+                    Banner Exchange Network
+                </a>
+            </li>
+            <li>
+                <a href="http://www.extensionfactory.com/webstore/"
+                   class="chrome-webstore-charts new" target="_blank">
+                    Chrome Web Store Charts
+                </a>
+            </li>
+            <li>
+                <a href="#" class="expandable chrome-webstore">
+                    Chrome Web Store
+                </a>
+                <ul>
+                    <li>
+                        <a href="https://chrome.google.com/webstore/" target="_blank">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://chrome.google.com/webstore/developer/dashboard" target="_blank">Developer dashboard</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+        <ul id="switcher">
+            <li>
+                <label>
+                    <input type="radio" name="source" value="selection" checked="true">my selection
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="source" value="all">all
+                </label>
+            </li>
+        </ul>
+        <div id="templates">
+            <div id="template-variation">
+                <span jscontent="Formater.toInteger($value)" jsskip="$value==null"></span>
+                <span jsdisplay="$variation" jscontent="Formater.toInteger(Math.abs($variation))" jsvalues="variation:($variation>0?'positive':'negative')" class="variation"></span>
+            </div>
+        </div>
+        <section id="news" class="hidden content">
+            <ul>
+                <li class="title">News!</li>
+                <li class="template" data-news-id="localstorage-id"><a href="#" target="_blank">Description</a><span title="I read this. Close!" class="close-news"></span></li>
+            </ul>
+        </section>
+        <div id="addons">
+            <table class="content">
+                <thead>
+                    <tr>
+                        <th>
+                            &nbsp;
+                        </th>
+                        <th class="col-stats">
+                            users
+                        </th>
+                        <th class="col-stats">
+                            comments
+                        </th>
+                        <th class="col-stats">
+                            ratings
+                        </th>
+                        <th class="col-stats">
+                            rank
+                        </th>
+                        <th class="col-social">
+                            <span class="icon-social icon-plusone" title="Google+1"></span>
+                        </th>
+                        <th class="col-social">
+                            <span class="icon-social icon-twitter" title="Twitter"></span>
+                        </th>
+                        <th class="col-social">
+                            <span class="icon-social icon-facebook" title="Facebook like"></span>
+                        </th>
+                        <th class="col-actions">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody name="total" class="total">
+                    <tr jsselect="total" >
+                        <td>
+                        </td>
+                        <td jscontent="Formater.toInteger(users)">
+                        </td>
+                        <td jscontent="Formater.toInteger(comments)">
+                        </td>
+                        <td jscontent="Math.round(100*ratings)/100">
+                        </td>
+                        <td>
+                        </td>
+                        <td class="col-social" jscontent="Formater.toInteger(plusone)">
+                        </td>
+                        <td class="col-social" jscontent="Formater.toInteger(twitter)">
+                        </td>
+                        <td class="col-social" jscontent="Formater.toInteger(facebook)">
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody name="entries" class="entries">
+                    <tr name="addon" jsselect="entry" jseval="jQuery(this).data('addon',$this)" style="display:none;">
+                        <td>
+                            <div jsvalues="addontype:app?'application':'extension'">
+                                <div jsvalues=".style.backgroundImage:'url(https://'+images.small.replace(/^https?:\/\//, '')+')'" class="addon-thumbnail">
+                                    <a jscontent="name" jsvalues="href:url;title:name" target="_blank" class="addon-name"></a>
+                                    <div jscontent="developper" jsvalues="title:developper" class="addon-developper">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td jsskip="users==null" history="users" jsvalues="max:(users>=1000000).toString()" jsvars="$value:users;$variation:variation.users">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td info="comments" jsvalues="null:(!comments).toString()" jsvars="$value:comments;$variation:variation.comments">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td  jsskip="rating==null"  history="rating">
+                            <div>
+                                <span jscontent="Math.round(100*rating)/100" ></span>
+                                <span jsdisplay="ratings" jscontent="Formater.toInteger(ratings)"  class="variation"></span>
+                            </div>
+                        </td>
+                        <td class="rank" history="rank" jsvalues="null:(!rank).toString();max:(rank==0).toString()" jsvars="$value:(rank==0?chrome.settings.get('max'):rank);$variation:-variation.rank">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td class="col-social" history="plusone" jsvalues="null:(!$value).toString()" jsvars="$value:data.plusone;$variation:variation.plusone">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td class="col-social" jsvars="$value:data.twitter;$variation:variation.twitter" history="twitter" jsvalues="null:(!$value).toString()">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td class="col-social" jsvars="$value:data.facebook;$variation:variation.facebook" history="facebook" jsvalues="null:(!$value).toString()">
+                            <div transclude="template-variation">
+                            </div>
+                        </td>
+                        <td>
+                            <ul class="actions">
+                                <li>
+                                    <A target="_blank" name="edit" jsvalues="href:'https://chrome.google.com/webstore/developer/edit/'+uid" style="display:none;">
+                                        edit</a>
+                                </li>
+                                <li>
+                                    <a href="#" name="remove" jsdisplay="selected">remove</a>
+                                    <a href="#" name="add" jsdisplay="!selected">add</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="chart" style="display:none;">
+        </div>
+        <ul id="comments" style="display:none;" class="custom-scrollbar">
+            <li jsselect="comment" class="comment" name="comment">
+                <span jsdisplay="!user.url" jscontent="user.name||'anonymous'" target="_blank" class="link"></span>
+                <a jsdisplay="user.url" jsvalues="href:user.url" jscontent="user.name||'anonymous'" target="_blank"></a>
+                <div class="comment-rating"><span jsdisplay="rating>=1" class="icon-star"></span><span jsdisplay="rating>=2" class="icon-star"></span><span jsdisplay="rating>=3" class="icon-star"></span><span jsdisplay="rating>=4" class="icon-star"></span><span jsdisplay="rating>=5" class="icon-star"></span></div>
+
+                <span jscontent="jQuery.timeago(new Date(date))" class="comment-date"></span>
+                <div  name="description" jsvalues=".innerHTML:description.replace(/\n/g,'<br>')"  class="comment-description">
+                </div>
+                <a rel="translate" href="#" jsdisplay="true" class="comment-translate">translate</a>
+            </li>
+        </ul>
+        <div id="panel-start" style="display:none;">
+            <div class="curtain">
+            </div>
+            <div class="content">
+                <h2>You have not imported any application yet!</h2>
+                You may:
+                <ul>
+                    <li>
+                        <a name="import-webstore" href="#">import applications from current Google account </a>
+                    </li>
+                    <li>
+                        <a href="#" name="import-own">import installed applications </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

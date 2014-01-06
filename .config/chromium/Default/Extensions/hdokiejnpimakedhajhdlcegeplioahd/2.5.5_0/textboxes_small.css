@@ -1,0 +1,99 @@
+body { padding:20px 10px 0px 50px; font:13px/150% Helvetica, Arial, Tahoma, sans-serif; }
+
+body{
+	background:url('q3Jrp.png') repeat;
+}
+
+.logintitle{
+font-size:16px; font-weight:bold; 
+text-shadow:1px 1px 2px #858585
+}
+
+/**.css3button { background-image:url(images/menu_btnsmall.png); height:30px; width:95px; line-height:30px; font-size:12px; color:white; text-align:center;
+cursor:hand;
+font-weight:bold;
+text-shadow:1px 1px 2px #858585}
+.css3button:hover { background-image:url(images/menuroll_btnsmall.png); cursor:hand; } **/
+
+.css3button {
+	font-family: Helvetica, Arial, sans-serif; font-weight:bold;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 2px 15px;
+	background: -webkit-linear-gradient(top, rgba(32,188,232,1) 0%,rgba(0,119,232,1) 100%);
+	-webkit-border-radius: 30px;
+	border: 2px solid #ffffff;
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(005,000,004,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.css3button:hover {
+	cursor:hand;
+	 background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#158aff), color-stop(44%,#0b7ef1), color-stop(100%,#126eca));
+}
+
+/** text area input with shadow **/
+
+
+.textarea { 
+	-webkit-transition: all 0.30s ease-in-out;
+	padding-left: 7px;
+	width:200px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Helvetica, Arial, Tahoma, sans-serif;
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: inset 1 3px 1 hsla(0,0%,0%,0.1);
+	-webkit-border-radius: 10px;
+	}
+	
+checkbox {
+	padding: 4px;
+	}
+
+
+/** input focus darkening **/
+
+/*
+.textarea:hover, .textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: 0px 0px 5px 2px #3d8bff;
+	}
+*/
+
+.glow { 
+	border-color: #C9C9C9; 
+   	-webkit-box-shadow:0 0 1px 3px hsla(210,100%,50%,0.8), 0 1px 0 hsla(0,0%,100%,0.3);
+
+	}
+
+
+.form label { 
+	margin-left: 10px; 
+	color: #999999;
+	font-weight:bold; 
+	}
+
+a:link, a:active {
+	font-weight : bold;
+	font-size : 12px;
+	font-family : helvetica;
+	color :white;
+	text-decoration : none;
+	padding-left:10px
+	}
+	
+	a:hover {
+		font-weight : bold;
+		font-size : 12px;
+		font-family : helvetica;
+		color : #09F;
+		text-decoration : none;
+		}
+		
+

@@ -1,0 +1,65 @@
+<html>
+    <!--
+    
+    /*************************************************************************
+    *
+    * ADOBE CONFIDENTIAL
+    * ___________________
+    *
+    *  Copyright 2011 Adobe Systems Incorporated
+    *  All Rights Reserved.
+    *
+    * NOTICE:  All information contained herein is, and remains
+    * the property of Adobe Systems Incorporated and its suppliers,
+    * if any.  The intellectual and technical concepts contained
+    * herein are proprietary to Adobe Systems Incorporated and its
+    * suppliers and are protected by trade secret or copyright law.
+    * Dissemination of this information or reproduction of this material
+    * is strictly forbidden unless prior written permission is obtained
+    * from Adobe Systems Incorporated.
+    **************************************************************************/
+    
+    AdobePatentID="2121US01"
+    AdobePatentID="2122US01"
+    
+    -->
+<head>
+<title>Adobe Shadow - Options</title>
+<script type="text/javascript" src="../js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/debug.js"></script>
+<style>
+	@font-face { font-family: "clean-ui"; src: url('../Assets/AdobeCleanUI-Regular.otf'); }
+	@font-face { font-family: "clean-ui-b"; src: url('../Assets/AdobeCleanUI-Bold.otf'); }
+	p { color: #fff; }
+	body { background: #333; margin: 48px; font-family: "clean-ui", Helvetica, "Helvetica Neue", sans-serif; }
+	h1 { color: #fff; text-shadow: 0 -1px 0 #000; margin: 0 0 24px; }
+	#versioninfo { color: #fff; text-shadow: 0 -1px 0 #000; }
+	button, a { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#555555)); color: #d7d7d7; text-shadow: 0 -1px 0 #000; border: 1px solid #333; padding: 4px 9px 6px; border-radius: 3px; box-shadow: 0px 1px 3px #222; margin: 0 3px 0 -1px; 
+	}
+	button:active, a:active { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#666666)); color: #fff;
+	}
+
+        #versioninfo {
+          font-size: 11px;
+        }
+</style>
+</head>
+<body>
+  <div id="logdiv">
+    <h1>DEBUG</h1>
+<p>protocol://host:port/= <input id="protocol" name="protocol" />://<input id="host" name="host" />:<input id="port" name="port" />/<button id="saveoptions">Save</button></p>
+
+      
+      <div id="status"></div>
+    <div>
+    <button id="qunit">QUnit</button>
+    <button id="jasmine">Jasmine</button>
+    <button id="resetfirstrun">Reset First Run Flag</button>
+    </div>
+    <p id="versioninfo">DM Build: <span id="shadowrev"></span></p>
+      <p id="extensionid"></p>
+      <p id="localStorage"></p>
+  </div>
+</body>
+</html>
+

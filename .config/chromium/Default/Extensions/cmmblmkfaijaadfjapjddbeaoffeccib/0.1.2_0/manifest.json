@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDesc__",
+   "icons": {
+      "128": "img/emblem-brackets-128.png",
+      "16": "img/emblem-brackets-16.png",
+      "32": "img/emblem-brackets-32.png",
+      "48": "img/emblem-brackets-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBOiXFBkynl/B3KA5PZdS2ccFxUp55alw42X6/oEEjPYoE1XK+LNbv9RlovG8Of/yzzYwpX36Lurwi0wfzbEVEpEAT+smhH5I33P2R8Jm6NK7+b0c6KJJh7l/Mw+lItCJPOCKvthov9peYkIr5n08jvp4uxFHXYN2ZruDhHmBgnwIDAQAB",
+   "name": "__MSG_extensionName__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.2"
+}

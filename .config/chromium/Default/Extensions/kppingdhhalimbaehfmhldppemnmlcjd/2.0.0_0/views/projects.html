@@ -1,0 +1,65 @@
+<div class="mode-{{mode}} m1-mtnl">
+	<div class="bar-top">
+		<div class="rel">
+			<button class="unit btn0 mlm mrl m0-mrs m0-mlm" mi-popup="focus">
+				<i class="icon-menu"></i>
+				<span class="visuallyhidden">Menu</span>
+			</button>
+			<ul class="w-menu absl layer-front2 menuList1 mtxl ptm talign-left hidden">
+				<li><button ng-click="newProject()"><i class="mrs icon-new"></i>New Project</button></li>
+				<div class="file size1of1 lh2">
+					<mi-file focused="importFocused" type-regex=".json" on-open="import(files)"></mi-file>
+					<span class="menuItem" ng-class="importFocused ? 'focused' : ''"><i class="mrs icon-import"></i>Load Project</span>
+				</div>
+				<li ng-hide="signedIn"><a href="http://icomoon.io/#login#redirect#http%3A%2F%2Ficomoon.io%2Fapp"><i class="icon-enter mrs"></i>Sign In</a></li>
+				<li ng-show="signedIn"><a href="http://i.icomoon.io/logout"><i class="icon-exit mrs"></i>Sign Out</a></li>
+				<li><a target="_blank" href="http://icomoon.io/#docs"><i class="icon-question mrs"></i>Documentation</a></li>
+				<!-- <li><button ng-click="reset()">Hard Reset</button></li> -->
+			</ul>
+		</div>
+		<div class="w-main">
+			<label class="unit m0-mls">
+				Sort by
+				<div class="iblk rel">
+				<button class="btn5 plm" mi-popup="focus">{{order}}</button>
+				<ul class="w-menu absl layer-front2 menuList1 noShadow mtn ptm talign-left hidden">
+					<li><button ng-click="order = 'Date Modified'">Date Modified</button></li>
+					<li><button ng-click="order = 'Date Created'">Date Created</button></li>
+					<li><button ng-click="order = 'Name'">Name</button></li>
+				</ul>
+				</div>
+			</label>
+			<!-- <h1 class="fs5 mvn ptt unit">Manage Projects</h1> -->
+		</div>
+		<span class="unitRight mvn mrm fgc5 m1-hidden lh0">
+			<i ng-show="cloudAccess" class="fs3 lh1 icon-{{isSyncing() ? 'sync fgc-warning' : 'icomoon'}}"></i>
+			<a target="_blank" ng-show="!cloudAccess" href="http://icomoon.io/#hi" class="fgc4 transparent hoverE-icon"><i class="icon-neutral lh1 fs3" data-icon2="&#xe63f;"></i><span class="visuallyhidden">Hi!</span></a>
+		</span>
+	</div>
+	<div class="w-main prm">
+		<ul ng-show="projects.length" class="noListStyle clearfix mvn">
+			<li class="clearfix bshadow-ul0 mbl hoverE-show" ng-repeat="project in projects">
+				<input ng-focus="focused = true" ng-blur="focused = false" tabindex="{{$index}}1" class="textbox0 unit size1of2" ng-model="project.metadata.name" mi-unique="projectNames" type="text">
+				<fieldset ng-class="focused ? '' : 'hoverE-hidden'">
+				<button ng-focus="focused = true" ng-blur="focused = false" tabindex="{{$index}}4" class="btn5 unitRight plm prn" ng-click="removeProject(project.idx, $index)">
+					<span class="transparent m1-hidden">Remove</span>
+					<i class="icon-cancel2 mls"></i>
+				</button>
+				<button ng-focus="focused = true" ng-blur="focused = false" tabindex="{{$index}}3" class="btn5 unitRight phm" ng-click="downloadProject(project.idx)">
+					<span class="transparent m1-hidden">Download</span>
+					<i class="icon-download mls"></i>
+				</button>
+				<button ng-focus="focused = true" ng-blur="focused = false" tabindex="{{$index}}2" class="btn5 unitRight phm" ng-click="loadProject(project.idx)">
+					<span class="transparent m1-hidden">Load</span>
+					<i class="icon-right2 mls"></i>
+				</button>
+				</fieldset>
+			</li>
+		</ul>
+		<button class="blk btn5 phn mbs" ng-click="newProject()"><i class="icon-new mrs"></i>New Project</button>
+		<div class="file iblk fgc3">
+			<mi-file focused="importFocused2" type-regex=".json" on-open="import(files)"></mi-file>
+			<span class="btn5 phn" ng-class="importFocused2 ? 'focused' : ''"><i class="icon-import mrs"></i><span>Load Project</span></span>
+		</div>
+	</div>
+</div>

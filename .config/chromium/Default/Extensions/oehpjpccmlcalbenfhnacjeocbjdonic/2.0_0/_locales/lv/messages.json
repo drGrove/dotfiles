@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Nav piem\u0113rojams"
+   },
+   "alignment_btn_txt": {
+      "message": "Piel\u0101got poz\u012Bciju"
+   },
+   "allow_access_to_webcam": {
+      "message": "L\u016Bdzu, pazi\u0146ojumu josl\u0101 at\u013Caujiet piek\u013C\u016Bt savai t\u012Bmek\u013Ca kamerai."
+   },
+   "back_to_step1_msg": {
+      "message": "Vai tie\u0161\u0101m v\u0113laties import\u0113t jaunu att\u0113lu? J\u016Bs zaud\u0113siet visas \u0161im att\u0113lam veikt\u0101s izmai\u0146as."
+   },
+   "background": {
+      "message": "Redi\u0123\u0113t fona kr\u0101su"
+   },
+   "bottom_align": {
+      "message": "apak\u0161\u0101"
+   },
+   "cancel": {
+      "message": "Atcelt"
+   },
+   "center_align": {
+      "message": "centr\u0101"
+   },
+   "change_img_btn_txt": {
+      "message": "Import\u0113t jaunu att\u0113lu"
+   },
+   "continue_anyways": {
+      "message": "Tik un t\u0101 turpin\u0101t"
+   },
+   "continue_to": {
+      "message": "Turpin\u0101t ar $1. darb\u012Bbu",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Izveidot savu mot\u012Bvu"
+   },
+   "custom": {
+      "message": "Piel\u0101got"
+   },
+   "custom_color": {
+      "message": "Piel\u0101gota kr\u0101sa"
+   },
+   "default": {
+      "message": "Iestat\u012Bt k\u0101 noklus\u0113jumu"
+   },
+   "delete": {
+      "message": "Dz\u0113st"
+   },
+   "delete_theme": {
+      "message": "Dz\u0113st mot\u012Bvu"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Vai tie\u0161\u0101m v\u0113laties dz\u0113st mot\u012Bvu $1?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Dz\u0113\u0161ot rad\u0101s k\u013C\u016Bda."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "K\u013C\u016Bda dz\u0113\u0161ot. M\u0113\u0123iniet v\u0113lreiz."
+   },
+   "deleted": {
+      "message": "Dz\u0113sts"
+   },
+   "deleting": {
+      "message": "Dz\u0113\u0161..."
+   },
+   "deleting_theme": {
+      "message": "Dz\u0113\u0161 mot\u012Bvu"
+   },
+   "design_mode": {
+      "message": "noform\u0113juma re\u017E\u012Bms"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Gatavs"
+   },
+   "download_theme_zip": {
+      "message": "Lejupiel\u0101d\u0113t mot\u012Bvu .zip form\u0101t\u0101"
+   },
+   "enhance_btn_txt": {
+      "message": "Redi\u0123\u0113t pakalpojum\u0101 Picnik"
+   },
+   "error": {
+      "message": "K\u013B\u016ADA"
+   },
+   "error_while_publishing": {
+      "message": "Veidojot URL, rad\u0101s k\u013C\u016Bda. L\u016Bdzu, m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "error_while_unpublishing": {
+      "message": "URL no\u0146em\u0161anas laik\u0101 rad\u0101s k\u013C\u016Bda. L\u016Bdzu, m\u0113\u0123iniet v\u0113lreiz."
+   },
+   "ext_description": {
+      "message": "Izveidojiet un kop\u012Bgojiet Google Chrome mot\u012Bvus ar savu noform\u0113jumu."
+   },
+   "ext_name": {
+      "message": "Mans Chrome mot\u012Bvs"
+   },
+   "feeling_lucky": {
+      "message": "Es ticu veiksmei!"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hmm! Kaut kas neizdev\u0101s ar j\u016Bsu redi\u0123\u0113to att\u0113lu, un m\u0113s str\u0101d\u0101jam pie t\u0101, lai salabotu to."
+   },
+   "fill_screen": {
+      "message": "Aizpild\u012Bt ekr\u0101nu"
+   },
+   "filter_black_and_white": {
+      "message": "Melnbalts"
+   },
+   "filter_bolder": {
+      "message": "Spilgt\u0101ks"
+   },
+   "filter_cooler": {
+      "message": "V\u0113s\u0101ks"
+   },
+   "filter_inverted": {
+      "message": "Invert\u0113ts"
+   },
+   "filter_posterized": {
+      "message": "Plak\u0101ta efekts"
+   },
+   "filter_sepia": {
+      "message": "S\u0113pija"
+   },
+   "filter_title": {
+      "message": "Att\u0113la efekti"
+   },
+   "filter_warmer": {
+      "message": "Silt\u0101ks"
+   },
+   "fit_screen": {
+      "message": "Ietilpin\u0101\u0161ana ekr\u0101n\u0101"
+   },
+   "footer_share_site_txt": {
+      "message": "Kop\u012Bgot:"
+   },
+   "frame": {
+      "message": "Redi\u0123\u0113t ietvara kr\u0101su"
+   },
+   "generate_theme": {
+      "message": "\u0122ener\u0113 mot\u012Bvu"
+   },
+   "goback": {
+      "message": "Atpaka\u013C"
+   },
+   "hide_themes": {
+      "message": "Sl\u0113pt mot\u012Bvus"
+   },
+   "image_format_error_msg": {
+      "message": "Hmm... \u0160\u0137iet, rad\u0101s probl\u0113ma ar j\u016Bsu att\u0113lu. L\u016Bdzu, m\u0113\u0123iniet v\u0113lreiz vai atlasiet citu att\u0113lu."
+   },
+   "image_size_error_msg": {
+      "message": "Hmm... \u0160\u0137iet, att\u0113la fails ir p\u0101r\u0101k liels. L\u016Bdzu, m\u0113\u0123iniet v\u0113lreiz, izmantojot failu, kura lielums nep\u0101rsniedz $1\u00A0$2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "M\u0113s atbalst\u0101m JPEG, PNG, GIF un BMP failu veidus."
+   },
+   "image_type_error_msg": {
+      "message": "Diem\u017E\u0113l m\u0113s neatbalst\u0101m faila form\u0101tu, kuru cen\u0161aties atlas\u012Bt."
+   },
+   "img_fetching": {
+      "message": "Pirmsiel\u0101d\u0113 att\u0113lu"
+   },
+   "img_upload_wait": {
+      "message": "Uzgaidiet, kam\u0113r att\u0113ls tiek aug\u0161upiel\u0101d\u0113ts"
+   },
+   "informative": {
+      "message": "Informat\u012Bvs"
+   },
+   "install_box_text": {
+      "message": "Noklik\u0161\u0137iniet, lai t\u016Bl\u012Bt instal\u0113tu \u0161o mot\u012Bvu sav\u0101 p\u0101rl\u016Bk\u0101 Chrome"
+   },
+   "install_btn": {
+      "message": "Instal\u0113t manu mot\u012Bvu"
+   },
+   "left_align": {
+      "message": "pa kreisi"
+   },
+   "loading": {
+      "message": "Notiek iel\u0101de..."
+   },
+   "loading_application": {
+      "message": "Iel\u0101d\u0113 lietotni..."
+   },
+   "locale": {
+      "message": "lv"
+   },
+   "make_new": {
+      "message": "Veidot jaunu mot\u012Bvu \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Jauna cilne"
+   },
+   "no": {
+      "message": "N\u0113"
+   },
+   "no_image_uploaded_msg": {
+      "message": "\u0160\u0137iet, ka neesat import\u0113jis att\u0113lu sava mot\u012Bva fonam. Vai tie\u0161\u0101m v\u0113laties turpin\u0101t bez t\u0101?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "\u0160\u0137iet, ka neesat pie\u0161\u0137\u012Bris savam mot\u012Bvam nosaukumu. Vai tik un t\u0101 turpin\u0101t?"
+   },
+   "no_theme_to_view": {
+      "message": "Jums nav neviena skat\u0101ma mot\u012Bva."
+   },
+   "no_webcam_msg": {
+      "message": "Neviena t\u012Bmek\u013Ca kamera nav konstat\u0113ta"
+   },
+   "not_available_offline": {
+      "message": "Nav pieejami bezsaist\u0113"
+   },
+   "ok": {
+      "message": "Labi"
+   },
+   "oops_msg": {
+      "message": "Hmm..."
+   },
+   "open_preview_text": {
+      "message": "Priek\u0161skat\u012Bt mot\u012Bvu"
+   },
+   "original": {
+      "message": "Ori\u0123in\u0101ls"
+   },
+   "package_btn": {
+      "message": "Izveidot savu mot\u012Bvu!"
+   },
+   "page_title": {
+      "message": "$1\u00A0\u2014 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Izv\u0113l\u0113ties kr\u0101su"
+   },
+   "picnik_save_btn": {
+      "message": "Saglab\u0101t sada\u013C\u0101 Mans Chrome mot\u012Bvs"
+   },
+   "please_wait": {
+      "message": "Uzgaidiet..."
+   },
+   "preset_color": {
+      "message": "Iepriek\u0161 iestat\u012Bta kr\u0101sa"
+   },
+   "preview_error_msg": {
+      "message": "\u0160\u0137iet, ka mekl\u0113tais mot\u012Bvs vairs nav pieejams."
+   },
+   "preview_mode": {
+      "message": "priek\u0161skat\u012Bjuma re\u017E\u012Bms"
+   },
+   "privacy_policy": {
+      "message": "Konfidencialit\u0101tes politika"
+   },
+   "publish_theme": {
+      "message": "KOP\u012AGOT MOT\u012AVU"
+   },
+   "publish_theme_text": {
+      "message": "Noklik\u0161\u0137iniet, lai kop\u012Bgotu savu mot\u012Bvu ar citiem."
+   },
+   "publishing": {
+      "message": "Notiek vietr\u0101\u017Ea URL izveide..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Lai public\u0113tu .zip failu Chrome interneta veikal\u0101, dodieties [\u0161eit]."
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Pie\u0161\u0137iriet mot\u012Bvam unik\u0101lu nosaukumu. Mot\u012Bvs b\u016Bs redzams, ja kop\u012Bgojat to ar citiem."
+   },
+   "rear_tab_text": {
+      "message": "Fona cilne"
+   },
+   "reartab": {
+      "message": "Redi\u0123\u0113t fona cilnes kr\u0101su"
+   },
+   "retake_picture": {
+      "message": "Uz\u0146emt v\u0113lreiz"
+   },
+   "retry": {
+      "message": "M\u0113\u0123in\u0101t v\u0113lreiz"
+   },
+   "right_align": {
+      "message": "pa labi"
+   },
+   "share_box_text": {
+      "message": "Kop\u0113jiet \u0161o unik\u0101lo URL, lai kop\u012Bgotu savu mot\u012Bvu ar citiem"
+   },
+   "show_all_themes": {
+      "message": "R\u0101d\u012Bt visus mot\u012Bvus"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "S\u0100KT VEIDOT MOT\u012AVU"
+   },
+   "start_screen_description": {
+      "message": "Noform\u0113jiet Chrome pats. Veidojiet un kop\u012Bgojiet Google Chrome mot\u012Bvus ar saviem fotoatt\u0113liem un noform\u0113jumu, veicot tr\u012Bs vienk\u0101r\u0161as darb\u012Bbas."
+   },
+   "start_screen_heading": {
+      "message": "Izveidojiet Chrome mot\u012Bvu"
+   },
+   "step": {
+      "message": "$1. darb\u012Bba",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1. Import\u0113jiet savu att\u0113lu.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Aug\u0161upiel\u0101d\u0113jiet failu no datora vai uz\u0146emiet fotoatt\u0113lu, izmantojot t\u012Bmek\u013Ca kameru."
+   },
+   "step1_header_msg_text": {
+      "message": "Izv\u0113lieties sava mot\u012Bva fona att\u0113lu."
+   },
+   "step2_btn_txt": {
+      "message": "$1. Pievienojiet k\u0101du kr\u0101su.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Vai ar\u012B varat autom\u0101tiski pievienot kr\u0101sas [ja j\u016Bs ticat veiksmei]"
+   },
+   "step2_header_msg_text": {
+      "message": "Noklik\u0161\u0137iniet uz spraud\u012Btes, lai s\u0101ktu kr\u0101sot savu mot\u012Bvu"
+   },
+   "step3_btn_txt": {
+      "message": "$1. Instal\u0113jiet un kop\u012Bgojiet",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Atrast vair\u0101k mot\u012Bvu Chrome interneta veikal\u0101"
+   },
+   "stored_themes_title": {
+      "message": "Noklik\u0161\u0137iniet uz s\u012Bkt\u0113liem t\u0101l\u0101k, lai instal\u0113tu, kop\u012Bgotu vai dz\u0113stu iepriek\u0161\u0113jos \u0161aj\u0101 dator\u0101 izveidotos mot\u012Bvus."
+   },
+   "take_picture": {
+      "message": "Uz\u0146emt att\u0113lu"
+   },
+   "text": {
+      "message": "Redi\u0123\u0113t teksta kr\u0101su"
+   },
+   "theme_deleted": {
+      "message": "Mot\u012Bvs dz\u0113sts"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Pievienojiet v\u0113l da\u017Eus v\u0101rdus, kas raksturo j\u016Bsu mot\u012Bvu. \u0160is apraksts ir redzams, ja kop\u012Bgojat mot\u012Bvu."
+   },
+   "theme_description_box_title": {
+      "message": "Aprakstiet mot\u012Bvu"
+   },
+   "theme_description_text": {
+      "message": "Pievienojiet neoblig\u0101tu aprakstu"
+   },
+   "theme_does_not_exist": {
+      "message": "\u0160\u0101ds mot\u012Bvs nepast\u0101v."
+   },
+   "theme_name_placeholder": {
+      "message": "Pie\u0161\u0137irt mot\u012Bvam nosaukumu"
+   },
+   "theme_str": {
+      "message": "mot\u012Bvs"
+   },
+   "theme_unique_url": {
+      "message": "Kop\u012Bgot \u0161o unik\u0101lo URL:"
+   },
+   "tile_image": {
+      "message": "Moza\u012Bkas att\u0113ls"
+   },
+   "toolbar": {
+      "message": "Redi\u0123\u0113t r\u012Bkjoslas kr\u0101su"
+   },
+   "top_align": {
+      "message": "aug\u0161pus\u0113"
+   },
+   "try_again": {
+      "message": "M\u0113\u0123in\u0101t v\u0113lreiz"
+   },
+   "unpublish": {
+      "message": "Atsaukt"
+   },
+   "unpublishing": {
+      "message": "Notiek vietr\u0101\u017Ea URL no\u0146em\u0161ana..."
+   },
+   "untitled": {
+      "message": "Bez nosaukuma"
+   },
+   "upload_btn_txt": {
+      "message": "Aug\u0161upiel\u0101d\u0113t att\u0113lu"
+   },
+   "upload_crx_error_msg": {
+      "message": "Hmm! Kad m\u0113\u0123in\u0101j\u0101m izveidot j\u016Bsu mot\u012Bvu, kaut kas neizdev\u0101s."
+   },
+   "upload_error_msg": {
+      "message": "\u0160\u0137iet, ka j\u016Bsu att\u0113la aug\u0161upiel\u0101des laik\u0101 rad\u0101s probl\u0113ma. M\u0113\u0123iniet v\u0113lreiz aug\u0161upiel\u0101d\u0113t savu failu vai atgriezieties un atlasiet citu att\u0113lu."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Aug\u0161upiel\u0101d\u0113jiet tikai tos att\u0113lus, kurus esat ties\u012Bgs lietot."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Google mitin\u0101s att\u0113lus un mot\u012Bvus."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "No\u0146emtie att\u0113li un mot\u012Bvi tiks neatgriezeniski dz\u0113sti."
+   },
+   "uploading": {
+      "message": "NOTIEK AUG\u0160UPIEL\u0100DE"
+   },
+   "url_tooltip": {
+      "message": "Kop\u0113jiet un iel\u012Bm\u0113jiet, lai kop\u012Bgotu"
+   },
+   "use_picture": {
+      "message": "Izmantot att\u0113lu"
+   },
+   "warning": {
+      "message": "BR\u012ADIN\u0100JUMS"
+   },
+   "webcam_btn_txt": {
+      "message": "Izmantojiet Webcam"
+   },
+   "woohoo_text": {
+      "message": "Lieliski!  $1 $2 ir izveidots",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "J\u0101"
+   }
+}

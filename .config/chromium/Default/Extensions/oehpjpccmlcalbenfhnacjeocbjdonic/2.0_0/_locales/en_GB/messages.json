@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Not Applicable"
+   },
+   "alignment_btn_txt": {
+      "message": "Adjust position"
+   },
+   "allow_access_to_webcam": {
+      "message": "Please allow access to your webcam from the notification bar."
+   },
+   "back_to_step1_msg": {
+      "message": "Are you sure that you want to import a new image? You'll lose any changes that you've made to this one."
+   },
+   "background": {
+      "message": "Edit background colour"
+   },
+   "bottom_align": {
+      "message": "bottom"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "center_align": {
+      "message": "centre"
+   },
+   "change_img_btn_txt": {
+      "message": "Import new image"
+   },
+   "continue_anyways": {
+      "message": "Continue anyway"
+   },
+   "continue_to": {
+      "message": "Continue to Step $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Create your own theme"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "custom_color": {
+      "message": "Custom colour..."
+   },
+   "default": {
+      "message": "Set to default"
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "delete_theme": {
+      "message": "Delete theme"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Are you sure you want to delete \"$1\" theme?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Error while deleting."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Error while deleting. Please retry."
+   },
+   "deleted": {
+      "message": "Deleted"
+   },
+   "deleting": {
+      "message": "Deleting..."
+   },
+   "deleting_theme": {
+      "message": "Deleting theme"
+   },
+   "design_mode": {
+      "message": "design mode"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Done"
+   },
+   "download_theme_zip": {
+      "message": "Download theme as zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Edit in Picnik"
+   },
+   "error": {
+      "message": "ERROR"
+   },
+   "error_while_publishing": {
+      "message": "Error while generating URL. Please retry."
+   },
+   "error_while_unpublishing": {
+      "message": "Error while removing URL. Please retry."
+   },
+   "ext_description": {
+      "message": "Create and share Google Chrome themes of your own design."
+   },
+   "ext_name": {
+      "message": "My Chrome Theme"
+   },
+   "feeling_lucky": {
+      "message": "I'm Feeling Lucky"
+   },
+   "fetch_image_error_msg": {
+      "message": "Oops! Something went wrong with your edited image and we're working on fixing it."
+   },
+   "fill_screen": {
+      "message": "Fill Screen"
+   },
+   "filter_black_and_white": {
+      "message": "Black and White"
+   },
+   "filter_bolder": {
+      "message": "Bolder"
+   },
+   "filter_cooler": {
+      "message": "Cooler"
+   },
+   "filter_inverted": {
+      "message": "Inverted"
+   },
+   "filter_posterized": {
+      "message": "Posterised"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Image Effects"
+   },
+   "filter_warmer": {
+      "message": "Warmer"
+   },
+   "fit_screen": {
+      "message": "Fit to Screen"
+   },
+   "footer_share_site_txt": {
+      "message": "Share:"
+   },
+   "frame": {
+      "message": "Edit frame colour"
+   },
+   "generate_theme": {
+      "message": "Generating Theme"
+   },
+   "goback": {
+      "message": "Go back"
+   },
+   "hide_themes": {
+      "message": "Hide themes"
+   },
+   "image_format_error_msg": {
+      "message": "Oops! Looks like something went wrong with your image. Please try again or select a different image."
+   },
+   "image_size_error_msg": {
+      "message": "Oops! Looks like your image file is too large. Please try again with a file that's $1 $2 or less.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "We support JPEG, PNG, GIF and BMP file types."
+   },
+   "image_type_error_msg": {
+      "message": "Sorry, but we do not support the file format that you're trying to select."
+   },
+   "img_fetching": {
+      "message": "Fetching Image"
+   },
+   "img_upload_wait": {
+      "message": "Please wait while your image is uploading"
+   },
+   "informative": {
+      "message": "Informative"
+   },
+   "install_box_text": {
+      "message": "Click to install this theme on your Chrome browser now"
+   },
+   "install_btn": {
+      "message": "Install my theme"
+   },
+   "left_align": {
+      "message": "left"
+   },
+   "loading": {
+      "message": "Loading..."
+   },
+   "loading_application": {
+      "message": "Loading Application..."
+   },
+   "locale": {
+      "message": "en-GB"
+   },
+   "make_new": {
+      "message": "Make a new theme \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "New Tab"
+   },
+   "no": {
+      "message": "No"
+   },
+   "no_image_uploaded_msg": {
+      "message": "It looks like you haven't imported an image for the background of your theme. Are you sure that you want to continue without one?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Looks you didn't name your theme. Do you want to proceed anyway?"
+   },
+   "no_theme_to_view": {
+      "message": "You have no themes to view"
+   },
+   "no_webcam_msg": {
+      "message": "No webcam detected"
+   },
+   "not_available_offline": {
+      "message": "Not available offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Oops,"
+   },
+   "open_preview_text": {
+      "message": "Preview theme"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Make my theme!"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Pick a colour"
+   },
+   "picnik_save_btn": {
+      "message": "Save to My Chrome Theme"
+   },
+   "please_wait": {
+      "message": "Please wait ..."
+   },
+   "preset_color": {
+      "message": "Preset colour"
+   },
+   "preview_error_msg": {
+      "message": "Looks like the theme you're looking for is no longer available."
+   },
+   "preview_mode": {
+      "message": "preview mode"
+   },
+   "privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "publish_theme": {
+      "message": "SHARE THEME"
+   },
+   "publish_theme_text": {
+      "message": "Click to share your theme with others."
+   },
+   "publishing": {
+      "message": "Generating URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "For publishing the Zip to the Chrome Web Store, go [here]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Name your theme to make it uniquely yours. The theme name will be visible if you choose to share your theme with others."
+   },
+   "rear_tab_text": {
+      "message": "Background Tab"
+   },
+   "reartab": {
+      "message": "Edit background tab colour"
+   },
+   "retake_picture": {
+      "message": "Retake"
+   },
+   "retry": {
+      "message": "Retry"
+   },
+   "right_align": {
+      "message": "right"
+   },
+   "share_box_text": {
+      "message": "Copy this unique URL to share your theme with others"
+   },
+   "show_all_themes": {
+      "message": "Show all themes"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "START MAKING THE THEME"
+   },
+   "start_screen_description": {
+      "message": "Add a personal touch to your browser. Build and share customised Google Chrome themes with your own photos and designs in just three simple steps."
+   },
+   "start_screen_heading": {
+      "message": "Create your own Chrome theme"
+   },
+   "step": {
+      "message": "Step $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Import your image",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Upload a file from your computer or take a photo with your webcam."
+   },
+   "step1_header_msg_text": {
+      "message": "Choose an image for the background of your theme."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Add some colour",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Or, you can add colours automatically [if you're feeling lucky]"
+   },
+   "step2_header_msg_text": {
+      "message": "Click on a pin to start colouring your theme"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Install & share",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Find more themes in the Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Click on the thumbnails below to install, share or delete previous themes created on this computer."
+   },
+   "take_picture": {
+      "message": "Take a picture"
+   },
+   "text": {
+      "message": "Edit text colour"
+   },
+   "theme_deleted": {
+      "message": "Theme deleted"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Add a few more words to describe your theme. This description will be visible if you share your theme."
+   },
+   "theme_description_box_title": {
+      "message": "Describe Your Theme"
+   },
+   "theme_description_text": {
+      "message": "Add an optional description"
+   },
+   "theme_does_not_exist": {
+      "message": "This theme doesn't exist"
+   },
+   "theme_name_placeholder": {
+      "message": "Give your theme a name"
+   },
+   "theme_str": {
+      "message": "theme"
+   },
+   "theme_unique_url": {
+      "message": "Share with this unique URL:"
+   },
+   "tile_image": {
+      "message": "Tile Image"
+   },
+   "toolbar": {
+      "message": "Edit toolbar colour"
+   },
+   "top_align": {
+      "message": "top"
+   },
+   "try_again": {
+      "message": "Try again"
+   },
+   "unpublish": {
+      "message": "Undo sharing"
+   },
+   "unpublishing": {
+      "message": "Removing URL..."
+   },
+   "untitled": {
+      "message": "Untitled"
+   },
+   "upload_btn_txt": {
+      "message": "Upload Image"
+   },
+   "upload_crx_error_msg": {
+      "message": "Oops! Something went wrong when we tried to make your theme."
+   },
+   "upload_error_msg": {
+      "message": "Looks like there was a problem while uploading your image. Please try uploading your file again or go back and select a different one."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Please only upload images that you have the rights to use."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Images and Themes will be hosted by Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Images and themes that you remove will be permanently deleted."
+   },
+   "uploading": {
+      "message": "UPLOADING"
+   },
+   "url_tooltip": {
+      "message": "Copy & paste to share"
+   },
+   "use_picture": {
+      "message": "Use Picture"
+   },
+   "warning": {
+      "message": "WARNING"
+   },
+   "webcam_btn_txt": {
+      "message": "Use Webcam"
+   },
+   "woohoo_text": {
+      "message": "Hooray! The \"$1\" $2 has been created",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

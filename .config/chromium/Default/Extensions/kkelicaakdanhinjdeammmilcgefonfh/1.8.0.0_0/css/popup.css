@@ -1,0 +1,51 @@
+.popup	{	width:250px; padding:0 !important; margin:0 !important; border:none !important; }
+
+	.popup .resRow	{	padding:3px !important; border:none !important; }
+	
+	.popup .resRow .handle		{	cursor:pointer; min-height:0; }
+	
+	
+	.popup .resRow STRONG		{	 }
+
+	.popup .resRow .i_delete,
+	.popup .resRow .i_edit	{	display:none; }
+
+	.popup .customize		{	border-top:1px solid #ddd !important; margin-top:2px; padding-top:3px; }
+	.popup #customize,
+	.popup #settings,
+	.popup #news			{	font-weight:bold; }
+	
+	.popup .icon	{	height:24px !important; margin-top:-12px !important; }
+	
+	.popup #customize .icon	{	height:16px !important; margin-top:-8px !important; }
+
+
+.popup .resRow.secondary a { font-weight: normal !important; }
+.popup .resRow.updated a { font-weight: bold !important; }
+
+.popup .resRow.secondary .icon { height:16px !important; margin-top:-8px !important; }
+
+
+.popup .resRow:before { position: absolute; z-index: 10; top: 7px; right: 7px; width: 10px; height: 10px; border: 1px solid #bbb; color: #bbb; border-radius: 3px; background: #fff; 
+                        text-align: center; font: 10px/ 10px "Courier New", Courier, monospace; }
+
+.popup #row0:before { content: "1"; }
+.popup #row1:before { content: "2"; }
+.popup #row2:before { content: "3"; }
+.popup #row3:before { content: "4"; }
+.popup #row4:before { content: "5"; }
+.popup #row5:before { content: "6"; }
+.popup #row6:before { content: "7"; }
+.popup #row7:before { content: "8"; }
+.popup #row8:before { content: "9"; }
+.popup #row9:before { content: "0"; }
+
+.popup #rowEdit:before { content: "E"; }
+.popup #rowSettings:before { content: "S"; }
+.popup #rowUpdate:before { content: "U"; }
+
+
+A.handle:focus { border:1px solid #D3E3F7 !important; text-decoration:none; color:#123272; outline: none;
+                           background: -webkit-gradient(linear, left top, left bottom, from(#f9fbfe), to(#e9f1fb)); }
+
+A.handle:focus .icon { border-color: #D3E3F7; }

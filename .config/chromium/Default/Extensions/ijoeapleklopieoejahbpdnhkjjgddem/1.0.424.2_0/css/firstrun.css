@@ -1,0 +1,66 @@
+body { background: #f3f4f5; color: #777; font: 14px normal Helvetica, Arial, sans-serif; margin: 0; line-height: 21px; 
+  -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { color: #444; font-weight: normal; line-height: 1.3em; }
+h1 { color: #444; margin: 0 0 18px; }
+h2 { margin: 0 0 1.3em; }
+h3, h4, h5, h6 { margin: 0; }
+p { margin: 0 0 21px; }
+ul { margin-bottom: 0; }
+#container { margin: 48px auto 69px; position: relative; width: 966px; }
+header { padding: 84px 0 0; }
+#main { background: #fff; margin: 0 0 180px; box-shadow: 0 0 3px #ccc; border-bottom: 1px solid #eaeaea; padding-bottom: 54px; }
+#main section { padding: 39px 53px; }
+#main section p:last-child { margin: 0; }
+hr { background: #e7e7e7; border: none; height: 1px; margin: 0 53px; }
+#main #intro p {  font-size: 18px; line-height: 1.6;
+    width: 100%; }
+#main h2, #main h3, #main h4, #main p { width: 315px; }
+#remote-inspection { height: 370px; }
+
+#intro {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/logo-adobe.png') no-repeat 897px 0px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/logo-adobe.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/logo-adobe.png') 2x);
+ 	color: #888;
+ 	font-size: 21px;
+ 	line-height: 30px;
+}
+#same-network {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-same-network.png') no-repeat 400px 10px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-same-network.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/en_US/step-same-network.png') 2x);	
+	min-height: 290px;
+}
+
+#connecting {
+	min-height: 530px;
+}
+
+.connecting_en {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-connecting.png') no-repeat 433px 30px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-connecting.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/en_US/step-connecting.png') 2x);	
+}
+
+
+.connecting_fr {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/fr/step-connecting.png') no-repeat 433px 30px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/fr/step-connecting.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/fr/step-connecting.png') 2x);	
+}
+
+.connecting_ja {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/ja/step-connecting.png') no-repeat 433px 30px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/ja/step-connecting.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/ja/step-connecting.png') 2x);	
+}
+
+#remote-inspection {
+	background: url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-remote-inspection.png') no-repeat 422px 30px;
+	background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/x1/en_US/step-remote-inspection.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/x2/en_US/step-remote-inspection.png') 2x);	
+}
+
+a:link { color: #017eca; text-decoration: none; }
+a:visited { color: #017eca; text-decoration: none; }
+a:hover { color: #017eca; text-decoration: underline; }
+a:active { color: #004a7c; text-decoration: underline; }
+
+.reg { font-size: 14px; vertical-align: super;}
+.social { margin: -24px 0px 20px 9px; display: inline-block;}
+
+#social { text-align: right;}

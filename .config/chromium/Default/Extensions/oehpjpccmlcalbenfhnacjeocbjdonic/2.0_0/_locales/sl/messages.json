@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Ni na voljo."
+   },
+   "alignment_btn_txt": {
+      "message": "Prilagodi polo\u017Eaj"
+   },
+   "allow_access_to_webcam": {
+      "message": "Omogo\u010Dite dostop do spletne kamere iz vrstice z opozorilom."
+   },
+   "back_to_step1_msg": {
+      "message": "Ali ste prepri\u010Dani, da \u017Eelite uvoziti novo sliko? V tej boste izgubili vse spremembe, ki ste jih naredili."
+   },
+   "background": {
+      "message": "Urejanje barve ozadja"
+   },
+   "bottom_align": {
+      "message": "spodaj"
+   },
+   "cancel": {
+      "message": "Prekli\u010Di"
+   },
+   "center_align": {
+      "message": "na sredino"
+   },
+   "change_img_btn_txt": {
+      "message": "Uvozi novo sliko"
+   },
+   "continue_anyways": {
+      "message": "Vseeno nadaljuj"
+   },
+   "continue_to": {
+      "message": "Naprej na $1. korak",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Ustvarite svojo temo"
+   },
+   "custom": {
+      "message": "Po meri"
+   },
+   "custom_color": {
+      "message": "Barva po meri"
+   },
+   "default": {
+      "message": "Nastavi na privzeto"
+   },
+   "delete": {
+      "message": "Izbri\u0161i"
+   },
+   "delete_theme": {
+      "message": "Izbri\u0161i temo"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Ali ste prepri\u010Dani, da \u017Eelite izbrisati temo \u00BB$1\u00AB?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Napaka pri brisanju."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Napaka pri brisanju. Poskusite znova."
+   },
+   "deleted": {
+      "message": "Izbrisana"
+   },
+   "deleting": {
+      "message": "Brisanje ..."
+   },
+   "deleting_theme": {
+      "message": "Brisanje teme"
+   },
+   "design_mode": {
+      "message": "na\u010Din oblikovanja"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Dokon\u010Dano"
+   },
+   "download_theme_zip": {
+      "message": "Prenesi temo kot datoteko zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Uredi v storitvi Picnik"
+   },
+   "error": {
+      "message": "NAPAKA"
+   },
+   "error_while_publishing": {
+      "message": "Napaka pri ustvarjanju URL-ja. Poskusite znova."
+   },
+   "error_while_unpublishing": {
+      "message": "Napaka pri odstranjevanju URL-ja. Poskusite znova."
+   },
+   "ext_description": {
+      "message": "Ustvarjanje lastnih tem za Google Chrome in deljenje z drugimi."
+   },
+   "ext_name": {
+      "message": "Moja tema za Chrome"
+   },
+   "feeling_lucky": {
+      "message": "Klik na sre\u010Do"
+   },
+   "fetch_image_error_msg": {
+      "message": "Ojoj! V urejeni sliki se je nekaj zalomilo. Napako posku\u0161amo odpraviti."
+   },
+   "fill_screen": {
+      "message": "Zapolni zaslon"
+   },
+   "filter_black_and_white": {
+      "message": "\u010Crno-belo"
+   },
+   "filter_bolder": {
+      "message": "Poudarjeno"
+   },
+   "filter_cooler": {
+      "message": "Hladneje"
+   },
+   "filter_inverted": {
+      "message": "Obrnjeno"
+   },
+   "filter_posterized": {
+      "message": "Poster"
+   },
+   "filter_sepia": {
+      "message": "Sepija"
+   },
+   "filter_title": {
+      "message": "U\u010Dinki slike"
+   },
+   "filter_warmer": {
+      "message": "Topleje"
+   },
+   "fit_screen": {
+      "message": "Prilagodi zaslonu"
+   },
+   "footer_share_site_txt": {
+      "message": "Delite z drugimi:"
+   },
+   "frame": {
+      "message": "Urejanje barve okvirja"
+   },
+   "generate_theme": {
+      "message": "Ustvarjanje teme"
+   },
+   "goback": {
+      "message": "Nazaj"
+   },
+   "hide_themes": {
+      "message": "Skrij teme"
+   },
+   "image_format_error_msg": {
+      "message": "Ojoj! Videti je, da je pri\u0161lo do te\u017Eave z va\u0161o sliko. Poskusite znova ali izberite drugo sliko."
+   },
+   "image_size_error_msg": {
+      "message": "Ojoj! Videti je, da je slikovna datoteka prevelika. Poskusite znova z datoteko velikosti $1 $2 ali manj.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Podpiramo te vrste datotek: JPEG, PNG, GIF in BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Oblika zapisa datoteke, ki jo posku\u0161ate izbrati, ni podprta."
+   },
+   "img_fetching": {
+      "message": "Prenos slike"
+   },
+   "img_upload_wait": {
+      "message": "Po\u010Dakajte, da se slika prenese"
+   },
+   "informative": {
+      "message": "Informativno"
+   },
+   "install_box_text": {
+      "message": "Kliknite, \u010De \u017Eelite to temo namestiti v brskalnik Chrome"
+   },
+   "install_btn": {
+      "message": "Namesti mojo temo"
+   },
+   "left_align": {
+      "message": "levo"
+   },
+   "loading": {
+      "message": "Nalaganje ..."
+   },
+   "loading_application": {
+      "message": "Nalaganje programa ..."
+   },
+   "locale": {
+      "message": "sl"
+   },
+   "make_new": {
+      "message": "Ustvari novo temo \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nov zavihek"
+   },
+   "no": {
+      "message": "Ne"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Videti je, da \u0161e niste uvozili slike za ozadje teme. Ali ste prepri\u010Dani, da \u017Eelite nadaljevati brez nje?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Videti je, da tema nima imena. Ali \u017Eelite vseeno nadaljevati?"
+   },
+   "no_theme_to_view": {
+      "message": "Nimate tem za prikaz"
+   },
+   "no_webcam_msg": {
+      "message": "Spletna kamera ni bila zaznana"
+   },
+   "not_available_offline": {
+      "message": "Ni na voljo brez povezave"
+   },
+   "ok": {
+      "message": "V redu"
+   },
+   "oops_msg": {
+      "message": "Ojoj,"
+   },
+   "open_preview_text": {
+      "message": "Predogled teme"
+   },
+   "original": {
+      "message": "Izvirnik"
+   },
+   "package_btn": {
+      "message": "Ustvari mojo temo"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Izberite barvo"
+   },
+   "picnik_save_btn": {
+      "message": "Shrani v Mojo temo za Chrome"
+   },
+   "please_wait": {
+      "message": "Po\u010Dakajte ..."
+   },
+   "preset_color": {
+      "message": "Vnaprej nastavljena barva"
+   },
+   "preview_error_msg": {
+      "message": "Videti je, da iskana tema ni ve\u010D na voljo."
+   },
+   "preview_mode": {
+      "message": "na\u010Din predogleda"
+   },
+   "privacy_policy": {
+      "message": "Pravilnik o zasebnosti"
+   },
+   "publish_theme": {
+      "message": "DELITE TEMO Z DRUGIMI"
+   },
+   "publish_theme_text": {
+      "message": "Kliknite, \u010De \u017Eelite temo deliti z drugimi."
+   },
+   "publishing": {
+      "message": "Ustvarjanje URL-ja ..."
+   },
+   "publishing_zip_help_link": {
+      "message": "\u010Ce \u017Eelite objaviti datoteko zip v Spletni trgovini Chrome, pojdite [sem]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Poimenujte temo, da bo samo va\u0161a. Ime teme bo vidno, \u010De jo delite z drugimi."
+   },
+   "rear_tab_text": {
+      "message": "Zavihek v ozadju"
+   },
+   "reartab": {
+      "message": "Urejanje barve zavihka v ozadju"
+   },
+   "retake_picture": {
+      "message": "Znova posnemi"
+   },
+   "retry": {
+      "message": "Poskusi znova"
+   },
+   "right_align": {
+      "message": "desno"
+   },
+   "share_box_text": {
+      "message": "Kopirajte ta enoli\u010Dni URL, \u010De \u017Eelite temo deliti z drugimi"
+   },
+   "show_all_themes": {
+      "message": "Poka\u017Ei vse teme"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "ZA\u010CNITE USTVARJATI TEMO"
+   },
+   "start_screen_description": {
+      "message": "Dodajte brskalniku osebno noto. V samo treh preprostih korakih lahko s svojimi fotografijami in oblikovanjem ustvarite teme za Google Chrome po meri in jih delite z drugimi."
+   },
+   "start_screen_heading": {
+      "message": "Ustvarite lastno temo za Chrome"
+   },
+   "step": {
+      "message": "$1. korak",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Uvozite sliko",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Prenesite datoteko iz ra\u010Dunalnika ali slikajte s spletno kamero."
+   },
+   "step1_header_msg_text": {
+      "message": "Izberite sliko za ozadje teme."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Dodajte barve",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Barve lahko dodate tudi samodejno [\u010De menite, da imate sre\u010Do]"
+   },
+   "step2_header_msg_text": {
+      "message": "Kliknite \u017Eeblji\u010Dek, \u010De \u017Eelite za\u010Deti barvati temo"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Namestite in delite z drugimi",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Poi\u0161\u010Dite ve\u010D tem v Spletni trgovini Chrome"
+   },
+   "stored_themes_title": {
+      "message": "Kliknite spodnje sli\u010Dice, \u010De \u017Eelite teme, ustvarjene s tem ra\u010Dunalnikom, namestiti, deliti z drugimi ali izbrisati."
+   },
+   "take_picture": {
+      "message": "Posnemite fotografijo"
+   },
+   "text": {
+      "message": "Urejanje barve besedila"
+   },
+   "theme_deleted": {
+      "message": "Tema je izbrisana"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Dodajte \u0161e nekaj besed za opis teme. Viden bo, \u010De temo delite z drugimi."
+   },
+   "theme_description_box_title": {
+      "message": "Opi\u0161ite temo"
+   },
+   "theme_description_text": {
+      "message": "Dodajte izbirni opis"
+   },
+   "theme_does_not_exist": {
+      "message": "Ta tema ne obstaja"
+   },
+   "theme_name_placeholder": {
+      "message": "Poimenujte temo"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Deljenje z drugimi s tem edinstvenim URL-jem:"
+   },
+   "tile_image": {
+      "message": "Razpostavljena slika"
+   },
+   "toolbar": {
+      "message": "Urejanje barve orodne vrstice"
+   },
+   "top_align": {
+      "message": "zgoraj"
+   },
+   "try_again": {
+      "message": "Poskusi znova"
+   },
+   "unpublish": {
+      "message": "Prekl. delj."
+   },
+   "unpublishing": {
+      "message": "Odstranjevanje URL-ja ..."
+   },
+   "untitled": {
+      "message": "Brez naslova"
+   },
+   "upload_btn_txt": {
+      "message": "Prenesi sliko"
+   },
+   "upload_crx_error_msg": {
+      "message": "Ojoj! Pri izdelavi va\u0161e teme se je nekaj zalomilo."
+   },
+   "upload_error_msg": {
+      "message": "Videti je, da je pri\u0161lo do te\u017Eave pri prenosu slike. Datoteko poskusite znova prenesti ali se vrnite nazaj in izberite drugo."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Prenesite le slike, za katere imate pravice za uporabo."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Slike in teme gosti Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Slike in teme, ki jih odstranite, bodo trajno izbrisane."
+   },
+   "uploading": {
+      "message": "PRENOS"
+   },
+   "url_tooltip": {
+      "message": "Kopirajte in prilepite, \u010De \u017Eelite deliti z drugimi"
+   },
+   "use_picture": {
+      "message": "Uporabi fotografijo"
+   },
+   "warning": {
+      "message": "OPOZORILO"
+   },
+   "webcam_btn_txt": {
+      "message": "Uporabite spletno kamero"
+   },
+   "woohoo_text": {
+      "message": "Jupi! Tema \u00BB$1\u00AB $2 je bila ustvarjena",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Da"
+   }
+}

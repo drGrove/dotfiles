@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Non applicable"
+   },
+   "alignment_btn_txt": {
+      "message": "R\u00E9gler la position"
+   },
+   "allow_access_to_webcam": {
+      "message": "Autorisez acc\u00E8s \u00E0 la webcam \u00E0 partir de barre de notification."
+   },
+   "back_to_step1_msg": {
+      "message": "Voulez-vous vraiment importer une nouvelle image\u00A0? Vous perdrez toutes les modifications apport\u00E9es \u00E0 l'image en cours."
+   },
+   "background": {
+      "message": "Modifier la couleur d'arri\u00E8re-plan"
+   },
+   "bottom_align": {
+      "message": "bas"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "center_align": {
+      "message": "centre"
+   },
+   "change_img_btn_txt": {
+      "message": "Importer une nouvelle image"
+   },
+   "continue_anyways": {
+      "message": "Continuer"
+   },
+   "continue_to": {
+      "message": "Passer \u00E0 l'\u00E9tape\u00A0$1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Cr\u00E9er votre th\u00E8me"
+   },
+   "custom": {
+      "message": "Personnalis\u00E9"
+   },
+   "custom_color": {
+      "message": "Couleur personnalis\u00E9e"
+   },
+   "default": {
+      "message": "Utiliser les param\u00E8tres par d\u00E9faut"
+   },
+   "delete": {
+      "message": "Supprimer"
+   },
+   "delete_theme": {
+      "message": "Supprimer le th\u00E8me"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Voulez-vous vraiment supprimer le th\u00E8me \"$1\"\u00A0?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Erreur lors de la suppression."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Erreur lors de la suppression. Veuillez r\u00E9essayer."
+   },
+   "deleted": {
+      "message": "Supprim\u00E9"
+   },
+   "deleting": {
+      "message": "Suppression en cours\u2026"
+   },
+   "deleting_theme": {
+      "message": "Suppression du th\u00E8me en cours\u2026"
+   },
+   "design_mode": {
+      "message": "mode Cr\u00E9ation"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "OK"
+   },
+   "download_theme_zip": {
+      "message": "T\u00E9l\u00E9charger le th\u00E8me au format zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Retoucher dans Picnik"
+   },
+   "error": {
+      "message": "ERREUR"
+   },
+   "error_while_publishing": {
+      "message": "Erreur cr\u00E9ation URL. R\u00E9essayez."
+   },
+   "error_while_unpublishing": {
+      "message": "Erreur suppr. URL. Veuillez r\u00E9essayer."
+   },
+   "ext_description": {
+      "message": "Cr\u00E9ez et partagez vos propres th\u00E8mes Google\u00A0Chrome."
+   },
+   "ext_name": {
+      "message": "Mon th\u00E8me Chrome"
+   },
+   "feeling_lucky": {
+      "message": "J'ai de la chance"
+   },
+   "fetch_image_error_msg": {
+      "message": "Petit probl\u00E8me\u2026 Une erreur s'est produite avec l'image que vous avez modifi\u00E9e. Nous essayons de trouver une solution au probl\u00E8me."
+   },
+   "fill_screen": {
+      "message": "Plein \u00E9cran"
+   },
+   "filter_black_and_white": {
+      "message": "Noir et blanc"
+   },
+   "filter_bolder": {
+      "message": "\u00C9clatant"
+   },
+   "filter_cooler": {
+      "message": "Froid"
+   },
+   "filter_inverted": {
+      "message": "Invers\u00E9"
+   },
+   "filter_posterized": {
+      "message": "Post\u00E9ris\u00E9"
+   },
+   "filter_sepia": {
+      "message": "S\u00E9pia"
+   },
+   "filter_title": {
+      "message": "Effets image"
+   },
+   "filter_warmer": {
+      "message": "Chaud"
+   },
+   "fit_screen": {
+      "message": "Adapter \u00E0 l'\u00E9cran"
+   },
+   "footer_share_site_txt": {
+      "message": "Partager\u00A0:"
+   },
+   "frame": {
+      "message": "Modifier la couleur du cadre"
+   },
+   "generate_theme": {
+      "message": "Cr\u00E9ation du th\u00E8me en cours\u2026"
+   },
+   "goback": {
+      "message": "Retour"
+   },
+   "hide_themes": {
+      "message": "Masq. th\u00E8mes"
+   },
+   "image_format_error_msg": {
+      "message": "Votre image semble poser probl\u00E8me. Veuillez r\u00E9essayer ou en choisir une autre."
+   },
+   "image_size_error_msg": {
+      "message": "Votre fichier image semble trop volumineux. Utilisez un fichier dont la taille max. est $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Les fichiers de type JPEG, PNG, GIF et BMP sont accept\u00E9s."
+   },
+   "image_type_error_msg": {
+      "message": "D\u00E9sol\u00E9, mais le format de fichier que vous essayez de s\u00E9lectionner n'est pas accept\u00E9."
+   },
+   "img_fetching": {
+      "message": "R\u00E9cup\u00E9ration de l'image en cours\u2026"
+   },
+   "img_upload_wait": {
+      "message": "Importation de votre image en cours\u2026 Veuillez patienter."
+   },
+   "informative": {
+      "message": "Information"
+   },
+   "install_box_text": {
+      "message": "Cliquez sur le bouton pour installer ce th\u00E8me d\u00E8s maintenant dans votre navigateur Chrome"
+   },
+   "install_btn": {
+      "message": "Installer mon th\u00E8me"
+   },
+   "left_align": {
+      "message": "gauche"
+   },
+   "loading": {
+      "message": "Chargement en cours..."
+   },
+   "loading_application": {
+      "message": "Chargement de l'application en cours\u2026"
+   },
+   "locale": {
+      "message": "fr"
+   },
+   "make_new": {
+      "message": "Cr\u00E9er un autre th\u00E8me\u00A0\u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Nouvel onglet"
+   },
+   "no": {
+      "message": "Non"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Il semblerait que vous n'ayez pas import\u00E9 d'image de fond pour votre th\u00E8me. Voulez-vous vraiment continuer\u00A0?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Il semblerait que vous n'ayez pas attribu\u00E9 de nom \u00E0 votre th\u00E8me. Voulez-vous quand m\u00EAme continuer\u00A0?"
+   },
+   "no_theme_to_view": {
+      "message": "Aucun th\u00E8me \u00E0 afficher"
+   },
+   "no_webcam_msg": {
+      "message": "Aucune webcam d\u00E9tect\u00E9e."
+   },
+   "not_available_offline": {
+      "message": "Indispo hors connex."
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Petit probl\u00E8me\u2026"
+   },
+   "open_preview_text": {
+      "message": "Pr\u00E9visualiser le th\u00E8me"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Cr\u00E9er mon th\u00E8me"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Choisir une couleur"
+   },
+   "picnik_save_btn": {
+      "message": "Enregistrer dans Mon th\u00E8me Chrome"
+   },
+   "please_wait": {
+      "message": "Veuillez patienter\u2026"
+   },
+   "preset_color": {
+      "message": "Couleur pr\u00E9d\u00E9finie"
+   },
+   "preview_error_msg": {
+      "message": "Il semble que le th\u00E8me recherch\u00E9 n'est plus disponible."
+   },
+   "preview_mode": {
+      "message": "mode Aper\u00E7u"
+   },
+   "privacy_policy": {
+      "message": "R\u00E8gles de confidentialit\u00E9"
+   },
+   "publish_theme": {
+      "message": "PART. TH\u00C8ME"
+   },
+   "publish_theme_text": {
+      "message": "Cliquez ici pour partager le th\u00E8me."
+   },
+   "publishing": {
+      "message": "Cr\u00E9ation de l'URL\u2026"
+   },
+   "publishing_zip_help_link": {
+      "message": "Pour publier le zip dans le Chrome\u00A0Web\u00A0Store, [rendez-vous ici]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Personnalisez votre th\u00E8me en lui donnant un nom. Si vous choisissez de le partager avec d'autres utilisateurs, ce nom sera visible par tous."
+   },
+   "rear_tab_text": {
+      "message": "Onglet arr.-plan"
+   },
+   "reartab": {
+      "message": "Modifier la couleur de l'onglet en arri\u00E8re-plan"
+   },
+   "retake_picture": {
+      "message": "Reprendre"
+   },
+   "retry": {
+      "message": "R\u00E9essayer"
+   },
+   "right_align": {
+      "message": "droite"
+   },
+   "share_box_text": {
+      "message": "Copiez cette URL unique pour partager votre th\u00E8me avec d'autres utilisateurs"
+   },
+   "show_all_themes": {
+      "message": "Tous les th\u00E8mes"
+   },
+   "size_unit_mb": {
+      "message": "Mo"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "COMMENCER"
+   },
+   "start_screen_description": {
+      "message": "Ajoutez une touche personnelle \u00E0 votre navigateur. Trois\u00A0\u00E9tapes simples suffisent pour cr\u00E9er et partager des th\u00E8mes Google\u00A0Chrome que vous personnalisez avec les photos et les \u00E9l\u00E9ments graphiques de votre choix."
+   },
+   "start_screen_heading": {
+      "message": "Cr\u00E9ez votre propre th\u00E8me Chrome"
+   },
+   "step": {
+      "message": "\u00C9tape $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importez votre image",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "Importez un fichier depuis votre ordinateur ou prenez une photo \u00E0 l'aide de votre webcam."
+   },
+   "step1_header_msg_text": {
+      "message": "S\u00E9lectionnez une image de fond pour votre th\u00E8me."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Ajoutez de la couleur",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Vous pouvez \u00E9galement ajouter des couleurs automatiquement [si vous vous sentez chanceux]"
+   },
+   "step2_header_msg_text": {
+      "message": "Cliquez sur un rep\u00E8re pour commencer \u00E0 colorer votre th\u00E8me"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installez et partagez",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "D\u00E9couvrez d'autres th\u00E8mes dans le Chrome\u00A0Web\u00A0Store."
+   },
+   "stored_themes_title": {
+      "message": "Cliquez sur les vignettes ci-dessous pour installer, partager ou supprimer les th\u00E8mes cr\u00E9\u00E9s pr\u00E9c\u00E9demment sur cet ordinateur"
+   },
+   "take_picture": {
+      "message": "Prendre photo"
+   },
+   "text": {
+      "message": "Modifier la couleur du texte"
+   },
+   "theme_deleted": {
+      "message": "Th\u00E8me supprim\u00E9."
+   },
+   "theme_description_box_placeholder": {
+      "message": "D\u00E9crivez votre th\u00E8me en quelques mots. Cette description sera visible si vous partagez le th\u00E8me avec d'autres utilisateurs."
+   },
+   "theme_description_box_title": {
+      "message": "D\u00E9crivez votre th\u00E8me"
+   },
+   "theme_description_text": {
+      "message": "Ajouter une description (facultatif)"
+   },
+   "theme_does_not_exist": {
+      "message": "Ce th\u00E8me n'existe pas."
+   },
+   "theme_name_placeholder": {
+      "message": "Donnez un nom \u00E0 votre th\u00E8me"
+   },
+   "theme_str": {
+      "message": "th\u00E8me"
+   },
+   "theme_unique_url": {
+      "message": "Partager via URL unique\u00A0:"
+   },
+   "tile_image": {
+      "message": "Mosa\u00EFques"
+   },
+   "toolbar": {
+      "message": "Modifier la couleur de la barre d'outils"
+   },
+   "top_align": {
+      "message": "haut"
+   },
+   "try_again": {
+      "message": "R\u00E9essayer"
+   },
+   "unpublish": {
+      "message": "Annuler"
+   },
+   "unpublishing": {
+      "message": "Suppress. URL\u2026"
+   },
+   "untitled": {
+      "message": "Sans titre"
+   },
+   "upload_btn_txt": {
+      "message": "Importer une image"
+   },
+   "upload_crx_error_msg": {
+      "message": "Petit probl\u00E8me\u2026 Une erreur s'est produite lors de la cr\u00E9ation de votre th\u00E8me."
+   },
+   "upload_error_msg": {
+      "message": "Il semblerait qu'un probl\u00E8me soit survenu lors de l'importation de votre image. Veuillez r\u00E9essayer ou revenir en arri\u00E8re pour en s\u00E9lectionner une autre."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Veuillez n'importer que des images que vous avez le droit d'utiliser."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Les images et les th\u00E8mes seront h\u00E9berg\u00E9s par Google."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Supprimer des images/th\u00E8mes est d\u00E9finitif."
+   },
+   "uploading": {
+      "message": "IMPORTATION EN COURS\u2026"
+   },
+   "url_tooltip": {
+      "message": "Copier-coller pour partager ce th\u00E8me"
+   },
+   "use_picture": {
+      "message": "Utililiser"
+   },
+   "warning": {
+      "message": "AVERTISSEMENT"
+   },
+   "webcam_btn_txt": {
+      "message": "Utiliser la webcam"
+   },
+   "woohoo_text": {
+      "message": "F\u00E9licitations\u00A0! Le $2 \"$1\" a \u00E9t\u00E9 cr\u00E9\u00E9.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Oui"
+   }
+}

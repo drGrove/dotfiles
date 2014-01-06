@@ -1,0 +1,16 @@
+{
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Chrome Developer Tools extension for jQuery development",
+   "devtools_page": "pages/devtools.html",
+   "icons": {
+      "128": "images/selectorInspecer_128_128.png",
+      "16": "images/selectorInspecer_16_16.png",
+      "48": "images/selectorInspecer_48_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRfEozzdMGoLNcQdVG6g0edcNSgITff5LI8qwrW5IX2JuE5S7dreJupe01wNx5lSZWcTODKO5kGiCDtPFN8MQbp1Acw+emPx84nrz/dc1oYAzyKfUd/DDoM6hGnCujJpccbqT9lu3Xd/p1lxDSW2pEb+TwMRXoq/4BVF2C2z6Y/wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "jQuery Debugger",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.3.2"
+}

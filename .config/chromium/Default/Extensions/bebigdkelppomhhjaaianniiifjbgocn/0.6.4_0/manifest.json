@@ -1,0 +1,24 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "bin/background.js" ]
+      }
+   },
+   "description": "An IRC client for Chrome",
+   "icons": {
+      "128": "static/icon/icon128.png",
+      "16": "static/icon/icon16.png",
+      "48": "static/icon/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrI9xZVRjpeav9Ob8LCEXWz3oW5NRl74xWTgIrnuFelQ9lp4BefejYhEsZwKa2WccBj9UUUIgUyWTT4luskXOakfnkJYY8BiRxHlr/CcD2yXbYwetPrUsjk63WoxnPLe0wMp4XCW2ESLD3ryac4FmwjACGKwvCldMB0EjGMa7yHQIDAQAB",
+   "manifest_version": 2,
+   "name": "CIRC",
+   "permissions": [ {
+      "socket": [ "tcp-connect", "tcp-listen" ]
+   }, "notifications", "storage", "fileSystem", "unlimitedStorage" ],
+   "sandbox": {
+      "pages": [ "bin/script_frame.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.4"
+}

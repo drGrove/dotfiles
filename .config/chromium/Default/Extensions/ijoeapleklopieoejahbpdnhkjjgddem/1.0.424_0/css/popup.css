@@ -1,0 +1,840 @@
+@font-face {
+    font-family: 'source';
+    src: url('sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg'), url('sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source-sb';
+    src: url('sourcesanspro-semibold-webfont.svg#source_sans_pro_semiboldRg') format('svg'), url('sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {  
+    box-sizing: border-box;  
+}
+
+#topbar, #removetopbar, #connecteddevices, #removedevices, 
+#devicelistfooter {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+}  
+
+html {
+    height: 100px;
+    min-height: 100px;
+    font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+    background: #fff;
+    color: #bbb;
+    font: 12px "source", helvetica, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    min-height: 100px;
+    max-height: 460px;
+}
+
+#mainpanel, #removepanel {
+    width: 300px;
+    margin: 0;
+    min-width: 300px;
+    padding: 0;
+}
+
+#topbar, #removetopbar {
+    border-bottom: 1px solid rgba(0,0,0,0.36);
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.1);
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+#removetopbar {
+    font-size: 16px;
+    padding: 0 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; /* need this for text overflow */
+    outline: none;
+}
+
+#topbarleft {
+    font-size: 16px;
+    float: left;
+    padding: 0 0 0 15px;
+    outline: none;
+}
+
+#topbarright {
+    height: 44px;
+}
+
+#topbarright, #removetopbarright, .pairingrightdiv {
+    float:right;
+}
+
+.passcode, .pairingrightdiv {
+   height: 30px;
+}
+
+.pairingrightdiv {
+    width: 258px;
+    margin-right:6px;
+}
+
+.topbarsubtitle {
+    color: #fff;
+}
+
+#logo {
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+#logo:active {
+    color: #ccc;
+}
+
+#logo:focus {
+    border: 1px solid rgba(9, 64, 253, 0.84);
+    box-shadow: 0 0 4px 0 rgba(0, 136, 255, 0.69);
+    padding: 3px;
+    margin: 0 -4px;
+    outline: none;
+}
+
+#logo:active:focus,
+#logo.init:focus {
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    margin: 0 0;
+}
+
+#down {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 5px;
+    width: 7px;
+    margin: 0 5px;
+}
+
+#toggle {
+    display: block;
+    height: 23px;
+    width: 56px;
+    margin: 10px 15px 0 0;
+    cursor: pointer;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: box-shadow 0.2s linear;
+    transition: box-shadow 0.2s linear;
+}
+
+#toggle:focus {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.69);
+    outline: none;
+}
+
+#toggle:active:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#devicelist, .clearrow, .clearboth, #removelist {
+    clear:both;
+}
+
+#devicelist, #removelist {
+    min-height: 46px;
+    max-height: 300px;
+    margin: 0 0 10px;
+    overflow-y: auto;
+}
+
+#removelist {
+    padding: 0;
+}
+
+.hl {
+    line-height: 30px;
+    min-height: 30px;
+}
+
+.hl:hover,
+.hl:focus,
+.hl.focus {
+    background-color: rgba(112,112,112,0.24) !important;
+    color: #fff;
+    outline: none;
+}
+
+/*
+.hl:focus {
+    border: 1px solid rgba(9, 64, 253, 0.84);
+    box-shadow: 0 0 4px 0 rgba(0, 136, 255, 0.69);
+    margin: -1px;
+}
+*/
+
+.hl:hover .devicename,
+.hl:focus .devicename,
+.hl.focus .devicename {
+    color: #fff;
+}
+
+.hl:hover .deviceeject,
+.hl:focus .deviceeject,
+.hl.focus .deviceeject {
+    visibility: visible;
+}
+
+.hl:hover .devicerefresh,
+.hl:focus .devicerefresh,
+.hl.focus .devicerefresh {
+    visibility: visible;
+}
+
+
+span#connecteddevices {
+    display: block;
+}
+
+.devicename {
+    cursor: default;
+    color: #ccc;
+    font-size: 14px;
+    display:block;
+    float: left;
+    height: 30px;
+    line-height: 30px !important;
+    text-shadow: #000 0 1px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    padding-left: 15px;
+    width: 220px;
+}
+
+.devicebuttons {
+    float:right;
+    height: 30px;
+    margin: 0 15px 0 0;
+}
+
+.devicebuttons .md-btn {
+    float:right;
+}
+
+.deviceeject {
+    visibility:hidden;
+}
+
+.devicerefresh {
+    visibility:hidden;
+}
+
+#machineinfoheader {
+    clear:both;
+}
+
+#devicelistfooter {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0px -1px 0px rgba(0,0,0,0.36);
+    height: 44px;
+    padding: 0 15px;
+    width: 300px;
+    clear:both;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;    
+}
+
+#submenuoverlay {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 4px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.3);
+    display: none;
+    left: 2px;
+    padding: 4px 0;
+    position:absolute;
+    top: 44px;
+    min-width: 200px;
+    z-index: 100;
+}
+
+.submenutext {
+    color: #000;
+    display: block;
+    font-size: 13px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 15px;
+    text-decoration:none;
+    outline-offset: -2px;
+}
+
+.submenutext:hover,
+.submenutext:focus {
+    background: #e0f0fa;
+    color: #000;
+    outline: none;
+}
+
+.submenutext:active {
+    background: #bee0f5;
+}
+
+.removehead {
+    font: 14px;
+    font-weight: bold;
+    color: #7f7f7f;
+    clear:both;
+}
+
+#removetext, #machineinfotext {
+    color: #A4B4B7;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 15px 15px 0;
+    padding-bottom: 10px;
+    text-shadow: 0 -1px 0 #000;
+    word-spacing: 3px;
+}
+
+#machineinfotext {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;    
+}
+.message:hover {
+    background: none !important;
+}
+
+
+.removesubtext {
+    color: #777;
+    display: block;
+    font-size: 11px;
+    height: 11px;
+    line-height: 4px;
+}
+
+.floatleft {
+    float:left;
+}
+
+div.passcode {
+    padding: 0 0 0 7px;
+}
+
+span.passcodefield {
+    float: left;
+    margin: 4px 0 0;
+}
+
+input.passcodefield, input.passcodefielderror  {
+    color: #000;
+    -webkit-border-radius: 4px;
+    border-radius: 3px;
+    font-size: 10px !important;
+    height: 21px;
+    padding-left: 5px;
+    width: 69px;
+}
+
+input.passcodefield {
+    border: 1px solid #0940fd;
+    -webkit-box-shadow: 0 0 4px #0088ff;
+    box-shadow: 0 0 4px #0088ff;          
+}
+
+input.passcodefield:focus {
+    border: 1px solid #0940fd;
+    -webkit-box-shadow: 0 0 4px #0088ff;
+    box-shadow: 0 0 4px #0088ff;
+    outline: none;
+}
+
+input.passcodefielderror {
+    border: 1px solid #ea015e;
+    -webkit-box-shadow: 0 0 4px #ff0078;
+    box-shadow: 0 0 4px #ff0078, inset 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    outline: none;
+}
+
+#waitingspinner {
+    height: 12px;
+    width: 12px;
+    display:inline-block;
+    margin-left:15px;
+    position:relative;
+    top:0px;
+}
+
+#waiting {
+    line-height: 18px;
+    margin: 15px 15px 10px 6px;
+    text-indent: 21px;
+}
+
+#dmerror, #dmexpired {
+    margin: 0px 15px 20px 15px;
+    min-height: 30px;
+}
+
+#syncbrowseoff {
+    margin: 5px 15px 20px 15px;
+    min-height: 20px;
+}
+
+.pairingdevicename {
+    float: left;
+    font-size:14px;
+    color:#fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 3px 0 0;
+    overflow:hidden;
+    width: 155px;
+}
+
+#removeback {
+    color: #bbb;
+    cursor: pointer;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.75);
+    text-decoration: none;
+}
+
+#removeback:active {
+    color: #ccc;
+}
+
+#removeback:focus {
+    color: #ccc;
+    border: 1px solid rgba(9, 64, 253, 0.84);
+    box-shadow: 0 0 4px 0 rgba(0, 136, 255, 0.69);
+    padding: 3px;
+    margin: 0 -4px;
+    outline: none;
+}
+
+#removeback:active:focus {
+    color: #ccc;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 0;
+    outline: none;
+}
+
+.breadcrumb {
+    display: inline-block;
+    height: 10px;
+    margin: 0 5px;
+    width: 5px;
+}
+
+.removepagination {
+    font-size:12px;
+    color: #fff;
+    padding: 8px 0 0 15px;
+}
+
+#progressdiv {
+    height: 12px;
+    margin-top: 12px;
+    width: 12px;
+    float:left;
+}
+
+.md-btn, .lg-btn {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.md-btn,
+.md-btn:active:focus {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 5px 0 0 5px;
+    border: none;
+    box-shadow: none;
+}
+
+.lg-btn,
+.lg-btn:active:focus {
+    float: right;
+    height: 18px;
+    width: 22px;
+    margin: 10px 0 0 11px;
+    border: none;
+    box-shadow: none;
+}
+
+.md-btn:active,
+.lg-btn:active {
+    opacity: 0.5;
+}
+
+.md-btn:focus {
+  border: 1px solid rgba(9, 64, 253, 0.84);
+  box-shadow: 0 0 4px 0 rgba(0, 136, 255, 0.69);
+  height: 24px;
+  width: 24px;
+  margin: 2px -3px -3px 2px;
+  outline: none;
+}
+
+.lg-btn:focus {
+  border: 1px solid rgba(9, 64, 253, 0.84);
+  box-shadow: 0 0 4px 0 rgba(0, 136, 255, 0.69);
+  height: 24px;
+  width: 28px;
+  margin: 7px -3px -3px 8px;
+  outline: none;
+}
+
+[disabled=disabled] {
+    cursor: default;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+#forcerefresh {
+    padding-top:13px;
+    margin-left:0px;
+}
+
+#togglechrome {
+    padding-top:13px;
+}
+
+#cancelscreenshotdiv, #completedscreenshotdiv, #removepanel, #waitingdiv, #syncbrowseoff, #dmerror, #dmexpired, #progressdiv, #shadmessage, #periodicsurveywrapper, #subscriptionexpiredwrapper, #screenshotsarepremiumwrapper, #seconddeviceispremiumwrapper, #welcomeDiv, #templates, #subscriptionexpiredwrappers, #screenshotsarepremiumwrappers, #seconddeviceispremiumwrappers, #buyitnowwrapper, #dmupdatewrapper, #dmhandshakewrapper, #dmhandshakerejectedwrapper {
+    display: none;
+}
+
+#cancelscreenshot, #completedscreenshot {
+    color: #fff;
+    font-size: 11px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 7px;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#completedscreenshot {
+    margin-left: 0 !important;
+}
+
+#cancelscreenshot:active, #completedscreenshot:active {
+    color: #ccc;
+}
+
+/*#shadmessage {
+    background: #5b5e5f;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #fff !important;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 10px 33px 10px 15px;
+    position: relative;
+}*/
+
+#shadmessage a, #dmerror a {
+  color: #4acdfd;
+  text-decoration: none;
+}
+
+#shadmessage a:focus, #dmerror a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+#getedgeinspectlink {
+}
+
+#periodicsurveywrapper, #subscriptionexpiredwrapper, #screenshotsarepremiumwrapper, #seconddeviceispremiumwrapper, #buyitnowwrapper, #dmupdatewrapper, #dmhandshakewrapper, #dmhandshakerejectedwrapper {
+   	background: #5b5e5f;
+	border-top: 1px solid rgba(255,255,255,0.1);    
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+    color: #fff !important;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 10px 33px 10px 15px;
+    position: relative;
+}
+#shadmessage-remove, #periodicsurveywrapper-remove, #subscriptionexpiredwrapper-remove, #screenshotsarepremiumwrapper-remove, #seconddeviceispremiumwrapper-remove,  #buyitnowwrapper-remove, #dmupdatewrapper-remove {
+  position: absolute;
+  top: 5px;
+  right: 14px;
+}
+
+#welcomeDiv {
+    background: #5b5e5f;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 20px 15px;
+}
+
+#welcomeaction {
+    color: #4acdfd;
+    cursor: pointer;
+    margin: 8px 0 40px;
+}
+
+#welcomeaction:active {
+    color: #fff;
+}
+
+#welcomemessage {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* Spinner */
+
+
+@-webkit-keyframes spinner-sprites-12 {
+    0% { background-position: 0px 0px; }
+    100% { background-position: -120px 0px; }
+}
+
+.spinner {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/x1/spinner_small_sprites12.png") no-repeat;
+    visibility: hidden;
+}
+
+.spinner.spin {
+    -webkit-animation: spinner-sprites-12 1.2s steps(10) infinite;
+    visibility: visible;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+    .spinner {
+        background-image: url("../img/x2/spinner_small_sprites12.png");
+        background-size: 120px 12px;
+    }
+}
+
+/* Images and such ------------------------------------------------------------------------------- */
+
+#somethingdifferent {
+    background: #3a3f42 url("../img/x1/bg_dark.png") repeat-x;
+    border-radius: 3px;
+}
+
+#down {
+    background-image: url("../img/x1/disclosure_down.png");
+}
+
+.toggleon {
+    background-image: url("../img/x1/slideswitch_on.png");
+    background-size: 100%;
+}
+.toggleoff {
+    background-image: url("../img/x1/slideswitch_off.png");
+    background-size: 100%;
+}
+
+.toggleon_alt {
+    background-image: url("../img/x1/slideswitch_alt_on.png");
+    background-size: 100%;
+}
+.toggleoff_alt {
+    background-image: url("../img/x1/slideswitch_alt_off.png");
+    background-size: 100%;
+}
+
+.deviceremove {
+    background-image: url("../img/x1/Sd_Remove_Md_N.png");
+}
+
+#removeconnected .deviceremove {
+    background-image: url("../img/x1/Sd_disconnect_Md_N.png");
+}
+
+#progressdiv {
+    visibility: visible;
+}
+
+.breadcrumb {
+    background-image: url("../img/x1/breadcrumb.png");
+}
+
+
+#screenshotfolder {
+    background-image: url("../img/x1/Sd_ImageFolder_Lg_N.png");
+}
+
+#screenshot {
+    background-image: url("../img/x1/Sd_Camera_Lg_N.png");
+}
+
+#togglechrome.fulloff {
+    background-image: url("../img/x1/Sd_ExitFullScreen_Lg_N.png");
+}
+
+#togglechrome, #togglechrome.fullon {
+    background-image: url("../img/x1/Sd_FullScreen_Lg_N.png");
+}
+
+#forcerefresh {
+    background-image: url("../img/x1/Sd_Refresh_Lg_N.png");
+}
+
+.deviceeject {
+    background-image: url("../img/x1/Sd_Disconnect_Md_N.png");
+}
+
+.devicerefresh {
+    background-image: url("../img/x1/Sd_Refresh_Lg_N.png");
+}
+
+.deviceinspect {
+    background-image: url("../img/x1/Sd_Code_Md_N.png");
+}
+
+.devicecancel {
+    background-image: url("../img/x1/Sd_Cancel_Md_N.png");
+}
+
+.devicecheck {
+    background-image: url("../img/x1/Sd_Done_Md_N.png");
+}
+
+/* Apple HiDPI Retina ------------------------------------------------------------------------------- */
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;        
+    }
+    
+    #somethingdifferent {
+        background: #3a3f42 url("../img/x1/bg_dark.png") repeat-x;
+        border-radius: 3px;
+    }
+
+    #down {
+        background-image: url("../img/x2/disclosure_down_x2.png");
+        background-size: 100%;
+    }
+
+    .toggleon {
+        background-image: url("../img/x2/slideswitch_on_x2.png");
+        background-size: 100%;
+    }
+    .toggleoff {
+        background-image: url("../img/x2/slideswitch_off_x2.png");
+        background-size: 100%;
+    }
+
+    .toggleon_alt {
+        background-image: url("../img/x2/slideswitch_alt_on_x2.png");
+        background-size: 100%;
+    }
+    .toggleoff_alt {
+        background-image: url("../img/x2/slideswitch_alt_off_x2.png");
+        background-size: 100%;
+    }
+    .deviceremove {
+        background-image: url("../img/x2/Sd_x2_Remove_Md_N.png");
+        background-size: 100%;
+    }
+
+    #removeconnected .deviceremove {
+        background-image: url("../img/x2/Sd_x2_disconnect_Md_N.png");
+        background-size: 100%;
+    }
+
+    #progressdiv {
+        background-repeat: no-repeat;
+    }
+
+    .breadcrumb {
+        background-image: url("../img/x2/breadcrumb_x2.png");
+        background-size: 100%;
+    }
+
+    #screenshotfolder {
+        background-image: url("../img/x2/Sd_x2_ImageFolder_Lg_N.png");
+        background-size: 100%;
+    }
+
+    #screenshot {
+        background-image: url("../img/x2/Sd_x2_Camera_Lg_N.png");
+        background-size: 100%;
+    }
+
+    #togglechrome.fulloff {
+        background-image: url("../img/x2/Sd_x2_ExitFullScreen_Lg_N.png");
+        background-size: 100%;
+    }
+    
+    #togglechrome, #togglechrome.fullon {
+        background-image: url("../img/x2/Sd_x2_FullScreen_Lg_N.png");
+        background-size: 100%;
+    }
+
+    #forcerefresh {
+        background-image: url("../img/x2/Sd_x2_Refresh_Lg_N.png");
+        background-size: 100%;
+    }    
+
+    .deviceeject {
+        background-image: url("../img/x2/Sd_x2_Disconnect_Md_N.png");
+        background-size: 100%;
+    }
+    .devicerefresh {
+        background-image: url("../img/x2/Sd_x2_Refresh_Lg_N.png");
+        background-size: 100%;
+    }
+    .deviceinspect {
+        background-image: url("../img/x2/Sd_x2_Code_Md_N.png");
+        background-size: 100%;
+    }
+
+    .devicecancel {
+        background-image: url("../img/x2/Sd_x2_Cancel_Md_N.png");
+        background-size: 100%;
+    }
+
+    .devicecheck {
+        background-image: url("../img/x2/Sd_x2_Done_Md_N.png");
+        background-size: 100%;
+    }
+
+}

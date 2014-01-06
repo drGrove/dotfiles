@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title i18n-content="titleIndex">RegExp tester</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css" /> 
+    </head>
+    <body>
+
+        <div class="main">
+            <header>
+                <h1 i18n-content="indexHeaderMain">RegExp tester</h1>
+            </header>
+            <section class="form-inputs">
+                <form id="regexp-form" action="#" onsubmit="return false;">
+                    <label i18n-content="labelPattern" for="pattern" class="row-label">Pattern</label>
+                    <img i18n-alt="helpPatterns" i18n-title="helpPatterns" src="img/help-3.png" alt="Help - patterns" id="patterns-help" class="help-dialog" title="Open patterns hint dialog"/>
+                    <textarea type="text" required="true" name="pattern" id="pattern"></textarea>
+
+                    <div class="options">
+
+                        <input type="checkbox" name="opt" value="g" id="opt-g"/>
+                        <label i18n-title="labelGlobalOption" i18n-content="labelGlobalOption" for="opt-g" title="Perform a global match (find all matches rather than stopping after the first match)">global</label>
+
+                        <input type="checkbox" name="opt" value="i" id="opt-i"/>
+                        <label i18n-title="labelCiOption" i18n-content="labelCiOption" for="opt-i" title="Perform case-insensitive matching">case-insensitive</label>
+
+                        <input type="checkbox" name="opt" value="m" id="opt-m"/>
+                        <label i18n-title="labelMultilineOption" i18n-content="labelMultilineOption" for="opt-m" title="Perform multiline matching">multiline</label>
+
+                    </div>
+
+                    <label i18n-content="labelSearch" for="body" class="row-label">Search text</label>
+                    <textarea type="text" name="body" id="body"></textarea>
+
+                    <label i18n-content="labelReplace" for="replace" class="row-label">Replace</label>
+<!--                    <img src="img/help-3.png" alt="Help - replace" id="replace-help" class="help-dialog" alt="Hint" title="Open replacements hint dialog"/>-->
+                    <input type="text" name="replace" id="replace" value=""/>
+
+                </form>
+                <div class="results-tabs">
+                    <div class="tabs">
+                        <a href="#match" class="current"><span i18n-content="tabHeaderMatch">Match</span> (<span id="match-counter">0</span>)</a>
+                        <a href="#replace">
+                            <span i18n-content="tabHeaderReplace">Replace</span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="match current">
+
+                        </div>
+                        <div class="replace">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="popupPanelGlass">
+            <div id="patterns-dialog" class="dialog-container">
+                <h2 i18n-content="dialogTitlePatterns">Patterns</h2>
+                <div class="dialog-content">
+                    <span i18n-content="dialogPatternsExplMain">As a pattern you can use following expressions:</span>
+                    <span i18n-content="dialogPatternsBrackets" class="patters-group">Brackets</span>
+                    <ul class="patterns-list">
+                        <li>
+                            <span>[abc]</span>Find any character between the brackets
+                        </li>
+                        <li>
+                            <span>[^abc]</span>Find any character not between the brackets
+                        </li>
+                        <li>
+                            <span>[0-9]</span>Find any digit from 0 to 9
+                        </li>
+                        <li>
+                            <span>[A-Z]</span>Find any character from uppercase A to uppercase Z
+                        </li>
+                        <li>
+                            <span>[a-z]</span>Find any character from lowercase a to lowercase z
+                        </li>
+                        <li>
+                            <span>[A-z]</span>Find any character from uppercase A to lowercase z
+                        </li>
+                        <li>
+                            <span>[adgk]</span>Find any character in the given set
+                        </li>
+                        <li>
+                            <span>[^adgk]</span>Find any character outside the given set
+                        </li>
+                        <li>
+                            <span>(red|blue|green)</span>Find any of the alternatives specified
+                        </li>
+                    </ul>
+                    <span class="patters-group">Metacharacters</span>
+                    <ul class="patterns-list">
+                        <li>
+                            <span>.</span>Find a single character, except newline or line terminator
+                        </li>
+                        <li>
+                            <span>\w</span>Find a word character
+                        </li>
+                        <li>
+                            <span>\W</span>Find a non-word character
+                        </li>
+                        <li>
+                            <span>\d</span>Find a digit
+                        </li>
+                        <li>
+                            <span>\D</span>Find a non-digit character
+                        </li>
+                        <li>
+                            <span>\s</span>Find a whitespace character
+                        </li>
+                        <li>
+                            <span>\S</span>Find a non-whitespace character
+                        </li>
+                        <li>
+                            <span>\b</span>Find a match at the beginning/end of a word
+                        </li>
+                        <li>
+                            <span>\B</span>Find a match not at the beginning/end of a word
+                        </li>
+                        <li>
+                            <span>\0</span>Find a NULL character
+                        </li>
+                        <li>
+                            <span>\n</span>Find a new line character
+                        </li>
+                        <li>
+                            <span>\f</span>Find a form feed character
+                        </li>
+                        <li>
+                            <span>\r</span>Find a carriage return character
+                        </li>
+                        <li>
+                            <span>\t</span>Find a tab character
+                        </li>
+                        <li>
+                            <span>\v</span>Find a vertical tab character
+                        </li>
+                        <li>
+                            <span>\xxx</span>Find the character specified by an octal number xxx
+                        </li>
+                        <li>
+                            <span>\xdd</span>Find the character specified by a hexadecimal number dd
+                        </li>
+                        <li>
+                            <span>\uxxxx</span>Find the Unicode character specified by a hexadecimal number xxxx
+                        </li>
+                    </ul>
+                    <span class="patters-group">Quantifiers</span>
+                    <ul class="patterns-list">
+                        <li>
+                            <span>n+</span>Matches any string that contains at least one n
+                        </li>
+                        <li>
+                            <span>n*</span>Matches any string that contains zero or more occurrences of n
+                        </li>
+                        <li>
+                            <span>n?</span>Matches any string that contains zero or one occurrences of n
+                        </li>
+                        <li>
+                            <span>n{X}</span>Matches any string that contains a sequence of X n's
+                        </li>
+                        <li>
+                            <span>n{X,Y}</span>Matches any string that contains a sequence of X to Y n's
+                        </li>
+                        <li>
+                            <span>n{X,}</span>Matches any string that contains a sequence of at least X n's
+                        </li>
+                        <li>
+                            <span>n$</span>Matches any string with n at the end of it
+                        </li>
+                        <li>
+                            <span>^n</span>Matches any string with n at the beginning of it
+                        </li>
+                        <li>
+                            <span>?=n</span>Matches any string that is followed by a specific string n
+                        </li>
+                        <li>
+                            <span>?!n</span>Matches any string that is not followed by a specific string n
+                        </li>
+                    </ul>
+                </div>
+                <div class="dialog-buttons">
+                    <div class="button-strip">
+                        <button i18n-content="dialogClose" class="cancel">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="credits">
+    		Copyright © 2011 Paweł Psztyć
+            </div>
+            <div class="source">
+			Source code at <a href="http://code.google.com/p/chrome-regexp-tester/">Google Code Hosting</a> under Apache License.
+            </div>
+            <div class="icons">
+			Icons from <a href="http://openiconlibrary.sourceforge.net/">Open Icon Library</a>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

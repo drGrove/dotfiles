@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://hootsuite.com/dashboard"
+      },
+      "urls": [ "*://hootsuite.com/", "*://*.hootsuite.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png",
+      "24": "24.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvNvdcv6HunxvSUsecvHtqDoCjgoiCPXpZshwcOW677k7F3QcabJvPezunqPv5bSCrDnofwSL/jmcEtTXqY90gK14PCj4BsnAigxngMiFDiBlKgxmnIdwsDtIG+WgUctMIFZmooD63d2LjZBSCeMPU6bsvc5yHq43K5ETJCOQaAQIDAQAB",
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "notifications", "geolocation" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "5.244"
+}

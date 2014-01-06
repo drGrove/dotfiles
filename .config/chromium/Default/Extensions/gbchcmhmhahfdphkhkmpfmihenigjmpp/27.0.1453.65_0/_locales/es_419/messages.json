@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "C\u00F3digo de acceso"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Este c\u00F3digo de acceso vence en $1."
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Todas las conexiones"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Vuelve a escribir el PIN."
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Cancelar"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Borrar historial"
+   },
+   "CLOSE": {
+      "message": "Cerrar"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Al abandonar esta p\u00E1gina, se cerrar\u00E1 la sesi\u00F3n en el Escritorio remoto de Chrome."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "\u00BFRealmente deseas inhabilitar las conexiones remotas con $1? Si te arrepientes, tendr\u00E1s que ir a esa computadora para volver a habilitar las conexiones."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "De"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Historial de conexiones"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Historial de conexiones"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Para"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Conectar de\u00A0todos modos"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Conectar"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Continuar"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "En este momento compartes esta computadora con otro usuario. \u00BFDeseas continuar comparti\u00E9ndola?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Para usar el Escritorio remoto de Chrome, debes extender los permisos de acceso a tu computadora. Solo tienes que hacer esto una vez."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Solicita que el usuario de la computadora a la que deseas acceder haga clic en \"Compartir ahora\" y te proporcione el c\u00F3digo de acceso."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Escritorio remoto de Chrome te permite compartir tu computadora con otro usuario de manera segura en la Web. Tanto t\u00FA como el otro usuario deben usar la aplicaci\u00F3n Escritorio remoto de Chrome, que est\u00E1 disponible en $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Inhabilitar"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Desconectar"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Desconectar"
+   },
+   "DURATION_HEADER": {
+      "message": "Duraci\u00F3n"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Se produjo un error al realizar la autenticaci\u00F3n. Vuelve a acceder al Escritorio remoto de Chrome."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Faltan algunos de los componentes necesarios para Escritorio remoto de Chrome. Aseg\u00FArate de haber instalado la \u00FAltima versi\u00F3n y vuelve a intentarlo."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "La computadora remota no responde a las solicitudes de conexi\u00F3n. Verifica que est\u00E9 conectada a Internet y vuelve a intentarlo."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Las conexiones con la computadora remota se bloquearon temporalmente porque alguien intent\u00F3 conectarse con ella a trav\u00E9s de un PIN no v\u00E1lido. Vuelve a intentarlo m\u00E1s tarde."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Se detect\u00F3 una versi\u00F3n incompatible del Escritorio remoto de Chrome. Aseg\u00FArate de que se hayan instalado la \u00FAltima versi\u00F3n de Chrome y del Escritorio remoto de Chrome en ambas computadoras y vuelve a intentarlo."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "El c\u00F3digo de acceso no es v\u00E1lido. Vuelve a intentarlo."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "La configuraci\u00F3n de la pol\u00EDtica no permite compartir esta computadora como host de Escritorio remoto de Chrome. Comun\u00EDcate con el administrador de tu sistema para obtener ayuda."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Faltan algunos de los componentes necesarios para el Escritorio remoto de Chrome. Aseg\u00FArate de estar usando la \u00FAltima versi\u00F3n de Chrome y vuelve a intentarlo."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "No se pudo conectar a la red. Comprueba que\u00A0el dispositivo est\u00E9 conectado a Internet."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "No accediste a Escritorio remoto de Chrome. Accede y vuelve a intentarlo."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "No se puede establecer la conexi\u00F3n con el host. Probablemente esto se deba a la configuraci\u00F3n de la red que usas."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "El servicio no est\u00E1 disponible temporalmente. Vuelve a intentarlo m\u00E1s tarde."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Se produjo un error inesperado. Informa este problema a los programadores."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Conectando\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "Aguardando la conexi\u00F3n..."
+   },
+   "FULL_SCREEN": {
+      "message": "Pantalla completa"
+   },
+   "GET_STARTED": {
+      "message": "Comenzar"
+   },
+   "HELP": {
+      "message": "Ayuda"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Acceder"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Permite ver y controlar una computadora compartida."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Puedes acceder a esta computadora sin correr riesgos a trav\u00E9s del Escritorio remoto de Chrome."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Cambiar PIN"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Habilitar conexiones remotas"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Debes habilitar las conexiones remotas si deseas usar Escritorio remoto de Chrome para acceder a esta computadora."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Inhabilitar conexiones remotas"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Compartir"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Comparte esta computadora con otro usuario para que este pueda verla y controlarla."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(Esta funci\u00F3n todav\u00EDa no est\u00E1 disponible para las Chromebooks. Pronto habr\u00E1 novedades)."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Para habilitar conexiones remotas con otra computadora, instala all\u00ED Escritorio remoto de Chrome y haz clic en \u201C$1\u201D."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "No tienes ninguna computadora registrada. Para habilitar conexiones remotas con una computadora, instala all\u00ED Escritorio remoto de Chrome y haz clic en \"$1\"."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Las actualizaciones de software, por lo general, se realizan de forma autom\u00E1tica, pero puede haber errores en casos excepcionales. La actualizaci\u00F3n del software no debe tardar m\u00E1s de unos minutos y se puede hacer mientras est\u00E1s conectado a tu\u00A0computadora de forma remota."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "La aplicaci\u00F3n Escritorio remoto de Chrome en $1 est\u00E1 desactualizada y debe actualizarse."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Ay\u00FAdanos a mejorar la aplicaci\u00F3n Escritorio remoto de Chrome permiti\u00E9ndonos recopilar estad\u00EDsticas de uso e informes sobre fallos."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Debes elegir un PIN de $1al menos seis d\u00EDgitos$2 para proteger el acceso a esta computadora. Se solicitar\u00E1 ese PIN cada vez que se establezca una conexi\u00F3n con esa computadora desde otra ubicaci\u00F3n."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "No se pudo iniciar el servicio de acceso remoto."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome est\u00E1 descargando el instalador del host de Escritorio remoto de Chrome. Cuando termine la descarga, abre el instalador antes de continuar."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Ejecuta el instalador antes de continuar."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "No se pudo registrar esta computadora."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Se habilitaron las conexiones remotas con esta computadora."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Configura la administraci\u00F3n de energ\u00EDa de tu computadora y aseg\u00FArate de que no se habilite el modo de hibernaci\u00F3n cuando est\u00E9 inactiva."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Habilitando conexiones remotas para esta computadora\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Se inhabilitaron las conexiones remotas con esta computadora."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Inhabilitando conexiones remotas con esta computadora\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "No se pudo inhabilitar el acceso remoto a esta computadora. Vuelve a intentarlo m\u00E1s tarde."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "Se actualiz\u00F3 tu PIN."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "No se pudo actualizar el PIN. Vuelve a intentarlo m\u00E1s tarde."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Se est\u00E1 actualizando el PIN para esta computadora\u2026"
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Hacia esta computadora"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Para comenzar a compartir tu escritorio, proporciona el c\u00F3digo de acceso que aparece a continuaci\u00F3n a la persona que te asistir\u00E1."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Una vez que se haya ingresado el c\u00F3digo, se iniciar\u00E1 la sesi\u00F3n compartida."
+   },
+   "INVALID_PIN": {
+      "message": "Ingresa un PIN de al menos seis d\u00EDgitos."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Uso compartido de la pantalla entre usuarios, ideal para recibir asistencia t\u00E9cnica remota"
+   },
+   "LABEL_CONNECTED": {
+      "message": "Conectado:"
+   },
+   "LEARN_HOW": {
+      "message": "M\u00E1s informaci\u00F3n"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Accede a tu computadora desde cualquier lugar."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Generando el c\u00F3digo de acceso..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Se cerr\u00F3 tu sesi\u00F3n en Escritorio remoto de Chrome."
+   },
+   "MESSAGE_SHARED": {
+      "message": "En este momento, est\u00E1s compartiendo tu escritorio con $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autorizar"
+   },
+   "MODE_IT2ME": {
+      "message": "Asistencia remota"
+   },
+   "MODE_ME2ME": {
+      "message": "Mis computadoras"
+   },
+   "OFFLINE": {
+      "message": "$1 (sin conexi\u00F3n)"
+   },
+   "OK": {
+      "message": "Aceptar"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Desde esta computadora"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Ingresa el mismo PIN en ambos cuadros."
+   },
+   "PIN_MESSAGE": {
+      "message": "Ingresa tu PIN de $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Accede a otras computadoras o permite que otro usuario acceda a tu computadora a trav\u00E9s de Internet sin correr riesgos."
+   },
+   "PRODUCT_NAME": {
+      "message": "Escritorio remoto de Chrome"
+   },
+   "RECONNECT": {
+      "message": "Volver a conectar"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Ajustar el tama\u00F1o del escritorio"
+   },
+   "RETRY": {
+      "message": "Volver a intentarlo"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Opciones de pantalla"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Supr"
+   },
+   "SEND_KEYS": {
+      "message": "Enviar teclas"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "Impr Pant"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Ajustar tama\u00F1o a ventana de navegador"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Acceder"
+   },
+   "SIGN_ME_UP": {
+      "message": "Participar en la encuesta"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Salir"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Dejar de compartir"
+   },
+   "SURVEY_INVITATION": {
+      "message": "\u00BFQuieres ayudar a mejorar el Escritorio remoto de Chrome?"
+   },
+   "TIME_HEADER": {
+      "message": "Hora"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Establecer conexi\u00F3n con $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Inhabilitar conexiones remotas con esta computadora"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Editar el nombre de la computadora"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (desactualizado)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NOTA: La configuraci\u00F3n de la pol\u00EDtica solo permite conexiones entre computadoras que est\u00E9n dentro de tu red."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NOTA: Para asegurarte de que todas las combinaciones de teclas para acceso directo est\u00E9n disponibles, puedes configurar Escritorio remoto de Chrome en \"Abrir como ventana\"."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "\u00BFPor qu\u00E9 esta operaci\u00F3n es segura?"
+   }
+}

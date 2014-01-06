@@ -1,0 +1,165 @@
+{
+   "chrome_accept_languages": {
+      "message": "$CHROME$ accepts $languages$ languages",
+      "placeholders": {
+         "chrome": {
+            "content": "Chrome",
+            "example": "Chrome"
+         },
+         "languages": {
+            "content": "$1",
+            "example": "en-US,zh-TW,zh-HK,ja,sr,de"
+         }
+      }
+   },
+   "chrome_extension_description": {
+      "message": "EPUB3\u96FB\u5B50\u66F8\u95B1\u8B80\u5668"
+   },
+   "chrome_extension_name": {
+      "message": "Readium"
+   },
+   "i18n_add_book": {
+      "message": "\u52A0\u5165\u66F8\u7C4D"
+   },
+   "i18n_add_book_to_readium_library": {
+      "message": "\u5C07\u66F8\u7C4D\u52A0\u5165Readium\u66F8\u6AC3\uFF1A"
+   },
+   "i18n_add_items": {
+      "message": "\u6309\u4E0B\u9019\u88E1\u003Cbr\u003E\u52A0\u5165\u65B0\u66F8"
+   },
+   "i18n_added": {
+      "message": "\u52A0\u5165\u65E5\u671F\uFF1A"
+   },
+   "i18n_arabian_nights": {
+      "message": "\u963F\u62C9\u4F2F\u4E4B\u591C"
+   },
+   "i18n_are_you_sure": {
+      "message": "\u4F60\u78BA\u5B9A\u8981\u6C38\u4E45\u522A\u9664 "
+   },
+   "i18n_author": {
+      "message": "\u4F5C\u8005\uFF1A"
+   },
+   "i18n_automatically": {
+      "message": "\u81EA\u52D5\u4EE5Readium\u958B\u555F\u4EFB\u4F55\u4EE5.epub\u7D50\u5C3E\u7684\u7DB2\u5740"
+   },
+   "i18n_ballard_blues": {
+      "message": "\u6292\u60C5\u66F2\u85CD\u8ABF"
+   },
+   "i18n_black_and_white": {
+      "message": "\u9ED1\u5E95\u8207\u767D\u5B57"
+   },
+   "i18n_cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "i18n_close": {
+      "message": "\u95DC\u9589"
+   },
+   "i18n_confirm_that_this_book": {
+      "message": "\u78BA\u8A8D\u9019\u672C\u66F8\u662F\u5426\u7B26\u5408EPUB\u6A19\u6E96"
+   },
+   "i18n_created_at": {
+      "message": "\u5EFA\u7ACB\u65E5\u671F\uFF1A"
+   },
+   "i18n_delete": {
+      "message": "\u522A\u9664"
+   },
+   "i18n_details": {
+      "message": "\u8A73\u7D30"
+   },
+   "i18n_display_format": {
+      "message": "\u986F\u793A\u683C\u5F0F"
+   },
+   "i18n_double_pages": {
+      "message": "\u8DE8\u9801\u5448\u73FE"
+   },
+   "i18n_enter_a_url": {
+      "message": "\u8ACB\u8F38\u5165 .epub \u6A94\u6848\u6240\u5728\u7DB2\u5740"
+   },
+   "i18n_epub_version": {
+      "message": "EPUB\u7248\u672C\uFF1A"
+   },
+   "i18n_extracting": {
+      "message": "\u89E3\u58D3\u7E2E\u4E2D\uFF1A"
+   },
+   "i18n_font_size": {
+      "message": "\u6587\u5B57\u5C3A\u5BF8"
+   },
+   "i18n_format": {
+      "message": "\u683C\u5F0F\uFF1A"
+   },
+   "i18n_from_local_file": {
+      "message": "\u5F9E\u6A94\u6848\u52A0\u5165\uFF1A"
+   },
+   "i18n_from_the_web": {
+      "message": "\u5F9E\u7DB2\u7AD9\u52A0\u5165\uFF1A"
+   },
+   "i18n_html_readium_tm_a_project": {
+      "message": "Readium\u003Csup\u003ETM\u003C/sup\u003E\u662F\u7531\u662FInternational Digital Publishing Forum (IDPF)\u8207\u6280\u8853\u5354\u52A9\u8005\u5011\u5171\u540C\u958B\u767C\u7684\u5C08\u6848\uFF0C\u662F\u4F9BEPUB&reg; \u51FA\u7248\u54C1\u4F7F\u7528\u7684\u958B\u653E\u539F\u59CB\u78BC\u53C3\u8003\u7CFB\u7D71\u8207\u6392\u7248\u5F15\u64CE\u3002\u8981\u4E86\u89E3\u66F4\u591A\u8A0A\u606F\uFF0C\u8ACB\u524D\u5F80\u003Ca href=\"http://readium.org/\"\u003E\u5C08\u6848\u7DB2\u9801\u003C/a\u003E\u3002\u8FC4\u4ECA\u70BA\u6B62\uFF0C\u672C\u5C08\u6848\u6301\u7E8C\u7531\u003Ca href=\"http://evidentpoint.com/\"\u003EEvident Point\u003C/a\u003E\u548C\u003Ca href=\"http://www.bluefirereader.com/\"\u003EBluefire Productions\u003C/a\u003E\u6240\u4E3B\u5C0E\u3002\u82E5\u60F3\u5354\u52A9\u958B\u767C\uFF0C\u8ACB\u524D\u5F80\u003Ca href=\"https://github.com/readium/readium\"\u003EGitHub\u5C08\u6848\u003C/a\u003E"
+   },
+   "i18n_id": {
+      "message": "ID\uFF1A"
+   },
+   "i18n_loading": {
+      "message": "Loading Library"
+   },
+   "i18n_margins": {
+      "message": "\u9801\u7DE3\u9918\u767D"
+   },
+   "i18n_modified_date": {
+      "message": "\u66F4\u65B0\u65E5\u671F\uFF1A"
+   },
+   "i18n_paginate_all": {
+      "message": "\u5206\u9801\u5448\u73FE\u6240\u6709\u6587\u5B57\u9806\u8D70\u578B\u7684EPUB\u5167\u5BB9"
+   },
+   "i18n_pub_date": {
+      "message": "\u51FA\u7248\u65E5\u671F\uFF1A"
+   },
+   "i18n_publisher": {
+      "message": "\u51FA\u7248\u793E\uFF1A"
+   },
+   "i18n_read": {
+      "message": "\u95B1\u8B80"
+   },
+   "i18n_readium_library": {
+      "message": "Readium\u66F8\u6AC3"
+   },
+   "i18n_readium_options": {
+      "message": "Readium\u8A2D\u5B9A:"
+   },
+   "i18n_sands_of_dune": {
+      "message": "\u7802\u4E18\u4E4B\u9EC3\u7802"
+   },
+   "i18n_save_changes": {
+      "message": "\u5132\u5B58\u8B8A\u66F4"
+   },
+   "i18n_save_settings": {
+      "message": "\u5132\u5B58\u8A2D\u5B9A"
+   },
+   "i18n_show_warning": {
+      "message": "\u89E3\u58D3\u7E2EEPUB\u6A94\u6848\u6642\u986F\u793A\u8B66\u544A\u8A0A\u606F"
+   },
+   "i18n_single_pages": {
+      "message": "\u55AE\u9801\u5448\u73FE"
+   },
+   "i18n_sorry": {
+      "message": "\u76EE\u524D\u7684EPUB\u5167\u5BB9\u4E26\u4E0D\u5305\u542B\u6717\u8B80\u8072\u97F3"
+   },
+   "i18n_source": {
+      "message": "\u4F86\u6E90\uFF1A"
+   },
+   "i18n_text_and_background_color": {
+      "message": "\u6587\u5B57\u8207\u80CC\u666F\u8272\u5F69"
+   },
+   "i18n_unknown": {
+      "message": "\u672A\u77E5"
+   },
+   "i18n_unpacked_directory": {
+      "message": "\u672A\u58D3\u7E2E\u76EE\u9304\uFF1A"
+   },
+   "i18n_validate": {
+      "message": "\u6AA2\u8B49\uFF1A"
+   },
+   "i18n_vancouver_mist": {
+      "message": "\u6EAB\u54E5\u83EF\u4E4B\u9727"
+   }
+}

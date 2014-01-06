@@ -1,0 +1,47 @@
+/* General */
+.clear         {clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+
+table td       {
+	padding-right:10px;
+	white-space:nowrap;
+}
+
+
+#createaccount input[type=text], #createaccount input[type=password]{
+  width:300px;
+}
+#createaccount select{
+  width:300px;
+}
+.dimpled{
+  background: #eee url('bg2.png') repeat;
+}
+.content{
+  width:50%;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  border: 1px gray solid;
+  padding: 35px 15px;
+}
+.dimpled button{
+  padding:7px;
+  margin: 2px 5px;
+}
+#_docwrite_welcome3{
+  margin: 5px 0px;
+}
+.dimpled img{
+  margin:auto;
+}
+#_docwrite_welcome1{
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+.dimpled img{
+  margin-left: 100px;
+}
+#reenterpassword{
+  width:300px;
+}

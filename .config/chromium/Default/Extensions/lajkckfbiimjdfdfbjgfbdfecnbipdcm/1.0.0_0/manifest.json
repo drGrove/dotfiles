@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://builder.divshot.com/"
+      }
+   },
+   "description": "The Interface Builder for Web Apps",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGdMHysAMqqVW/3oBNIueqLM0/5ouQpI31iy5SOyV87mwJTUgI3SNSp+pX/Lyog3cNJCoZiu0L0//yM/ftkA2rM/ZOQbqQxYlJ14dO6RGMcZchWEtidU0A3wkrJ3/TUE+SYGB9woqTf8x1bDIHg0DrqR9+sodlYRMFdRxLVXsLQQIDAQAB",
+   "manifest_version": 2,
+   "name": "Divshot",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

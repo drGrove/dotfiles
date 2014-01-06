@@ -1,0 +1,155 @@
+/* line 23, ../../app/assets/stylesheets/bootstrap/_mixins.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 15, ../../app/assets/stylesheets/bootstrap/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+/* line 19, ../../app/assets/stylesheets/bootstrap/_mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+.button, button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0.75em 0.5em;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  line-height: 1em;
+  display: inline-block;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border: solid 1px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 8, ../../app/assets/stylesheets/common.css.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typesetting */
+/* line 15, ../../app/assets/stylesheets/common.css.scss */
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 16, ../../app/assets/stylesheets/common.css.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 17, ../../app/assets/stylesheets/common.css.scss */
+a.minimal {
+  color: #333;
+}
+
+/* line 19, ../../app/assets/stylesheets/common.css.scss */
+h1, h2, h3 {
+  line-height: 1em;
+  color: #454545;
+}
+
+/* line 20, ../../app/assets/stylesheets/common.css.scss */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* line 21, ../../app/assets/stylesheets/common.css.scss */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* line 22, ../../app/assets/stylesheets/common.css.scss */
+h3 {
+  margin-bottom: 20px;
+}
+
+/* line 23, ../../app/assets/stylesheets/common.css.scss */
+h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+/* line 25, ../../app/assets/stylesheets/common.css.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 26, ../../app/assets/stylesheets/common.css.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 27, ../../app/assets/stylesheets/common.css.scss */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 31, ../../app/assets/stylesheets/common.css.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../../app/assets/stylesheets/common.css.scss */
+ul.list, ol.list {
+  margin: 20px 0;
+}
+
+/* line 34, ../../app/assets/stylesheets/common.css.scss */
+ul.list li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* line 35, ../../app/assets/stylesheets/common.css.scss */
+.list li {
+  margin-bottom: 5px;
+}
+
+/* line 36, ../../app/assets/stylesheets/common.css.scss */
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 40, ../../app/assets/stylesheets/common.css.scss */
+.count {
+  padding: 4px 8px 5px;
+  background: #DDD;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* line 91, ../../app/assets/stylesheets/common.css.scss */
+.ui-sortable > li {
+  background-image: url(/assets/icons/draggable.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+}
+
+/* line 96, ../../app/assets/stylesheets/common.css.scss */
+.ui-sortable > li:hover, .ui-sortable > li:hover a {
+  cursor: move;
+}
+
+/* line 2, ../../app/assets/stylesheets/edit.css.scss */
+.clear {
+  clear: both;
+}

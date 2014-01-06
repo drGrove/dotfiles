@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/x2/badge_error.png",
+      "default_popup": "popup.html",
+      "default_title": "Adobe Edge Inspect CC"
+   },
+   "content_security_policy": "script-src 'self' https://www.adobetag.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_manifest_description__",
+   "icons": {
+      "128": "img/x2/icon_128.png",
+      "16": "img/x2/icon_16.png",
+      "48": "img/x2/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy345BiUV/YFCik3iCgrTGzUjsgMKLpgHW9uuujLHuPVMXm86EJcWGBEThgQIO6G0LZGiAt0ioL4v43vZl9G7jTGnz/xn98Gld0XdcYN/tyMuKmqPQ9yLEbjchSXViwLN5nnvp3YtXoxp99ZzO/7KjTFYC6/4cDRl4tcTnO6iSAwIDAQAB",
+   "manifest_version": 2,
+   "name": "Adobe Edge Inspect CC",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.424"
+}

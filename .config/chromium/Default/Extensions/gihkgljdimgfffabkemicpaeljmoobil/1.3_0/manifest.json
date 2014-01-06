@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "lib/jquery-1.8.3.min.js", "lib/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon-16.png",
+      "default_title": "Bootstrap Twitter Offline Docs"
+   },
+   "description": "Easy access offline for Bootstrap Twitter Docs",
+   "homepage_url": "https://chrome.google.com/webstore/detail/bootstrap-twitter-offline/gihkgljdimgfffabkemicpaeljmoobil?utm_source=chrome-ntp-icon",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3ksB9S0/C2fDcIKJg1gqI0lY3gfjghOzGEytmu/D2vn4bxpSiYYF/touHkLgZ63uPeTA8/Bu5aXLFqoiXiFK5uSXZupdkS660mr/Ufn7ps2Jo5K1ulwziiBBc1AWyzEJ6sfdMZQjnD5Pp9qo+GDFz+LxNXA9tcerb5hyKcMrCswIDAQAB",
+   "manifest_version": 2,
+   "name": "Bootstrap Twitter Offline Docs",
+   "offline_enabled": true,
+   "omnibox": {
+      "keyword": "bt"
+   },
+   "options_page": "options.html",
+   "permissions": [ "notifications", "contextMenus" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3",
+   "web_accessible_resources": [ "img/icon-48.png", "img/ava-me.png" ]
+}

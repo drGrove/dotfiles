@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Kh\u00F4ng \u00E1p d\u1EE5ng."
+   },
+   "alignment_btn_txt": {
+      "message": "\u0110i\u1EC1u ch\u1EC9nh v\u1ECB tr\u00ED"
+   },
+   "allow_access_to_webcam": {
+      "message": "Vui l\u00F2ng cho ph\u00E9p truy c\u1EADp webcam t\u1EEB thanh th\u00F4ng b\u00E1o."
+   },
+   "back_to_step1_msg": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n nh\u1EADp h\u00ECnh \u1EA3nh m\u1EDBi kh\u00F4ng? B\u1EA1n s\u1EBD m\u1EA5t b\u1EA5t k\u1EF3 thay \u0111\u1ED5i n\u00E0o b\u1EA1n \u0111\u00E3 th\u1EF1c hi\u1EC7n cho h\u00ECnh \u1EA3nh n\u00E0y."
+   },
+   "background": {
+      "message": "Ch\u1EC9nh s\u1EEDa m\u00E0u n\u1EC1n"
+   },
+   "bottom_align": {
+      "message": "d\u01B0\u1EDBi c\u00F9ng"
+   },
+   "cancel": {
+      "message": "H\u1EE7y"
+   },
+   "center_align": {
+      "message": "gi\u1EEFa"
+   },
+   "change_img_btn_txt": {
+      "message": "Nh\u1EADp h\u00ECnh \u1EA3nh m\u1EDBi"
+   },
+   "continue_anyways": {
+      "message": "V\u1EABn ti\u1EBFp t\u1EE5c"
+   },
+   "continue_to": {
+      "message": "Ti\u1EBFp t\u1EE5c sang b\u01B0\u1EDBc $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "T\u1EA1o ch\u1EE7 \u0111\u1EC1 ri\u00EAng"
+   },
+   "custom": {
+      "message": "T\u00F9y ch\u1EC9nh"
+   },
+   "custom_color": {
+      "message": "M\u00E0u t\u00F9y ch\u1EC9nh"
+   },
+   "default": {
+      "message": "\u0110\u1EB7t th\u00E0nh m\u1EB7c \u0111\u1ECBnh"
+   },
+   "delete": {
+      "message": "X\u00F3a"
+   },
+   "delete_theme": {
+      "message": "X\u00F3a ch\u1EE7 \u0111\u1EC1"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a ch\u1EE7 \u0111\u1EC1 \"$1\" kh\u00F4ng?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "L\u1ED7i khi x\u00F3a ch\u1EE7 \u0111\u1EC1."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "L\u1ED7i khi \u0111ang x\u00F3a. Vui l\u00F2ng th\u1EED l\u1EA1i."
+   },
+   "deleted": {
+      "message": "\u00D0a\u0303 xo\u0301a"
+   },
+   "deleting": {
+      "message": "\u0110ang x\u00F3a..."
+   },
+   "deleting_theme": {
+      "message": "\u0110ang x\u00F3a ch\u1EE7 \u0111\u1EC1"
+   },
+   "design_mode": {
+      "message": "ch\u1EBF \u0111\u1ED9 thi\u1EBFt k\u1EBF"
+   },
+   "direction": {
+      "message": "tsp"
+   },
+   "done": {
+      "message": "Xong"
+   },
+   "download_theme_zip": {
+      "message": "T\u1EA3i xu\u1ED1ng ch\u1EE7 \u0111\u1EC1 d\u01B0\u1EDBi d\u1EA1ng li\u00EAn k\u1EBFt zip"
+   },
+   "enhance_btn_txt": {
+      "message": "Ch\u1EC9nh s\u1EEDa trong Picnik"
+   },
+   "error": {
+      "message": "L\u1ED6I"
+   },
+   "error_while_publishing": {
+      "message": "L\u1ED7i khi t\u1EA1o URL. Vui l\u00F2ng th\u1EED l\u1EA1i."
+   },
+   "error_while_unpublishing": {
+      "message": "L\u1ED7i khi x\u00F3a URL. Vui l\u00F2ng th\u1EED l\u1EA1i."
+   },
+   "ext_description": {
+      "message": "T\u1EA1o v\u00E0 chia s\u1EBB c\u00E1c ch\u1EE7 \u0111\u1EC1 Google Chrome do b\u1EA1n thi\u1EBFt k\u1EBF."
+   },
+   "ext_name": {
+      "message": "Ch\u1EE7 \u0111\u1EC1 Chrome c\u1EE7a t\u00F4i"
+   },
+   "feeling_lucky": {
+      "message": "Xem trang \u0111\u1EA7u ti\u00EAn t\u00ECm \u0111\u01B0\u1EE3c"
+   },
+   "fetch_image_error_msg": {
+      "message": "R\u1EA5t ti\u1EBFc! \u0110\u00E3 c\u00F3 s\u1EF1 c\u1ED1 v\u1EDBi h\u00ECnh \u1EA3nh \u0111\u00E3 ch\u1EC9nh s\u1EEDa c\u1EE7a b\u1EA1n v\u00E0 ch\u00FAng t\u00F4i \u0111ang t\u00ECm c\u00E1ch kh\u1EAFc ph\u1EE5c."
+   },
+   "fill_screen": {
+      "message": "M\u00E0n h\u00ECnh t\u00F4 m\u00E0u"
+   },
+   "filter_black_and_white": {
+      "message": "\u0110en tr\u1EAFng"
+   },
+   "filter_bolder": {
+      "message": "\u0110\u1EADm h\u01A1n"
+   },
+   "filter_cooler": {
+      "message": "M\u00E1t h\u01A1n"
+   },
+   "filter_inverted": {
+      "message": "\u0110\u00E3 \u0111\u1EA3o ng\u01B0\u1EE3c"
+   },
+   "filter_posterized": {
+      "message": "\u0110\u00E3 gi\u1EA3m m\u00E0u"
+   },
+   "filter_sepia": {
+      "message": "N\u00E2u \u0111\u1ECF"
+   },
+   "filter_title": {
+      "message": "Hi\u1EC7u \u1EE9ng \u1EA3nh"
+   },
+   "filter_warmer": {
+      "message": "\u1EA8m h\u01A1n"
+   },
+   "fit_screen": {
+      "message": "V\u1EEBa v\u1EDBi m\u00E0n h\u00ECnh"
+   },
+   "footer_share_site_txt": {
+      "message": "Chia s\u1EBB:"
+   },
+   "frame": {
+      "message": "Ch\u1EC9nh s\u1EEDa m\u00E0u khung"
+   },
+   "generate_theme": {
+      "message": "\u0110ang t\u1EA1o ch\u1EE7 \u0111\u1EC1"
+   },
+   "goback": {
+      "message": "Quay l\u1EA1i"
+   },
+   "hide_themes": {
+      "message": "\u1EA8n ch\u1EE7 \u0111\u1EC1"
+   },
+   "image_format_error_msg": {
+      "message": "R\u1EA5t ti\u1EBFc, c\u00F3 v\u1EBB nh\u01B0 \u0111\u00E3 x\u1EA3y ra s\u1EF1 c\u1ED1 v\u1EDBi h\u00ECnh \u1EA3nh c\u1EE7a b\u1EA1n. Vui l\u00F2ng th\u1EED l\u1EA1i ho\u1EB7c ch\u1ECDn m\u1ED9t h\u00ECnh \u1EA3nh kh\u00E1c."
+   },
+   "image_size_error_msg": {
+      "message": "R\u1EA5t ti\u1EBFc! C\u00F3 v\u1EBB nh\u01B0 t\u1EC7p h\u00ECnh \u1EA3nh c\u1EE7a b\u1EA1n qu\u00E1 l\u1EDBn. Vui l\u00F2ng th\u1EED l\u1EA1i v\u1EDBi m\u1ED9t t\u1EC7p c\u00F3 dung l\u01B0\u1EE3ng t\u1ED1i \u0111a l\u00E0 $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Ch\u00FAng t\u00F4i h\u1ED7 tr\u1EE3 c\u00E1c lo\u1EA1i t\u1EC7p JPEG, PNG, GIF v\u00E0 BMP."
+   },
+   "image_type_error_msg": {
+      "message": "R\u1EA5t ti\u1EBFc, ch\u00FAng t\u00F4i kh\u00F4ng h\u1ED7 tr\u1EE3 \u0111\u1ECBnh d\u1EA1ng t\u1EC7p m\u00E0 b\u1EA1n \u0111ang c\u1ED1 g\u1EAFng ch\u1ECDn."
+   },
+   "img_fetching": {
+      "message": "T\u00ECm n\u1EA1p h\u00ECnh \u1EA3nh"
+   },
+   "img_upload_wait": {
+      "message": "Vui l\u00F2ng \u0111\u1EE3i trong khi h\u00ECnh \u1EA3nh c\u1EE7a b\u1EA1n \u0111\u01B0\u1EE3c t\u1EA3i l\u00EAn"
+   },
+   "informative": {
+      "message": "Th\u00F4ng tin"
+   },
+   "install_box_text": {
+      "message": "Nh\u1EA5p \u0111\u1EC3 c\u00E0i \u0111\u1EB7t ch\u1EE7 \u0111\u1EC1 n\u00E0y tr\u00EAn tr\u00ECnh duy\u1EC7t Chrome c\u1EE7a b\u1EA1n ngay b\u00E2y gi\u1EDD"
+   },
+   "install_btn": {
+      "message": "C\u00E0i \u0111\u1EB7t ch\u1EE7 \u0111\u1EC1 c\u1EE7a t\u00F4i"
+   },
+   "left_align": {
+      "message": "tr\u00E1i"
+   },
+   "loading": {
+      "message": "\u0110ang ta\u0309i..."
+   },
+   "loading_application": {
+      "message": "\u0110ang t\u1EA3i \u1EE9ng d\u1EE5ng..."
+   },
+   "locale": {
+      "message": "vi"
+   },
+   "make_new": {
+      "message": "T\u1EA1o ch\u1EE7 \u0111\u1EC1 m\u1EDBi \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Tab m\u1EDBi"
+   },
+   "no": {
+      "message": "Kh\u00F4ng"
+   },
+   "no_image_uploaded_msg": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 b\u1EA1n ch\u01B0a nh\u1EADp h\u00ECnh \u1EA3nh n\u00E0o cho n\u1EC1n ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n. B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n ti\u1EBFp t\u1EE5c m\u00E0 kh\u00F4ng c\u00F3 \u1EA3nh n\u1EC1n kh\u00F4ng?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Xem k\u00ECa, b\u1EA1n ch\u01B0a \u0111\u1EB7t t\u00EAn cho ch\u1EE7 \u0111\u1EC1 c\u1EE7a m\u00ECnh. B\u1EA1n v\u1EABn mu\u1ED1n ti\u1EBFp t\u1EE5c?"
+   },
+   "no_theme_to_view": {
+      "message": "Kh\u00F4ng c\u00F3 ch\u1EE7 \u0111\u1EC1 n\u00E0o \u0111\u1EC3 xem"
+   },
+   "no_webcam_msg": {
+      "message": "Kh\u00F4ng ph\u00E1t hi\u1EC7n th\u1EA5y webcam n\u00E0o"
+   },
+   "not_available_offline": {
+      "message": "Ko kh\u1EA3 d\u1EE5ng ng.tuy\u1EBFn"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "R\u1EA5t ti\u1EBFc,"
+   },
+   "open_preview_text": {
+      "message": "Xem tr\u01B0\u1EDBc ch\u1EE7 \u0111\u1EC1"
+   },
+   "original": {
+      "message": "G\u1ED1c"
+   },
+   "package_btn": {
+      "message": "T\u1EA1o ch\u1EE7 \u0111\u1EC1 c\u1EE7a t\u00F4i!"
+   },
+   "page_title": {
+      "message": "$1 - $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Ch\u1ECDn m\u00E0u"
+   },
+   "picnik_save_btn": {
+      "message": "L\u01B0u v\u00E0o Ch\u1EE7 \u0111\u1EC1 Chrome c\u1EE7a t\u00F4i"
+   },
+   "please_wait": {
+      "message": "Vui l\u00F2ng ch\u1EDD ..."
+   },
+   "preset_color": {
+      "message": "M\u00E0u \u0111\u1EB7t s\u1EB5n"
+   },
+   "preview_error_msg": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 ch\u1EE7 \u0111\u1EC1 b\u1EA1n \u0111ang t\u00ECm ki\u1EBFm kh\u00F4ng c\u00F2n kh\u1EA3 d\u1EE5ng."
+   },
+   "preview_mode": {
+      "message": "ch\u1EBF \u0111\u1ED9 xem tr\u01B0\u1EDBc"
+   },
+   "privacy_policy": {
+      "message": "Ch\u00EDnh s\u00E1ch b\u1EA3o m\u1EADt"
+   },
+   "publish_theme": {
+      "message": "CHIA S\u1EBA CH\u1EE6 \u0110\u1EC0"
+   },
+   "publish_theme_text": {
+      "message": "Nh\u1EA5p \u0111\u1EC3 chia s\u1EBB ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n v\u1EDBi ng\u01B0\u1EDDi kh\u00E1c."
+   },
+   "publishing": {
+      "message": "\u0110ang t\u1EA1o URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "\u0110\u1EC3 xu\u1EA5t b\u1EA3n li\u00EAn t\u1EC7p Zip l\u00EAn C\u1EEDa h\u00E0ng Chrome tr\u1EF1c tuy\u1EBFn, truy c\u1EADp v\u00E0o [\u0111\u00E2y]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "\u0110\u1EB7t t\u00EAn cho ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n \u0111\u1EC3 t\u1EA1o ch\u1EE7 \u0111\u1EC1 \u0111\u1ED9c \u0111\u00E1o c\u1EE7a ri\u00EAng b\u1EA1n. T\u00EAn ch\u1EE7 \u0111\u1EC1 s\u1EBD hi\u1EC3n th\u1ECB n\u1EBFu b\u1EA1n ch\u1ECDn chia s\u1EBB ch\u1EE7 \u0111\u1EC1 c\u1EE7a m\u00ECnh v\u1EDBi nh\u1EEFng ng\u01B0\u1EDDi kh\u00E1c."
+   },
+   "rear_tab_text": {
+      "message": "Tab n\u1EC1n"
+   },
+   "reartab": {
+      "message": "Ch\u1EC9nh s\u1EEDa m\u00E0u tab n\u1EC1n"
+   },
+   "retake_picture": {
+      "message": "Ch\u1EE5p l\u1EA1i"
+   },
+   "retry": {
+      "message": "Th\u1EED l\u1EA1i"
+   },
+   "right_align": {
+      "message": "ph\u1EA3i"
+   },
+   "share_box_text": {
+      "message": "Sao ch\u00E9p URL duy nh\u1EA5t n\u00E0y \u0111\u1EC3 chia s\u1EBB ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n v\u1EDBi nh\u1EEFng ng\u01B0\u1EDDi kh\u00E1c"
+   },
+   "show_all_themes": {
+      "message": "Hi\u1EC3n th\u1ECB t\u1EA5t c\u1EA3"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "B\u1EAET \u0110\u1EA6U T\u1EA0O CH\u1EE6 \u0110\u1EC0"
+   },
+   "start_screen_description": {
+      "message": "Th\u00EAm d\u1EA5u \u1EA5n c\u00E1 nh\u00E2n v\u00E0o tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n. T\u1EA1o v\u00E0 chia s\u1EBB c\u00E1c ch\u1EE7 \u0111\u1EC1 t\u00F9y ch\u1EC9nh tr\u00EAn Google Chrome b\u1EB1ng \u1EA3nh v\u00E0 ki\u1EC3u thi\u1EBFt k\u1EBF c\u1EE7a ri\u00EAng b\u1EA1n ch\u1EC9 v\u1EDBi ba b\u01B0\u1EDBc \u0111\u01A1n gi\u1EA3n."
+   },
+   "start_screen_heading": {
+      "message": "T\u1EA1o ch\u1EE7 \u0111\u1EC1 Chrome c\u1EE7a ri\u00EAng b\u1EA1n"
+   },
+   "step": {
+      "message": "B\u01B0\u1EDBc $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Nh\u1EADp h\u00ECnh \u1EA3nh c\u1EE7a b\u1EA1n",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "T\u1EA3i l\u00EAn m\u1ED9t t\u1EC7p t\u1EEB m\u00E1y t\u00EDnh ho\u1EB7c ch\u1EE5p \u1EA3nh b\u1EB1ng webcam c\u1EE7a b\u1EA1n."
+   },
+   "step1_header_msg_text": {
+      "message": "Ch\u1ECDn m\u1ED9t h\u00ECnh \u1EA3nh cho n\u1EC1n ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Th\u00EAm m\u00E0u",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Ho\u1EB7c b\u1EA1n c\u00F3 th\u1EC3 t\u1EF1 \u0111\u1ED9ng th\u00EAm c\u00E1c m\u00E0u [n\u1EBFu b\u1EA1n may m\u1EAFn]"
+   },
+   "step2_header_msg_text": {
+      "message": "Nh\u1EA5p v\u00E0o ghim \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u t\u00F4 m\u00E0u ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n"
+   },
+   "step3_btn_txt": {
+      "message": "$1 C\u00E0i \u0111\u1EB7t v\u00E0 chia s\u1EBB",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "T\u00ECm th\u00EAm ch\u1EE7 \u0111\u1EC1 trong trong C\u1EEDa h\u00E0ng Chrome tr\u1EF1c tuy\u1EBFn"
+   },
+   "stored_themes_title": {
+      "message": "Nh\u1EA5p v\u00E0o c\u00E1c h\u00ECnh thu nh\u1ECF b\u00EAn d\u01B0\u1EDBi \u0111\u1EC3 c\u00E0i \u0111\u1EB7t, chia s\u1EBB ho\u1EB7c x\u00F3a c\u00E1c ch\u1EE7 \u0111\u1EC1 tr\u01B0\u1EDBc \u0111\u01B0\u1EE3c t\u1EA1o tr\u00EAn m\u00E1y t\u00EDnh n\u00E0y."
+   },
+   "take_picture": {
+      "message": "Ch\u1EE5p \u1EA3nh"
+   },
+   "text": {
+      "message": "Ch\u1EC9nh s\u1EEDa m\u00E0u ch\u1EEF"
+   },
+   "theme_deleted": {
+      "message": "\u0110\u00E3 x\u00F3a ch\u1EE7 \u0111\u1EC1"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Th\u00EAm m\u1ED9t v\u00E0i t\u1EEB \u0111\u1EC3 m\u00F4 t\u1EA3 ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n. M\u00F4 t\u1EA3 n\u00E0y s\u1EBD hi\u1EC3n th\u1ECB n\u1EBFu b\u1EA1n chia s\u1EBB ch\u1EE7 \u0111\u1EC1 c\u1EE7a m\u00ECnh."
+   },
+   "theme_description_box_title": {
+      "message": "M\u00F4 t\u1EA3 ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n"
+   },
+   "theme_description_text": {
+      "message": "Th\u00EAm m\u00F4 t\u1EA3 t\u00F9y ch\u1ECDn"
+   },
+   "theme_does_not_exist": {
+      "message": "Ch\u1EE7 \u0111\u1EC1 n\u00E0y kh\u00F4ng t\u1ED3n t\u1EA1i"
+   },
+   "theme_name_placeholder": {
+      "message": "\u0110\u1EB7t t\u00EAn cho ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n"
+   },
+   "theme_str": {
+      "message": "ch\u1EE7 \u0111\u1EC1"
+   },
+   "theme_unique_url": {
+      "message": "Chia s\u1EBB b\u1EB1ng URL duy nh\u1EA5t:"
+   },
+   "tile_image": {
+      "message": "H\u00ECnh \u1EA3nh x\u1EBFp k\u1EC1"
+   },
+   "toolbar": {
+      "message": "Ch\u1EC9nh s\u1EEDa m\u00E0u thanh c\u00F4ng c\u1EE5"
+   },
+   "top_align": {
+      "message": "tr\u00EAn c\u00F9ng"
+   },
+   "try_again": {
+      "message": "Th\u1EED l\u1EA1i"
+   },
+   "unpublish": {
+      "message": "Th\u00F4i chia s\u1EBB"
+   },
+   "unpublishing": {
+      "message": "\u0110ang x\u00F3a URL..."
+   },
+   "untitled": {
+      "message": "Kh\u00F4ng c\u00F3 ti\u00EAu \u0111\u1EC1"
+   },
+   "upload_btn_txt": {
+      "message": "T\u1EA3i l\u00EAn hi\u0300nh \u1EA3nh"
+   },
+   "upload_crx_error_msg": {
+      "message": "R\u1EA5t ti\u1EBFc! \u0110\u00E3 x\u1EA3y ra s\u1EF1 c\u1ED1 khi ch\u00FAng t\u00F4i c\u1ED1 g\u1EAFng t\u1EA1o ch\u1EE7 \u0111\u1EC1 c\u1EE7a b\u1EA1n."
+   },
+   "upload_error_msg": {
+      "message": "H\u00ECnh nh\u01B0 \u0111\u00E3 c\u00F3 s\u1EF1 c\u1ED1 trong khi t\u1EA3i l\u1EA1i h\u00ECnh \u1EA3nh c\u1EE7a b\u1EA1n l\u00EAn. H\u00E3y th\u1EED t\u1EA3i l\u1EA1i t\u1EC7p l\u00EAn ho\u1EB7c quay l\u1EA1i v\u00E0 ch\u1ECDn m\u1ED9t h\u00ECnh \u1EA3nh kh\u00E1c."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "Vui l\u00F2ng ch\u1EC9 t\u1EA3i l\u00EAn nh\u1EEFng h\u00ECnh \u1EA3nh b\u1EA1n c\u00F3 quy\u1EC1n s\u1EED d\u1EE5ng."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "H\u00ECnh \u1EA3nh v\u00E0 ch\u1EE7 \u0111\u1EC1 s\u1EBD \u0111\u01B0\u1EE3c Google l\u01B0u tr\u1EEF."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "C\u00E1c h\u00ECnh \u1EA3nh v\u00E0 ch\u1EE7 \u0111\u1EC1 m\u00E0 b\u1EA1n x\u00F3a s\u1EBD b\u1ECB x\u00F3a v\u0129nh vi\u1EC5n."
+   },
+   "uploading": {
+      "message": "\u0110ANG T\u1EA2I L\u00CAN"
+   },
+   "url_tooltip": {
+      "message": "Sao ch\u00E9p & d\u00E1n \u0111\u1EC3 chia s\u1EBB"
+   },
+   "use_picture": {
+      "message": "S\u1EED d\u1EE5ng \u1EA3nh"
+   },
+   "warning": {
+      "message": "C\u1EA2NH B\u00C1O"
+   },
+   "webcam_btn_txt": {
+      "message": "S\u1EED d\u1EE5ng webcam"
+   },
+   "woohoo_text": {
+      "message": "Th\u1EADt tuy\u1EC7t! \"$1\" $2 \u0111\u00E3 \u0111\u01B0\u1EE3c t\u1EA1o",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "C\u00F3"
+   }
+}

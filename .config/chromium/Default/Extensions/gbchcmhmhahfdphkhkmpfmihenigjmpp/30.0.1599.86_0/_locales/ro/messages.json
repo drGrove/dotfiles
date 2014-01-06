@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "Cod de acces"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Acest cod de acces va expira \u00EEn $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Toate conexiunile"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Reintroduce\u021Bi codul PIN"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "Cod PIN"
+   },
+   "CANCEL": {
+      "message": "Anula\u0163i"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Goli\u021Bi istoricul"
+   },
+   "CLOSE": {
+      "message": "\u00CEnchide\u021Bi"
+   },
+   "CLOSE_PROMPT": {
+      "message": "P\u0103r\u0103sind aceast\u0103 pagin\u0103, ve\u021Bi \u00EEncheia sesiunea Desktop la distan\u021B\u0103 Chrome."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Sigur dori\u021Bi s\u0103 dezactiva\u021Bi conexiunile la distan\u021B\u0103 la $1? Dac\u0103 v\u0103 r\u0103zg\u00E2ndi\u021Bi, va trebui s\u0103 accesa\u021Bi computerul respectiv pentru a reactiva conexiunile."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "De la"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Istoricul conexiunilor"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Istoricul conexiunilor"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "C\u0103tre"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Conecta\u021Bi oricum"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Conecta\u021Bi-v\u0103"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Continua\u021Bi"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "\u00CEn prezent, permite\u021Bi accesul unui alt utilizator la acest computer. Dori\u021Bi s\u0103 permite\u021Bi \u00EEn continuare accesul?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Controler gazd\u0103 pentru Desktop la distan\u021B\u0103 Chrome"
+   },
+   "COPYRIGHT": {
+      "message": "Copyright 2013 Google Inc. Toate drepturile rezervate."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "\u0218terge\u021Bi tot"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "\u0218terge\u0163i"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Pentru a utiliza aplica\u021Bia Desktop la distan\u021B\u0103 Chrome, trebuie s\u0103 acorda\u021Bi permisiuni extinse de acces la computer. Este necesar s\u0103 face\u021Bi acest lucru o singur\u0103 dat\u0103."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Cere\u021Bi-i utilizatorului al c\u0103rui computer dori\u021Bi s\u0103 \u00EEl accesa\u021Bi s\u0103 dea clic pe \u201EPermite\u021Bi accesul acum\u201D \u0219i s\u0103 v\u0103 transmit\u0103 codul de acces."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Cu aplica\u021Bia Desktop la distan\u021B\u0103 Chrome, pute\u021Bi permite accesul \u00EEn siguran\u021B\u0103 la computerul dvs. pe web. Ambii utilizatori trebuie s\u0103 ruleze aplica\u021Bia Desktop la distan\u021B\u0103 Chrome, care poate fi g\u0103sit\u0103 la $1."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "Gazda la distan\u021B\u0103 solicit\u0103 s\u0103 v\u0103 autentifica\u021Bi pe un site ter\u021B\u0103 parte. Pentru a continua, trebuie s\u0103 acorda\u021Bi permisiuni suplimentare aplica\u021Biei Desktop la distan\u021B\u0103 Chrome pentru a accesa aceast\u0103 adres\u0103:"
+   },
+   "DISABLE_HOST": {
+      "message": "Dezactiva\u021Bi"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Deconecta\u021Bi-v\u0103"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Serviciul Desktop la distan\u021B\u0103 Chrome"
+   },
+   "DURATION_HEADER": {
+      "message": "Durat\u0103"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Autentificarea nu a reu\u0219it. Conecta\u021Bi-v\u0103 din nou la Desktop la distan\u021B\u0103 Chrome."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Unele componente necesare pentru Desktop la distan\u021B\u0103 Chrome lipsesc. Asigura\u021Bi-v\u0103 c\u0103 a\u021Bi instalat cea mai recent\u0103 versiune a aplica\u021Biei \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Computerul la distan\u021B\u0103 nu r\u0103spunde la solicit\u0103rile de conectare. Verifica\u021Bi dac\u0103 respectivul computer este online \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Conexiunile la computerul la distan\u021B\u0103 sunt blocate temporar, \u00EEntruc\u00E2t cineva a \u00EEncercat s\u0103 se conecteze la acesta utiliz\u00E2nd un cod PIN gre\u0219it. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "\u00CEnregistrarea acestui computer nu a reu\u0219it."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "A fost detectat\u0103 o versiune incompatibil\u0103 a aplica\u021Biei Desktop la distan\u021B\u0103 Chrome. Asigura\u021Bi-v\u0103 c\u0103 ave\u021Bi cea mai recent\u0103 versiune Chrome \u0219i Desktop la distan\u021B\u0103 Chrome pe ambele computere \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Codul de acces este gre\u0219it. \u00CEncerca\u021Bi din nou."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Set\u0103rile politicii nu accept\u0103 permiterea accesului la acest computer \u00EEn calitate de gazd\u0103 pentru Desktop la distan\u021B\u0103 Chrome. Contacta\u021Bi administratorul de sistem pentru asisten\u021B\u0103."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Unele componente necesare pentru aplica\u021Bia Desktop la distan\u021B\u0103 Chrome lipsesc. Asigura\u021Bi-v\u0103 c\u0103 rula\u021Bi cea mai recent\u0103 versiune Chrome \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "Nu s-a putut efectua conectarea la re\u021Bea. Verifica\u021Bi dac\u0103 dispozitivul este online."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Nu sunte\u021Bi conectat(\u0103) la Desktop la distan\u021B\u0103 Chrome. Conecta\u021Bi-v\u0103 \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Gazda nu poate fi accesat\u0103. Acest lucru este cauzat, probabil, de configura\u021Bia re\u021Belei pe care o utiliza\u021Bi."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Serviciul este temporar indisponibil. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "A ap\u0103rut o eroare nea\u0219teptat\u0103. Raporta\u021Bi aceast\u0103 problem\u0103 dezvoltatorilor."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Se conecteaz\u0103\u2026"
+   },
+   "FOOTER_WAITING": {
+      "message": "se a\u0219teapt\u0103 realizarea conexiunii..."
+   },
+   "FULL_SCREEN": {
+      "message": "Ecran complet"
+   },
+   "GET_STARTED": {
+      "message": "\u00CEncepe\u021Bi"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Dori\u021Bi s\u0103 ajuta\u021Bi pe cineva, iar \u00EEn acela\u0219i timp s\u0103 \u0219i discuta\u021Bi pe chatul video? \u00CEncerca\u021Bi $1Control desktop la distan\u021B\u0103 din Google Hangouts$2."
+   },
+   "HELP": {
+      "message": "Ajutor"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Accesa\u021Bi"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Vede\u021Bi \u0219i controla\u021Bi un computer la care se permite accesul."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Pute\u021Bi accesa acest computer \u00EEn siguran\u021B\u0103 utiliz\u00E2nd Desktop la distan\u021B\u0103 Chrome."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Schimba\u021Bi codul PIN"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "Afi\u0219a\u021Bi/Edita\u021Bi"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "Acest computer este configurat s\u0103 permit\u0103 conectarea unuia sau a mai multor clien\u021Bi f\u0103r\u0103 introducerea unui PIN."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Activa\u021Bi conexiunile la distan\u021B\u0103"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Trebuie s\u0103 activa\u021Bi conexiunile la distan\u021B\u0103 dac\u0103 dori\u021Bi s\u0103 utiliza\u021Bi Desktop la distan\u021B\u0103 Chrome pentru a accesa acest computer."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Dezactiva\u021Bi conexiunile la distan\u021B\u0103"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Distribui\u021Bi"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Permite\u021Bi accesul la acest computer altui utilizator, pentru ca acesta s\u0103 \u00EEl poat\u0103 vedea \u0219i controla."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(aceast\u0103 func\u021Bie nu este \u00EEnc\u0103 disponibil\u0103 pentru Chromebookuri...urm\u0103ri\u021Bi-ne \u00EEn continuare)"
+   },
+   "HOST_CATEGORY": {
+      "message": "Gazd\u0103"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "Acces interzis pentru clientul: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "Client conectat: %1."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "Client deconectat: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "IP canal pentru client: %1 ip=\u201E%2\u201D host_ip=\u201E%3\u201D channel=\u201E%4\u201D connection=\u201E%5\u201D."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Pentru a activa conexiunile la distan\u021B\u0103 pentru un alt computer, instala\u021Bi Desktop la distan\u021B\u0103 Chrome pe acesta \u0219i da\u021Bi clic pe \u201E$1\u201D."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Nu ave\u021Bi niciun computer \u00EEnregistrat. Pentru a activa conexiunile la distan\u021B\u0103 pentru un alt computer, instala\u021Bi Desktop la distan\u021B\u0103 Chrome pe acesta \u0219i da\u021Bi clic pe \u201E$1\u201D."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Actualiz\u0103rile de software au loc de obicei \u00EEn mod automat, dar \u00EEn anumite cazuri pot s\u0103 nu reu\u0219easc\u0103. Actualizarea software-ului nu trebuie s\u0103 dureze mai mult de c\u00E2teva minute \u0219i poate fi realizat\u0103 c\u00E2t timp sunte\u021Bi conectat(\u0103) la computer de la distan\u021B\u0103."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "Desktop la distan\u021B\u0103 Chrome de pe $1 este \u00EEnvechit \u0219i trebuie actualizat."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Ajuta\u021Bi-ne s\u0103 \u00EEmbun\u0103t\u0103\u021Bim Desktop la distan\u021B\u0103 Chrome, permi\u021B\u00E2ndu-ne s\u0103 colect\u0103m statistici de utilizare \u0219i rapoarte de blocare."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Pentru a proteja accesul la acest computer, alege\u021Bi un cod PIN format din $1cel pu\u021Bin \u0219ase cifre$2. Acest cod PIN va fi necesar c\u00E2nd v\u0103 conecta\u021Bi din alt\u0103 loca\u021Bie."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Pornirea serviciului de acces la distan\u021B\u0103 nu a reu\u0219it."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome descarc\u0103 programul de instalare a gazdei pentru Desktop la distan\u021B\u0103 Chrome. Dup\u0103 ce se descarc\u0103, rula\u021Bi programul de instalare \u00EEnainte de a continua."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Rula\u021Bi programul de instalare \u00EEnainte de a continua."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Conexiunile la distan\u021B\u0103 pentru acest computer au fost activate."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Verifica\u021Bi set\u0103rile de gestionare a energiei pentru computerul dvs. \u0219i asigura\u021Bi-v\u0103 c\u0103 nu este configurat s\u0103 treac\u0103 \u00EEn modul inactiv c\u00E2nd este \u00EEn repaus."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Se activeaz\u0103 conexiunile la distan\u021B\u0103 pentru acest computer\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Conexiunile la distan\u021B\u0103 pentru acest computer au fost dezactivate."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Se dezactiveaz\u0103 conexiunile la distan\u021B\u0103 pentru acest computer\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Dezactivarea accesului la distan\u021B\u0103 la acest computer nu a reu\u0219it. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "Codul PIN a fost actualizat."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Codul PIN nu a putut fi actualizat. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Se actualizeaz\u0103 codul PIN pentru acest computer\u2026"
+   },
+   "HOST_STARTED": {
+      "message": "Gazda a fost ini\u021Biat\u0103 pentru utilizatorul: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "La acest computer"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Pentru a \u00EEncepe s\u0103 permite\u021Bi accesul la desktopul dvs., trimite\u021Bi codul de acces de mai jos persoanei care v\u0103 va oferi asisten\u021B\u0103."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Dup\u0103 ce persoana respectiv\u0103 introduce codul, sesiunea de permitere a accesului va \u00EEncepe."
+   },
+   "INVALID_PIN": {
+      "message": "Introduce\u021Bi un cod PIN format din cel pu\u021Bin \u0219ase cifre."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Permiterea accesului la ecran de tip utilizator-la-utilizator, perfect\u0103 pentru asisten\u021Ba tehnic\u0103 la distan\u021B\u0103."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Conectat:"
+   },
+   "LEARN_HOW": {
+      "message": "Afla\u021Bi cum."
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Preferin\u021Be privind gazda pentru Desktop la distan\u021B\u0103 Chrome"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Gazd\u0103 pentru Desktop\nla distan\u021B\u0103 Chrome"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Program de dezinstalare a gazdei pentru Desktop la distan\u021B\u0103 Chrome"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Accesa\u021Bi-v\u0103 computerul de oriunde."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Se genereaz\u0103 codul de acces..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Sesiunea Desktop la distan\u021B\u0103 Chrome s-a \u00EEncheiat."
+   },
+   "MESSAGE_SHARED": {
+      "message": "\u00CEn prezent, accesul la desktopul dvs. este permis pentru $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autoriza\u021Bi"
+   },
+   "MODE_IT2ME": {
+      "message": "Asisten\u021B\u0103 la distan\u021B\u0103"
+   },
+   "MODE_ME2ME": {
+      "message": "Computerele mele"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "To\u021Bi clien\u021Bii \u00EEmperechea\u021Bi au fost \u0219ter\u0219i."
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "De la acest computer"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "Urm\u0103torii clien\u021Bi au fost \u00EEmperechea\u021Bi cu acest computer \u0219i se pot conecta f\u0103r\u0103 s\u0103 indice un PIN. Pute\u021Bi revoca oric\u00E2nd aceast\u0103 permisiune, pentru fiecare client \u00EEn parte sau pentru to\u021Bi clien\u021Bii."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "Data \u00EEmperecherii"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "Client"
+   },
+   "PIN": {
+      "message": "Cod PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Introduce\u021Bi acela\u0219i cod PIN \u00EEn ambele casete."
+   },
+   "PIN_MESSAGE": {
+      "message": "Introduce\u021Bi codul PIN pentru $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Accesa\u021Bi alte computere sau permite\u021Bi altui utilizator s\u0103 v\u0103 acceseze computerul \u00EEn siguran\u021B\u0103 pe internet."
+   },
+   "PRODUCT_NAME": {
+      "message": "Desktop la distan\u021B\u0103 Chrome"
+   },
+   "RECONNECT": {
+      "message": "Reconecta\u021Bi-v\u0103"
+   },
+   "REMEMBER_PIN": {
+      "message": "Nu mai solicita un cod PIN c\u00E2nd m\u0103 conectez la aceast\u0103 gazd\u0103 de pe acest computer."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "Biblioteca nucleu"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Proces de integrare desktop"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "Proces gazd\u0103"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "Permite\u021Bi altui utilizator s\u0103 v\u0103 acceseze computerul \u00EEn siguran\u021B\u0103 prin internet."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Gazd\u0103 pentru Desktop la distan\u021B\u0103 Chrome"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Redimensiona\u021Bi desktopul pentru a \u00EEnc\u0103pea"
+   },
+   "RETRY": {
+      "message": "Re\u00EEncerca\u021Bi"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Op\u021Biuni ecran"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Trimite\u021Bi ap\u0103s\u0103ri de taste"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Acest serviciu permite conexiuni primite de la clien\u021Bi Desktop la distan\u021B\u0103 Chrome."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Potrivi\u021Bi prin mic\u0219orare"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Conecta\u021Bi-v\u0103"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Deconecta\u021Bi-v\u0103"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Opri\u021Bi permiterea accesului"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Dori\u021Bi s\u0103 ne ajuta\u021Bi s\u0103 \u00EEmbun\u0103t\u0103\u021Bim Desktop la distan\u021B\u0103 Chrome? $1Participa\u021Bi la sondaj.$2"
+   },
+   "TIME_HEADER": {
+      "message": "Or\u0103"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Conecta\u021Bi-v\u0103 la $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Dezactiva\u021Bi conexiunile la distan\u021B\u0103 la acest computer"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Modifica\u021Bi numele computerului"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (neactualizat\u0103)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Cont"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Confirma\u021Bi mai jos contul \u0219i codul PIN pentru a permite accesarea prin intermediul aplica\u021Biei Desktop la distan\u021B\u0103 Chrome."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NOT\u0102: set\u0103rile politicii permit conexiuni numai \u00EEntre computerele din re\u021Beaua dvs."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NOT\u0102: pentru a v\u0103 asigura c\u0103 toate comenzile rapide de la tastatur\u0103 sunt disponibile, pute\u021Bi seta Desktop la distan\u021B\u0103 Chrome \u00EEn modul \u201EDeschide\u021Bi ca fereastr\u0103\u201D."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "De ce este aceast\u0103 opera\u021Bie sigur\u0103?"
+   },
+   "WORKING": {
+      "message": "Se proceseaz\u0103..."
+   }
+}

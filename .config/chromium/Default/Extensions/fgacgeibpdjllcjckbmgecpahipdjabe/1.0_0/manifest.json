@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.chromeweblab.com/"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "32": "icons/32.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDi9moHdaADn3q7+idhhkLFSF+liv5neHaIj4TMpq2gW7WWDGGdCgPhMe+PsZGnf4/aWUj6njy/MsIt6v2sF4T+4hFcvOBfCSru5zwW03eAvLEcvHJoSySuuKjBY1X3BXNFYDUJyI0j/DJbreYXP1HqBLai5vldCPC9gvFpQnUoLQIDAQAB",
+   "name": "__MSG_name__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

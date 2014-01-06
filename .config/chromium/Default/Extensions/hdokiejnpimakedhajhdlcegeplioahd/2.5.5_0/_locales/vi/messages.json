@@ -1,0 +1,3449 @@
+{
+   "0_9": {
+      "message": "0-9"
+   },
+   "1Password": {
+      "message": "1Password"
+   },
+   "1__Insert_your_YubiKey_in_the_USB_port_with_the_USB_contact_facing_upward": {
+      "message": "1. C\u1EAFm YubiKey c\u1EE7a b\u1EA1n v\u00E0o c\u1ED5ng USB v\u1EDBi m\u1EB7t nh\u1EADn d\u1EA1ng \u1EDF ph\u00EDa tr\u00EAn"
+   },
+   "1__Run_the_Google_Authenticator_application_on_your_mobile_device": {
+      "message": "1. Ch\u1EA1y ch\u01B0\u01A1ng tr\u00ECnh x\u00E1c \u0111\u1ECBnh nh\u1EADn d\u1EA1ng c\u1EE7a Google tr\u00EAn thi\u1EBFt b\u1ECB di \u0111\u1ED9ng c\u1EE7a b\u1EA1n"
+   },
+   "1__Run_the_LastPass_Sesame_application_to_generate_a_one_time_password": {
+      "message": "1. Ch\u1EA1y \u1EE9ng d\u1EE5ng LastPass Sesame \u0111\u1EC3 t\u1EA1o m\u1ED9t m\u1EADt kh\u1EA9u s\u1EED d\u1EE5ng m\u1ED9t l\u1EA7n"
+   },
+   "2__Enter_your_current_verification_code_in_the_box_below": {
+      "message": "2. Nh\u1EADp m\u00E3 x\u00E1c minh hi\u1EC7n t\u1EA1i c\u1EE7a b\u1EA1n v\u00E0o \u00F4 b\u00EAn d\u01B0\u1EDBi"
+   },
+   "2__Paste_the_one_time_password_in_the_input_box_below_and_click__Authenticate_": {
+      "message": "2. D\u00E1n m\u1EADt kh\u1EA9u s\u1EED d\u1EE5ng m\u1ED9t l\u1EA7n v\u00E0o \u00F4 ph\u00EDa d\u01B0\u1EDBi r\u1ED3i nh\u1EA5n 'X\u00E1c Th\u1EF1c'"
+   },
+   "2__Wait_until_your_YubiKey_touch_button_shines_with_a_steady_light": {
+      "message": "2. Ch\u1EDD n\u00FAt c\u1EA3m \u1EE9ng tr\u00EAn YubiKey s\u00E1ng \u1ED5n \u0111\u1ECBnh"
+   },
+   "3__Click_Authenticate": {
+      "message": "3. Nh\u1EA5p v\u00E0o \u00F4 X\u00E1c \u0111\u1ECBnh danh t\u00EDnh"
+   },
+   "ACTION": {
+      "message": "H\u00C0NH \u0110\u1ED8NG"
+   },
+   "A_Zupper": {
+      "message": "A-Z"
+   },
+   "A_required_update_is_available_for_LastPass__Please_press_OK_to_begin_download_and_installation_": {
+      "message": "C\u00F3 m\u1ED9t b\u1EA3n c\u1EADp nh\u1EADt b\u1EAFt bu\u1ED9c cho LastPass. Xin nh\u1EA5n OK \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u t\u1EA3i v\u1EC1 v\u00E0 c\u00E0i \u0111\u1EB7t."
+   },
+   "A_retry_file_has_been_found__This_likely_means_that_not_all_of_your_site_changes_have_been_saved__Would_you_like_to_delete_this_file_and_potentially_lose_some_changes_": {
+      "message": "T\u00ECm th\u1EA5y m\u1ED9t t\u1EADp tin y\u00EAu c\u1EA7u th\u1EED l\u1EA1i. R\u1EA5t c\u00F3 th\u1EC3 t\u1EA5t c\u1EA3 thay \u0111\u1ED5i tr\u00EAn trang web c\u1EE7a b\u1EA1n ch\u01B0a \u0111\u01B0\u1EE3c l\u01B0u h\u1EBFt. B\u1EA1n c\u00F3 mu\u1ED1n x\u00F3a t\u1EADp tin n\u00E0y v\u00E0 c\u00F3 kh\u1EA3 n\u0103ng m\u1EA5t m\u1ED9t s\u1ED1 thay \u0111\u1ED5i kh\u00F4ng?"
+   },
+   "A_server_error_occurred_while_processing_your_request_": {
+      "message": "C\u00F3 l\u1ED7i m\u00E1y ch\u1EE7 khi \u0111ang x\u1EED l\u00FD y\u00EAu c\u1EA7u c\u1EE7a b\u1EA1n."
+   },
+   "A_site_that_has_been_previously_shared_cannot_be_moved_to_a_shared_folder___Would_you_like_to_make_a_copy_": {
+      "message": "Trang \u0111\u01B0\u1EE3c chia s\u1EBB tr\u01B0\u1EDBc \u0111\u00E2y kh\u00F4ng th\u1EC3 chuy\u1EC3n sang th\u01B0 m\u1EE5c chia s\u1EBB.\n\nB\u1EA1n c\u00F3 mu\u1ED1n t\u1EA1o m\u1ED9t b\u1EA3n sao?"
+   },
+   "About": {
+      "message": "V\u1EC1"
+   },
+   "About___": {
+      "message": "Gi\u1EDBi thi\u1EC7u..."
+   },
+   "Abu_Dhabi__Muscat__Moscow__St__Petersburg__Volgograd": {
+      "message": "Abu Dhabi, Muscat, Moscow, St. Petersburg, Volgograd"
+   },
+   "Accept": {
+      "message": "Ch\u1EA5p Nh\u1EADn"
+   },
+   "Account_Settings": {
+      "message": "C\u00E0i \u0110\u1EB7t T\u00E0i Kho\u1EA3n"
+   },
+   "Account_Type": {
+      "message": "Lo\u1EA1i t\u00E0i kho\u1EA3n"
+   },
+   "Account_number": {
+      "message": "S\u1ED1 t\u00E0i kho\u1EA3n"
+   },
+   "Actionproper": {
+      "message": "H\u00E0nh \u0111\u1ED9ng"
+   },
+   "Actions": {
+      "message": "H\u00E0nh \u0111\u1ED9ng"
+   },
+   "Add": {
+      "message": "Th\u00EAm"
+   },
+   "Add_Credit_Card": {
+      "message": "Th\u00EAm Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "Add_Credit_Card_profile": {
+      "message": "Th\u00EAm H\u1ED3 S\u01A1 Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "Add_Field": {
+      "message": "Th\u00EAm Tr\u01B0\u1EDDng"
+   },
+   "Add_Form_Fill_profile": {
+      "message": "Th\u00EAm H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "Add_Identity": {
+      "message": "Th\u00EAm Danh T\u00EDnh"
+   },
+   "Add_New_Site": {
+      "message": "Th\u00EAm Trang Web M\u1EDBi"
+   },
+   "Add_Note": {
+      "message": "Th\u00EAm Ghi Ch\u00FA"
+   },
+   "Add_Profile": {
+      "message": "Th\u00EAm H\u1ED3 S\u01A1"
+   },
+   "Add_Secure_Note": {
+      "message": "Th\u00EAm Ghi Ch\u00FA B\u1EA3o M\u1EADt"
+   },
+   "Add_Site": {
+      "message": "Th\u00EAm Trang Web"
+   },
+   "Add_another_custom_field": {
+      "message": "Th\u00EAm m\u1ED9t \u00F4 t\u00F9y ch\u1EC9nh kh\u00E1c"
+   },
+   "Address": {
+      "message": "\u0110\u1ECBa Ch\u1EC9"
+   },
+   "Address_1": {
+      "message": "\u0110\u1ECBa Ch\u1EC9 1"
+   },
+   "Address_2": {
+      "message": "\u0110\u1ECBa Ch\u1EC9 2"
+   },
+   "Address_3": {
+      "message": "\u0110\u1ECBa Ch\u1EC9 3"
+   },
+   "Adelaide": {
+      "message": "Adelaide"
+   },
+   "Admin_Tools": {
+      "message": "C\u00F4ng C\u1EE5 Qu\u1EA3n Tr\u1ECB"
+   },
+   "Advanced": {
+      "message": "N\u00E2ng Cao"
+   },
+   "Advanced_Options": {
+      "message": "T\u00F9y ch\u1ECDn n\u00E2ng cao"
+   },
+   "Afghanistan": {
+      "message": "Afghanistan"
+   },
+   "Agent_Name": {
+      "message": "T\u00EAn \u0110\u1EA1i L\u00FD"
+   },
+   "Agent_Phone": {
+      "message": "\u0110i\u1EC7n Tho\u1EA1i \u0110\u1EA1i L\u00FD"
+   },
+   "Aland_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Aland"
+   },
+   "Alaska": {
+      "message": "Alaska"
+   },
+   "Albania": {
+      "message": "Albania"
+   },
+   "Algeria": {
+      "message": "Algeria"
+   },
+   "Alias": {
+      "message": "B\u00ED Danh"
+   },
+   "All": {
+      "message": "T\u1EA5t C\u1EA3"
+   },
+   "Allow_LastPass_to_find_insecure_data_on_your_computer_": {
+      "message": "Cho ph\u00E9p LastPass t\u00ECm d\u1EEF li\u1EC7u kh\u00F4ng an to\u00E0n tr\u00EAn m\u00E1y t\u00EDnh c\u1EE7a b\u1EA1n?"
+   },
+   "Almaty": {
+      "message": "Almaty"
+   },
+   "Alt": {
+      "message": "Alt"
+   },
+   "Alter_the_below_information_to_edit_the_Credit_Card_profile": {
+      "message": "Thay \u0111\u1ED5i th\u00F4ng tin b\u00EAn d\u01B0\u1EDBi \u0111\u1EC3 ch\u1EC9nh s\u1EEDa H\u1ED3 S\u01A1 Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "Alter_the_below_information_to_edit_the_Form_Fill_profile": {
+      "message": "Thay \u0111\u1ED5i th\u00F4ng tin b\u00EAn d\u01B0\u1EDBi \u0111\u1EC3 ch\u1EC9nh s\u1EEDa H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "Always_Choose_Profile_and_Credit_Card": {
+      "message": "Lu\u00F4n Ch\u1ECDn H\u1ED3 S\u01A1 v\u00E0 Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "American_Samoa": {
+      "message": "Samoa thu\u1ED9c M\u1EF9"
+   },
+   "Amman__Athens__Istanbul__Beirut__Cairo__Jerusalem": {
+      "message": "Amman, Athens, Istanbul, Beirut, Cairo, Jerusalem"
+   },
+   "Amsterdam__Berlin__Rome__Vienna__Prague__Brussels": {
+      "message": "Amsterdam, Berlin, Roma, Wien, Praha, Brussels"
+   },
+   "An_Update_is_Available__Would_you_like_to_install_": {
+      "message": "\u0110\u00E3 C\u00F3 B\u1EA3n C\u1EADp Nh\u1EADt. B\u1EA1n c\u00F3 mu\u1ED1n c\u00E0i \u0111\u1EB7t kh\u00F4ng?"
+   },
+   "An_error_has_been_encountered_while_loading_your_sites__Please_relogin_": {
+      "message": "G\u1EB7p l\u1ED7i khi \u0111ang t\u1EA3i trang. Vui l\u00F2ng \u0111\u0103ng nh\u1EADp l\u1EA1i."
+   },
+   "An_error_occurred": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i"
+   },
+   "An_error_occurred_while_importing_your_Google_Chrome_passwords_": {
+      "message": "M\u1ED9t l\u1ED7i \u0111\u00E3 x\u1EA3y trong khi nh\u1EADp m\u1EADt kh\u1EA9u t\u1EEB Google Chrome"
+   },
+   "An_error_occurred_while_re_encrypting_your_data": {
+      "message": "M\u1ED9t l\u1ED7i x\u1EA3y ra trong khi t\u00E1i m\u00E3 h\u00F3a d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n"
+   },
+   "An_error_occurred_while_uploading_your_data___Would_you_like_to_retry_": {
+      "message": "C\u00F3 l\u1ED7i x\u1EA3y ra khi t\u1EA3i d\u1EEF li\u1EC7u l\u00EAn. B\u1EA1n c\u00F3 mu\u1ED1n l\u00E0m l\u1EA1i?"
+   },
+   "Andorra": {
+      "message": "Andorra"
+   },
+   "Angola": {
+      "message": "Angola"
+   },
+   "Anguilla": {
+      "message": "Anguilla"
+   },
+   "Antarctica": {
+      "message": "Nam C\u1EF1c"
+   },
+   "Antigua_and_Barbuda": {
+      "message": "Antigua v\u00E0 Barbuda"
+   },
+   "Appearance": {
+      "message": "Giao Di\u1EC7n"
+   },
+   "Application_": {
+      "message": "\u1EE8ng d\u1EE5ng:"
+   },
+   "Applications": {
+      "message": "\u1EE8ng D\u1EE5ng"
+   },
+   "April": {
+      "message": "Th\u00E1ng T\u01B0"
+   },
+   "Arbitrary_notes_to_store_along_with_this_Form_Fill_profile": {
+      "message": "Ghi ch\u00FA ng\u1EABu nhi\u00EAn \u0111\u1EC3 l\u01B0u c\u00F9ng v\u1EDBi H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu n\u00E0y"
+   },
+   "Are_you_sure_you_want_to_delete_this_identity_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n x\u00F3a danh t\u00EDnh n\u00E0y?"
+   },
+   "Are_you_sure_you_want_to_delete_this_site_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n x\u00F3a trang web n\u00E0y?"
+   },
+   "Are_you_sure_you_want_to_have_LastPass_remember_your_password___This_will_significantly_decrease_the_security_of_your_LastPass_account_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n LastPass l\u01B0u m\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n kh\u00F4ng? \u0110i\u1EC1u n\u00E0y s\u1EBD l\u00E0m gi\u1EA3m \u0111\u00E1ng k\u1EC3 t\u00EDnh b\u1EA3o m\u1EADt t\u00E0i kho\u1EA3n LastPass c\u1EE7a b\u1EA1n!"
+   },
+   "Are_you_sure_you_want_to_share_this_item___Doing_so_will_cause_you_to_lose_any_changes_you_have_made_to_this_item_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n chia s\u1EBB m\u1EE5c n\u00E0y? L\u00E0m v\u1EADy s\u1EBD g\u00E2y m\u1EA5t m\u1ECDi thay \u0111\u1ED5i b\u1EA1n \u0111\u00E3 th\u1EF1c hi\u1EC7n v\u1EDBi m\u1EE5c n\u00E0y!"
+   },
+   "Are_you_sure_you_want_to_view_history___Doing_so_will_cause_you_to_lose_any_changes_you_have_made_to_this_item_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n thay \u0111\u1ED5i xem l\u1ECBch s\u1EED? L\u00E0m v\u1EADy s\u1EBD g\u00E2y m\u1EA5t m\u1ECDi thay \u0111\u1ED5i b\u1EA1n \u0111\u00E3 th\u1EF1c hi\u1EC7n v\u1EDBi m\u1EE5c n\u00E0y!"
+   },
+   "Are_you_sure_you_would_like_to_delete_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_items_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a c\u00E1c m\u1EE5c \u0111\u00E3 ch\u1ECDn?"
+   },
+   "Are_you_sure_you_would_like_to_delete_the_selected_sites_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a c\u00E1c trang web \u0111\u00E3 ch\u1ECDn kh\u00F4ng?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_application_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a \u1EE9ng d\u1EE5ng n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_field_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a \u00F4 n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_form_fill_profile_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a h\u1ED3 s\u01A1 \u0111i\u1EC1n m\u1EABu n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_generated_password_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n x\u00F3a m\u1EADt kh\u1EA9u v\u1EEBa \u0111\u01B0\u1EE3c t\u1EA1o ra n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_group_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a nh\u00F3m n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_never_URL_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a URL kh\u00F4ng bao gi\u1EDD n\u00E0y?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_secure_note_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a ghi ch\u00FA b\u1EA3o m\u1EADt n\u00E0y kh\u00F4ng?"
+   },
+   "Are_you_sure_you_would_like_to_delete_this_site_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n x\u00F3a website n\u00E0y kh\u00F4ng?"
+   },
+   "Are_you_sure_you_would_like_to_remove_this_attachment_": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n lo\u1EA1i b\u1ECF t\u1EADp tin \u0111\u00EDnh k\u00E8m n\u00E0y?"
+   },
+   "Argentina": {
+      "message": "Argentina"
+   },
+   "Arizona": {
+      "message": "Arizona"
+   },
+   "Armenia": {
+      "message": "Armenia"
+   },
+   "Aruba": {
+      "message": "Aruba"
+   },
+   "Astana__Dhaka__Ekaterinburg": {
+      "message": "Astana, Dhaka, Ekaterinburg"
+   },
+   "Atlantic_Time__Canada___Manaus__Santiago": {
+      "message": "Gi\u1EDD \u0110\u1EA1i T\u00E2y D\u01B0\u01A1ng (Canada), Manaus, Santiago"
+   },
+   "Auckland__Wellington": {
+      "message": "Auckland, Wellington"
+   },
+   "August": {
+      "message": "Th\u00E1ng T\u00E1m"
+   },
+   "Australia": {
+      "message": "\u00DAc"
+   },
+   "Austria": {
+      "message": "\u00C1o"
+   },
+   "Authenticate": {
+      "message": "X\u00E1c th\u1EF1c"
+   },
+   "Authentication": {
+      "message": "X\u00E1c th\u1EF1c"
+   },
+   "Authentication_Failed_": {
+      "message": "X\u00E1c th\u1EF1c h\u1ECFng."
+   },
+   "AutoFill": {
+      "message": "T\u1EF1 \u0110\u1ED9ng \u0110i\u1EC1n"
+   },
+   "AutoLogin": {
+      "message": "T\u1EF1 \u0110\u1ED9ng \u0110\u0103ng Nh\u1EADp"
+   },
+   "Automatically_Fill_Login_Information": {
+      "message": "T\u1EF1 \u0110\u1ED9ng \u0110i\u1EC1n Th\u00F4ng Tin \u0110\u0103ng Nh\u1EADp"
+   },
+   "Automatically_Logoff_after_idle__mins_": {
+      "message": "T\u1EF1 \u0110\u1ED9ng \u0110\u0103ng Xu\u1EA5t sau khi nh\u00E0n r\u1ED7i (ph\u00FAt)"
+   },
+   "Automatically_Logoff_when_all_browsers_are_closed_and_Chrome_has_been_closed_for__mins_": {
+      "message": "T\u1EF1 \u0111\u1ED9ng \u0111\u0103ng xu\u1EA5t sau khi t\u1EA5t c\u1EA3 c\u00E1c tr\u00ECnh duy\u1EC7t v\u00E0 Chrome \u0111\u00F3ng \u0111\u01B0\u1EE3c (ph\u00FAt)"
+   },
+   "Automatically_login_to_sites_if_time_since_last_login____seconds_": {
+      "message": "T\u1EF1 \u0111\u1ED9ng \u0111\u0103ng nh\u1EADp v\u00E0o c\u00E1c website n\u1EBFu th\u1EDDi gian t\u00EDnh t\u1EEB l\u1EA7n cu\u1ED1i \u0111\u0103ng nh\u1EADp \u003E (gi\u00E2y)"
+   },
+   "Avoid_Ambiguous_Characters": {
+      "message": "Tr\u00E1nh K\u00FD T\u1EF1 Nh\u1EADp Nh\u1EB1ng"
+   },
+   "Azerbaijan": {
+      "message": "Azerbaijan"
+   },
+   "Azores": {
+      "message": "Azores"
+   },
+   "Back": {
+      "message": "Tr\u1EDF l\u1EA1i"
+   },
+   "Baghdad": {
+      "message": "Baghdad"
+   },
+   "Bahamas": {
+      "message": "Bahamas"
+   },
+   "Bahrain": {
+      "message": "Bahrain"
+   },
+   "Baku__Yerevan": {
+      "message": "Baku, Yerevan"
+   },
+   "Bangkok__Hanoi__Jakarta__Novosibirsk": {
+      "message": "Bangkok, Hanoi, Jakarta, Novosibirsk"
+   },
+   "Bangladesh": {
+      "message": "Bangladesh"
+   },
+   "Bank_Account": {
+      "message": "T\u00E0i kho\u1EA3n ng\u00E2n h\u00E0ng"
+   },
+   "Bank_accountformfill": {
+      "message": "T\u00E0i kho\u1EA3n ng\u00E2n h\u00E0ng"
+   },
+   "Bank_name": {
+      "message": "T\u00EAn ng\u00E2n h\u00E0ng"
+   },
+   "Barbados": {
+      "message": "Barbados"
+   },
+   "Before_you_can_use_LastPass__you_must_first_connect_your_fingerprint_reader_and_enroll_one_or_more_fingers_": {
+      "message": "Tr\u01B0\u1EDBc khi s\u1EED d\u1EE5ng LastPass, b\u1EA1n ph\u1EA3i k\u1EBFt n\u1ED1i \u0111\u1EA7u \u0111\u1ECDc d\u1EA5u v\u00E2n tay r\u1ED3i qu\u00E9t m\u1ED9t ho\u1EB7c hai ng\u00F3n tay l\u00EAn."
+   },
+   "Beijing__Hong_Kong__Singapore__Taipei__Krasnoyarsk": {
+      "message": "Beijing, Hong Kong, Singapore, Taipei, Krasnoyarsk"
+   },
+   "Belarus": {
+      "message": "Belarus"
+   },
+   "Belgium": {
+      "message": "B\u1EC9"
+   },
+   "Belize": {
+      "message": "Belize"
+   },
+   "Benin": {
+      "message": "Benin"
+   },
+   "Bermuda": {
+      "message": "Bermuda"
+   },
+   "Bhutan": {
+      "message": "Bhutan"
+   },
+   "Binary_Component_": {
+      "message": "C\u1EA5u ph\u1EA7n nh\u1ECB ph\u1EADn:"
+   },
+   "Birthday": {
+      "message": "Ng\u00E0y Sinh"
+   },
+   "Blacklist": {
+      "message": "T\u00E0i kho\u1EA3n c\u1EE7a b\u1EA1n \u0111\u00E3 b\u1ECB t\u1EA1m ng\u01B0ng (trong v\u00F2ng 5 ph\u00FAt) v\u00EC c\u00F3 qu\u00E1 nhi\u1EC1u l\u1EA7n \u0111\u0103ng nh\u1EADp th\u1EA5t b\u1EA1i."
+   },
+   "Blog": {
+      "message": "Blog"
+   },
+   "Bolivia": {
+      "message": "Bolivia"
+   },
+   "Bookmarklets": {
+      "message": "B\u1ED9 \u0110\u00E1nh D\u1EA5u Trang"
+   },
+   "Bosnia_and_Herzegovina": {
+      "message": "Bosna v\u00E0 Hercegovina"
+   },
+   "Botswana": {
+      "message": "Botswana"
+   },
+   "Bouvet_Island": {
+      "message": "\u0110\u1EA3o Bouvet"
+   },
+   "Branch_Address": {
+      "message": "\u0110\u1ECBa Ch\u1EC9 Chi Nh\u00E1nh"
+   },
+   "Branch_Phone": {
+      "message": "\u0110i\u1EC7n Tho\u1EA1i Chi Nh\u00E1nh"
+   },
+   "Brazil": {
+      "message": "Brasil"
+   },
+   "Brisbane__Guam__Port_Moresby__Yakutsk": {
+      "message": "Brisbane, Guam, Port Moresby, Yakutsk"
+   },
+   "British_Indian_Ocean_Territory": {
+      "message": "L\u00E3nh th\u1ED5 \u1EA4n \u0110\u1ED9 D\u01B0\u01A1ng thu\u1ED9c Anh"
+   },
+   "Browse_the_web_as_you_normally_would_and_LastPass_will_automatically_remember_passwords_as_you_enter_them_": {
+      "message": "Duy\u1EC7t web nh\u01B0 b\u00ECnh th\u01B0\u1EDDng v\u00E0 LastPass s\u1EBD t\u1EF1 \u0111\u1ED9ng ghi nh\u1EDB m\u1EADt kh\u1EA9u khi b\u1EA1n nh\u1EADp ch\u00FAng."
+   },
+   "Brunei_Darussalam": {
+      "message": "Brunei Darussalam"
+   },
+   "Buenos_Aires__Georgetown": {
+      "message": "Buenos Aires, Georgetown"
+   },
+   "Built_": {
+      "message": "Phi\u00EAn B\u1EA3n:"
+   },
+   "Bulgaria": {
+      "message": "Bulgaria"
+   },
+   "Burkina_Faso": {
+      "message": "Burkina Faso"
+   },
+   "Burundi": {
+      "message": "Burundi"
+   },
+   "But_I_m_a_forgetful_person___what_should_I_do_if_I_forget_my_password_": {
+      "message": "Nh\u01B0ng t\u00F4i l\u00E0 m\u1ED9t ng\u01B0\u1EDDi hay qu\u00EAn...t\u00F4i n\u00EAn l\u00E0m g\u00EC n\u1EBFu t\u00F4i qu\u00EAn m\u1EADt kh\u1EA9u?"
+   },
+   "CSV_Files": {
+      "message": "T\u1EADp tin CSV"
+   },
+   "Cambodia": {
+      "message": "Campuchia"
+   },
+   "Cameroon": {
+      "message": "Cameroon"
+   },
+   "Can_t_find_hidden_LastPass_window": {
+      "message": "Kh\u00F4ng th\u1EC3 t\u00ECm th\u1EA5y c\u1EEDa s\u1ED5 Lastpass \u1EA9n"
+   },
+   "Canada": {
+      "message": "Canada"
+   },
+   "Canary_Islands": {
+      "message": "\u0110\u1EA3o Canary"
+   },
+   "Canberra__Melbourne__Sydney__Hobart": {
+      "message": "Canberra, Melbourne, Sydney, Hobart"
+   },
+   "Cancel": {
+      "message": "H\u1EE7y"
+   },
+   "Cape_Verde": {
+      "message": "Cabo Verde"
+   },
+   "Cape_Verde_Is_": {
+      "message": "\u0110\u1EA3o Cabo Verde"
+   },
+   "Caracas": {
+      "message": "Caracas"
+   },
+   "Casablanca__Monrovia__Reykjavik": {
+      "message": "Casablanca, Monrovia, Reykjavik"
+   },
+   "Catalan": {
+      "message": "Ti\u1EBFng Catalonia"
+   },
+   "Cayman_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Cayman"
+   },
+   "Central_African_Republic": {
+      "message": "C\u1ED9ng h\u00F2a Trung Phi"
+   },
+   "Central_America__Saskatchewan": {
+      "message": "Trung M\u1EF9, Saskatchewan"
+   },
+   "Central_Time__US___Canada___Guadalajara__Mexico_City": {
+      "message": "Gi\u1EDD Trung T\u00E2m (M\u1EF9 & Canada), Guadalajara, Mexico City"
+   },
+   "Chad": {
+      "message": "Tchad"
+   },
+   "Change": {
+      "message": "Thay \u0110\u1ED5i"
+   },
+   "Change_Group_Name": {
+      "message": "Thay \u0110\u1ED5i T\u00EAn Nh\u00F3m"
+   },
+   "Change_Password": {
+      "message": "Thay \u0110\u1ED5i M\u1EADt Kh\u1EA9u"
+   },
+   "Check_For_Updates": {
+      "message": "Ki\u1EC3m Tra C\u1EADp Nh\u1EADt"
+   },
+   "Checkbox": {
+      "message": "H\u1ED9p Ki\u1EC3m"
+   },
+   "Checking_For_Updates___": {
+      "message": "Ki\u1EC3m tra c\u1EADp nh\u1EADt..."
+   },
+   "Chennai__Kolkata__Mumbai__New_Delhi__Sri_Jayawardenepura": {
+      "message": "Chennai, Kolkata, Mumbai, New Delhi, Sri Jayawardenepura"
+   },
+   "Chile": {
+      "message": "Chile"
+   },
+   "China": {
+      "message": "Trung Qu\u1ED1c"
+   },
+   "Chinese__Simplified_": {
+      "message": "Trung Qu\u1ED1c (gi\u1EA3n th\u1EC3)"
+   },
+   "Chinese__Traditional_": {
+      "message": "Trung Qu\u1ED1c (truy\u1EC1n th\u1ED1ng)"
+   },
+   "Choose_Profile_and_Credit_Card": {
+      "message": "Ch\u1ECDn H\u1ED3 S\u01A1 v\u00E0 Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "Choose_a_source_above_": {
+      "message": "Ch\u1ECDn m\u1ED9t ngu\u1ED3n \u1EDF tr\u00EAn."
+   },
+   "Christmas_Island": {
+      "message": "\u0110\u1EA3o Christmas"
+   },
+   "Chrome": {
+      "message": "Chrome"
+   },
+   "City___Town": {
+      "message": "Th\u00E0nh Ph\u1ED1 / Th\u1ECB Tr\u1EA5n"
+   },
+   "Clear": {
+      "message": "T\u1EA9y Tr\u1ED1ng"
+   },
+   "Clear_Clipboard_after_use__seconds_": {
+      "message": "X\u00F3a b\u1ED9 nh\u1EDB t\u1EA1m Clipboard sau khi d\u00F9ng (gi\u00E2y)"
+   },
+   "Clear_Forms": {
+      "message": "X\u00F3a M\u1EABu \u0110\u01A1n"
+   },
+   "Clear_Local_Cache": {
+      "message": "X\u00F3a B\u1ED9 \u0110\u1EC7m T\u1EA1i M\u00E1y"
+   },
+   "Clear_Recent": {
+      "message": "T\u1EA9y G\u1EA7n \u0110\u00E2y"
+   },
+   "Click_Continue_to_start_using_LastPass_": {
+      "message": "Nh\u1EA5p v\u00E0o Ti\u1EBFp T\u1EE5c \u0111\u1EC3 s\u1EED d\u1EE5ng LastPass."
+   },
+   "Click_here_to_launch_account_settings": {
+      "message": "Nh\u1EA5n v\u00E0o \u0111\u00E2y \u0111\u1EC3 kh\u1EDFi \u0111\u1ED9ng c\u1EA5u h\u00ECnh t\u00E0i kho\u1EA3n"
+   },
+   "Click_here_to_launch_feedback": {
+      "message": "Nh\u1EA5n v\u00E0o \u0111\u00E2y \u0111\u1EC3 kh\u1EDFi \u0111\u1ED9ng ph\u1EA3n h\u1ED3i"
+   },
+   "Click_here_to_view_the_LastPass_User_Manual": {
+      "message": "B\u1EA5m v\u00E0o \u0111\u00E2y \u0111\u1EC3 xem H\u01B0\u1EDBng D\u1EABn S\u1EED D\u1EE5ng LastPass"
+   },
+   "Clipperz": {
+      "message": "Clipperz"
+   },
+   "Close": {
+      "message": "\u0110\u00F3ng"
+   },
+   "Close_this_window": {
+      "message": "\u0110\u00F3ng c\u1EEDa s\u1ED5 n\u00E0y"
+   },
+   "Cocos__Keeling__Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Cocos (Keeling)"
+   },
+   "Collapse_All": {
+      "message": "\u0110\u00F3ng T\u1EA5t C\u1EA3"
+   },
+   "Colombia": {
+      "message": "Colombia"
+   },
+   "Comoros": {
+      "message": "Comoros"
+   },
+   "Company": {
+      "message": "C\u00F4ng Ty"
+   },
+   "CompanyPolicyProhibits": {
+      "message": "Ch\u00EDnh s\u00E1ch c\u00F4ng ty nghi\u00EAm c\u1EA5p h\u00E0nh \u0111\u1ED9ng n\u00E0y."
+   },
+   "Company_policy_prevents_changing_some_settings__not_all_updates_have_been_saved_": {
+      "message": "Ch\u00EDnh s\u00E1ch c\u00F4ng ty h\u1EA1n ch\u1EBF thay \u0111\u1ED5i m\u1ED9t s\u1ED1 thi\u1EBFt l\u1EADp, ch\u1EE9 kh\u00F4ng ph\u1EA3i t\u1EA5t c\u1EA3 c\u1EADp nh\u1EADt ch\u01B0a \u0111\u01B0\u1EE3c l\u01B0u."
+   },
+   "Complete_the_below_information_to_add_a_new_Credit_Card_profile": {
+      "message": "Ho\u00E0n t\u1EA5t th\u00F4ng tin d\u01B0\u1EDBi \u0111\u00E2y \u0111\u1EC3 th\u00EAm h\u1ED3 s\u01A1 Th\u1EBB T\u00EDn D\u1EE5ng m\u1EDBi"
+   },
+   "Complete_the_below_information_to_add_a_new_Form_Fill_profile": {
+      "message": "Ho\u00E0n t\u1EA5t th\u00F4ng tin d\u01B0\u1EDBi \u0111\u00E2y \u0111\u1EC3 th\u00EAm h\u1ED3 s\u01A1 \u0110i\u1EC1n M\u1EABu m\u1EDBi"
+   },
+   "Configure_Form_Fill": {
+      "message": "C\u1EA5u H\u00ECnh \u0110i\u1EC1n M\u1EABu"
+   },
+   "Confirm": {
+      "message": "X\u00E1c Nh\u1EADn"
+   },
+   "Confirm_Password": {
+      "message": "X\u00E1c Nh\u1EADn M\u1EADt Kh\u1EA9u"
+   },
+   "Congo": {
+      "message": "Congo"
+   },
+   "Congo__the_Democratic_Republic_of_The": {
+      "message": "Congo, C\u1ED9ng h\u00F2a D\u00E2n ch\u1EE7"
+   },
+   "Congratulations": {
+      "message": "Xin Ch\u00FAc M\u1EEBng"
+   },
+   "Connection_Mode": {
+      "message": "Ch\u1EBF \u0111\u1ED9 k\u1EBFt n\u1ED1i"
+   },
+   "Connection_Type": {
+      "message": "Ki\u1EC3u K\u1EBFt N\u1ED1i"
+   },
+   "Contact": {
+      "message": "Li\u00EAn h\u1EC7"
+   },
+   "Continue": {
+      "message": "Ti\u1EBFp T\u1EE5c"
+   },
+   "Control_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "K\u00FD t\u1EF1 \u0111i\u1EC1u khi\u1EC3n \u0111\u01B0\u1EE3c t\u00ECm th\u1EA5y trong t\u1EADp tin, s\u1EBD kh\u00F4ng x\u1EED l\u00FD"
+   },
+   "Cook_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Cook"
+   },
+   "Copy": {
+      "message": "Sao Ch\u00E9p"
+   },
+   "Copy_Note": {
+      "message": "Sao ch\u00E9p ch\u00FA \u00FD"
+   },
+   "Copy_Password": {
+      "message": "Ch\u00E9p M\u1EADt kh\u1EA9u"
+   },
+   "Copy_URL": {
+      "message": "Ch\u00E9p URL"
+   },
+   "Copy_Username": {
+      "message": "Ch\u00E9p T\u00EAn Ng\u01B0\u1EDDi D\u00F9ng"
+   },
+   "Copyright_2008_LastPass__All_Rights_Reserved__Portions_of_this_software_were_licensed_from_third_parties_as_described_at_": {
+      "message": "B\u1EA3n quy\u1EC1n 2010 LastPass. Gi\u1EEF to\u00E0n quy\u1EC1n. M\u1ED9t v\u00E0i ph\u1EA7n c\u1EE7a ph\u1EA7n m\u00EAm n\u00E0y \u0111\u01B0\u1EE3c c\u1EA5p ph\u00E9p t\u1EEB b\u00EAn th\u1EE9 ba:"
+   },
+   "Costa_Rica": {
+      "message": "Costa Rica"
+   },
+   "Cote_D_ivoire": {
+      "message": "C\u00F4te d'Ivoire"
+   },
+   "Country": {
+      "message": "Qu\u1ED1c Gia"
+   },
+   "County": {
+      "message": "Qu\u1EADn"
+   },
+   "Create_Account": {
+      "message": "T\u1EA1o T\u00E0i Kho\u1EA3n"
+   },
+   "Create_Group": {
+      "message": "T\u1EA1o nh\u00F3m"
+   },
+   "Create_Sub_Group": {
+      "message": "T\u1EA1o Nh\u00F3m Con"
+   },
+   "Create_an_Account": {
+      "message": "M\u1EDF T\u00E0i Kho\u1EA3n"
+   },
+   "Creating_Account___": {
+      "message": "\u0110ang M\u1EDF T\u00E0i Kho\u1EA3n..."
+   },
+   "Credit_Monitoring": {
+      "message": "THeo d\u00F5i ti\u1EC1n"
+   },
+   "Credit_card": {
+      "message": "Th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "Credit_card_number": {
+      "message": "S\u1ED1 th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "Croatia": {
+      "message": "Croatia"
+   },
+   "Ctrl": {
+      "message": "Ctrl"
+   },
+   "Cuba": {
+      "message": "Cuba"
+   },
+   "Custom_Value": {
+      "message": "Tu\u1EF3 ch\u1EC9nh gi\u00E1 tr\u1ECB"
+   },
+   "Custom_field__": {
+      "message": "\u00D4 t\u00F9y ch\u1EC9nh #"
+   },
+   "Custom_fields": {
+      "message": "\u00D4 t\u00F9y ch\u1EC9nh"
+   },
+   "Cyprus": {
+      "message": "S\u00EDp"
+   },
+   "Czech_Republic": {
+      "message": "C\u1ED9ng h\u00F2a S\u00E9c"
+   },
+   "Danish": {
+      "message": "\u0110an M\u1EA1ch"
+   },
+   "Darn__Passwords_": {
+      "message": "Darn! Passwords!"
+   },
+   "Darwin": {
+      "message": "Darwin"
+   },
+   "Database": {
+      "message": "C\u01A1 s\u1EDF d\u1EEF li\u1EC7u"
+   },
+   "Date": {
+      "message": "Ng\u00E0y"
+   },
+   "Date_of_Birth": {
+      "message": "Ng\u00E0y sinh"
+   },
+   "December": {
+      "message": "Th\u00E1ng M\u01B0\u1EDDi Hai"
+   },
+   "Default": {
+      "message": "M\u1EB7c \u0110\u1ECBnh"
+   },
+   "Default_Form_Fill_Profile": {
+      "message": "H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu M\u1EB7c \u0110\u1ECBnh"
+   },
+   "Delete": {
+      "message": "X\u00F3a"
+   },
+   "Delete_Cache": {
+      "message": "X\u00F3a cache"
+   },
+   "Delete_Group": {
+      "message": "Xo\u00E1 Nh\u00F3m"
+   },
+   "Delete_Identity_": {
+      "message": "X\u00F3a Danh T\u00EDnh?"
+   },
+   "Delete_Selected": {
+      "message": "X\u00F3a Nh\u1EEFng M\u1EE5c \u0110\u00E3 Ch\u1ECDn"
+   },
+   "Delete_Site_": {
+      "message": "X\u00F3a trang web?"
+   },
+   "Delete_this_form_fill_profile": {
+      "message": "X\u00F3a h\u1ED3 s\u01A1 \u0111i\u1EC1n m\u1EABu n\u00E0y"
+   },
+   "Denmark": {
+      "message": "\u0110an M\u1EA1ch"
+   },
+   "Disable_Insecure_Chrome_Password_Manager": {
+      "message": "V\u00F4 hi\u1EC7u Tr\u00ECnh Qu\u1EA3n l\u00ED M\u1EADt kh\u1EA9u kh\u00F4ng an to\u00E0n c\u1EE7a Chrome"
+   },
+   "Disable_Multifactor_Authentication": {
+      "message": "T\u1EAFt X\u00E1c Th\u1EF1c \u0110a Nh\u00E2n T\u1ED1"
+   },
+   "Disable_Single_factor_Authentication": {
+      "message": "T\u1EAFt X\u00E1c Th\u1EF1c M\u1ED9t Nh\u00E2n T\u1ED1"
+   },
+   "Discard_changes_and_close_this_window": {
+      "message": "H\u1EE7y thay \u0111\u1ED5i v\u00E0 \u0111\u00F3ng c\u1EEDa s\u1ED5 n\u00E0y"
+   },
+   "Djibouti": {
+      "message": "Djibouti"
+   },
+   "Do_not_overwrite_fields_that_are_already_filled": {
+      "message": "\u0110\u1EEBng ghi \u0111\u00E8 l\u00EAn c\u00E1c \u00F4 \u0111\u00E3 \u0111\u01B0\u1EE3c \u0111i\u1EC1n"
+   },
+   "Do_not_re_prompt_for_": {
+      "message": "Kh\u00F4ng nh\u1EAFc l\u1EA1i cho"
+   },
+   "Do_you_like_LastPass_": {
+      "message": "B\u1EA1n c\u00F3 th\u00EDch LastPass?"
+   },
+   "Do_you_really_want_to_quit___You_cannot_use_LastPass_without_creating_an_account_": {
+      "message": "B\u1EA1n c\u00F3 th\u1EADt s\u1EF1 mu\u1ED1n tho\u00E1t? B\u1EA1n kh\u00F4ng th\u1EC3 d\u00F9ng LastPass m\u00E0 kh\u00F4ng t\u1EA1o m\u1ED9t t\u00E0i kho\u1EA3n."
+   },
+   "Dominica": {
+      "message": "Dominica"
+   },
+   "Dominican_Republic": {
+      "message": "C\u1ED9ng h\u00F2a Dominica"
+   },
+   "Down": {
+      "message": "Xu\u1ED1ng"
+   },
+   "Dr": {
+      "message": "Ti\u1EBFn s\u0129"
+   },
+   "Driver_s_License": {
+      "message": "B\u1EB1ng L\u00E1i Xe"
+   },
+   "Dutch": {
+      "message": "Ti\u1EBFng H\u00E0 Lan"
+   },
+   "ERROR__Moving_sites_between_shared_folders_is_currently_not_supported_": {
+      "message": "L\u1ED6I: Di chuy\u1EC3n c\u00E1c trang web v\u00E0o c\u00E1c th\u01B0 m\u1EE5c chia s\u1EBB hi\u1EC7n kh\u00F4ng \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3."
+   },
+   "ERROR__You_are_not_allowed_to_move_sites_out_of_shared_folders__Delete_is_the_only_supported_operation_": {
+      "message": "L\u1ED6I: B\u1EA1n kh\u00F4ng \u0111\u01B0\u1EE3c ph\u00E9p \u0111\u1EC3 di chuy\u1EC3n c\u00E1c trang web ra kh\u1ECFi c\u00E1c th\u01B0 m\u1EE5c chia s\u1EBB. X\u00F3a l\u00E0 ho\u1EA1t \u0111\u1ED9ng h\u1ED7 tr\u1EE3 duy nh\u1EA5t."
+   },
+   "Eastern_Time__US___Canada_": {
+      "message": "Gi\u1EDD Mi\u1EC1n \u0110\u00F4ng (M\u1EF9 & Canada)"
+   },
+   "Ecuador": {
+      "message": "Ecuador"
+   },
+   "Edit": {
+      "message": "Ch\u1EC9nh S\u1EEDa"
+   },
+   "Edit_Application": {
+      "message": "Ch\u1EC9nh s\u1EEDa \u1EE9ng d\u1EE5ng"
+   },
+   "Edit_Application_Fields": {
+      "message": "S\u1EEDa C\u00E1c \u00D4 \u0110i\u1EC1n C\u1EE7a \u1EE8ng D\u1EE5ng"
+   },
+   "Edit_Credit_Card_profile": {
+      "message": "S\u1EEDa H\u1ED3 S\u01A1 Th\u1EBB T\u00EDn D\u1EE5ng"
+   },
+   "Edit_Form_Fields": {
+      "message": "S\u1EEDa \u00D4 M\u1EABu"
+   },
+   "Edit_Form_Fill_profile": {
+      "message": "S\u1EEDa H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "Edit_Secure_Note": {
+      "message": "S\u1EEDa Ghi Ch\u00FA B\u1EA3o M\u1EADt"
+   },
+   "Edit_Secure_Notes": {
+      "message": "S\u1EEDa ghi ch\u00FA b\u1EA3o m\u1EADt"
+   },
+   "Edit_Site": {
+      "message": "S\u1EEDa trang"
+   },
+   "Edit_Site_Fields": {
+      "message": "S\u1EEDa \u00D4 Website"
+   },
+   "Egypt": {
+      "message": "Ai C\u1EADp"
+   },
+   "El_Salvador": {
+      "message": "El Salvador"
+   },
+   "Email": {
+      "message": "Email"
+   },
+   "Email_Account": {
+      "message": "T\u00E0i kho\u1EA3n Email"
+   },
+   "Email_address": {
+      "message": "\u0110\u1ECBa ch\u1EC9 email"
+   },
+   "Email_already_in_use__have_you_forgotten_your_password_": {
+      "message": "Email \u0111\u00E3 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng r\u1ED3i, b\u1EA1n c\u00F3 qu\u00EAn m\u1EADt kh\u1EA9u kh\u00F4ng?"
+   },
+   "Enable_Credit_Monitoring": {
+      "message": "K\u00EDch ho\u1EA1t t\u00EDnh n\u0103ng theo d\u00F5i t\u00EDn d\u1EE5ng"
+   },
+   "Enable_Free_Credit_Monitoring": {
+      "message": "K\u00EDch ho\u1EA1t t\u00EDnh n\u0103ng gi\u00E1m s\u00E1t t\u00EDn d\u1EE5ng mi\u1EC5n ph\u00ED"
+   },
+   "Enable_new_login_screen": {
+      "message": "B\u1EADt m\u00E0n h\u00ECnh \u0111\u0103ng nh\u1EADp m\u1EDBi"
+   },
+   "Encryption": {
+      "message": "M\u00E3 h\u00F3a"
+   },
+   "End": {
+      "message": "Cu\u1ED1i"
+   },
+   "English": {
+      "message": "Ti\u1EBFng Anh"
+   },
+   "English__United_Kingdom_": {
+      "message": "Ti\u1EBFng Anh (Anh)"
+   },
+   "Enter_PIN": {
+      "message": "Nh\u1EADp m\u00E3 PIN"
+   },
+   "Enter_arbitrary_notes": {
+      "message": "Th\u00EAm ghi ch\u00FA t\u00F9y \u00FD"
+   },
+   "Enter_your_smart_card_PIN_": {
+      "message": "Nh\u1EADp PIN th\u1EBB th\u00F4ng minh:"
+   },
+   "Enterprise": {
+      "message": "Doanh nghi\u1EC7p"
+   },
+   "Enterprise_Console": {
+      "message": "C\u1EEDa s\u1ED1 theo d\u00F5i \u0111a n\u0103ng"
+   },
+   "Equatorial_Guinea": {
+      "message": "Guinea X\u00EDch \u0111\u1EA1o"
+   },
+   "Eritrea": {
+      "message": "Eritrea"
+   },
+   "ErrorGetAcctsMsg": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i trong khi truy xu\u1EA5t trang LastPass c\u1EE7a b\u1EA1n. Vui l\u00F2ng c\u1ED1 g\u1EAFng \u0111\u0103ng nh\u1EADp l\u1EA1i \u0111\u1EC3 l\u1EA5y trang web c\u1EE7a b\u1EA1n."
+   },
+   "ErrorLoginMsg": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i trong khi \u0111\u0103ng nh\u1EADp v\u00E0o LastPass. Vui l\u00F2ng ki\u1EC3m tra k\u1EBFt n\u1ED1i Internet c\u1EE7a b\u1EA1n."
+   },
+   "ErrorSendingMsg": {
+      "message": "G\u1EB7p l\u1ED7i khi \u0111ang c\u1ED1 g\u1EAFng li\u00EAn l\u1EA1c v\u1EDBi m\u00E1y ch\u1EE7. Vui l\u00F2ng ki\u1EC3m tra k\u1EBFt n\u1ED1i Internet c\u1EE7a b\u1EA1n."
+   },
+   "ErrorSessionMsg": {
+      "message": "Phi\u00EAn l\u00E0m vi\u1EC7c LastPass c\u1EE7a b\u1EA1n \u0111\u00E3 h\u1EBFt h\u1EA1n. H\u00E3y \u0111\u0103ng nh\u1EADp l\u1EA1i."
+   },
+   "Error__This_folder_has_already_been_moved_": {
+      "message": "L\u1ED7i: Th\u01B0 m\u1EE5c n\u00E0y \u0111\u00E3 \u0111\u01B0\u1EE3c di chuy\u1EC3n?"
+   },
+   "Error_opening_attachment_": {
+      "message": "L\u1ED7i m\u1EDF t\u1EADp tin \u0111\u00EDnh k\u00E8m."
+   },
+   "Estonia": {
+      "message": "Estonia"
+   },
+   "Ethiopia": {
+      "message": "Ethiopia"
+   },
+   "Evening_number": {
+      "message": "S\u1ED1 ban \u0111\u00EAm"
+   },
+   "ExistingUsersOTPPrompt": {
+      "message": "LastPass \u0111\u00E3 c\u00F3 th\u1EC3 l\u01B0u gi\u1EEF m\u1ED9t m\u1EADt kh\u1EA9u m\u1ED9t l\u1EA7n (OTP) tr\u00EAn m\u00E1y t\u00EDnh c\u1EE7a b\u1EA1n, m\u1EADt kh\u1EA9u n\u00E0y c\u00F3 th\u1EC3 d\u00F9ng th\u1EC3 kh\u00F4i ph\u1EE5c t\u00E0i kho\u1EA3n c\u1EE7a b\u1EA1n n\u1EBFu b\u1EA1n qu\u00EAn m\u1EADt kh\u1EA9u ch\u00EDnh. M\u1EADt kh\u1EA9u m\u1ED9t l\u1EA7n n\u00E0y s\u1EBD kh\u00F4ng ho\u1EA1t \u0111\u1ED9ng cho \u0111\u1EBFn khi n\u00F3 \u0111\u01B0\u1EE3c k\u00EDch ho\u1EA1t tr\u00EAn m\u00E1y ch\u1EE7."
+   },
+   "Expand_All": {
+      "message": "M\u1EDF R\u1ED9ng T\u1EA5t C\u1EA3"
+   },
+   "Expiration": {
+      "message": "H\u1EBFt H\u1EA1n"
+   },
+   "Expiration_date": {
+      "message": "Ng\u00E0y h\u1EBFt h\u1EA1n"
+   },
+   "Export": {
+      "message": "Xu\u1EA5t"
+   },
+   "Export_To": {
+      "message": "Xu\u1EA5t Sang"
+   },
+   "Export_To_LastPass_CSV_File": {
+      "message": "Xu\u1EA5t Ra T\u1EADp CSV LastPass"
+   },
+   "FIPS_Mode": {
+      "message": "Ch\u1EBF \u0110\u1ED9 FIPS"
+   },
+   "Falkland_Islands__Malvinas_": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Falkland (Malvinas)"
+   },
+   "Faroe_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Faroe"
+   },
+   "Favorite": {
+      "message": "Y\u00EAu Th\u00EDch"
+   },
+   "Favoritesproper": {
+      "message": "Y\u00EAu Th\u00EDch"
+   },
+   "Fax_number": {
+      "message": "S\u1ED1 fax"
+   },
+   "February": {
+      "message": "Th\u00E1ng Hai"
+   },
+   "Feedback": {
+      "message": "Ph\u1EA3n H\u1ED3i"
+   },
+   "Female": {
+      "message": "N\u1EEF"
+   },
+   "Fields_": {
+      "message": "Tr\u01B0\u1EDDng:"
+   },
+   "Fiji": {
+      "message": "Fiji"
+   },
+   "Fiji__Kamchatka__Marshall_Is_": {
+      "message": "Fiji, Kamchatka, \u0110\u1EA3o Marshall"
+   },
+   "File": {
+      "message": "T\u1EADp Tin"
+   },
+   "File_too_large__it_must_be_less_than_5MB_": {
+      "message": "File qu\u00E1 l\u1EDBn, n\u00F3 ph\u1EA3i \u00EDt h\u01A1n 5MB."
+   },
+   "Files": {
+      "message": "T\u1EADp Tin"
+   },
+   "Fill": {
+      "message": "\u0110i\u1EC1n"
+   },
+   "Fill_Current": {
+      "message": "\u0110i\u1EC1n M\u1EABu Hi\u1EC7n T\u1EA1i"
+   },
+   "Fill_Form": {
+      "message": "\u0110i\u1EC1n M\u1EABu"
+   },
+   "Fill_Forms": {
+      "message": "\u0110i\u1EC1n M\u1EABu"
+   },
+   "Fill_In_Default_Form_Fill_Profile": {
+      "message": "\u0110i\u1EC1n V\u00E0o H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu M\u1EB7c \u0110\u1ECBnh"
+   },
+   "Fill_In_Next_Login__When_Multiple_": {
+      "message": "\u0110i\u1EC1n \u0111\u0103ng nh\u1EADp ti\u1EBFp theo (n\u1EBFu c\u00F3 nhi\u1EC1u \u0111\u0103ng nh\u1EADp)"
+   },
+   "Fill_In_Previous_Login__When_Multiple_": {
+      "message": "\u0110i\u1EC1n \u0111\u0103ng nh\u1EADp k\u1EC1 tr\u01B0\u1EDBc (n\u1EBFu c\u00F3 nhi\u1EC1u \u0111\u0103ng nh\u1EADp)"
+   },
+   "Fill_or_Edit_Form_Fill_Data": {
+      "message": "\u0110i\u1EC1n ho\u1EB7c S\u1EEDa m\u1EABu d\u1EEF li\u1EC7u \u0111i\u1EC1n"
+   },
+   "FillableFormDetected": {
+      "message": "Ph\u00E1t hi\u1EC7n m\u1ED9t bi\u1EC3u m\u1EABu c\u00F3 th\u1EC3 \u0111i\u1EC1n tr\u00EAn trang n\u00E0y."
+   },
+   "Filter": {
+      "message": "L\u1ECDc"
+   },
+   "Find_a_site": {
+      "message": "T\u00ECm m\u1ED9t website"
+   },
+   "Finland": {
+      "message": "Ph\u1EA7n Lan"
+   },
+   "Finnish": {
+      "message": "Ph\u1EA7n Lan"
+   },
+   "FireForm": {
+      "message": "FireForm"
+   },
+   "Firefox_Password_Manager": {
+      "message": "Tr\u00ECnh Qu\u1EA3n L\u00FD M\u1EADt Kh\u1EA9u Firefox"
+   },
+   "First_3_digits_of_your_phone_number": {
+      "message": "3 ch\u1EEF s\u1ED1 \u0111\u1EA7u ti\u00EAn c\u1EE7a s\u1ED1 \u0111i\u1EC7n tho\u1EA1i c\u1EE7a b\u1EA1n"
+   },
+   "First_name": {
+      "message": "T\u00EAn"
+   },
+   "For_each_coordinate_listed_below__find_the_value_on_your_grid_and_enter_the_value_": {
+      "message": "V\u1EDBi m\u1ED7i t\u1ECDa \u0111\u1ED9 li\u1EC7t k\u00EA b\u00EAn d\u01B0\u1EDBi, h\u00E3y t\u00ECm gi\u00E1 tr\u1ECB tr\u00EAn l\u01B0\u1EDBi v\u00E0 nh\u1EADp gi\u00E1 tr\u1ECB v\u00E0o."
+   },
+   "FormFill": {
+      "message": "\u0110i\u1EC1nM\u1EABu"
+   },
+   "FormFill_Profiles": {
+      "message": "H\u1ED3 s\u01A1 \u0110i\u1EC1nM\u1EABu"
+   },
+   "Form_Fill": {
+      "message": "\u0110i\u1EC1n M\u1EABu"
+   },
+   "Form_Fill_Profile": {
+      "message": "M\u1EABu \u0110i\u1EC1n H\u1ED3 S\u01A1"
+   },
+   "Form_Fill_Profiles": {
+      "message": "H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "Form_Name_": {
+      "message": "M\u1EABu t\u00EAn"
+   },
+   "Forums": {
+      "message": "Di\u1EC5n \u0110\u00E0n"
+   },
+   "France": {
+      "message": "Ph\u00E1p"
+   },
+   "French": {
+      "message": "Ph\u00E1p"
+   },
+   "French_Guiana": {
+      "message": "Guyane thu\u1ED9c Ph\u00E1p"
+   },
+   "French_Polynesia": {
+      "message": "Polyn\u00E9sie thu\u1ED9c Ph\u00E1p"
+   },
+   "French_Southern_Territories": {
+      "message": "L\u00E3nh th\u1ED5 Ph\u00EDa Nam c\u1EE7a Ph\u00E1p"
+   },
+   "French__Canada_": {
+      "message": "Ti\u1EBFng Ph\u00E1p (Canada)"
+   },
+   "Full_path_of_file_to_import_": {
+      "message": "\u0110\u01B0\u1EDDng d\u1EABn \u0111\u1EA7y \u0111\u1EE7 c\u1EE7a t\u1EADp tin nh\u1EADp kh\u1EA9u:"
+   },
+   "Full_path_of_the_file_to_import_": {
+      "message": "\u0110\u01B0\u1EDDng d\u1EABn \u0111\u1EA7y \u0111\u1EE7 c\u1EE7a t\u1EADp tin \u0111\u1EC3 nh\u1EADp kh\u1EA9u:"
+   },
+   "GET_FREE_PREMIUM": {
+      "message": "\u0110\u0102NG K\u00DD PREMIUM MI\u1EC4N PH\u00CD"
+   },
+   "GMT_5": {
+      "message": "GMT+5"
+   },
+   "GMT_7": {
+      "message": "GMT+7"
+   },
+   "GMT_9": {
+      "message": "GMT+9"
+   },
+   "GMT_Dublin__Edinburgh__Lisbon__London": {
+      "message": "GMT Dublin, Edinburgh, Lisbon, London"
+   },
+   "GMT__Dublin__Edinburgh__Lisbon__London": {
+      "message": "GMT: Dublin, Edinburgh, Lisbon, Lu\u00E2n \u0110\u00F4n"
+   },
+   "Gabon": {
+      "message": "Gabon"
+   },
+   "Gambia": {
+      "message": "Gambia"
+   },
+   "Gender": {
+      "message": "Gi\u1EDBi T\u00EDnh"
+   },
+   "General": {
+      "message": "Chung"
+   },
+   "Generate": {
+      "message": "T\u1EA1o"
+   },
+   "GeneratePassword": {
+      "message": "N\u1EBFu b\u1EA1n \u0111ang t\u1EA1o m\u1ED9t t\u00E0i kho\u1EA3n hay thay \u0111\u1ED5i m\u1EADt kh\u1EA9u, nh\u1EA5n n\u00FAt t\u1EA1o \u0111\u1EC3 t\u1EA1o ra m\u1ED9t m\u1EADt kh\u1EA9u \u0111\u1ED9c nh\u1EA5t, an to\u00E0n v\u1EDBi LastPass."
+   },
+   "Generate_Password": {
+      "message": "T\u1EA1o M\u1EADt Kh\u1EA9u"
+   },
+   "Generate_Secure_Password": {
+      "message": "T\u1EA1o M\u1EADt Kh\u1EA9u An To\u00E0n"
+   },
+   "Generated_Password_for": {
+      "message": "\u0110\u00E3 T\u1EA1o M\u1EADt Kh\u1EA9u cho"
+   },
+   "Generic": {
+      "message": "Chung"
+   },
+   "Generic_CSV_File": {
+      "message": "T\u1EADp Tin CSV N\u00F3i Chung"
+   },
+   "Georgia": {
+      "message": "Gruzia"
+   },
+   "German": {
+      "message": "\u0110\u1EE9c"
+   },
+   "Germany": {
+      "message": "\u0110\u1EE9c"
+   },
+   "Ghana": {
+      "message": "Ghana"
+   },
+   "Gibraltar": {
+      "message": "Gibraltar"
+   },
+   "Go_Premium_": {
+      "message": "N\u00E2ng c\u1EA5p t\u00E0i kho\u1EA3n!"
+   },
+   "Go_to_URL": {
+      "message": "\u0110\u1EBFn URL"
+   },
+   "Google_Authenticator_Multifactor_Authentication": {
+      "message": "S\u1EF1 x\u00E1c nh\u1EADn \u0111a c\u1EA5p c\u1EE7a tr\u00ECnh x\u00E1c nh\u1EADp Google"
+   },
+   "Google_Chrome": {
+      "message": "Google Chrome"
+   },
+   "Google_Chrome_Password_Manager": {
+      "message": "Tr\u00ECnh qu\u1EA3n l\u00FD M\u1EADt kh\u1EA9u Google Chrome"
+   },
+   "Google_Chrome_requires_that_extensions_use_the_same_language_as_the_browser__so_in_order_to_switch_LastPass_s_language__please_change_the_main_browser_language_under_Chrome_s_Options_": {
+      "message": "Google Chrome b\u1EAFt bu\u1ED9c c\u00E1c tr\u00ECnh m\u1EDF r\u1ED9ng ph\u1EA3i d\u00F9ng c\u00F9ng ng\u00F4n ng\u1EEF v\u1EDBi tr\u00ECnh duy\u1EC7t, v\u00EC v\u1EADy \u0111\u1EC3 chuy\u1EC3n \u0111\u1ED5i ng\u00F4n ng\u1EEF LastPass, xin \u0111\u1ED5i ng\u00F4n ng\u1EEF ch\u00EDnh c\u1EE7a tr\u00ECnh duy\u1EC7t trong Chrome's Options."
+   },
+   "Greece": {
+      "message": "Hy L\u1EA1p"
+   },
+   "Greenland": {
+      "message": "Greenland"
+   },
+   "Greenland__Brasilia__Montevideo": {
+      "message": "Greenland, Brasilia, Montevideo"
+   },
+   "Grenada": {
+      "message": "Grenada"
+   },
+   "Group_": {
+      "message": "Nh\u00F3m:"
+   },
+   "Group_Name": {
+      "message": "T\u00EAn Nh\u00F3m"
+   },
+   "Groups": {
+      "message": "Nh\u00F3m"
+   },
+   "Guadeloupe": {
+      "message": "Guadeloupe"
+   },
+   "Guam": {
+      "message": "Guam"
+   },
+   "Guatemala": {
+      "message": "Guatemala"
+   },
+   "Guernsey": {
+      "message": "Guernsey"
+   },
+   "Guinea": {
+      "message": "Guinea"
+   },
+   "Guinea_Bissau": {
+      "message": "Guinea-Bissau"
+   },
+   "Guyana": {
+      "message": "Guyana"
+   },
+   "HP_Password_Safe": {
+      "message": "HP Password Safe"
+   },
+   "Haiti": {
+      "message": "Haiti"
+   },
+   "Harare__Pretoria": {
+      "message": "Harare, Pretoria"
+   },
+   "Hawaii": {
+      "message": "Hawaii"
+   },
+   "Heard_Island_and_Mcdonald_Islands": {
+      "message": "\u0110\u1EA3o Heard v\u00E0 Qu\u1EA7n \u0111\u1EA3o McDonald"
+   },
+   "Height": {
+      "message": "Cao"
+   },
+   "Help_Translate": {
+      "message": "Gi\u00FAp D\u1ECBch"
+   },
+   "Help___": {
+      "message": "Tr\u1EE3 Gi\u00FAp..."
+   },
+   "Help_spread_the_word": {
+      "message": "Gi\u00FAp th\u00F4ng b\u00E1o cho m\u1ECDi ng\u01B0\u1EDDi"
+   },
+   "Hide_Context_Menu_Options": {
+      "message": "\u1EA8n T\u00F9y Ch\u1ECDn Tr\u00ECnh \u0110\u01A1n Ng\u1EEF C\u1EA3nh"
+   },
+   "Highlight_input_boxes": {
+      "message": "T\u00F4 m\u00E0u \u00F4 nh\u1EADp li\u1EC7u."
+   },
+   "History": {
+      "message": "L\u1ECBch S\u1EED"
+   },
+   "Holy_See__Vatican_City_State_": {
+      "message": "T\u00F2a Th\u00E1nh (Vatican)"
+   },
+   "Home": {
+      "message": "Trang Ch\u1EE7"
+   },
+   "Honduras": {
+      "message": "Honduras"
+   },
+   "Hong_Kong": {
+      "message": "H\u1ED3ng K\u00F4ng"
+   },
+   "Hostname": {
+      "message": "T\u00EAn Ch\u1EE7"
+   },
+   "HotKeys": {
+      "message": "Ph\u00EDm N\u00F3ng"
+   },
+   "Hungarian": {
+      "message": "Hungary"
+   },
+   "Hungary": {
+      "message": "Hungary"
+   },
+   "IBAN_Number": {
+      "message": "S\u1ED1 IBAN"
+   },
+   "IMPORT_": {
+      "message": "NH\u1EACP?"
+   },
+   "IT_IS_CRITICAL_THAT_YOU_NEVER_FORGET_YOUR_NEW_LASTPASS_PASSWORD_": {
+      "message": "C\u1ED0T Y\u1EBEU L\u00C0 B\u1EA0N KH\u00D4NG BAO GI\u1EDC \u0110\u01AF\u1EE2C QU\u00CAN M\u1EACT KH\u1EA8U LASTPASS M\u1EDAI C\u1EE6A B\u1EA0N."
+   },
+   "I_Forgot_my_Password": {
+      "message": "Qu\u00EAn m\u1EADt kh\u1EA9u"
+   },
+   "I_forgot_my_password__Help_": {
+      "message": "Qu\u00EAn m\u1EADt kh\u1EA9u?"
+   },
+   "I_have_read_and_agree_with_the": {
+      "message": "T\u00F4i \u0111\u00E3 \u0111\u1ECDc v\u00E0 \u0111\u1ED3ng \u00FD v\u1EDBi"
+   },
+   "I_understand_that_my_encrypted_data_will_be_sent_to_LastPass": {
+      "message": "T\u00F4i hi\u1EC3u r\u1EB1ng d\u1EEF li\u1EC7u m\u00E3 h\u00F3a c\u1EE7a t\u00F4i s\u1EBD \u0111\u01B0\u1EE3c g\u1EEDi \u0111\u1EBFn LastPass"
+   },
+   "Iceland": {
+      "message": "Iceland"
+   },
+   "Identities": {
+      "message": "Danh T\u00EDnh"
+   },
+   "Identity": {
+      "message": "Danh T\u00EDnh"
+   },
+   "If_checked__you_will_be_asked_to_re_enter_your_master_password_before_being_able_to_access_this_Form_Fill_profile": {
+      "message": "N\u1EBFu ch\u1ECDn, b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c y\u00EAu c\u1EA7u nh\u1EADp l\u1EA1i m\u1EADt kh\u1EA9u ch\u1EE7 tr\u01B0\u1EDBc khi c\u00F3 th\u1EC3 truy c\u1EADp v\u00E0o H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu n\u00E0y"
+   },
+   "If_checked__your_credit_report_will_be_regularly_monitored_and_you_will_be_alerted_if_any_suspicious_activity_occurs_": {
+      "message": "N\u1EBFu ch\u1ECDn, b\u00E1o c\u00E1o t\u00EDn d\u1EE5ng c\u1EE7a b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c th\u01B0\u1EDDng xuy\u00EAn theo d\u00F5i v\u00E0 b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c c\u1EA3nh b\u00E1o n\u1EBFu b\u1EA5t k\u1EF3 ho\u1EA1t \u0111\u1ED9ng \u0111\u00E1ng ng\u1EDD x\u1EA3y ra."
+   },
+   "If_you_already_have_a_LastPass_account_you_can_close_this_window_and_login_": {
+      "message": "N\u1EBFu b\u1EA1n \u0111\u00E3 c\u00F3 m\u1ED9t t\u00E0i kho\u1EA3n LastPass b\u1EA1n c\u00F3 th\u1EC3 \u0111\u00F3ng c\u1EEDa s\u1ED5 n\u00E0y v\u00E0 \u0111\u0103ng nh\u1EADp."
+   },
+   "If_you_do_end_up_forgetting_your_LastPass_master_password_": {
+      "message": "N\u1EBFu r\u1ED1t cu\u1ED9c b\u1EA1n v\u1EABn qu\u00EAn m\u1EADt kh\u1EA9u ch\u1EE7 LastPass c\u1EE7a b\u1EA1n,"
+   },
+   "If_you_forgot_your_answer__click_here_to_reset_your_security_question": {
+      "message": "N\u1EBFu b\u1EA1n qu\u00EAn c\u00E2u tr\u1EA3 l\u1EDDi, b\u1EA5m v\u00E0o \u0111\u00E2y \u0111\u1EC3 kh\u00F4i ph\u1EE5c c\u00E2u h\u1ECFi b\u1EA3o m\u1EADt"
+   },
+   "If_you_have_another_format_that_LastPass_doesn_t_currently_support_you_can_attempt_to_save_your_data_as_a_CSV_file__YOU_MUST_MODIFY_THE_FIRST_ROW_OF_THE_CSV_FILE_FOR_LASTPASS_TO_RECOGNIZE_IT__The_first_row_s_column_names_should_be_properly_setup_for_the_data_in_the_columns_Possible_first_row_names___url_username_password_extra_name_grouping___extra__means__notes__and__grouping__is_what_group_it_should_be_in___You_do_not_have_to_use_all_the_column_names_and_they_don_t_need_to_be_in_any_order___For_example_your_file_s_first_row_might_be_like___name_username_password_url__If_you_want_to_import_a_Secure_Note_instead_of_a_Site__simply_ensure_the__url____username___and__password__columns_are_left_blank__or_omit_the__url____username___and_or__password__columns_entirely___and_ensure_the__extra__column_is_not_blank___As_long_as_these_two_things_have_been_done__the_record_will_automatically_be_imported_as_a_Secure_Note_instead_of_a_Site___This_should_be_very_simple__just_open_your_saved_CSV_file_in_Excel_and_make_sure_the_top_row_has_the_appropriate_name_from_above_for_what_it_is___Save_it__then_import_the_resulting_file_": {
+      "message": "N\u1EBFu b\u1EA1n c\u00F3 m\u1ED9t \u0111\u1ECBnh d\u1EA1ng kh\u00E1c m\u00E0 LastPass ch\u01B0a h\u1ED7 tr\u1EE3, b\u1EA1n c\u00F3 th\u1EC3 l\u01B0u n\u00F3 th\u00E0nh m\u1ED9t t\u1EADp tin CSV\n\nB\u1EA0N PH\u1EA2I \u0110I\u1EC0U CH\u1EC8NH H\u00C0NG \u0110\u1EA6U TI\u00CAN C\u1EE6A T\u1EACP TIN CSV \u0110\u1EC2 LASTPASS C\u00D3 TH\u1EC2 NH\u1EACN D\u1EA0NG \u0110\u01AF\u1EE2C N\u00D3\n\nT\u00EAn c\u1ED9t t\u1EA1i h\u00E0ng \u0111\u1EA7u ti\u00EAn ph\u1EA3i \u0111\u01B0\u1EE3c \u0111\u1ECBnh d\u1EA1ng \u0111\u00FAng v\u1EDBi d\u1EEF li\u1EC7u t\u1EA1i c\u00E1c c\u1ED9t\nC\u00E1c t\u00EAn h\u00E0ng \u0111\u1EA7u ti\u00EAn c\u00F3 th\u1EC3 l\u00E0:\n\nurl,username,password,extra,name,grouping\n\n'extra' c\u00F3 ngh\u0129a l\u00E0 'ghi ch\u00FA' v\u00E0 't\u1EA1o nh\u00F3m' l\u00E0 nh\u00F3m m\u00E0 th\u00F4ng tin thu\u1ED9c v\u1EC1. B\u1EA1n kh\u00F4ng ph\u1EA3i s\u1EED d\u1EE5ng m\u1ECDi t\u00EAn c\u1ED9t v\u00E0 ch\u00FAng c\u0169ng kh\u00F4ng c\u1EA7n ph\u1EA3i theo \u0111\u00FAng m\u1ED9t th\u1EE9 t\u1EF1 c\u1ED1 \u0111\u1ECBnh. V\u00ED d\u1EE5 h\u00E0ng \u0111\u1EA7u ti\u00EAn c\u1EE7a t\u1EADp tin c\u1EE7a b\u1EA1n c\u00F3 th\u1EC3:\n\nname,username,password,url\n\nN\u1EBFu b\u1EA1n mu\u1ED1n nh\u1EADp m\u1ED9t Ghi Ch\u00FA An To\u00E0n thay v\u00EC m\u1ED9t trang web, ch\u1EC9 c\u1EA7n b\u1EA3o \u0111\u1EA3m c\u00E1c c\u1ED9t 'url', 'username', v\u00E0 'password' ph\u1EA3i \u0111\u1EC3 tr\u1ED1ng (ho\u1EB7c b\u1ECF lu\u00F4n c\u00E1c c\u1ED9t 'url', 'username', v\u00E0/ho\u1EB7c 'password'), v\u00E0 b\u1EA3o \u0111\u1EA3m r\u1EB1ng c\u1ED9t 'extra' kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng. Mi\u1EC5n l\u00E0 hai \u0111i\u1EC1u n\u00E0y \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n, b\u1EA3n ghi \u0111\u00F3 s\u1EBD t\u1EF1 \u0111\u1ED9ng \u0111\u01B0\u1EE3c nh\u1EADp th\u00E0nh Ghi Ch\u00FA An To\u00E0n thay v\u00EC Website.\n\nR\u1EA5t \u0111\u01A1n gi\u1EA3n, ch\u1EC9 c\u1EA7n m\u1EDF t\u1EADp tin CSV \u0111\u00E3 l\u01B0u c\u1EE7a b\u1EA1n trong Excel v\u00E0 ch\u1EAFc ch\u1EAFn h\u00E0ng \u0111\u1EA7u ti\u00EAn c\u00F3 t\u00EAn th\u00EDch h\u1EE3p nh\u01B0 \u0111\u00E3 n\u00F3i \u1EDF tr\u00EAn.  L\u01B0u n\u00F3 l\u1EA1i, r\u1ED3i nh\u1EADp t\u1EADp tin cu\u1ED1i v\u00E0o."
+   },
+   "If_you_lost_your_Google_Authenticator_device__click_here_to_disable_Google_Authenticator_authentication": {
+      "message": "N\u1EBFu b\u1EA1n m\u1EA5t thi\u1EBFt b\u1ECB nh\u1EADn d\u1EA1ng Google c\u1EE7a b\u1EA1n, nh\u1EA5n v\u00E0o \u0111\u00E2y \u0111\u1EC3 vo hi\u1EC7u h\u00F3a s\u1EF1 x\u00E1c nh\u1EADn qua thi\u1EBFt b\u1ECB nh\u1EADn d\u1EA1ng Google"
+   },
+   "If_you_lost_your_Sesame_device__click_here_to_disable_Sesame_authentication": {
+      "message": "N\u1EBFu b\u1EA1n m\u1EA5t thi\u1EBFt b\u1ECB Sesame, h\u00E3y nh\u1EA5n v\u00E0o \u0111\u00E2y \u0111\u1EC3 t\u1EAFt ch\u1EE9ng th\u1EF1c b\u1EB1ng Sesame"
+   },
+   "If_you_lost_your_YubiKey_device__click_here_to_disable_YubiKey_authentication": {
+      "message": "N\u1EBFu b\u1EA1n m\u1EA5t thi\u1EBFt b\u1ECB YubiKey, b\u1EA5m v\u00E0o \u0111\u00E2y \u0111\u1EC3 t\u1EAFt t\u00EDnh n\u0103ng x\u00E1c th\u1EF1c YubiKey"
+   },
+   "If_you_lost_your_grid__click_here_to_disable_grid_authentication": {
+      "message": "N\u1EBFu b\u1EA1n m\u1EA5t l\u01B0\u1EDBi, nh\u1EA5n v\u00E0o \u0111\u00E2y \u0111\u1EC3 t\u1EAFt x\u00E1c th\u1EF1c l\u01B0\u1EDBi"
+   },
+   "Import": {
+      "message": "Nh\u1EADp "
+   },
+   "Import_From": {
+      "message": "Nh\u1EADp T\u1EEB"
+   },
+   "Import_Your_Data": {
+      "message": "Nh\u1EADp D\u1EEF Li\u1EC7u C\u1EE7a B\u1EA1n"
+   },
+   "Importing_your_data_to_your_LastPass_vault_will_secure_it_and_protect_you_against_identity_theft__All_imported_data_remains_COMPLETELY_confidential__the_only_person_who_can_view_YOUR_data_is_YOU_": {
+      "message": "Nh\u1EADp d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n v\u00E0o H\u1EA7m LastPass s\u1EBD \u0111\u1EA3m b\u1EA3o an to\u00E0n cho m\u1EADt kh\u1EA9u  v\u00E0 b\u1EA3o v\u1EC7 kh\u1ECFi b\u1ECB tr\u1ED9m. T\u1EA5t c\u1EA3 d\u1EEF li\u1EC7u \u0111\u00E3 nh\u1EADp s\u1EBD \u0111\u01B0\u1EE3c gi\u1EEF b\u00ED m\u1EADt ho\u00E0n to\u00E0n: ng\u01B0\u1EDDi duy nh\u1EA5t c\u00F3 th\u1EC3 xem ch\u00FAng l\u00E0 B\u1EA0N."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_enable_access_for_assistive_devices_": {
+      "message": "\u0110\u1EC3 LastPass c\u00F3 th\u1EC3 \u0111i\u1EC1n v\u00E0o c\u00E1c h\u1ED9p tho\u1EA1i x\u00E1c th\u1EF1c c\u01A1 b\u1EA3n, b\u1EA1n c\u1EA7n ph\u1EA3i k\u00EDch ho\u1EA1t quy\u1EC1n truy c\u1EADp cho c\u00E1c thi\u1EBFt b\u1ECB h\u1ED7 tr\u1EE3."
+   },
+   "In_order_for_LastPass_to_fill_into_basic_authentication_dialogs__you_need_to_install_the_binary_version_of_LastPass_for_Chrome_": {
+      "message": "\u0110\u1EC3 LastPass c\u00F3 th\u1EC3 \u0111i\u1EC1n v\u00E0o c\u00E1c h\u1ED9p tho\u1EA1i x\u00E1c th\u1EF1c c\u01A1 b\u1EA3n, b\u1EA1n c\u1EA7n ph\u1EA3i c\u00E0i b\u1EA3n c\u00E0i \u0111\u1EB7t c\u1EE7a LastPass cho Chrome."
+   },
+   "India": {
+      "message": "\u1EA4n \u0110\u1ED9"
+   },
+   "Indiana__Bogota__Lima__Quito__Rio_Branco": {
+      "message": "Indiana, Bogota, Lima, Quito, Rio Branco"
+   },
+   "Indonesia": {
+      "message": "Indonesia"
+   },
+   "Install": {
+      "message": "C\u00E0i \u0111\u1EB7t"
+   },
+   "Install_the_LastPass_Library_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "C\u00E0i \u0111\u1EB7t Th\u01B0 vi\u1EC7n LastPass cho Chrome \u0111\u1EC3 cho ph\u00E9p t\u1EF1 \u0111\u1ED9ng \u0111\u0103ng xu\u1EA5t khi nh\u00E0n r\u1ED7i"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_automatic_logoff_after_idle": {
+      "message": "C\u00E0i \u0111\u1EB7t phi\u00EAn b\u1EA3n nh\u1ECB ph\u00E2n c\u1EE7a LastPass cho Chrome \u0111\u1EC3 cho ph\u00E9p t\u1EF1 \u0111\u1ED9ng \u0111\u0103ng xu\u1EA5t sau khi r\u1EA3nh r\u1ED7i"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_importing_passwords_from_Google_Chrome_password_manager": {
+      "message": "C\u00E0i \u0111\u1EB7t b\u1EA3n \u0111\u00E3 bi\u00EAn d\u1ECBch c\u1EE7a LastPass cho Chrome \u0111\u1EC3 k\u00EDch ho\u1EA1t nh\u1EADp kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB tr\u00ECnh qu\u1EA3n l\u00FD m\u1EADt kh\u1EA9u Google Chrome"
+   },
+   "Install_the_binary_version_of_LastPass_for_Chrome_to_enable_sharing_login_state_between_other_browsers": {
+      "message": "C\u00E0i \u0111\u1EB7t phi\u00EAn b\u1EA3n nh\u1ECB ph\u00E2n c\u1EE7a LastPass cho Chrome \u0111\u1EC3 cho ph\u00E9p chia s\u1EBB t\u00ECnh tr\u1EA1ng \u0111\u0103ng nh\u1EADp gi\u1EEFa c\u00E1c tr\u00ECnh duy\u1EC7t"
+   },
+   "Instant_Messenger": {
+      "message": "Tin nh\u1EAFn t\u1EE9c th\u00EC"
+   },
+   "Instructions": {
+      "message": "H\u01B0\u1EDBng D\u1EABn"
+   },
+   "Insurance": {
+      "message": "B\u1EA3o hi\u1EC3m"
+   },
+   "International_Date_Line_West": {
+      "message": "Ng\u00E0y Qu\u1ED1c t\u1EBF \u0111\u01B0\u1EDDng T\u00E2y"
+   },
+   "Invalid_Password_": {
+      "message": "M\u1EADt Kh\u1EA9u Kh\u00F4ng H\u1EE3p L\u1EC7."
+   },
+   "Invalid_email_address__try_again": {
+      "message": "\u0110\u1ECBa ch\u1EC9 email kh\u00F4ng h\u1EE3p l\u1EC7, h\u00E3y th\u1EED l\u1EA1i"
+   },
+   "Invalid_file_type__it_must_be_an_image_that_can_be_displayed_by_your_browser_": {
+      "message": "Lo\u1EA1i t\u1EADp tin kh\u00F4ng h\u1EE3p l\u1EC7, n\u00F3 ph\u1EA3i l\u00E0 m\u1ED9t h\u00ECnh \u1EA3nh c\u00F3 th\u1EC3 \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB b\u1EDFi tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n."
+   },
+   "Iran__Islamic_Republic_Of_": {
+      "message": "Iran (C\u1ED9ng h\u00F2a H\u1ED3i gi\u00E1o)"
+   },
+   "Iraq": {
+      "message": "Iraq"
+   },
+   "Ireland": {
+      "message": "Ireland"
+   },
+   "Islamabad__Karachi__Tashkent": {
+      "message": "Islamabad, Karachi, Tashkent"
+   },
+   "Isle_of_Man": {
+      "message": "\u0110\u1EA3o Man"
+   },
+   "Israel": {
+      "message": "Israel"
+   },
+   "Issue_number": {
+      "message": "S\u1ED1 ph\u00E1t h\u00E0nh"
+   },
+   "Issued_Date": {
+      "message": "Ng\u00E0y C\u1EA5p"
+   },
+   "Issuing_Authority": {
+      "message": "C\u01A1 Quan C\u1EA5p"
+   },
+   "It_is_recommended_that_you_delete_the_attachment_file_after_you_use_it_": {
+      "message": "Khuy\u1EBFn c\u00E1o b\u1EA1n n\u00EAn x\u00F3a t\u1EADp tin \u0111\u00EDnh k\u00E8m sau khi b\u1EA1n d\u00F9ng n\u00F3."
+   },
+   "Italian": {
+      "message": "\u00DD"
+   },
+   "Italy": {
+      "message": "\u00DD"
+   },
+   "Jamaica": {
+      "message": "Jamaica"
+   },
+   "January": {
+      "message": "Th\u00E1ng M\u1ED9t"
+   },
+   "Japan": {
+      "message": "Nh\u1EADt B\u1EA3n"
+   },
+   "Japanese": {
+      "message": "Ti\u1EBFng Nh\u1EADt"
+   },
+   "Jersey": {
+      "message": "Jersey"
+   },
+   "Jordan": {
+      "message": "Jordan"
+   },
+   "July": {
+      "message": "Th\u00E1ng B\u1EA3y"
+   },
+   "June": {
+      "message": "Th\u00E1ng S\u00E1u"
+   },
+   "Kabul": {
+      "message": "Kabul"
+   },
+   "Kathmandu": {
+      "message": "Kathmandu"
+   },
+   "Kazakhstan": {
+      "message": "Kazakhstan"
+   },
+   "KeePass": {
+      "message": "KeePass"
+   },
+   "Keep_a_history_of_my_logins_and_form_fills": {
+      "message": "Gi\u1EEF l\u1ECBch s\u1EED c\u00E1c l\u1EA7n \u0111\u0103ng nh\u1EADp v\u00E0 \u0111i\u1EC1n m\u1EABu c\u1EE7a t\u00F4i"
+   },
+   "Kenya": {
+      "message": "Kenya"
+   },
+   "Key_Index": {
+      "message": "Kh\u00F3a Index"
+   },
+   "Key_Type": {
+      "message": "Lo\u1EA1i Kh\u00F3a"
+   },
+   "Kiribati": {
+      "message": "Kiribati"
+   },
+   "Korea__Democratic_People_s_Republic_Of": {
+      "message": "Tri\u1EC1u Ti\u00EAn, C\u1ED9ng h\u00F2a D\u00E2n ch\u1EE7 Nh\u00E2n d\u00E2n"
+   },
+   "Korea__Republic_Of": {
+      "message": "H\u00E0n Qu\u1ED1c"
+   },
+   "Korean": {
+      "message": "H\u00E0n Qu\u1ED1c"
+   },
+   "Kuwait": {
+      "message": "Kuwait"
+   },
+   "Kuwait__Riyadh__Nairobi__Tbilisi": {
+      "message": "Kuwait, Riyadh, Nairobi, Tbilisi"
+   },
+   "Kyrgyzstan": {
+      "message": "Kyrgyzstan"
+   },
+   "La_Paz": {
+      "message": "La Paz"
+   },
+   "Language": {
+      "message": "Ng\u00F4n Ng\u1EEF"
+   },
+   "Lao_People_s_Democratic_Republic": {
+      "message": "L\u00E0o, C\u1ED9ng h\u00F2a D\u00E2n ch\u1EE7 Nh\u00E2n d\u00E2n"
+   },
+   "LastPass": {
+      "message": "LastPass"
+   },
+   "LastPass_CSV_File": {
+      "message": "T\u1EADp tin LastPass CSV"
+   },
+   "LastPass_Chrome_Toolbar": {
+      "message": "Thanh c\u00F4ng c\u1EE5 LastPass cho Chrome"
+   },
+   "LastPass_Encrypted_File": {
+      "message": "T\u1EADp Tin M\u00E3 H\u00F3a LastPass"
+   },
+   "LastPass_Grid_Multifactor_Authentication": {
+      "message": "X\u00E1c Th\u1EF1c \u0110a Nh\u00E2n T\u1ED1 L\u01B0\u1EDBi LastPass"
+   },
+   "LastPass_Menu": {
+      "message": "Th\u1EF1c \u0111\u01A1n LastPass"
+   },
+   "LastPass_can_automatically_fill_web_page_forms_with_a_single_click___Using_automatic__Form_Filling__will_not_only_save_you_time__but_will_also_enhance_your_security_when_shopping_online_": {
+      "message": "LastPass c\u00F3 th\u1EC3 t\u1EF1 \u0111\u1ED9ng \u0111i\u1EC1n c\u00E1c m\u1EABu \u0111\u01A1n tr\u00EAn trang web ch\u1EC9 b\u1EB1ng m\u1ED9t c\u00FA nh\u1EA5n chu\u1ED9t. D\u00F9ng '\u0110i\u1EC1n \u0110\u01A1n' t\u1EF1 \u0111\u1ED9ng s\u1EBD kh\u00F4ng ch\u1EC9 l\u00E0m b\u1EA1n \u0111\u1EE1 m\u1EA5t th\u1EDDi gian, m\u00E0 n\u00F3 c\u00F2n n\u00E2ng \u0111\u1ED9 b\u1EA3o m\u1EADt c\u1EE7a b\u1EA1n l\u00EAn khi mua s\u1EAFm tr\u1EF1c tuy\u1EBFn."
+   },
+   "LastPass_cannot_login_until_cookies_are_allowed_from_lastpass_com": {
+      "message": "LastPass kh\u00F4ng th\u1EC3 \u0111\u0103ng nh\u1EADp cho \u0111\u1EBFn khi cho ph\u00E9p cookie t\u1EEB lastpass.com"
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_like_to_continue_": {
+      "message": "LastPass ph\u00E1t hi\u1EC7u m\u1ED9t m\u1EABu \u0111\u0103ng nh\u1EADp kh\u00F4ng an to\u00E0n.\n\nB\u1EA1n c\u00F3 mu\u1ED1n ti\u1EBFp t\u1EE5c?"
+   },
+   "LastPass_detected_a_login_form_that_is_insecure___Would_you_still_like_LastPass_to_fill_the_form_": {
+      "message": "LastPass ph\u00E1t hi\u1EC7n m\u1ED9t m\u1EABu \u0111\u0103ng nh\u1EADp kh\u00F4ng an to\u00E0n.\n\nB\u1EA1n v\u1EABn mu\u1ED1n LastPass \u0111i\u1EC1n v\u00E0o m\u1EABu?"
+   },
+   "LastPass_detected_a_password_change_for": {
+      "message": "LastPass ph\u00E1t hi\u1EC7n c\u00F3 s\u1EF1 thay \u0111\u1ED5i m\u1EADt kh\u1EA9u \u0111\u1ED1i v\u1EDBi"
+   },
+   "LastPass_detected_a_password_change_for_domain_": {
+      "message": "LastPass ph\u00E1t hi\u1EC7n c\u00F3 s\u1EF1 thay \u0111\u1ED5i m\u1EADt kh\u1EA9u cho t\u00EAn mi\u1EC1n:"
+   },
+   "LastPass_detected_a_password_change_for_user_": {
+      "message": "LastPass ph\u00E1t hi\u1EC7n c\u00F3 s\u1EF1 thay \u0111\u1ED5i m\u1EADt kh\u1EA9u c\u1EE7a ng\u01B0\u1EDDi d\u00F9ng:"
+   },
+   "LastPass_has_detected_an_installation_error___Please_reinstall_LastPass_": {
+      "message": "LastPass ph\u00E1t hi\u1EC7n th\u1EA5y c\u00F3 l\u1ED7i c\u00E0i \u0111\u1EB7t. Xin vui l\u00F2ng c\u00E0i l\u1EA1i LastPass."
+   },
+   "LastPass_has_filled_your_login_information_into_the_form_on_this_page_": {
+      "message": "LastPass \u0111\u00E3 \u0111i\u1EC1n th\u00F4ng tin \u0111\u0103ng nh\u1EADp c\u1EE7a b\u1EA1n v\u00E0o m\u1EABu c\u1EE7a trang n\u00E0y."
+   },
+   "LastPass_is_fully_installed___When_you_install_LastPass_on_other_computers_you_will_not_have_to_go_through_this_process_again__you_ll_simply_be_able_to_login____Do_not_share_your_Master_Password_with_anyone__including_LastPass_employees__we_ll_never_ask_for_it___LastPass_encrypts_your_sensitive_data_locally_so_even_LastPass_employees_do_not_have_access_to_it___You_can_get_help_by_clicking_on_the_LastPass_icon_and_going_to_Help_": {
+      "message": "LastPass ho\u00E0n t\u1EA5t c\u00E0i \u0111\u1EB7t!   Khi b\u1EA1n c\u00E0i \u0111\u1EB7t LastPass tr\u00EAn m\u00E1y t\u00EDnh kh\u00E1c, b\u1EA1n s\u1EBD kh\u00F4ng ph\u1EA3i l\u00E0m l\u1EA1i qu\u00E1 tr\u00ECnh n\u00E0y n\u1EEFa, b\u1EA1n ch\u1EC9 c\u1EA7n \u0111\u0103ng nh\u1EADp.   \u0110\u1EEBng chia s\u1EBB M\u1EADt Kh\u1EA9u Ch\u1EE7 c\u1EE7a b\u1EA1n b\u1EA5t c\u1EE9 ai, k\u1EC3 c\u1EA3 nh\u00E2n vi\u00EAn LastPass, ch\u00FAng t\u00F4i s\u1EBD kh\u00F4ng bao gi\u1EDD h\u1ECFi n\u00F3!  LastPass s\u1EBD m\u00E3 h\u00F3a d\u1EEF li\u1EC7u nh\u1EA1y c\u1EA3m c\u1EE7a b\u1EA1n tr\u00EAn m\u00E1y t\u00EDnh c\u1EE7a ch\u00EDnh b\u1EA1n v\u00EC v\u1EADy ngay c\u1EA3 nh\u00E2n vi\u00EAn LastPass c\u0169ng kh\u00F4ng th\u1EC3 xem \u0111\u01B0\u1EE3c n\u00F3. B\u1EA1n c\u00F3 th\u1EC3 nh\u1EADn \u0111\u01B0\u1EE3c gi\u00FAp \u0111\u1EE1 b\u1EB1ng c\u00E1ch nh\u1EA5p v\u00E0o bi\u1EC3u t\u01B0\u1EE3ng LastPass v\u00E0 v\u00E0o Tr\u1EE3 Gi\u00FAp."
+   },
+   "LastPass_is_the_last_password_you_ll_ever_have_to_remember___If_you_re_new_to_LastPass__we_ll_just_need_a_few_minutes_of_your_time_to_setup_your_account___You_ll_be_able_to_use_this_account_on_any_other_PC_you_use_to_always_keep_your_personal_data_in_sync___Hit_create_account_to_begin_": {
+      "message": "LastPass l\u00E0 m\u1EADt kh\u1EA9u cu\u1ED1i c\u00F9ng b\u1EA1n s\u1EBD ph\u1EA3i nh\u1EDB. N\u1EBFu b\u1EA1n m\u1EDBi \u0111\u1EBFn LastPass, ch\u00FAng t\u00F4i ch\u1EC9 c\u1EA7n v\u00E0i ph\u00FAt th\u1EDDi gian c\u1EE7a b\u1EA1n \u0111\u1EC3 thi\u1EBFt l\u1EADp t\u00E0i kho\u1EA3n c\u1EE7a b\u1EA1n. B\u1EA1n s\u1EBD c\u00F3 th\u1EC3 s\u1EED d\u1EE5ng t\u00E0i kho\u1EA3n n\u00E0y v\u00E0o b\u1EA5t k\u1EF3 m\u00E1y t\u00EDnh kh\u00E1c m\u00E0 b\u1EA1n s\u1EED d\u1EE5ng \u0111\u1EC3 gi\u1EEF d\u1EEF li\u1EC7u c\u00E1 nh\u00E2n c\u1EE7a b\u1EA1n lu\u00F4n \u0111\u1ED3ng b\u1ED9. B\u1EA5m t\u1EA1o t\u00E0i kho\u1EA3n \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u."
+   },
+   "LastPass_must_reencrypt_all_of_your_data_because_of_a_key_change_": {
+      "message": "LastPass ph\u1EA3i m\u00E3 h\u00F3a l\u1EA1i m\u1ECDi d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n v\u00EC ch\u00ECa kh\u00F3a thay \u0111\u1ED5i."
+   },
+   "Last_4_digits_of_your_phone_number": {
+      "message": "4 s\u1ED1 cu\u1ED1i c\u1EE7a s\u1ED1 \u0111i\u1EC7n tho\u1EA1i"
+   },
+   "Last_Name2": {
+      "message": "H\u1ECD2"
+   },
+   "Last_Touch": {
+      "message": "L\u1EA7n D\u00F9ng Cu\u1ED1i"
+   },
+   "Last_name": {
+      "message": "H\u1ECD"
+   },
+   "Latvia": {
+      "message": "Latvia"
+   },
+   "Launch": {
+      "message": "Kh\u1EDFi \u0111\u1ED9ng"
+   },
+   "Lebanon": {
+      "message": "Liban"
+   },
+   "Left": {
+      "message": "Tr\u00E1i"
+   },
+   "Lesotho": {
+      "message": "Lesotho"
+   },
+   "Liberia": {
+      "message": "Liberia"
+   },
+   "Libyan_Arab_Jamahiriya": {
+      "message": "Libya, Jamahiriya \u1EA2 R\u1EADp"
+   },
+   "License_Class": {
+      "message": "Lo\u1EA1i Gi\u1EA5y Ph\u00E9p"
+   },
+   "License_Key": {
+      "message": "Kh\u00F3a gi\u1EA5y ph\u00E9p"
+   },
+   "Liechtenstein": {
+      "message": "Liechtenstein"
+   },
+   "Lithuania": {
+      "message": "Litva"
+   },
+   "Local": {
+      "message": "\u0110\u1ECBa Ph\u01B0\u01A1ng"
+   },
+   "Log_into_a_Site": {
+      "message": "\u0110\u0103ng nh\u1EADp v\u00E0o m\u1ED9t trang web"
+   },
+   "LoggedInOffline": {
+      "message": "LastPass kh\u00F4ng th\u1EC3 li\u00EAn h\u1EC7 v\u1EDBi m\u00E1y ch\u1EE7 \u0111\u0103ng nh\u1EADp, v\u00EC v\u1EADy b\u1EA1n \u0111ang \u1EDF ch\u1EBF \u0111\u1ED9 offline.\n\nM\u1ED9t v\u00E0i t\u00EDnh n\u0103ng c\u00F3 th\u1EC3 b\u1ECB gi\u1EDBi h\u1EA1n."
+   },
+   "Login": {
+      "message": "\u0110\u0103ng Nh\u1EADp"
+   },
+   "LoginError": {
+      "message": "L\u1ED7i khi \u0111\u0103ng nh\u1EADp v\u00E0o LastPass. H\u00E3y th\u1EED l\u1EA1i."
+   },
+   "Login_to_LastPass": {
+      "message": "\u0110\u0103ng nh\u1EADp v\u00E0o LastPass"
+   },
+   "Logoff": {
+      "message": "\u0110\u0103ng Xu\u1EA5t"
+   },
+   "Logoff_": {
+      "message": "\u0110\u0103ng xu\u1EA5t:"
+   },
+   "LoseChanges": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc ch\u1EAFn mu\u1ED1n ch\u1EC9nh s\u1EEDa c\u00E1c \u00F4 n\u00E0y c\u1EE7a trang web? L\u00E0m nh\u01B0 v\u1EADy s\u1EBD l\u00E0m m\u1EA5t c\u00E1c thay \u0111\u1ED5i m\u00E0 b\u1EA1n \u0111\u00E3 th\u1EF1c hi\u1EC7n cho trang web n\u00E0y!"
+   },
+   "LoseChangesApp": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc b\u1EA1n mu\u1ED1n ch\u1EC9nh s\u1EEDa c\u00E1c \u00F4 \u0111i\u1EC1n c\u1EE7a \u1EE9ng d\u1EE5ng n\u00E0y? L\u00E0m nh\u01B0 v\u1EADy s\u1EBD l\u00E0m m\u1EA5t c\u00E1c thay \u0111\u1ED5i b\u1EA1n \u0111\u00E3 th\u1EF1c hi\u1EC7n v\u1EDBi \u1EE9ng d\u1EE5ng n\u00E0y!"
+   },
+   "Luxembourg": {
+      "message": "Luxembourg"
+   },
+   "MSI_PasswordKeeper": {
+      "message": "MSI Tr\u00F4ngGi\u1EEFM\u00E3"
+   },
+   "Macao": {
+      "message": "Ma Cao"
+   },
+   "Macedonia__the_Former_Yugoslav_Republic_Of": {
+      "message": "Macedonia, C\u1ED9ng h\u00F2a Nam T\u01B0 c\u0169"
+   },
+   "Madagascar": {
+      "message": "Madagascar"
+   },
+   "Magadan__Solomon_Is___New_Caledonia__Vladivostok": {
+      "message": "Magadan, Solomon Is., New Caledonia, Vladivostok"
+   },
+   "Malawi": {
+      "message": "Malawi"
+   },
+   "Malaysia": {
+      "message": "Malaysia"
+   },
+   "Maldives": {
+      "message": "Maldives"
+   },
+   "Male": {
+      "message": "Nam"
+   },
+   "Mali": {
+      "message": "Mali"
+   },
+   "Malta": {
+      "message": "Malta"
+   },
+   "Manage_Shared_Folders": {
+      "message": "Qu\u1EA3n L\u00FD Th\u01B0 M\u1EE5c Chia S\u1EBB"
+   },
+   "March": {
+      "message": "Th\u00E1ng Ba"
+   },
+   "Marshall_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Marshall"
+   },
+   "Martinique": {
+      "message": "Martinique"
+   },
+   "Master_Password": {
+      "message": "M\u1EADt Kh\u1EA9u Ch\u1EE7"
+   },
+   "Matching_Sites": {
+      "message": "Trang web ph\u00F9 h\u1EE3p "
+   },
+   "Mauritania": {
+      "message": "Mauritania"
+   },
+   "Mauritius": {
+      "message": "Mauritius"
+   },
+   "May": {
+      "message": "Th\u00E1ng N\u0103m"
+   },
+   "Mayotte": {
+      "message": "Mayotte"
+   },
+   "Member_Name": {
+      "message": "T\u00EAn th\u00E0nh vi\u00EAn"
+   },
+   "Membership": {
+      "message": "Th\u00E0nh vi\u00EAn"
+   },
+   "Membership_Number": {
+      "message": "S\u1ED1 th\u00E0nh vi\u00EAn"
+   },
+   "Meta": {
+      "message": "Ti\u1EC1n t\u1ED1"
+   },
+   "Mexico": {
+      "message": "Mexico"
+   },
+   "Micronesia__Federated_States_Of": {
+      "message": "Micronesia, Li\u00EAn bang"
+   },
+   "Mid_Atlantic": {
+      "message": "Gi\u1EEFa \u0110\u1EA1i T\u00E2y D\u01B0\u01A1ng"
+   },
+   "Middle_3_digits_of_your_phone_number": {
+      "message": "3 s\u1ED1 gi\u1EEFa c\u1EE7a s\u1ED1 \u0111i\u1EC7n tho\u1EA1i"
+   },
+   "Middle_name": {
+      "message": "T\u00EAn l\u00F3t"
+   },
+   "Midway_Island__Samoa": {
+      "message": "\u0110\u1EA3o Midway, Samoa"
+   },
+   "Minimum_Digit_Count": {
+      "message": "S\u1ED1 ch\u1EEF s\u1ED1 t\u1ED1i thi\u1EC3u"
+   },
+   "Mobile_Email_Address": {
+      "message": "Email Di \u0110\u1ED9ng"
+   },
+   "Mobile_number": {
+      "message": "S\u1ED1 \u0111i\u1EC7n tho\u1EA1i di \u0111\u1ED9ng"
+   },
+   "Moldova__Republic_Of": {
+      "message": "Moldova, C\u1ED9ng h\u00F2a"
+   },
+   "Monaco": {
+      "message": "Monaco"
+   },
+   "Mongolia": {
+      "message": "M\u00F4ng C\u1ED5"
+   },
+   "Montenegro": {
+      "message": "Montenegro"
+   },
+   "Montserrat": {
+      "message": "Montserrat"
+   },
+   "More": {
+      "message": "Th\u00EAm n\u1EEFa"
+   },
+   "More_Information": {
+      "message": "Th\u00F4ng tin th\u00EAm"
+   },
+   "Morocco": {
+      "message": "Maroc"
+   },
+   "Mountain_Time__US___Canada_": {
+      "message": "Gi\u1EDD Mi\u1EC1n N\u00FAi (M\u1EF9 & Canada)"
+   },
+   "Move_Selected_to_Group": {
+      "message": "Di chuy\u1EC3n c\u00E1i \u0111\u01B0\u1EE3c ch\u1ECDn v\u00E0o nh\u00F3m"
+   },
+   "Move_to_Group": {
+      "message": "Chuy\u1EC3n \u0111\u1EBFn nh\u00F3m"
+   },
+   "Move_to_Sub_Group": {
+      "message": "Di chuy\u1EC3n sang Nh\u00F3m Con"
+   },
+   "Mozambique": {
+      "message": "Mozambique"
+   },
+   "Mr": {
+      "message": "\u00D4ng"
+   },
+   "Mrs": {
+      "message": "B\u00E0"
+   },
+   "Ms": {
+      "message": "C\u00F4"
+   },
+   "Multifactor_Authentication": {
+      "message": "X\u00E1c Minh \u0110a Nh\u00E2n T\u1ED1"
+   },
+   "MyPasswordSafe": {
+      "message": "M\u1EADtKh\u1EA9uAnTo\u00E0nC\u1EE7aT\u00F4i"
+   },
+   "My_LastPass_Vault": {
+      "message": "Kho Lastpass"
+   },
+   "Myanmar": {
+      "message": "Myanma"
+   },
+   "NAME": {
+      "message": "T\u00CAN"
+   },
+   "Name_": {
+      "message": "T\u00EAn:"
+   },
+   "Name_on_card": {
+      "message": "T\u00EAn tr\u00EAn th\u1EBB"
+   },
+   "Nameproper": {
+      "message": "T\u00EAn"
+   },
+   "Namibia": {
+      "message": "Namibia"
+   },
+   "Nationality": {
+      "message": "Qu\u1ED1c T\u1ECBch"
+   },
+   "Nauru": {
+      "message": "Nauru"
+   },
+   "Nepal": {
+      "message": "Nepal"
+   },
+   "Netherlands": {
+      "message": "H\u00E0 Lan"
+   },
+   "Netherlands_Antilles": {
+      "message": "Antilles thu\u1ED9c H\u00E0 Lan"
+   },
+   "Never": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD"
+   },
+   "Never_Add_Site": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD Th\u00EAm Trang"
+   },
+   "Never_AutoFill": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD T\u1EF1 \u0110\u1ED9ng \u0110i\u1EC1n"
+   },
+   "Never_AutoLogin": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD T\u1EF1 \u0110\u1ED9ng \u0110\u0103ng Nh\u1EADp"
+   },
+   "Never_Fill_Forms": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD \u0110i\u1EC1n M\u1EABu"
+   },
+   "Never_For_This_Domain": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD \u0110\u1ED1i V\u1EDBi T\u00EAn Mi\u1EC1n N\u00E0y"
+   },
+   "Never_For_This_Page": {
+      "message": "Kh\u00F4ng Bao Gi\u1EDD Cho Trang N\u00E0y"
+   },
+   "Never_For_This_Site": {
+      "message": "Kh\u00F4ng d\u00F9ng cho trang n\u00E0y"
+   },
+   "Never_Generate_Password": {
+      "message": "Kh\u00F4ng t\u1EA1o m\u1EADt kh\u1EA9u"
+   },
+   "Never_Show_Again": {
+      "message": "Kh\u00F4ng Hi\u1EC3n Th\u1ECB L\u1EA1i N\u1EEFa"
+   },
+   "Never___": {
+      "message": "Kh\u00F4ng bao gi\u1EDD..."
+   },
+   "New_Caledonia": {
+      "message": "New Caledonia"
+   },
+   "New_Master_Password": {
+      "message": "M\u1EADt kh\u1EA9u m\u1EDBi"
+   },
+   "New_Zealand": {
+      "message": "New Zealand"
+   },
+   "Newfoundland": {
+      "message": "Newfoundland"
+   },
+   "Nicaragua": {
+      "message": "Nicaragua"
+   },
+   "Niger": {
+      "message": "Niger"
+   },
+   "Nigeria": {
+      "message": "Nigeria"
+   },
+   "Niue": {
+      "message": "Niue"
+   },
+   "No": {
+      "message": "Kh\u00F4ng"
+   },
+   "No_Matching_Sites_": {
+      "message": "Kh\u00F4ng C\u00F3 Trang Ph\u00F9 H\u1EE3p!"
+   },
+   "No_Thanks": {
+      "message": "Kh\u00F4ng, c\u1EA3m \u01A1n"
+   },
+   "No_Updates_Are_Available": {
+      "message": "Kh\u00F4ng C\u00F3 C\u1EADp Nh\u1EADt N\u00E0o"
+   },
+   "No_Wi_Fi_adapter_was_detected_on_this_computer___This_feature_requires_a_Wi_Fi_adapter_": {
+      "message": "Kh\u00F4ng c\u00F3 thi\u1EBFt b\u1ECB Wi-Fi \u0111\u00E3 \u0111\u01B0\u1EE3c ph\u00E1t hi\u1EC7n tr\u00EAn m\u00E1y t\u00EDnh n\u00E0y. T\u00EDnh n\u0103ng n\u00E0y \u0111\u00F2i h\u1ECFi m\u1ED9t thi\u1EBFt b\u1ECB Wi-Fi."
+   },
+   "No__I_do_not_want_LastPass_to_help_me_fill_forms_automatically": {
+      "message": "Kh\u00F4ng, t\u00F4i kh\u00F4ng mu\u1ED1n LastPass gi\u00FAp t\u00F4i t\u1EF1 \u0111\u1ED9ng \u0111i\u1EC1n v\u00E0o c\u00E1c m\u1EABu"
+   },
+   "No__do_not_import_any_of_my_insecure_items": {
+      "message": "Kh\u00F4ng, \u0111\u1EEBng nh\u1EADp m\u1EE5c kh\u00F4ng an to\u00E0n n\u00E0o c\u1EE7a t\u00F4i h\u1EBFt"
+   },
+   "None_Available": {
+      "message": "Kh\u00F4ng C\u00F3 G\u00EC"
+   },
+   "Norfolk_Island": {
+      "message": "\u0110\u1EA3o Norfolk"
+   },
+   "Northern_Mariana_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o B\u1EAFc Mariana"
+   },
+   "Norway": {
+      "message": "Na Uy"
+   },
+   "Norwegian": {
+      "message": "Ti\u1EBFng Na Uy"
+   },
+   "Norwegian_Nynorsk": {
+      "message": "Na Uy"
+   },
+   "Not_Now": {
+      "message": "Kh\u00F4ng Ph\u1EA3i L\u00FAc N\u00E0y"
+   },
+   "Note_Type": {
+      "message": "Ki\u1EC3u Ghi Ch\u00FA"
+   },
+   "Notes": {
+      "message": "Ghi Ch\u00FA"
+   },
+   "Notes_": {
+      "message": "Ghi Ch\u00FA:"
+   },
+   "Notifications": {
+      "message": "Th\u00F4ng b\u00E1o"
+   },
+   "November": {
+      "message": "Th\u00E1ng M\u01B0\u1EDDi M\u1ED9t"
+   },
+   "Nuku_alofa": {
+      "message": "Nuku'alofa"
+   },
+   "Number": {
+      "message": "S\u1ED1"
+   },
+   "Number_of_Licenses": {
+      "message": "S\u1ED1 gi\u1EA5y ph\u00E9p"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "October": {
+      "message": "Th\u00E1ng M\u01B0\u1EDDi"
+   },
+   "Offer_to_Generate_Secure_Passwords": {
+      "message": "\u0110\u1EC1 Ngh\u1ECB T\u1EA1o M\u1EADt Kh\u1EA9u An To\u00E0n"
+   },
+   "Old_Password": {
+      "message": "M\u1EADt kh\u1EA9u c\u0169"
+   },
+   "Oman": {
+      "message": "Oman"
+   },
+   "One_Time_Passwords": {
+      "message": "M\u1EADt Kh\u1EA9u M\u1ED9t L\u1EA7n"
+   },
+   "Open_All": {
+      "message": "M\u1EDF T\u1EA5t C\u1EA3"
+   },
+   "Open_Favorites": {
+      "message": "M\u1EDF Trang Y\u00EAu Th\u00EDch"
+   },
+   "Open_My_LastPass_Vault": {
+      "message": "M\u1EDF Kho LastPass"
+   },
+   "Open_New_Pages_in": {
+      "message": "M\u1EDF trang m\u1EDBi trong"
+   },
+   "Open_Popover": {
+      "message": "M\u1EDF Popover"
+   },
+   "Open_Sticky_Password___Manage_Database___Export___Export_as_text__Import_this_file": {
+      "message": "M\u1EDF Sticky Password - Manage Database - Export - Export as text. Nh\u1EADp file n\u00E0y"
+   },
+   "Open_login_dialog_when_start_browser": {
+      "message": "M\u1EDF h\u1ED9p tho\u1EA1i \u0111\u0103ng nh\u1EADp khi b\u1EAFt \u0111\u1EA7u tr\u00ECnh duy\u1EC7t"
+   },
+   "Opera": {
+      "message": "Opera"
+   },
+   "Opera_Password_Manager": {
+      "message": "Tr\u00ECnh qu\u1EA3n l\u00FD m\u1EADt kh\u1EA9u Opera"
+   },
+   "Order_Number": {
+      "message": "S\u1ED1 \u0111\u1EB7t h\u00E0ng"
+   },
+   "Order_Total": {
+      "message": "T\u1ED5ng \u0111\u1EB7t h\u00E0ng"
+   },
+   "Organization": {
+      "message": "T\u1ED5 ch\u1EE9c"
+   },
+   "Other": {
+      "message": "Kh\u00E1c"
+   },
+   "Other_Sessions": {
+      "message": "C\u00E1c Phi\u00EAn L\u00E0m Vi\u1EC7c Kh\u00E1c"
+   },
+   "PASSWORDupper": {
+      "message": "M\u1EACT KH\u1EA8U"
+   },
+   "PINs_Password_Manager": {
+      "message": "Qu\u1EA3n l\u00ED m\u00E3 PIN"
+   },
+   "Pacific_Time__US___Canada_": {
+      "message": "Gi\u1EDD Th\u00E1i B\u00ECnh D\u01B0\u01A1ng (M\u1EF9 & Canada)"
+   },
+   "Page_Down": {
+      "message": "Xu\u1ED1ng Trang"
+   },
+   "Page_Up": {
+      "message": "L\u00EAn Trang"
+   },
+   "Pakistan": {
+      "message": "Pakistan"
+   },
+   "Palau": {
+      "message": "Palau"
+   },
+   "Palestinian_Territories": {
+      "message": "L\u00E3nh th\u1ED5 Palestin"
+   },
+   "Panama": {
+      "message": "Panama"
+   },
+   "Papua_New_Guinea": {
+      "message": "Papua New Guinea"
+   },
+   "Paraguay": {
+      "message": "Paraguay"
+   },
+   "Passpack": {
+      "message": "Passpack"
+   },
+   "Passport": {
+      "message": "H\u1ED9 chi\u1EBFu"
+   },
+   "Password": {
+      "message": "M\u1EADt Kh\u1EA9u"
+   },
+   "Password_": {
+      "message": "M\u1EADt Kh\u1EA9u:"
+   },
+   "Password_Agent": {
+      "message": "Password Agent"
+   },
+   "Password_Corral": {
+      "message": "B\u1EE9c th\u00E0nh M\u1EADt kh\u1EA9u"
+   },
+   "Password_Depot": {
+      "message": "Kho m\u1EADt kh\u1EA9u"
+   },
+   "Password_Dragon": {
+      "message": "M\u1EADt kh\u1EA9u Tr\u00F4ng gi\u1EEF nghi\u00EAm ng\u1EB7t"
+   },
+   "Password_Keeper": {
+      "message": "Gi\u1EEF M\u1EADt Kh\u1EA9u"
+   },
+   "Password_Length": {
+      "message": "\u0110\u1ED9 d\u00E0i M\u1EADt kh\u1EA9u"
+   },
+   "Password_Reminder": {
+      "message": "G\u1EE3i \u00DD M\u1EADt Kh\u1EA9u"
+   },
+   "Password_Safe": {
+      "message": "Password Safe"
+   },
+   "Password_reminder_cannot_match_password": {
+      "message": "G\u1EE3i \u00FD m\u1EADt kh\u1EA9u kh\u00F4ng \u0111\u01B0\u1EE3c tr\u00F9ng v\u1EDBi m\u1EADt kh\u1EA9u"
+   },
+   "Password_updated_": {
+      "message": "M\u1EADt kh\u1EA9u \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt!"
+   },
+   "Passwords_Max": {
+      "message": "M\u1EADt kh\u1EA9u T\u1ED1i \u0111a"
+   },
+   "Personal": {
+      "message": "C\u00E1 nh\u00E2n"
+   },
+   "Peru": {
+      "message": "Peru"
+   },
+   "Philippines": {
+      "message": "Philippines"
+   },
+   "Phone_number": {
+      "message": "S\u1ED1 \u0111i\u1EC7n tho\u1EA1i"
+   },
+   "Pin": {
+      "message": "Pin"
+   },
+   "Pitcairn": {
+      "message": "Pitcairn"
+   },
+   "Please_Make_a_Selection": {
+      "message": "Xin H\u00E3y L\u1EF1a Ch\u1ECDn"
+   },
+   "Please_Wait___": {
+      "message": "Vui l\u00F2ng \u0111\u1EE3i..."
+   },
+   "Please_answer_the_following_question_": {
+      "message": "Vui long tr\u1EA3 l\u1EDDi c\u00E2u h\u1ECFi sau:"
+   },
+   "Please_choose_the_type_of_export_you_would_like_to_perform_": {
+      "message": "Xin vui l\u00F2ng ch\u1ECDn ki\u1EC3u xu\u1EA5t ra m\u00E0 b\u1EA1n mu\u1ED1n th\u1EF1c hi\u1EC7n:"
+   },
+   "Please_choose_the_type_of_print_you_would_like_to_perform_": {
+      "message": "Vui l\u00F2ng ch\u1ECDn lo\u1EA1i in b\u1EA1n mu\u1ED1n th\u1EF1c hi\u1EC7n:"
+   },
+   "Please_close_this_window": {
+      "message": "Vui long \u0111\u00F3ng c\u1EEDa s\u1ED5"
+   },
+   "Please_enter_a_Password_Reminder": {
+      "message": "Xin vui l\u00F2ng nh\u1EADp L\u1EDDi Nh\u1EAFc M\u1EADt Kh\u1EA9u"
+   },
+   "Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "Xin vui l\u00F2ng nh\u1EADp \u0111\u01B0\u1EDDng d\u1EABn \u0111\u1EA7y \u0111\u1EE7 c\u1EE7a t\u1EADp tin nh\u1EADp kh\u1EA9u."
+   },
+   "Please_keep_this_page_open_until_the_operation_completes_": {
+      "message": "Vui l\u00F2ng m\u1EDF trang n\u00E0y \u0111\u1EBFn khi ho\u00E0n th\u00E0nh t\u00E1c v\u1EE5."
+   },
+   "Please_move_sites_from_only_one_shared_folder_at_a_time_": {
+      "message": "Di chuy\u1EC3n c\u00E1c trang web t\u1EEB ch\u1EC9 m\u1ED9t th\u01B0 m\u1EE5c chia s\u1EBB trong m\u1ED9t l\u1EA7n."
+   },
+   "Please_note_that_upgrading_from_LastPass_Local_to_LastPass_Online_will_result_in_your_password_data_being_uploaded_in_its_encrypted_format_to_LastPass_servers___You_will_be_able_to_access_your_data_from_anywhere__and_LastPass_will_not_be_able_to_read_it___Would_you_like_to_continue_": {
+      "message": "Xin ch\u00FA \u00FD r\u1EB1ng vi\u1EC7c n\u00E2ng c\u1EA5p t\u1EEB LastPass \u0110\u1ECBa Ph\u01B0\u01A1ng l\u00EAn LastPass Online s\u1EBD l\u00E0m cho d\u1EEF li\u1EC7u m\u1EADt kh\u1EA9u \u0111\u00E3 m\u00E3 h\u00F3a c\u1EE7a b\u1EA1n \u0111\u01B0\u1EE3c t\u1EA3i l\u00EAn m\u00E1y ch\u1EE7 LastPass. B\u1EA1n s\u1EBD c\u00F3 th\u1EC3 truy c\u1EADp d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n t\u1EEB b\u1EA5t c\u1EE9 n\u01A1i \u0111\u00E2u, v\u00E0 LastPass s\u1EBD kh\u00F4ng \u0111\u1ECDc \u0111\u01B0\u1EE3c n\u00F3. B\u1EA1n c\u00F3 mu\u1ED1n ti\u1EBFp t\u1EE5c kh\u00F4ng?"
+   },
+   "Please_provide_this_computer_a_name": {
+      "message": "Xin cung c\u1EA5p m\u1ED9t c\u00E1i t\u00EAn cho m\u00E1y t\u00EDnh n\u00E0y"
+   },
+   "Please_reload_the_page_to_view_your_changes_": {
+      "message": "Xin vui l\u00F2ng t\u1EA3i l\u1EA1i trang web \u0111\u1EC3 xem c\u00E1c thay \u0111\u1ED5i c\u1EE7a b\u1EA1n."
+   },
+   "Please_restart_all_your_browsers_to_begin_using_LastPass_Online_": {
+      "message": "Vui l\u00F2ng kh\u1EDFi \u0111\u1ED9ng l\u1EA1i t\u1EA5t c\u1EA3 tr\u00ECnh duy\u1EC7t \u0111\u1EC3 s\u1EED d\u1EE5ng LastPass Online."
+   },
+   "Please_select": {
+      "message": "Xin ch\u1ECDn"
+   },
+   "Please_select_which_sites_you_wish_to_apply_this_change_": {
+      "message": "H\u00E3y ch\u1ECDn c\u00E1c trang web b\u1EA1n mu\u1ED1n \u00E1p d\u1EE5ng thay \u0111\u1ED5i n\u00E0y."
+   },
+   "Please_visit_https___lastpass_com_to_create_an_account_at_a_later_time_": {
+      "message": "Vui l\u00F2ng truy c\u1EADp https://lastpass.com trong th\u1EDDi gian t\u1EDBi \u0111\u1EC3 t\u1EA1o m\u1ED9t t\u00E0i kho\u1EA3n."
+   },
+   "Poland": {
+      "message": "Ba Lan"
+   },
+   "Policy_Number": {
+      "message": "S\u1ED1 B\u1EA3o Hi\u1EC3m"
+   },
+   "Policy_Type": {
+      "message": "Lo\u1EA1i B\u1EA3o Hi\u1EC3m"
+   },
+   "Polish": {
+      "message": "Ba Lan"
+   },
+   "Poll_Server_for_account_changes__mins_": {
+      "message": "Th\u0103m d\u00F2 \u00FD ki\u1EBFn m\u00E1y ch\u1EE7 \u0111\u1EC3 thay \u0111\u1ED5i t\u00E0i kho\u1EA3n (ph\u00FAt)"
+   },
+   "Port": {
+      "message": "C\u1ED5ng"
+   },
+   "Portugal": {
+      "message": "B\u1ED3 \u0110\u00E0o Nha"
+   },
+   "Portuguese": {
+      "message": "B\u1ED3 \u0110\u00E0o Nha"
+   },
+   "Portuguese__Brazilian_": {
+      "message": "B\u1ED3 \u0110\u00E0o Nha (Brazil)"
+   },
+   "Preferences": {
+      "message": "T\u00F9y Ch\u1ECDn"
+   },
+   "Price": {
+      "message": "Gi\u00E1"
+   },
+   "Print": {
+      "message": "In"
+   },
+   "Print_Screen": {
+      "message": "In trang"
+   },
+   "Print_Secure_Notes": {
+      "message": "In Ghi Ch\u00FA An To\u00E0n"
+   },
+   "Print_Sites": {
+      "message": "In Trang Web"
+   },
+   "Profile": {
+      "message": "H\u1ED3 S\u01A1"
+   },
+   "Profile_language": {
+      "message": "Ng\u00F4n ng\u1EEF h\u1ED3 s\u01A1"
+   },
+   "Profile_name": {
+      "message": "T\u00EAn h\u1ED3 s\u01A1"
+   },
+   "Pronounceable": {
+      "message": "C\u00F3 th\u1EC3 ph\u00E1t \u00E2m"
+   },
+   "Protected": {
+      "message": "B\u1EA3o v\u1EC7"
+   },
+   "Publisher": {
+      "message": "H\u00E3ng Ph\u00E1t H\u00E0nh"
+   },
+   "Puerto_Rico": {
+      "message": "Puerto Rico"
+   },
+   "Purchase_Date": {
+      "message": "Ng\u00E0y Mua"
+   },
+   "Qatar": {
+      "message": "Qatar"
+   },
+   "Re_enter_Password": {
+      "message": "Nh\u1EADp L\u1EA1i M\u1EADt Kh\u1EA9u"
+   },
+   "Recent_Sites": {
+      "message": "Sites G\u1EA7n \u0111\u00E2y "
+   },
+   "Recently_Used": {
+      "message": "S\u1EED D\u1EE5ng G\u1EA7n \u0110\u00E2y"
+   },
+   "Recently_Used_list_size": {
+      "message": "K\u00EDch th\u01B0\u1EDBc danh s\u00E1ch V\u1EEBa D\u00F9ng"
+   },
+   "Recheck_Page": {
+      "message": "T\u00E1i Ki\u1EC3m Tra Trang"
+   },
+   "Reencrypting_Data___": {
+      "message": "\u0110ang t\u00E1i m\u00E3 h\u00F3a d\u1EEF li\u1EC7u ..."
+   },
+   "Refresh": {
+      "message": "L\u00E0m M\u1EDBi"
+   },
+   "Refresh_Sites": {
+      "message": "L\u00E0m M\u1EDBi Trang"
+   },
+   "Reject": {
+      "message": "T\u1EEB Ch\u1ED1i"
+   },
+   "Remember_Email": {
+      "message": "Ghi Nh\u1EDB \u0110\u1ECBa Ch\u1EC9 Email"
+   },
+   "Remember_Password": {
+      "message": "Ghi Nh\u1EDB M\u1EADt Kh\u1EA9u"
+   },
+   "Rename_Group": {
+      "message": "\u0110\u1ED5i T\u00EAn Nh\u00F3m"
+   },
+   "Replace_Existing_Site": {
+      "message": "Thay Th\u1EBF Trang Web Hi\u1EC7n T\u1EA1i"
+   },
+   "Require_Every_Character_Type": {
+      "message": "C\u1EA7n C\u00F3 M\u1ECDi Lo\u1EA1i K\u00FD T\u1EF1"
+   },
+   "Require_Password_Reprompt": {
+      "message": "C\u1EA7n Ph\u1EA3i Nh\u1EADp L\u1EA1i M\u1EADt Kh\u1EA9u"
+   },
+   "Require_security_reprompt_when_": {
+      "message": "Y\u00EAu c\u1EA7u nh\u1EADp l\u1EA1i an to\u00E0n khi:"
+   },
+   "Respect_AutoComplete_off__allow_websites_to_disable_AutoFill": {
+      "message": "T\u00F4n tr\u1ECDng AutoComplete=off: cho ph\u00E9p trang web t\u1EAFt T\u1EF1 \u0110\u1ED9ng \u0110i\u1EC1n M\u1EABu"
+   },
+   "Reunion": {
+      "message": "Reunion"
+   },
+   "Revelation_Password_Manager": {
+      "message": "Qu\u1EA3n l\u00ED M\u1EADt kh\u1EA9u Khai quang"
+   },
+   "Right": {
+      "message": "Ph\u1EA3i"
+   },
+   "RoboForm": {
+      "message": "RoboForm"
+   },
+   "Romania": {
+      "message": "Romania"
+   },
+   "Routing_number": {
+      "message": "S\u1ED1 \u0111\u1ECBnh tuy\u1EBFn"
+   },
+   "Russian": {
+      "message": "Nga"
+   },
+   "Russian_Federation": {
+      "message": "Nga, Li\u00EAn bang"
+   },
+   "Rwanda": {
+      "message": "Rwanda"
+   },
+   "SID": {
+      "message": "SID"
+   },
+   "SITE": {
+      "message": "TRANG"
+   },
+   "SMTP_Port": {
+      "message": "C\u1ED5ng SMTP"
+   },
+   "SMTP_Server": {
+      "message": "M\u00E1y ch\u1EE7 SMTP"
+   },
+   "SPB_Wallet": {
+      "message": "SPB T\u00FAi"
+   },
+   "SSID": {
+      "message": "SSID"
+   },
+   "SWIFT_Code": {
+      "message": "M\u00E3 SWIFT"
+   },
+   "Safari": {
+      "message": "Safari"
+   },
+   "Safari_Password_Manager": {
+      "message": "Qu\u1EA3n l\u00FD m\u1EADt kh\u1EA9u c\u1EE7a Safari"
+   },
+   "Saint_Barthelemy": {
+      "message": "Saint Barthelemy"
+   },
+   "Saint_Helena": {
+      "message": "Saint Helena"
+   },
+   "Saint_Kitts_and_Nevis": {
+      "message": "Saint Kitts v\u00E0 Nevis"
+   },
+   "Saint_Lucia": {
+      "message": "Saint Lucia"
+   },
+   "Saint_Martin__French_Part_": {
+      "message": "Saint Martin (ph\u1EA7n thu\u1ED9c Ph\u00E1p)"
+   },
+   "Saint_Pierre_and_Miquelon": {
+      "message": "Saint Pierre v\u00E0 Miquelon"
+   },
+   "Saint_Vincent_and_the_Grenadines": {
+      "message": "Saint Vincent v\u00E0 Grenadines"
+   },
+   "Samoa": {
+      "message": "Samoa"
+   },
+   "San_Marino": {
+      "message": "San Marino"
+   },
+   "Sao_Tome_and_Principe": {
+      "message": "Sao Tome v\u00E0 Principe"
+   },
+   "Saudi_Arabia": {
+      "message": "\u1EA2 R\u1EADp Saudi"
+   },
+   "Save": {
+      "message": "L\u01B0u"
+   },
+   "Save_All_Entered_Data": {
+      "message": "L\u01B0u M\u1ECDi D\u1EEF Li\u1EC7u Nh\u1EADp"
+   },
+   "Save_Credit_Card_profile": {
+      "message": "L\u01B0u th\u00F4ng tin th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "Save_Form_Fill_profile": {
+      "message": "L\u01B0u H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "Save_New_Site": {
+      "message": "L\u01B0u Trang Web M\u1EDBi"
+   },
+   "Save_Site": {
+      "message": "L\u01B0u Trang"
+   },
+   "Save_a_disabled_One_Time_Password_locally_for_Account_Recovery": {
+      "message": "L\u01B0u m\u1ED9t M\u1EADt Kh\u1EA9u M\u1ED9t L\u1EA7n kh\u00F4ng c\u00F2n s\u1EED d\u1EE5ng v\u00E0o m\u00E1y t\u00EDnh \u0111\u1EC3 Ph\u1EE5c H\u1ED3i T\u00E0i Kho\u1EA3n"
+   },
+   "Save_your_changes_and_close_this_window": {
+      "message": "L\u01B0u thay \u0111\u1ED5i v\u00E0 \u0111\u00F3ng c\u1EEDa s\u1ED5 n\u00E0y"
+   },
+   "Screen_Keyboard": {
+      "message": "B\u00E0n Ph\u00EDm Tr\u00EAn M\u00E0n H\u00ECnh"
+   },
+   "Search_All_Data": {
+      "message": "T\u00ECm ki\u1EBFm t\u1EA5t c\u1EA3 c\u00E1c d\u1EEF li\u1EC7u"
+   },
+   "Search_All_Groups": {
+      "message": "T\u00ECm ki\u1EBFm t\u1EA5t c\u1EA3 c\u00E1c nh\u00F3m"
+   },
+   "Search_All_Notes": {
+      "message": "T\u00ECm ki\u1EBFm T\u1EA5t c\u1EA3 Ghi ch\u00FA"
+   },
+   "Search_All_Sites": {
+      "message": "T\u00ECm ki\u1EBFm t\u1EA5t c\u1EA3 c\u00E1c trang web"
+   },
+   "Search_Vault": {
+      "message": "T\u00ECm Kho"
+   },
+   "Search_within_secure_notes": {
+      "message": "T\u00ECm ki\u1EBFm trong ghi ch\u00FA an to\u00E0n"
+   },
+   "Searchproper": {
+      "message": "T\u00ECm Ki\u1EBFm"
+   },
+   "Secure_Notes": {
+      "message": "Ghi ch\u00FA b\u1EA3o m\u1EADt"
+   },
+   "Security": {
+      "message": "B\u1EA3o M\u1EADt"
+   },
+   "Security_Check": {
+      "message": "Ki\u1EC3m Tra An Ninh"
+   },
+   "Security_Question_Multifactor_Authentication": {
+      "message": "C\u00E2u H\u1ECFi B\u1EA3o M\u1EADt X\u00E1c Th\u1EF1c \u0110a L\u1EDBp"
+   },
+   "Security_code": {
+      "message": "M\u00E3 an to\u00E0n"
+   },
+   "Select": {
+      "message": "Ch\u1ECDn"
+   },
+   "Select_All": {
+      "message": "Ch\u1ECDn T\u1EA5t C\u1EA3"
+   },
+   "Select_or_enter_a_new_group_name": {
+      "message": "Ch\u1ECDn ho\u1EB7c nh\u1EADp t\u00EAn nh\u00F3m m\u1EDBi"
+   },
+   "Send_anonymous_error_reporting_data_to_help_improve_LastPass": {
+      "message": "G\u1EEDi d\u1EEF li\u1EC7u b\u00E1o c\u00E1o l\u1ED7i n\u1EB7c danh \u0111\u1EC3 gi\u00FAp c\u1EA3i thi\u1EC7n LastPass"
+   },
+   "Senegal": {
+      "message": "Senegal"
+   },
+   "Seoul__Osaka__Sapporo__Tokyo__Irkutsk": {
+      "message": "Seoul, Osaka, Sapporo, Tokyo, Irkutsk"
+   },
+   "September": {
+      "message": "Th\u00E1ng Ch\u00EDn"
+   },
+   "Serbia": {
+      "message": "Serbia"
+   },
+   "Server": {
+      "message": "M\u00E1y ch\u1EE7"
+   },
+   "SesameWrongButton": {
+      "message": "\u0110\u1EC3 xem d\u1EEF li\u1EC7u khi ngo\u1EA1i tuy\u1EBFn b\u1EA1n ph\u1EA3i ch\u1EA1y Sesame v\u00E0 d\u00F9ng n\u00FAt 'Ch\u00E9p M\u1EADt Kh\u1EA9u Ngo\u1EA1i Tuy\u1EBFn' thay v\u00EC n\u00FAt 'T\u1EA1o M\u1EADt Kh\u1EA9u M\u1ED9t L\u1EA7n'."
+   },
+   "Sesame_Multifactor_Authentication": {
+      "message": "X\u00E1c Th\u1EF1c \u0110a Nh\u00E2n T\u1ED1 Sesame"
+   },
+   "Sessions": {
+      "message": "Phi\u00EAn l\u00E0m vi\u1EC7c"
+   },
+   "Set_up_custom_form_fields": {
+      "message": "Thi\u1EBFt l\u1EADp \u00F4 m\u1EABu t\u00F9y ch\u1EC9nh"
+   },
+   "Settings": {
+      "message": "Thi\u1EBFt L\u1EADp"
+   },
+   "Sex": {
+      "message": "Gi\u1EDBi t\u00EDnh"
+   },
+   "Seychelles": {
+      "message": "Seychelles"
+   },
+   "Share": {
+      "message": "Chia S\u1EBB"
+   },
+   "Share_Selected": {
+      "message": "Chia S\u1EBB Nh\u1EEFng M\u1EE5c \u0110\u01B0\u1EE3c Ch\u1ECDn"
+   },
+   "Share_login_state_between_other_browsers": {
+      "message": "Chia s\u1EBB t\u00ECnh tr\u1EA1ng \u0111\u0103ng nh\u1EADp gi\u1EEFa c\u00E1c tr\u00ECnh duy\u1EC7t"
+   },
+   "Share_offer_from": {
+      "message": "Chia s\u1EBB l\u1EDDi m\u1EDDi t\u1EEB"
+   },
+   "Shares": {
+      "message": "Chia S\u1EBB"
+   },
+   "Shift": {
+      "message": "Shift"
+   },
+   "Should_LastPass_remember_this_password_": {
+      "message": "LastPass c\u00F3 th\u1EC3 ghi nh\u1EDB m\u1EADt kh\u1EA9u n\u00E0y kh\u00F4ng?"
+   },
+   "Show": {
+      "message": "Hi\u1EC3n th\u1ECB"
+   },
+   "Show_Advanced_Options": {
+      "message": "Hi\u1EC3n Th\u1ECB T\u00F9y Ch\u1ECDn N\u00E2ng Cao"
+   },
+   "Show_Change_Password_Notification_Bar": {
+      "message": "Hi\u1EC7n Thanh Th\u00F4ng B\u00E1o Thay \u0110\u1ED5i M\u1EADt Kh\u1EA9u"
+   },
+   "Show_Deleted_Sites": {
+      "message": "Hi\u1EC3n Th\u1ECB Trang Web \u0110\u00E3 X\u00F3a"
+   },
+   "Show_Fill_Notification_Bar": {
+      "message": "Hi\u1EC7n Thanh Th\u00F4ng B\u00E1o \u0110i\u1EC1n M\u1EABu"
+   },
+   "Show_Form_Fill_Notifications": {
+      "message": "Hi\u1EC3n Th\u1ECB Th\u00F4ng B\u00E1o \u0110i\u1EC1n M\u1EABu"
+   },
+   "Show_My_LastPass_Vault_After_Login": {
+      "message": "Hi\u1EC3n Th\u1ECB H\u1EA7m LastPass Sau Khi \u0110\u0103ng Nh\u1EADp"
+   },
+   "Show_Notifications": {
+      "message": "Hi\u1EC3n Th\u1ECB Th\u00F4ng B\u00E1o"
+   },
+   "Show_Save_Site_Notification_Bar": {
+      "message": "Hi\u1EC7n Thanh Th\u00F4ng B\u00E1o L\u01B0u Trang"
+   },
+   "Show_Save_Site_Notifications": {
+      "message": "Hi\u1EC3n Th\u1ECB Th\u00F4ng B\u00E1o L\u01B0u Trang"
+   },
+   "Show_Sites_in_Groups": {
+      "message": "Hi\u1EC3n Th\u1ECB C\u00E1c Trang Trong Nh\u00F3m"
+   },
+   "Show_Vault_After_Login": {
+      "message": "Hi\u1EC7n H\u1EA7m Sau Khi \u0110\u0103ng Nh\u1EADp"
+   },
+   "Show_all_sites": {
+      "message": "Hi\u1EC3n th\u1ECB t\u1EA5t c\u1EA3 c\u00E1c trang"
+   },
+   "Show_certain_notifications_only_after_click": {
+      "message": "Hi\u1EC3n th\u1ECB c\u00E1c th\u00F4ng b\u00E1o n\u00E0o \u0111\u00F3 sau khi nh\u1EA5p chu\u1ED9t"
+   },
+   "Shows_another_custom_field_entry": {
+      "message": "Hi\u1EC3n th\u1ECB m\u1ED9t m\u1EE5c \u00F4 t\u00F9y ch\u1EC9nh kh\u00E1c"
+   },
+   "Sierra_Leone": {
+      "message": "Sierra Leone"
+   },
+   "Simplify_your_life__Use_LastPass_to_autofill_in_this_site_s_login_info_": {
+      "message": "\u0110\u01A1n gi\u1EA3n h\u00F3a cu\u1ED9c s\u1ED1ng: S\u1EED d\u1EE5ng LastPass \u0111\u1EC3 t\u1EF1 \u0111\u1ED9ng \u0111i\u1EC1n v\u00E0o th\u00F4ng tin \u0111\u0103ng nh\u1EADp c\u1EE7a trang web n\u00E0y!"
+   },
+   "Singapore": {
+      "message": "Singapore"
+   },
+   "Site_Search": {
+      "message": "T\u00ECm Ki\u1EBFm Trang"
+   },
+   "Sites": {
+      "message": "Trang Web"
+   },
+   "Slovak": {
+      "message": "Ti\u1EBFng Slovakia"
+   },
+   "Slovakia": {
+      "message": "Slovakia"
+   },
+   "Slovenia": {
+      "message": "Slovenia"
+   },
+   "Social_Security": {
+      "message": "An sinh x\u00E3 h\u1ED9i"
+   },
+   "Social_security_number": {
+      "message": "S\u1ED1 an sinh x\u00E3 h\u1ED9i"
+   },
+   "Software_License": {
+      "message": "Gi\u1EA5y ph\u00E9p ph\u1EA7n m\u1EC1m"
+   },
+   "Solomon_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Solomon"
+   },
+   "Somalia": {
+      "message": "Somalia"
+   },
+   "Sorry__this_shared_folder_is_read_only_": {
+      "message": "Xin l\u1ED7i, th\u01B0 m\u1EE5c chia s\u1EBB n\u00E0y ch\u1EC9 cho ph\u00E9p \u0111\u1ECDc."
+   },
+   "Sorry__you_cannot_perform_this_operation_on_a_mix_of_shared_and_non_shared_folders__or_multiple_shared_folders_at_once_": {
+      "message": "Xin l\u1ED7i, b\u1EA1n kh\u00F4ng th\u1EC3 th\u1EF1c hi\u1EC7n thao t\u00E1c n\u00E0y trong s\u1EF1 h\u1ED7n h\u1EE3p c\u1EE7a th\u01B0 m\u1EE5c chia s\u1EBB v\u00E0 kh\u00F4ng chia s\u1EBB, ho\u1EB7c c\u00E1c th\u01B0 m\u1EE5c \u0111a chia s\u1EBB c\u00F9ng m\u1ED9t l\u00FAc."
+   },
+   "Source_": {
+      "message": "Ngu\u1ED3n:"
+   },
+   "South_Africa": {
+      "message": "Nam Phi"
+   },
+   "South_Georgia": {
+      "message": "Nam Georgia"
+   },
+   "South_Georgia_and_the_South_Sandwich_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Nam Georgia v\u00E0 Nam Sandwich"
+   },
+   "Spain": {
+      "message": "T\u00E2y Ban Nha"
+   },
+   "Spanish": {
+      "message": "Ti\u1EBFng T\u00E2y Ban Nha"
+   },
+   "Spanish__Mexico_": {
+      "message": "T\u00E2y Ban Nha (Mexico)"
+   },
+   "Special": {
+      "message": "\u0110\u1EB7c Bi\u1EC7t"
+   },
+   "SplashID": {
+      "message": "SplashID"
+   },
+   "Sri_Lanka": {
+      "message": "Sri Lanka"
+   },
+   "Start_date": {
+      "message": "Ng\u00E0y b\u1EAFt \u0111\u1EA7u"
+   },
+   "State": {
+      "message": "Bang"
+   },
+   "State___Province": {
+      "message": "Bang / T\u1EC9nh"
+   },
+   "Sticky_Password": {
+      "message": "Sticky Password"
+   },
+   "Submit_Form": {
+      "message": "G\u1EEDi \u0111\u01A1n"
+   },
+   "Submitting___": {
+      "message": "\u0110ang g\u1EEDi..."
+   },
+   "Sudan": {
+      "message": "Sudan"
+   },
+   "Support_Email": {
+      "message": "Email h\u1ED7 tr\u1EE3"
+   },
+   "Suriname": {
+      "message": "Suriname"
+   },
+   "Suspicious_characters_found_in_selected_filename__will_not_process_it": {
+      "message": "K\u00FD t\u1EF1 l\u1EA1 t\u00ECm th\u1EA5y trong t\u1EADp tin \u0111\u01B0\u1EE3c chon, s\u1EBD kh\u00F4ng x\u1EED l\u00FD"
+   },
+   "Svalbard_and_Jan_Mayen": {
+      "message": "Svalbard v\u00E0 Jan Mayen"
+   },
+   "Swaziland": {
+      "message": "Swaziland"
+   },
+   "Sweden": {
+      "message": "Th\u1EE5y \u0110i\u1EC3n"
+   },
+   "Swedish": {
+      "message": "Ti\u1EBFng Th\u1EE5y \u0110i\u1EC3n"
+   },
+   "Swipe_current_user_s_finger": {
+      "message": "Qu\u00E9t ng\u00F3n tay c\u1EE7a ng\u01B0\u1EDDi d\u00F9ng hi\u1EC7n t\u1EA1i"
+   },
+   "Swipe_finger": {
+      "message": "Qu\u00E9t ng\u00F3n tay"
+   },
+   "Swipe_your_finger_on_the_fingerprint_sensor": {
+      "message": "H\u00E3y \u0111\u1EB7t ng\u00F3n tay l\u00EAn b\u1ED9 \u0111\u1ECDc v\u00E2n tay"
+   },
+   "Switzerland": {
+      "message": "Th\u1EE5y S\u0129"
+   },
+   "Syrian_Arab_Republic": {
+      "message": "Syria, C\u1ED9ng h\u00F2a \u1EA2 R\u1EADp"
+   },
+   "Tabs": {
+      "message": "C\u00E1c th\u1EBB"
+   },
+   "Taiwan": {
+      "message": "\u0110\u00E0i Loan"
+   },
+   "Tajikistan": {
+      "message": "Tajikistan"
+   },
+   "Tanzania__United_Republic_Of": {
+      "message": "Tanzania, C\u1ED9ng h\u00F2a"
+   },
+   "Tehran": {
+      "message": "Tehran"
+   },
+   "Telephone": {
+      "message": "\u0110i\u1EC7n tho\u1EA1i"
+   },
+   "Tell_a_friend_": {
+      "message": "K\u1EC3 v\u1EDBi b\u1EA1n b\u00E8!"
+   },
+   "Text": {
+      "message": "V\u0103n B\u1EA3n"
+   },
+   "Text_to_find": {
+      "message": "V\u0103n b\u1EA3n c\u1EA7n t\u00ECm"
+   },
+   "Thailand": {
+      "message": "Th\u00E1i Lan"
+   },
+   "That_file_is_missing_or_empty___Please_enter_the_full_path_of_the_file_to_import_": {
+      "message": "Thi\u1EBFu ho\u1EB7c kh\u00F4ng c\u00F3 t\u1EADp tin ho\u1EB7c. Xin vui l\u00F2ng nh\u1EADp \u0111\u01B0\u1EDDng d\u1EABn \u0111\u1EA7y \u0111\u1EE7 c\u1EE7a t\u1EADp tin \u0111\u1EC3 nh\u1EADp kh\u1EA9u."
+   },
+   "That_group_already_exists_": {
+      "message": "Nh\u00F3m \u0111\u00F3 \u0111\u00E3 t\u1ED3n t\u1EA1i."
+   },
+   "The_4_digit_year_the_credit_card_was_issued": {
+      "message": "N\u0103m ph\u00E1t h\u00E0nh th\u1EBB g\u1ED3m 4 ch\u1EEF s\u1ED1"
+   },
+   "The_LastPass_Wi_Fi_utility_was_not_detected_on_this_computer___Would_you_like_to_run_the_LastPass_Universal_Installer_in_order_to_install_it_": {
+      "message": "Ti\u1EC7n \u00EDch LastPass Wi-Fi kh\u00F4ng ph\u00E1t hi\u1EC7n tr\u00EAn m\u00E1y t\u00EDnh n\u00E0y. B\u1EA1n c\u00F3 mu\u1ED1n ch\u1EA1y tr\u00ECnh c\u00E0i \u0111\u1EB7t LastPass Ho\u00E0n c\u1EA7u \u0111\u1EC3 c\u00E0i \u0111\u1EB7t n\u00F3?"
+   },
+   "The_LastPass_master_password_you_reentered_does_not_match": {
+      "message": "M\u1EADt kh\u1EA9u ch\u1EE7 LastPass m\u00E0 b\u1EA1n nh\u1EADp l\u1EA1i kh\u00F4ng tr\u00F9ng kh\u1EDBp"
+   },
+   "The__Old_Password__you_entered_is_not_your_correct_LastPass_master_password": {
+      "message": "'M\u1EADt Kh\u1EA9u C\u0169' m\u00E0 b\u1EA1n nh\u1EADp v\u00E0o kh\u00F4ng ph\u1EA3i l\u00E0 m\u1EADt kh\u1EA9u ch\u1EE7 LastPass \u0111\u00FAng"
+   },
+   "The_binary_version_of_the_LastPass_plugin_is_required_for_this_operation__It_can_be_downloaded_from_lastpass_com_": {
+      "message": "C\u1EA7n ph\u1EA3i c\u00F3 b\u1EA3n c\u00E0i \u0111\u1EB7t c\u1EE7a b\u1ED9 m\u1EDF r\u1ED9ng LastPass cho t\u00E1c v\u1EE5 n\u00E0y. B\u1EA1n c\u00F3 th\u1EC3 t\u1EA3i n\u00F3 t\u1EEB lastpass.com."
+   },
+   "The_credit_card_number": {
+      "message": "S\u1ED1 th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "The_credit_card_s_4_digit_expiration_year": {
+      "message": "N\u0103m h\u1EBFt h\u1EA1n th\u1EBB g\u1ED3m 4 ch\u1EEF s\u1ED1"
+   },
+   "The_credit_card_s_expiration_month": {
+      "message": "Th\u00E1ng h\u1EBFt h\u1EA1n th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "The_credit_card_s_issue_number__Only_applicable_to_certain_European_brands_of_debit_cards__such_as_Maestro_": {
+      "message": "S\u1ED1 ph\u00E1t h\u00E0nh th\u1EBB t\u00EDn d\u1EE5ng.\nCh\u1EC9 \u00E1p d\u1EE5ng cho m\u1ED9t s\u1ED1 nh\u00E3n hi\u1EC7u th\u1EBB ghi n\u1EE3 c\u1EE7a ch\u00E2u \u00C2u, nh\u01B0 Maestro."
+   },
+   "The_credit_card_s_security_code__For_most_credit_cards__this_is_the_last_3_digits_of_a_number_printed_on_the_back_of_the_card__For_American_Express_credit_cards__it_is_the_last_4_digits_of_a_number_printed_in_small_print_on_the_front_of_the_card_": {
+      "message": "M\u00E3 an ninh c\u1EE7a th\u1EBB t\u00EDn d\u1EE5ng.\nV\u1EDBi ph\u1EA7n l\u1EDBn th\u1EBB t\u00EDn d\u1EE5ng, \u0111\u00E2y l\u00E0 3 s\u1ED1 cu\u1ED1i c\u1EE7a con s\u1ED1 in tr\u00EAn m\u1EB7t sau c\u1EE7a th\u1EBB.\nV\u1EDBi th\u1EBB t\u00EDn d\u1EE5ng American Express, \u0111\u00E2y l\u00E0 4 s\u1ED1 cu\u1ED1i c\u1EE7a con s\u1ED1 in nh\u1ECF \u1EDF m\u1EB7t tr\u01B0\u1EDBc c\u1EE7a th\u1EBB."
+   },
+   "The_full_name_printed_on_the_credit_card": {
+      "message": "T\u00EAn \u0111\u1EA7y \u0111\u1EE7 in tr\u00EAn th\u1EBB t\u00EDn d\u1EE5ng"
+   },
+   "The_language_of_the_Web_sites_where_this_Form_Fill_profile_will_be_used": {
+      "message": "Ng\u00F4n ng\u1EEF trang web n\u01A1i b\u1EA1n s\u1EBD d\u00F9ng H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu n\u00E0y"
+   },
+   "The_month_the_credit_card_was_issued": {
+      "message": "Th\u00E1ng ph\u00E1t h\u00E0nh th\u1EBB"
+   },
+   "The_name_of_the_Form_Fill_profile": {
+      "message": "T\u00EAn H\u1ED3 S\u01A1 \u0110i\u1EC1n M\u1EABu"
+   },
+   "The_name_of_your_bank": {
+      "message": "T\u00EAn ng\u00E2n h\u00E0ng c\u1EE7a b\u1EA1n"
+   },
+   "The_notes_field_contains_too_much_data___You_may_store_a_maximum_of_45_000_characters_per_note___Would_you_like_us_to_truncate_the_note_for_you___You_will_lose_some_of_your_data_": {
+      "message": "\u00D4 ghi ch\u00FA c\u00F3 qu\u00E1 nhi\u1EC1u d\u1EEF li\u1EC7u.  B\u1EA1n c\u00F3 th\u1EC3 l\u01B0u tr\u1EEF t\u1ED1i \u0111a 45.000 k\u00FD t\u1EF1 trong m\u1ED7i ghi ch\u00FA.\n\nB\u1EA1n c\u00F3 mu\u1ED1n ch\u00FAng t\u00F4i c\u1EAFt ng\u1EAFn ghi ch\u00FA c\u1EE7a b\u1EA1n kh\u00F4ng? B\u1EA1n s\u1EBD m\u1EA5t m\u1ED9t s\u1ED1 d\u1EEF li\u1EC7u. "
+   },
+   "The_text_beside__the_name_of__or_the_ID_of_the_form_field_to_be_filled__If_multiple_items_are_to_be_matched__specify_each_match_on_a_separate_line_": {
+      "message": "\u0110i\u1EC1n v\u00E0o \u00F4 b\u00EAn c\u1EA1nh t\u00EAn, ho\u1EB7c ID c\u1EE7a bi\u1EC3u m\u1EABu.\nN\u1EBFu nhi\u1EC1u m\u1EE5c \u0111\u01B0\u1EE3c ch\u1ECDn, t\u00E1ch m\u1ED7i m\u1EE5c th\u00E0nh h\u00E0ng ri\u00EAng."
+   },
+   "The_value_to_be_filled": {
+      "message": "Gi\u00E1 tr\u1ECB s\u1EBD \u0111i\u1EC1n"
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work_": {
+      "message": "C\u00E1c phi\u00EAn b\u1EA3n c\u1EE7a Chrome hi\u1EC7n \u0111ang ch\u1EA1y kh\u00F4ng c\u00F3 HTML5 c\u01A1 s\u1EDF d\u1EEF li\u1EC7u h\u1ED7 tr\u1EE3 \u0111\u01B0\u1EE3c k\u00EDch ho\u1EA1t. Nh\u01B0 v\u1EADy, trang \u0111\u0103ng nh\u1EADp n\u00E0y s\u1EBD kh\u00F4ng nh\u1EDB email v\u00E0 m\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n, v\u00E0 c\u00E1c t\u00EDnh n\u0103ng kh\u00E1c nh\u01B0 \u0111\u0103ng nh\u1EADp t\u1EF1 \u0111\u1ED9ng kh\u1EDFi \u0111\u1ED9ng l\u1EA1i tr\u00ECnh duy\u1EC7t s\u1EBD kh\u00F4ng l\u00E0m vi\u1EC7c."
+   },
+   "The_version_of_Chrome_you_are_currently_running_does_not_have_HTML5_database_support_enabled___As_such__this_login_page_will_not_remember_your_email_and_password__and_other_features_such_as_automatic_login_on_browser_restart_will_not_work___You_may_be_able_to_fix_this_by_adding___enable_databases_as_a_parameter_to_your_Google_Chrome_browser_shortcut_": {
+      "message": "Phi\u00EAn b\u1EA3n Chrome b\u1EA1n \u0111ang s\u1EED d\u1EE5ng kh\u00F4ng k\u00EDch ho\u1EA1t h\u1ED7 tr\u1EE3 c\u01A1 s\u1EDF d\u1EEF li\u1EC7u HTML5. Nh\u01B0 v\u1EADy, trang \u0111\u0103ng nh\u1EADp n\u00E0y s\u1EBD kh\u00F4ng ghi nh\u1EDB email v\u00E0 m\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n, v\u00E0 c\u00E1c t\u00EDnh n\u0103ng kh\u00E1c nh\u01B0 \u0111\u0103ng nh\u1EADp t\u1EF1 \u0111\u1ED9ng khi kh\u1EDFi \u0111\u1ED9ng l\u1EA1i tr\u00ECnh duy\u1EC7t s\u1EBD kh\u00F4ng ho\u1EA1t \u0111\u1ED9ng. B\u1EA1n c\u00F3 th\u1EC3 s\u1EEDa l\u1EA1i \u0111i\u1EC1u n\u00E0y b\u1EB1ng c\u00E1ch th\u00EAm c\u01A1 s\u1EDF d\u1EEF li\u1EC7u --enable-- l\u00E0m tham s\u1ED1 cho shortcut tr\u00ECnh duy\u1EC7t Google Chrome."
+   },
+   "This_attachment_needs_to_be_saved_first_": {
+      "message": "T\u1EADp tin \u0111\u00EDnh k\u00E8m n\u00E0y c\u1EA7n \u0111\u01B0\u1EE3c l\u01B0u \u0111\u1EA7u ti\u00EAn."
+   },
+   "This_can_only_be_handled_from_a_webpage": {
+      "message": "Ch\u1EC9 c\u00F3 x\u1EED l\u00FD t\u1EEB m\u1ED9t trang web"
+   },
+   "This_computer_is_trusted__do_not_require_a_second_form_of_authentication_": {
+      "message": "M\u00E1y t\u00EDnh n\u00E0y \u0111\u01B0\u1EE3c tin c\u1EADy, kh\u00F4ng c\u1EA7n ph\u1EA3i c\u00F3 h\u00ECnh th\u1EE9c x\u00E1c th\u1EF1c th\u1EE9 hai."
+   },
+   "This_feature_is_not_available_in_this_version__Please_install_the_binary_extension_by_going_to_https___lastpass_com_dl": {
+      "message": "T\u00EDnh n\u0103ng n\u00E0y l\u00E0 kh\u00F4ng c\u00F3 s\u1EB5n trong phi\u00EAn b\u1EA3n n\u00E0y. Xin vui l\u00F2ng c\u00E0i \u0111\u1EB7t c\u00E1c ph\u1EA7n m\u1EDF r\u1ED9ng nh\u1ECB ph\u00E2n b\u1EB1ng c\u00E1ch \u0111\u1EC3 https://lastpass.com/dl"
+   },
+   "This_feature_requires_the_binary_version_of_this_browser_extension___Would_you_like_to_install_it_now_": {
+      "message": "T\u00EDnh n\u0103ng n\u00E0y \u0111\u00F2i h\u1ECFi phi\u00EAn b\u1EA3n nh\u1ECB ph\u00E2n c\u1EE7a ph\u1EA7n m\u1EDF r\u1ED9ng tr\u00ECnh duy\u1EC7t n\u00E0y. B\u1EA1n c\u00F3 mu\u1ED1n c\u00E0i \u0111\u1EB7t n\u00F3 ngay b\u00E2y gi\u1EDD?"
+   },
+   "This_feature_still_needs_to_be_implemented__to_read_directly_from_": {
+      "message": "T\u00EDnh n\u0103ng n\u00E0y v\u1EABn c\u1EA7n \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n, xem tr\u1EF1c ti\u1EBFp t\u1EEB"
+   },
+   "This_is_a_shared_site__You_are_not_permitted_to_view_the_password_": {
+      "message": "\u0110\u00E2y l\u00E0 m\u1ED9t trang \u0111\u01B0\u1EE3c chia s\u1EBB. B\u1EA1n kh\u00F4ng \u0111\u01B0\u1EE3c ph\u00E9p xem m\u1EADt kh\u1EA9u."
+   },
+   "This_may_take_a_while___": {
+      "message": "C\u00F3 th\u1EC3 m\u1EA5t m\u1ED9t l\u00FAc...."
+   },
+   "Time_Zone": {
+      "message": "M\u00FAi Gi\u1EDD"
+   },
+   "Timor_Leste": {
+      "message": "Timor-Leste"
+   },
+   "Title": {
+      "message": "Danh Hi\u1EC7u"
+   },
+   "To_create_your_account__please_re_enter_your_LastPass_master_password": {
+      "message": "\u0110\u1EC3 t\u1EA1o t\u00E0i kho\u1EA3n, xin vui l\u00F2ng nh\u1EADp l\u1EA1i m\u1EADt kh\u1EA9u ch\u1EE7 LastPass c\u1EE7a b\u1EA1n"
+   },
+   "To_export_1Password_logins__login_to_1Password__Select_all_or_just_passwords_that_you_want_to_export__Then_select__File_menu___Export_All___Text_file_____Or____File_menu___Export_Selected___Text_file____Click_Export_button_and_Save_password_file__and_Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t th\u00F4ng tin \u0111\u0103ng nh\u1EADp 1Password, \u0111\u0103ng nh\u1EADp v\u00E0o 1Password. Ch\u1ECDn t\u1EA5t c\u1EA3 ho\u1EB7c ch\u1EC9 nh\u1EEFng m\u1EADt kh\u1EA9u n\u00E0o b\u1EA1n mu\u1ED1n xu\u1EA5t. R\u1ED3i ch\u1ECDn: Tr\u00ECnh \u0111\u01A1n File / Export All / Text file...  Ho\u1EA1c    Tr\u00ECnh \u0111\u01A1n File / Export Selected / Text file... Nh\u1EA5n n\u00FAt Export v\u00E0 L\u01B0u t\u1EADp tin m\u1EADt kh\u1EA9u, v\u00E0 Nh\u1EADp t\u1EADp tin \u0111\u00E3 t\u1EA1o ra."
+   },
+   "To_export_Clipperz_cards__login_to_www_clipperz_com__Click_on_data__then_Export__then_Export_to_JSON__Copy_all_of_the_text_and_save_it_to_a_file_using_a_text_editor__then_import_it__Please_note_that_this_import_may_not_work_properly_if_you_ve_changed_field_names_from_their_defaults_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t c\u00E1c th\u1EBB Clipperz, \u0111\u0103ng nh\u1EADp v\u00E0o www.clipperz.com. Nh\u1EA5n v\u00E0o d\u1EEF li\u1EC7u, r\u1ED3i Export, r\u1ED3i Export to JSON. Ch\u00E9p t\u1EA5t c\u1EA3 n\u1ED9i dung v\u0103n b\u1EA3n v\u00E0 l\u01B0u n\u00F3 v\u00E0o m\u1ED9t t\u1EADp tin b\u1EB1ng m\u1ED9t tr\u00ECnh so\u1EA1n th\u1EA3o v\u0103n b\u1EA3n, r\u1ED3i nh\u1EADp kh\u1EA9u n\u00F3. Xin l\u01B0u \u00FD l\u00E0 c\u00E1ch nh\u1EADp n\u00E0y c\u00F3 th\u1EC3 kh\u00F4ng ho\u1EA1t \u0111\u1ED9ng \u0111\u00FAng n\u1EBFu b\u1EA1n thay \u0111\u1ED5i t\u00EAn tr\u01B0\u1EDDng kh\u00E1c v\u1EDBi m\u1EB7c \u0111\u1ECBnh."
+   },
+   "To_export_FireForm_profiles__right_click_the_FireForm_icon__then_choose_Simple_setup___Go_to_the_General_options_tab__click_Export_all_profiles__and_save_an_XML_file___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t h\u1ED3 s\u01A1 FireForm, nh\u1EA5n chu\u1ED9t ph\u1EA3i v\u00E0o bi\u1EC3u t\u01B0\u1EE3ng FireForm r\u1ED3i ch\u1ECDn Simple setup. V\u00E0o th\u1EBB General options, nh\u1EA5n Export all profiles r\u1ED3i l\u01B0u v\u00E0o t\u1EADp tin XML. Nh\u1EADp t\u1EADp tin v\u1EEBa c\u00F3 \u0111\u01B0\u1EE3c."
+   },
+   "To_export_HP_Password_Safe_save_to_an_HTML_file__Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t HP Password Safe l\u01B0u v\u00E0o t\u1EADp tin HTML. Nh\u1EADp kh\u1EA9u t\u1EADp tin \u0111\u00F3."
+   },
+   "To_export_KeePass_logins__open_your_KeePass_database__and_click_on_File___Export_To___XML_File___Choose_a_file_location_and_press_the_Save_button___Then__press_the_OK_button___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u \u0111\u0103ng nh\u1EADp KeePass, m\u1EDF c\u01A1 s\u1EDF d\u1EEF li\u1EC7u KeePass c\u1EE7a b\u1EA1n, v\u00E0 click v\u00E0o File - Export - file XML. Ch\u1ECDn m\u1ED9t v\u1ECB tr\u00ED t\u1EADp tin v\u00E0 nh\u1EA5n n\u00FAt Save. Sau \u0111\u00F3, b\u1EA5m n\u00FAt OK. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_export_LastPass_logins__open_your_browser_with_the_LastPass_plugin_installed__and_click_on_LastPass___Tools___Export_To___CSV_File___Choose_a_file_location_and_press_the_Save_button___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t \u0111\u0103ng nh\u1EADp LastPass, m\u1EDF tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n v\u1EDBi c\u00E1c plugin LastPass \u0111\u00E3 \u0111\u01B0\u1EE3c c\u00E0i \u0111\u1EB7t, v\u00E0 click v\u00E0o LastPass - C\u00F4ng c\u1EE5 - Xu\u1EA5t kh\u1EA9u - CSV file. Ch\u1ECDn m\u1ED9t v\u1ECB tr\u00ED t\u1EADp tin v\u00E0 nh\u1EA5n n\u00FAt Save. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin thu \u0111\u01B0\u1EE3c."
+   },
+   "To_export_Password_Agent_logins__open_your_Password_Agent_database__and_click_on_File___Print_and_Export___Change_the_output_format_to_XML_File__make_sure__Group__is_checked___Choose_a_file_location_and_press_the_Save_button___Import_the_resulting_file_": {
+      "message": "Xu\u1EA5t \u0111\u0103ng nh\u1EADp t\u1EEB Password Agent, m\u1EDF c\u01A1 s\u1EDF d\u1EEF li\u1EC7u Password Agent c\u1EE7a b\u1EA1n, click v\u00E0o T\u1EADp Tin - In v\u00E0 Xu\u1EA5t - Thay \u0111\u1ED5i \u0111\u1ECBnh d\u1EA1ng \u0111\u1EA7u ra th\u00E0nh File XML. Ch\u1EAFc ch\u1EAFn 'Nh\u00F3m' \u0111\u01B0\u1EE3c ch\u1ECDn. Ch\u1ECDn m\u1ED9t v\u1ECB tr\u00ED t\u1EADp tin v\u00E0 nh\u1EA5n n\u00FAt L\u01B0u. Nh\u1EADp t\u1EADp tin v\u1EEBa t\u1EA1o."
+   },
+   "To_export_Passwords_Max_passwords__click_File___Database___Export___Text___Click_OK__and_save_a_CSV_file___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u m\u1EADt kh\u1EA9u t\u1ED1i \u0111a, h\u00E3y nh\u1EA5p v\u00E0o File - C\u01A1 s\u1EDF d\u1EEF li\u1EC7u - Xu\u1EA5t kh\u1EA9u - V\u0103n b\u1EA3n. Click OK, v\u00E0 l\u01B0u m\u1ED9t t\u1EADp tin CSV. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin c\u00F3 \u0111\u01B0\u1EE3c."
+   },
+   "To_export_RoboForm_logins__click_on_RoboForm_Logins____Print_List__Click_on_the_Full_URL_check_box_and_press_the_save_button__Import_the_resulting_file___To_export_RoboForm_SafeNotes__click_on_RoboForm_SafeNotes_Print_List__Press_the_save_button__Import_the_resulting_file___To_export_RoboForm_Identities__click_on_RoboForm_Identities_Print_List__Press_the_save_button__Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u \u0111\u0103ng nh\u1EADp RoboForm, nh\u1EA5p chu\u1ED9t v\u00E0o RoboForm \u0110\u0103ng nh\u1EADp ...-In Danh s\u00E1ch. Nh\u1EA5p v\u00E0o ki\u1EC3m tra c\u00E1c URL Full-box v\u00E0 nh\u1EA5n v\u00E0o n\u00FAt l\u01B0u. Nh\u1EADp kh\u1EA9u file thu \u0111\u01B0\u1EE3c.\n\n\u0110\u1EC3 xu\u1EA5t kh\u1EA9u RoboForm SafeNotes, b\u1EA5m v\u00E0o Danh s\u00E1ch RoboForm-SafeNotes-In danh s\u00E1ch. Nh\u1EA5n v\u00E0o n\u00FAt l\u01B0u. Nh\u1EADp kh\u1EA9u file.\n\n\u0110\u1EC3 xu\u1EA5t kh\u1EA9u c\u00E1c Nh\u1EADn d\u1EA1ng RoboForm, b\u1EA5m v\u00E0o Danh s\u00E1ch RoboForm-Nh\u1EADn d\u1EA1ng-In. Nh\u1EA5n v\u00E0o n\u00FAt l\u01B0u. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin thu \u0111\u01B0\u1EE3c."
+   },
+   "To_export_eWallet_cards__go_to_eWallet___Tools___Export__Save_as_a_text_file__Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u Ewallet th\u1EBB, \u0111i Ewallet - Tools - Xu\u1EA5t kh\u1EA9u. Ti\u1EBFt ki\u1EC7m nh\u01B0 m\u1ED9t t\u1EADp tin v\u0103n b\u1EA3n. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_export_from_MyPasswordSafe__Click_on_File___Save_As___Select_type_of_UNENCRYPTED_XML___Save_the_file___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u MyPasswordSafe, Click v\u00E0o File - Save As Ch\u1ECDn lo\u1EA1i UNENCRYPTED XML - L\u01B0u t\u1EADp tin. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin thu \u0111\u01B0\u1EE3c."
+   },
+   "To_export_from_Password_Safe__Click_on_File___Export_To___XML___Save_the_file___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u t\u1EEB m\u1EADt kh\u1EA9u an to\u00E0n, Click v\u00E0o File - Export - XML \u200B\u200B- L\u01B0u t\u1EADp tin. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_export_passwords__login_to_the_desktop_application_and_go_to_File___Export___CSV___All_Entries___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u, \u0111\u0103ng nh\u1EADp v\u00E0o \u1EE9ng d\u1EE5ng m\u00E1y t\u00EDnh \u0111\u1EC3 b\u00E0n v\u00E0 \u0111i \u0111\u1EBFn File - Export - CSV - t\u1EA5t c\u1EA3 c\u00E1c m\u1EE5c. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_export_passwords_from_Darn__Passwords___click_Tools___Print___Click_Settings__and_check_Include_Notes_in_Export___Click_Print__and_click_the_Export_to_File_icon_that_looks_like_a_blue_disk___Name_the_file__and_click_Open___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB Darn! M\u1EADt kh\u1EA9u, nh\u1EA5p chu\u1ED9t v\u00E0o Tools - In. Nh\u1EA5p v\u00E0o C\u00E0i \u0111\u1EB7t, v\u00E0 ki\u1EC3m tra Bao g\u1ED3m Ghi ch\u00FA v\u1EC1 xu\u1EA5t kh\u1EA9u. Nh\u1EA5p v\u00E0o In, v\u00E0 nh\u1EA5p v\u00E0o xu\u1EA5t kh\u1EA9u \u0111\u1EC3 t\u1EADp tin bi\u1EC3u t\u01B0\u1EE3ng tr\u00F4ng gi\u1ED1ng nh\u01B0 m\u1ED9t \u0111\u0129a m\u00E0u xanh. \u0110\u1EB7t t\u00EAn cho t\u1EADp tin, v\u00E0 nh\u1EA5n M\u1EDF. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_export_passwords_from_Passpack__Login__go_to_the_Tools_screen__and_click_Export__Under__What_Type_of_Format_Would_You_Like_To_Export___Select__Comma_Separated_Values___and_on__Which_Entries_Would_You_Like_To_Export___Select__All_of_my_entries___then_hit__Continue___Select_all_of_the_text_in_the_text_box_on_the_next_screen__copy_it_to_the_clipboard__create_a_new_file_with_notepad_called_passpack_csv__paste_the_contents_into_this_file__Import_this_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t m\u1EADt kh\u1EA9u t\u1EEB Passpack: \u0110\u0103ng nh\u1EADp, v\u00E0o m\u00E0n h\u00ECnh Tools, v\u00E0 nh\u1EA5n Export. D\u01B0\u1EDBi _What Type of Format Would You Like To Export?_ Ch\u1ECDn _Comma Separated Values_, v\u00E0 t\u1EA1i _Which Entries Would You Like To Export?_ Ch\u1ECDn _All of my entries_, r\u1ED3i nh\u1EA5n _Continue_. Ch\u1ECDn t\u1EA5t c\u1EA3 c\u00E1c v\u0103n b\u1EA3n trong h\u1ED9p v\u0103n b\u1EA3n t\u1EA1i m\u00E0n h\u00ECnh k\u1EBF ti\u1EBFp, ch\u00E9p n\u00F3 v\u00E0o clipboard, t\u1EA1o m\u1ED9t t\u1EADp tin m\u1EDBi trong notepad c\u00F3 t\u00EAn passpack.csv, d\u00E1n n\u1ED9i dung v\u00E0o t\u1EADp tin n\u00E0y. Nh\u1EADp kh\u1EA9u t\u1EADp tin n\u00E0y."
+   },
+   "To_export_passwords_from_Password_Corral__Login__go_to_the_File___Export_Password___Create_a_plaintext_export_of_all_your_password___Import_this_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB M\u1EADt kh\u1EA9u Corral: \u0110\u0103ng nh\u1EADp, v\u00E0o File - M\u1EADt kh\u1EA9u xu\u1EA5t kh\u1EA9u - T\u1EA1o m\u1ED9t xu\u1EA5t kh\u1EA9u ch\u1EEF \u0111\u01A1n gi\u1EA3n c\u1EE7a t\u1EA5t c\u1EA3 c\u00E1c m\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n. Nh\u1EADp kh\u1EA9u t\u1EADp tin n\u00E0y."
+   },
+   "To_export_passwords_from_Password_Depot__click_on_the__Tools__tab_and_select__Export___Select_the__Extensible_Markup_Language_format____xml____specify_a_target_file_and_select_the_folder_you_want_to_export_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u Kho Password, click v\u00E0o tab 'Tools' v\u00E0 ch\u1ECDn 'xu\u1EA5t kh\u1EA9u'. Ch\u1ECDn \u0111\u1ECBnh d\u1EA1ng Ng\u00F4n ng\u1EEF \u0111\u00E1nh d\u1EA5u m\u1EDF r\u1ED9ng (*.xml), ch\u1EC9 \u0111\u1ECBnh m\u1ED9t t\u1EADp tin m\u1EE5c ti\u00EAu v\u00E0 ch\u1ECDn th\u01B0 m\u1EE5c m\u00E0 b\u1EA1n mu\u1ED1n xu\u1EA5t kh\u1EA9u."
+   },
+   "To_export_passwords_from_Password_Dragon__Login__go_to_the_File___Export___Text_File__make_sure_you_check__Password___it_defaults_off___Import_the_saved_file_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB M\u1EADt kh\u1EA9u Dragon: \u0110\u0103ng nh\u1EADp, v\u00E0o File - Export - File v\u0103n b\u1EA3n, ch\u1EAFc ch\u1EAFn r\u1EB1ng b\u1EA1n ki\u1EC3m tra 'M\u1EADt kh\u1EA9u', n\u00F3 m\u1EB7c \u0111\u1ECBnh t\u1EAFt. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin \u0111\u00E3 l\u01B0u."
+   },
+   "To_export_passwords_from_Revelation_Password_Manager__export_the_data_as_XML_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB qu\u1EA3n l\u00FD Khai quang m\u1EADt kh\u1EA9u, h\u00E3y xu\u1EA5t kh\u1EA9u c\u00E1c d\u1EEF li\u1EC7u nh\u01B0 XML."
+   },
+   "To_export_passwords_from_SPB_Wallet__open_the_wallet__click_File__Export__select_file_destination_in_the_dialog_box_and_click_Save__Then__paste_the_data_into_the_box_on_this_page_": {
+      "message": "\u0110\u1EC3 xu\u1EA5t kh\u1EA9u m\u1EADt kh\u1EA9u t\u1EEB SPB t\u00FAi, m\u1EDF t\u00FAi, h\u00E3y nh\u1EA5p v\u00E0o File, Export, ch\u1ECDn \u0111i\u1EC3m \u0111\u1EBFn t\u1EADp tin trong h\u1ED9p tho\u1EA1i v\u00E0 nh\u1EA5p v\u00E0o L\u01B0u. Sau \u0111\u00F3, d\u00E1n d\u1EEF li\u1EC7u v\u00E0o h\u1ED9p tr\u00EAn trang n\u00E0y."
+   },
+   "To_get_started_with_LastPass__you_will_need_to_add_sites_to_your_account_": {
+      "message": "\u0110\u1EC3 b\u1EAFt \u0111\u1EA7u v\u1EDBi Lastpass, b\u1EA1n s\u1EBD c\u1EA7n th\u00EAm trang web v\u00E0o t\u00E0i kho\u1EA3n c\u1EE7a b\u1EA1n."
+   },
+   "To_import_Wi_Fi_passwords__simply_click_Import_below_": {
+      "message": "\u0110\u1EC3 nh\u1EADp m\u1EADt kh\u1EA9u Wi-Fi, ch\u1EC9 c\u1EA7n nh\u1EA5p v\u00E0o Nh\u1EADp kh\u1EA9u d\u01B0\u1EDBi \u0111\u00E2y."
+   },
+   "To_import_from_PINs_Password_Manager_Export_in_Tab_Separated_format___Then__import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 nh\u1EADp kh\u1EA9u t\u1EEB PINs Password Manager, Xu\u1EA5t ra theo \u0111\u1ECBnh d\u1EA1ng ph\u00E2n t\u00E1ch b\u1EB1ng tab. R\u1ED3i, nh\u1EADp kh\u1EA9u t\u1EADp tin v\u1EEBa t\u1EA1o."
+   },
+   "To_import_passwords_from_Opera_Password_Manager__simply_click_Import_below_": {
+      "message": "\u0110\u1EC3 nh\u1EADp m\u1EADt kh\u1EA9u t\u1EEB Tr\u00ECnh qu\u1EA3n l\u00FD m\u1EADt kh\u1EA9u Opera, ch\u1EC9 c\u1EA7n nh\u1EA5p v\u00E0o Nh\u1EADp kh\u1EA9u d\u01B0\u1EDBi \u0111\u00E2y."
+   },
+   "To_import_passwords_from_Safari_Password_Manager__simply_click_Import_below_": {
+      "message": "\u0110\u1EC3 nh\u1EADp m\u1EADt kh\u1EA9u t\u1EEB Qu\u1EA3n l\u00FD m\u1EADt kh\u1EA9u Safari, ch\u1EC9 c\u1EA7n nh\u1EA5p v\u00E0o Nh\u1EADp kh\u1EA9u d\u01B0\u1EDBi \u0111\u00E2y."
+   },
+   "To_import_your_MSI_PasswordKeeper_logins__open_the_program___Click__Txt___and_then__Open____Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 nh\u1EADp th\u00F4ng tin \u0111\u0103ng nh\u1EADp MSI PasswordKeeper, m\u1EDF ch\u01B0\u01A1ng tr\u00ECnh. Nh\u1EA5n 'Txt', r\u1ED3i 'Open'. Nh\u1EADp kh\u1EA9u t\u1EADp tin v\u1EEBa t\u1EA1o."
+   },
+   "To_import_your_Password_Keeper_logins__open_the_program__and_the_password_file_to_be_exported___Click_File___Export_File___Click_Yes__enter_your_password__and_click_OK___This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location___Import_the_resulting_file_": {
+      "message": "\u0110\u1EC3 nh\u1EADp kh\u1EA9u c\u00E1c \u0111\u0103ng nh\u1EADp gi\u1EEF M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n, m\u1EDF ch\u01B0\u01A1ng tr\u00ECnh, v\u00E0 c\u00E1c t\u1EADp tin m\u1EADt kh\u1EA9u \u0111\u01B0\u1EE3c xu\u1EA5t kh\u1EA9u. Click v\u00E0o File - Export File. Nh\u1EA5n Yes, nh\u1EADp m\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n, v\u00E0 nh\u1EA5n OK. \u0110i\u1EC1u n\u00E0y s\u1EBD m\u1EDF ra h\u1ED9p tho\u1EA1i L\u01B0u Windows ti\u00EAu chu\u1EA9n, do \u0111\u00F3, nh\u1EADp t\u00EAn file v\u00E0 v\u1ECB tr\u00ED. Nh\u1EADp kh\u1EA9u c\u00E1c t\u1EADp tin k\u1EBFt qu\u1EA3."
+   },
+   "To_import_your_TurboPasswords_logins__open_the_program__and_the_password_file_to_be_exported__If_you_want_to_restrict_the_export_to_a_particular_category_or_type__filter_the_entries_displayed_using_the_Category_and_Type_drop_downs_above_the_main_window__Click_File_Export_Category__This_opens_a_standard_Windows_Save_dialog__so_enter_a_file_name_and_location__and_select_Comma_Separated_Values___csv__from_the_Save_as_Type_box_": {
+      "message": "\u0110\u1EC3 nh\u1EADp th\u00F4ng tin \u0111\u0103ng nh\u1EADp TurboPasswords c\u1EE7a b\u1EA1n, m\u1EDF ch\u01B0\u01A1ng tr\u00ECnh, v\u00E0 t\u1EADp tin m\u1EADt kh\u1EA9u mu\u1ED1n xu\u1EA5t. N\u1EBFu b\u1EA1n mu\u1ED1n h\u1EA1n ch\u1EBF ch\u1EC9 xu\u1EA5t ra m\u1ED9t th\u1EC3 lo\u1EA1i ho\u1EB7c ki\u1EC3u n\u00E0o \u0111\u00F3, h\u00E3y l\u1ECDc c\u00E1c m\u1EE5c hi\u1EC3n th\u1ECB b\u1EB1ng c\u00E1ch d\u00F9ng h\u1ED9p th\u1EA3 xu\u1ED1ng Category v\u00E0 Type \u1EDF tr\u00EAn c\u1EEDa s\u1ED5 ch\u00EDnh. Nh\u1EA5n File|Export Category. N\u00F3 s\u1EBD m\u1EDF m\u1ED9t h\u1ED9p tho\u1EA1i Windows Save b\u00ECnh th\u01B0\u1EDDng, nh\u1EADp t\u00EAn t\u1EADp tin v\u00E0 v\u1ECB tr\u00ED, v\u00E0 ch\u1ECDn Comma Separated Values (.csv) t\u1EEB \u00F4 Save as Type."
+   },
+   "To_protect_your_privacy_and_keep_your_data_confidential_": {
+      "message": "\u0110\u1EC3 b\u1EA3o v\u1EC7 s\u1EF1 ri\u00EAng t\u01B0 v\u00E0 gi\u1EEF b\u00ED m\u1EADt d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n,"
+   },
+   "Togo": {
+      "message": "Togo"
+   },
+   "Tokelau": {
+      "message": "Tokelau"
+   },
+   "Tonga": {
+      "message": "Tonga"
+   },
+   "Tools": {
+      "message": "C\u00F4ng C\u1EE5"
+   },
+   "Trinidad_and_Tobago": {
+      "message": "Trinidad v\u00E0 Tobago"
+   },
+   "Try_Again": {
+      "message": "Th\u1EED L\u1EA1i"
+   },
+   "Tunisia": {
+      "message": "Tunisia"
+   },
+   "TurboPasswords": {
+      "message": "TurboPasswords"
+   },
+   "Turkey": {
+      "message": "Th\u1ED5 Nh\u0129 K\u1EF3"
+   },
+   "Turkmenistan": {
+      "message": "Turkmenistan"
+   },
+   "Turks_and_Caicos_Islands": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Turks v\u00E0 Caicos"
+   },
+   "Tuvalu": {
+      "message": "Tuvalu"
+   },
+   "Type": {
+      "message": "Ki\u1EC3u"
+   },
+   "Type_": {
+      "message": "Lo\u1EA1i"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "URL_": {
+      "message": "URL:"
+   },
+   "USERNAME": {
+      "message": "T\u00CAN NG\u01AF\u1EDCI D\u00D9NG"
+   },
+   "Uganda": {
+      "message": "Uganda"
+   },
+   "Ukraine": {
+      "message": "Ukraina"
+   },
+   "Ulaan_Bataar__Perth": {
+      "message": "Ulaan Bataar, Perth"
+   },
+   "Unexpected_data_type__": {
+      "message": "Ki\u1EC3u d\u1EEF li\u1EC7u kh\u00F4ng mong mu\u1ED1n:"
+   },
+   "United_Arab_Emirates": {
+      "message": "C\u00E1c ti\u1EC3u v\u01B0\u01A1ng qu\u1ED1c \u1EA2 R\u1EADp th\u1ED1ng nh\u1EA5t"
+   },
+   "United_Kingdom": {
+      "message": "V\u01B0\u01A1ng qu\u1ED1c Anh"
+   },
+   "United_States": {
+      "message": "Hoa K\u1EF3"
+   },
+   "United_States_Minor_Outlying_Islands": {
+      "message": "C\u00E1c ti\u1EC3u \u0111\u1EA3o xa c\u1EE7a Hoa K\u1EF3"
+   },
+   "Unknown": {
+      "message": "Kh\u00F4ng bi\u1EBFt"
+   },
+   "Unselect_All": {
+      "message": "B\u1ECF Ch\u1ECDn T\u1EA5t C\u1EA3"
+   },
+   "Up": {
+      "message": "L\u00EAn"
+   },
+   "Upgrade_to_LastPass_Online_": {
+      "message": "N\u00E2ng c\u1EA5p l\u00EAn LastPass Online!"
+   },
+   "Uploading_Data___": {
+      "message": "\u0110ang t\u1EA3i l\u00EAn d\u1EEF li\u1EC7u ..."
+   },
+   "Uruguay": {
+      "message": "Uruguay"
+   },
+   "Use_802_1X": {
+      "message": "S\u1EED d\u1EE5ng 802.1X"
+   },
+   "User_Manual": {
+      "message": "H\u01B0\u1EDBng D\u1EABn S\u1EED D\u1EE5ng"
+   },
+   "User_name": {
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng"
+   },
+   "Username_": {
+      "message": "T\u00EAn Ng\u01B0\u1EDDi D\u00F9ng:"
+   },
+   "Usernameproper": {
+      "message": "T\u00EAn Ng\u01B0\u1EDDi D\u00F9ng"
+   },
+   "Uzbekistan": {
+      "message": "Uzbekistan"
+   },
+   "Value_to_fill": {
+      "message": "Gi\u00E1 tr\u1ECB s\u1EBD \u0111i\u1EC1n"
+   },
+   "Vanuatu": {
+      "message": "Vanuatu"
+   },
+   "Vault": {
+      "message": "Kho"
+   },
+   "Venezuela": {
+      "message": "Venezuela"
+   },
+   "Version": {
+      "message": "Phi\u00EAn b\u1EA3n"
+   },
+   "Version_": {
+      "message": "Phi\u00EAn B\u1EA3n:"
+   },
+   "Viet_Nam": {
+      "message": "Vi\u1EC7t Nam"
+   },
+   "View_Image": {
+      "message": "Xem \u1EA2nh"
+   },
+   "View_Passwords": {
+      "message": "Xem m\u1EADt kh\u1EA9u"
+   },
+   "Virgin_Islands__British_": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Virgin (Anh)"
+   },
+   "Virgin_Islands__U_S__": {
+      "message": "Qu\u1EA7n \u0111\u1EA3o Virgin (M\u1EF9)"
+   },
+   "Wallis_and_Futuna": {
+      "message": "Wallis v\u00E0 Futuna"
+   },
+   "Warn_before_filling_insecure_forms": {
+      "message": "C\u1EA3nh b\u00E1o tr\u01B0\u1EDBc khi \u0111i\u1EC1n m\u1EABu \u0111\u01A1n kh\u00F4ng an to\u00E0n"
+   },
+   "Watch_a_video_on_basic_usage": {
+      "message": "Xem video v\u1EC1 c\u00E1ch s\u1EED d\u1EE5ng c\u01A1 b\u1EA3n"
+   },
+   "We_also_DO_NOT_keep_a_copy_or_backup_of_it_": {
+      "message": "Ch\u00FAng t\u00F4i c\u0169ng KH\u00D4NG gi\u1EEF b\u1EA3n sao c\u1EE7a n\u00F3 ho\u1EB7c sao l\u01B0u n\u00F3."
+   },
+   "Website": {
+      "message": "Website"
+   },
+   "Welcome_to_LastPass_": {
+      "message": "Ch\u00E0o m\u1EEBng \u0111\u1EBFn v\u1EDBi LastPass!"
+   },
+   "West_Central_Africa": {
+      "message": "T\u00E2y Trung Phi"
+   },
+   "Western_Sahara": {
+      "message": "T\u00E2y Sahara"
+   },
+   "Wi_Fi_Password": {
+      "message": "M\u1EADt kh\u1EA9u Wi-Fi"
+   },
+   "Wi_Fi_Passwords": {
+      "message": "M\u1EADt kh\u1EA9u Wi-Fi"
+   },
+   "Windows": {
+      "message": "Windows"
+   },
+   "Would_you_like_to_set_up_a_Form_Filling_profile_now_": {
+      "message": "B\u1EA1n c\u00F3 mu\u1ED1n thi\u1EBFt l\u1EADp m\u1ED9t '\u0110i\u1EC1n m\u1EABu' b\u00E2y gi\u1EDD kh\u00F4ng?"
+   },
+   "XML_Files": {
+      "message": "T\u1EC7p tin XML"
+   },
+   "Yangon__Rangoon_": {
+      "message": "Yangon (Rangoon)"
+   },
+   "Yemen": {
+      "message": "Yemen"
+   },
+   "Yes": {
+      "message": "C\u00F3"
+   },
+   "Yes__let_me_choose_which_items_I_want_imported_into_LastPass": {
+      "message": "V\u00E2ng, \u0111\u1EC3 t\u00F4i ch\u1ECDn m\u1EE5c n\u00E0o t\u00F4i mu\u1ED1n nh\u1EADp v\u00E0o LastPass"
+   },
+   "Yes__let_me_enter_and_review_data_that_will_be_used_when_filling_forms": {
+      "message": "V\u00E2ng, \u0111\u1EC3 t\u00F4i nh\u1EADp v\u00E0 xem l\u1EA1i d\u1EEF li\u1EC7u s\u1EBD \u0111\u01B0\u1EE3c d\u00F9ng khi \u0111i\u1EC1n m\u1EABu"
+   },
+   "You_are_moving_sites_from_a_shared_folder_into_your_general_vault__This_will_potentially_make_them_unavailable_to_others____Do_you_want_to_continue_": {
+      "message": "B\u1EA1n di chuy\u1EC3n c\u00E1c trang web t\u1EEB m\u1ED9t th\u01B0 m\u1EE5c chia s\u1EBB v\u00E0o h\u1EA7m chung c\u1EE7a b\u1EA1n. \u0110i\u1EC1u n\u00E0y c\u00F3 kh\u1EA3 n\u0103ng s\u1EBD l\u00E0m cho h\u1ECD kh\u00F4ng c\u00F3 \u0111\u1ED1i v\u1EDBi ng\u01B0\u1EDDi kh\u00E1c.\n\nB\u1EA1n c\u00F3 mu\u1ED1n ti\u1EBFp t\u1EE5c?"
+   },
+   "You_are_moving_sites_to_a_different_shared_folder__This_may_change_who_has_access_to_the_sites____Do_you_want_to_continue_": {
+      "message": "B\u1EA1n \u0111ang di chuy\u1EC3n c\u00E1c trang web v\u00E0o m\u1ED9t th\u01B0 m\u1EE5c chia s\u1EBB kh\u00E1c. \u0110i\u1EC1u n\u00E0y c\u00F3 th\u1EC3 thay \u0111\u1ED5i nh\u1EEFng ng\u01B0\u1EDDi c\u00F3 quy\u1EC1n truy c\u1EADp v\u00E0o sites.\n\nB\u1EA1n c\u00F3 mu\u1ED1n ti\u1EBFp t\u1EE5c?"
+   },
+   "You_are_moving_sites_to_a_shared_folder__This_will_potentially_make_them_available_to_others___Are_you_sure_you_would_like_to_continue_": {
+      "message": "B\u1EA1n \u0111ang chuy\u1EC3n m\u1ED9i trang \u0111\u1EBFn th\u01B0 m\u1EE5c chia s\u1EBB. N\u00F3 s\u1EBD l\u00E0m cho trang c\u1EE7a b\u1EA1n c\u00F3 th\u1EC3 \u0111\u01B0\u1EE3c nh\u00ECn th\u1EA5y t\u1EEB nhi\u1EC1u ng\u01B0\u1EDDi kh\u00E1c.\n\nB\u1EA1n c\u00F3 ch\u1EAFc l\u00E0 s\u1EBD ti\u1EBFp t\u1EE5c ch\u1EE9?"
+   },
+   "You_cannot_assign_more_than_one_HotKey_the_same_value_": {
+      "message": "B\u1EA1n kh\u00F4ng th\u1EC3 th\u00EAm c\u00F9ng gi\u00E1 tr\u1ECB v\u00E0o nhi\u1EC1u h\u01A1n m\u1ED9t HotKey."
+   },
+   "You_cannot_move_individually_shared_sites_into_a_shared_folder_": {
+      "message": "B\u1EA1n kh\u00F4ng th\u1EC3 di chuy\u1EC3n c\u00E1c site chia s\u1EBB ri\u00EAng l\u1EBB v\u00E0o m\u1ED9t th\u01B0 m\u1EE5c chia se"
+   },
+   "You_currently_have_LastPass_set_to_remember_your_password___Doing_so_essentially_makes_the_automatically_logoff_options_you_ve_chosen_useless___Would_you_like_LastPass_to_stop_remembering_your_password_": {
+      "message": "B\u1EA1n hi\u1EC7n thi\u1EBFt l\u1EADp LastPass ghi nh\u1EDB m\u1EADt kh\u1EA9u. L\u00E0m v\u1EADy khi\u1EBFn cho t\u00F9y ch\u1ECDn t\u1EF1 \u0111\u1ED9ng tho\u00E1t tr\u1EDF n\u00EAn v\u00F4 \u00EDch. B\u1EA1n c\u00F3 mu\u1ED1n LastPass th\u00F4i ghi nh\u1EDB m\u1EADt kh\u1EA9u kh\u00F4ng?"
+   },
+   "You_have_not_yet_chosen_a_default_form_fill_profile___Would_you_like_to_choose_one_now_": {
+      "message": "B\u1EA1n ch\u01B0a ch\u1ECDn h\u1ED3 s\u01A1 \u0111i\u1EC1n m\u1EABu m\u1EB7c \u0111\u1ECBnh. B\u1EA1n c\u00F3 mu\u1ED1n ch\u1ECDn n\u00F3 ngay b\u00E2y gi\u1EDD?"
+   },
+   "You_may_also_be_blocking_all_cookies__which_causes_Chrome_to_disallow_HTML5_database_access_": {
+      "message": "B\u1EA1n c\u0169ng c\u00F3 th\u1EC3 \u0111ang ch\u1EB7n t\u1EA5t c\u1EA3 cookie, khi\u1EBFn cho Chrome kh\u00F4ng cho ph\u00E9p truy c\u1EADp c\u01A1 s\u1EDF d\u1EEF li\u1EC7u HTML5."
+   },
+   "You_must_agree_to_send_your_encrypted_data_to_LastPass_com___LastPass_com_encrypts_your_data_and_sends_it_to_its_secure_servers__No_one_at_LastPass_can_read_your_confidential_data_since_it_is_encrypted_using_your_secret_password_and_you_are_the_only_one_who_knows_your_password_": {
+      "message": "B\u1EA1n ph\u1EA3i \u0111\u1ED3ng \u00FD g\u1EEDi d\u1EEF li\u1EC7u \u0111\u00E3 m\u00E3 h\u00F3a cho LastPass.com.\n\nLastPass.com m\u00E3 h\u00F3a d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n v\u00E0 g\u1EEDi n\u00F3 \u0111\u1EBFn m\u00E1y ch\u1EE7 b\u1EA3o m\u1EADt c\u1EE7a h\u00E3ng.\nKh\u00F4ng m\u1ED9t ai \u1EDF LastPass c\u00F3 th\u1EC3 \u0111\u1ECDc \u0111\u01B0\u1EE3c d\u1EEF li\u1EC7u b\u00ED m\u1EADt c\u1EE7a b\u1EA1n v\u00EC n\u00F3 \u0111\u00E3 \u0111\u01B0\u1EE3c m\u00E3 h\u00F3a b\u1EB1ng\nm\u1EADt kh\u1EA9u b\u00ED m\u1EADt v\u00E0 b\u1EA1n l\u00E0 ng\u01B0\u1EDDi duy nh\u1EA5t bi\u1EBFt \u0111\u01B0\u1EE3c \nm\u1EADt kh\u1EA9u."
+   },
+   "You_must_agree_to_the_terms_to_continue": {
+      "message": "B\u1EA1n ph\u1EA3i \u0111\u1ED3ng \u00FD v\u1EDBi c\u00E1c \u0111i\u1EC1u kho\u1EA3n \u0111\u1EC3 ti\u1EBFp t\u1EE5c"
+   },
+   "You_must_enter_a_name_": {
+      "message": "B\u1EA1n ph\u1EA3i nh\u1EADp t\u00EAn v\u00E0o."
+   },
+   "You_must_enter_a_unique_name_": {
+      "message": "B\u1EA1n ph\u1EA3i nh\u1EADp m\u1ED9t t\u00EAn duy nh\u1EA5t."
+   },
+   "You_must_restart_Chrome_or_logoff_and_back_in_to_get_logoff_on_browser_close_changes_to_be_reflected": {
+      "message": "B\u1EA1n c\u1EA7n kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Chrome ho\u1EB7c \u0111\u0103ng xu\u1EA5t v\u00E0 quay l\u1EA1i \u0111\u1EC3 thay \u0111\u1ED5i"
+   },
+   "You_must_restart_your_browser_before_all_of_the_changes_will_take_effect_": {
+      "message": "B\u1EA1n c\u1EA7n ph\u1EA3i kh\u1EDFi \u0111\u1ED9ng l\u1EA1i tr\u00ECnh duy\u1EC7t \u0111\u1EC3 \u00E1p d\u1EE5ng t\u1EA5t c\u1EA3 c\u00E1c thay \u0111\u1ED5i."
+   },
+   "Your_4_digit_birth_year": {
+      "message": "N\u0103m sinh g\u1ED3m 4 ch\u1EEF s\u1ED1"
+   },
+   "Your_Google_Chrome_passwords_have_been_imported_successfully_": {
+      "message": "M\u1EADt kh\u1EA9u Google Chrome c\u1EE7a b\u1EA1n \u0111\u00E3 \u0111\u01B0\u1EE3c nh\u1EADp th\u00E0nh c\u00F4ng."
+   },
+   "Your_ZIP_or_postal_code": {
+      "message": "M\u00E3 ZIP ho\u1EB7c b\u01B0u ch\u00EDnh"
+   },
+   "Your_address_information": {
+      "message": "Th\u00F4ng tin \u0111\u1ECBa ch\u1EC9 c\u1EE7a b\u1EA1n"
+   },
+   "Your_attachment_is_located_at_": {
+      "message": "T\u1EADp tin \u0111\u00EDnh k\u00E8m c\u1EE7a b\u1EA1n \u0111\u1EB7t t\u1EA1i:"
+   },
+   "Your_bank_account_information": {
+      "message": "Th\u00F4ng tin t\u00E0i kho\u1EA3n ng\u00E2n h\u00E0ng"
+   },
+   "Your_bank_account_number__This_number_can_typically_be_found_to_the_right_of_the_routing_number_on_your_personal_checks_": {
+      "message": "S\u1ED1 t\u00E0i kho\u1EA3n ng\u00E2n h\u00E0ng.\nS\u1ED1 n\u00E0y c\u00F3 th\u1EC3 t\u00ECm th\u1EA5y \u1EDF b\u00EAn ph\u1EA3i s\u1ED1 \u0111\u1ECBnh tuy\u1EBFn tr\u00EAn s\u00E9c c\u00E1 nh\u00E2n."
+   },
+   "Your_bank_s_routing_number__This_9_digit_number_can_typically_be_found_on_your_personal_checks_in_the_bottom_left_corner_": {
+      "message": "S\u1ED1 \u0111\u1ECBnh tuy\u1EBFn ng\u00E2n h\u00E0ng.\n\u0110\u00E2y l\u00E0 9 ch\u1EEF s\u1ED1 c\u00F3 th\u1EC3 t\u00ECm tr\u00EAn s\u00E9c c\u00E1 nh\u00E2n \u1EDF g\u00F3c d\u01B0\u1EDBi b\u00EAn tr\u00E1i."
+   },
+   "Your_birth_day": {
+      "message": "Ng\u00E0y sinh c\u1EE7a b\u1EA1n"
+   },
+   "Your_birth_month": {
+      "message": "Th\u00E1ng sinh c\u1EE7a b\u1EA1n"
+   },
+   "Your_city_name": {
+      "message": "T\u00EAn th\u00E0nh ph\u1ED1"
+   },
+   "Your_company_s_name": {
+      "message": "T\u00EAn c\u00F4ng ty c\u1EE7a b\u1EA1n"
+   },
+   "Your_contact_information": {
+      "message": "Th\u00F4ng tin li\u00EAn l\u1EA1c"
+   },
+   "Your_country_name": {
+      "message": "T\u00EAn qu\u1ED1c gia c\u1EE7a b\u1EA1n"
+   },
+   "Your_county_name": {
+      "message": "T\u00EAn qu\u1EADn c\u1EE7a b\u1EA1n"
+   },
+   "Your_credit_card_information": {
+      "message": "Th\u00F4ng tin th\u1EBB t\u00EDn d\u1EE5ng c\u1EE7a b\u1EA1n"
+   },
+   "Your_current_settings_require_you_to_enter_your_LastPass_password_to_complete_this_action_": {
+      "message": "C\u1EA5u h\u00ECnh hi\u1EC7n t\u1EA1i c\u1EE7a b\u1EA1n y\u00EAu c\u1EA7u b\u1EA1n nh\u1EADp m\u1EADt kh\u1EA9u LastPass \u0111\u1EC3 ho\u00E0n t\u1EA5t h\u00E0nh \u0111\u1ED9ng."
+   },
+   "Your_data_has_been_exported_to": {
+      "message": "D\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n \u0111\u00E3 \u0111\u01B0\u1EE3c xu\u1EA5t sang"
+   },
+   "Your_email_address": {
+      "message": "\u0110\u1ECBa ch\u1EC9 email c\u1EE7a b\u1EA1n"
+   },
+   "Your_first_name": {
+      "message": "T\u00EAn c\u1EE7a b\u1EA1n"
+   },
+   "Your_government_ID_number": {
+      "message": "M\u00E3 s\u1ED1 do ch\u00EDnh ph\u1EE7 c\u1EA5p cho b\u1EA1n"
+   },
+   "Your_last_name": {
+      "message": "H\u1ECD c\u1EE7a b\u1EA1n"
+   },
+   "Your_middle_name": {
+      "message": "T\u00EAn l\u00F3t c\u1EE7a b\u1EA1n"
+   },
+   "Your_password_can_not_be_the_same_as_your_email_": {
+      "message": "M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n kh\u00F4ng th\u1EC3 gi\u1ED1ng nh\u01B0 email c\u1EE7a b\u1EA1n."
+   },
+   "Your_password_is_easily_guessable_": {
+      "message": "M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n qu\u00E1 d\u1EC5 \u0111o\u00E1n."
+   },
+   "Your_password_is_too_short__It_must_be_at_least_6_characters_long": {
+      "message": "M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n qu\u00E1 ng\u1EAFn. N\u00F3 ph\u1EA3i c\u00F3 \u00EDt nh\u1EA5t 6 k\u00FD t\u1EF1"
+   },
+   "Your_password_is_too_short__It_must_be_at_least_8_characters_long": {
+      "message": "M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n qu\u00E1 ng\u1EAFn. N\u00F3 ph\u1EA3i d\u00E0i t\u1ED1i thi\u1EC3u 8 k\u00FD t\u1EF1"
+   },
+   "Your_password_reminder_serves_to_remind_you_of_what_your": {
+      "message": "Ph\u1EA7n nh\u1EAFc m\u1EADt kh\u1EA9u d\u00F9ng \u0111\u1EC3 nh\u1EAFc cho b\u1EA1n nh\u1EDB"
+   },
+   "Your_passwords_did_not_match_": {
+      "message": "M\u1EADt kh\u1EA9u c\u1EE7a b\u1EA1n kh\u00F4ng tr\u00F9ng kh\u1EDBp."
+   },
+   "Your_personal_information": {
+      "message": "Th\u00F4ng tin c\u00E1 nh\u00E2n c\u1EE7a b\u1EA1n"
+   },
+   "Your_phone_number": {
+      "message": "S\u1ED1 \u0111i\u1EC7n tho\u1EA1i c\u1EE7a b\u1EA1n"
+   },
+   "Your_phone_number_extension": {
+      "message": "S\u1ED1 m\u1EDF r\u1ED9ng \u0111i\u1EC7n tho\u1EA1i c\u1EE7a b\u1EA1n"
+   },
+   "Your_prefix_or_title": {
+      "message": "Danh hi\u1EC7u ho\u1EB7c ti\u1EC1n t\u1ED1 t\u00EAn c\u1EE7a b\u1EA1n"
+   },
+   "Your_selected_Identity_no_longer_exists__Defaulting_to__All__and_logging_off_": {
+      "message": "Danh T\u00EDnh b\u1EA1n ch\u1ECDn kh\u00F4ng c\u00F2n t\u1ED3n t\u1EA1i. M\u1EB7c \u0111\u1ECBnh s\u1EBD l\u00E0 'T\u1EA5t C\u1EA3' v\u00E0 tho\u00E1t."
+   },
+   "Your_sex": {
+      "message": "Gi\u1EDBi t\u00EDnh c\u1EE7a b\u1EA1n"
+   },
+   "Your_state_or_province_name": {
+      "message": "T\u00EAn bang ho\u1EB7c t\u1EC9nh"
+   },
+   "Your_street_address": {
+      "message": "\u0110\u1ECBa ch\u1EC9 nh\u00E0 c\u1EE7a b\u1EA1n"
+   },
+   "Your_time_zone": {
+      "message": "M\u00FAi gi\u1EDD c\u1EE7a b\u1EA1n"
+   },
+   "Your_username_when_signing_into_Web_sites": {
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng khi \u0111\u0103ng nh\u1EADp v\u00E0o trang web c\u1EE7a b\u1EA1n"
+   },
+   "YubiKey_Multifactor_Authentication": {
+      "message": "X\u00E1c Th\u1EF1c \u0110a Nh\u00E2n T\u1ED1 YubiKey"
+   },
+   "Yugoslavia": {
+      "message": "Nam T\u01B0"
+   },
+   "ZIP___Postal_code": {
+      "message": "ZIP / M\u00E3 b\u01B0u ch\u00EDnh"
+   },
+   "Zambia": {
+      "message": "Zambia"
+   },
+   "Zimbabwe": {
+      "message": "Zimbabwe"
+   },
+   "_Hide_": {
+      "message": "[\u1EA8n]"
+   },
+   "_History_": {
+      "message": "[L\u1ECBch s\u1EED]"
+   },
+   "_New_Pending_Share_Offers_": {
+      "message": "(\u0110ang Ch\u1EDD C\u00E1c \u0110\u1EC1 Ngh\u1ECB Chia S\u1EBB M\u1EDBi)"
+   },
+   "_Show_": {
+      "message": "[Hi\u1EC7n]"
+   },
+   "_domain_": {
+      "message": "(t\u00EAn mi\u1EC1n)"
+   },
+   "_none_": {
+      "message": "(kh\u00F4ng)"
+   },
+   "_unknown_": {
+      "message": "[kh\u00F4ng r\u00F5]"
+   },
+   "a_zlower": {
+      "message": "a-z"
+   },
+   "actual_password_is__while_still_maintaining_its_secrecy_": {
+      "message": "m\u1EADt kh\u1EA9u th\u1EF1c l\u00E0 g\u00EC, v\u00E0 v\u1EABn gi\u1EEF t\u00EDnh b\u00ED m\u1EADt."
+   },
+   "ago": {
+      "message": "c\u00E1ch \u0111\u00E2y"
+   },
+   "and": {
+      "message": "v\u00E0"
+   },
+   "contact_us_and_we_will_email_you_your_password_reminder_": {
+      "message": "li\u00EAn h\u1EC7 v\u1EDBi ch\u00FAng t\u00F4i v\u00E0 ch\u00FAng t\u00F4i s\u1EBD g\u1EEDi cho b\u1EA1n l\u1EDDi nh\u1EAFc m\u1EADt kh\u1EA9u qua email."
+   },
+   "day": {
+      "message": "ng\u00E0y"
+   },
+   "days": {
+      "message": "ng\u00E0y"
+   },
+   "dummy": {
+      "message": "dummy, leave this here so we don't mess up the trailing comma"
+   },
+   "eWallet": {
+      "message": "eWallet"
+   },
+   "ext_": {
+      "message": "m\u1EDF r\u1ED9ng"
+   },
+   "false": {
+      "message": "sai"
+   },
+   "favorites": {
+      "message": "s\u1EDF th\u00EDch"
+   },
+   "hour": {
+      "message": "gi\u1EDD"
+   },
+   "hours": {
+      "message": "gi\u1EDD"
+   },
+   "just_now": {
+      "message": "ch\u1EC9 b\u00E2y gi\u1EDD"
+   },
+   "minute": {
+      "message": "ph\u00FAt"
+   },
+   "minutes": {
+      "message": "ph\u00FAt"
+   },
+   "month": {
+      "message": "th\u00E1ng"
+   },
+   "months": {
+      "message": "th\u00E1ng"
+   },
+   "privacy_statement": {
+      "message": "tuy\u00EAn b\u1ED1 quy\u1EC1n ri\u00EAng t\u01B0"
+   },
+   "recently_usedlower": {
+      "message": "\u0111\u00E3 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng g\u1EA7n \u0111\u00E2y"
+   },
+   "search": {
+      "message": "t\u00ECm "
+   },
+   "second": {
+      "message": "hai"
+   },
+   "seconds": {
+      "message": "gi\u00E2y"
+   },
+   "terms_of_service": {
+      "message": "\u0111i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5"
+   },
+   "the_current_tab": {
+      "message": "th\u1EBB hi\u1EC7n t\u1EA1i"
+   },
+   "true": {
+      "message": "\u0111\u00FAng"
+   },
+   "we_DO_NOT_know_what_your_LastPass_password_is_": {
+      "message": "ch\u00FAng t\u00F4i KH\u00D4NG BI\u1EBET m\u1EADt kh\u1EA9u LastPass c\u1EE7a b\u1EA1n l\u00E0 g\u00EC."
+   },
+   "week": {
+      "message": "tu\u1EA7n"
+   },
+   "weeks": {
+      "message": "tu\u1EA7n"
+   },
+   "year": {
+      "message": "n\u0103m"
+   },
+   "years": {
+      "message": "n\u0103m"
+   }
+}

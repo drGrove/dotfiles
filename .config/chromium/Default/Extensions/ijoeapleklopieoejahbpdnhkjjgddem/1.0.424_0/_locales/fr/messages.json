@@ -1,0 +1,360 @@
+{
+   "authorize_tt": {
+      "description": "tooltip for authorize icon",
+      "message": "Autoriser"
+   },
+   "browsingoff_tt": {
+      "description": "tooltip for main slider when it is in OFF state",
+      "message": "Activer la navigation synchronis\u00E9e"
+   },
+   "browsingon_tt": {
+      "description": "tooltip for main slider when it is in ON state",
+      "message": "D\u00E9sactiver la navigation synchronis\u00E9e"
+   },
+   "browsingtooltipNoDM_tt": {
+      "description": "tooltip for main slider when there is no DM",
+      "message": "D\u00E9sactiv\u00E9"
+   },
+   "buyitnowPrefix": {
+      "description": "This message is split across three strings (this is 1/3). The whole message reads 'You are currently using Edge Inspect CC Free. Login or Upgrade to use the Full version.",
+      "message": "Vous utilisez actuellement la version gratuite d\u2019Edge Inspect. Connectez-vous ou effectuez une "
+   },
+   "buyitnowSuffix": {
+      "description": "This message is split across three strings (this is 3/3). The whole message reads 'You are currently using Edge Inspect CC Free. Login or Upgrade to use the Full version.",
+      "message": " pour pouvoir utiliser la version compl\u00E8te."
+   },
+   "cancel_tt": {
+      "description": "tooltip for cancel icon",
+      "message": "Annuler"
+   },
+   "cancelscreenshot": {
+      "description": "text button to cancel transfers",
+      "message": "Annuler le transfert"
+   },
+   "change": {
+      "description": "label for Change buttons",
+      "message": "Modifier"
+   },
+   "completedscreenshot": {
+      "description": "text to show screenshots were transferred",
+      "message": "Capture(s) d\u2019\u00E9cran transf\u00E9r\u00E9e(s)"
+   },
+   "deauthorize_tt": {
+      "description": "tooltip for de-authorize image",
+      "message": "Annuler l\u2019autorisation"
+   },
+   "default_passcode": {
+      "description": "Default value for the passcode field",
+      "message": "Code secret"
+   },
+   "disconnect_tt": {
+      "description": "tooltip for back button image",
+      "message": "D\u00E9connecter"
+   },
+   "dmerror": {
+      "description": "when no DM has been detected",
+      "message": "Lancez l\u2019application \u003Cspan class='code'\u003E$arg1$\u003C/span\u003E...",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "dmexpired": {
+      "description": "when trial watchdog has fired",
+      "message": "\u003Cspan class='code'\u003E$arg1$\u003C/span\u003E a expir\u00E9. T\u00E9l\u00E9chargez une nouvelle version.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "dmhandshake": {
+      "description": "This is the complete message",
+      "message": "Edge Inspect est en attente d\u2019une autorisation. Ouvrez Edge Inspect pour approuver/rejeter l\u2019autorisation."
+   },
+   "dmhandshakerejectPrefix": {
+      "description": "This message is split across three strings (this is 1/2). The whole message reads 'Authorization Rejected. Try Again.",
+      "message": "Autorisation rejet\u00E9e."
+   },
+   "dmhandshakerejectlink": {
+      "description": "This message is split across three strings (this is 2/2). The whole message reads 'Authorization Rejected. Try Again.",
+      "message": "Veuillez r\u00E9essayer."
+   },
+   "dmupdatePrefix": {
+      "description": "This message is split across three strings (this is 1/2). The whole message reads 'Please update to the latest version of Edge Inspect CC. Download Edge Inspect CC",
+      "message": "Veuillez t\u00E9l\u00E9charger la derni\u00E8re version d\u2019Edge Inspect."
+   },
+   "dmupdatelink": {
+      "description": "This message is split across three strings (this is 2/2). The whole message reads 'Please update to the latest version of Edge Inspect CC. Download Edge Inspect CC",
+      "message": "T\u00E9l\u00E9charger Edge Inspect"
+   },
+   "downloadandroid": {
+      "description": "menu item to download android",
+      "message": "\u003Cspan class='code'\u003E$arg1$\u003C/span\u003E pour p\u00E9riph\u00E9riques \u003Cspan class='code'\u003E$arg2$\u003C/span\u003E...",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         },
+         "arg2": {
+            "content": "$2"
+         }
+      }
+   },
+   "downloadiso": {
+      "description": "menu item to download ios",
+      "message": "\u003Cspan class='code'\u003E$arg1$\u003C/span\u003E pour \u003Cspan class='code'\u003E$arg2$\u003C/span\u003E et \u003Cspan class='code'\u003E$arg3$\u003C/span\u003E...",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         },
+         "arg2": {
+            "content": "$2"
+         },
+         "arg3": {
+            "content": "$3"
+         }
+      }
+   },
+   "edit": {
+      "description": "Edit for a button",
+      "message": "Modifier"
+   },
+   "emptylog": {
+      "description": "clear log button title",
+      "message": "Effacer"
+   },
+   "feedback": {
+      "description": "menu item leading to survey",
+      "message": "Vous appr\u00E9ciez \u003Cspan class='code'\u003E$arg1$\u003C/span\u003E\u00A0?",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "forcerefresh_tt": {
+      "description": "tooltip for force refresh button image",
+      "message": "Actualiser tous les p\u00E9riph\u00E9riques"
+   },
+   "fullscreen_tt": {
+      "description": "tooltip for full screen button image",
+      "message": "Afficher en plein \u00E9cran sur les p\u00E9riph\u00E9riques"
+   },
+   "getedgeinspect": {
+      "description": "Link to tell the user 'Get Edge Inspect CC.'",
+      "message": "Obtenir $arg1$.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gettingstartedconnectingautodiscovery": {
+      "description": "auto discovery getting started description",
+      "message": "Le p\u00E9riph\u00E9rique sur lequel vous utilisez Edge Inspect va rechercher les ordinateurs ex\u00E9cutant aussi cette application. S\u00E9lectionnez l\u2019ordinateur auquel vous souhaitez vous connecter. Entrez le code secret permettant d\u2019acc\u00E9der \u00E0 l\u2019extension Chrome. Vous cr\u00E9ez ainsi une connexion sans fil entre l\u2019ordinateur en question et votre p\u00E9riph\u00E9rique."
+   },
+   "gettingstartedconnectingautodiscoveryheader": {
+      "description": "auto discovery header",
+      "message": "A. Identification automatique"
+   },
+   "gettingstartedconnectingheader": {
+      "description": "heading for connecting devices",
+      "message": "2. Connexion de p\u00E9riph\u00E9riques \u00E0 un ordinateur"
+   },
+   "gettingstartedconnectingmanualconnectionheader": {
+      "description": "manual connection header",
+      "message": "B. Connexion manuelle"
+   },
+   "gettingstartedconnectingmanualconnectionp1": {
+      "description": "manual connection desc paragraph 1",
+      "message": "Si vous ne trouvez pas l\u2019ordinateur auquel vous souhaitez vous connecter, appuyez sur le bouton \"+\" pour effectuer une connexion manuelle. La liste des adresses IP associ\u00E9es \u00E0 votre ordinateur s\u2019affiche au bas de l\u2019extension Chrome. Ins\u00E9rez l\u2019adresse IP souhait\u00E9e dans le champ correspondant sur le p\u00E9riph\u00E9rique."
+   },
+   "gettingstartedconnectingmanualconnectionp2": {
+      "description": "manual connection desc paragraph 2",
+      "message": "Lorsqu\u2019un p\u00E9riph\u00E9rique est connect\u00E9, Edge Inspect emp\u00EAche que l\u2019\u00E9cran se mette en veille ou que la luminosit\u00E9 de celui-ci diminue."
+   },
+   "gettingstartedintro": {
+      "description": "intro text for the getting started guide",
+      "message": "L\u2019application $arg1$ est destin\u00E9e aux webdesigners et aux d\u00E9veloppeurs sp\u00E9cialis\u00E9s en navigateurs mobiles. Apr\u00E8s avoir install\u00E9 Edge Inspect, vous pourrez coupler des p\u00E9riph\u00E9riques, naviguer dessus de mani\u00E8re synchronis\u00E9e avec votre ordinateur, effectuer des op\u00E9rations de contr\u00F4le et de d\u00E9bogage \u00E0 distance ou encore visualiser les changements HTML/CSS/JavaScript instantan\u00E9ment sur votre p\u00E9riph\u00E9rique. ",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gettingstartedintroheader": {
+      "description": "Header for Getting Started Intro",
+      "message": "Guide de prise en main $arg1$",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gettingstartedremoteinspection": {
+      "description": "remote inspection description",
+      "message": " Dans l\u2019extension Chrome, cliquez sur le bouton&nbsp;\"&lt;&nbsp;&gt;\" en regard du p\u00E9riph\u00E9rique \u00E0 contr\u00F4ler ou \u00E0 d\u00E9boguer, afin de faire appara\u00EEtre la fen\u00EAtre Outils du d\u00E9veloppeur\u00A0; vous ne pouvez utiliser la fonction de contr\u00F4le \u00E0 distance que sur un seul p\u00E9riph\u00E9rique \u00E0 la fois."
+   },
+   "gettingstartedremoteinspectionheader": {
+      "description": "remote inspection header",
+      "message": "3. Contr\u00F4le et d\u00E9bogage de la page sur votre p\u00E9riph\u00E9rique"
+   },
+   "gettingstartedsamenetwork": {
+      "description": "",
+      "message": "L\u2019utilisation d\u2019Edge Inspect n\u00E9cessite que votre ordinateur et vos p\u00E9riph\u00E9riques soient connect\u00E9s au m\u00EAme r\u00E9seau. Ceux-ci doivent \u00E9galement \u00EAtre sur le m\u00EAme sous-r\u00E9seau pour l\u2019identification automatique. Si votre ordinateur n\u2019appara\u00EEt pas dans la liste, essayez d\u2019effectuer une connexion manuelle."
+   },
+   "gettingstartedsamenetworkheader": {
+      "description": "sub-header for same network",
+      "message": "1. S\u2019assurer que les p\u00E9riph\u00E9riques se trouvent sur le m\u00EAme r\u00E9seau"
+   },
+   "logtitle": {
+      "description": "title for Log area",
+      "message": "Journal"
+   },
+   "manifest_description": {
+      "description": "Description for the manifest.json file",
+      "message": "Etablissez une connexion sans fil entre votre ordinateur et plusieurs p\u00E9riph\u00E9riques iOS et Android. Pour pourrez alors naviguer sur ces p\u00E9riph\u00E9riques, les inspecter et les d\u00E9boguer de mani\u00E8re synchrone."
+   },
+   "problems": {
+      "description": "menu item to report a problem",
+      "message": "Besoin d\u2019aide\u00A0?"
+   },
+   "progress_tt": {
+      "description": "tooltip for screenshot progress button image",
+      "message": "Capture d\u2019\u00E9cran - Progression"
+   },
+   "remoteinspect_tt": {
+      "description": "tooltip for remote inspection image",
+      "message": "Inspection \u00E0 distance"
+   },
+   "remove": {
+      "description": "menu item to list and/or remove authorized devices",
+      "message": "P\u00E9riph\u00E9riques autoris\u00E9s"
+   },
+   "remove_tt": {
+      "description": "tooltip for survey remove button",
+      "message": "Supprimer"
+   },
+   "removetext": {
+      "description": "instruction to remove devices",
+      "message": "Annulez l\u2019autorisation d\u2019un p\u00E9riph\u00E9rique pour emp\u00EAcher qu\u2019il ne se reconnecte automatiquement."
+   },
+   "renewlink": {
+      "description": "link text for renewing your subscription",
+      "message": "Renouveler maintenant"
+   },
+   "save": {
+      "description": "Save for a button",
+      "message": "Enregistrer"
+   },
+   "screenshot_tt": {
+      "description": "tooltip for screenshot button image",
+      "message": "Demander des captures d\u2019\u00E9cran"
+   },
+   "screenshotfolder_tt": {
+      "description": "tooltip for screenshot folder button image",
+      "message": "Ouvrir le dossier contenant les captures d\u2019\u00E9cran"
+   },
+   "screenshotsarepremiumPrefix": {
+      "description": "when user tries using screenshots when in free mode",
+      "message": "Les captures d\u2019\u00E9cran sont une fonctionnalit\u00E9 disponible avec la version compl\u00E8te du logiciel $arg1$.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "screenshotsfoldertitle": {
+      "description": "title for Screenshots Folder option",
+      "message": "Dossier de captures d\u2019\u00E9cran"
+   },
+   "seconddeviceispremiumPrefix": {
+      "description": "when user tries to connect a second device when in free mode",
+      "message": "L\u2019utilisation de plusieurs p\u00E9riph\u00E9riques est une fonctionnalit\u00E9 disponible avec la version compl\u00E8te du logiciel $arg1$.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "shadmessagePrefix": {
+      "description": "prefix to beg for survey answers",
+      "message": "Merci de nous aider \u00E0 am\u00E9liorer nos services"
+   },
+   "shadmessageSuffix": {
+      "description": "suffix to beg for survey answers",
+      "message": "en r\u00E9pondant aux deux questions ci-apr\u00E8s."
+   },
+   "showchrome_tt": {
+      "description": "tooltip for show chrome button image",
+      "message": "Quitter le mode plein \u00E9cran sur les p\u00E9riph\u00E9riques"
+   },
+   "subscriptionexpiredPrefix": {
+      "description": "when the DM says the current subscription is lower than the previous",
+      "message": "Vous n\u2019avez plus acc\u00E8s aux fonctionnalit\u00E9s li\u00E9es \u00E0 la version compl\u00E8te du logiciel $arg1$.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "subscriptionexpiredSuffix": {
+      "description": "when trial watchdog has fired",
+      "message": " ou poursuivre avec un nombre limit\u00E9 de fonctionnalit\u00E9s.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   },
+   "syncbrowseoff": {
+      "description": "Shown when browsing is off but the DM is connected.",
+      "message": "La navigation synchronis\u00E9e est d\u00E9sactiv\u00E9e."
+   },
+   "upgrade": {
+      "description": "This message is split across three strings (this is 2/3). The whole message reads 'You are currently using Edge Inspect CC Free. Login or Upgrade to use the Full version.",
+      "message": "Mise \u00E0 niveau"
+   },
+   "upgradelink": {
+      "description": "link text to upgrade message",
+      "message": "Effectuez une mise \u00E0 niveau pour pouvoir connecter simultan\u00E9ment plusieurs p\u00E9riph\u00E9riques."
+   },
+   "versioninfo": {
+      "description": "build version label",
+      "message": "Version DM\u00A0: "
+   },
+   "waiting": {
+      "description": "waiting message.",
+      "message": "En attente d\u2019une connexion..."
+   },
+   "weinrecustom": {
+      "description": "Custom drop down for weinre server",
+      "message": "Personnalis\u00E9"
+   },
+   "weinredefault": {
+      "description": "Default drop down for weinre server",
+      "message": "Par d\u00E9faut (Adobe)"
+   },
+   "weinreexample": {
+      "description": "example of a custom weinre server",
+      "message": "Par ex., localhost:8080 ou 172.18.5.4:8081"
+   },
+   "weinretitle": {
+      "description": "title for weinre Server",
+      "message": "Serveur Weinre"
+   },
+   "welcomeaction": {
+      "description": "warning message action text",
+      "message": "Continuer"
+   },
+   "welcomemessage": {
+      "description": "warning that major update is coming soon",
+      "message": "Nous vous rappelons qu\u2019une mise \u00E0 jour importante sera bient\u00F4t disponible\u00A0; toutes les applications \u003Cspan class='code'\u003E$arg1$\u003C/span\u003E devront \u00EAtre mises \u00E0 jour pour continuer \u00E0 fonctionner.",
+      "placeholders": {
+         "arg1": {
+            "content": "$1"
+         }
+      }
+   }
+}

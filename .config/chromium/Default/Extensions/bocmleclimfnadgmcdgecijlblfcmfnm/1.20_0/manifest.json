@@ -1,0 +1,18 @@
+{
+   "api_console_project_id": "437353673888",
+   "app": {
+      "launch": {
+         "web_url": "https://www.hellofax.com/home/googleLanding/cwsapp/1"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "HelloFax makes it easy to sign documents and send faxes online. You'll never need to print, sign and scan documents again!",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq6G3i3sOl4qmF8rywpwqiyw6dFLGvzyCa/L2PZQXXWs+zVOcpLOictM8vuFh24b1pdWxZ5MLWRQyxl0f9j1W5rj85iaKhMahIQs0qHxkSBVWZfN46GHNrk1vGpopQqWHywV4QtVKODGP98Km3419z6Yi8Dg8R6m0FBvTCjAb0GQIDAQAB",
+   "manifest_version": 2,
+   "name": "HelloFax: 50 Free Fax Pages",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.20"
+}

@@ -1,0 +1,45 @@
+{
+    "brackets":[
+        { "pattern":"[abc]","desc":"Find any character between the brackets"},
+        { "pattern":"[^abc]","desc":"Find any character not between the brackets"},
+        { "pattern":"[0-9]","desc":"Find any digit from 0 to 9"},
+        { "pattern":"[A-Z]","desc":"Find any character from uppercase A to uppercase Z"},
+        { "pattern":"[a-z]","desc":"Find any character from lowercase a to lowercase z"},
+        { "pattern":"[A-z]","desc":"Find any character from uppercase A to lowercase z"},
+        { "pattern":"[adgk]","desc":"Find any character in the given set"},
+        { "pattern":"[^adgk]","desc":"Find any character outside the given set"},
+        { "pattern":"(red|blue|green)","desc":"Find any of the alternatives specified"}
+    ],
+    "metacharacters":[
+        { "pattern":".","desc":"Find a single character, except newline or line terminator"},
+        { "pattern":"\\w","desc":"Find a word character"},
+        { "pattern":"\\W","desc":"Find a non-word character"},
+        { "pattern":"\\d","desc":"Find a digit"},
+        { "pattern":"\\D","desc":"Find a non-digit character"},
+        { "pattern":"\\s","desc":"Find a whitespace character"},
+        { "pattern":"\\S","desc":"Find a non-whitespace character"},
+        { "pattern":"\\b","desc":"Find a match at the beginning/end of a word"},
+        { "pattern":"\\B","desc":"Find a match not at the beginning/end of a word"},
+        { "pattern":"\\0","desc":"Find a NULL character"},
+        { "pattern":"\\n","desc":"Find a new line character"},
+        { "pattern":"\\f","desc":"Find a form feed character"},
+        { "pattern":"\\r","desc":"Find a carriage return character"},
+        { "pattern":"\\t","desc":"Find a tab character"},
+        { "pattern":"\\v","desc":"Find a vertical tab character"},
+        { "pattern":"\\xxx","desc":"Find the character specified by an octal number xxx"},
+        { "pattern":"\\xdd","desc":"Find the character specified by a hexadecimal number dd"},
+        { "pattern":"\\uxxxx","desc":"Find the Unicode character specified by a hexadecimal number xxxx"}
+    ],
+    "quantifiers":[
+        { "pattern":"n+","desc":"Matches any string that contains at least one n"},
+        { "pattern":"n*","desc":"Matches any string that contains zero or more occurrences of n"},
+        { "pattern":"n?","desc":"Matches any string that contains zero or one occurrences of n"},
+        { "pattern":"n{X}","desc":"Matches any string that contains a sequence of X n's"},
+        { "pattern":"n{X,Y}","desc":"Matches any string that contains a sequence of X to Y n's"},
+        { "pattern":"n{X,}","desc":"Matches any string that contains a sequence of at least X n's"},
+        { "pattern":"n$","desc":"Matches any string with n at the end of it"},
+        { "pattern":"^n","desc":"Matches any string with n at the beginning of it"},
+        { "pattern":"?=n","desc":"Matches any string that is followed by a specific string n"},
+        { "pattern":"?!n","desc":"Matches any string that is not followed by a specific string n"}
+    ]
+}

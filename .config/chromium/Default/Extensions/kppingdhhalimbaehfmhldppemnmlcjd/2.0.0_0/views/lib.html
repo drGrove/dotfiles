@@ -1,0 +1,36 @@
+<div ng-show="tab === 'select.library'" class="m1-mtnl">
+	<div class="w-main m1-talign-center">
+	<section class="card mrl mbl" ng-repeat="set in iconSets">
+		<header class="lh0">
+			<a target="_blank" ng-href="{{set.url}}">
+				<img ng-src="{{set.image}}">
+			</a>
+		</header>
+		<span class="blk mtm talign-left">{{set.name}}</span>
+		<dl class="dl0 mtn mbm">
+			<dt>Icons Available</dt>
+			<dd>{{set.icons}}</dd>
+			<dt>Grid Size</dt>
+			<dd>{{set.grid}}</dd>
+			<dt>Designer</dt>
+			<dd><a ng-href="{{set.designerURL}}">{{set.designer}}</a></dd>
+			<dt>License</dt>
+			<dd><a ng-href="{{set.licenseURL}}">{{set.license}}</a></dd>
+		</dl>
+		<div class="ribbon" ng-class="set.latest ? '' : 'warning'" ng-show="set.added"><i class="icon-check"></i></div>
+		<button ng-show="set.hasAccess" ng-disabled="set.button.disabled" ng-click="addremove(set)" class="btn0 rel size1of1">
+			<i class="absl top-left lh1 mts mls icon-{{set.button.icon}}"></i>
+			{{set.button.caption}}{{set.button.disabled ? 'ing&hellip;' : ''}}
+		</button>
+		<a ng-show="!set.hasAccess" ng-href="{{set.purchaseLink}}" class="btn0 size1of1 rel">
+			<i class="icon-cart absl lh1 top-left mls mts"></i>
+			Purchase
+		</a>
+	</section>
+	</div>
+	<div class="bar-btm talign-center">
+		<a href="#/select" class="btn4 iblk width1 mrs">
+			<i class="mrs icon-left2 icon-low"></i>Selection
+		</a>
+	</div>
+</div>

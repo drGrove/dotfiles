@@ -1,0 +1,191 @@
+      /* Menu */
+      #menucontainer {border-collapse:collapse;border-spacing:0;}
+      #menucontainer tr,#menucontainer th,#menucontainer td {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+      #menucontainer {font:11px Arial,Helvetica,Garuda,sans-serif;}
+
+      /* Generate */
+      #generate {text-align:center;padding:0 20px;color:#123272;}
+
+      /* Choose Profile and Credit Card */
+      #chooseprofilecc {text-align:center;padding:0 20px;color:#123272;}
+
+      /* Change Password */
+      #changepw {text-align:center;padding:0 20px;color:#123272;}
+
+      /* Notification */
+      #notifymsg {color:#123272;}
+      .notifybutton {background:#fff;cursor:default;}
+      .notifyspacer {height:6px;padding-top:5px;background:#fff;}
+      .notifyspacer div {height:1px;background:#ccc;}
+      .notifybutton div {font-size:13px;width:180px;padding-left:25px;padding-right:5px;height:20px;line-height:20px;vertical-align:middle;background:#fff;cursor:default;}
+      .notifybutton:hover {background:#316AC5;color:#f00;cursor:default;}
+
+      .alertlabel { font-weight: bold; }
+      .alertheader { color:black; font-weight: bold; width: 260px; white-space: normal; }
+      #alertdescription { white-space: normal; width: 450px; font-size: 12px; }
+      .alertbottom { font-size: 11px; }
+      .alertbottom select { float: right; }
+      #notifyalert { font-size: 13px; }
+
+
+#mainmenu{
+  font-size:13px;
+  width:369px;
+}
+#mainmenu hr{
+  display: block; height: 1px;
+  border: 0; border-bottom: 1px solid #e0e0e0;
+  margin: 0px -10px; padding: 5px 0 0 0; 
+}
+#topbar{
+  padding-bottom: 10px;
+}
+#topbar #buttons{
+  float:right;
+}
+#topbar #buttons img{
+  padding:1px 2px;
+}
+#stdmenu{
+  padding-top:8px;
+}
+#stdmenu div, #searchresults div, #matchingsites div{
+  margin: 0px 3px;
+  padding: 8px 6px;
+  border: 1px solid transparent;
+  background: white;
+}
+#matchingsites div{ 
+  margin: 6px 10px; //bigger side margins because using negative margins to extend bg
+}
+#searchresults{
+  max-height:300px;
+  overflow:auto;
+}
+#searchresults div img{
+  padding-bottom:2px;
+}
+#searchresults div img, #matchingsites div img{
+  padding:1px 5px;
+  margin-top:2px;
+  margin-bottom: -4px;
+}
+div.hasaction img{
+  margin-bottom: -4px;
+}
+.iconize{
+  background-image:url('images/menusearch.png');
+  background-repeat:no-repeat;
+  background-position:center;
+/*  background-position:left center; */
+  background-position:3px 3px;
+}
+
+#menusearch{
+  width:220px;
+  border:0px;
+  height:20px;
+  padding-left: 23px;
+}
+#menusearch:focus{
+  /*background-image:none;*/
+}
+
+#stdmenu div:hover, #searchresults div:hover, #matchingsites div:hover, .kbselected{
+  background: #fafafa !important; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fafafa)) !important; /* for webkit browsers */
+  -webkit-box-shadow: 1px 1px rgba(200, 200, 200, 0.5); 
+  -webkit-border-radius: 3px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  border: 1px solid #d6d6d6 !important;
+}
+#searchresults span, #matchingsites span, .kbselected, div.hasaction span{
+  padding-top: 6px;
+}
+#searchresults div:hover span, #matchingsites div:hover span, .kbselected span, div.hasaction:hover span{
+  background-image:url('images/menucog.png');
+  cursor: pointer;
+}
+#searchresults div:hover span:hover, #matchingsites div:hover span:hover, .kbselected span:hover, div.hasaction:hover span:hover{
+  background-image:url('images/menucogover.png');
+}
+
+.arrow span{
+  background-image:url('images/menuarrow.png');
+}
+#stdmenu div:hover.arrow span{
+  background-image:url('arrow.png');
+}
+#stdmenu div:hover.arrowup span{
+  background-image:url('images/menuarrowupover.png');
+}
+#stdmenu div:hover.logoff span{
+  background-image:url('images/menulogoffover.png');
+}
+.arrowup span{
+  background-image:url('images/menuarrowup.png');
+}
+.logoff span{
+  background-image:url('images/menulogoff.png');
+}
+#stdmenu div span, #searchresults div:hover span, #matchingsites div:hover span, .kbselected span{
+  background-repeat:no-repeat;
+  background-position:center;
+  width:16px;
+  height:16px;
+  float:right;
+  
+}
+#matchingsites{
+  background:#e0e0e0;
+  margin: 0px -8px;
+  max-height:135px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#matchingsites div{
+  -webkit-box-shadow: 1px 1px rgba(150, 150, 150, 0.2);
+  -webkit-border-radius: 3px;
+}
+#stdmenu hr + div{
+  margin-top:8px;
+}
+
+#stdmenu img {
+  padding: 2px 7px 0 0;
+  height:16px;
+  width:16px;
+}
+#mainmenu #generate{
+  text-align:left;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #666;
+  border: 1px solid #eee;
+  -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+#backrow{
+  color:#c2c2c2;
+  height:20px;
+  line-height:20px;
+}
+#backrow:hover{
+  color:black;
+}
+#backrow span{
+  background-image:url('images/menuarrowback.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  width:16px;
+  height:16px;
+  float:left;
+}
+#backrow:hover span{
+  background-image:url('images/menuarrowbackover.png');
+}
+

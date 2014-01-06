@@ -1,0 +1,48 @@
+{
+  "name": "Advanced REST client",
+  "description": "The web developers helper program to create and test custom HTTP requests.",
+  "icons": {
+    "16": "img/arc_icon_16.png",
+    "128": "img/arc_icon_128.png"
+  },
+  "version": "3.1.5",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "declarativeWebRequest",
+    "<all_urls>",
+    "history",
+    "background",
+    "storage",
+    "clipboardWrite"
+  ],
+  "options_page": "RestClient.html#SettingsPlace:view",
+  "background": {
+    "scripts": ["background.js","/oauth2/oauth2.js"]
+  },
+  "app": {
+    "launch": {
+      "local_path": "RestClient.html"
+    }
+  },
+  "content_security_policy": "script-src 'unsafe-eval' chrome-extension:// chrome-extension-resource:// https://*.google.com https://chromerestclient.appspot.com https://ssl.google-analytics.com https://www-onepick-opensocial.googleusercontent.com https://*.googleapis.com https://*.googleusercontent.com 'self'; object-src chrome-extension:// chrome-extension-resource:// 'self'; frame-src https://apis.google.com https://www.google.com https://docs.google.com https://www-onepick-opensocial.googleusercontent.com https://www.googleapis.com https://content.googleapis.com https://accounts.google.com chrome-extension:// chrome-extension-resource:// https://plusone.google.com  https://doc-0k-0o-docs.googleusercontent.com https://*.googleusercontent.com 'self'",
+  "content_scripts": [
+    {
+    	"matches": ["https://chromerestclient.appspot.com/GDrive.html*"],
+    	"js": ["gdriveinit.js"]
+    },
+    {
+    	"matches": ["https://chromerestclient.appspot.com/oauth2callback.html*"],
+	    "js": ["oauth2/oauth2_inject.js"],
+	    "run_at": "document_start"
+    }
+  ],
+  "intents": {
+	"http://webintents.org/view": [{
+		"title": "Advanced REST client",
+		"type": ["application/restclient+data"],
+		"href": "/intentview.html",
+		"disposition" : "inline"
+	}]
+  }
+}

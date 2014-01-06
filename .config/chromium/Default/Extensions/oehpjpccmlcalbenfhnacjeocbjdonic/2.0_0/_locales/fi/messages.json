@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Ei k\u00E4ytett\u00E4viss\u00E4."
+   },
+   "alignment_btn_txt": {
+      "message": "S\u00E4\u00E4d\u00E4 sijaintia"
+   },
+   "allow_access_to_webcam": {
+      "message": "Ota verkkokamera k\u00E4ytt\u00F6\u00F6n ilmoituspalkista."
+   },
+   "back_to_step1_msg": {
+      "message": "Haluatko varmasti tuoda uuden kuvan? Menet\u00E4t kaikki t\u00E4h\u00E4n kuvaan tekem\u00E4si muutokset."
+   },
+   "background": {
+      "message": "Muokkaa taustav\u00E4ri\u00E4"
+   },
+   "bottom_align": {
+      "message": "alas"
+   },
+   "cancel": {
+      "message": "Peruuta"
+   },
+   "center_align": {
+      "message": "keskelle"
+   },
+   "change_img_btn_txt": {
+      "message": "Tuo uusi kuva"
+   },
+   "continue_anyways": {
+      "message": "Jatka silti"
+   },
+   "continue_to": {
+      "message": "Jatka vaiheeseen $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Luo oma teema"
+   },
+   "custom": {
+      "message": "Muokattu"
+   },
+   "custom_color": {
+      "message": "Oma v\u00E4ri"
+   },
+   "default": {
+      "message": "Oletukseksi"
+   },
+   "delete": {
+      "message": "Poista"
+   },
+   "delete_theme": {
+      "message": "Poista teema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Haluatko varmasti poistaa teeman $1?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Virhe poistettaessa."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Virhe poistettaessa. Yrit\u00E4 uudelleen."
+   },
+   "deleted": {
+      "message": "Poistettu"
+   },
+   "deleting": {
+      "message": "Poistetaan..."
+   },
+   "deleting_theme": {
+      "message": "Poistetaan teemaa"
+   },
+   "design_mode": {
+      "message": "suunnittelu"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Ok"
+   },
+   "download_theme_zip": {
+      "message": "Lataa teema zip-tiedostona"
+   },
+   "enhance_btn_txt": {
+      "message": "Muokkaa Picnikiss\u00E4"
+   },
+   "error": {
+      "message": "VIRHE"
+   },
+   "error_while_publishing": {
+      "message": "Virhe luotaessa URL-os. Yrit\u00E4 uudelleen."
+   },
+   "error_while_unpublishing": {
+      "message": "Virhe poist. URL-os. Yrit\u00E4 uudelleen."
+   },
+   "ext_description": {
+      "message": "Luo ja jaa itse suunnittelemiasi Google Chrome -teemoja."
+   },
+   "ext_name": {
+      "message": "My Chrome Theme"
+   },
+   "feeling_lucky": {
+      "message": "Kokeilen onneani"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hups! Jotakin meni vikaan kuvaa noudettaessa. Pyrimme korjaamaan ongelman pikimmiten."
+   },
+   "fill_screen": {
+      "message": "T\u00E4yt\u00E4 ruutu"
+   },
+   "filter_black_and_white": {
+      "message": "Mustavalkoinen"
+   },
+   "filter_bolder": {
+      "message": "Lihav."
+   },
+   "filter_cooler": {
+      "message": "Viile\u00E4"
+   },
+   "filter_inverted": {
+      "message": "K\u00E4\u00E4nt."
+   },
+   "filter_posterized": {
+      "message": "Posteroitu"
+   },
+   "filter_sepia": {
+      "message": "Seepia"
+   },
+   "filter_title": {
+      "message": "Kuvatehosteet"
+   },
+   "filter_warmer": {
+      "message": "L\u00E4mmin"
+   },
+   "fit_screen": {
+      "message": "Sovita ruud"
+   },
+   "footer_share_site_txt": {
+      "message": "Jaa:"
+   },
+   "frame": {
+      "message": "Kehyksen v\u00E4ri"
+   },
+   "generate_theme": {
+      "message": "Luodaan teemaa"
+   },
+   "goback": {
+      "message": "Takaisin"
+   },
+   "hide_themes": {
+      "message": "Piilota"
+   },
+   "image_format_error_msg": {
+      "message": "Hups! Jotakin meni vikaan kuvasi kanssa. Yrit\u00E4 uudelleen tai valitse toinen kuva."
+   },
+   "image_size_error_msg": {
+      "message": "Hups! Kuvatiedosto on liian suuri. Lis\u00E4\u00E4 tiedosto, jonka koko on enint\u00E4\u00E4n $1 $2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Tuemme JPEG-, PNG-, GIF- ja BMP-tiedostoja."
+   },
+   "image_type_error_msg": {
+      "message": "Emme tue valitsemaasi tiedostomuotoa."
+   },
+   "img_fetching": {
+      "message": "Noudetaan kuvaa"
+   },
+   "img_upload_wait": {
+      "message": "Odota, kuvaa ladataan."
+   },
+   "informative": {
+      "message": "Tiedote"
+   },
+   "install_box_text": {
+      "message": "Klikkaa ja asenna t\u00E4m\u00E4 teema Chrome-selaimeesi"
+   },
+   "install_btn": {
+      "message": "Asenna teema"
+   },
+   "left_align": {
+      "message": "vasen"
+   },
+   "loading": {
+      "message": "Ladataan..."
+   },
+   "loading_application": {
+      "message": "Ladataan sovellusta..."
+   },
+   "locale": {
+      "message": "fi"
+   },
+   "make_new": {
+      "message": "Tee uusi teema \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Uusi v\u00E4lilehti"
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Et ole tuonut kuvaa teemasi taustaksi. Haluatko jatkaa ilman taustakuvaa?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Et antanut teemallesi nime\u00E4. Haluatko silti jatkaa?"
+   },
+   "no_theme_to_view": {
+      "message": "Ei n\u00E4ytett\u00E4vi\u00E4 teemoja"
+   },
+   "no_webcam_msg": {
+      "message": "Ei verkkokameraa"
+   },
+   "not_available_offline": {
+      "message": "Ei offline-k\u00E4yt\u00F6ss\u00E4"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Hups,"
+   },
+   "open_preview_text": {
+      "message": "Esikatsele teema"
+   },
+   "original": {
+      "message": "Alkuper."
+   },
+   "package_btn": {
+      "message": "Tee oma teema!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Valitse v\u00E4ri"
+   },
+   "picnik_save_btn": {
+      "message": "Tallenna Chrome-teemoihini"
+   },
+   "please_wait": {
+      "message": "Odota..."
+   },
+   "preset_color": {
+      "message": "V\u00E4riasetus"
+   },
+   "preview_error_msg": {
+      "message": "N\u00E4ytt\u00E4\u00E4 silt\u00E4, ett\u00E4 etsim\u00E4si teema ei en\u00E4\u00E4 ole saatavilla."
+   },
+   "preview_mode": {
+      "message": "esikatselu"
+   },
+   "privacy_policy": {
+      "message": "Tietosuojak\u00E4yt\u00E4nt\u00F6"
+   },
+   "publish_theme": {
+      "message": "JAA TEEMA"
+   },
+   "publish_theme_text": {
+      "message": "Jaa teemasi muille klikkaamalla."
+   },
+   "publishing": {
+      "message": "Luodaan URL-osoitetta..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Jos haluat julkaista zip-tiedoston Chrome Web Storessa, siirry [t\u00E4nne]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Tee teemasta omasi antamalla sille yksil\u00F6llinen nimi. Teeman nimi n\u00E4ytet\u00E4\u00E4n, jos jaat sen muiden kanssa."
+   },
+   "rear_tab_text": {
+      "message": "Taustav\u00E4lil"
+   },
+   "reartab": {
+      "message": "Taustav\u00E4lilehden v\u00E4ri"
+   },
+   "retake_picture": {
+      "message": "Uudell"
+   },
+   "retry": {
+      "message": "Uudelleen"
+   },
+   "right_align": {
+      "message": "oikea"
+   },
+   "share_box_text": {
+      "message": "Jaa teema kopioimalla t\u00E4m\u00E4 URL-osoite"
+   },
+   "show_all_themes": {
+      "message": "N\u00E4yt\u00E4 kaikki"
+   },
+   "size_unit_mb": {
+      "message": "Mt"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "LUO TEEMA"
+   },
+   "start_screen_description": {
+      "message": "Tee selaimesta omann\u00E4k\u00F6isesi. Luo ja jaa omia valokuviasi k\u00E4ytt\u00E4vi\u00E4, itse muokkaamiasi Google Chrome -teemoja kolmen helpon vaiheen kautta."
+   },
+   "start_screen_heading": {
+      "message": "Luo oma Chrome-teema"
+   },
+   "step": {
+      "message": "Vaihe $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Tuo kuva.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "L\u00E4het\u00E4 tiedosto tietokoneeltasi tai ota kuva verkkokamerallasi."
+   },
+   "step1_header_msg_text": {
+      "message": "Valitse taustakuva teemallesi."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Lis\u00E4\u00E4 v\u00E4ri\u00E4.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Voit my\u00F6s lis\u00E4t\u00E4 v\u00E4rej\u00E4 automaattisesti [jos haluat kokeilla onneasi]"
+   },
+   "step2_header_msg_text": {
+      "message": "Klikkaa nastaa ja v\u00E4rit\u00E4 teema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Asenna ja jaa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Etsi lis\u00E4\u00E4 teemoja Chrome Web Storesta"
+   },
+   "stored_themes_title": {
+      "message": "Asenna, jaa tai poista t\u00E4ll\u00E4 tietokoneella luotuja teemoja klikkaamalla alla olevia pikkukuvia."
+   },
+   "take_picture": {
+      "message": "Ota kuva"
+   },
+   "text": {
+      "message": "Tekstin v\u00E4ri"
+   },
+   "theme_deleted": {
+      "message": "Teema poistettu"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Kuvaa teemaasi muutamalla sanalla. Kuvaus n\u00E4ytet\u00E4\u00E4n jakaessasi teemasi."
+   },
+   "theme_description_box_title": {
+      "message": "Kuvaile teemaasi"
+   },
+   "theme_description_text": {
+      "message": "Lis\u00E4\u00E4 valinnainen kuvaus."
+   },
+   "theme_does_not_exist": {
+      "message": "Teemaa ei ole olemassa"
+   },
+   "theme_name_placeholder": {
+      "message": "Anna teemalle nimi."
+   },
+   "theme_str": {
+      "message": "teema"
+   },
+   "theme_unique_url": {
+      "message": "Jaa yksil\u00F6ll. URL-osoite:"
+   },
+   "tile_image": {
+      "message": "Kuva"
+   },
+   "toolbar": {
+      "message": "Ty\u00F6kalupalkin v\u00E4ri"
+   },
+   "top_align": {
+      "message": "yl\u00F6s"
+   },
+   "try_again": {
+      "message": "Uudelleen"
+   },
+   "unpublish": {
+      "message": "Kumoa jako"
+   },
+   "unpublishing": {
+      "message": "Poistetaan URL"
+   },
+   "untitled": {
+      "message": "Nimet\u00F6n"
+   },
+   "upload_btn_txt": {
+      "message": "L\u00E4het\u00E4 kuva."
+   },
+   "upload_crx_error_msg": {
+      "message": "Hups! Jotain meni pieleen teemaa luotaessa."
+   },
+   "upload_error_msg": {
+      "message": "Kuvaa l\u00E4hetett\u00E4ess\u00E4 esiintyi ongelma. Kokeile l\u00E4hetyst\u00E4 uudelleen tai valitse toinen kuva."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "L\u00E4het\u00E4 vain kuvia, joita sinulla on oikeus k\u00E4ytt\u00E4\u00E4."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Google yll\u00E4pit\u00E4\u00E4 kuvia ja teemoja."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Poistetut kuvat ja teemat poist. pysyv\u00E4sti."
+   },
+   "uploading": {
+      "message": "L\u00C4HETET\u00C4\u00C4N"
+   },
+   "url_tooltip": {
+      "message": "Jaa: kopioi ja liit\u00E4"
+   },
+   "use_picture": {
+      "message": "K\u00E4yt\u00E4 kuvaa"
+   },
+   "warning": {
+      "message": "VAROITUS"
+   },
+   "webcam_btn_txt": {
+      "message": "K\u00E4yt\u00E4 verkkokameraa."
+   },
+   "woohoo_text": {
+      "message": "Jee! Teema \"$1\" $2 on nyt luotu.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Kyll\u00E4"
+   }
+}

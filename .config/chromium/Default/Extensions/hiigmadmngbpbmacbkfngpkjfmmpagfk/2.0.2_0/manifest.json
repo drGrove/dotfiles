@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://jsfiddle.net/"
+      },
+      "urls": [ "http://jsfiddle.net/" ]
+   },
+   "description": "jsFiddle is the playground for web developers, an online editor for web snippets. Helps to isolate bugs. Many frameworks supported.",
+   "icons": {
+      "128": "jsfiddle-128x128.png",
+      "16": "jsfiddle-16x16.png",
+      "48": "jsfiddle-48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBI3kmoL17IH6aIiOJ5QW+JnQVU/WLipgsbY3+v+3ZfpN1rTlAJlmYG/vkvr2PESi8CmmVGON08HXjgOkHcqHNkxdx6v1xud20xNy0R+UG7Aj5ZvLtmByhzo2LdfXM5WMO/GCNxkBR7U3mKa0d/COfaCpdFkuF3Z+RTSunJWrbJwIDAQAB",
+   "name": "jsFiddle",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.2"
+}

@@ -1,0 +1,347 @@
+{
+   "ACCESS_CODE": {
+      "message": "C\u00F3digo de acesso"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Este c\u00F3digo de acesso ir\u00E1 expirar em $1"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "Todas as liga\u00E7\u00F5es"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "Voltar a introduzir o PIN"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "Cancelar"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Limpar hist\u00F3rico"
+   },
+   "CLOSE": {
+      "message": "Fechar"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Se sair desta p\u00E1gina, terminar\u00E1 a sess\u00E3o do Ambiente de Trabalho Remoto do Chrome."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "Tem a certeza de que pretende desativar as liga\u00E7\u00F5es remotas a $1? Se mudar de ideias, ser\u00E1 necess\u00E1rio aceder a esse computador e voltar a ativar as liga\u00E7\u00F5es."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "De"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Hist\u00F3rico de liga\u00E7\u00F5es"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Hist\u00F3rico de Liga\u00E7\u00F5es"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Para"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Estabelecer liga\u00E7\u00E3o mesmo assim"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Ligar"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Continuar"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Est\u00E1 atualmente a partilhar este computador com outro utilizador. Pretende continuar a partilhar?"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Para utilizar o Ambiente de Trabalho Remoto do Chrome, \u00E9 necess\u00E1rio conceder permiss\u00F5es de acesso alargadas ao computador. Apenas tem de efetuar esta opera\u00E7\u00E3o uma vez."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Solicite ao utilizador a cujo computador pretende aceder que clique em \"Partilhar Agora\" e que indique o c\u00F3digo de acesso."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "O Ambiente de Trabalho Remoto do Chrome permite partilhar o computador de forma segura atrav\u00E9s da Web. Ambos os utilizadores devem ter em execu\u00E7\u00E3o a aplica\u00E7\u00E3o Ambiente de Trabalho Remoto do Chrome, que pode ser encontrada em $1."
+   },
+   "DISABLE_HOST": {
+      "message": "Desactivar"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Desligar"
+   },
+   "DISCONNECT_OTHER_BUTTON": {
+      "message": "Desligar"
+   },
+   "DURATION_HEADER": {
+      "message": "Dura\u00E7\u00E3o"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Falha na autentica\u00E7\u00E3o. Inicie sess\u00E3o novamente no Ambiente de Trabalho Remoto do Chrome."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Faltam alguns componentes necess\u00E1rios ao Ambiente de Trabalho Remoto do Chrome. Certifique-se de que instalou a vers\u00E3o mais recente e tente novamente."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "O computador remoto n\u00E3o est\u00E1 a responder aos pedidos de liga\u00E7\u00E3o. Verifique se est\u00E1 online e tente novamente."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "As liga\u00E7\u00F5es ao computador remoto est\u00E3o temporariamente bloqueadas, porque algu\u00E9m tentou estabelecer liga\u00E7\u00E3o com um PIN inv\u00E1lido. Volte a tentar mais tarde."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Foi detetada uma vers\u00E3o n\u00E3o compat\u00EDvel do Ambiente de Trabalho Remoto do Chrome. Certifique-se de que tem a vers\u00E3o mais recente do Chrome e do Ambiente de Trabalho Remoto do Chrome em ambos os computadores e tente novamente."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "O c\u00F3digo de acesso \u00E9 inv\u00E1lido. Tente novamente."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "As defini\u00E7\u00F5es da pol\u00EDtica n\u00E3o permitem a partilha deste computador como um anfitri\u00E3o do Ambiente de Trabalho Remoto do Chrome. Contacte o administrador do sistema para obter assist\u00EAncia."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Faltam alguns componentes necess\u00E1rios ao Ambiente de Trabalho Remoto do Chrome. Certifique-se de que est\u00E1 a executar a vers\u00E3o mais recente do Chrome e tente novamente."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "N\u00E3o foi poss\u00EDvel estabelecer liga\u00E7\u00E3o \u00E0 rede. Verifique se o dispositivo est\u00E1 online."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "N\u00E3o tem sess\u00E3o iniciada no Ambiente de Trabalho Remoto do Chrome. Inicie sess\u00E3o e tente de novo."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel contactar o anfitri\u00E3o. Provavelmente, isso deve-se \u00E0 configura\u00E7\u00E3o da rede que est\u00E1 a utilizar."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "O servi\u00E7o est\u00E1 temporariamente indispon\u00EDvel. Tente novamente mais tarde."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Ocorreu um erro inesperado. Comunique este problema aos programadores."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "A ligar..."
+   },
+   "FOOTER_WAITING": {
+      "message": "a aguardar liga\u00E7\u00E3o..."
+   },
+   "FULL_SCREEN": {
+      "message": "Ecr\u00E3 inteiro"
+   },
+   "GET_STARTED": {
+      "message": "Come\u00E7ar"
+   },
+   "HELP": {
+      "message": "Ajuda"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Acesso"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Ver e controlar um computador partilhado."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Pode aceder com seguran\u00E7a ao computador utilizando o Ambiente de Trabalho Remoto do Chrome."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "Alterar PIN"
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Ativar liga\u00E7\u00F5es remotas"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Se pretende utilizar o Ambiente de Trabalho Remoto do Chrome para aceder ao computador, \u00E9 necess\u00E1rio ativar as liga\u00E7\u00F5es remotas."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Desativar liga\u00E7\u00F5es remotas"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Partilhar"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Partilhar este computador para que outro utilizador o possa ver e controlar."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(esta funcionalidade ainda n\u00E3o est\u00E1 dispon\u00EDvel para Chromebooks... fique atento)"
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Para ativar as liga\u00E7\u00F5es remotas a outro computador, instale o Ambiente de Trabalho Remoto do Chrome a\u00ED e clique em \"$1\"."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "N\u00E3o existem computadores registados. Para ativar as liga\u00E7\u00F5es remotas a um computador, instale o Ambiente de Trabalho Remoto do Chrome a\u00ED e clique em \u201C$1\u201D."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "As atualiza\u00E7\u00F5es de software normalmente ocorrem automaticamente, embora possam falhar nalguns casos raros. A atualiza\u00E7\u00E3o de software n\u00E3o deve demorar mais do que alguns minutos e pode ser feita atrav\u00E9s do acesso remoto ao seu computador."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "O Ambiente de Trabalho Remoto em $1 est\u00E1 desatualizado e necessita de atualiza\u00E7\u00E3o."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Ajude-nos a melhorar o Ambiente de Trabalho Remoto do Chrome, permitindo-nos recolher estat\u00EDsticas de utiliza\u00E7\u00E3o e relat\u00F3rios de falhas."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Para proteger o acesso a este computador, escolha um PIN de $1pelo menos seis d\u00EDgitos$2. Este PIN ser\u00E1 necess\u00E1rio quando ligar a partir de outra localiza\u00E7\u00E3o."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Falha ao iniciar o servi\u00E7o de acesso remoto."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "O Chrome est\u00E1 a transferir o ficheiro de instala\u00E7\u00E3o do Anfitri\u00E3o do Ambiente de Trabalho Remoto do Chrome. Conclu\u00EDda a transfer\u00EAncia, execute o ficheiro de instala\u00E7\u00E3o antes de continuar."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Execute o ficheiro de instala\u00E7\u00E3o antes de continuar."
+   },
+   "HOST_SETUP_REGISTRATION_FAILED": {
+      "message": "Falha ao registar o computador."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Foram ativadas as liga\u00E7\u00F5es remotas neste computador."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "Verifique as defini\u00E7\u00F5es de gest\u00E3o de energia do computador e certifique-se de que n\u00E3o est\u00E1 configurado para suspender quando inativo."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "A ativar as liga\u00E7\u00F5es remotas neste computador\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Foram desativadas as liga\u00E7\u00F5es remotas neste computador."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "A desativar as liga\u00E7\u00F5es remotas neste computador\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Falha ao desativar o acesso remoto a este computador. Tente novamente mais tarde."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "O seu PIN foi atualizado."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "Falha ao atualizar o PIN. Tente novamente mais tarde."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "O PIN para este computador est\u00E1 a ser atualizado..."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "A este computador"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Para come\u00E7ar a partilhar o seu ambiente de trabalho, forne\u00E7a o c\u00F3digo de acesso abaixo \u00E0 pessoa que o ir\u00E1 ajudar."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "A sess\u00E3o de partilha come\u00E7a assim que introduzirem o c\u00F3digo."
+   },
+   "INVALID_PIN": {
+      "message": "Introduza um PIN com seis ou mais d\u00EDgitos."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Partilha de ecr\u00E3 entre utilizadores, ideal para suporte t\u00E9cnico remoto."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Ligado:"
+   },
+   "LEARN_HOW": {
+      "message": "Saiba como."
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Aceda ao seu computador a partir de qualquer lugar."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "A gerar c\u00F3digo de acesso..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "A sess\u00E3o do Ambiente de Trabalho Remoto do Chrome terminou."
+   },
+   "MESSAGE_SHARED": {
+      "message": "O seu ambiente de trabalho est\u00E1 a ser atualmente partilhado com $1."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Autorizar"
+   },
+   "MODE_IT2ME": {
+      "message": "Assist\u00EAncia Remota"
+   },
+   "MODE_ME2ME": {
+      "message": "Os Meus Computadores"
+   },
+   "OFFLINE": {
+      "message": "$1 (offline)"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "A partir deste computador"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "Introduza o mesmo PIN em ambas as caixas."
+   },
+   "PIN_MESSAGE": {
+      "message": "Introduza o PIN para $1."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "Aceder a outros computadores ou permitir que outro utilizador aceda ao seu computador de forma segura atrav\u00E9s da Internet."
+   },
+   "PRODUCT_NAME": {
+      "message": "Ambiente de Trabalho Remoto do Chrome"
+   },
+   "RECONNECT": {
+      "message": "Restabelecer liga\u00E7\u00E3o"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Redimensionar o ambiente de trabalho para ajustar ao tamanho"
+   },
+   "RETRY": {
+      "message": "Repetir"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Op\u00E7\u00F5es de ecr\u00E3"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Enviar teclas"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SHRINK_TO_FIT": {
+      "message": "Ajustar texto"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Iniciar sess\u00E3o"
+   },
+   "SIGN_ME_UP": {
+      "message": "Participar no inqu\u00E9rito"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "Terminar sess\u00E3o"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Terminar Partilha"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Quer ajudar a melhorar o Ambiente de Trabalho Remoto do Chrome?"
+   },
+   "TIME_HEADER": {
+      "message": "Tempo"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "Ligar a $1"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Desativar as liga\u00E7\u00F5es remotas a este computador"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Editar nome do computador"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (desatualizado)"
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NOTA: as defini\u00E7\u00F5es da pol\u00EDtica permitem liga\u00E7\u00F5es apenas entre computadores da sua rede."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NOTA: Para garantir que todos os atalhos de teclado est\u00E3o dispon\u00EDveis, pode configurar o Ambiente de Trabalho Remoto do Chrome para \"Abrir como janela\"."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Porque \u00E9 que isto \u00E9 seguro?"
+   }
+}

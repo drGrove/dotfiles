@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Netinkama"
+   },
+   "alignment_btn_txt": {
+      "message": "Koreguoti pozicij\u0105"
+   },
+   "allow_access_to_webcam": {
+      "message": "Prane\u0161. juost. sut. prieig\u0105 prie savo intern. vaizdo kameros."
+   },
+   "back_to_step1_msg": {
+      "message": "Ar tikrai norite importuoti nauj\u0105 vaizd\u0105? Prarasite visus \u0161io vaizdo pakeitimus."
+   },
+   "background": {
+      "message": "Redaguoti fono spalv\u0105"
+   },
+   "bottom_align": {
+      "message": "apa\u010Dia"
+   },
+   "cancel": {
+      "message": "At\u0161aukti"
+   },
+   "center_align": {
+      "message": "centras"
+   },
+   "change_img_btn_txt": {
+      "message": "Importuoti nauj\u0105 vaizd\u0105"
+   },
+   "continue_anyways": {
+      "message": "Vis tiek t\u0119sti"
+   },
+   "continue_to": {
+      "message": "Toliau atlikite $1 veiksm\u0105",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Sukurkite savo tem\u0105"
+   },
+   "custom": {
+      "message": "Priskirtas"
+   },
+   "custom_color": {
+      "message": "Priskirta spalva"
+   },
+   "default": {
+      "message": "Nustatyti numatyt\u0105j\u012F"
+   },
+   "delete": {
+      "message": "I\u0161trinti"
+   },
+   "delete_theme": {
+      "message": "Trinti tem\u0105"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "Ar tikrai norite i\u0161trinti tem\u0105 \u201E$1\u201C?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "I\u0161trinant \u012Fvyko klaida."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Trinant \u012Fvyko klaida. Bandykite dar kart\u0105."
+   },
+   "deleted": {
+      "message": "I\u0161trinta"
+   },
+   "deleting": {
+      "message": "I\u0161trinama..."
+   },
+   "deleting_theme": {
+      "message": "Tema trinama"
+   },
+   "design_mode": {
+      "message": "dizaino re\u017Eimas"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Atl."
+   },
+   "download_theme_zip": {
+      "message": "Atsisi\u0173sti tem\u0105 kaip \u201Ezip\u201C"
+   },
+   "enhance_btn_txt": {
+      "message": "Redaguoti naudojant \u201EPicnik\u201C"
+   },
+   "error": {
+      "message": "KLAIDA"
+   },
+   "error_while_publishing": {
+      "message": "Bandant sugeneruoti URL \u012Fvyko klaida. Bandykite i\u0161 naujo."
+   },
+   "error_while_unpublishing": {
+      "message": "Bandant pa\u0161alinti URL \u012Fvyko klaida. Bandykite i\u0161 naujo."
+   },
+   "ext_description": {
+      "message": "Kurkite ir bendrinkite savo sukurto dizaino \u201EGoogle Chrome\u201C temas."
+   },
+   "ext_name": {
+      "message": "Mano \u201EChrome\u201C tema"
+   },
+   "feeling_lucky": {
+      "message": "Man sekasi"
+   },
+   "fetch_image_error_msg": {
+      "message": "Oi! Ka\u017Ekas nutiko su redaguotu vaizdu ir stengiam\u0117s tai sutvarkyti."
+   },
+   "fill_screen": {
+      "message": "U\u017Epildyti ekran\u0105"
+   },
+   "filter_black_and_white": {
+      "message": "Nespalvotai"
+   },
+   "filter_bolder": {
+      "message": "Labiau pajuodinta"
+   },
+   "filter_cooler": {
+      "message": "\u0160altesnio atspalvio"
+   },
+   "filter_inverted": {
+      "message": "Atvirk\u0161tinio atvaizdavimo"
+   },
+   "filter_posterized": {
+      "message": "Ma\u017Eiau spalv\u0173"
+   },
+   "filter_sepia": {
+      "message": "Sepija"
+   },
+   "filter_title": {
+      "message": "Vaizdo efekt."
+   },
+   "filter_warmer": {
+      "message": "\u0160iltesnio atspalvio"
+   },
+   "fit_screen": {
+      "message": "Talpinti ekrane"
+   },
+   "footer_share_site_txt": {
+      "message": "Bendrinti:"
+   },
+   "frame": {
+      "message": "Redaguoti r\u0117melio spalv\u0105"
+   },
+   "generate_theme": {
+      "message": "Generuojama tema"
+   },
+   "goback": {
+      "message": "Gr\u012F\u017Eti"
+   },
+   "hide_themes": {
+      "message": "Sl\u0117p. temas"
+   },
+   "image_format_error_msg": {
+      "message": "Deja, su vaizdu ka\u017Ekas ne taip. Bandykite dar kart\u0105 arba pasirinkite kit\u0105 vaizd\u0105."
+   },
+   "image_size_error_msg": {
+      "message": "Deja, vaizdo failas tikriausiai per didelis. Pabandykite dar kart\u0105 naudodami $1 $2 ar ma\u017Eesn\u012F fail\u0105.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Palaikome JPEG, PNG, GIF ir BMP tip\u0173 failus"
+   },
+   "image_type_error_msg": {
+      "message": "Apgailestaujame, bet nepalaikome failo formato, kur\u012F bandote pasirinkti."
+   },
+   "img_fetching": {
+      "message": "Gaunamas vaizdas"
+   },
+   "img_upload_wait": {
+      "message": "Palaukite, kol vaizdas \u012Fkeliamas"
+   },
+   "informative": {
+      "message": "Informatyvus"
+   },
+   "install_box_text": {
+      "message": "Spustel\u0117kite, kad dabar \u012Fdiegtum\u0117te \u0161i\u0105 tem\u0105 \u201EChrome\u201C nar\u0161ykl\u0117je"
+   },
+   "install_btn": {
+      "message": "\u012Ediegti mano tem\u0105"
+   },
+   "left_align": {
+      "message": "kair\u0117"
+   },
+   "loading": {
+      "message": "\u012Ekeliama..."
+   },
+   "loading_application": {
+      "message": "\u012Ekeliama programa..."
+   },
+   "locale": {
+      "message": "lt"
+   },
+   "make_new": {
+      "message": "Kurti nauj\u0105 tem\u0105 \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Naujas skirtukas"
+   },
+   "no": {
+      "message": "Ne"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Tikriausiai neimportavote temos fono vaizdo. Ar tikrai norite t\u0119sti be vaizdo?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Tikriausiai nepavadinote temos. Ar vis tiek norite t\u0119sti?"
+   },
+   "no_theme_to_view": {
+      "message": "Neturite per\u017E. galim\u0173 tem\u0173"
+   },
+   "no_webcam_msg": {
+      "message": "Neaptikta internetin\u0117 vaizdo kamera"
+   },
+   "not_available_offline": {
+      "message": "Negal. naud. nepris."
+   },
+   "ok": {
+      "message": "GERAI"
+   },
+   "oops_msg": {
+      "message": "Oi!"
+   },
+   "open_preview_text": {
+      "message": "Per\u017Ei\u016Br\u0117ti tem\u0105"
+   },
+   "original": {
+      "message": "Originaliai"
+   },
+   "package_btn": {
+      "message": "Sukurti savo tem\u0105!"
+   },
+   "page_title": {
+      "message": "\u201E$1\u201C \u2013 \u201E$2\u201C",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "Pasirinkti spalv\u0105"
+   },
+   "picnik_save_btn": {
+      "message": "I\u0161saugoti skiltyje \u201EMano \u201EChrome\u201C tema\u201C"
+   },
+   "please_wait": {
+      "message": "Palaukite..."
+   },
+   "preset_color": {
+      "message": "I\u0161 anksto nustatyta spalva"
+   },
+   "preview_error_msg": {
+      "message": "Pana\u0161u, kad ie\u0161koma tema nebepasiekiama."
+   },
+   "preview_mode": {
+      "message": "per\u017Ei\u016Bros re\u017Eimas"
+   },
+   "privacy_policy": {
+      "message": "Privatumo politika"
+   },
+   "publish_theme": {
+      "message": "BENDRINTI TEM\u0104"
+   },
+   "publish_theme_text": {
+      "message": "Spustel\u0117kite, kad bendrintum\u0117te tem\u0105 su kitais."
+   },
+   "publishing": {
+      "message": "Generuojamas URL..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Jei norite paskelbti \u201Ezip\u201C \u201EChrome\u201C internetin\u0117je parduotuv\u0117je, apsilankykite [\u010Dia]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Pavadinkite tem\u0105, kad ji b\u016Bt\u0173 i\u0161skirtin\u0117. Temos pavadinimas bus matomas, jei nuspr\u0119site j\u0105 bendrinti su kitais."
+   },
+   "rear_tab_text": {
+      "message": "Fono skirtukas"
+   },
+   "reartab": {
+      "message": "Redaguoti fono skirtuko spalv\u0105"
+   },
+   "retake_picture": {
+      "message": "Fot. i\u0161 n."
+   },
+   "retry": {
+      "message": "Bandyti i\u0161 naujo"
+   },
+   "right_align": {
+      "message": "de\u0161in\u0117"
+   },
+   "share_box_text": {
+      "message": "Nukopijuokite \u0161\u012F unikal\u0173 URL, kad gal\u0117tum\u0117te bendrinti su kitais"
+   },
+   "show_all_themes": {
+      "message": "Rod. visas tem."
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "PRAD\u0116TI KURTI TEM\u0104"
+   },
+   "start_screen_description": {
+      "message": "Suasmeninkite nar\u0161ykl\u0119. Kurkite ir bendrinkite priskirtas \u201EGoogle Chrome\u201C temas su savo nuotraukomis ir pa\u010Di\u0173 sukurtu dizainu atlik\u0119 tik tris paprastus veiksmus."
+   },
+   "start_screen_heading": {
+      "message": "Sukurkite savo \u201EChrome\u201C tem\u0105"
+   },
+   "step": {
+      "message": "$1 veiksm.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importuokite vaizd\u0105",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "\u012Ekelkite fail\u0105 i\u0161 kompiuterio arba fotografuokite internetine vaizdo kamera."
+   },
+   "step1_header_msg_text": {
+      "message": "Pasirinkite temos fono vaizd\u0105."
+   },
+   "step2_btn_txt": {
+      "message": "$1 Prid\u0117ti spalv\u0105",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Arba galite prid\u0117ti spalvas automati\u0161kai [jei jums sekasi]"
+   },
+   "step2_header_msg_text": {
+      "message": "Spustel\u0117kite smeigtuk\u0105, kad prad\u0117tum\u0117te spalvinti tem\u0105"
+   },
+   "step3_btn_txt": {
+      "message": "$1 \u012Ediekite ir bendrinkite",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Raskite daugiau tem\u0173 \u201EChrome\u201C internetin\u0117je parduotuv\u0117je"
+   },
+   "stored_themes_title": {
+      "message": "Spustel\u0117kite toliau pateiktas miniati\u016Bras, kad \u012Fdiegtum\u0117te, bendrintum\u0117te ar i\u0161trintum\u0117te ankstesnes \u0161iuo kompiuteriu sukurtas temas."
+   },
+   "take_picture": {
+      "message": "Fotografuoti"
+   },
+   "text": {
+      "message": "Redaguoti teksto spalv\u0105"
+   },
+   "theme_deleted": {
+      "message": "Tema i\u0161trinta"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Prid\u0117kite dar kelis tem\u0105 apib\u016Bdinan\u010Dius \u017Eod\u017Eius. \u0160is apra\u0161as bus matomas, jei bendrinsite tem\u0105."
+   },
+   "theme_description_box_title": {
+      "message": "Apib\u016Bdinkite tem\u0105"
+   },
+   "theme_description_text": {
+      "message": "Prid\u0117ti pasirenkam\u0105 apra\u0161\u0105"
+   },
+   "theme_does_not_exist": {
+      "message": "\u0160ios temos n\u0117ra"
+   },
+   "theme_name_placeholder": {
+      "message": "Pavadinkite tem\u0105"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Bendr. su \u0161iuo unik. URL:"
+   },
+   "tile_image": {
+      "message": "I\u0161kloti vaizd\u0105"
+   },
+   "toolbar": {
+      "message": "Redaguoti \u012Franki\u0173 juostos spalv\u0105"
+   },
+   "top_align": {
+      "message": "vir\u0161us"
+   },
+   "try_again": {
+      "message": "Bandyti dar kart\u0105"
+   },
+   "unpublish": {
+      "message": "Anul. bendr."
+   },
+   "unpublishing": {
+      "message": "\u0160alinamas URL..."
+   },
+   "untitled": {
+      "message": "Be pavadinimo"
+   },
+   "upload_btn_txt": {
+      "message": "\u012Ekelti vaizd\u0105"
+   },
+   "upload_crx_error_msg": {
+      "message": "Oi! Ka\u017Ekas nutiko bandant sukurti j\u016Bs\u0173 tem\u0105."
+   },
+   "upload_error_msg": {
+      "message": "\u012Ekeliant vaizd\u0105 tikriausiai i\u0161kilo problema. Pabandykite dar kart\u0105 \u012Fkelti fail\u0105 arba gr\u012F\u017Ekite ir pasirinkite kit\u0105."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "\u012Ekelkite tik tuos vaizdus, kuriuos turite teis\u0119 naudoti."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Vaizdai ir temos bus priglobiami \u201EGoogle\u201C."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Pa\u0161alinti vaizdai ir temos bus i\u0161trinti visam laikui."
+   },
+   "uploading": {
+      "message": "\u012EKELIAMA..."
+   },
+   "url_tooltip": {
+      "message": "Nukopijuokite ir \u012Fklijuokite, kad gal\u0117tum\u0117te bendrinti"
+   },
+   "use_picture": {
+      "message": "Naud. nuotr."
+   },
+   "warning": {
+      "message": "\u012ESP\u0116JIMAS"
+   },
+   "webcam_btn_txt": {
+      "message": "Naudoti internetin\u0119 vaizdo kamer\u0105"
+   },
+   "woohoo_text": {
+      "message": "Puiku! \u201E$1\u201C $2 sukurta",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Taip"
+   }
+}

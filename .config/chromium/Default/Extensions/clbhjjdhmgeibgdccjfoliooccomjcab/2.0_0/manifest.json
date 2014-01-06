@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "PHP Ninja Manual"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Shift+Alt+F"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "PHP 5.5 documentation in a popup",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDH/AJMk1ALKp47Hx/yW4Zrl9g9opPIl8H0FL3nHCfxOAgbn4Zie5EdWOSXBu1hI+0rk50Fgr4Z4J0udJZVXeNf7+UElGEHn9xfzptfthefyecFtpvn8QIBXJlCrIIpzOKNIDDOH6Swaxi5bTq2Y63cdmHnHkTfg3RiYp4g3wVwnQIDAQAB",
+   "manifest_version": 2,
+   "name": "PHP Ninja Manual",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "unlimitedStorage", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0",
+   "web_accessible_resources": [ "https://ssl.google-analytics.com/ga.js" ]
+}

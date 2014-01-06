@@ -1,0 +1,440 @@
+{
+   "ACCESS_CODE": {
+      "message": "Eri\u015Fim kodu"
+   },
+   "ACCESS_CODE_TIMER": {
+      "message": "Bu eri\u015Fim kodunun s\u00FCresi $1 saniye i\u00E7inde sona erecek"
+   },
+   "ALL_CONNECTIONS": {
+      "message": "T\u00FCm ba\u011Flant\u0131lar"
+   },
+   "ASK_PIN_DIALOG_CONFIRM_LABEL": {
+      "message": "PIN'i yeniden yaz\u0131n"
+   },
+   "ASK_PIN_DIALOG_LABEL": {
+      "message": "PIN"
+   },
+   "CANCEL": {
+      "message": "\u0130ptal"
+   },
+   "CLEAR_HISTORY": {
+      "message": "Ge\u00E7mi\u015Fi temizle"
+   },
+   "CLOSE": {
+      "message": "Kapat"
+   },
+   "CLOSE_PROMPT": {
+      "message": "Bu sayfadan ayr\u0131l\u0131rsan\u0131z Chrome Uzaktan Masa\u00FCst\u00FC oturumunuz sonlan\u0131r."
+   },
+   "COMPANY_NAME": {
+      "message": "Google Inc."
+   },
+   "CONFIRM_HOST_DELETE": {
+      "message": "$1 adl\u0131 ana bilgisayara uzaktan ba\u011Flant\u0131lar\u0131 devre d\u0131\u015F\u0131 b\u0131rakmak istedi\u011Finizden emin misiniz? Daha sonra fikrinizi de\u011Fi\u015Ftirirseniz, ba\u011Flant\u0131lar\u0131 yeniden etkinle\u015Ftirmek i\u00E7in s\u00F6z konusu bilgisayar\u0131 ziyaret etmeniz gerekecektir."
+   },
+   "CONNECTION_FROM_HEADER": {
+      "message": "Kimden"
+   },
+   "CONNECTION_HISTORY_BUTTON": {
+      "message": "Ba\u011Flant\u0131 ge\u00E7mi\u015Fi"
+   },
+   "CONNECTION_HISTORY_TITLE": {
+      "message": "Ba\u011Flant\u0131 Ge\u00E7mi\u015Fi"
+   },
+   "CONNECTION_TO_HEADER": {
+      "message": "Kime"
+   },
+   "CONNECT_ANYWAY": {
+      "message": "Yine de ba\u011Flan"
+   },
+   "CONNECT_BUTTON": {
+      "message": "Ba\u011Flan"
+   },
+   "CONTINUE_BUTTON": {
+      "message": "Devam Et"
+   },
+   "CONTINUE_PROMPT": {
+      "message": "Bu makineyi \u015Fu anda ba\u015Fka bir kullan\u0131c\u0131yla payla\u015F\u0131yorsunuz. Payla\u015Fmaya devam etmek istiyor musunuz?"
+   },
+   "CONTROLLER_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC Ana Makine Denetleyicisi"
+   },
+   "COPYRIGHT": {
+      "message": "Telif Hakk\u0131 2013 Google Inc. T\u00FCm Haklar\u0131 Sakl\u0131d\u0131r."
+   },
+   "DELETE_ALL_PAIRED_CLIENTS": {
+      "message": "T\u00FCm\u00FCn\u00FC sil"
+   },
+   "DELETE_PAIRED_CLIENT": {
+      "message": "Sil"
+   },
+   "DESCRIPTION_AUTHORIZE": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131 kullanabilmek i\u00E7in \u00F6ncelikle, bilgisayar\u0131n\u0131za geni\u015Fletilmi\u015F eri\u015Fim izinleri vermelisiniz. Bunu yaln\u0131zca bir kez yapman\u0131z gerekir."
+   },
+   "DESCRIPTION_CONNECT": {
+      "message": "Bilgisayar\u0131na eri\u015Fmek istedi\u011Finiz kullan\u0131c\u0131dan, '\u015Eimdi Payla\u015F' se\u00E7ene\u011Fini t\u0131klamas\u0131n\u0131 ve size eri\u015Fim kodunu vermesini isteyin."
+   },
+   "DESCRIPTION_HOME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC, bilgisayar\u0131n\u0131z\u0131 Web \u00FCzerinden g\u00FCvenli bir \u015Fekilde payla\u015Fabilmenize olanak sa\u011Flar. Her iki kullan\u0131c\u0131n\u0131n da Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131 \u00E7al\u0131\u015Ft\u0131r\u0131yor olmas\u0131 gerekir. Uygulamay\u0131 $1 adresinde bulabilirsiniz."
+   },
+   "DESCRIPTION_THIRD_PARTY_AUTH": {
+      "message": "Uzak ana makine \u00FC\u00E7\u00FCnc\u00FC taraf bir web sitesine kimlik do\u011Frulama i\u015Flemi yapman\u0131z\u0131 gerektiriyor. Devam etmek \u00FCzere \u015Fu adrese eri\u015Fim i\u00E7in Chrome Uzaktan Masa\u00FCst\u00FC'ne ek izinler vermelisiniz:"
+   },
+   "DISABLE_HOST": {
+      "message": "Devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "DISCONNECT_MYSELF_BUTTON": {
+      "message": "Ba\u011Flant\u0131y\u0131 kes"
+   },
+   "DISPLAY_SERVICE_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC Hizmeti"
+   },
+   "DURATION_HEADER": {
+      "message": "S\u00FCre"
+   },
+   "ERROR_AUTHENTICATION_FAILED": {
+      "message": "Kimlik do\u011Frulama ba\u015Far\u0131s\u0131z oldu. L\u00FCtfen Chrome Uzaktan Masa\u00FCst\u00FC'nde tekrar oturum a\u00E7\u0131n."
+   },
+   "ERROR_BAD_PLUGIN_VERSION": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC i\u00E7in gereken baz\u0131 bile\u015Fenler eksik. L\u00FCtfen son s\u00FCr\u00FCm\u00FC y\u00FCkledi\u011Finizden emin olun ve tekrar deneyin."
+   },
+   "ERROR_HOST_IS_OFFLINE": {
+      "message": "Uzaktan ba\u011Flanaca\u011F\u0131n\u0131z bilgisayar, ba\u011Flant\u0131 isteklerine yan\u0131t vermiyor. L\u00FCtfen bu bilgisayar\u0131n \u00E7evrimi\u00E7i oldu\u011Funu do\u011Frulay\u0131n ve tekrar deneyin."
+   },
+   "ERROR_HOST_OVERLOAD": {
+      "message": "Bir kullan\u0131c\u0131 ge\u00E7ersiz PIN ile ba\u011Flanmaya \u00E7al\u0131\u015Ft\u0131\u011F\u0131ndan uzak bilgisayara yap\u0131lan ba\u011Flant\u0131lar ge\u00E7ici olarak engellenmi\u015Ftir. L\u00FCtfen daha sonra tekrar deneyin."
+   },
+   "ERROR_HOST_REGISTRATION_FAILED": {
+      "message": "Bu bilgisayar kaydettirilemedi."
+   },
+   "ERROR_INCOMPATIBLE_PROTOCOL": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131n uyumsuz bir s\u00FCr\u00FCm\u00FC alg\u0131land\u0131. L\u00FCtfen, her iki bilgisayarda Google Chrome ve Chrome Uzaktan Masa\u00FCst\u00FC uygulamalar\u0131n\u0131n son s\u00FCr\u00FCmlerinin bulundu\u011Fundan emin olun ve tekrar deneyin."
+   },
+   "ERROR_INVALID_ACCESS_CODE": {
+      "message": "Eri\u015Fim kodu ge\u00E7ersiz. L\u00FCtfen tekrar deneyin."
+   },
+   "ERROR_INVALID_HOST_DOMAIN": {
+      "message": "Politika ayarlar\u0131 bu bilgisayar\u0131n bir Chrome Uzaktan Masa\u00FCst\u00FC ana bilgisayar\u0131 olarak payla\u015F\u0131lmas\u0131na izin vermiyor. Yard\u0131m i\u00E7in sistem y\u00F6neticinizle ileti\u015Fim kurun."
+   },
+   "ERROR_MISSING_PLUGIN": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC i\u00E7in gereken baz\u0131 bile\u015Fenler eksik. L\u00FCtfen Google Chrome'un son s\u00FCr\u00FCm\u00FCn\u00FC \u00E7al\u0131\u015Ft\u0131rd\u0131\u011F\u0131n\u0131zdan emin olun ve tekrar deneyin."
+   },
+   "ERROR_NETWORK_FAILURE": {
+      "message": "A\u011Fa ba\u011Flan\u0131lam\u0131yor. L\u00FCtfen cihaz\u0131n\u0131z\u0131n \u00E7evrimi\u00E7i oldu\u011Funu kontrol edin."
+   },
+   "ERROR_NOT_AUTHENTICATED": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC'nde oturum a\u00E7mad\u0131n\u0131z. L\u00FCtfen oturum a\u00E7\u0131n ve tekrar deneyin."
+   },
+   "ERROR_P2P_FAILURE": {
+      "message": "Ana bilgisayara eri\u015Filemiyor. Bu sorun, kulland\u0131\u011F\u0131n\u0131z a\u011F\u0131n yap\u0131land\u0131rmas\u0131ndan kaynaklan\u0131yor olabilir."
+   },
+   "ERROR_SERVICE_UNAVAILABLE": {
+      "message": "Hizmet ge\u00E7ici olarak kullan\u0131lam\u0131yor. L\u00FCtfen daha sonra tekrar deneyin."
+   },
+   "ERROR_UNEXPECTED": {
+      "message": "Beklenmeyen bir hata olu\u015Ftu. L\u00FCtfen bu sorunu geli\u015Ftiricilere bildirin."
+   },
+   "FOOTER_CONNECTING": {
+      "message": "Ba\u011Flan\u0131yor..."
+   },
+   "FOOTER_WAITING": {
+      "message": "ba\u011Flant\u0131 bekleniyor..."
+   },
+   "FULL_SCREEN": {
+      "message": "Tam ekran"
+   },
+   "GET_STARTED": {
+      "message": "Ba\u015Flay\u0131n"
+   },
+   "HANGOUTS_INVITATION": {
+      "message": "Biriyle g\u00F6r\u00FCnt\u00FCl\u00FC sohbet yaparken ayn\u0131 anda ona yard\u0131m etmek ister misiniz? $1Google Hangouts'taki Uzaktan Masa\u00FCst\u00FC'n\u00FC$2 deneyin."
+   },
+   "HELP": {
+      "message": "Yard\u0131m"
+   },
+   "HOME_ACCESS_BUTTON": {
+      "message": "Eri\u015F"
+   },
+   "HOME_ACCESS_DESCRIPTION": {
+      "message": "Payla\u015F\u0131lan bir bilgisayar\u0131 g\u00F6r\u00FCn ve denetleyin."
+   },
+   "HOME_DAEMON_ACTIVE_MESSAGE": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131 kullanarak bu bilgisayara g\u00FCvenli bir \u015Fekilde eri\u015Febilirsiniz."
+   },
+   "HOME_DAEMON_CHANGE_PIN_LINK": {
+      "message": "PIN'i de\u011Fi\u015Ftir"
+   },
+   "HOME_DAEMON_MANAGE_PAIRINGS": {
+      "message": "G\u00F6r\u00FCnt\u00FCle/d\u00FCzenle"
+   },
+   "HOME_DAEMON_PAIRED_MESSAGE": {
+      "message": "Bu bilgisayar PIN girmeden bir veya daha fazla istemcinin ba\u011Flanmas\u0131na izin verecek \u015Fekilde yap\u0131land\u0131r\u0131lm\u0131\u015Ft\u0131r."
+   },
+   "HOME_DAEMON_START_BUTTON": {
+      "message": "Uzaktan ba\u011Flant\u0131lar\u0131 etkinle\u015Ftir"
+   },
+   "HOME_DAEMON_START_MESSAGE": {
+      "message": "Bu bilgisayara eri\u015Fmek i\u00E7in Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131 kullanmak istiyorsan\u0131z uzaktan ba\u011Flant\u0131lar\u0131 etkinle\u015Ftirmelisiniz."
+   },
+   "HOME_DAEMON_STOP_BUTTON": {
+      "message": "Uzaktan ba\u011Flant\u0131lar\u0131 devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "HOME_SHARE_BUTTON": {
+      "message": "Payla\u015F"
+   },
+   "HOME_SHARE_DESCRIPTION": {
+      "message": "Bu bilgisayar\u0131 ba\u015Fka bir kullan\u0131c\u0131n\u0131n g\u00F6rmesi ve kontrol etmesi i\u00E7in payla\u015F\u0131n."
+   },
+   "HOME_SHARE_DESCRIPTION_CHROME_OS": {
+      "message": "(bu \u00F6zellik hen\u00FCz Chromebook'larda kullan\u0131lm\u0131yor... bizi izlemeye devam edin)"
+   },
+   "HOST_CATEGORY": {
+      "message": "Ana makine"
+   },
+   "HOST_CLIENT_ACCESS_DENIED": {
+      "message": "\u015Eu istemci i\u00E7in eri\u015Fim reddedildi: %1."
+   },
+   "HOST_CLIENT_CONNECTED": {
+      "message": "\u0130stemci ba\u011Fland\u0131: %1."
+   },
+   "HOST_CLIENT_DISCONNECTED": {
+      "message": "\u0130stemcinin ba\u011Flant\u0131s\u0131 kesildi: %1."
+   },
+   "HOST_CLIENT_ROUTING_CHANGED": {
+      "message": "\u0130stemci i\u00E7in kanal IP'si: %1 ip=\"%2\" host_ip=\"%3\" channel=\"%4\" connection=\"%5\"."
+   },
+   "HOST_LIST_EMPTY_HOSTING_SUPPORTED": {
+      "message": "Ba\u015Fka bir bilgisayara uzaktan ba\u011Flant\u0131lar\u0131 etkinle\u015Ftirmek i\u00E7in Chrome Uzaktan Masa\u00FCst\u00FC'n\u00FC o bilgisayara y\u00FCkleyin ve \u201C$1\u201D d\u00FC\u011Fmesini t\u0131klay\u0131n."
+   },
+   "HOST_LIST_EMPTY_HOSTING_UNSUPPORTED": {
+      "message": "Kay\u0131tl\u0131 bilgisayar\u0131n\u0131z yok. Bir bilgisayara uzaktan ba\u011Flant\u0131lar\u0131 etkinle\u015Ftirmek i\u00E7in Chrome Uzaktan Masa\u00FCst\u00FC uygulamas\u0131n\u0131 o bilgisayara y\u00FCkleyin ve \u201C$1\u201D d\u00FC\u011Fmesini t\u0131klay\u0131n."
+   },
+   "HOST_NEEDS_UPDATE_DETAIL": {
+      "message": "Yaz\u0131l\u0131m g\u00FCncellemeleri genellikle otomatik olarak ger\u00E7ekle\u015Ftirilir, ancak baz\u0131 nadir durumlarda g\u00FCncelleme ba\u015Far\u0131s\u0131z olabilir. Yaz\u0131l\u0131m\u0131n g\u00FCncellenmesi birka\u00E7 dakikadan fazla s\u00FCrmeyecektir ve bilgisayar\u0131n\u0131za uzaktan ba\u011Flan\u0131larak yap\u0131labilir."
+   },
+   "HOST_NEEDS_UPDATE_TITLE": {
+      "message": "$1 \u00FCzerindeki Chrome Uzaktan Masa\u00FCst\u00FC eski ve g\u00FCncellenmesi gerekiyor."
+   },
+   "HOST_SETUP_CRASH_REPORTING_MESSAGE": {
+      "message": "Kullan\u0131m istatistiklerini ve kilitlenme raporlar\u0131n\u0131 toplamam\u0131za izin vererek Chrome Uzaktan Masa\u00FCst\u00FC'n\u00FC daha iyi hale getirmemize yard\u0131mc\u0131 olun."
+   },
+   "HOST_SETUP_DIALOG_DESCRIPTION": {
+      "message": "Bu bilgisayara eri\u015Fimi korumak i\u00E7in l\u00FCtfen $1en az alt\u0131 basamakl\u0131$2 bir PIN se\u00E7in. Ba\u015Fka bir yerden ba\u011Flan\u0131rken bu PIN gerekecektir."
+   },
+   "HOST_SETUP_HOST_FAILED": {
+      "message": "Uzaktan eri\u015Fim hizmeti ba\u015Flat\u0131lamad\u0131."
+   },
+   "HOST_SETUP_INSTALL": {
+      "message": "Chrome, Chrome Uzaktan Masa\u00FCst\u00FC Ana Bilgisayar y\u00FCkleyicisini indiriyor. \u0130ndirme i\u015Flemi tamamland\u0131\u011F\u0131nda, devam etmeden \u00F6nce l\u00FCtfen y\u00FCkleyiciyi \u00E7al\u0131\u015Ft\u0131r\u0131n."
+   },
+   "HOST_SETUP_INSTALL_PENDING": {
+      "message": "Devam etmeden \u00F6nce l\u00FCtfen y\u00FCkleyiciyi \u00E7al\u0131\u015Ft\u0131r\u0131n."
+   },
+   "HOST_SETUP_STARTED": {
+      "message": "Bu bilgisayar i\u00E7in uzaktan ba\u011Flant\u0131lar etkinle\u015Ftirildi."
+   },
+   "HOST_SETUP_STARTED_DISABLE_SLEEP": {
+      "message": "L\u00FCtfen bilgisayar\u0131n\u0131z\u0131n g\u00FC\u00E7 y\u00F6netimi ayarlar\u0131n\u0131 kontrol edin ve bo\u015Fta kald\u0131\u011F\u0131nda uyku moduna ge\u00E7ecek \u015Fekilde ayarlanmad\u0131\u011F\u0131ndan emin olun."
+   },
+   "HOST_SETUP_STARTING": {
+      "message": "Bu bilgisayara uzaktan ba\u011Flant\u0131lar etkinle\u015Ftiriliyor\u2026"
+   },
+   "HOST_SETUP_STOPPED": {
+      "message": "Bu bilgisayara uzaktan ba\u011Flant\u0131lar devre d\u0131\u015F\u0131 b\u0131rak\u0131ld\u0131."
+   },
+   "HOST_SETUP_STOPPING": {
+      "message": "Bu bilgisayara uzaktan ba\u011Flant\u0131lar devre d\u0131\u015F\u0131 b\u0131rak\u0131l\u0131yor\u2026"
+   },
+   "HOST_SETUP_STOP_FAILED": {
+      "message": "Bu bilgisayara uzaktan eri\u015Fim devre d\u0131\u015F\u0131 b\u0131rak\u0131lamad\u0131. L\u00FCtfen daha sonra tekrar deneyin."
+   },
+   "HOST_SETUP_UPDATED_PIN": {
+      "message": "PIN'iniz g\u00FCncellendi."
+   },
+   "HOST_SETUP_UPDATE_PIN_FAILED": {
+      "message": "PIN g\u00FCncellenemedi. L\u00FCtfen daha sonra tekrar deneyin."
+   },
+   "HOST_SETUP_UPDATING_PIN": {
+      "message": "Bu bilgisayar\u0131n PIN'i g\u00FCncelleniyor\u2026"
+   },
+   "HOST_STARTED": {
+      "message": "Ana makine bu kullan\u0131c\u0131 i\u00E7in ba\u015Flat\u0131ld\u0131: %1."
+   },
+   "INCOMING_CONNECTIONS": {
+      "message": "Bu bilgisayara"
+   },
+   "INSTRUCTIONS_SHARE_ABOVE": {
+      "message": "Masa\u00FCst\u00FCn\u00FCz\u00FC payla\u015Fmaya ba\u015Flamak i\u00E7in, size yard\u0131mc\u0131 olacak ki\u015Fiye a\u015Fa\u011F\u0131daki eri\u015Fim kodunu verin."
+   },
+   "INSTRUCTIONS_SHARE_BELOW": {
+      "message": "Kullan\u0131c\u0131, kodu girdi\u011Finde payla\u015F\u0131m oturumunuz ba\u015Flar."
+   },
+   "INVALID_PIN": {
+      "message": "L\u00FCtfen alt\u0131 veya daha fazla basamakl\u0131 bir PIN kodu girin."
+   },
+   "IT2ME_FIRST_RUN": {
+      "message": "Kullan\u0131c\u0131lar aras\u0131 ekran payla\u015F\u0131m\u0131, uzaktan teknik destek i\u00E7in m\u00FCkemmeldir."
+   },
+   "LABEL_CONNECTED": {
+      "message": "Ba\u011Fl\u0131:"
+   },
+   "LEARN_HOW": {
+      "message": "Nas\u0131l yap\u0131ld\u0131\u011F\u0131n\u0131 \u00F6\u011Frenin."
+   },
+   "MAC_PREFPANE_BUNDLE_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC Ana Makine Tercihleri"
+   },
+   "MAC_PREFPANE_ICON_LABEL": {
+      "message": "Chrome Uzaktan\nMasa\u00FCst\u00FC Ana Makinesi"
+   },
+   "MAC_UNINSTALLER_BUNDLE_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC Ana Makine Y\u00FCklemesini Kald\u0131rma Program\u0131"
+   },
+   "ME2ME_FIRST_RUN": {
+      "message": "Bilgisayar\u0131n\u0131za her yerden eri\u015Fin."
+   },
+   "MESSAGE_GENERATING": {
+      "message": "Eri\u015Fim kodu olu\u015Fturuluyor..."
+   },
+   "MESSAGE_SESSION_FINISHED": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC oturumunuz sonland\u0131."
+   },
+   "MESSAGE_SHARED": {
+      "message": "Masa\u00FCst\u00FCn\u00FCz \u015Fu anda $1 ile payla\u015F\u0131l\u0131yor."
+   },
+   "MODE_AUTHORIZE": {
+      "message": "Yetkilendir"
+   },
+   "MODE_IT2ME": {
+      "message": "Uzaktan Yard\u0131m"
+   },
+   "MODE_ME2ME": {
+      "message": "Bilgisayarlar\u0131m"
+   },
+   "NO_PAIRED_CLIENTS": {
+      "message": "E\u015Flenen t\u00FCm istemciler silindi."
+   },
+   "OFFLINE": {
+      "message": "$1 (\u00E7evrimd\u0131\u015F\u0131)"
+   },
+   "OK": {
+      "message": "Tamam"
+   },
+   "OUTGOING_CONNECTIONS": {
+      "message": "Bu bilgisayardan"
+   },
+   "PAIRED_CLIENTS_INTRODUCTION": {
+      "message": "A\u015Fa\u011F\u0131daki istemciler bu bilgisayarla e\u015Flendi ve bir PIN sa\u011Flamadan ba\u011Flanabilir. Bu izni, istedi\u011Finiz zaman tek tek veya t\u00FCm istemciler i\u00E7in iptal edebilirsiniz."
+   },
+   "PAIRED_CLIENT_DATE": {
+      "message": "E\u015Fleme tarihi"
+   },
+   "PAIRED_CLIENT_NAME": {
+      "message": "\u0130stemci"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "PINS_NOT_EQUAL": {
+      "message": "L\u00FCtfen her iki kutuya da ayn\u0131 PIN'i girin."
+   },
+   "PIN_MESSAGE": {
+      "message": "L\u00FCtfen $1 i\u00E7in PIN'inizi girin."
+   },
+   "PRODUCT_DESCRIPTION": {
+      "message": "\u0130nternet \u00FCzerinden g\u00FCvenli bir \u015Fekilde di\u011Fer bilgisayarlara eri\u015Fin veya ba\u015Fka kullan\u0131c\u0131lar\u0131n bilgisayar\u0131n\u0131za eri\u015Fmesine izin verin."
+   },
+   "PRODUCT_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC"
+   },
+   "RECONNECT": {
+      "message": "Yeniden ba\u011Flan"
+   },
+   "REMEMBER_PIN": {
+      "message": "Bu bilgisayardan bu ana makineye ba\u011Flant\u0131 kurarken bir daha PIN sorma."
+   },
+   "REMOTING_CORE_DESCRIPTION": {
+      "message": "\u00C7ekirdek Kitapl\u0131\u011F\u0131"
+   },
+   "REMOTING_DESKTOP_DESCRIPTION": {
+      "message": "Masa\u00FCst\u00FC Entegrasyon \u0130\u015Flemi"
+   },
+   "REMOTING_HOST_DESCRIPTION": {
+      "message": "Ana Makine \u0130\u015Flemi"
+   },
+   "REMOTING_HOST_PLUGIN_DESCRIPTION": {
+      "message": "Ba\u015Fka bir kullan\u0131c\u0131n\u0131n \u0130nternet \u00FCzerinden g\u00FCvenli bir \u015Fekilde bilgisayar\u0131n\u0131za eri\u015Fmesine izin verin."
+   },
+   "REMOTING_HOST_PLUGIN_NAME": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC Ana Makinesi"
+   },
+   "RESIZE_TO_CLIENT": {
+      "message": "Masa\u00FCst\u00FCn\u00FC uygun \u015Fekilde yeniden boyutland\u0131r"
+   },
+   "RETRY": {
+      "message": "Yeniden Dene"
+   },
+   "SCREEN_OPTIONS": {
+      "message": "Ekran se\u00E7enekleri"
+   },
+   "SEND_CTRL_ALT_DEL": {
+      "message": "Ctrl-Alt-Del"
+   },
+   "SEND_KEYS": {
+      "message": "Tu\u015Flar\u0131 g\u00F6nder"
+   },
+   "SEND_PRINT_SCREEN": {
+      "message": "PrtScn"
+   },
+   "SERVICE_DESCRIPTION": {
+      "message": "Bu hizmet Chrome Uzaktan Masa\u00FCst\u00FC istemcilerinden gelen ba\u011Flant\u0131lar\u0131 etkinle\u015Ftirir."
+   },
+   "SHRINK_TO_FIT": {
+      "message": "S\u0131\u011Facak \u015Fekilde k\u00FC\u00E7\u00FClt"
+   },
+   "SIGN_IN_BUTTON": {
+      "message": "Oturum a\u00E7\u0131n"
+   },
+   "SIGN_OUT_BUTTON": {
+      "message": "\u00C7\u0131k\u0131\u015F"
+   },
+   "STOP_SHARING_BUTTON": {
+      "message": "Payla\u015Fmay\u0131 Durdur"
+   },
+   "SURVEY_INVITATION": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC'n\u00FC daha iyi hale getirmeye yard\u0131mc\u0131 olmak ister misiniz? $1Ankete kat\u0131l\u0131n.$2"
+   },
+   "TIME_HEADER": {
+      "message": "Zaman"
+   },
+   "TOOLTIP_CONNECT": {
+      "message": "$1 adl\u0131 ana bilgisayara ba\u011Flan"
+   },
+   "TOOLTIP_DELETE": {
+      "message": "Bu bilgisayara uzaktan ba\u011Flant\u0131lar\u0131 devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "TOOLTIP_RENAME": {
+      "message": "Bilgisayar\u0131n ad\u0131n\u0131 d\u00FCzenle"
+   },
+   "UPDATE_REQUIRED": {
+      "message": "$1 (eski)"
+   },
+   "VERIFY_PIN_DIALOG_EMAIL_LABEL": {
+      "message": "Hesap"
+   },
+   "VERIFY_PIN_DIALOG_MESSAGE": {
+      "message": "Chrome Uzaktan Masa\u00FCst\u00FC taraf\u0131ndan eri\u015Fime izin vermek i\u00E7in l\u00FCtfen a\u015Fa\u011F\u0131da hesab\u0131n\u0131z\u0131 ve PIN kodunuzu onaylay\u0131n."
+   },
+   "WARNING_NAT_DISABLED": {
+      "message": "NOT: Politika ayarlar\u0131, yaln\u0131zca a\u011F\u0131n\u0131zdaki bilgisayarlar aras\u0131ndaki ba\u011Flant\u0131lara izin veriyor."
+   },
+   "WARNING_NOT_WINDOWED": {
+      "message": "NOT: T\u00FCm klavye k\u0131sayollar\u0131n\u0131n kullan\u0131labilir olmas\u0131n\u0131 sa\u011Flamak i\u00E7in Chrome Uzaktan Masa\u00FCst\u00FC'n\u00FC 'Pencere olarak a\u00E7' modunda yap\u0131land\u0131rabilirsiniz."
+   },
+   "WHY_IS_THIS_SAFE": {
+      "message": "Bu i\u015Flem neden g\u00FCvenli?"
+   },
+   "WORKING": {
+      "message": "\u00C7al\u0131\u015F\u0131yor..."
+   }
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <link rel="stylesheet" type="text/css" href="css/popup.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.selectbox.css" />
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="libs/jquery.js"></script>
+        <script type="text/javascript" src="libs/jquery.nicescroll.js"></script>
+        <script type="text/javascript" src="libs/jquery.selectbox-0.1.3.min.js"></script>
+        <script type="text/javascript" src="libs/jquery.flot.min.js"></script>
+        <script type="text/javascript" src="libs/jquery.flot.time.min.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+    </head>       
+    <body>    
+        <div id="extension">
+
+            <div id="header">
+                <img src="images/account.png" class="left" />
+                <div style="width:42%" class="left s1">
+                    <select id="accountsList"></select>
+                </div>
+                <img src="images/profile.png" class="left" />
+                <div style="width:42%" class="left s2">
+                    <select id="profilesList"></select>
+                </div>
+            </div>
+            <div id="center">
+                <div class="clear"></div>
+                <div class="block duration">
+                    <select id="intervalList"></select>
+                </div>
+                <div class="clear"></div>
+
+                <!-- Overview statistics -->
+                <div id="block_1">
+                    <div class="block statistics acenter">
+                        <div style="width:45%" class="left">
+                            <select id="graphType1">
+                                <option value="0">Visits</option>
+                                <option value="2">Unique visitors</option>
+                                <option value="1">Page views</option>
+                                <option value="3">Average pageviews</option>
+                                <option value="4">Avg. Visit Duration </option>
+                                <option value="5">Bounce rate</option>
+                                <option value="6">New visits</option>
+                            </select>
+                        </div>
+                        vs.
+                        <div style="width:45%" class="right">
+                            <select id="graphType2">
+                                <option value="">- Choose -</option>
+                                <option value="0">Visits</option>
+                                <option value="2">Unique visitors</option>
+                                <option value="1">Page views</option>
+                                <option value="3">Average pageviews</option>
+                                <option value="4">Avg. Visit Duration </option>
+                                <option value="5">Bounce rate</option>
+                                <option value="6">New visits</option>
+                            </select>
+                        </div>                    
+                        <div class="clear"></div>
+                        <div id="graph">
+
+                        </div>
+                        <div class="clear"></div>
+                        <br />
+                        <div class="clear"></div>
+                        <h3 style="margin:0px">
+                            <span><span id="label1box"></span><span id="label1">Visitors</span></span>
+                            <span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+                                <span id="label2box"></span><span id="label2">Page views</span></span>
+                        </h3>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="block">
+                        <img src="images/stats2.png" class="left" />
+                        <h2>Statistics</h2>
+                        <h3>Selected interval in numbers </h3>
+                        <div class="clear"></div>
+                        <ul>
+                            <li>Visits<span id="value_visits" class="right"></span></li>
+                            <li>Unique visitors<span id="value_unq_visits" class="right"></span></li>
+                            <li>Page views<span id="value_pageviews" class="right"></span></li>
+                            <li>Average pageviews<span id="value_avg_pageviews" class="right"></span></li>
+                        </ul>
+                        <ul>
+                            <li>Avg. Visit Duration <span id="value_time_on_site" class="right"></span></li>
+                            <li>Bounce rate<span id="value_boundce_rate" class="right"></span></li>
+                            <li>New visits<span id="value_new_visits" class="right"></span></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- Overview statistics END -->
+
+                <!-- Traffic statistics -->
+                <div id="block_2" class="none">
+                    <div class="block">
+                        <img src="images/direct.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Direct traffic</h2>
+                        <h3>Data for top landing pages</h3>
+
+                        <table id="directTrafficTable" class="none" data-id="trafficsources-direct" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visits</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/referral.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Referral traffic</h2>
+                        <h3>Data for top referrals</h3>
+
+
+                        <table id="referralsTrafficTable" class="none" data-id="trafficsources-referrals" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visits</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/search.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Search sources</h2>
+                        <h3>Data for top sarch sources</h3>
+
+
+                        <table id="searchSourcesTrafficTable" class="none" data-id="trafficsources-search-overview" data-segment="analytics.source">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visits</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/keys.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Keywords</h2>
+                        <h3>Data for top keywords</h3>
+
+
+                        <table id="keywordsTrafficTable" class="none" data-id="trafficsources-search-overview" data-segment="analytics.keyword">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visits</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/speaker.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Campaigns</h2>
+                        <h3>Data for top campaigns</h3>
+
+
+                        <table id="socialTrafficTable" class="none" data-id="trafficsources-campaigns" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pageviews</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>Pages / Visit</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- Traffic statistics END -->
+                <!-- Content statistics END -->
+                <div id="block_3" class="none">
+
+                    <div class="block">
+                        <img src="images/sites.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Pages</h2>
+                        <h3>Data for top pages</h3>
+
+
+                        <table id="sitesContentTable" class="none" data-id="content-pages" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Pageviews</th>
+                                    <th>Unique pageviews</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>Entrances</th>
+                                    <th>Bounce Rate</th>
+                                    <th>% Exit</th>
+                                    <th>Page value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block">
+                        <img src="images/title.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Titles</h2>
+                        <h3>Data for top page titles</h3>
+
+
+                        <table id="titlesContentTable" class="none" data-id="content-pages" data-segment="analytics.pageTitle">
+                            <thead>
+                                <tr>
+                                    <th>Pageviews</th>
+                                    <th>Unique pageviews</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>Entrances</th>
+                                    <th>Bounce Rate</th>
+                                    <th>% Exit</th>
+                                    <th>Page value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block">
+                        <img src="images/landing.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Landing pages</h2>
+                        <h3>Data for top landing pages</h3>
+
+
+                        <table id="landingContentTable" class="none" data-id="content-landing-pages" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block">
+                        <img src="images/exit.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Exit pages</h2>
+                        <h3>Data for top exit pages</h3>
+
+
+                        <table id="exitContentTable" class="none" data-id="content-exit-pages" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Exits</th>
+                                    <th>Pageviews</th>
+                                    <th>% Exit</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block">
+                        <img src="images/check.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Event categories</h2>
+                        <h3>Data for top event categories</h3>
+
+
+                        <table id="eventCategoriesContentTable" class="none" data-id="content-event-events" data-segment="analytics.eventCategorz">
+                            <thead>
+                                <tr>
+                                    <th>Total Events</th>
+                                    <th>Unique Events</th>
+                                    <th>Event Value</th>
+                                    <th>Avg. Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block">
+                        <img src="images/check.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Event actions</h2>
+                        <h3>Data for top event actions</h3>
+
+
+                        <table id="eventActionsContentTable" class="none" data-id="content-event-events" data-segment="analytics.eventAction">
+                            <thead>
+                                <tr>
+                                    <th>Total Events</th>
+                                    <th>Unique Events</th>
+                                    <th>Event Value</th>
+                                    <th>Avg. Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <!-- Content statistics END -->
+                <div id="block_4" class="none">
+                    <div class="block">
+                        <img src="images/flag.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Countries</h2>
+                        <h3>Data for top countries</h3>
+
+
+                        <div class="clear"></div>
+                        <div id="demographicsMap" class="map none" style="height:200px; overflow: hidden;" data-id="visitors-geo" data-segment="analytics.country"></div>
+                        <div class="clear"></div>                        
+                        <table id="demographicsCountriesContentTable" class="none" data-id="visitors-geo" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/language.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Languages</h2>
+                        <h3>Data for top languages</h3>
+
+
+                        <table id="demographicsLanguagesContentTable" class="none" data-id="visitors-language" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/browser.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Browsers</h2>
+                        <h3>Data for top browsers</h3>
+
+
+                        <table id="demographicsBrowserContentTable" class="none" data-id="visitors-browser" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/os.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Operating systems</h2>
+                        <h3>Data for top operating systems</h3>
+
+
+                        <table id="demographicsOSContentTable" class="none" data-id="visitors-browser" data-segment="analytics.operatingSystem">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/mobile_info.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Mobile devices</h2>
+                        <h3>Data for top mobile devices</h3>
+
+
+                        <table id="demographicsMobileDevicesContentTable" class="none" data-id="visitors-mobile-devices" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block">
+                        <img src="images/mobile.png" class="left" />
+                        <img src="images/select-icons.png" class="right none" />
+                        <h2>Mobile hits</h2>
+                        <h3>Data for mobile hits</h3>
+
+
+                        <table id="demographicsMobileHitsContentTable" class="none" data-id="visitors-mobile-overview" data-segment="">
+                            <thead>
+                                <tr>
+                                    <th>Visits</th>
+                                    <th>Pages / Visit</th>
+                                    <th>Avg. Visit Duration</th>
+                                    <th>% New Visits</th>
+                                    <th>Bounce Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="center2" class="none">
+                Select both account and profile to show statistics
+            </div>
+            <div id="footer">
+                <a class="button button_1 active" title="Audience overview" href="popup.html">
+                    <img src="images/foot_stats.png" />
+                </a>
+                <a class="button button_2" title="Traffic sources" rel="2">
+                    <img src="images/foot_traffic.png"/>
+                </a>
+                <a class="button button_3" title="Content"  rel="3">
+                    <img src="images/foot_content.png" />
+                </a>
+                <a class="button button_4" title="Demographics and technology"  rel="4">
+                    <img src="images/foot_demo.png" />
+                </a>
+                <a class="button" title="Settings" href="options.html">
+                    <img src="images/foot_gear.png" />
+                </a>
+            </div>
+
+        </div>   
+    </body>
+</html>

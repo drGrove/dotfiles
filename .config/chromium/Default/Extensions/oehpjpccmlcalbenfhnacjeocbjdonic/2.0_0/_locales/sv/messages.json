@@ -1,0 +1,488 @@
+{
+   "align_tooltip": {
+      "message": "Ej till\u00E4mpligt."
+   },
+   "alignment_btn_txt": {
+      "message": "Justera placeringen"
+   },
+   "allow_access_to_webcam": {
+      "message": "Bevilja \u00E5tkomst till webbkameran fr\u00E5n meddelandef\u00E4ltet."
+   },
+   "back_to_step1_msg": {
+      "message": "\u00C4r du s\u00E4ker p\u00E5 att du vill importera en ny bild? \u00C4ndringar du har gjort i den h\u00E4r bilden sparas inte."
+   },
+   "background": {
+      "message": "Redigera bakgrundsf\u00E4rg"
+   },
+   "bottom_align": {
+      "message": "nedre kant"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "center_align": {
+      "message": "centrera"
+   },
+   "change_img_btn_txt": {
+      "message": "Importera en ny bild"
+   },
+   "continue_anyways": {
+      "message": "Forts\u00E4tt \u00E4nd\u00E5"
+   },
+   "continue_to": {
+      "message": "Forts\u00E4tt till steg $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_your_own_theme": {
+      "message": "Skapa ett eget tema"
+   },
+   "custom": {
+      "message": "Anpassa"
+   },
+   "custom_color": {
+      "message": "Anpassa f\u00E4rg"
+   },
+   "default": {
+      "message": "Ange som standard"
+   },
+   "delete": {
+      "message": "Ta bort"
+   },
+   "delete_theme": {
+      "message": "Ta bort tema"
+   },
+   "delete_theme_confirm_msg": {
+      "message": "\u00C4r du s\u00E4ker p\u00E5 att du vill ta bort temat $1?",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_theme_error_msg": {
+      "message": "Det uppstod ett fel n\u00E4r temat skulle tas bort."
+   },
+   "delete_theme_error_msg_step4": {
+      "message": "Det gick inte att ta bort temat. F\u00F6rs\u00F6k igen."
+   },
+   "deleted": {
+      "message": "Temat har raderats"
+   },
+   "deleting": {
+      "message": "Temat tas bort ..."
+   },
+   "deleting_theme": {
+      "message": "Temat tas bort"
+   },
+   "design_mode": {
+      "message": "redigeringsl\u00E4ge"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "done": {
+      "message": "Klart"
+   },
+   "download_theme_zip": {
+      "message": "H\u00E4mta temat som en zip-fil"
+   },
+   "enhance_btn_txt": {
+      "message": "Redigera i Picnik"
+   },
+   "error": {
+      "message": "FEL"
+   },
+   "error_while_publishing": {
+      "message": "Fel: ingen URL skapades. F\u00F6rs\u00F6k igen."
+   },
+   "error_while_unpublishing": {
+      "message": "Fel: URLen togs inte bort. F\u00F6rs\u00F6k igen."
+   },
+   "ext_description": {
+      "message": "Skapa och dela dina egna Google Chrome-teman."
+   },
+   "ext_name": {
+      "message": "Mitt Chrome-tema"
+   },
+   "feeling_lucky": {
+      "message": "Jag har tur"
+   },
+   "fetch_image_error_msg": {
+      "message": "Hoppsan! Det uppstod ett fel med den redigerade bilden. Vi f\u00F6rs\u00F6ker \u00E5tg\u00E4rda det."
+   },
+   "fill_screen": {
+      "message": "Fyll sk\u00E4rmen"
+   },
+   "filter_black_and_white": {
+      "message": "Svartvitt"
+   },
+   "filter_bolder": {
+      "message": "Djupare"
+   },
+   "filter_cooler": {
+      "message": "Kallare"
+   },
+   "filter_inverted": {
+      "message": "Spegelv\u00E4nt"
+   },
+   "filter_posterized": {
+      "message": "F\u00E4rgreduktion"
+   },
+   "filter_sepia": {
+      "message": "Sepia"
+   },
+   "filter_title": {
+      "message": "Bildeffekter"
+   },
+   "filter_warmer": {
+      "message": "Varmare"
+   },
+   "fit_screen": {
+      "message": "Anpassa efter sk\u00E4rmen"
+   },
+   "footer_share_site_txt": {
+      "message": "Dela:"
+   },
+   "frame": {
+      "message": "Redigera ramens f\u00E4rg"
+   },
+   "generate_theme": {
+      "message": "Temat skapas"
+   },
+   "goback": {
+      "message": "Tillbaka"
+   },
+   "hide_themes": {
+      "message": "D\u00F6lj teman"
+   },
+   "image_format_error_msg": {
+      "message": "Bilden kan vara skadad. F\u00F6rs\u00F6k igen eller v\u00E4lj en annan bild."
+   },
+   "image_size_error_msg": {
+      "message": "Bildfilen \u00E4r f\u00F6r stor. F\u00F6rs\u00F6k igen med en fil som \u00E4r $1 $2 eller mindre.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "image_type_error_info": {
+      "message": "Vi har st\u00F6d f\u00F6r JPEG, PNG, GIF och BMP."
+   },
+   "image_type_error_msg": {
+      "message": "Vi st\u00F6der tyv\u00E4rr inte det filformat som du f\u00F6rs\u00F6ker v\u00E4lja."
+   },
+   "img_fetching": {
+      "message": "Bild h\u00E4mtas"
+   },
+   "img_upload_wait": {
+      "message": "V\u00E4nta medan bilden \u00F6verf\u00F6rs"
+   },
+   "informative": {
+      "message": "Information"
+   },
+   "install_box_text": {
+      "message": "Klicka h\u00E4r om du vill installera det h\u00E4r temat i Chrome"
+   },
+   "install_btn": {
+      "message": "Installera temat"
+   },
+   "left_align": {
+      "message": "v\u00E4nster"
+   },
+   "loading": {
+      "message": "L\u00E4ser in ..."
+   },
+   "loading_application": {
+      "message": "Appen startas ..."
+   },
+   "locale": {
+      "message": "sv"
+   },
+   "make_new": {
+      "message": "Skapa ett nytt tema \u003E\u003E"
+   },
+   "new_tab_text": {
+      "message": "Ny flik"
+   },
+   "no": {
+      "message": "Nej"
+   },
+   "no_image_uploaded_msg": {
+      "message": "Det verkar som om du inte har importerat en bakgrundsbild f\u00F6r temat. \u00C4r du s\u00E4ker p\u00E5 att du vill forts\u00E4tta?"
+   },
+   "no_theme_name_error_msg": {
+      "message": "Det verkar som om du inte har gett temat n\u00E5got namn. Vill du forts\u00E4tta \u00E4nd\u00E5?"
+   },
+   "no_theme_to_view": {
+      "message": "Det finns inga teman att visa"
+   },
+   "no_webcam_msg": {
+      "message": "Det gick inte att hitta n\u00E5gon webbkamera"
+   },
+   "not_available_offline": {
+      "message": "Ej tillg\u00E4ngliga offline"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "oops_msg": {
+      "message": "Hoppsan!"
+   },
+   "open_preview_text": {
+      "message": "F\u00F6rhandsgranska"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "package_btn": {
+      "message": "Skapa ett tema!"
+   },
+   "page_title": {
+      "message": "$1 \u2013 $2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "picker_header": {
+      "message": "V\u00E4lj f\u00E4rg"
+   },
+   "picnik_save_btn": {
+      "message": "Spara i Mina Chrome-teman"
+   },
+   "please_wait": {
+      "message": "V\u00E4nta \u2026"
+   },
+   "preset_color": {
+      "message": "F\u00F6rinst\u00E4lld f\u00E4rg"
+   },
+   "preview_error_msg": {
+      "message": "Det verkar som om temat du s\u00F6ker efter inte l\u00E4ngre \u00E4r tillg\u00E4ngligt."
+   },
+   "preview_mode": {
+      "message": "f\u00F6rhandsgranskningsl\u00E4ge"
+   },
+   "privacy_policy": {
+      "message": "Sekretesspolicy"
+   },
+   "publish_theme": {
+      "message": "DELA TEMA"
+   },
+   "publish_theme_text": {
+      "message": "Klicka h\u00E4r om du vill dela temat."
+   },
+   "publishing": {
+      "message": "Skapar URL ..."
+   },
+   "publishing_zip_help_link": {
+      "message": "Om du vill publicera zip-filen i Chrome Web Store klickar du [h\u00E4r]"
+   },
+   "question_mark": {
+      "message": "?"
+   },
+   "question_mark_tooltip": {
+      "message": "Ge ditt tema ett namn och visa att det \u00E4r du som har skapat det. Namnet visas om du delar ditt tema med andra."
+   },
+   "rear_tab_text": {
+      "message": "Bakgrundsflik"
+   },
+   "reartab": {
+      "message": "Redigera f\u00E4rger p\u00E5 bakgrundsfliken"
+   },
+   "retake_picture": {
+      "message": "Ta om"
+   },
+   "retry": {
+      "message": "F\u00F6rs\u00F6k igen"
+   },
+   "right_align": {
+      "message": "h\u00F6ger"
+   },
+   "share_box_text": {
+      "message": "Kopiera webbadressen om du vill dela temat med andra"
+   },
+   "show_all_themes": {
+      "message": "Visa alla teman"
+   },
+   "size_unit_mb": {
+      "message": "MB"
+   },
+   "sn_1": {
+      "message": "1"
+   },
+   "sn_2": {
+      "message": "2"
+   },
+   "sn_3": {
+      "message": "3"
+   },
+   "start_btn_txt": {
+      "message": "SKAPA ETT TEMA"
+   },
+   "start_screen_description": {
+      "message": "G\u00F6r din webbl\u00E4sare mer personlig. Skapa och dela anpassade Google Chrome-teman med dina egna bilder och din egen design med bara tre enkla steg."
+   },
+   "start_screen_heading": {
+      "message": "Skapa ett eget Chrome-tema"
+   },
+   "step": {
+      "message": "Steg $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_btn_txt": {
+      "message": "$1 Importera din bild",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step1_header_msg_desc": {
+      "message": "\u00D6verf\u00F6r en fil fr\u00E5n datorn eller ta en bild med webbkameran."
+   },
+   "step1_header_msg_text": {
+      "message": "V\u00E4lj en bakgrundsbild till temat."
+   },
+   "step2_btn_txt": {
+      "message": "$1 L\u00E4gg till lite f\u00E4rg",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "step2_header_msg_desc": {
+      "message": "Du kan \u00E4ven l\u00E4gga till f\u00E4rger automatiskt [om du k\u00E4nner att du har turen med dig]"
+   },
+   "step2_header_msg_text": {
+      "message": "Klicka p\u00E5 n\u00E5gon av n\u00E5larna om du vill b\u00F6rja f\u00E4rgl\u00E4gga ditt tema"
+   },
+   "step3_btn_txt": {
+      "message": "$1 Installera och dela",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "stored_themes_footer": {
+      "message": "Uppt\u00E4ck fler teman i Chrome Web Store"
+   },
+   "stored_themes_title": {
+      "message": "Klicka p\u00E5 miniatyrerna nedan f\u00F6r att installera, dela eller ta bort teman som skapats p\u00E5 datorn."
+   },
+   "take_picture": {
+      "message": "Ta en bild"
+   },
+   "text": {
+      "message": "Redigera textf\u00E4rg"
+   },
+   "theme_deleted": {
+      "message": "Temat har tagits bort"
+   },
+   "theme_description_box_placeholder": {
+      "message": "Beskriv temat lite mer utf\u00F6rligt. Beskrivningen visas om du delar ditt tema."
+   },
+   "theme_description_box_title": {
+      "message": "Beskriv temat"
+   },
+   "theme_description_text": {
+      "message": "L\u00E4gg till en beskrivning"
+   },
+   "theme_does_not_exist": {
+      "message": "Det h\u00E4r temat finns inte"
+   },
+   "theme_name_placeholder": {
+      "message": "Ge temat ett namn"
+   },
+   "theme_str": {
+      "message": "tema"
+   },
+   "theme_unique_url": {
+      "message": "Dela med den h\u00E4r unika webbadressen:"
+   },
+   "tile_image": {
+      "message": "Dela upp"
+   },
+   "toolbar": {
+      "message": "Redigera f\u00E4rgen p\u00E5 verktygsf\u00E4ltet"
+   },
+   "top_align": {
+      "message": "\u00F6vre kant"
+   },
+   "try_again": {
+      "message": "F\u00F6rs\u00F6k igen"
+   },
+   "unpublish": {
+      "message": "\u00C5ngra deln."
+   },
+   "unpublishing": {
+      "message": "Tar bort URL ..."
+   },
+   "untitled": {
+      "message": "Namnl\u00F6s"
+   },
+   "upload_btn_txt": {
+      "message": "\u00D6verf\u00F6r bild"
+   },
+   "upload_crx_error_msg": {
+      "message": "Hoppsan! Det uppstod ett fel n\u00E4r vi f\u00F6rs\u00F6kte skapa ditt tema."
+   },
+   "upload_error_msg": {
+      "message": "Det verkar som om det inte gick att \u00F6verf\u00F6ra bilden. Testa att \u00F6verf\u00F6ra filen igen eller b\u00F6rja om och v\u00E4lj en annan bild."
+   },
+   "upload_step_canvas_footer_line1": {
+      "message": "\u00D6verf\u00F6r endast bilder som du har r\u00E4tt att anv\u00E4nda."
+   },
+   "upload_step_canvas_footer_line2": {
+      "message": "Bilder och teman visas p\u00E5 Googles webbplatser."
+   },
+   "upload_step_canvas_footer_line3": {
+      "message": "Bilder och teman tas bort permanent."
+   },
+   "uploading": {
+      "message": "\u00D6VERF\u00D6RS"
+   },
+   "url_tooltip": {
+      "message": "Kopiera webbadressen f\u00F6r att dela temat"
+   },
+   "use_picture": {
+      "message": "Anv\u00E4nd bilden"
+   },
+   "warning": {
+      "message": "VARNING"
+   },
+   "webcam_btn_txt": {
+      "message": "Anv\u00E4nd webbkamera"
+   },
+   "woohoo_text": {
+      "message": "Jippi! Temat $1 $2 har skapats",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

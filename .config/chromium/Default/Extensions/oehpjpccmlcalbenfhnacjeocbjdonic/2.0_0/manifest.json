@@ -1,0 +1,32 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "views/main.html"
+      }
+   },
+   "background": {
+      "scripts": [ "javascript/bg.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "javascript/cs.js" ],
+      "matches": [ "https://www.mychrometheme.com/t*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com https://ssl.google-analytics.com https://www.mychrometheme.com; object-src 'self';",
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "images/icons/128.png",
+      "16": "images/icons/16.png",
+      "32": "images/icons/32.png",
+      "48": "images/icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcuZK6/A0EQ+U/1Ri1Rk+RwmQs+rN0Z71PJT5PU01HD4olf2znbqREesN0+0SCttW8xxJTQnNQlQ/cAAe3xNJIW1qIfxjl1ttMJln1k3xsz2UDyEYBRtxFycfDh90X4L861TFbysaiEHYxhz/RgyexcJ54HTCJvHKz2/n+Y+GHgQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ext_name__",
+   "offline_enabled": true,
+   "permissions": [ "tabs", "https://www.mychrometheme.com/*", "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0",
+   "web_accessible_resources": [ "views/main.html", "views/preview.html" ]
+}
