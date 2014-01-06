@@ -1,3 +1,0 @@
-document.title=gs("Enter PIN");if(document.getElementById("_docwrite_omnikey2"))document.getElementById("_docwrite_omnikey2").innerHTML=gs("Enter your smart card PIN:");
-document.addEventListener("DOMContentLoaded",function(){window.addEventListener("load",function(){load()});window.addEventListener("unload",function(){typeof omnikey_callback=="function"&&!omnikey_callback_called&&omnikey_callback("")});document.getElementById("f").onsubmit=function(){do_submit();return false};document.getElementById("ok").addEventListener("click",function(){do_submit()});document.getElementById("cancel").addEventListener("click",function(){omnikey_callback_called=true;omnikey_callback("");
-setTimeout(function(){getBG().closecurrenttab("omnikey.html")},0)})});

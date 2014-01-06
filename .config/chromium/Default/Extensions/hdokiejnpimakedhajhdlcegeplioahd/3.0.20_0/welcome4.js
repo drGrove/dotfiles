@@ -1,1 +1,0 @@
-document.getElementById("createanaccount")&&(document.getElementById("createanaccount").innerText=gs("Create an Account"));document.getElementById("nothanks")&&(document.getElementById("nothanks").innerText=gs("No Thanks"));

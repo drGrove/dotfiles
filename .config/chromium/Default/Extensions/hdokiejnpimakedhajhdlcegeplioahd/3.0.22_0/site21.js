@@ -1,1 +1,0 @@
-sr(document,"save","value","Save");sr(document,"cancel","value","Cancel");document.getElementById("deltext")&&(document.getElementById("deltext").innerHTML=gs("Delete"));document.getElementById("sharetext")&&(document.getElementById("sharetext").innerHTML=gs("Share"));

@@ -1,1 +1,0 @@
-function doexport(a){if(a){if(!getBG().g_is_win)document.getElementById("wifi").style.display="none";if(!getBG().have_nplastpass()){document.getElementById("encrypted").style.display="none";document.getElementById("wifi").style.display="none"}}else get_data("export_choose",function(){doexport(true)})};
