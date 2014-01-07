@@ -1,1 +1,0 @@
-$(document).ready(function(){var b=chrome.notification.decode(location.hash);var c=$("#addon-changes");$(document.body).jsTemplate(b);Carousel(c.get(0)).start();var a=chrome.settings.get("notification.timeout");chrome.notification.startTimer($.extend({},a,{initial:b.changes.length*a.initial}))});

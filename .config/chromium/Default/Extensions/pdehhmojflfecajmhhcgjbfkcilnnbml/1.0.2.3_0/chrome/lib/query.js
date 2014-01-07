@@ -1,1 +1,0 @@
-const Query=(function(){return{getRank:function(b,c,a,d){ChromeWebstore.search(function(){})}}})();

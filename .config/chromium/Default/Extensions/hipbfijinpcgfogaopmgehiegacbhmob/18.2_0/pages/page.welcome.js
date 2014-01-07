@@ -1,3 +1,0 @@
-"use strict";(function(){var a=devhd.pkg("pages");a.WelcomePage=function(){};var c=a.WelcomePage.prototype=new a.BasePage();c.allowsSideArea=function(){return false};c.allowsPageHeader=function(){return false};c.service=function(e,d){this.pageInfo=e;this.width=d.width;this.initBase(d);this.startRenderHTML()};c.destroy=function(){this.destroyBase()};
-c.startRenderHTML=function(){this.feedly.setPageTitle("welcome to feedly");this.pageElem.innerHTML=templates.page.welcome.layout(this.home.getUserId()!=null);this.bind(window,"resize",b);b()};function b(){var d=devhd.utils.HTMLUtils.getClientWidth(document);var e=devhd.utils.HTMLUtils.getClientHeight(document);document.getElementById("welcomeBanner").style.height=(e-65)+"px"
-}})();

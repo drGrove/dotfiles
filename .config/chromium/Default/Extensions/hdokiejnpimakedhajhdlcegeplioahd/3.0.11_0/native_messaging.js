@@ -1,1 +1,0 @@
-document.getElementById("request_native_messaging").addEventListener("click",function(){chrome.permissions.request({permissions:["nativeMessaging"]},function(a){a&&getBG().test_native_messaging()})});
