@@ -89,7 +89,9 @@ myawesomemenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "Debian", debian.menu.Debian_menu.Debian },
-                                    { "open terminal", terminal }
+                                    { "open terminal", terminal },
+                                    { "Virtual Box", "Virtual Box" },
+                                    { "Chrome", "google-chrome" }
                                   }
                         })
 
@@ -188,6 +190,19 @@ for s = 1, screen.count() do
 end
 -- }}}
 
+-- {{{ Daemon
+function start_daemon(dea)
+    daeCheck = os.execute("ps -eF | grep -v grep | grep -w " .. dae)
+    if (daeCheck ~= 0) then
+        os.execute(dae .. " &")
+    end
+end
+procs = {"nm-applet"}
+for k = l, #procs do
+    start_daemon(procs[k])
+end
+-- }}}
+
 -- {{{ Mouse bindings
 root.buttons(awful.util.table.join(
     awful.button({ }, 3, function () mymainmenu:toggle() end),
@@ -230,7 +245,11 @@ globalkeys = awful.util.table.join(
 
     -- Lock Screen Using(xscreensaver)
     awful.key({ modkey, }, "F12", function() awful.util.spawn_with_shell("xscreensaver-command -lock") end),
-        
+
+    -- Brightness Control
+    awful.key({}, "XF86KbdBrightnessUp", function() awful.util.spawn_with_shell("sudo asus-kbd-backlight up") end),
+
+    awful.key({}, "XF86KbdBrightnessDown", function() awful.util.spawn_with_shell("sudo asus-kbd-backlight down") end),
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
