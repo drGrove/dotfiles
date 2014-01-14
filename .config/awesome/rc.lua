@@ -89,7 +89,9 @@ myawesomemenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "Debian", debian.menu.Debian_menu.Debian },
-                                    { "open terminal", terminal }
+                                    { "open terminal", terminal },
+                                    { "Virtual Box", "Virtual Box" },
+                                    { "Chrome", "google-chrome" }
                                   }
                         })
 
@@ -185,6 +187,19 @@ for s = 1, screen.count() do
         mytasklist[s],
         layout = awful.widget.layout.horizontal.rightleft
     }
+end
+-- }}}
+
+-- {{{ Daemon
+function start_daemon(dea)
+    daeCheck = os.execute("ps -eF | grep -v grep | grep -w " .. dae)
+    if (daeCheck ~= 0) then
+        os.execute(dae .. " &")
+    end
+end
+procs = {"nm-applet"}
+for k = l, #procs do
+    start_daemon(procs[k])
 end
 -- }}}
 

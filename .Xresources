@@ -24,7 +24,7 @@ URxvt*keysym.End: \033[4~
 
 ! Make URLS Clickable
 urxvt.perl-ext: default,matcher
-urxvt.urlLauncher: chromium-browser
+urxvt.urlLauncher: google-chrome
 urxvt.keysym.C-Delete: perl:matcher
 urxvt.underlineURLs: true
 
