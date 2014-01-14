@@ -45,13 +45,13 @@ source ~/.bash-aliases
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git node npm bower tmux cp github go redis-cli screen ssh-agent sudo supervisor)
+plugins=(git ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dgrove/android-studio/bin:/home/dgrove/android-studio/sdk/tools"
+export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dgrove/android-studio/bin:/home/dgrove/android-studio/sdk/tools:/home/dgrove/toggl_desktop/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -74,3 +74,4 @@ eval "$(grunt --completion=zsh)"
 
 # Wearscript Support
 export WEARSCRIPT_ENDPOINT="ws://udderweb.com:8042/ws/client/4Xj1egh3dP9qKLfR"
+
