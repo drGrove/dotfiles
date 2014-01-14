@@ -229,7 +229,11 @@ globalkeys = awful.util.table.join(
         end),
 
     -- Lock Screen Using(xscreensaver)
-    awful.key({ modkey, }, "F12", function() awful.util.spawn_with_shell("xscreensaver-command -lock") end),
+    awful.key({ modkey, "Shift" }, "l", function() awful.util.spawn_with_shell("xscreensaver-command -lock") end),
+
+    -- Screen Brightness
+    awful.key({}, "XF86MonBrightnessUp", function() awful.util.spawn_with_shell("xbacklight -inc 10") end),
+    awful.key({}, "XF86MonBrightnessDown", function() awful.util.spawn_with_shell("xbacklight -dec 10") end),
         
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
