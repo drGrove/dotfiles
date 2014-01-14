@@ -190,19 +190,6 @@ for s = 1, screen.count() do
 end
 -- }}}
 
--- {{{ Daemon
-function start_daemon(dea)
-    daeCheck = os.execute("ps -eF | grep -v grep | grep -w " .. dae)
-    if (daeCheck ~= 0) then
-        os.execute(dae .. " &")
-    end
-end
-procs = {"nm-applet"}
-for k = l, #procs do
-    start_daemon(procs[k])
-end
--- }}}
-
 -- {{{ Mouse bindings
 root.buttons(awful.util.table.join(
     awful.button({ }, 3, function () mymainmenu:toggle() end),
