@@ -62,7 +62,8 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 # fi
 
 export EDITOR='vim'
-
+export GOPATH=$HOME/.go
+export BROWSER="chromium"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -75,3 +76,11 @@ eval "$(grunt --completion=zsh)"
 # Wearscript Support
 export WEARSCRIPT_ENDPOINT="ws://udderweb.com:8042/ws/client/4Xj1egh3dP9qKLfR"
 
+# Android Home
+export ANDROID_HOME="$HOME/android-studio/sdk"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=setting'
+
+source ~/.profile
