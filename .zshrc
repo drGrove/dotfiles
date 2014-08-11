@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-
+DEFAULT_USER="dgrove"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -51,7 +51,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dgrove/android-studio/bin:/home/dgrove/android-studio/sdk/tools:/home/dgrove/toggl_desktop/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -61,9 +60,6 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 #   export EDITOR='mvim'
 # fi
 
-export EDITOR='vim'
-export GOPATH=$HOME/.go
-export BROWSER="chromium"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -79,8 +75,16 @@ export WEARSCRIPT_ENDPOINT="ws://udderweb.com:8042/ws/client/4Xj1egh3dP9qKLfR"
 # Android Home
 export ANDROID_HOME="$HOME/android-studio/sdk"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=setting'
-
 source ~/.profile
+
+
+export EDITOR='vim'
+export GOPATH=$HOME/.go
+export BROWSER="chromium"
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=setting'
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dgrove/android-studio/bin:/home/dgrove/android-studio/sdk/tools:/home/dgrove/toggl_desktop/"
+
+# Powerline
+export PATH="$HOME/.local/bin:$PATH"
+source `pip show powerline | grep Location | sed 's/Location: //g'`/powerline/bindings/zsh/powerline.zsh
