@@ -1,6 +1,6 @@
 ! General urxvt preferences
 urxvt*loginShell:true
-urxvt*transparent:true
+urxvt*transparent:false
 urxvt*shading:60
 urxvt*background:Black
 urxvt*foreground:White
@@ -11,12 +11,12 @@ urxvt*saveLines:32767
 urxvt*urgentOnBell: True
 urxvt*visualBell: False
 urxvt*skipScroll: True
-urxvt*font: xft:terminus:size=7
+urxvt*font: xft:Consolas:size=8, xft:Inconsolata for Powerline:size=8
 
 ! :Bind C-0, C-+ and C-= to activate small, medium, and big font size
-URxvt.keysym.C-0: command:\033]710;xft:Terminus:pixelsize=7\007
-URxvt.keysym.C-minus: command:\033]710;xft:Terminus:pixelsize=20\007
-URxvt.keysym.C-equal: command:\033]710;xft:Terminus:pixelsize=50\007
+!URxvt.keysym.C-0: command:\033]710;xft:Terminus:pixelsize=7\007
+!URxvt.keysym.C-minus: command:\033]710;xft:Terminus:pixelsize=20\007
+!URxvt.keysym.C-equal: command:\033]710;xft:Terminus:pixelsize=50\007
 
 ! Bind Home/End Key
 URxvt*keysym.Home: \033[1~
