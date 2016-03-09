@@ -1,0 +1,1 @@
+alias fig='docker-compose'

@@ -11,6 +11,8 @@ DEFAULT_USER="dgrove"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.bash-aliases
+export BROWSER="google-chrome-beta"
+export EDITOR="vim"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -45,7 +47,7 @@ source ~/.bash-aliases
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ssh-agent)
+plugins=(git ssh-agent rails nvm npm node postgres sudo supervisor tmux docker ember-cli git-flow git-extras github grunt mvn redis-cli bower)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -53,38 +55,43 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# Grunt cli auto-complete
-eval "$(grunt --completion=zsh)"
 
 # Wearscript Support
 export WEARSCRIPT_ENDPOINT="ws://udderweb.com:8042/ws/client/4Xj1egh3dP9qKLfR"
 
 # Android Home
-export ANDROID_HOME="$HOME/android-studio/sdk"
+export ANDROID_HOME="$HOME/android-sdk"
 
 source ~/.profile
 
 
 export EDITOR='vim'
 export GOPATH=$HOME/.go
-export BROWSER="chromium"
+export BROWSER="google-chrome-stable"
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=setting'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dgrove/android-studio/bin:/home/dgrove/android-studio/sdk/tools:/home/dgrove/toggl_desktop/"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export CLIENT_NAME='drgrovellc-registry'
+export CLIENT_IP='192.168.1.135:5000'
+alias arduino='sh ~/arduino/arduino'
+
+# Load all files from .shell/zshrc.d directory
+if [ -d $HOME/.shellrc/zshrc.d ]; then
+  for file in $HOME/.shellrc/zshrc.d/*.zsh; do
+    source $file
+  done
+fi
 
 # Powerline
-export PATH="$HOME/.local/bin:$PATH"
-source `pip show powerline | grep Location | sed 's/Location: //g'`/powerline/bindings/zsh/powerline.zsh
+#source `pip show powerline | grep Location | sed 's/Location: //g'`/powerline/bindings/zsh/powerline.zsh
+
+# added by travis gem
+[ -f /home/dgrove/.travis/travis.sh ] && source /home/dgrove/.travis/travis.sh
+
