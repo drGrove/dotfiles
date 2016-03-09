@@ -38,7 +38,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
-beautiful.init(os.getenv("HOME").."/.config/awesome/themes/arch/theme.lua")
+beautiful.init(os.getenv("HOME").."/.config/awesome/themes/material/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
@@ -115,7 +115,7 @@ wirelesswidgets_icon       = wibox.widget.imagebox()
 wirelesswidgets_icon:set_image(beautiful.wirelesswidgets_icon)
 wirelesswidgets_icon:set_resize(false)
 wirelesswidgets_icon_m = wibox.layout.margin(wirelesswidgets_icon, 5, 0, 5, 0)
-wireless_dev = "eth0"
+wireless_dev = "enp7s0"
 ratewidget = wibox.widget.textbox()
 essidwidget = wibox.widget.textbox()
 lqwidget = wibox.widget.textbox()
@@ -126,7 +126,7 @@ function update_wirelesswidgets() --{{{ returns wireless or ethernet connection 
     quality = "0"
 
     if wireless_dev ~= "" then
-        local f = io.popen("iwconfig " .. wireless_dev)
+        local f = io.popen("ifconfig " .. wireless_dev)
         if f then
             local iwOut = f:read('*a')
             f:close()
@@ -198,7 +198,7 @@ ipwidget_icon:set_resize(false)
 ipwidget_icon_m = wibox.layout.margin(ipwidget_icon, 5, 0, 5, 0)
 ipwidget = wibox.widget.textbox()
 function update_ipwidget()
-    local f = io.popen("/sbin/ifconfig eth0")
+    local f = io.popen("/sbin/ifconfig enp7s0")
     if f then
         local ifOut = f:read('*a')
         f:close()
@@ -499,7 +499,7 @@ globalkeys = awful.util.table.join(
         end),
 
     -- Lock
-    awful.key({ modkey, "Shift"    }, "l", function () awful.util.spawn_with_shell("xscreensaver-command -lock") end),
+    awful.key({ modkey, "Shift"    }, "l", function () awful.util.spawn_with_shell("slock") end),
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
