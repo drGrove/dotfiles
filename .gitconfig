@@ -1,7 +1,16 @@
 [user]
 	name = Danny Grove
 	email = danny@drgrovellc.com
+  signingkey = A68847F70315340C5117B31778FC3358C2E3276E
 [color]
 	ui = true
 [push]
 	default = matching
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+[core]
+	editor = vim
