@@ -40,6 +40,7 @@ end
 -- Themes define colours, icons, and wallpapers
 beautiful.init(os.getenv("HOME").."/.config/awesome/themes/material/theme.lua")
 
+
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
 editor = "vim"
@@ -61,11 +62,8 @@ local layouts =
     awful.layout.suit.tile.top,
     awful.layout.suit.fair,
     awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
     awful.layout.suit.max,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
+    awful.layout.suit.max.fullscreen
 }
 -- }}}
 
@@ -82,7 +80,7 @@ end
 tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ 1, 2, 3, 4, 5, 6, 7, 8, 9 }, s, layouts[1])
+    tags[s] = awful.tag({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, s, layouts[1])
 end
 -- }}}
 
@@ -518,7 +516,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "n", awful.client.restore),
 
     -- Prompt
-    awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
+    awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen.index]:run() end),
 
     -- Caputre Screen Area
     awful.key({ modkey, "Control" }, "p", function() awful.util.spawn("sh bin/capscr.sh") end),
@@ -557,7 +555,7 @@ clientkeys = awful.util.table.join(
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it works on any keyboard layout.
 -- This should map on the top row of your keyboard, usually 1 to 9.
-for i = 1, 9 do
+for i = 1, 10 do
     globalkeys = awful.util.table.join(globalkeys,
         awful.key({ modkey }, "#" .. i + 9,
                   function ()
