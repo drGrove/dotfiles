@@ -4,6 +4,3 @@
 [submodule ".oh-my-zsh"]
     path = .oh-my-zsh
     url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule ".config/awesome/themes"]
-	path = .config/awesome/themes
-	url = http://github.com/mikar/awesome-themes
