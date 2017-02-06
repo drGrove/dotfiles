@@ -19,6 +19,9 @@ termite &
 # Setup Terminal defaults in window manager scope
 source .zshrc &
 
+# Start compositor
+compton &
+
 # Setup GPG/SSH Agent
 gpg-init &
 
