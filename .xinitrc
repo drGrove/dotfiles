@@ -7,6 +7,9 @@ $($HOME/.screenlayout/3screen.sh)
 # Start pulseaudio
 pulseaudio --daemonize=true &
 
+# Start pavucontrol
+pauvcontrol &
+
 # Launch Browser
 chromium &
 
