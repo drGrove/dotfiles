@@ -1,7 +1,7 @@
 [user]
 	name = Danny Grove
 	email = danny@drgrovellc.com
-  signingkey = A68847F70315340C5117B31778FC3358C2E3276E
+	signingkey = A68847F70315340C5117B31778FC3358C2E3276E
 [color]
 	ui = true
 [push]
@@ -14,3 +14,7 @@
 	d = difftool
 [core]
 	editor = vim
+[gpg]
+	program = /usr/bin/gpg2
+[credential]
+	helper = cache
