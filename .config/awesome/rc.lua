@@ -10,6 +10,7 @@ local beautiful = require("beautiful")
 local naughty = require("naughty")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup").widget
+
 -- {{{ Widgets
 local widgets = {
   battery = require("widgets/battery"),
@@ -21,7 +22,6 @@ local widgets = {
   cpu = require("widgets/cpu")
 }
 -- }}}
-
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -50,7 +50,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers
-beautiful.init(os.getenv("HOME").."/.config/awesome/themes/arch/theme.lua")
+beautiful.init(os.getenv("HOME").."/.config/awesome/themes/default/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
