@@ -1,5 +1,6 @@
 local wibox = require("wibox")
 local watch = require("awful.widget.watch")
+local timer = require("gears.timer")
 
 local icon = wibox.widget {
   {

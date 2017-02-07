@@ -1,4 +1,5 @@
 local wibox = require("wibox")
+local timer = require("gears.timer")
 
 local icon = wibox.widget {
   {
