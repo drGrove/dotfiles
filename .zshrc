@@ -3,7 +3,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="dgrove"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git ssh-agent nvm npm node postgres supervisor tmux docker git-flow git-extras github bower grow vi-mode gpg-agent)
+plugins=(git tmux grow vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 
