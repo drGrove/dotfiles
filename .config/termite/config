@@ -6,10 +6,22 @@ dynamic_title = true
 clickable_url = true
 mouse_autohide = true
 
+#[colors]
+#foreground = #839496
+#foreground_bold = #eee8d5
+#background = rgba(10,10,10,0.900)
+#cursor = #93a1a1
+
+# if unset, will reverse foreground and background
+#highlight = #839496
+
+# Solarized dark color scheme
+
 [colors]
 foreground = #839496
 foreground_bold = #eee8d5
-background = rgba(10,10,10,0.900)
+#foreground_dim = #888888
+background = #000000
 cursor = #93a1a1
 
 # if unset, will reverse foreground and background

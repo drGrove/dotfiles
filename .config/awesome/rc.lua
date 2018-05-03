@@ -11,12 +11,17 @@ local naughty = require("naughty")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup").widget
 
+--{{{ Bug Fix for 4.2
+naughty.config.defaults['icon_size'] = 100
+--}}}
+
+
 -- {{{ Widgets
 local widgets = {
   battery = require("widgets/battery"),
   clock = require("widgets/clock"),
   ip = require("widgets/ip"),
-  wifi = require("widgets/wifi"),
+  -- wifi = require("widgets/wifi"),
   netupdown = require("widgets/netupdown"),
   memory = require("widgets/memory"),
   cpu = require("widgets/cpu")
@@ -57,6 +62,9 @@ beautiful.init(os.getenv("HOME").."/.config/awesome/themes/default/theme.lua")
 terminal = "termite"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
+
+--- This is used later as the default browser
+browser = "chromium-browser"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -206,6 +214,9 @@ awful.screen.connect_for_each_screen(function(s)
   -- Create the wibox
   s.mywibox = awful.wibar({ position = "top", screen = s })
 
+  systray = wibox.widget.systray()
+  systray:set_base_size(20)
+
   s.mywibox:setup {
     layout = wibox.layout.align.horizontal,
     { -- Left Widgets
@@ -217,15 +228,15 @@ awful.screen.connect_for_each_screen(function(s)
     { -- Right Widgets
       layout = wibox.layout.fixed.horizontal,
       mykeyboardlayout,
-      wibox.widget.systray(),
+      wibox.layout.margin(systray, 5, 5, 5, 5),
       widgets.ip.icon,
       widgets.ip.widget,
       widgets.netupdown.icon.up,
       widgets.netupdown.widget.up,
       widgets.netupdown.icon.down,
       widgets.netupdown.widget.down,
-      widgets.wifi.icon,
-      widgets.wifi.widget,
+      -- widgets.wifi.icon,
+      -- widgets.wifi.widget,
       widgets.cpu.icon,
       widgets.cpu.widget,
       widgets.memory.icon,
@@ -301,6 +312,8 @@ globalkeys = awful.util.table.join(
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "Return", function() awful.spawn(browser) end,
+              {description = "open a new browser window", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
