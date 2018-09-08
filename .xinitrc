@@ -2,7 +2,7 @@
 xrdb -merge ~/.Xresources
 
 # Set screenlayout
-$($HOME/.screenlayout/3screen.sh)
+#$($HOME/.screenlayout/3screen.sh)
 
 # Start pulseaudio
 pulseaudio --daemonize=true &
