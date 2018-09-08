@@ -13,7 +13,7 @@ local icon = wibox.widget {
 
 local widget = wibox.widget.textbox()
 watch("ip r get 192.0.2.4", 5, function(w, stdout)
-    local ip = stdout:match('src ([^\n]+)')
+    local ip = stdout:match('src ([^\n]+) uid')
     if ip then
         widget:set_text(" " .. ip)
     else
