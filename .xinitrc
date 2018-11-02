@@ -14,16 +14,10 @@ pauvcontrol &
 chromium &
 
 # Terminal Setup
-termite &
+kitti &
 
 # Setup Terminal defaults in window manager scope
-source .zshrc &
-
-# Start compositor
-compton &
-
-# Setup GPG/SSH Agent
-gpg-init &
+source $HOME/.zshrc &
 
 # Start Window Manager
-awesome
+i3
