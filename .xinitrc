@@ -3,6 +3,7 @@ xrdb -merge ~/.Xresources
 
 # Set screenlayout
 #$($HOME/.screenlayout/3screen.sh)
+#
 
 # Start pulseaudio
 pulseaudio --daemonize=true &
@@ -10,11 +11,14 @@ pulseaudio --daemonize=true &
 # Start pavucontrol
 pauvcontrol &
 
+# Start compositer
+compton &
+
 # Launch Browser
 chromium &
 
 # Terminal Setup
-kitti &
+kitty &
 
 # Setup Terminal defaults in window manager scope
 source $HOME/.zshrc &
