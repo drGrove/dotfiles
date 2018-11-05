@@ -31,32 +31,23 @@ alert = #bd2c40
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 30
-;offset-x = 1%
-;offset-y = 1%
 radius = 0
 fixed-center = false
-
 background = ${colors.background}
 foreground = ${colors.foreground}
-
 line-size = 3
 line-color = #f00
-
 border-size = 0
 border-color = #00000000
-
 padding-left = 0
 padding-right = 2
-
 module-margin-left = 1
 module-margin-right = 2
-
-font-0 = Hack:pixelsize=8;1
-
-modules-left = bspwm i3
-modules-center = date wlan eth
+font-0 = Hack-Regular:pixelsize=8;1
+font-1 = MaterialDesignIcons:pixelsize=8;1
+modules-left = bspwm
+modules-center =
 modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu battery temperature powermenu
-
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true
@@ -76,6 +67,20 @@ tray-padding = 2
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+[bar/bottom]
+width = 100%
+height = 20
+radius = 0
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 1
+border-size = 0
+font-0 = Hack:pixelsize=8;1
+modules-left = i3
+modules-center = date
+modules-right = wlan eth
+bottom = true
+
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
@@ -84,7 +89,7 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = "LANG "
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
@@ -204,7 +209,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = "CPU "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
 label = %percentage:2%%
@@ -212,7 +217,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = "MEM "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %percentage_used%%
