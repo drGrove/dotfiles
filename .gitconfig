@@ -18,3 +18,5 @@
 	program = /usr/bin/gpg2
 [credential]
 	helper = cache
+[commit]
+	gpgSign = true

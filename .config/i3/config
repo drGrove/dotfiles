@@ -91,7 +91,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Lock
-bindsym $mod+Shift+Escape exec i3lock -i ~/.wallpaper/low-poly-planet-white-blue.png
+bindsym $mod+Shift+Escape exec i3lock -c 000000
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
