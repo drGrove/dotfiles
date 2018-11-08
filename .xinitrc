@@ -17,12 +17,6 @@ pauvcontrol &
 # Start compositer
 compton &
 
-# Set Wallpaper
-MONITORS=$(xrandr --listmonitors | grep "Monitors:" | cut -d" " -f2)
-for run in $(seq 0 $MONITORS); do
-  nitrogen --head=$run --set-scaled $HOST_WALLPAPER
-done
-
 # Launch Browser
 chromium &
 
