@@ -68,3 +68,6 @@ fi
 
 # Android Studio
 export PATH=$PATH:$HOME/.bin:$HOME/android-studio/bin
+
+alias source-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
+alias host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
