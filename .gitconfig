@@ -1,7 +1,7 @@
 [user]
 	name = Danny Grove
 	email = danny@drgrovellc.com
-	signingkey = E1F4160251DB4C2E
+	signingkey = C92FE5A3FBD58DD3EC5AA26BB10116B8193F2DBD
 [color]
 	ui = true
 [push]
@@ -19,4 +19,10 @@
 [credential]
 	helper = cache
 [commit]
-	gpgSign = true
+  gpgSign = true
+[diff "gpg"]
+  textconv = gpg --no-tty --decrypt
+  cachetextconv = false
+[diff "ansible-vault"]
+  textconv = ansible-vault view
+  cachetextconv = false
