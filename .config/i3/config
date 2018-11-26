@@ -91,7 +91,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Lock
-bindsym $mod+Shift+Escape exec i3lock -c 000000
+bindsym $mod+Shift+Escape exec i3lock -c 000000 -n
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.

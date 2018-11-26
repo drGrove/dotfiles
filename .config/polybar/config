@@ -47,7 +47,7 @@ font-0 = Hack:pixelsize=15;1
 font-1 = MaterialDesignIcons:pixelsize=15;1
 modules-left = bspwm
 modules-center =
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu battery temperature powermenu
+modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature powermenu
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true

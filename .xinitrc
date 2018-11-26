@@ -3,13 +3,10 @@ xrdb -merge ~/.Xresources
 
 # Load system specific configs
 host_config="$HOME/.host_config/$(cat /etc/hostname)"
-[[ -f "$host_config/screenlayout.sh" ]] && source "$host_config/screenlayout.sh"
+[[ -f "$host_config/screenlayout.sh" ]] && $("$host_config/screenlayout.sh")
 [[ -f "$host_config/config.sh" ]] && source "$host_config/config.sh"
 
 gpg-connect-agent updatestartuptty /bye
-
-# Start pulseaudio
-pulseaudio --daemonize=true &
 
 # Start pavucontrol
 pauvcontrol &
