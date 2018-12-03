@@ -23,6 +23,10 @@ if [ -d "$HOME/.gnupg.old" ]; then
 fi
 mv $HOME/.gnupg/ $HOME/.gnupg.old/
 
+# Only trap after this is run to recover on a pull key failure and not lose
+# configurations
+trap "rm $HOME/.gnupg; mv $HOME/.gnupg.old $HOME/.gnupg"
+
 echo "Pulling Key..."
 gpg --keyserver $keyserver --recv-key $key
 
