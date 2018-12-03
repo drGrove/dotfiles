@@ -1,0 +1,43 @@
+#!/bin/bash
+
+set -euo pipefail
+IFS=$'\n'
+
+key="$1"
+keyserver="${2:-keys.gnupg.net}"
+
+echo "Killing GPG Agent..."
+killall -9 gpg-agent || true
+systemctl stop --user gpg-agent.service
+systemctl stop --user gpg-agent.socket
+systemctl stop --user gpg-agent-ssh.socket
+systemctl stop --user gpg-agent-browser.socket
+systemctl stop --user gpg-agent-extra.socket
+
+echo "Removing Sockets..."
+rm -rf /run/user/1000/gnupg/
+
+echo "Rotating gnupg home folder..."
+if [ -d "$HOME/.gnupg.old" ]; then
+  rm -rf $HOME/.gnupg.old
+fi
+mv $HOME/.gnupg/ $HOME/.gnupg.old/
+
+echo "Pulling Key..."
+gpg --keyserver $keyserver --recv-key $key
+
+echo "Updating owner trust..."
+echo "$key":6: | gpg --import-ownertrust
+
+echo "Moving gpg configs back..."
+mv $HOME/.gnupg.old/gpg-agent.conf $HOME/.gnupg/
+mv $HOME/.gnupg.old/gpg.conf $HOME/.gnupg/
+mv $HOME/.gnupg.old/scdaemon.conf $HOME/.gnupg/
+mv $HOME/.gnupg.old/sshcontrol $HOME/.gnupg/
+
+echo "Restarting GPG Agent..."
+systemctl start --user gpg-agent.service
+gpg-connect-agent updatestartuptty /bye
+
+echo "Kill Your current window. Open a new window, Unplug and re-plugin Yubikey
+then run 'gpg --card-status'"
