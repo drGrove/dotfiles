@@ -8,7 +8,7 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
-
+exec xss-lock -- i3lock -c 000000 -n
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -34,6 +34,9 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+w kill
+
+# rofi
+bindsym $mod+Tab exec "rofi -show run"
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
@@ -91,7 +94,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Lock
-bindsym $mod+Shift+Escape exec i3lock -c 000000 -n
+bindsym $mod+Shift+Escape exec loginctl lock-session $XDG_SESSION_ID
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -139,29 +142,31 @@ bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+  # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+  # Pressing left will shrink the window’s width.
+  # Pressing right will grow the window’s width.
+  # Pressing up will shrink the window’s height.
+  # Pressing down will grow the window’s height.
+  bindsym j resize shrink width 10 px or 10 ppt
+  bindsym k resize grow height 10 px or 10 ppt
+  bindsym l resize shrink height 10 px or 10 ppt
+  bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+  # same bindings, but for the arrow keys
+  bindsym Left resize shrink width 10 px or 10 ppt
+  bindsym Down resize grow height 10 px or 10 ppt
+  bindsym Up resize shrink height 10 px or 10 ppt
+  bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+  # back to normal: Enter or Escape or $mod+r
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+  bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+client.focused #000000 #000000 #FFFFFF #8B0000
