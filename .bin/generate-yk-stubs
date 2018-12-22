@@ -6,6 +6,13 @@ IFS=$'\n'
 key="$1"
 keyserver="${2:-keys.gnupg.net}"
 
+check_code() {
+  if [ "$?" -eq 1 ]; then
+    rm $HOME/.gnupg/ || true
+    mv $HOME/.gnupg.old/ $HOME/.gnupg/
+  fi
+}
+
 echo "Killing GPG Agent..."
 killall -9 gpg-agent || true
 systemctl stop --user gpg-agent.service
@@ -25,7 +32,7 @@ mv $HOME/.gnupg/ $HOME/.gnupg.old/
 
 # Only trap after this is run to recover on a pull key failure and not lose
 # configurations
-trap "rm $HOME/.gnupg; mv $HOME/.gnupg.old $HOME/.gnupg"
+trap 'check_code' EXIT
 
 echo "Pulling Key..."
 gpg --keyserver $keyserver --recv-key $key
@@ -34,14 +41,13 @@ echo "Updating owner trust..."
 echo "$key":6: | gpg --import-ownertrust
 
 echo "Moving gpg configs back..."
-mv $HOME/.gnupg.old/gpg-agent.conf $HOME/.gnupg/
-mv $HOME/.gnupg.old/gpg.conf $HOME/.gnupg/
-mv $HOME/.gnupg.old/scdaemon.conf $HOME/.gnupg/
-mv $HOME/.gnupg.old/sshcontrol $HOME/.gnupg/
+cp $HOME/.gnupg.old/gpg-agent.conf $HOME/.gnupg/
+cp $HOME/.gnupg.old/gpg.conf $HOME/.gnupg/
+cp $HOME/.gnupg.old/scdaemon.conf $HOME/.gnupg/
+cp $HOME/.gnupg.old/sshcontrol $HOME/.gnupg/
 
 echo "Restarting GPG Agent..."
 systemctl start --user gpg-agent.service
 gpg-connect-agent updatestartuptty /bye
 
-echo "Kill Your current window. Open a new window, Unplug and re-plugin Yubikey
-then run 'gpg --card-status'"
+echo "Unplug and re-plugin Yubikey then run 'gpg --card-status'"
