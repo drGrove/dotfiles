@@ -3,7 +3,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git tmux grow vi-mode)
+plugins=(git tmux grow vi-mode docker systemd kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
@@ -51,7 +51,7 @@ export GPG_TTY=$(tty)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node nvm tmux vi-mode gpg systemd)
+plugins=(git node nvm tmux vi-mode gpg systemd helm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -66,8 +66,8 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Android Studio
-export PATH=$PATH:$HOME/.bin:$HOME/android-studio/bin
+# Local Bin
+export PATH=$PATH:$HOME/.bin
 
 alias source-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
 alias host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
@@ -75,5 +75,6 @@ alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 
 [ -d "$HOME/.host_config/$(cat /etc/hostname)/bin" ] && export PATH=$PATH:"$HOME/.host_config/$(cat /etc/hostname)/bin"
-[ -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh" ] && source "$HOME/.host_config/$(cat /etc/hostname)/config.sh"
-
+if [[ $DISPLAY ]]; then
+  [ -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg" ] && source <(gpg -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg)
+fi
