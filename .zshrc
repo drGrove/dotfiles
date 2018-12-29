@@ -71,6 +71,9 @@ export PATH=$PATH:$HOME/.bin:$HOME/android-studio/bin
 
 alias source-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
 alias host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
+alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
+alias sourcerc="source $HOME/.zshrc"
 
 [ -d "$HOME/.host_config/$(cat /etc/hostname)/bin" ] && export PATH=$PATH:"$HOME/.host_config/$(cat /etc/hostname)/bin"
 [ -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh" ] && source "$HOME/.host_config/$(cat /etc/hostname)/config.sh"
+
