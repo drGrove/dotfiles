@@ -21,7 +21,7 @@
 [commit]
   gpgSign = true
 [diff "gpg"]
-  textconv = gpg --no-tty --decrypt
+  textconv = gpg --no-tty --decrypt --quiet
   cachetextconv = false
 [diff "ansible-vault"]
   textconv = ansible-vault view
