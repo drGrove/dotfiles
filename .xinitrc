@@ -6,13 +6,16 @@ host_config="$HOME/.host_config/$(cat /etc/hostname)"
 [[ -f "$host_config/screenlayout.sh" ]] && $("$host_config/screenlayout.sh")
 [[ -f "$host_config/config.sh" ]] && source "$host_config/config.sh"
 
-gpg-connect-agent updatestartuptty /bye
+# Set Wallpaper
+[[ -f "$HOME/.host_config/ALL/wallpapers.sh" ]] && $("$HOME/.host_config/ALL/wallpapers.sh")
 
-# Start pavucontrol
-pauvcontrol &
+gpg-connect-agent updatestartuptty /bye
 
 # Start compositer
 compton &
+
+# Start pavucontrol
+pauvcontrol &
 
 # Launch Browser
 chromium &
@@ -24,4 +27,4 @@ kitty &
 source $HOME/.zshrc &
 
 # Start Window Manager
-i3
+exec i3
