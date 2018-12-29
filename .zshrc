@@ -66,9 +66,6 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Local Bin
-export PATH=$PATH:$HOME/.bin
-
 alias source-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
 alias host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
