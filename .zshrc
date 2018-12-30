@@ -66,12 +66,17 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias source-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
-alias host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
+alias source-host-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
+alias cd-host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
+alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
 
 [ -d "$HOME/.host_config/$(cat /etc/hostname)/bin" ] && export PATH=$PATH:"$HOME/.host_config/$(cat /etc/hostname)/bin"
 if [[ $DISPLAY ]]; then
-  [ -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg" ] && source <(gpg -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg)
+  if [ ! -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh" ]; then
+    echo "Generating a local copy of your encrypted file..."
+    regen-host-config
+  fi
+  source "$HOME/.host_config/$(cat /etc/hostname)/config.sh"
 fi
