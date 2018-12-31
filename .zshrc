@@ -17,9 +17,11 @@ ZSH_THEME="odin"
 # If connected locally
 if [ -z "$SSH_TTY" ]; then
   envfile="$HOME/.gnupg/gpg-agent.env"
+  export GPG_TTY=$(tty)
+  export SSH_AGENT_PID=""
+  export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 fi
 
-export GPG_TTY=$(tty)
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -72,11 +74,10 @@ alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
 
-[ -d "$HOME/.host_config/$(cat /etc/hostname)/bin" ] && export PATH=$PATH:"$HOME/.host_config/$(cat /etc/hostname)/bin"
-if [[ $DISPLAY ]]; then
-  if [ ! -f "$HOME/.host_config/$(cat /etc/hostname)/config.sh" ]; then
-    echo "Generating a local copy of your encrypted file..."
-    regen-host-config
-  fi
-  source "$HOME/.host_config/$(cat /etc/hostname)/config.sh"
+[ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$(cat /etc/hostname)" "$HOME/.host_config/current"
+[ -d "$HOME/.host_config/current/bin" ] && export PATH=$PATH:"$HOME/.host_config/current/bin"
+if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
+  echo "Generating a local copy of your encrypted file..."
+  regen-host-config
 fi
+source "$HOME/.host_config/current/config.sh"

@@ -16,6 +16,9 @@
 ;
 ;==========================================================
 
+[section/base]
+include-file = /home/groved/.host_config/current/polybar
+
 [colors]
 ;background = ${xrdb:color0:#222}
 background = #222
@@ -30,7 +33,7 @@ alert = #bd2c40
 [bar/top]
 monitor = ${env:MONITOR:}
 width = 100%
-height = 40
+height = ${section/base.bar-height}
 radius = 0
 fixed-center = false
 background = ${colors.background}
@@ -43,8 +46,8 @@ padding-left = 0
 padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
-font-0 = Hack:pixelsize=15;1
-font-1 = MaterialDesignIcons:pixelsize=15;1
+font-0 = ${section/base.font-0}
+font-1 = ${section/base.font-1}
 modules-left = bspwm
 modules-center =
 modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature powermenu
@@ -70,13 +73,14 @@ cursor-scroll = ns-resize
 [bar/bottom]
 monitor = ${env:MONITOR:}
 width = 100%
-height = 40
+height = ${section/base.bar-height}
 radius = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 line-size = 1
 border-size = 0
-font-0 = Hack:pixelsize=15;1
+font-0 = ${section/base.font-0}
+font-1 = ${section/base.font-1}
 modules-left = i3
 modules-center = date
 modules-right = wlan eth
