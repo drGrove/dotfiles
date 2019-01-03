@@ -17,11 +17,10 @@ ZSH_THEME="odin"
 # If connected locally
 if [ -z "$SSH_TTY" ]; then
   envfile="$HOME/.gnupg/gpg-agent.env"
-  export GPG_TTY=$(tty)
   export SSH_AGENT_PID=""
   export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 fi
-
+export GPG_TTY=$(tty)
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
