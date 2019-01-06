@@ -1,3 +1,5 @@
+source setdpi
+
 # Load Global X settings (Terminal config, fonts, etc)
 xrdb -merge ~/.Xresources
 
