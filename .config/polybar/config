@@ -48,6 +48,7 @@ module-margin-left = 1
 module-margin-right = 2
 font-0 = ${section/base.font-0}
 font-1 = ${section/base.font-1}
+font-2 = Noto Emoji:pixelsize=20;
 modules-left = bspwm
 modules-center =
 modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature powermenu
