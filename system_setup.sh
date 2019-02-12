@@ -6,6 +6,10 @@ echo "Grabbing package list..."
 PACKAGES="$(curl https://gist.githubusercontent.com/drGrove/d845f3905b411ac0da5e5921c60d1d6f/raw/5a188cb3942271619784f1c83a8a44648a79dcb8/packages.txt | xargs)"
 sudo pacman -S $PACKAGES
 
+echo "Installing ZSH Theme..."
+git clone git@github.com:drGrove/odin $HOME/code/github.com/drGrove/odin
+cd $HOME/code/github.com/drGrove/odin && make install
+
 echo "Creating plugdev group..."
 sudo groupadd plugdev
 sudo usermod -aG plugdev $USER
