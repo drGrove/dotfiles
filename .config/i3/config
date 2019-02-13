@@ -180,6 +180,7 @@ for_window [class=".*"] floating disabled
 
 # Floating Overrides
 for_window [class="Pavucontrol"] floating enabled
+for_window [class="(?i)pinentry.*"] floating enabled
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
