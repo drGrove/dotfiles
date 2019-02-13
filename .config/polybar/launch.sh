@@ -13,7 +13,6 @@ if type "xrandr"; then
     MONITOR=$m polybar --reload bottom &
   done
 else
-  polybar top &
   polybar bottom &
 fi
 
