@@ -20,15 +20,39 @@
 include-file = /home/groved/.host_config/current/polybar
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #222
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #ffb52a
+primary = #f90000
 secondary = #e60053
-alert = #bd2c40
+alert = #f90000
+
+[bar/top]
+monitor = ${env:MONITOR:}
+width = 100%
+height = ${section/base.bar-height}
+radius = 0
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 3
+line-color = #f00
+border-size = 0
+border-color = #00000000
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+font-0 = ${section/base.font-0}
+font-1 = ${section/base.font-1}
+font-2 = ${section/base.font-2}
+modules-left =
+modules-center = date
+modules-right =
+tray-position = right
+tray-padding = 1
+tray-maxsize = 20
 
 [bar/bottom]
 monitor = ${env:MONITOR:}
@@ -50,7 +74,7 @@ font-0 = ${section/base.font-0}
 font-1 = ${section/base.font-1}
 font-2 = ${section/base.font-2}
 modules-left = bspwm i3
-modules-center = date
+modules-center =
 modules-right = wlan eth filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature powermenu
 tray-position = right
 tray-padding = 1
@@ -98,8 +122,9 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
+mount-1 = /home
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-mounted = %{F#0a81f5} %{T3}🖴%{T-} %mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -210,14 +235,14 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "MEM "
+format-prefix = "🤔 MEM "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -230,11 +255,11 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 📡
+ramp-signal-1 = 📡
+ramp-signal-2 = 📡
+ramp-signal-3 = 📡
+ramp-signal-4 = 📡
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -277,7 +302,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted =  muted
+label-muted = 🔇 muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
@@ -331,30 +356,39 @@ battery = BAT0
 adapter = ADP1
 full-at = 98
 
-format-charging = <animation-charging> <label-charging>
+format-charging = %{T3}<animation-charging>%{T-} <label-charging>
 format-charging-underline = #ffb52a
 
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = %{T3}<animation-discharging>%{T-} <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = "🔋"
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = 🔋
+ramp-capacity-1 = 🔋
+ramp-capacity-2 = 🔋
+; ramp-capacity-0 = 
+; ramp-capacity-1 = 
+; ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 🔋
+animation-charging-1 = 🔋
+animation-charging-2 = 🔋
+; animation-charging-0 = 
+; animation-charging-1 = 
+; animation-charging-2 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
+animation-discharging-0 = 🔋
+animation-discharging-1 = 🔋
+animation-discharging-2 = 🔋
+; animation-discharging-0 = 
+; animation-discharging-1 = 
+; animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -372,9 +406,10 @@ label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 😅
-ramp-1 = 😅
-ramp-2 = 🥵
+ramp-0 = 😊
+ramp-1 = 😊
+ramp-2 = 😅
+ramp-3 = 🥵
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
