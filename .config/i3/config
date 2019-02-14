@@ -140,6 +140,9 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+# Audio Solution
+bindsym $mod+Ctrl+m exec pavucontrol
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
   # These bindings trigger as soon as you enter the resize mode
@@ -167,6 +170,19 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+client.focused #000000 #000000 #FFFFFF #8B0000
+
+# Open Specific Applications In Specific Workspaces
+assign [class="Thunderbird"] $ws8
+
+# Disable floating for things not specifically told to float
+for_window [class=".*"] floating disabled
+
+# Floating Overrides
+for_window [class="Pavucontrol"] floating enabled
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
+
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-client.focused #000000 #000000 #FFFFFF #8B0000
