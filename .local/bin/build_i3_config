@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+cat $HOME/.host_config/ALL/i3.config > $HOME/.config/i3/config
+if [ -f "$HOME/.host_config/current/i3.config" ]; then
+  cat $HOME/.host_config/current/i3.config >> $HOME/.config/i3/config
+fi

@@ -1,3 +1,4 @@
 bar-height = 25
 font-0 = Hack:pixelsize=10;1
-font-1 = MaterialDesignIcons:pixelsize=10;1
+font-1 = "Noto Emoji:scale=5"
+
