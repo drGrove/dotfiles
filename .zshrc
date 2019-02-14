@@ -18,9 +18,10 @@ ZSH_THEME="odin"
 if [ -z "$SSH_TTY" ]; then
   envfile="$HOME/.gnupg/gpg-agent.env"
   export SSH_AGENT_PID=""
-  export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 fi
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 export GPG_TTY=$(tty)
+gpg --card-status > /dev/null 2>&1
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -79,4 +80,5 @@ if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
   echo "Generating a local copy of your encrypted file..."
   regen-host-config
 fi
+source "$HOME/.host_config/ALL/config.sh"
 source "$HOME/.host_config/current/config.sh"
