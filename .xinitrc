@@ -31,7 +31,7 @@ kitty &
 source $HOME/.zshrc &
 
 # Build i3 config
-source $HOME/.local/bin/build_i3_config
+source $HOME/.local/bin/build_i3_config &
 
 # Start Window Manager
 exec i3
