@@ -18,14 +18,20 @@ compton &
 # Start pavucontrol
 pauvcontrol &
 
-# Launch Browser
+# Launch Chromium
 chromium &
+
+# Launch Firefox
+firefox &
 
 # Terminal Setup
 kitty &
 
 # Setup Terminal defaults in window manager scope
 source $HOME/.zshrc &
+
+# Build i3 config
+source $HOME/.local/bin/build_i3_config
 
 # Start Window Manager
 exec i3

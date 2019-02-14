@@ -80,5 +80,5 @@ if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
   echo "Generating a local copy of your encrypted file..."
   regen-host-config
 fi
-source "$HOME/.host_config/ALL/config.sh"
-source "$HOME/.host_config/current/config.sh"
+[ -f "$HOME/.host_config/ALL/config.sh" ] && source "$HOME/.host_config/ALL/config.sh"
+[ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
