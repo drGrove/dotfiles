@@ -28,32 +28,6 @@ primary = #f90000
 secondary = #e60053
 alert = #f90000
 
-[bar/top]
-monitor = ${env:MONITOR:}
-width = 100%
-height = ${section/base.bar-height}
-radius = 0
-fixed-center = false
-background = ${colors.background}
-foreground = ${colors.foreground}
-line-size = 3
-line-color = #f00
-border-size = 0
-border-color = #00000000
-padding-left = 0
-padding-right = 2
-module-margin-left = 1
-module-margin-right = 2
-font-0 = ${section/base.font-0}
-font-1 = ${section/base.font-1}
-font-2 = ${section/base.font-2}
-modules-left =
-modules-center = date
-modules-right =
-tray-position = right
-tray-padding = 1
-tray-maxsize = 20
-
 [bar/bottom]
 monitor = ${env:MONITOR:}
 width = 100%
@@ -75,7 +49,7 @@ font-1 = ${section/base.font-1}
 font-2 = ${section/base.font-2}
 modules-left = bspwm i3
 modules-center =
-modules-right = wlan eth filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature powermenu
+modules-right = wlan eth filesystem xbacklight pulseaudio xkeyboard memory cpu battery temperature date powermenu
 tray-position = right
 tray-padding = 1
 tray-maxsize = 20
@@ -288,8 +262,8 @@ date-alt =
 time = %H:%M
 time-alt = %H:%M:%S
 
-format = �  <label>
-format-prefix = 
+format = � <label>
+format-prefix = 🕒
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
@@ -419,9 +393,9 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
+label-open = 🛑
 label-open-foreground = ${colors.secondary}
-label-close =  cancel
+label-close = cancel
 label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
