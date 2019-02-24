@@ -3,7 +3,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git tmux grow vi-mode docker systemd kubectl)
+plugins=(git tmux grow vi-mode docker systemd kubectl node nvm gpg helm)
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
@@ -53,7 +53,6 @@ gpg --card-status > /dev/null 2>&1
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node nvm tmux vi-mode gpg systemd helm)
 
 source $ZSH/oh-my-zsh.sh
 
