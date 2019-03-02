@@ -1,11 +1,11 @@
 [user]
 	name = Danny Grove
-	email = danny@drgrovellc.com
+	email = dannygrove@bitgo.com
 	signingkey = C92FE5A3FBD58DD3EC5AA26BB10116B8193F2DBD
 [color]
 	ui = true
 [push]
-	default = matching
+	default = upstream
 [diff]
 	tool = vimdiff
 [difftool]
