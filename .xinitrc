@@ -33,5 +33,8 @@ source $HOME/.zshrc &
 # Build i3 config
 source $HOME/.local/bin/build_i3_config &
 
+# Start USBGuard
+usbguard-applet-qt &
+
 # Start Window Manager
 exec i3
