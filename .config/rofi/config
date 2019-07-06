@@ -1,3 +1,4 @@
+rofi.font: hack 26
 rofi.color-window: #000000, #273238, #1e2529
 rofi.color-normal: #000000, #c1c1c1, #273238, #394249, #ffffff
 rofi.color-active: #000000, #80cbc4, #273238, #394249, #80cbc4

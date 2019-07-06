@@ -3,7 +3,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git tmux grow vi-mode docker systemd kubectl node nvm gpg helm)
+plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass)
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
