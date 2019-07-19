@@ -27,9 +27,6 @@ firefox &
 # Terminal Setup
 kitty &
 
-# Launch USBGuard
-usbguard-applet-qt &
-
 # Setup Terminal defaults in window manager scope
 source $HOME/.zshrc &
 
