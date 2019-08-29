@@ -3,7 +3,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass)
+plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git)
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
@@ -22,6 +22,8 @@ fi
 export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 export GPG_TTY=$(tty)
 gpg --card-status > /dev/null 2>&1
+
+export PATH=$PATH:$HOME/.go/bin
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -81,3 +83,5 @@ if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
 fi
 [ -f "$HOME/.host_config/ALL/config.sh" ] && source "$HOME/.host_config/ALL/config.sh"
 [ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
+
+export DOCKER_CONTENT_TRUST=1
