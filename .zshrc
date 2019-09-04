@@ -19,7 +19,7 @@ if [ -z "$SSH_TTY" ]; then
   envfile="$HOME/.gnupg/gpg-agent.env"
   export SSH_AGENT_PID=""
 fi
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.ssh"
 export GPG_TTY=$(tty)
 gpg --card-status > /dev/null 2>&1
 
@@ -74,6 +74,7 @@ alias cd-host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
+alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
 
 [ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$(cat /etc/hostname)" "$HOME/.host_config/current"
 [ -d "$HOME/.host_config/current/bin" ] && export PATH=$PATH:"$HOME/.host_config/current/bin"
