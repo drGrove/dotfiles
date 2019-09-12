@@ -18,6 +18,12 @@ compton &
 # Start pavucontrol
 pauvcontrol &
 
+# Setup Terminal defaults in window manager scope
+source $HOME/.zshrc &
+
+# Build i3 config
+$HOME/.local/bin/build_i3_config
+
 # Launch Chromium
 chromium &
 
@@ -26,15 +32,6 @@ firefox &
 
 # Terminal Setup
 kitty &
-
-# Launch USBGuard
-usbguard-applet-qt &
-
-# Setup Terminal defaults in window manager scope
-source $HOME/.zshrc &
-
-# Build i3 config
-source $HOME/.local/bin/build_i3_config &
 
 # Start USBGuard
 usbguard-applet-qt &
