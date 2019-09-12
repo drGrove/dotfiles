@@ -21,9 +21,6 @@ pauvcontrol &
 # Setup Terminal defaults in window manager scope
 source $HOME/.zshrc &
 
-# Build i3 config
-$HOME/.local/bin/build_i3_config
-
 # Launch Chromium
 chromium &
 
@@ -32,6 +29,9 @@ firefox &
 
 # Terminal Setup
 kitty &
+
+# Build i3 config
+$HOME/.local/bin/build_i3_config
 
 # Start USBGuard
 usbguard-applet-qt &
