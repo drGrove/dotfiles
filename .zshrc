@@ -75,6 +75,7 @@ alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
 alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
+alias ctx="kubectl config use-context"
 
 [ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$(cat /etc/hostname)" "$HOME/.host_config/current"
 [ -d "$HOME/.host_config/current/bin" ] && export PATH=$PATH:"$HOME/.host_config/current/bin"
