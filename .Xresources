@@ -1,5 +1,16 @@
+#ifndef DPI
+  #ifdef SRVR_covenant
+    #define DPI 276
+  #endif
+#endif
+
+! Deal with all other hostnames
+#ifndef DPI
+  #define DPI 96
+#endif
+
 Xcursor.size: 32
-Xft.dpi: 96
+Xft.dpi: DPI
 Xft.autohint: 0
 Xft.hintstyle: hintfull
 Xft.hinting: 1
