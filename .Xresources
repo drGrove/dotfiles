@@ -2,6 +2,9 @@
   #ifdef SRVR_covenant
     #define DPI 276
   #endif
+  #ifdef SRVR_neuromancer
+    #define DPI 164
+  #endif
 #endif
 
 ! Deal with all other hostnames
