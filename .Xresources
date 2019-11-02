@@ -4,12 +4,17 @@
   #endif
   #ifdef SRVR_neuromancer
     #define DPI 164
+  #ifdef SRVR_tardis
+    #define CURSOR_SIZE 20
   #endif
 #endif
 
 ! Deal with all other hostnames
 #ifndef DPI
   #define DPI 96
+#endif
+#ifndef CURSOR_SIZE
+  #define CURSOR_SIZE 16
 #endif
 
 Xcursor.size: 32
