@@ -77,7 +77,9 @@ alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/co
 alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
 alias ctx="kubectl config use-context"
 
-[ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$(cat /etc/hostname)" "$HOME/.host_config/current"
+hostname=$(cat /etc/hostname 2>/dev/null || echo $HOST)
+if [ -d  "$HOME/.host_config/$hostname" ]; then
+[ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$hostname" "$HOME/.host_config/current"
 [ -d "$HOME/.host_config/current/bin" ] && export PATH=$PATH:"$HOME/.host_config/current/bin"
 if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
   echo "Generating a local copy of your encrypted file..."
@@ -85,5 +87,5 @@ if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
 fi
 [ -f "$HOME/.host_config/ALL/config.sh" ] && source "$HOME/.host_config/ALL/config.sh"
 [ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
-
+fi
 export DOCKER_CONTENT_TRUST=1
