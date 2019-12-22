@@ -76,6 +76,7 @@ alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
 alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
 alias ctx="kubectl config use-context"
+alias k9s="TERM=xterm-256color $(which k9s)"
 
 hostname=$(cat /etc/hostname 2>/dev/null || echo $HOST)
 if [ -d  "$HOME/.host_config/$hostname" ]; then

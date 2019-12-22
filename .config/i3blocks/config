@@ -39,7 +39,7 @@ interval=10
 min_width=.
 
 [bandwidth]
-interval=5
+interval=2
 
 [cpu_usage]
 label= 
