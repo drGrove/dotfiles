@@ -1,6 +1,7 @@
 #ifndef DPI
   #ifdef SRVR_covenant
     #define DPI 276
+    #define ROFI_FONT hack 32
   #endif
   #ifdef SRVR_neuromancer
     #define DPI 164
@@ -16,6 +17,9 @@
 #endif
 #ifndef CURSOR_SIZE
   #define CURSOR_SIZE 16
+#endif
+#ifndef ROFI_FONT_SIZE
+  #define ROFI_FONT_SIZE hack 12
 #endif
 
 Xcursor.size: CURSOR_SIZE
@@ -78,7 +82,7 @@ rofi.color-active: #000000, #80cbc4, #273238, #394249, #80cbc4
 rofi.color-urgent: #000000, #ff1844, #273238, #394249, #ff1844
 
 
-rofi.font: hack 12
+rofi.font: ROFI_FONT
 rofi.separator-style: solid
 rofi.sidebar-mode: false
 rofi.lines: 5
