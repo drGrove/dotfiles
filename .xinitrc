@@ -34,8 +34,8 @@ firefox &
 # Terminal Setup
 kitty &
 
-# Start USBGuard
-usbguard-applet-qt &
+# Start Dunst
+dunst &
 
 # Start Window Manager
 exec i3

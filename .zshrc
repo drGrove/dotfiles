@@ -7,7 +7,7 @@ plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git)
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/groved/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -69,11 +69,11 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias source-host-config="source $HOME/.host_config/$(cat /etc/hostname)/config.sh"
-alias cd-host-config="cd $HOME/.host_config/$(cat /etc/hostname)/"
+alias source-host-config="source $HOME/.host_config/$HOSTNAME/config.sh"
+alias cd-host-config="cd $HOME/.host_config/$HOSTNAME/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
-alias regen-host-config="gpg --output $HOME/.host_config/$(cat /etc/hostname)/config.sh -dq $HOME/.host_config/$(cat /etc/hostname)/config.sh.gpg"
+alias regen-host-config="gpg --output $HOME/.host_config/$HOSTNAME/config.sh -dq $HOME/.host_config/$HOSTNAME/config.sh.gpg"
 alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
 alias ctx="kubectl config use-context"
 alias k9s="TERM=xterm-256color $(which k9s)"
