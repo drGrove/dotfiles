@@ -1,9 +1,12 @@
 [submodule ".vim"]
     path = .vim
-    url = git://github.com/drGrove/dotvim.git
+    url = git@github.com:drGrove/dotvim
 [submodule ".oh-my-zsh"]
     path = .oh-my-zsh
     url = git://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".nvm"]
 	path = .nvm
 	url = https://github.com/creationix/nvm
+[submodule ".zsh_custom/themes/odin"]
+	path = .zsh_custom/themes/odin
+	url = git@github.com:drGrove/odin
