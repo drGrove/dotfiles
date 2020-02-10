@@ -5,6 +5,7 @@
   #endif
   #ifdef SRVR_neuromancer
     #define DPI 164
+    #define ROFI_FONT hack 20
   #endif
   #ifdef SRVR_tardis
     #define CURSOR_SIZE 20
@@ -20,7 +21,7 @@
   #define CURSOR_SIZE 16
 #endif
 #ifndef ROFI_FONT
-  #define ROFI_FONT_SIZE hack 12
+  #define ROFI_FONT hack 12
 #endif
 
 Xcursor.size: CURSOR_SIZE
