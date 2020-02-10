@@ -8,6 +8,7 @@
   #endif
   #ifdef SRVR_tardis
     #define CURSOR_SIZE 20
+    #define ROFI_FONT hack 12
   #endif
 #endif
 
@@ -18,7 +19,7 @@
 #ifndef CURSOR_SIZE
   #define CURSOR_SIZE 16
 #endif
-#ifndef ROFI_FONT_SIZE
+#ifndef ROFI_FONT
   #define ROFI_FONT_SIZE hack 12
 #endif
 
