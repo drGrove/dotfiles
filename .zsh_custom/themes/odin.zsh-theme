@@ -1,0 +1,1 @@
+/home/user/.zsh_custom/themes/odin/odin.zsh-theme

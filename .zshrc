@@ -1,4 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
+ZSH_CUSTOM="$HOME/.zsh_custom"
 ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
