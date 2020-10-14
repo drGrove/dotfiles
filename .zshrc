@@ -5,6 +5,7 @@ DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git)
+setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
@@ -91,3 +92,4 @@ fi
 [ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
 fi
 export DOCKER_CONTENT_TRUST=1
+export XDG_CONFIG_HOME="$HOME/.config"
