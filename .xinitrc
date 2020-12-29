@@ -17,7 +17,7 @@ host_config="$HOME/.host_config/$(cat /etc/hostname)"
 gpg-connect-agent updatestartuptty /bye
 
 # Start compositer
-compton &
+picom --config $HOME/.config/i3/compton.conf &
 
 # Start pavucontrol
 pauvcontrol &
