@@ -1,0 +1,9 @@
+#! /bin/zsh
+
+echo "Forcefully killing gpg-agent with sudo"
+while true; do
+  sudo killall gpg-agent > /dev/null 2>&1 || break;
+done
+
+gpg-connect-agent killagent /bye
+gpg-connect-agent updatestartuptty /bye
