@@ -35,4 +35,8 @@
 [pull]
 	ff = only
 [diff "sopsdiffer"]
-	textconv = sops -d
+  textconv = sops -d
+[remote "origin"]
+  fetch = +refs/pull/*/head:refs/remotes/origin/refs/pull/*/head
+[init]
+	defaultBranch = main
