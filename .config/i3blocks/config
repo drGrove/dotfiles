@@ -2,6 +2,26 @@ command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=25
 markup=none
 
+[crypto_ticker]
+label=
+instance=BTC
+interval=30
+
+[crypto_ticker]
+label=ꜩ
+instance=XTZ
+interval=30
+
+[crypto_ticker]
+label=ɱ
+instance=XMR
+interval=30
+
+[crypto_ticker]
+label=Ƶ
+instance=ZEC
+interval=30
+
 [volume]
 label= 
 instance=Master

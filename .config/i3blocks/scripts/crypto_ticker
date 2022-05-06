@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Copyright (C) 2022 Danny Grove <danny@drgrovellc.com>
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#------------------------------------------------------------------------
+
+COIN="${BLOCK_INSTANCE:-BTC}"
+
+raw_data=$( \
+	curl -s "https://production.api.coindesk.com/v2/tb/price/ticker?assets=$COIN" | \
+  jq ".data.${COIN}.ohlc.c, .data.${COIN}.change.value"
+)
+
+IFS=$'\n' read -d '' -r -a data <<<"$raw_data"
+
+price=${data[0]}
+change=${data[1]}
+
+printf " $%.2f\n" "$price"
+echo ""
+
+if [ $change > 0 ]; then
+  echo \#FF0000
+elif [ $change <  0 ]; then
+  echo \#00FF00
+else
+  echo \#0000FF
+fi
