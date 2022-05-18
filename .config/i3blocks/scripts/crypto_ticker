@@ -21,7 +21,7 @@ COIN="${BLOCK_INSTANCE:-BTC}"
 
 raw_data=$( \
 	curl -s "https://production.api.coindesk.com/v2/tb/price/ticker?assets=$COIN" | \
-  jq ".data.${COIN}.ohlc.c, .data.${COIN}.change.value"
+  jq ".data.${COIN}.ohlc.c, .data.${COIN}.change.percent"
 )
 
 IFS=$'\n' read -d '' -r -a data <<<"$raw_data"
@@ -29,13 +29,13 @@ IFS=$'\n' read -d '' -r -a data <<<"$raw_data"
 price=${data[0]}
 change=${data[1]}
 
-printf " $%.2f\n" "$price"
+printf " $%.2f  %.2f%%\n" "$price" "$change"
 echo ""
 
-if [ $change > 0 ]; then
+if [[ (($change < 0.000000)) ]]; then
   echo \#FF0000
-elif [ $change <  0 ]; then
+elif [[ (($change > 0.000000)) ]]; then
   echo \#00FF00
 else
-  echo \#0000FF
+  echo \#FFFFFF
 fi
