@@ -9,4 +9,4 @@ rm -f "$SSH_AUTH_SOCK"
 umask 177
 socat \
   "UNIX-LISTEN:${SSH_AUTH_SOCK},fork" \
-  "EXEC:qrexec-client-vm ${QUBES_GPG_DOMAIN} qubes.SshAgent"
+  "EXEC:qrexec-client-vm ${SSH_VAULT_VM} qubes.SshAgent"
