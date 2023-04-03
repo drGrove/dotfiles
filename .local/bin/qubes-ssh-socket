@@ -1,0 +1,12 @@
+#!/bin/bash
+set -ex
+
+export SSH_VAULT_VM="${QUBES_GPG_DOMAIN:-vault}"
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.${QUBES_GPG_DOMAIN}.ssh"
+
+rm -f "$SSH_AUTH_SOCK"
+
+umask 177
+socat \
+  "UNIX-LISTEN:${SSH_AUTH_SOCK},fork" \
+  "EXEC:qrexec-client-vm ${QUBES_GPG_DOMAIN} qubes.SshAgent"

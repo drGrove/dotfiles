@@ -11,6 +11,9 @@ source $ZSH/oh-my-zsh.sh
 # Path to your oh-my-zsh installation.
 export ZSH=/home/$USER/.oh-my-zsh
 
+# Local bin takes precidence
+export PATH="$HOME/.local/bin:$PATH"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -93,3 +96,12 @@ fi
 fi
 export DOCKER_CONTENT_TRUST=1
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# Apply QubesOS specific configuration
+if command -v qubesdb-read &> /dev/null; then
+	export QUBES_GPG_DOMAIN="vault";
+  export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.${QUBES_GPG_DOMAIN}.ssh"
+	git config --global gpg.program qubes-gpg-client-wrapper;
+	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg
+	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg2
+fi
