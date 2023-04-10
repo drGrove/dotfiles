@@ -22,6 +22,11 @@ label=Ƶ
 instance=ZEC
 interval=30
 
+[crypto_ticker]
+label=⟠
+instance=ETH
+interval=30
+
 [volume]
 label= 
 instance=Master
