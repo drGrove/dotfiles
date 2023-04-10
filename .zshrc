@@ -4,7 +4,7 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git)
+plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git dotenv pipenv)
 setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
 
