@@ -105,3 +105,4 @@ if command -v qubesdb-read &> /dev/null; then
 	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg
 	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg2
 fi
+alias vim="nvim"
