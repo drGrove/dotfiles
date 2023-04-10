@@ -10,3 +10,6 @@
 [submodule ".zsh_custom/themes/odin"]
 	path = .zsh_custom/themes/odin
 	url = git@github.com:drGrove/odin
+[submodule "/home/groved/.config/nvim/site/pack/packer/start/packer.nvim"]
+	path = /home/groved/.config/nvim/site/pack/packer/start/packer.nvim
+	url = https://github.com/wbthomason/packer.nvim
