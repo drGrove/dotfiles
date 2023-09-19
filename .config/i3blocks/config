@@ -47,14 +47,24 @@ label=  /
 instance=/
 interval=30
 
+[disk]
+label=  media 
+instance=/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media/
+interval=30
+
 [iface]
-label= 
+label=  
 interval=10
+separator=true
+
+[iface_external]
+label= 
+interval=100
 separator=true
 
 [essid]
 label= 
-instance=wlp2s0
+instance=enp0s31f6
 interval=5
 
 [wifi]
