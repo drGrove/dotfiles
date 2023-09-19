@@ -53,7 +53,7 @@ instance=/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media/
 interval=30
 
 [iface]
-label=  
+label=🖧 
 interval=10
 separator=true
 
