@@ -40,4 +40,6 @@
 [remote "origin"]
   fetch = +refs/pull/*/head:refs/remotes/origin/refs/pull/*/head
 [init]
-	defaultBranch = main
+  defaultBranch = main
+[includeIf "gitdif:~/code/github.com/tkhq/"]
+  path = ~/.gitconfig-tkhq
