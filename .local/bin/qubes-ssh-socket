@@ -2,7 +2,7 @@
 set -ex
 
 export SSH_VAULT_VM="${QUBES_GPG_DOMAIN:-vault}"
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.${QUBES_GPG_DOMAIN}.ssh"
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.${SSH_VAULT_VM}.ssh"
 
 rm -f "$SSH_AUTH_SOCK"
 
