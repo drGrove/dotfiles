@@ -100,3 +100,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # compdef gpg2=gpg
 
+alias vim="nvim"
