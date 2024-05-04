@@ -1,29 +1,3 @@
--- [[ plug.lua ]]
--- return require('packer').startup(function(use)
---   -- Packer can manage itself
--- 
---   -- [[ Dev ]]
---   use {
---     'nvim-telescope/telescope.nvim',                 -- fuzzy finder
---     requires = { {'nvim-lua/plenary.nvim'} }
---   }
---   use { 'majutsushi/tagbar' }                        -- code structure
---   use { 'Yggdroot/indentLine' }                      -- see indentation
---   use { 'tpope/vim-fugitive' }                       -- git integration
---   use { 'junegunn/gv.vim' }                          -- commit history
---   use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
--- 
---   -- [[ Languages ]]
---   use { 'google/vim-jsonnet' }
---   use { 'jamessan/vim-gnupg' }
---   
---   -- Automatically set up your configuration after cloning packer.nvim
---   if packer_bootstrap then
---     require('packer').sync()
---   end
--- end)
---
---
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   vim.fn.system({
