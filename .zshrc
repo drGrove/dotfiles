@@ -61,6 +61,8 @@ fi
 
 export TERM=xterm-256color
 
+export HOSTNAME=${HOSTNAME:-$(hostnamectl hostname)}
+
 alias source-host-config="source $HOME/.host_config/$HOSTNAME/config.sh"
 alias cd-host-config="cd $HOME/.host_config/$HOSTNAME/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
