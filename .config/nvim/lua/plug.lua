@@ -1,57 +1,85 @@
 -- [[ plug.lua ]]
---
--- local ensure_packer = function()
---   local fn = vim.fn
---   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
---   if fn.empty(fn.glob(install_path)) > 0 then
---     fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
---     vim.cmd [[packadd packer.nvim]]
---     return true
---   end
---   return false
--- end
+-- return require('packer').startup(function(use)
+--   -- Packer can manage itself
 -- 
--- local packer_bootstrap = ensure_packer()
+--   -- [[ Dev ]]
+--   use {
+--     'nvim-telescope/telescope.nvim',                 -- fuzzy finder
+--     requires = { {'nvim-lua/plenary.nvim'} }
+--   }
+--   use { 'majutsushi/tagbar' }                        -- code structure
+--   use { 'Yggdroot/indentLine' }                      -- see indentation
+--   use { 'tpope/vim-fugitive' }                       -- git integration
+--   use { 'junegunn/gv.vim' }                          -- commit history
+--   use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
+-- 
+--   -- [[ Languages ]]
+--   use { 'google/vim-jsonnet' }
+--   use { 'jamessan/vim-gnupg' }
+--   
+--   -- Automatically set up your configuration after cloning packer.nvim
+--   if packer_bootstrap then
+--     require('packer').sync()
+--   end
+-- end)
+--
+--
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
-return require('packer').startup(function(use)
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
-
-  -- [[ Editor ]]
-  use {                                              -- filesystem navigation
-    'kyazdani42/nvim-tree.lua',
-    requires = 'kyazdani42/nvim-web-devicons'        -- filesystem icons
-  }
-  use { 'gpanders/editorconfig.nvim' }
-  use { 'b0o/mapx.nvim' }
-
-  -- [[ Theme ]]
-  use { 'mhinz/vim-startify' }                       -- start screen
-  use { 'DanilaMihailov/beacon.nvim' }               -- cursor jump
-  use {
-    'nvim-lualine/lualine.nvim',                     -- statusline
-    requires = {'kyazdani42/nvim-web-devicons',
-                opt = true}
-  }
-  use { 'folke/tokyonight.nvim' }
-
+local plugins = {
+  -- [Editor]
+  "b0o/mapx.nvim",
+  "gpanders/editorconfig.nvim",
+  -- [Theme]
+  -- the colorscheme should be available when starting Neovim
+  {
+    "folke/tokyonight.nvim",
+    lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    priority = 1000, -- make sure to load this before all the other start plugins
+    config = function()
+      -- load the colorscheme here
+      vim.cmd([[colorscheme tokyonight]])
+    end,
+  },
+  "mhinz/vim-startify",
+  "DanilaMihailov/beacon.nvim",
+  {
+    "kyazdani42/nvim-tree.lua",
+    dependencies = {
+      "kyazdani42/nvim-web-devicons"
+    }
+  },
+  {
+    "nvim-lualine/lualine.nvim",
+    dependencies = {
+      "kyazdani42/nvim-web-devicons"
+    }
+  },
   -- [[ Dev ]]
-  use {
-    'nvim-telescope/telescope.nvim',                 -- fuzzy finder
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
-  use { 'majutsushi/tagbar' }                        -- code structure
-  use { 'Yggdroot/indentLine' }                      -- see indentation
-  use { 'tpope/vim-fugitive' }                       -- git integration
-  use { 'junegunn/gv.vim' }                          -- commit history
-  use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
-
-  -- [[ Languages ]]
-  use { 'google/vim-jsonnet' }
-  use { 'jamessan/vim-gnupg' }
+  {
+    "nvim-telescope/telescope.nvim",         -- fuzzy finder
+    dependencies = {"nvim-lua/plenary.nvim"}
+  },
+  "majutsushi/tagbar",                       -- code structure
+  "Yggdroot/indentLine",                     -- see indentation
+  "tpope/vim-fugitive",                      -- git integration
+  "junegunn/gv.vim",                         -- commit history
+  "windwp/nvim-autopairs",                   -- auto close brackets, etc.
   
-  -- Automatically set up your configuration after cloning packer.nvim
-  if packer_bootstrap then
-    require('packer').sync()
-  end
-end)
+  -- [[ Languages ]]
+  "google/vim-jsonnet",
+  "jamessan/vim-gnupg",
+}
+
+require("lazy").setup(plugins, opts)
