@@ -1,6 +1,6 @@
 [user]
-	name = Danny Grove
-	email = danny@drgrovellc.com
+  name = Danny Grove
+  email = danny@dannygrove.com
 	signingkey = C92FE5A3FBD58DD3EC5AA26BB10116B8193F2DBD
 [color]
 	ui = true
@@ -41,5 +41,5 @@
   fetch = +refs/pull/*/head:refs/remotes/origin/refs/pull/*/head
 [init]
   defaultBranch = main
-[includeIf "gitdif:~/code/github.com/tkhq/"]
-  path = ~/.gitconfig-tkhq
+[include]
+  path = ~/.host_config/current/gitconfig

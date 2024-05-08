@@ -1,0 +1,4 @@
+[user]
+	email = danny@manifestcyber.com
+[gpg]
+	program = qubes-gpg-client-wrapper
