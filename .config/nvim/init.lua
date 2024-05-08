@@ -91,8 +91,28 @@ end)
 -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guide/integrate-with-mason-nvim.md
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {},
-  handlers = {
+  ensure_installed = {
+    'autotools_ls', -- make
+    'cmake', -- cmake
+    'dockerls', -- docker
+    'gopls', -- go
+    'jedi_language_server', -- python
+    'jqls', -- jq
+    'jsonnet_ls', -- jsonnet
+    'kotlin_language_server', -- kotlin
+    'lua_ls', -- lua
+    'rust_analyzer', -- rust
+    'sqls', -- sql
+    'taplo', -- toml
+    'terraformls', -- terraform
+    'tflint', -- terraform
+    'tsserver', -- typescript
+    'vimls', -- vim
+    'yamlls', -- yaml
+    'zk', -- markdown
+    'zls', -- zig
+  },
+  handlers = { 
     function(server_name)
       require('lspconfig')[server_name].setup({})
     end,
