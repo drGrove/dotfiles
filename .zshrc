@@ -60,7 +60,7 @@ if [ -d $HOME/.shellrc/zshrc.d ]; then
 fi
 
 export TERM=xterm-256color
-
+export XDG_CONFIG_HOME="$HOME/.config"
 export HOSTNAME=${HOSTNAME:-$(hostname)}
 
 alias source-host-config="source $HOME/.host_config/$HOSTNAME/config.sh"
@@ -68,8 +68,6 @@ alias cd-host-config="cd $HOME/.host_config/$HOSTNAME/"
 alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$HOSTNAME/config.sh -dq $HOME/.host_config/$HOSTNAME/config.sh.gpg"
-alias docker-rm-exited="docker rm $(docker ps -a | grep 'Exited' | awk '{ print $1 }')"
-alias ctx="kubectl config use-context"
 
 hostname=$(cat /etc/hostname 2>/dev/null || echo $HOST)
 if [ -d  "$HOME/.host_config/$hostname" ]; then
@@ -82,24 +80,6 @@ fi
 [ -f "$HOME/.host_config/ALL/config.sh" ] && source "$HOME/.host_config/ALL/config.sh"
 [ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
 fi
-export DOCKER_CONTENT_TRUST=1
-export XDG_CONFIG_HOME="$HOME/.config"
-
-# Apply QubesOS specific configuration
-if command -v qubesdb-read &> /dev/null; then
-	export QUBES_GPG_DOMAIN="vault";
-  export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR:-/var/run/user/$(id -u)}/gnupg/S.gpg-agent.${QUBES_GPG_DOMAIN}.ssh"
-	git config --global gpg.program qubes-gpg-client-wrapper;
-	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg
-	ln -sf /bin/qubes-gpg-client-wrapper ~/.local/bin/gpg2
-fi
 
 alias jrnl=" jrnl"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # compdef gpg2=gpg
-
-alias vim="nvim"
