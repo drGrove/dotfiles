@@ -11,6 +11,129 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+function flatten(v)
+  local res = {}
+  local function flatten(v)
+    if type(v) ~= "table" then
+      table.insert(res,v)
+      return
+    end
+    for _, v in ipairs(v) do
+      flatten(v)
+    end
+  end
+  flatten(v)
+  return res
+end
+
+function get_lsp()
+  local docker = {
+    'dockerls',
+  }
+
+  local make = {
+    'autotools_ls',
+    'cmake',
+  }
+
+  local python = {
+    'jedi_lan'
+  }
+
+  local go = {
+    'gopls',
+  }
+
+  local yaml = {
+    'yamlls',
+  }
+
+  local jq = {
+    'jqls',
+  }
+
+  local terraform = {
+    'tflint',
+    'terraformls',
+  }
+
+  local jsonnet = {
+    'jsonnet_ls', -- jsonnet
+  }
+  local kotlin = {
+    'kotlin_language_server', -- kotlin
+  }
+
+  local lua = {
+    'lua_ls', -- lua
+  }
+
+  local rust = {
+    'rust_analyzer', -- rust
+  }
+
+  local js = {
+    'tsserver', -- typescript
+  }
+
+  local sql = {
+    'sqls', -- sql
+  }
+
+  local zig = {
+    'zls', -- zig
+  }
+
+  local text = {
+    'taplo', -- toml
+    'vimls', -- vim
+    'yamlls', -- yaml
+    'zk', -- markdown
+  }
+
+  local final = {}
+
+  if vim.env.HOSTNAME == "manifest-cyber" then
+    return flatten({
+      docker,
+      js,
+      lua,
+      terraform,
+      text,
+      yaml,
+    })
+  elseif vim.env.HOSTNAME == "personal" then
+    return flatten({
+      docker,
+      js,
+      lua,
+      terraform,
+      text,
+      yaml,
+    })
+  elseif vim.env.HOSTNAE == "tardis" then
+    return flatten({
+      docker,
+      go,
+      jq,
+      js,
+      jsonnet,
+      kotlin,
+      lua,
+      make,
+      python,
+      rust,
+      sql,
+      terraform,
+      text,
+      yaml,
+      zig,
+    })
+  end
+end
+
+
+
 local plugins = {
   -- [Theme]
   -- the colorscheme should be available when starting Neovim
@@ -167,27 +290,7 @@ local plugins = {
       -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guide/integrate-with-mason-nvim.md
       require('mason').setup({})
       require('mason-lspconfig').setup({
-        ensure_installed = {
-          'autotools_ls', -- make
-          'cmake', -- cmake
-          'dockerls', -- docker
-          'gopls', -- go
-          'jedi_language_server', -- python
-          'jqls', -- jq
-          'jsonnet_ls', -- jsonnet
-          'kotlin_language_server', -- kotlin
-          'lua_ls', -- lua
-          'rust_analyzer', -- rust
-          'sqls', -- sql
-          'taplo', -- toml
-          'terraformls', -- terraform
-          'tflint', -- terraform
-          'tsserver', -- typescript
-          'vimls', -- vim
-          'yamlls', -- yaml
-          'zk', -- markdown
-          'zls', -- zig
-        },
+        ensure_installed = get_lsp(),
         handlers = {
           function(server_name)
             require('lspconfig')[server_name].setup({})
