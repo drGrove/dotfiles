@@ -61,7 +61,12 @@ fi
 
 export TERM=xterm-256color
 export XDG_CONFIG_HOME="$HOME/.config"
-export HOSTNAME=${HOSTNAME:-$(hostname)}
+if command -v hostname > /dev/null; then
+  export HOSTNAME=${HOSTNAME:-$(hostname)}
+fi
+if command -v hostnamectl > /dev/null; then
+  export HOSTNAME=${HOSTNAME:-$(hostnamectl hostname)}
+fi
 
 alias source-host-config="source $HOME/.host_config/$HOSTNAME/config.sh"
 alias cd-host-config="cd $HOME/.host_config/$HOSTNAME/"
