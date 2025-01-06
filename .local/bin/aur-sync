@@ -1,0 +1,4 @@
+#!/bin/bash
+
+grep -Fxf <(pacman -Qq) <(pacman -Slq aur) > installed.txt
+xargs -a installed.txt aur sync
