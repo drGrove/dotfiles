@@ -1,4 +1,4 @@
-export EDITOR=vim
+export EDITOR=nvim
 export TZ='America/Los_Angeles'
 export BROWSER='chromium'
 export GOPATH=$HOME/.go
