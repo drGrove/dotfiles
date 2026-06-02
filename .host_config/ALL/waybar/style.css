@@ -1,0 +1,42 @@
+* {
+    font-family: "Hack", "Font Awesome 5 Free", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #ffffff;
+    border-top: 1px solid #222;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #888;
+    background: transparent;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: #8b0000;
+}
+
+#workspaces button.urgent {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+#window {
+    color: #cccccc;
+}
+
+#clock,
+#tray,
+.modules-right > widget > * {
+    padding: 0 8px;
+}
+
+.modules-right .module {
+    margin: 0 2px;
+}

@@ -1,0 +1,100 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 28,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": [
+        "custom/volume",
+        "custom/memory",
+        "custom/disk-home",
+        "custom/disk-root",
+        "custom/disk-media",
+        "custom/iface",
+        "custom/iface-external",
+        "custom/essid",
+        "custom/wifi",
+        "custom/bandwidth",
+        "custom/cpu",
+        "custom/load",
+        "custom/battery",
+        "custom/temperature",
+        "clock",
+        "tray"
+    ],
+    "hyprland/workspaces": {
+        "format": "{id}",
+        "on-click": "activate",
+        "sort-by-number": true
+    },
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 80
+    },
+    "clock": {
+        "format": " {:%Y-%m-%d %H:%M}",
+        "tooltip-format": "<tt>{calendar}</tt>"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 6
+    },
+    "custom/volume": {
+        "exec": "BLOCK_NAME=volume BLOCK_INSTANCE=Master ~/.config/i3blocks/scripts/volume",
+        "interval": 5,
+        "signal": 10
+    },
+    "custom/memory": {
+        "exec": "BLOCK_NAME=memory ~/.config/i3blocks/scripts/memory",
+        "interval": 30
+    },
+    "custom/disk-home": {
+        "exec": "BLOCK_NAME=disk ~/.config/i3blocks/scripts/disk",
+        "interval": 30
+    },
+    "custom/disk-root": {
+        "exec": "BLOCK_NAME=disk BLOCK_INSTANCE=/ ~/.config/i3blocks/scripts/disk",
+        "interval": 30
+    },
+    "custom/disk-media": {
+        "exec": "BLOCK_NAME=disk BLOCK_INSTANCE=/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media/ ~/.config/i3blocks/scripts/disk",
+        "interval": 30
+    },
+    "custom/iface": {
+        "exec": "BLOCK_NAME=iface ~/.config/i3blocks/scripts/iface",
+        "interval": 10
+    },
+    "custom/iface-external": {
+        "exec": "BLOCK_NAME=iface_external ~/.config/i3blocks/scripts/iface_external",
+        "interval": 100
+    },
+    "custom/essid": {
+        "exec": "BLOCK_NAME=essid BLOCK_INSTANCE=enp0s31f6 ~/.config/i3blocks/scripts/essid",
+        "interval": 5
+    },
+    "custom/wifi": {
+        "exec": "BLOCK_NAME=wifi BLOCK_INSTANCE=wlp2s0 ~/.config/i3blocks/scripts/wifi",
+        "interval": 10
+    },
+    "custom/bandwidth": {
+        "exec": "BLOCK_NAME=bandwidth ~/.config/i3blocks/scripts/bandwidth",
+        "interval": 2
+    },
+    "custom/cpu": {
+        "exec": "BLOCK_NAME=cpu_usage ~/.config/i3blocks/scripts/cpu_usage",
+        "interval": 10
+    },
+    "custom/load": {
+        "exec": "BLOCK_NAME=load_average ~/.config/i3blocks/scripts/load_average",
+        "interval": 10
+    },
+    "custom/battery": {
+        "exec": "BLOCK_NAME=battery ~/.config/i3blocks/scripts/battery",
+        "interval": 30
+    },
+    "custom/temperature": {
+        "exec": "BLOCK_NAME=temperature ~/.config/i3blocks/scripts/temperature",
+        "interval": 10
+    }
+}
