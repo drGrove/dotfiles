@@ -26,7 +26,7 @@ key 276
 # mouse button press to be sent instead. For example, `mouse 2` will
 # cause mouse 2, the scroll wheel click, to be sent to the
 # application.
-sym mouse 9
+sym Super_R
 
 # The `retry` directive indicates the amount of time to wait before
 # retrying a device when it has a potentially temporary error, such as

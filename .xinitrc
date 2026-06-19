@@ -1,6 +1,6 @@
 source setdpi
 
-export XSECURELOCK_PAM_SERVICE=xsecurelock
+source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 
 # Load Global X settings (Terminal config, fonts, etc)
 xrdb -merge ~/.Xresources
@@ -16,19 +16,11 @@ host_config="$HOME/.host_config/$(cat /etc/hostname)"
 # Set Wallpaper
 [[ -f "$HOME/.host_config/ALL/wallpapers.sh" ]] && $("$HOME/.host_config/ALL/wallpapers.sh")
 
-gpg-connect-agent updatestartuptty /bye
-
 # Start compositer
-picom --config $HOME/.config/i3/compton.conf &
-
-# Start pavucontrol
-pauvcontrol &
+picom --config %h/.config/i3/compton.conf &
 
 # Setup Terminal defaults in window manager scope
-source $HOME/.zshrc &
-
-# Launch Chromium
-chromium &
+source $HOME/.zshrc
 
 # Launch Firefox
 firefox &

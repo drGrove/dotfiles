@@ -4,14 +4,15 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-ZSH_TMUX_AUTOREFRESH="true"
 plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git pipenv)
 setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
 
+eval "$(register-python-argcomplete pipenv)"
+
 autoload -Uz compinit
 compinit -u
-
+#
 export KUSTOMIZE_PLUGIN_HOME=/opt/kustomize/
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -29,7 +30,7 @@ else
 
 fi
 export GPG_TTY=$(tty)
-gpg --card-status > /dev/null 2>&1
+# gpg --card-status > /dev/null 2>&1
 
 export PATH=$PATH:$HOME/.go/bin
 
@@ -53,14 +54,25 @@ export PATH=$PATH:$HOME/.go/bin
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-if [ -d $HOME/.shellrc/zshrc.d ]; then
-  for file in $HOME/.shellrc/zshrc.d/*.zsh; do
-    source $file
-  done
-fi
+# if [ -d $HOME/.shellrc/zshrc.d ]; then
+#   for file in $HOME/.shellrc/zshrc.d/*.zsh; do
+#     source $file
+#   done
+# fi
 
 export TERM=xterm-256color
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# Auto-discover Wayland socket so shells launched outside the compositor's env
+# propagation can still talk to Wayland tools (grim, hyprctl, wpctl, etc).
+if [ -z "$WAYLAND_DISPLAY" ] && [ -n "$XDG_RUNTIME_DIR" ]; then
+  for sock in "$XDG_RUNTIME_DIR"/wayland-*; do
+    [ -S "$sock" ] || continue
+    export WAYLAND_DISPLAY="${sock##*/}"
+    break
+  done
+fi
+
 if command -v hostname > /dev/null; then
   export HOSTNAME=${HOSTNAME:-$(hostname)}
 fi
@@ -74,18 +86,9 @@ alias set-wallpaper="bash $HOME/.host_config/ALL/wallpapers.sh"
 alias sourcerc="source $HOME/.zshrc"
 alias regen-host-config="gpg --output $HOME/.host_config/$HOSTNAME/config.sh -dq $HOME/.host_config/$HOSTNAME/config.sh.gpg"
 
-hostname=$(cat /etc/hostname 2>/dev/null || echo $HOST)
-if [ -d  "$HOME/.host_config/$hostname" ]; then
-[ ! -d "$HOME/.host_config/current" ] && ln -s "$HOME/.host_config/$hostname" "$HOME/.host_config/current"
-[ -d "$HOME/.host_config/current/bin" ] && export PATH=$PATH:"$HOME/.host_config/current/bin"
-if [ ! -f "$HOME/.host_config/current/config.sh" ]; then
-  echo "Generating a local copy of your encrypted file..."
-  regen-host-config
-fi
-[ -f "$HOME/.host_config/ALL/config.sh" ] && source "$HOME/.host_config/ALL/config.sh"
-[ -f "$HOME/.host_config/current/config.sh" ] && source "$HOME/.host_config/current/config.sh"
-fi
 
 alias jrnl=" jrnl"
+alias activate-local-gpg-agent="export SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent.ssh"
+alias activate-remote-gpg-agent="export SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent.remote.ssh"
 # compdef gpg2=gpg
 export DOCKER_CONTENT_TRUST=1

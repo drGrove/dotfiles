@@ -11,7 +11,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-function flatten(v)
+-- Remove trailing whitespace
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+  pattern = { "*" },
+  command = [[%s/\s\+$//e]],
+})
+
+local function flatten(v)
   local res = {}
   local function flatten(v)
     if type(v) ~= "table" then
@@ -26,19 +32,7 @@ function flatten(v)
   return res
 end
 
-local lsp_settings = {
-  helm_ls = {
-    settings = {
-      ['helm-ls'] = {
-        yamlls = {
-          path = "yaml-language-server",
-        }
-      }
-    }
-  }
-}
-
-function get_lsp()
+local function get_lsp()
   local docker = {
     'dockerls',
   }
@@ -221,28 +215,32 @@ local plugins = {
     end,
   },
   {
-    "kyazdani42/nvim-tree.lua",
+    "nvim-tree/nvim-tree.lua",
     dependencies = {
       "kyazdani42/nvim-web-devicons"
     },
+    lazy = false,
     config = function()
-      require('nvim-tree').setup({
-        respect_buf_cwd = true,
-        sort = {
-          sorter = "case_sensitive",
+      require('nvim-tree').setup {
+        auto_reload_on_write = true,
+        git  = {
+          enable = true,
         },
-        tab = {
-          sync = {
-            open = true,
-          }
+        modified = {
+          enable = true,
         },
         renderer = {
-          group_empty = true,
-        },
-        view = {
-          width = 30,
-        },
-      })
+          highlight_opened_files = "icon",
+          highlight_modified = "name",
+          highlight_git = true,
+          icons = {
+            show = {
+              git = true,
+            },
+          },
+        }
+      }
+      require('nvim-tree.api').tree.toggle({ focus = false, find_file = true });
     end,
   },
   {
@@ -314,15 +312,14 @@ local plugins = {
     branch = 'v3.x',
     dependencies = {
       -- LSP Support
-      {'neovim/nvim-lspconfig'},             -- Required
-      {'williamboman/mason.nvim'},           -- Optional
-      {'williamboman/mason-lspconfig.nvim'}, -- Optional
+      {'neovim/nvim-lspconfig'},
+      {'williamboman/mason.nvim'},
+      {'williamboman/mason-lspconfig.nvim'},
 
       -- Autocompletion
       {
         'hrsh7th/nvim-cmp',
         sources = {
-          -- { name = "copilot", group_index = 2 },
         },
       },         -- Required
       {'hrsh7th/cmp-nvim-lsp'},     -- Required
@@ -330,10 +327,11 @@ local plugins = {
       {'hrsh7th/cmp-path'},         -- Optional
       {'saadparwaiz1/cmp_luasnip'}, -- Optional
       {'hrsh7th/cmp-nvim-lua'},     -- Optional
+      {'diogo464/kubernetes.nvim'},
 
       -- Snippets
-      {'L3MON4D3/LuaSnip'},             -- Required
-      {'rafamadriz/friendly-snippets'}, -- Optional
+      {'L3MON4D3/LuaSnip'},
+      {'rafamadriz/friendly-snippets'},
     },
     config = function()
       local lsp_zero = require('lsp-zero')
