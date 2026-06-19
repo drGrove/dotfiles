@@ -1,42 +1,140 @@
+/* tardis waybar theme - black/white with 8b0000 accent matching the X11/i3 palette */
+
 * {
-    font-family: "Hack", "Font Awesome 5 Free", monospace;
-    font-size: 14px;
+    font-family: "BlexMono Nerd Font Mono", "FiraCode Nerd Font Mono", "Symbols Nerd Font", monospace;
+    font-size: 13px;
     min-height: 0;
 }
 
 window#waybar {
     background-color: #000000;
     color: #ffffff;
-    border-top: 1px solid #222;
+    border-top: 1px solid #1a1a1a;
 }
 
+/* Workspace pills */
+#workspaces {
+    margin: 0 6px 0 4px;
+    padding: 0;
+}
 #workspaces button {
     padding: 0 8px;
-    color: #888;
-    background: transparent;
+    margin: 3px 2px;
+    color: #888888;
+    background-color: transparent;
     border: none;
+    border-radius: 3px;
+    transition: background-color 120ms, color 120ms;
 }
-
+#workspaces button:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    box-shadow: none;
+    text-shadow: none;
+}
 #workspaces button.active {
     color: #ffffff;
     background-color: #8b0000;
 }
-
 #workspaces button.urgent {
-    color: #ffffff;
-    background-color: #ff0000;
+    color: #000000;
+    background-color: #ffaa00;
+}
+#workspaces button.empty {
+    color: #555555;
 }
 
+#submap {
+    padding: 0 10px;
+    margin: 3px 4px;
+    color: #ffffff;
+    background-color: #8b0000;
+    border-radius: 3px;
+}
+
+/* Window title */
 #window {
     color: #cccccc;
+    padding: 0 12px;
 }
 
-#clock,
+/* Right-side modules: shared box style */
+#idle_inhibitor,
+#pulseaudio,
+#bluetooth,
+#network,
+#cpu,
+#memory,
+#custom-load,
+#temperature,
+#disk,
+#battery,
+#custom-bandwidth,
+#custom-iface-external,
 #tray,
-.modules-right > widget > * {
-    padding: 0 8px;
+#clock {
+    padding: 0 10px;
+    margin: 3px 1px;
+    background-color: #0a0a0a;
+    color: #dddddd;
+    border-radius: 3px;
+}
+#clock {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin-right: 4px;
 }
 
-.modules-right .module {
-    margin: 0 2px;
+/* State classes */
+#memory.warning,
+#disk.warning,
+#temperature.warning,
+#battery.warning,
+#cpu.warning {
+    color: #ffaa00;
+}
+#memory.critical,
+#disk.critical,
+#temperature.critical,
+#battery.critical,
+#cpu.critical {
+    color: #ffffff;
+    background-color: #8b0000;
+}
+#battery.charging {
+    color: #88cc88;
+}
+
+#pulseaudio.muted {
+    color: #777777;
+}
+
+#network.disconnected {
+    color: #ff5555;
+}
+
+#bluetooth.disabled,
+#bluetooth.off {
+    color: #555555;
+}
+#bluetooth.connected {
+    color: #88aaff;
+}
+
+#idle_inhibitor.activated {
+    color: #ffaa00;
+}
+#idle_inhibitor.deactivated {
+    color: #777777;
+}
+
+/* Tooltip styling */
+tooltip {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    border: 1px solid #8b0000;
+    border-radius: 3px;
+}
+tooltip label {
+    padding: 4px;
 }

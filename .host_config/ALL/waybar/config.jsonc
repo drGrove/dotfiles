@@ -1,100 +1,170 @@
 {
     "layer": "top",
     "position": "bottom",
-    "height": 28,
-    "spacing": 4,
-    "modules-left": ["hyprland/workspaces"],
+    "height": 30,
+    "spacing": 0,
+
+    "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["hyprland/window"],
     "modules-right": [
-        "custom/volume",
-        "custom/memory",
-        "custom/disk-home",
-        "custom/disk-root",
-        "custom/disk-media",
-        "custom/iface",
-        "custom/iface-external",
-        "custom/essid",
-        "custom/wifi",
-        "custom/bandwidth",
-        "custom/cpu",
+        "idle_inhibitor",
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "cpu",
+        "memory",
         "custom/load",
-        "custom/battery",
-        "custom/temperature",
-        "clock",
-        "tray"
+        "temperature",
+        "disk#home",
+        "disk#root",
+        "disk#media",
+        "custom/iface-external",
+        "tray",
+        "clock"
     ],
+
     "hyprland/workspaces": {
         "format": "{id}",
         "on-click": "activate",
-        "sort-by-number": true
+        "sort-by-number": true,
+        "all-outputs": false
+    },
+    "hyprland/submap": {
+        "format": " {}",
+        "max-length": 16,
+        "tooltip": false
     },
     "hyprland/window": {
         "format": "{title}",
-        "max-length": 80
+        "max-length": 100,
+        "separate-outputs": true
     },
-    "clock": {
-        "format": " {:%Y-%m-%d %H:%M}",
-        "tooltip-format": "<tt>{calendar}</tt>"
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+        "tooltip-format-activated": "Idle inhibited (no sleep, no lock)",
+        "tooltip-format-deactivated": "Idle normal"
     },
-    "tray": {
-        "icon-size": 18,
-        "spacing": 6
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": " muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-click-right": "pavucontrol",
+        "tooltip-format": "{desc}\n{volume}%"
     },
-    "custom/volume": {
-        "exec": "BLOCK_NAME=volume BLOCK_INSTANCE=Master ~/.config/i3blocks/scripts/volume",
+
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "",
+        "format-off": "",
+        "format-on": "",
+        "format-connected": " {device_alias}",
+        "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "on-click": "blueman-manager"
+    },
+
+    "network": {
+        "interval": 2,
+        "format": "{ifname}",
+        "format-ethernet": "   {bandwidthDownBytes}  {bandwidthUpBytes}",
+        "format-wifi": " {essid}   {bandwidthDownBytes}  {bandwidthUpBytes}",
+        "format-disconnected": " offline",
+        "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}\nGW: {gwaddr}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)\n{ipaddr}/{cidr}",
+        "tooltip-format-disconnected": "No network",
+        "on-click-right": "kitty -e nmtui"
+    },
+
+    "cpu": {
         "interval": 5,
-        "signal": 10
+        "format": " {usage}%",
+        "tooltip-format": "{usage}% usage / {load} load",
+        "on-click": "kitty -e btop",
+        "states": {"warning": 75, "critical": 90}
     },
-    "custom/memory": {
-        "exec": "BLOCK_NAME=memory ~/.config/i3blocks/scripts/memory",
-        "interval": 30
-    },
-    "custom/disk-home": {
-        "exec": "BLOCK_NAME=disk ~/.config/i3blocks/scripts/disk",
-        "interval": 30
-    },
-    "custom/disk-root": {
-        "exec": "BLOCK_NAME=disk BLOCK_INSTANCE=/ ~/.config/i3blocks/scripts/disk",
-        "interval": 30
-    },
-    "custom/disk-media": {
-        "exec": "BLOCK_NAME=disk BLOCK_INSTANCE=/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media/ ~/.config/i3blocks/scripts/disk",
-        "interval": 30
-    },
-    "custom/iface": {
-        "exec": "BLOCK_NAME=iface ~/.config/i3blocks/scripts/iface",
-        "interval": 10
-    },
-    "custom/iface-external": {
-        "exec": "BLOCK_NAME=iface_external ~/.config/i3blocks/scripts/iface_external",
-        "interval": 100
-    },
-    "custom/essid": {
-        "exec": "BLOCK_NAME=essid BLOCK_INSTANCE=enp0s31f6 ~/.config/i3blocks/scripts/essid",
-        "interval": 5
-    },
-    "custom/wifi": {
-        "exec": "BLOCK_NAME=wifi BLOCK_INSTANCE=wlp2s0 ~/.config/i3blocks/scripts/wifi",
-        "interval": 10
-    },
-    "custom/bandwidth": {
-        "exec": "BLOCK_NAME=bandwidth ~/.config/i3blocks/scripts/bandwidth",
-        "interval": 2
-    },
-    "custom/cpu": {
-        "exec": "BLOCK_NAME=cpu_usage ~/.config/i3blocks/scripts/cpu_usage",
-        "interval": 10
+    "memory": {
+        "interval": 10,
+        "format": " {used:0.1f}G",
+        "tooltip-format": "{used:0.1f}G / {total:0.1f}G  ({percentage}%)",
+        "states": {"warning": 75, "critical": 90}
     },
     "custom/load": {
         "exec": "BLOCK_NAME=load_average ~/.config/i3blocks/scripts/load_average",
-        "interval": 10
+        "format": " {}",
+        "interval": 10,
+        "tooltip": false
     },
-    "custom/battery": {
-        "exec": "BLOCK_NAME=battery ~/.config/i3blocks/scripts/battery",
-        "interval": 30
+    "temperature": {
+        "interval": 5,
+        "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
+        "input-filename": "temp1_input",
+        "critical-threshold": 85,
+        "format": " {temperatureC}°",
+        "format-critical": " {temperatureC}°",
+        "tooltip-format": "CPU package: {temperatureC}°C"
     },
-    "custom/temperature": {
-        "exec": "BLOCK_NAME=temperature ~/.config/i3blocks/scripts/temperature",
-        "interval": 10
+    "disk#home": {
+        "interval": 60,
+        "path": "/home/groved",
+        "format": " {percentage_used}%",
+        "tooltip-format": "/home/groved\n{used} used / {total} total ({free} free)",
+        "states": {"warning": 80, "critical": 92}
+    },
+    "disk#root": {
+        "interval": 60,
+        "path": "/",
+        "format": " {percentage_used}%",
+        "tooltip-format": "/\n{used} used / {total} total ({free} free)",
+        "states": {"warning": 80, "critical": 92}
+    },
+    "disk#media": {
+        "interval": 120,
+        "path": "/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media",
+        "format": " {percentage_used}%",
+        "tooltip-format": "/media (...)/media\n{used} used / {total} total ({free} free)",
+        "states": {"warning": 85, "critical": 95}
+    },
+    "custom/iface-external": {
+        "exec": "BLOCK_NAME=iface_external ~/.config/i3blocks/scripts/iface_external",
+        "format": "",
+        "interval": 300,
+        "tooltip-format": "External IPv4: {}"
+    },
+    "clock": {
+        "format": " {:%a %Y-%m-%d  %H:%M}",
+        "format-alt": " {:%H:%M:%S}",
+        "tooltip-format": "<tt><big>{:%Y %B}</big></tt>\n<tt>{calendar}</tt>",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<span color='#ffffff'><b>{}</b></span>",
+                "days": "<span color='#cccccc'>{}</span>",
+                "weekdays": "<span color='#8b0000'><b>{}</b></span>",
+                "today": "<span color='#8b0000'><b>{}</b></span>"
+            }
+        }
+    },
+
+    "tray": {
+        "icon-size": 18,
+        "spacing": 8
     }
 }

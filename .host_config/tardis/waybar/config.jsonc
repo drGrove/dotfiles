@@ -1,0 +1,10 @@
+{
+    // Host-specific disk module for tardis (media array mount).
+    "disk#media": {
+        "interval": 120,
+        "path": "/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media",
+        "format": " {percentage_used}%",
+        "tooltip-format": "/media (...)/media\n{used} used / {total} total ({free} free)",
+        "states": {"warning": 85, "critical": 95}
+    }
+}
