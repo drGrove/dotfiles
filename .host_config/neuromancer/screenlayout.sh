@@ -1,1 +1,0 @@
-screenlayouts/2-screens.sh

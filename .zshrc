@@ -4,15 +4,15 @@ ZSH_THEME="odin"
 DEFAULT_USER="groved"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git dotenv pipenv)
+ZSH_TMUX_AUTOREFRESH="true"
+plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git pipenv)
 setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit
 compinit -u
 
-# Local bin takes precidence
-export PATH="$HOME/.local/bin:$PATH"
+export KUSTOMIZE_PLUGIN_HOME=/opt/kustomize/
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -88,3 +88,4 @@ fi
 
 alias jrnl=" jrnl"
 # compdef gpg2=gpg
+export DOCKER_CONTENT_TRUST=1

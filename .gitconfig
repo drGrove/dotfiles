@@ -28,6 +28,8 @@
 [diff "ansible-vault"]
   textconv = ansible-vault view
   cachetextconv = false
+[diff "sopsdiffer"]
+  textconv = sops decrypt
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -35,8 +37,6 @@
 	clean = git-lfs clean -- %f
 [pull]
 	ff = only
-[diff "sopsdiffer"]
-  textconv = sops -d
 [remote "origin"]
   fetch = +refs/pull/*/head:refs/remotes/origin/refs/pull/*/head
 [init]

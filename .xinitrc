@@ -1,5 +1,7 @@
 source setdpi
 
+export XSECURELOCK_PAM_SERVICE=xsecurelock
+
 # Load Global X settings (Terminal config, fonts, etc)
 xrdb -merge ~/.Xresources
 

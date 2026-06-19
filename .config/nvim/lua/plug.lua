@@ -26,6 +26,18 @@ function flatten(v)
   return res
 end
 
+local lsp_settings = {
+  helm_ls = {
+    settings = {
+      ['helm-ls'] = {
+        yamlls = {
+          path = "yaml-language-server",
+        }
+      }
+    }
+  }
+}
+
 function get_lsp()
   local docker = {
     'dockerls',
@@ -46,6 +58,10 @@ function get_lsp()
 
   local yaml = {
     'yamlls',
+  }
+
+  local helmls = {
+    'helm-ls'
   }
 
   local jq = {
@@ -93,9 +109,11 @@ function get_lsp()
 
   local final = {}
 
-  if vim.env.HOSTNAME == "manifest-cyber" then
+  if vim.env.HOSTNAME == "neuromancer" then
     return flatten({
       docker,
+      go,
+      helmls,
       js,
       lua,
       terraform,
@@ -135,6 +153,10 @@ end
 
 
 local plugins = {
+  -- [Lazy]
+  {
+    "LazyVim/LazyVim",
+  },
   -- [Theme]
   -- the colorscheme should be available when starting Neovim
   {
@@ -252,6 +274,36 @@ local plugins = {
     end,
   },
 
+  -- [[ AI ]]
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   cmd = "Copilot",
+  --   event = "InsertEnter",
+  --   config = function()
+  --     require("copilot").setup({
+  --       suggestion = { enabled = false },
+  --       panel = { enabled = false },
+  --     })
+  --   end,
+  --   filetypes = {
+  --     markdown = true,
+  --     go = true,
+  --     javascript = true,
+  --     typescript = true,
+  --     lua = true,
+  --   },
+  --   workspace_folders = {
+  --     "~/code/github.com/manifest-cyber/"
+  --   },
+  -- },
+  -- {
+  --   "zbirenbaum/copilot-cmp",
+  --   dependencies = { "copilot.lua" },
+  --   config = function()
+  --     require("copilot_cmp").setup()
+  --   end
+  -- },
+
   -- [[ Languages ]]
   "google/vim-jsonnet",
   "jamessan/vim-gnupg",
@@ -267,7 +319,12 @@ local plugins = {
       {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
       -- Autocompletion
-      {'hrsh7th/nvim-cmp'},         -- Required
+      {
+        'hrsh7th/nvim-cmp',
+        sources = {
+          -- { name = "copilot", group_index = 2 },
+        },
+      },         -- Required
       {'hrsh7th/cmp-nvim-lsp'},     -- Required
       {'hrsh7th/cmp-buffer'},       -- Optional
       {'hrsh7th/cmp-path'},         -- Optional
@@ -293,7 +350,10 @@ local plugins = {
         ensure_installed = get_lsp(),
         handlers = {
           function(server_name)
-            require('lspconfig')[server_name].setup({})
+            -- Convert hyphens to underscores for settings lookup
+            local settings_key = server_name:gsub("-", "_")
+            local settings = lsp_settings[settings_key] or {}
+            require('lspconfig')[server_name].setup(settings)
           end,
         },
       })
@@ -307,13 +367,47 @@ local plugins = {
           ['<C-Space>'] = cmp.mapping.complete(),
           ['<C-e>'] = cmp.mapping.abort(),
           ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept the currently selectd item.
-        })
+        }),
+        sources = {
+          -- Copilot sources
+          -- { name = "copilot", group_index = 2 },
+          -- Other sources
+          { name = "nvim_lsp", group_index = 2 },
+          { name = "path", group_index = 2 },
+          { name = "luasnip", group_index = 2 },
+        }
       })
     end,
+  },
+  -- yaml
+  {
+    "cuducos/yaml.nvim",
+    ft = { "yaml" }, -- optional
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "folke/snacks.nvim", -- optional
+      "nvim-telescope/telescope.nvim", -- optional
+      "ibhagwan/fzf-lua" -- optional
+    },
   },
    -- Treesitter
   {
     "nvim-treesitter/nvim-treesitter",
+    ensure_installed = { "go", "gptmpl" },
+    highlight = {
+      enable = true,
+    }
+  },
+  --- Markdown Preview
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+      vim.g.mkdp_browser = 'firefox'
+    end,
+    ft = { "markdown" },
   },
 }
 

@@ -2,73 +2,39 @@ command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=25
 markup=none
 
-[crypto_ticker]
-label=
-instance=BTC
-interval=30
-
-[crypto_ticker]
-label=ꜩ
-instance=XTZ
-interval=30
-
-[crypto_ticker]
-label=ɱ
-instance=XMR
-interval=30
-
-[crypto_ticker]
-label=Ƶ
-instance=ZEC
-interval=30
-
-[crypto_ticker]
-label=⟠
-instance=ETH
-interval=30
-
 [volume]
-label= 
+label=
 instance=Master
 interval=5
 signal=10
 
 [memory]
-label= 
+label=
 separator=true
 interval=30
 
 [disk]
-label=  ~ 
-interval=30
-
-[disk]
-label=  / 
+label=  /
 instance=/
 interval=30
 
-[disk]
-label=  media 
-instance=/media/52e0d7b2-475d-40b2-948f-255ebd8d4c5f/media/
-interval=30
-
 [iface]
-label=🖧 
+label=🖧
 interval=10
 separator=true
 
 [iface_external]
-label= 
+label=
 interval=100
 separator=true
 
 [essid]
-label= 
+label=
 instance=enp0s31f6
 interval=5
 
 [wifi]
-label= 
+label=
 instance=wlp2s0
 interval=10
 min_width=.
@@ -77,23 +43,22 @@ min_width=.
 interval=2
 
 [cpu_usage]
-label= 
+label=
 interval=10
 min_width=100.00%
 
 [load_average]
-label= 
+label=
 interval=10
 
 [battery]
-label= 
+label=
 interval=30
 
 [temperature]
-label= 
+label=
 interval=10
 
 [time]
-label= 
-command=TZ=$(timedatectl | grep 'Time zone' | awk '{ print $3 }') date '+%Y-%m-%d %H:%M'
+label=
 interval=5

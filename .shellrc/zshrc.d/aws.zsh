@@ -1,1 +1,1 @@
-alias aslp='aws sso login --profile'
+alias aslp='aws sso login --no-browser --use-device-code --profile'

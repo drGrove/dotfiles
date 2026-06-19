@@ -1,2 +1,4 @@
 *.gpg filter=gpg diff=gpg
 *.asc filter=gpg diff=gpg
+*.enc.yaml diff=sopsdiffer
+*.enc.ssm diff=sopsdiffer
