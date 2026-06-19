@@ -1,0 +1,45 @@
+{
+    // Host-specific waybar overrides for neuromancer (Framework Laptop 16).
+    //
+    // modules-right is redefined in full: waybar replaces arrays from earlier
+    // includes rather than merging them, so this drops tardis's disk#media
+    // (no media array on this host) and adds the laptop-only backlight + battery.
+    "modules-right": [
+        "idle_inhibitor",
+        "backlight",
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "cpu",
+        "memory",
+        "custom/load",
+        "temperature",
+        "disk#home",
+        "disk#root",
+        "custom/iface-external",
+        "battery",
+        "tray",
+        "clock"
+    ],
+
+    "backlight": {
+        "device": "amdgpu_bl1",
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-scroll-up": "brightnessctl set +5%",
+        "on-scroll-down": "brightnessctl set 5%-",
+        "tooltip": false
+    },
+
+    "battery": {
+        "interval": 30,
+        "bat": "BAT1",
+        "adapter": "ACAD",
+        "states": {"warning": 30, "critical": 15},
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{timeTo}  ({power}W)"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    // Live waybar config for neuromancer. Real (tracked) file that merges the
+    // shared bar with this host's overrides via includes.
+    //
+    // Order matters: waybar include precedence is first-wins (the earliest
+    // definition of a key is kept). The host file is listed FIRST so its
+    // modules-right / battery / backlight win, then ALL fills in everything
+    // else (modules-left/center, the shared module definitions, styling keys).
+    "include": [
+        "~/.host_config/current/waybar/config.jsonc",
+        "~/.host_config/ALL/waybar/config.jsonc"
+    ]
+}
