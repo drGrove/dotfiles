@@ -32,6 +32,8 @@ local function flatten(v)
   return res
 end
 
+local lsp_settings = {}
+
 local function get_lsp()
   local docker = {
     'dockerls',
@@ -43,7 +45,7 @@ local function get_lsp()
   }
 
   local python = {
-    'jedi_lan'
+    'jedi_language_server'
   }
 
   local go = {
@@ -83,7 +85,7 @@ local function get_lsp()
   }
 
   local js = {
-    'tsserver', -- typescript
+    'ts_ls', -- typescript
   }
 
   local sql = {
@@ -123,9 +125,8 @@ local function get_lsp()
       text,
       yaml,
     })
-  elseif vim.env.HOSTNAE == "tardis" then
+  elseif vim.env.HOSTNAME == "tardis" then
     return flatten({
-      docker,
       go,
       jq,
       js,
@@ -271,36 +272,6 @@ local plugins = {
       require('nvim-autopairs').setup{}
     end,
   },
-
-  -- [[ AI ]]
-  -- {
-  --   "zbirenbaum/copilot.lua",
-  --   cmd = "Copilot",
-  --   event = "InsertEnter",
-  --   config = function()
-  --     require("copilot").setup({
-  --       suggestion = { enabled = false },
-  --       panel = { enabled = false },
-  --     })
-  --   end,
-  --   filetypes = {
-  --     markdown = true,
-  --     go = true,
-  --     javascript = true,
-  --     typescript = true,
-  --     lua = true,
-  --   },
-  --   workspace_folders = {
-  --     "~/code/github.com/manifest-cyber/"
-  --   },
-  -- },
-  -- {
-  --   "zbirenbaum/copilot-cmp",
-  --   dependencies = { "copilot.lua" },
-  --   config = function()
-  --     require("copilot_cmp").setup()
-  --   end
-  -- },
 
   -- [[ Languages ]]
   "google/vim-jsonnet",
