@@ -25,3 +25,15 @@ _build_tmux_alias "ts" "new-session" "-s"
 _build_tmux_alias "tkss" "kill-session" "-t"
 
 unfunction _build_tmux_alias
+
+# tmux is aliased in ~/.zshenv, so compinit won't auto-bind _tmux. Register it.
+compdef _tmux tmux
+
+# The ta/tad/tkss shortcuts take a session name; complete from running sessions.
+_tmux_sessions() {
+  local -a sessions
+  sessions=(${(f)"$(tmux list-sessions -F '#S' 2>/dev/null)"})
+  compadd -a sessions
+}
+compdef _tmux_sessions ta tad tkss
+
