@@ -1,24 +1,10 @@
-ZSH=$HOME/.oh-my-zsh
-ZSH_CUSTOM="$HOME/.zsh_custom"
-ZSH_THEME="odin"
-DEFAULT_USER="groved"
-DISABLE_AUTO_UPDATE="true"
-COMPLETION_WAITING_DOTS="true"
-plugins=(tmux vi-mode docker systemd kubectl node nvm helm gpg-agent pass git)
 setopt HIST_IGNORE_SPACE
-source $ZSH/oh-my-zsh.sh
 
-eval "$(register-python-argcomplete pipenv)"
-
-autoload -Uz compinit
-compinit -u
-#
-export KUSTOMIZE_PLUGIN_HOME=/opt/kustomize/
-
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="odin"
+if [ -d $HOME/.shellrc/zshrc.d ]; then
+  for file in $HOME/.shellrc/zshrc.d/*.zsh; do
+    source $file
+  done
+fi
 
 # If connected locally
 if [ -z "$SSH_TTY" ]; then
@@ -33,32 +19,6 @@ export GPG_TTY=$(tty)
 # gpg --card-status > /dev/null 2>&1
 
 export PATH=$PATH:$HOME/.go/bin
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# if [ -d $HOME/.shellrc/zshrc.d ]; then
-#   for file in $HOME/.shellrc/zshrc.d/*.zsh; do
-#     source $file
-#   done
-# fi
 
 export TERM=xterm-256color
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -91,4 +51,3 @@ alias jrnl=" jrnl"
 alias activate-local-gpg-agent="export SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent.ssh"
 alias activate-remote-gpg-agent="export SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent.remote.ssh"
 # compdef gpg2=gpg
-export DOCKER_CONTENT_TRUST=1
