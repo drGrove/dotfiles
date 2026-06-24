@@ -1,4 +1,5 @@
 setopt HIST_IGNORE_SPACE
+setopt autocd
 
 if [ -d $HOME/.shellrc/zshrc.d ]; then
   for file in $HOME/.shellrc/zshrc.d/*.zsh; do
