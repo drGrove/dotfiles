@@ -1,9 +1,3 @@
-[submodule ".oh-my-zsh"]
-    path = .oh-my-zsh
-    url = https://github.com/ohmyzsh/ohmyzsh.git
 [submodule ".nvm"]
 	path = .nvm
 	url = https://github.com/creationix/nvm
-[submodule ".zsh_custom/themes/odin"]
-	path = .zsh_custom/themes/odin
-	url = git@github.com:drGrove/odin
