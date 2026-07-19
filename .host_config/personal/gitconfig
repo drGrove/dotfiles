@@ -1,2 +1,4 @@
+[core]
+  editor = /usr/bin/vim
 [gpg]
 	program = qubes-gpg-client-wrapper

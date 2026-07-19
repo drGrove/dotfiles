@@ -1,6 +1,6 @@
 export EDITOR=nvim
 export TZ='America/Los_Angeles'
-export BROWSER='chromium'
+export BROWSER='firefox'
 export GOPATH=$HOME/.go
 export CHROME_BIN="$(which google-chrome)"
 

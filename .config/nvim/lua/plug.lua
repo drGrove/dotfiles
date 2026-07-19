@@ -116,6 +116,17 @@ local function get_lsp()
       text,
       yaml,
     })
+  elseif vim.env.HOSTNAME == "manifest-cyber" then
+    return flatten({
+      docker,
+      go,
+      helmls,
+      js,
+      lua,
+      terraform,
+      text,
+      yaml,
+    })
   elseif vim.env.HOSTNAME == "personal" then
     return flatten({
       docker,

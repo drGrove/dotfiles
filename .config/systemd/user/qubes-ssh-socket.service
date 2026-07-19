@@ -7,4 +7,4 @@ ExecStart=%h/.local/bin/qubes-ssh-socket
 Restart=always
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target

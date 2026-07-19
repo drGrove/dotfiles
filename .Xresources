@@ -3,6 +3,10 @@
     #define DPI 276
     #define ROFI_FONT hack 32
   #endif
+  #ifdef SRVR_personal
+    #define DPI 200
+    #define ROFI_FONT hack 20
+  #endif
   #ifdef SRVR_neuromancer
     #define DPI 164
     #define ROFI_FONT hack 20
